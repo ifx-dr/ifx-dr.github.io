@@ -424,44 +424,27 @@
       }
     </style>
     <style>
-      :root {
-        scroll-behavior: smooth;
+      .back-to-top {
+          position: fixed;
+          bottom: 2em;
+          right: 200px;
+          text-decoration: none;
+          color: #000000;
+          background-color: rgba(235, 235, 235, 0.80);
+          font-size: 12px;
+          padding: 1em;
+          display: none;
       }
 
-      body {
-          margin: 1rem;
-      }
-
-      .stt {
-        position: fixed;
-        right: 1rem;
-        bottom: 1rem;
-        width: 3rem;
-        height: 3rem;
-        border-radius: 50%;
-        background: rgb(128, 128, 255) url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
-        box-shadow: 0 0.25rem 0.5rem 0 gray;
-        opacity: 0.7;
-      }
-
-      .stt:hover {
-        opacity: 0.8;
-      }
-
-      .stt:focus {
-        opacity: 0.9;
-      }
-
-      .stt:active {
-        opacity: 1;
+      .back-to-top:hover {    
+          background-color: rgba(135, 135, 135, 0.50);
       }
     </style>
     <link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhklEQVQ4jbWPzStEURjG3yQLirlGKUnKFO45Z+SjmXvnnmthQcpCoVhYmD/AwmJiI3OvZuZc2U3UlKU0/gAslMw9JgvhHxAr2fko7r0jHSsl+TgbTz2Lt5731/MASEiJW9ONml2QyX6rsGalmnT74v8BDf12hxJfpV8d1uwNKUBYszabdFv84L8B9X0rESVmmUup2fme0cVhJWaZHw4NWL1SewEAfDe6H3Dy6Ll456WEJsRZS630MwCAOI20ei5OBpxse5zcBZw8eS4uPpfIuDiCainIg9umBCU0GZzgLZ9Hn31OgoATL+CkLDGB5H1OKj4nFd/FBxUXJ0UZNb4edw/6nLyJXaj5FeCVyPLNIVmYK8TG1IwWb16L1gEACAFV90ftoT8bdOX0EeyY99gxBXZMgRz6qGb1KantAACI0UvE6F5XJqEjpsdURouI0Vt5gGOUkUNnPu7ObGIIMfNaGqDmjDRi9FZldF1lRgYzeqUyeoiY4ag5Iy3RgOYRM8+/M2bG8efsO4hGrpmJseyMAAAAAElFTkSuQmCC" rel="icon" sizes="16x16" type="image/png">
     <link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC40lEQVRYhe2UT0hUQRzHp6Iss1B3VZKIDbbdfW9mnoi4f3zzjkJQeOgS0SEIb1EWBGGlLLu460zQPQM1unUIIjA6rfpm6ZAhHjoIRVQUFUlEbG+euTsdXG1d3VL3bVD4g+9h+L35fT/8fvN7ADgY9aHY5fpIvK82HO9ysu66wxWOzbkjcekKx0a2ALYA/n2AGi3a6ArFezcidziecQygNhhrcUficjP6PwBqtGijKxy/thnVBePHywYoDsFhl53GV8SEcsTx4usCMLUewTVpc23BNvEzm6Neyf1+KcG2vwqwUjgrOJq2JmHftwmkVBRGTvncFodnbI7vChO/FRznCmHsNM7aHM9Yk7Df5iqsLMw9sMNOK2g+jS4IEz0UJv4iuJZb2RltWnB4UZqH6ioGAgAAGe5vtiZhtzDx7OoRadLmeM7m6IRjhnLMW2Vx1bA5GhAmnhIcz6/xNj4Ujsky8UspwfayjDPjsF2Y6L7N8Vzx/BfP+KPg6LbgSqd8DnfJW2CnbaLhfH5ephpqygJYvQU4Z3P82TLRsDDhUTnmrSq+Y3N0Mg+Xldy/zwEAnLMWZ3pHpNExmfLs/t0dOdVcbT0JeKxUwFP2VljjqiE47Jp53LTXNxhsUZjerTByXWX6VZWRs/4bIQ2ACv+UAomgDzLCISNZxAxZKMhIDjLy1JfsaK+I+eGBUBNk5E2x8RogX/PdcDZUqieWTSh5D6nOVKqfhoycUmlHFFIyu5RXqf7AcQDISCpv/tqbMBqK883RtmpISRoxQyJKPgGn3wNk5NEigDFa6hslqV/Kj+FdBQD0bshIDlKSLlVcoWQo36UhR80BAMB73lulMn0EMpJTqD6qJiOt3mho/8GbkT2BZNgDB/V+RI0fkOrT3kRIVQbaDizJm2hdNbINBxwk5xAj3yEjuV9rZ1iIkgxixkLBA83mz8uCjLwoGwAx0vOnFSy5mtR4VTaAQvVORMnwZgSpzkrV/QmdE2tKe46+MQAAAABJRU5ErkJggg==" rel="icon" sizes="32x32" type="image/png">
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <script id="schema.org" type="application/ld+json">
-    [
-      {
+    [{
         "@id": "http://www.w3id.org/ecsel-dr",
         "@type": [
           "https://schema.org/DefinedTermSet"
@@ -504,8 +487,7 @@
             "@value": "Digital Reference"
           }
         ]
-      }
-    ]
+      }]
   </script>
   <script>
     function opentab(evt, tabContent, tabContainer) {
@@ -529,7 +511,8 @@
   </script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="https://projects.davidlynch.org/maphilight/jquery.maphilight.js"></script>
-  <script type="text/javascript">$(function() {
+  <script type="text/javascript">
+    $(function() {
         $('.map').maphilight();
         $('#squidheadlink').mouseover(function(e) {$('#squidhead').mouseover();}).mouseout(function(e) {$('#squidhead').mouseout();}).click(function(e) { e.preventDefault(); });
             $('#cloudlink').mouseover(function(e) {$('#cloud_map').mouseover();}).mouseout(function(e) {$('#cloud_map').mouseout();}).click(function(e) { e.preventDefault(); });
@@ -808,8 +791,7 @@
             </details>            
           </div>
         </div>
-      <a href='#' class="stt" title="scroll to top"></a>
-      <div class="tabcontainer" num='2'>
+      <div id="divtop" class="tabcontainer" num='2'>
         <div class="tab">
           <button class="tablinks active" onclick="opentab(event, 1,2)">Classes</button>
           <button class="tablinks" onclick="opentab(event, 2,2)">ObjectProperties</button>
@@ -51574,5 +51556,29 @@
         </li>
       </ul>
     </div>
+    <a href="#top_1" class="back-to-top">Back to Top</a>
+    <script type="text/javascript">//<![CDATA[
+      $(document).ready(function() {
+          var offset = 220;
+          var duration = 500;
+          jQuery(window).scroll(function() {
+              if (jQuery(this).scrollTop() > offset) {
+                  jQuery('.back-to-top').fadeIn(duration);
+              } else {
+                  jQuery('.back-to-top').fadeOut(duration);
+              }
+          });
+          
+      jQuery('.back-to-top').click(function(event) {
+          event.preventDefault();
+          var target = $('#divtop').offset().top;
+          jQuery('html, body').animate({scrollTop: target}, duration);
+          return false;
+      })
+      });
+
+
+        //]]>
+    </script>
   </body>
 </html>
