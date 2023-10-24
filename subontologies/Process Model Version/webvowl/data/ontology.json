@@ -1,0 +1,4642 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3id.org/ecsel-dr-PMV", "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl", "http://www.w3.org/ns/org", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr", "http://purl.org/dc/terms", "http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl", "http://org.semanticweb.owlapi/error", "http://www.w3id.org/ecsel-dr-SO", "http://xmlns.com/foaf/0.1", "http://purl.org/dc/dcmitype" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "168",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "49",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "190",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "194",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "188",
+    "type" : "owl:Class"
+  }, {
+    "id" : "211",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "189",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "225",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "212",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "structur function object",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Structural_Function_Object",
+      "en" : "Structural Function Object"
+    },
+    "subClasses" : [ "6", "7", "8", "9" ],
+    "comment" : {
+      "undefined" : "Function objects are used to model the decomposition of the structure of a process."
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Connector",
+    "equivalent" : [ "2" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://www.epc-standard.org/collaborate/Operator",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "connector",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Rule",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Connector",
+      "en" : "Connector"
+    },
+    "subClasses" : [ "21", "22", "23" ],
+    "comment" : {
+      "undefined" : " A connector determines the behavior of the process in case its control ?ow is split up into or joined from several execution branches."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "19",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Screen",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Transaction",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "screen",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Screen",
+      "en" : "Screen"
+    },
+    "comment" : {
+      "undefined" : "A transaction in SAP is described as a screen. Here, they represent the actions undertaken in the application SAP to perform a function in a process flow."
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Input",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.businessdictionary.com/definition/input.html",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "input",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Input",
+      "en" : "Input"
+    },
+    "subClasses" : [ "35" ],
+    "comment" : {
+      "undefined" : "Item external to a system (such as a process) that is transformed by the system (usually together with one or more other items) to become an output."
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Function_Object",
+    "equivalent" : [ "11" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "function object",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Function_Object",
+      "en" : "Function Object"
+    },
+    "subClasses" : [ "29", "4" ],
+    "comment" : {
+      "en" : "In IndustryPrint 5, function objects are used to model the decomposition of a process."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "5",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Application_System_Type",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532992",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "applic system type",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Application_System_Type",
+      "en" : "Application System Type"
+    },
+    "comment" : {
+      "undefined" : "An application system type classifies individual application systems which have exactly the same technological properties. Process steps might be supported by application systems. Object describe IT systems (library for IT systems available)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Human_Output",
+    "equivalent" : [ "49" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "human output",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Role",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Human_Output",
+      "en" : "Human Output"
+    },
+    "comment" : {
+      "undefined" : "Human being that puts effort in the processing of a process step (function). It belongs to the organizational unit that is responsible for the specific process step."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "47",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532992",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "VACD",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "valu - ad chain diagram",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Value_Added_Chain_Diagram",
+      "en" : "Value-Added Chain Diagram"
+    },
+    "comment" : {
+      "undefined" : "A Value-Added Chain is a process that represents an element of the process chain. A process hierarchy can be realized by hierarchically structuring value chains, thus modeling business areas, process groups, business processes and business process variants using the sam notation.\r\nHouse: represents enabler processes."
+    },
+    "attributes" : [ "external" ],
+    "id" : "53",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Join_Rule",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "join rule",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Join_Rule",
+      "en" : "Join Rule"
+    },
+    "comment" : {
+      "undefined" : "Rule element that unites the control flow after being split into several branches. Has several incoming paths (at least two) and one outgoing."
+    },
+    "attributes" : [ "external" ],
+    "id" : "56",
+    "superClasses" : [ "57", "58" ]
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#Information_Object",
+    "baseIri" : "http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Information_Object"
+    },
+    "subClasses" : [ "61" ],
+    "attributes" : [ "external" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Business_Process_Landscape",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "BP Landscape",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "busi process landscap",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Business_Process_Landscape",
+      "en" : "Business Process Landscape"
+    },
+    "comment" : {
+      "undefined" : "A Business Process Landscape (BP_Landscape) is a detailed overview of a specific Core- or Enabler Process."
+    },
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Process_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process_Lobe"
+    },
+    "subClasses" : [ "53", "64", "20", "34", "5", "65", "66", "24" ],
+    "attributes" : [ "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Task",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Process step",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "task",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Task",
+      "en" : "Task"
+    },
+    "comment" : {
+      "en" : "The lowest level of detail, a task are the activities required to execute a subprocess. A single task within a subprocess can be manual or system supported. E.g. Create Purchase Order"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "11", "20", "29" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error365",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error365"
+    },
+    "subClasses" : [ "73" ],
+    "attributes" : [ "external" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error366",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error366"
+    },
+    "subClasses" : [ "23" ],
+    "attributes" : [ "external" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error363",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error363"
+    },
+    "attributes" : [ "external" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error364",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error364"
+    },
+    "subClasses" : [ "21" ],
+    "attributes" : [ "external" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#AND",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://www.epc-standard.org/collaborate/AND-Split",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "and",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AND",
+      "en" : "AND"
+    },
+    "comment" : {
+      "undefined" : "The connector is responsible for splitting the control flow in at least two different branches, which are executed parallely where all branches must be followed."
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "74", "19" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Function",
+    "equivalent" : [ "5" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993",
+        "type" : "label"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://www.epc-standard.org/collaborate/Function",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "function",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Function",
+      "en" : "Function"
+    },
+    "subClasses" : [ "1", "82", "83" ],
+    "comment" : {
+      "undefined" : "The function type represents several action elements as task, process interfaces or business process activities."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "11",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Split_Rule",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "split rule",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Split_Rule",
+      "en" : "Split Rule"
+    },
+    "comment" : {
+      "undefined" : "Rule element that splits the control flow into several branches. Has one incoming path and several (at least two) outgoing paths."
+    },
+    "attributes" : [ "external" ],
+    "id" : "85",
+    "superClasses" : [ "86", "87" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Process_Type",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "process type",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Process_Type",
+      "en" : "Process Type"
+    },
+    "comment" : {
+      "undefined" : "A set of core and enabler processes of Infineon on Level 0 (highest level). This level helps helps organizing project work/ development and represents a single track in the oneSAP project. It is based on a Deloitte standard which was adapted to Infineon's needs."
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Output",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.businessdictionary.com/definition/output.html",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "output",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Output",
+      "en" : "Output"
+    },
+    "subClasses" : [ "35" ],
+    "comment" : {
+      "undefined" : "The amount of energy, work, goods, or services produced by a machine, factory, company, or an individual in a period."
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Process_Group_Map",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "process group map",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Process Group Map (L1)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Process_Group_Map",
+      "en" : "Process Group Map"
+    },
+    "comment" : {
+      "undefined" : "A set of a processes covering a single business area. Usually under the ownership of one business process owner and aligning with a function."
+    },
+    "attributes" : [ "external" ],
+    "id" : "92",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://purl.org/dc/terms/Physical_Resource",
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Physical_Resource"
+    },
+    "subClasses" : [ "35", "98", "99" ],
+    "attributes" : [ "external" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#OR",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://www.epc-standard.org/collaborate/OR-Split",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "or",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OR",
+      "en" : "OR"
+    },
+    "comment" : {
+      "undefined" : "It is responsible for splitting the control flow up in at least two different branches, due to an nonexclusive choice where one or several branches can be followed."
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "102", "19" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Process_Group",
+    "equivalent" : [ "7" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process_Group"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Technical_Term",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "technic term",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Technical_Term",
+      "en" : "Technical Term"
+    },
+    "comment" : {
+      "en" : "Set up with connection to a function or activity or VAC. It can be either input or output, where the direction of the arrow describes whether it is an input or an output. Set up of a connection is not mandatory."
+    },
+    "attributes" : [ "external" ],
+    "id" : "106",
+    "superClasses" : [ "107" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Other_Services",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "service",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Other_Services",
+      "en" : "Other Services"
+    },
+    "comment" : {
+      "undefined" : "Collection of other services used as input to a production process or which are created during a production process."
+    },
+    "attributes" : [ "external" ],
+    "id" : "110",
+    "superClasses" : [ "111" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Company_Process_Framework",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Company process framework",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Company_Process_Framework",
+      "en" : "Company Process Framework"
+    },
+    "comment" : {
+      "undefined" : "IPF is the structured overview of all IFX Core and Enabler Processes. It contains 4 Core Processes and 6 Enabler Processes."
+    },
+    "attributes" : [ "external" ],
+    "id" : "118",
+    "superClasses" : [ "119" ]
+  }, {
+    "iri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal",
+    "baseIri" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Goal"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Start_Event",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Start_Event",
+      "en" : "Start Event"
+    },
+    "comment" : {
+      "en" : "Denotes the event that stands at the beginning of a branch in the process flow and thus, triggers the execution of this branch or the total process."
+    },
+    "attributes" : [ "external" ],
+    "id" : "122",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Process",
+    "equivalent" : [ "6" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#XOR",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://www.epc-standard.org/collaborate/XOR-Split",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "xor",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Exclusive OR",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "XOR",
+      "en" : "XOR"
+    },
+    "comment" : {
+      "undefined" : "One and only one of the incoming pathways is required to proceed along the flow\r\nOne and only one of the outgoing pathways can be taken\r\nDivide should be made with yes/no question and lines labelled only with ?yes? or ?no?\r\nGateway must therefore be named with this Yes/No question"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "19", "76" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Computer_Hardware",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.businessdictionary.com/definition/hardware.html",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "comput hardwar",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Computer_Hardware",
+      "en" : "Computer Hardware"
+    },
+    "comment" : {
+      "undefined" : "Physical equipment that makes up a computer system, such as circuit boards, keyboard and mouse, monitor, printer, power supply, storage devices. Contrasts with software."
+    },
+    "attributes" : [ "external" ],
+    "id" : "98",
+    "superClasses" : [ "97" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "49", "139" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "115"
+  }, {
+    "instances" : 0,
+    "union" : [ "11", "1" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "45"
+  }, {
+    "instances" : 0,
+    "union" : [ "106", "66" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Machine_Resource",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.businessdictionary.com/definition/machine.html",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "machin resourc",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Machine_Resource",
+      "en" : "Machine Resource"
+    },
+    "comment" : {
+      "undefined" : "Semi or fully automated device that magnifies human physical and/or mental capabilities in performing one or more operations."
+    },
+    "attributes" : [ "external" ],
+    "id" : "99",
+    "superClasses" : [ "97" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "106", "66" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "42"
+  }, {
+    "instances" : 0,
+    "union" : [ "11", "1" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "43"
+  }, {
+    "instances" : 0,
+    "union" : [ "83", "24" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "103"
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "144" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "104"
+  }, {
+    "instances" : 0,
+    "union" : [ "83", "24" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "model function object",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Modelling_Function_Object",
+      "en" : "Modelling Function Object"
+    },
+    "subClasses" : [ "1", "82" ],
+    "comment" : {
+      "en" : "Function objects are used to model the decomposition of the process flow."
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "5" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "145", "29" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "16"
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "29" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "37"
+  }, {
+    "instances" : 0,
+    "union" : [ "146", "1" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "51",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Event",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://www.epc-standard.org/collaborate/Event",
+        "type" : "label"
+      }, {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "Status",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "event",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Event",
+      "en" : "Event"
+    },
+    "subClasses" : [ "122", "157" ],
+    "comment" : {
+      "en" : "The event is a passive element since it represents a change of state but does not cause it. Furthermore it can characterize the conditions and the results of an activity, which in turn triggers the next function. An event with no incoming arc is called start event, while an event with no outgoing arc is called end event."
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "156",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Model_Element",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://www.epc-standard.org/collaborate/Process_element",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "model element",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Model_Element",
+      "en" : "Model Element"
+    },
+    "subClasses" : [ "11", "17", "1", "82", "19", "2" ],
+    "comment" : {
+      "undefined" : "Represents an object in the EPC model. Includes all elements used in the modelling procedure of an EPC diagram."
+    },
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Process_Interface",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "process interfac",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Interface",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Process_Interface",
+      "en" : "Process Interface"
+    },
+    "comment" : {
+      "en" : "Process interfaces connect several process models on the same process hierarchical level by linking the EPCs according to their shared events (also known as \"horizontal navigation\"). They thus facilitate process structuring and navigation by keeping models concise and easy-to-read.\r\nFunctionality: Jump function to next process (e.g. EPC, VAC), typically at the end of process branches. In the EPC flow there is an Event directly before."
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "11", "20", "29" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "158", "29" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "159",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "162",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "subClasses" : [ "47", "49" ],
+    "attributes" : [ "external" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "154",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Business_Process",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "busi process",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "BP",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Business_Process",
+      "en" : "Business Process"
+    },
+    "comment" : {
+      "undefined" : "A Business Process (BP) consists of a series of value-creating activities that reach the performance expected by customers and fulfill goals derived from the business strategy."
+    },
+    "attributes" : [ "external" ],
+    "id" : "168",
+    "superClasses" : [ "169" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "busi process flow",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "Event-driven process chain",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Business_Process_Flow",
+      "en" : "Business Process Flow"
+    },
+    "comment" : {
+      "en" : "An EPC describes a Business Process Flow, which is a sequence of required tasks to create specified outputs using defined inputs.\r\nA Business Process Flow is a sequence of required tasks to create specified outputs using defined inputs."
+    },
+    "attributes" : [ "external" ],
+    "id" : "65",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Process_Group",
+    "equivalent" : [ "105" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "process group",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Process_Group",
+      "en" : "Process Group"
+    },
+    "comment" : {
+      "undefined" : "A set of a processes covering a single business area. Usually under the ownership of one business process owner and correlates to one module. E.g. Procurement"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "7",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Role",
+    "equivalent" : [ "47" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "role",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Role",
+      "en" : "Role"
+    },
+    "comment" : {
+      "undefined" : "Object to describe the role. Type of responsibility is defined by the linkage between function or activity and role. IFX options: carries out, contribute, must be informed."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "49",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Process_Type_Map",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Process Type Map (L0)",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "process type map",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Process_Type_Map",
+      "en" : "Process Type Map"
+    },
+    "comment" : {
+      "undefined" : "A set of process types and related process groups that define the enterprise for a particular industry/sector."
+    },
+    "attributes" : [ "external" ],
+    "id" : "190",
+    "superClasses" : [ "64" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "29" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "135"
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "29" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Output_Element",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "technic term output element",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Technical_Term_Output_Element",
+      "en" : "Technical Term Output Element"
+    },
+    "comment" : {
+      "en" : "Denotes the output element of a function in the process flow."
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "72" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "49", "75" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "194"
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "29" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "191"
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "29" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "131"
+  }, {
+    "instances" : 0,
+    "union" : [ "1", "29" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://purl.org/dc/dcmitype/Service",
+    "baseIri" : "http://purl.org/dc/dcmitype",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Service"
+    },
+    "subClasses" : [ "110" ],
+    "attributes" : [ "external" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error354",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error354"
+    },
+    "subClasses" : [ "22" ],
+    "attributes" : [ "external" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error355",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error355"
+    },
+    "attributes" : [ "external" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error352",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error352"
+    },
+    "attributes" : [ "external" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error353",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error353"
+    },
+    "attributes" : [ "external" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error358",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error358"
+    },
+    "subClasses" : [ "56" ],
+    "attributes" : [ "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error359",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error359"
+    },
+    "subClasses" : [ "62" ],
+    "attributes" : [ "external" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error356",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error356"
+    },
+    "subClasses" : [ "168" ],
+    "attributes" : [ "external" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error357",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error357"
+    },
+    "subClasses" : [ "56" ],
+    "attributes" : [ "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.w3.org/ns/org#Organizational_Unit",
+    "baseIri" : "http://www.w3.org/ns/org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organizational_Unit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error361",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error361"
+    },
+    "subClasses" : [ "118" ],
+    "attributes" : [ "external" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error362",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error362"
+    },
+    "attributes" : [ "external" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error360",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error360"
+    },
+    "subClasses" : [ "212" ],
+    "attributes" : [ "external" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error349",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error349"
+    },
+    "attributes" : [ "external" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error343",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error343"
+    },
+    "attributes" : [ "external" ],
+    "id" : "189"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error344",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error344"
+    },
+    "attributes" : [ "external" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error341",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error341"
+    },
+    "attributes" : [ "external" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error342",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error342"
+    },
+    "attributes" : [ "external" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error347",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error347"
+    },
+    "subClasses" : [ "85" ],
+    "attributes" : [ "external" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error348",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error348"
+    },
+    "subClasses" : [ "85" ],
+    "attributes" : [ "external" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error345",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error345"
+    },
+    "attributes" : [ "external" ],
+    "id" : "195"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error346",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error346"
+    },
+    "attributes" : [ "external" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Material",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.businessdictionary.com/definition/material.html",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "materi",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Material",
+      "en" : "Material"
+    },
+    "comment" : {
+      "undefined" : "The matter from which something can be made. Material can include but is not limited to raw and processed material, components, parts, assemblies, sub-assemblies, fuels, lubricants, coolants, cleaning agents, and small tools and accessories that may be consumed directly or indirectly."
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "97", "34", "66" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Model",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://www.epc-standard.org/collaborate/Process",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "model",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Model",
+      "en" : "Model"
+    },
+    "subClasses" : [ "225", "92", "27", "190" ],
+    "comment" : {
+      "undefined" : "To graphically depict functional and process decomposition, function objects are diagramed on models in IndustryPrint 5."
+    },
+    "attributes" : [ "external" ],
+    "id" : "64",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error350",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error350"
+    },
+    "attributes" : [ "external" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error351",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error351"
+    },
+    "attributes" : [ "external" ],
+    "id" : "146"
+  }, {
+    "iri" : "http://purl.org/dc/dcmitype/Software",
+    "baseIri" : "http://purl.org/dc/dcmitype",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Software"
+    },
+    "subClasses" : [ "33" ],
+    "attributes" : [ "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Process",
+    "equivalent" : [ "127" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "process",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Process",
+      "en" : "Process"
+    },
+    "comment" : {
+      "undefined" : "A collection of subprocesses that meet a specific business objective. E.g. Perform Sourcing or Purchase Materials and Services"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "6",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Process_Diagram",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Process Diagram (L2)",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "process diagram",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Process_Diagram",
+      "en" : "Process Diagram"
+    },
+    "comment" : {
+      "undefined" : "The first level of process decomposition that is comprised of subprocesses that depict a business objective."
+    },
+    "attributes" : [ "external" ],
+    "id" : "225",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error338",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error338"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error339",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error339"
+    },
+    "attributes" : [ "external" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "178",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "231",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "209",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error337",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error337"
+    },
+    "attributes" : [ "external" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "138",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "175",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "207",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Input_Element",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "technic term input element",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Technical_Term_Input_Element",
+      "en" : "Technical Term Input Element"
+    },
+    "comment" : {
+      "en" : "Denotes the input element to a function in the process flow."
+    },
+    "attributes" : [ "external" ],
+    "id" : "212",
+    "superClasses" : [ "211" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error340",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error340"
+    },
+    "attributes" : [ "external" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "busi process activ",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "BP Activity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Business_Process_Activity",
+      "en" : "Business Process Activity"
+    },
+    "comment" : {
+      "undefined" : "A Business Process (BP) Activity is a part of a Business Process containing one or more sub Business Processes or a Process Flow."
+    },
+    "attributes" : [ "external" ],
+    "id" : "83",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Environmental_Data",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "environment data",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Environmental_Data",
+      "en" : "Environmental Data"
+    },
+    "comment" : {
+      "en" : "Additional information to a process like work schedule, production plans, etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "61",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Document",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Document"
+    },
+    "subClasses" : [ "106" ],
+    "attributes" : [ "external" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Rule",
+    "equivalent" : [ "19" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Connector",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "rule",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Rule",
+      "en" : "Rule"
+    },
+    "comment" : {
+      "undefined" : "Rules allow to model alternative, exclusive alternative and parallel process flows."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "2",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Subprocess",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "subprocess",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Subprocess",
+      "en" : "Subprocess"
+    },
+    "comment" : {
+      "undefined" : "A grouping of related tasks that create an output within the larger objective of the subprocess. E.g. Create and Maintain Purchase Orders"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Subprocess_Diagram",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Subprocess Diagram (L3)",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "subprocess diagram",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Subprocess_Diagram",
+      "en" : "Subprocess Diagram"
+    },
+    "comment" : {
+      "undefined" : "The second and lowest level of process decomposition that is comprised of tasks that depict the role-based activities of the subprocess."
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#End_Event",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "End_Event",
+      "en" : "End Event"
+    },
+    "comment" : {
+      "en" : "Denotes the event element that stands at the end of a branch in the process flow and thus, ends the process flow branch or the total process."
+    },
+    "attributes" : [ "external" ],
+    "id" : "157",
+    "superClasses" : [ "17" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "155",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "160",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "172",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "174",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "192",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "193",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "200",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "202",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "206",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "208",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "210",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "218",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "220",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "228",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "230",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "242",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "243",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "244",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "255",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "257",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_activated_by_task",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "2",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "activ task",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_activated_by_task",
+      "undefined" : "is activated by task"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Represents the inverse property of activatesTask."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "12",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "control",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_controlled_by_goal",
+      "en" : "is controlled by"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "The result of a function in a process flow is controlled by a goal."
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_executed_by_function",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "11",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "exectu",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_executed_by_function",
+      "en" : "is exectued by function"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "Software is executed by a function in a process flow."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#creates_event",
+    "inverse" : "18",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "17",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "creat",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "creates_event",
+      "en" : "creates event"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "A process step creates an event. The connector is used to represent the chronological order in an EPC."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#person_responsible",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "28",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "person respons",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "person_responsible",
+      "en" : "person responsible"
+    },
+    "domain" : "27",
+    "comment" : {
+      "en" : "States whether someone is responsible for the SubprocessDiagram or not."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_activated_by",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "30",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "activ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_activated_by",
+      "undefined" : "is activated by"
+    },
+    "domain" : "29",
+    "subproperty" : [ "0", "31" ],
+    "comment" : {
+      "undefined" : "A process step is activated by an event or a rule. The connector is used to represent the chronological order in an EPC."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#supports_task",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "1",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "support",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "supports_task",
+      "en" : "supports task"
+    },
+    "domain" : "33",
+    "comment" : {
+      "undefined" : "A process step is supported by an Application system."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_assigned_to",
+    "inverse" : "38",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "37",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "assign",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_assigned_to",
+      "en" : "is assigned to"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "A rule is assigned to a process step. The connector is used to represent the chronological order in an EPC."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#leads_to_event",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "17",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "lead event",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "leads_to_event",
+      "en" : "leads to event"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "A rule leads to an event. The connector is used to represent the chronological order in an EPC."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_output_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "43",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "output",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_output_of",
+      "en" : "is output of"
+    },
+    "domain" : "42",
+    "comment" : {
+      "undefined" : "Physical or non-physical output is produced by a function in a process flow."
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#has_as_output",
+    "inverse" : "41",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "46",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "output",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_as_output",
+      "en" : "has as output"
+    },
+    "domain" : "45",
+    "comment" : {
+      "undefined" : "A process step can have technical term(s) as output."
+    },
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#requirements",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "52",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "requir",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "requirements",
+      "en" : "requirements"
+    },
+    "domain" : "51",
+    "comment" : {
+      "en" : "Description of all requirements for the certain input or output."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#completion_status",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "55",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "complet statu",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "completion_status",
+      "en" : "completion status"
+    },
+    "domain" : "51",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#controls_function",
+    "inverse" : "10",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "11",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "control",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "controls_function",
+      "en" : "controls function"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "A goal controls the outcome of a function in a process flow."
+    },
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#has_next_model",
+    "inverse" : "68",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "65",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "model",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_next_model",
+      "undefined" : "has next model"
+    },
+    "domain" : "65",
+    "comment" : {
+      "undefined" : "An EPC can have another EPC following which is dependent on the result. The connector is used to represent the chronological order in a VACD."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#links",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "2",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "link",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "links",
+      "en" : "links"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#connected_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "64",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "connect",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "connected_to",
+      "en" : "connected to"
+    },
+    "domain" : "64",
+    "comment" : {
+      "en" : "Represents the connections and dependencies between models"
+    },
+    "attributes" : [ "external", "object", "symmetric", "transitive" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#transforms",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "61",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "transform",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "transforms",
+      "en" : "transforms"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "A function in a process flow transforms environmental data like work schedules."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_workshop_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "is_workshop_of"
+    },
+    "domain" : "51",
+    "subproperty" : [ "78" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#project_scope",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "80",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "project scope",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "project_scope",
+      "en" : "project scope"
+    },
+    "domain" : "51",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#executes_software",
+    "inverse" : "13",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "14",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "execut",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "executes_software",
+      "en" : "executes software"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "A function in a process flow excutes software."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_dependent_on",
+    "inverse" : "39",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "2",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "depend",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_dependent_on",
+      "en" : "is dependent on"
+    },
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "An event is dependent on a rule. The connector is used to represent the chronological order in an EPC."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_represented_by",
+    "inverse" : "91",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "90",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "repres",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_represented_by",
+      "undefined" : "is represented by"
+    },
+    "domain" : "89",
+    "comment" : {
+      "undefined" : "Represents the inverse property of represents."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#activates",
+    "inverse" : "3",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "29",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "activ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activates",
+      "en" : "activates"
+    },
+    "domain" : "94",
+    "subproperty" : [ "95", "96" ],
+    "comment" : {
+      "undefined" : "The connector is used to represent the chronological order in an EPC, where an Event or a Rule activate a Task or Process Interface. "
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#orphan",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "101",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "orphan",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "orphan",
+      "en" : "orphan"
+    },
+    "domain" : "51",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#represents",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "104",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "repres",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "represents",
+      "en" : "represents"
+    },
+    "domain" : "103",
+    "comment" : {
+      "undefined" : "A aris:BPActivity is the graphical representation of a aris:VACD or aris:BPFlow in a aris:VACD."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#must_be_informed_about",
+    "inverse" : "109",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "1",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "inform",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "must_be_informed_about",
+      "en" : "must be informed about"
+    },
+    "domain" : "49",
+    "comment" : {
+      "undefined" : "Role(s) to be informed after/ during the process step is carried out (one-way-communication) (equivalent to I in RACI notation)"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#experience",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "113",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "experi",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "experience",
+      "en" : "experience"
+    },
+    "domain" : "49",
+    "comment" : {
+      "en" : "Describes the experience that is required."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_carried_out_by",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "115",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "carri",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_carried_out_by",
+      "en" : "is carried out by"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "A process step is carried out by role(s) or organizational unit(s) (equivalent to R in RACI notation)."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#uses",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "117",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "use",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "uses",
+      "en" : "uses"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "A function in a process flow uses external resources like machines or computer hardware during its execution."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_under_responsibility_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "121",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "respons",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_under_responsibility_of",
+      "en" : "is under responsibility of"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "The execution of a function in a process flow is under the responsibility of an organizational unit."
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#contains",
+    "inverse" : "125",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "124",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "contain",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "contains",
+      "en" : "contains"
+    },
+    "domain" : "64",
+    "comment" : {
+      "en" : "Links a Model with the elements represented by it."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_input_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "11",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "isinput",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_input_of",
+      "en" : "is input of"
+    },
+    "domain" : "34",
+    "comment" : {
+      "undefined" : "An external physical or non-physical input is used in a function in a process flow and is therefore input of it."
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#has_subordinate_VACD",
+    "inverse" : "129",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "53",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "subordin vacd",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_subordinate_VACD",
+      "undefined" : "has subordinate VACD"
+    },
+    "domain" : "53",
+    "comment" : {
+      "undefined" : "Value-added chain diagrams have value-added chain diagrams as subordinates. The connector is used to represent the hierarchical order."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#follows",
+    "inverse" : "133",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "132",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "follow",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "follows",
+      "en" : "follows"
+    },
+    "domain" : "131",
+    "comment" : {
+      "undefined" : "A process step follows a process step. The connector is used to represent the chronological order in an EPC."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#has_superior",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "53",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "superior",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_superior",
+      "undefined" : "has superior"
+    },
+    "domain" : "65",
+    "comment" : {
+      "undefined" : "EPCs have value-added chain diagrams as superior. The connector is used to represent the hierarchical order."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#leads_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "51",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "lead",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "leads_to",
+      "en" : "leads to"
+    },
+    "domain" : "51",
+    "subproperty" : [ "39", "38" ],
+    "comment" : {
+      "undefined" : "The connector is used to represent the chronological order in an EPC."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "136",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "predecessor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_predecessor_of",
+      "en" : "is predecessor of"
+    },
+    "domain" : "135",
+    "comment" : {
+      "undefined" : "The connector is used to represent the chronological order of value chain elements."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#identifier",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "138",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "identifi",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "identifier",
+      "en" : "identifier"
+    },
+    "domain" : "51",
+    "comment" : {
+      "en" : "Represents the unique identifier of the element."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_activated_by_function",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "17",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "activ function",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_activated_by_function",
+      "undefined" : "is activated by function"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "140",
+    "comment" : {
+      "undefined" : "Represents the inverse property of activatesFunction."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "64",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "diagram",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "diagramed_on_model",
+      "en" : "diagramed on model"
+    },
+    "domain" : "141",
+    "comment" : {
+      "en" : "Links a FuncitonObject or a ModelElement with the Model that it's represented in."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_created_by",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "142",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "creat",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_created_by",
+      "en" : "is created by"
+    },
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "An event is created by a process step. The connector is used to represent the chronological order in an EPC."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#has_previous_model",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "65",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "previou model",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_previous_model",
+      "en" : "has previous model"
+    },
+    "domain" : "65",
+    "comment" : {
+      "undefined" : "An EPC can have another EPC previous to itself and is dependent on its results. The connector is used to represent the chronological order in a VACD."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_input_for",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "1",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "input",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_input_for",
+      "en" : "is input for"
+    },
+    "domain" : "106",
+    "comment" : {
+      "undefined" : "A software independent business object or product/services may be input for a process step."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#activates_task",
+    "inverse" : "0",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "1",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "activ task",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activates_task",
+      "en" : "activates task"
+    },
+    "superproperty" : [ "93" ],
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "Specialization of the activates property that links the class Rule with Task in the course of the process flow."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#has_superior_VACD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "53",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "superior vacd",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_superior_VACD",
+      "undefined" : "has superior VACD"
+    },
+    "domain" : "53",
+    "comment" : {
+      "undefined" : "Value-added chain diagrams have another value-added chain diagram as superior. The connector is used to represent the hierarchical order."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#has_object",
+    "inverse" : "150",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "149",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "object",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_object",
+      "en" : "has object"
+    },
+    "domain" : "148",
+    "comment" : {
+      "undefined" : "EPCs and Value-added chain diagrams consist of objects."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_processed_by_human_output",
+    "inverse" : "152",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "47",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "process",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_processed_by_human_output",
+      "en" : "is processed by"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "The execution of a function in a process flow is processed by a person (human output)."
+    },
+    "attributes" : [ "external", "inverse functional", "object", "functional" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#owner",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "154",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "owner",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "owner",
+      "en" : "owner"
+    },
+    "domain" : "51",
+    "comment" : {
+      "en" : "Represents the owner of a business process (flow)."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#transaction_code",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "156",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "transact code",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "transaction_code",
+      "en" : "transaction code"
+    },
+    "domain" : "24",
+    "comment" : {
+      "en" : "Contains the transaction code assigned to a Screen in SAP."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "155"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_used_by_function",
+    "inverse" : "116",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "11",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "use",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_used_by_function",
+      "en" : "is used by function"
+    },
+    "domain" : "161",
+    "comment" : {
+      "undefined" : "An external resource is used by a function in a process flow."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "160"
+  }, {
+    "range" : "25",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_transformed_by",
+    "inverse" : "71",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "11",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "transform",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_transformed_by",
+      "en" : "is transformed by"
+    },
+    "domain" : "61",
+    "comment" : {
+      "undefined" : "Environmental data is transformed by a function in a process flow."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "164"
+  }, {
+    "range" : "25",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#evaluates",
+    "inverse" : "167",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "17",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "evalu",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "evaluates",
+      "en" : "evaluates"
+    },
+    "domain" : "56",
+    "comment" : {
+      "undefined" : "A rule evaluates an event. The connector is used to represent the chronological order in an EPC."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "166"
+  }, {
+    "range" : "25",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_responsible_for_fuction",
+    "inverse" : "120",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "11",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "respons",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_responsible_for_fuction",
+      "en" : "is responsible for"
+    },
+    "domain" : "121",
+    "comment" : {
+      "undefined" : "An organizational unit is responible for a function in a process flow."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "171"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#has_as_input",
+    "inverse" : "143",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "106",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "input",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_as_input",
+      "en" : "has as input"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "A process step can have technical term(s) as input."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "172"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#belongs_to_model",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "64",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "belong",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "belongs_to_model",
+      "en" : "belongs to model"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Denotes the connection between a \"Function\" and another \"Process\" as this process may deliver an output used in this function."
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "173"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#knowledge",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "175",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "knwoledg",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "knowledge",
+      "en" : "knwoledge"
+    },
+    "domain" : "49",
+    "comment" : {
+      "en" : "Describes the knowledge that is required."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "174"
+  }, {
+    "range" : "60",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#IP_code",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "178",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "ip code",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IP_code",
+      "en" : "IP code"
+    },
+    "domain" : "51",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "177"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "range" : "25",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "25",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "19",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "19",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "5",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_worked_on_by_collaboration_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "49",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "work collabor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_worked_on_by_collaboration_of",
+      "en" : "is worked on by collaboration of"
+    },
+    "superproperty" : [ "77" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "A process step is worked on by collaboration of role(s)."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "78"
+  }, {
+    "range" : "34",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "19",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "range" : "4",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#relevant_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "189",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "relev",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "relevant_to",
+      "en" : "relevant to"
+    },
+    "domain" : "188",
+    "comment" : {
+      "undefined" : "An object is relevant for EPCs and value-added chain diagrams."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#leads_to_rule",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "2",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "lead rule",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "leads_to_rule",
+      "en" : "leads to rule"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "191",
+    "comment" : {
+      "undefined" : "A process step leads to a rule. The connector is used to represent the chronological order in an EPC."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#has_sub_model",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "64",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "sub model",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_sub_model",
+      "en" : "has sub model"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Denotes to which instance of \"Process\" an instance of a \"Process Element\" belongs."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "192"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#carries_out_task",
+    "inverse" : "114",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "1",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "carri",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "carries_out_task",
+      "en" : "carries out task"
+    },
+    "domain" : "194",
+    "comment" : {
+      "undefined" : "Role(s) or Organizational unit(s) that carrries (carry) out the process step (equivalent to R in RACI notation)"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "193"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#activates_function",
+    "inverse" : "31",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "195",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "activ function",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "activates_function",
+      "en" : "activates function"
+    },
+    "superproperty" : [ "93" ],
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "Specialization of the activates property that links the class Event with Task and Process Interface in the course of the process flow."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "95"
+  }, {
+    "range" : "4",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_linked_by",
+    "inverse" : "69",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "2",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "link",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_linked_by",
+      "en" : "is linked by"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "197"
+  }, {
+    "range" : "4",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "198"
+  }, {
+    "range" : "4",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "1",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "sub flow",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_sub_flow_of",
+      "en" : "is sub flow of"
+    },
+    "domain" : "65",
+    "comment" : {
+      "undefined" : "EPCs can have other EPCs as superiors. The connector is used to represent the hierarchical order."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "200"
+  }, {
+    "range" : "20",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "20",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "20",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "range" : "20",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "range" : "20",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#processes_function",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "11",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "process",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "processes_function",
+      "undefined" : "processes"
+    },
+    "domain" : "47",
+    "comment" : {
+      "undefined" : "Some person, referred to as human output here, processes a function in a process flow. "
+    },
+    "attributes" : [ "external", "inverse functional", "object", "functional" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#mission",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "207",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "mission",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "mission",
+      "en" : "mission"
+    },
+    "domain" : "51",
+    "comment" : {
+      "en" : "Describes the mission or goal of a business process (flow)."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "206"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_evaluated_by",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "56",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "evalu",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_evaluated_by",
+      "en" : "is evaluated by"
+    },
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "An event is evaluated by a rule. The connector is used to represent the chronological order in an EPC."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#handling",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "209",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "handl",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "handling",
+      "en" : "handling"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Describes the requirements for the specific handling of objects."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "208"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#contributes_to_task",
+    "inverse" : "78",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "1",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "contribut",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "contributes_to_task",
+      "en" : "contributes to task"
+    },
+    "domain" : "49",
+    "comment" : {
+      "undefined" : "Role(s) that contribute(s) to a process step during it is carried out."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "210"
+  }, {
+    "range" : "17",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "range" : "17",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "97",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "97",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "range" : "29",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "217"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#scope",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "162",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "scope",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "scope",
+      "en" : "scope"
+    },
+    "domain" : "51",
+    "comment" : {
+      "en" : "Denotes the scope of a specific business process (flow)."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "218"
+  }, {
+    "range" : "29",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#has_subordinate",
+    "inverse" : "134",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "65",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "subordin",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_subordinate",
+      "undefined" : "has subordinate"
+    },
+    "domain" : "53",
+    "comment" : {
+      "undefined" : "Value-added chain diagrams have EPCs as subordinates. The connector is used to represent the hierarchical order."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "220"
+  }, {
+    "range" : "11",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "range" : "11",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "range" : "97",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "223"
+  }, {
+    "range" : "66",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "224"
+  }, {
+    "range" : "76",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "range" : "74",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "227"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_supported_by",
+    "inverse" : "32",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "33",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "support",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_supported_by",
+      "undefined" : "is supported by"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "A process step is supported by an application system type."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "228"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#results_forwarded_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "49",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "result forward",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "results_forwarded_to",
+      "en" : "resultIs forwarded to"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "A result of a process step is forwarded to role(s)."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "109"
+  }, {
+    "range" : "11",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#creator",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "231",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "creator",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "creator",
+      "en" : "creator"
+    },
+    "domain" : "51",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "230"
+  }, {
+    "range" : "25",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "range" : "25",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "72",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "range" : "25",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#remark_or_example",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "159",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "remark exampl",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "remark_or_example",
+      "en" : "remark or example"
+    },
+    "domain" : "33",
+    "comment" : {
+      "en" : "Denotes a remark or an example that is given specific to an element."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "236"
+  }, {
+    "range" : "107",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "range" : "64",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "range" : "14",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "64",
+    "domain" : "190",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#flow",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "20",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "flow",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "flow",
+      "en" : "flow"
+    },
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "Enables the modelling of the process flow by logically connecting the different process elements. Therefore, the domain and the range are set to a \"Process Element\"."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "241"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#has_sub_flow",
+    "inverse" : "200",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "65",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "sub flow",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_sub_flow",
+      "en" : "has sub flow"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "EPCs can have other EPCs as subordinates. The connector is used to represent the hierarchical order."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "242"
+  }, {
+    "range" : "122",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  }, {
+    "range" : "85",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "244"
+  }, {
+    "range" : "87",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "245"
+  }, {
+    "range" : "86",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "64",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "range" : "64",
+    "domain" : "225",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "range" : "58",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "range" : "169",
+    "domain" : "168",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "250"
+  }, {
+    "range" : "211",
+    "domain" : "212",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "251"
+  }, {
+    "range" : "119",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "63",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "57",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "254"
+  }, {
+    "range" : "102",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "48",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  }, {
+    "range" : "20",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "257"
+  }, {
+    "range" : "111",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "258"
+  }, {
+    "range" : "48",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "259"
+  } ]
+}

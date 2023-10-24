@@ -1,0 +1,205 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-BMS#contributes_for_CO2_savings
+<http://www.w3id.org/ecsel-dr-BMS#contributes_for_CO2_savings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-BMS#contributes_for_CO2_savings> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Battery_Management_System> .
+<http://www.w3id.org/ecsel-dr-BMS#contributes_for_CO2_savings> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#enables_CO2_savings
+<http://www.w3id.org/ecsel-dr-BMS#enables_CO2_savings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-BMS#enables_CO2_savings> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Electric_Means_Transportation> .
+<http://www.w3id.org/ecsel-dr-BMS#enables_CO2_savings> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Longer_Lifespan> .
+<http://www.w3id.org/ecsel-dr-BMS#enables_CO2_savings> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Optimized_Charging> .
+<http://www.w3id.org/ecsel-dr-BMS#enables_CO2_savings> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#has_battery
+<http://www.w3id.org/ecsel-dr-BMS#has_battery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-BMS#has_battery> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#E_Car> .
+<http://www.w3id.org/ecsel-dr-BMS#has_battery> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-BMS#Lithium_Ion_Battery> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#has_functional_block
+<http://www.w3id.org/ecsel-dr-BMS#has_functional_block> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-BMS#has_functional_block> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Battery_Management_System> .
+<http://www.w3id.org/ecsel-dr-BMS#has_functional_block> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-BMS#Functional_Block> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#has_semiconductor
+<http://www.w3id.org/ecsel-dr-BMS#has_semiconductor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-BMS#has_semiconductor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Battery_Control_Unit> .
+<http://www.w3id.org/ecsel-dr-BMS#has_semiconductor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Cell_Supervision> .
+<http://www.w3id.org/ecsel-dr-BMS#has_semiconductor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Current_Sensing> .
+<http://www.w3id.org/ecsel-dr-BMS#has_semiconductor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Isolated_Communication> .
+<http://www.w3id.org/ecsel-dr-BMS#has_semiconductor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Pack_Monitoring> .
+<http://www.w3id.org/ecsel-dr-BMS#has_semiconductor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-BMS#Semiconductor> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#is_functional_block
+<http://www.w3id.org/ecsel-dr-BMS#is_functional_block> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-BMS#is_functional_block> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Battery_Control_Unit> .
+<http://www.w3id.org/ecsel-dr-BMS#is_functional_block> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Cell_Supervision> .
+<http://www.w3id.org/ecsel-dr-BMS#is_functional_block> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Current_Sensing> .
+<http://www.w3id.org/ecsel-dr-BMS#is_functional_block> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Isolated_Communication> .
+<http://www.w3id.org/ecsel-dr-BMS#is_functional_block> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Pack_Monitoring> .
+<http://www.w3id.org/ecsel-dr-BMS#is_functional_block> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-BMS#Functional_Block> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#is_part_of_battery
+<http://www.w3id.org/ecsel-dr-BMS#is_part_of_battery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-BMS#is_part_of_battery> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Battery_Management_System> .
+<http://www.w3id.org/ecsel-dr-BMS#is_part_of_battery> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Cells> .
+<http://www.w3id.org/ecsel-dr-BMS#is_part_of_battery> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Pack> .
+<http://www.w3id.org/ecsel-dr-BMS#is_part_of_battery> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-BMS#Lithium_Ion_Battery> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#is_produced_by_semiconductor_company
+<http://www.w3id.org/ecsel-dr-BMS#is_produced_by_semiconductor_company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-BMS#is_produced_by_semiconductor_company> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#Semiconductor> .
+<http://www.w3id.org/ecsel-dr-BMS#is_produced_by_semiconductor_company> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-BMS#Semiconductor_Company> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#is_vehicle
+<http://www.w3id.org/ecsel-dr-BMS#is_vehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-BMS#is_vehicle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#E_Car> .
+<http://www.w3id.org/ecsel-dr-BMS#is_vehicle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-BMS#Vehicle> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-BMS#model
+<http://www.w3id.org/ecsel-dr-BMS#model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-BMS#model> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-BMS#E_Car> .
+<http://www.w3id.org/ecsel-dr-BMS#model> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr#Application
+<http://www.w3id.org/ecsel-dr#Application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings
+<http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Application> .
+<http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings> <http://www.w3.org/2000/01/rdf-schema#comment> "CO2 Savings refers to several solutions that might reduce carbon emissions throughout the course of a Lithiu-Ion battery's lifespan." .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Battery_Control_Unit
+<http://www.w3id.org/ecsel-dr-BMS#Battery_Control_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Battery_Control_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Functional_Block> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Battery_Management_System
+<http://www.w3id.org/ecsel-dr-BMS#Battery_Management_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Battery_Management_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Application> .
+<http://www.w3id.org/ecsel-dr-BMS#Battery_Management_System> <http://www.w3.org/2000/01/rdf-schema#comment> "A battery management system is, according to Infineon´s definition, a set of \"electronic control circuits that monitor and regulate the charging and discharge of batteries.\" It supervises parameters such as the temperature, voltages, capacity, state of charge, power consumption, charging cycles." .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Cell_Supervision
+<http://www.w3id.org/ecsel-dr-BMS#Cell_Supervision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Cell_Supervision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Functional_Block> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Cells
+<http://www.w3id.org/ecsel-dr-BMS#Cells> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Cells> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Application> .
+<http://www.w3id.org/ecsel-dr-BMS#Cells> <http://www.w3.org/2000/01/rdf-schema#comment> "Cells are fundamental electrochemical unit, or assembly of electrodes, separators, electrolyte, container, and terminals, that serves as a source of electrical energy by directly converting chemical energy. In this case, the cells are all of the type Li-Ion." .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Current_Sensing
+<http://www.w3id.org/ecsel-dr-BMS#Current_Sensing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Current_Sensing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Functional_Block> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Current_Sensor
+<http://www.w3id.org/ecsel-dr-BMS#Current_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Current_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Semiconductor> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#E_Car
+<http://www.w3id.org/ecsel-dr-BMS#E_Car> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#E_Car> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-CO2Savings#Electric_Car> .
+<http://www.w3id.org/ecsel-dr-CO2Savings#Electric_Car> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#E_Car> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Vehicle> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Electric_Means_Transportation
+<http://www.w3id.org/ecsel-dr-BMS#Electric_Means_Transportation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Electric_Means_Transportation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Functional_Block
+<http://www.w3id.org/ecsel-dr-BMS#Functional_Block> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Functional_Block> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Application> .
+<http://www.w3id.org/ecsel-dr-BMS#Functional_Block> <http://www.w3.org/2000/01/rdf-schema#comment> "A Functional Block is a component of the battery management system." .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Isolated_Communication
+<http://www.w3id.org/ecsel-dr-BMS#Isolated_Communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Isolated_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Functional_Block> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Lithium_Ion_Battery
+<http://www.w3id.org/ecsel-dr-BMS#Lithium_Ion_Battery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Lithium_Ion_Battery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Application> .
+<http://www.w3id.org/ecsel-dr-BMS#Lithium_Ion_Battery> <http://www.w3.org/2000/01/rdf-schema#comment> "The Lithium-Ion Battery represents the set of cells together, which is the battery pack, plus the battery management system."@en .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Longer_Lifespan
+<http://www.w3id.org/ecsel-dr-BMS#Longer_Lifespan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Longer_Lifespan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings> .
+<http://www.w3id.org/ecsel-dr-BMS#Longer_Lifespan> <http://www.w3.org/2000/01/rdf-schema#comment> "Longer life cycle refers to the number of extra cycles of the battery due good handling throught its lifecycle. It is a way of CO2 savings."@en .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Microcontroller
+<http://www.w3id.org/ecsel-dr-BMS#Microcontroller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Microcontroller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Semiconductor> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Multichannel_Controler_Integrated_Circuit
+<http://www.w3id.org/ecsel-dr-BMS#Multichannel_Controler_Integrated_Circuit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Multichannel_Controler_Integrated_Circuit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Semiconductor> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Optimized_Charging
+<http://www.w3id.org/ecsel-dr-BMS#Optimized_Charging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Optimized_Charging> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings> .
+<http://www.w3id.org/ecsel-dr-BMS#Optimized_Charging> <http://www.w3.org/2000/01/rdf-schema#comment> "Second life means that the Lithium-Ion battery has ceased its main activity, in this case powering an electric car, however, it is still able to be used for other purposes."@en .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Pack
+<http://www.w3id.org/ecsel-dr-BMS#Pack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Pack> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Application> .
+<http://www.w3id.org/ecsel-dr-BMS#Pack> <http://www.w3.org/2000/01/rdf-schema#comment> "A battery pack is a set of Lithium-Ion cells."@en .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Pack_Monitoring
+<http://www.w3id.org/ecsel-dr-BMS#Pack_Monitoring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Pack_Monitoring> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Functional_Block> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Power_Management_Integrated_Circuit
+<http://www.w3id.org/ecsel-dr-BMS#Power_Management_Integrated_Circuit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Power_Management_Integrated_Circuit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Semiconductor> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Pressure_Sensor
+<http://www.w3id.org/ecsel-dr-BMS#Pressure_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Pressure_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Semiconductor> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Semiconductor
+<http://www.w3id.org/ecsel-dr-BMS#Semiconductor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Semiconductor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Application> .
+<http://www.w3id.org/ecsel-dr-BMS#Semiconductor> <http://www.w3.org/2000/01/rdf-schema#comment> "Semiconductor is an eletronic device which electrical conductivity value is between an insulator and a conductor. In this case, constitutes the battery management system."@en .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Semiconductor_Company
+<http://www.w3id.org/ecsel-dr-BMS#Semiconductor_Company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Semiconductor_Company> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Application> .
+<http://www.w3id.org/ecsel-dr-BMS#Semiconductor_Company> <http://www.w3.org/2000/01/rdf-schema#comment> "Company responsible for the manufacturing of semiconductors." .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#UART_Transceiver_Integrated_Circuit
+<http://www.w3id.org/ecsel-dr-BMS#UART_Transceiver_Integrated_Circuit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#UART_Transceiver_Integrated_Circuit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Semiconductor> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Vehicle
+<http://www.w3id.org/ecsel-dr-BMS#Vehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-BMS#Vehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Application> .
+<http://www.w3id.org/ecsel-dr-BMS#Vehicle> <http://www.w3.org/2000/01/rdf-schema#comment> "A vehicle is a machine with wheels and an engine, used for transporting people or goods."@en .
+# 
+# http://www.w3id.org/ecsel-dr-CO2Savings#Electric_Car
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

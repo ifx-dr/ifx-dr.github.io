@@ -1,0 +1,1206 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "de", "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr", "http://www.w3id.org/ecsel-dr-RAMI40", "http://www.w3.org/2001/XMLSchema", "http://org.semanticweb.owlapi/error", "http://www.w3id.org/ecsel-dr-SCP" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "62",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "37",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "47",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "64",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "49",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "34",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "32",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Sensor_Measurement",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sensor_Measurement",
+      "en" : "Sensor Measurement"
+    },
+    "comment" : {
+      "en" : "Measurement performed by a sensor"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#I_4.0_Component",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "annotations" : {
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "en",
+        "value" : "Industrie 4.0 – Begriffe/Terms, VDI Statusreport Industrie 4.0 (April 2017)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "I_4.0_Component",
+      "en" : "I 4.0 Component"
+    },
+    "comment" : {
+      "en" : "Globally uniquely identifiable participant with communication capability consisting of administration shell and asset within an I4.0 system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Standard",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "annotations" : {
+      "preLabel" : [ {
+        "identifier" : "preLabel",
+        "language" : "en",
+        "value" : "Standard",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/i40/sto/#Standard",
+        "type" : "iri"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Standards that are used to describe the actual I4.0 Asset. Defined in the STO ontology",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Standard",
+      "en" : "Standard"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Submodel",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Submodel",
+      "en" : "Submodel"
+    },
+    "subClasses" : [ "1", "3", "21", "22", "23" ],
+    "comment" : {
+      "en" : "Describe the different types of data related to the I4.0 asset"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Stocks",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stocks"
+    },
+    "subClasses" : [ "4" ],
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Semantic_Expression",
+    "equivalent" : [ "34" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semantic_Expression",
+      "en" : "Semantic Expression"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "33",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#System_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "System_Lobe"
+    },
+    "subClasses" : [ "9", "11", "35", "36", "19", "2", "14", "30", "37", "33", "7", "6" ],
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#RAMI_Life_Cycle_Dimension",
+    "equivalent" : [ "45" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "annotations" : {
+      "preLabel" : [ {
+        "identifier" : "preLabel",
+        "language" : "undefined",
+        "value" : "RAMI Life Cycle Dimension",
+        "type" : "label"
+      }, {
+        "identifier" : "preLabel",
+        "language" : "undefined",
+        "value" : "RAMI Layer",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "It describes the different Life Cycle and Value Stream layers for the RAMI model according to the IEC 62890 Standard.",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.zvei.org/en/subjects/Industry-40/Pages/The-Reference-Architectural-Model-RAMI-40-and-the-Industrie-40-Component.aspx",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RAMI_Life_Cycle_Dimension",
+      "en" : "RAMI Life Cycle Dimension"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "27",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Used_Date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Used_Date",
+      "en" : "Used Date"
+    },
+    "comment" : {
+      "en" : "Date uded by particular standard"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Machine",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "annotations" : {
+      "preLabel" : [ {
+        "identifier" : "preLabel",
+        "language" : "en",
+        "value" : "Machine",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A machine is ordered, designed, commissioned, operated, serviced, converted and recycled.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Machine",
+      "en" : "Machine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "42",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Admin_Shell",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Admin_Shell",
+      "en" : "Admin Shell"
+    },
+    "comment" : {
+      "en" : "Andmin Shell represents and describes an asset elecrtonically in a standardized manner"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Asset",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Asset",
+      "en" : "Asset"
+    },
+    "subClasses" : [ "42" ],
+    "comment" : {
+      "en" : "Every I4.0-component has to represent an entity. The entity can be physical or digital asset. The definition makes it possible to classify assets without integrated and accessible computers as I4.0-component, if the digital representation of the asset is accessible on a separate computer."
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#MES_Connection",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MES_Connection",
+      "en" : "MES Connection"
+    },
+    "comment" : {
+      "en" : "Connects the station to a higher-level MES system via a small number of properties. Specifies whether the station is producing, ready for production, has a fault or is undergoing maintenance, for example."
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Standard_Version",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Standard_Version",
+      "en" : "Standard Version"
+    },
+    "comment" : {
+      "en" : "Most commonly used version"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Transport_Interface",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transport_Interface",
+      "en" : "Transport Interface"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Measure",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Measure",
+      "en" : "Measure"
+    },
+    "comment" : {
+      "en" : "To discover the exact size or amount of something"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#RAMI_Hierarchy_Level_Dimension",
+    "equivalent" : [ "61" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "It describes the functional classification of various circumstances within Industrie 4.0. For classification within a factory, this axis of the reference architecture(layers) follows the IEC 62264 Standard.",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.zvei.org/en/subjects/Industry-40/Pages/The-Reference-Architectural-Model-RAMI-40-and-the-Industrie-40-Component.aspx",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RAMI_Hierarchy_Level_Dimension",
+      "en" : "RAMI Hierarchy Level Dimension"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "25",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Dimension",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dimension",
+      "en" : "Dimension"
+    },
+    "subClasses" : [ "27", "25", "32" ],
+    "comment" : {
+      "undefined" : "Abstract class to describe the three different dimensions of RAMI4.0"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error376",
+    "equivalent" : [ "27" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error376"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "62",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#View",
+    "equivalent" : [ "63" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "de",
+        "value" : "https://www.plattform-i40.de/I40/Redaktion/DE/Downloads/Publikation/hm-2018-trilaterale-coop.html",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "View",
+      "en" : "View"
+    },
+    "comment" : {
+      "en" : "Different views associated to the Administration Shell via the Submodels"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "37",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "47",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error374",
+    "equivalent" : [ "32" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error374"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "49",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error375",
+    "equivalent" : [ "33" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error375"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Standard_Organization",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "IEC (International Electrotechnical Commission)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Standard_Organization",
+      "en" : "Standard Organization"
+    },
+    "comment" : {
+      "en" : "Standards organisations that prepares and publishes International Standards for all electrical, electronic and related technologies"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Energy_Efficiency",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Energy_Efficiency",
+      "en" : "Energy Efficiency"
+    },
+    "comment" : {
+      "en" : "Specifies some details regarding energy efficiency. These can also be supplied by sensors."
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#RAMI_IT_Layer_Dimension",
+    "equivalent" : [ "64" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RAMI_IT_Layer_Dimension",
+      "en" : "RAMI IT Layer Dimension"
+    },
+    "comment" : {
+      "en" : "The six layers on the vertical axis describe the decomposition of a machine into its properties, structured layer by layer, i.e., the virtual mapping of a machine. Such representations originate from information and communication technology, where properties of complex systems are commonly broken down into layers."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "32",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sensor",
+      "en" : "Sensor"
+    },
+    "comment" : {
+      "en" : "Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms."
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Date",
+      "en" : "Date"
+    },
+    "subClasses" : [ "29" ],
+    "comment" : {
+      "en" : "A numbered day in a month, often given with a combination of the name of the day, the month, and the year"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error372",
+    "equivalent" : [ "25" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error372"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Version",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Version",
+      "en" : "Version"
+    },
+    "subClasses" : [ "18" ],
+    "comment" : {
+      "en" : "A particular form of something that is slightly different from other forms of the same thing"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error373",
+    "equivalent" : [ "37" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error373"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Structure",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Structure",
+      "en" : "Structure"
+    },
+    "comment" : {
+      "en" : "The way in which the parts of a system or object are arranged or organized, or a system arranged in this way"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "4" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#energy_efficiency_value",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "energy_efficiency_value",
+      "en" : "energy efficiency value"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Points to the value of the Energy Efficiency comsuption."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#has_data",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "4",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Connects the AdminShell with the different types of Data for the Object/Entity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_data",
+      "en" : "has data"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "Connects the AdminShell with the different types of Data for the Object/Entity"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#description",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "12",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Description of the Object/Entity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "description",
+      "en" : "description"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Description of the Object/Entity"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#is_connected_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "is_connected_to",
+      "en" : "is connected to"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "Connects the Admin Shell with the different RAMI4.0 Dimensions"
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#has_submodel",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "has_submodel",
+      "en" : "has submodel"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#in_accordance_with",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "in_accordance_with",
+      "en" : "in accordance with"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "The Submodel is in accordance with a given standard specified in the STO ontology"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "16"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "14",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "14",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "30",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "14",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "8",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "8",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#contains_admin_shell",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "contains_admin_shell",
+      "en" : "contains admin shell"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Points the I4.0 Component to the Administration Shell"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "40"
+  }, {
+    "range" : "11",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "8",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#has_version",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "has_version",
+      "en" : "has version"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "The current version of Standard."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#has_data_type",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "has_data_type",
+      "en" : "has data type"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Points to the datatypes of the Submodels"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#has_RAMI_life_cycle_layer",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "27",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Connects the concepts with the correspondent layer in the RAMI Hierarchy Levels",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_RAMI_life_cycle_layer",
+      "en" : "has RAMI life cycle layer"
+    },
+    "domain" : "49",
+    "comment" : {
+      "en" : "Connects the concepts with the correspondent layer in the RAMI Hierarchy Levels"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "48"
+  }, {
+    "range" : "8",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "8",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "8",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "8",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "8",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "8",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "8",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#is_described_with",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "is_described_with",
+      "en" : "is described with"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "57"
+  }, {
+    "range" : "20",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "8",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "8",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "range" : "4",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "4",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "4",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "4",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#is_used_by_standard_organization",
+    "inverse" : "71",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "is_used_by_standard_organization",
+      "en" : "is used by standard organization"
+    },
+    "domain" : "9",
+    "attributes" : [ "external", "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#has_reference",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "has_reference",
+      "en" : "has reference"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#has_RAMI_hierarchy_level",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "25",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Connects the concepts with the correspondent layer in the RAMI Hierarchy Levels",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_RAMI_hierarchy_level",
+      "en" : "has RAMI hierarchy level"
+    },
+    "domain" : "62",
+    "comment" : {
+      "en" : "Connects the concepts with the correspondent layer in the RAMI Hierarchy Levels"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#has_semantic_expression",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "has_semantic_expression",
+      "en" : "has semantic expression"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#has_used_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "has_used_date",
+      "en" : "has used date"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "The date that standard has been used"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#uses_standard",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "uses_standard",
+      "en" : "uses standard"
+    },
+    "domain" : "36",
+    "comment" : {
+      "en" : "Points to the standards describing the functions attached to the asset via the administration shell"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#describes_asset",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "describes_asset",
+      "en" : "describes asset"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "Connect the Asset with the Administration Shell"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#is_part_of_asset",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "11",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_part_of_asset",
+      "en" : "is part of asset"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "A relation between any entities, in this case, the Asset can be part of other Asset(s)."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "date",
+      "en" : "date"
+    },
+    "domain" : "30",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "79"
+  } ]
+}

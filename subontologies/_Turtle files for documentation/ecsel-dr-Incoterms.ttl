@@ -1,0 +1,177 @@
+@prefix : <http://www.w3id.org/ecsel-dr-Incoterms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:CFR_Cost_And_Freight a owl:NamedIndividual,
+        :C_Main_Carriage_Paid,
+        :Incoterms_Clause,
+        :Only_Ship_Transport_Clause .
+
+:CIF_Cost_Insurance_And_Freight a owl:NamedIndividual,
+        :C_Main_Carriage_Paid,
+        :Incoterms_Clause,
+        :Only_Ship_Transport_Clause .
+
+:CIP_Carriage_And_Insurance_Paid_To a owl:NamedIndividual,
+        :C_Main_Carriage_Paid,
+        :Incoterms_Clause,
+        :Universal_Transport_Clause .
+
+:CPT_Carriage_Paid_To a owl:NamedIndividual,
+        :C_Main_Carriage_Paid,
+        :Incoterms_Clause,
+        :Universal_Transport_Clause .
+
+:DAP_Delivered_At_Place a owl:NamedIndividual,
+        :D_Arrival,
+        :Incoterms_Clause,
+        :Universal_Transport_Clause .
+
+:DDP_Delivered_Duty_Paid a owl:NamedIndividual,
+        :D_Arrival,
+        :Incoterms_Clause,
+        :Universal_Transport_Clause .
+
+:DPU_Delivered_At_Place_Unloaded a owl:NamedIndividual,
+        :D_Arrival,
+        :Incoterms_Clause,
+        :Universal_Transport_Clause .
+
+:EXW_Ex_Works a owl:NamedIndividual,
+        :E_Departure,
+        :Incoterms_Clause,
+        :Universal_Transport_Clause .
+
+:FAS_Free_Alongside_Ship a owl:NamedIndividual,
+        :F_Main_Carriage_Unpaid,
+        :Incoterms_Clause,
+        :Only_Ship_Transport_Clause .
+
+:FCA_Free_Carrier a owl:NamedIndividual,
+        :F_Main_Carriage_Unpaid,
+        :Incoterms_Clause,
+        :Universal_Transport_Clause .
+
+:FOB_Free_On_Board a owl:NamedIndividual,
+        :F_Main_Carriage_Unpaid,
+        :Incoterms_Clause,
+        :Only_Ship_Transport_Clause .
+
+:is_applied_to a owl:ObjectProperty ;
+    rdfs:domain :Exchange_Rate_Specification ;
+    rdfs:range :Transfer_Action .
+
+:makes a owl:ObjectProperty ;
+    rdfs:domain :Seller ;
+    rdfs:range :Offer .
+
+:provides a owl:ObjectProperty ;
+    rdfs:domain :Seller ;
+    rdfs:range :Product .
+
+:purchases a owl:ObjectProperty ;
+    rdfs:domain :Customer ;
+    rdfs:range :Product .
+
+:receives a owl:ObjectProperty ;
+    rdfs:domain :Customer ;
+    rdfs:range :Offer .
+
+:refers_to a owl:ObjectProperty ;
+    rdfs:domain :Transfer_Action ;
+    rdfs:range :Product .
+
+:uses a owl:ObjectProperty ;
+    rdfs:domain :Transfer_Action ;
+    rdfs:range :Incoterms_2020 .
+
+:uses_from_location a owl:ObjectProperty ;
+    rdfs:domain :Seller ;
+    rdfs:range :From_Location .
+
+:uses_to_location a owl:ObjectProperty ;
+    rdfs:domain :Customer ;
+    rdfs:range :To_Location .
+
+:E_Departure a owl:Class ;
+    rdfs:comment "An Incoterms rule of the group E." ;
+    rdfs:subClassOf :Incoterms_Group .
+
+:Exchange_Rate_Specification a owl:Class ;
+    rdfs:label "Exchange Rate Specification"@en ;
+    rdfs:comment "Exchange_Rate_Specification is structured value representing exchange rate." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:From_Location a owl:Class ;
+    rdfs:comment "A sub property of location. The original location of the object or the agent before the action." ;
+    rdfs:subClassOf :Location .
+
+:To_Location a owl:Class ;
+    rdfs:comment "A sub property of location. The final location of the object or the agent after the action." ;
+    rdfs:subClassOf :Location .
+
+:Incoterms_Application_Mode a owl:Class ;
+    rdfs:comment "Incoterms_Application_Mode is about the method of delivery the incoterm uses. An incoterm could use only ship or non-ship transport." ;
+    rdfs:subClassOf :Incoterms_2020 .
+
+:Location a owl:Class ;
+    rdfs:comment "Location is where an action takes place." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Offer a owl:Class ;
+    rdfs:comment "An offer is to transfer some rights to an item or to provide a service." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Customer a owl:Class ;
+    rdfs:comment "Customer is a person or organization that places order or pay the invoice." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-OM#Customer>,
+        <http://www.w3id.org/ecsel-dr-SCP#Customer> .
+
+:D_Arrival a owl:Class ;
+    rdfs:comment "An Incoterms rule of the group D." ;
+    rdfs:subClassOf :Incoterms_Group .
+
+:F_Main_Carriage_Unpaid a owl:Class ;
+    rdfs:comment "An Incoterms rule of the group F." ;
+    rdfs:subClassOf :Incoterms_Group .
+
+:Product a owl:Class ;
+    rdfs:comment "Product is the object, upon which the tranfer action is carried out." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Seller a owl:Class ;
+    rdfs:comment "Seller is an entity which offers the services/goods." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Transfer_Action a owl:Class ;
+    rdfs:comment "The act of transferring/moving objects from one place to another." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:C_Main_Carriage_Paid a owl:Class ;
+    rdfs:comment "An Incoterms rule of the group C." ;
+    rdfs:subClassOf :Incoterms_Group .
+
+:Incoterms_2020 a owl:Class ;
+    rdfs:comment """The Incoterms or International Commercial Terms are a series of pre-defined commercial terms published by the International Chamber of Commerce (ICC) relating to international commercial law. They are widely used in international commercial transactions or procurement processes and their use is encouraged by trade councils, courts and international lawyers.\r
+\r
+Incoterms 2020 is the ninth set of international contract terms published by the International Chamber of Commerce, with the first set having been published in 1936. Incoterms 2020 defines 11 rules, the same number as defined by Incoterms 2010.""" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr-AT#Standard> .
+
+:Incoterms_Group a owl:Class ;
+    rdfs:comment "An Incoterms_Group is one of the four categories that describes incoterms rules." ;
+    rdfs:subClassOf :Incoterms_2020 .
+
+:Only_Ship_Transport_Clause a owl:Class ;
+    rdfs:comment "Incoterms that solely involve transportation by water." ;
+    rdfs:subClassOf :Incoterms_Application_Mode ;
+    owl:disjointWith :Universal_Transport_Clause .
+
+:Universal_Transport_Clause a owl:Class ;
+    rdfs:comment "Incoterms that may be used regardless of the method of transport." ;
+    rdfs:subClassOf :Incoterms_Application_Mode .
+
+:Incoterms_Clause a owl:Class ;
+    rdfs:comment "An Incoterms_Clause is a term of the 11 pre-defined incoterms." ;
+    rdfs:subClassOf :Incoterms_2020 .
+

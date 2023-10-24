@@ -1,0 +1,4523 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3id.org/ecsel-dr-PMV", "http://www.w3.org/ns/org", "http://www.w3id.org/ecsel-dr-PROD", "http://www.w3.org/2001/XMLSchema", "http://www.w3id.org/ecsel-dr-ORG", "http://www.w3id.org/ecsel-dr-PWR", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr-BMS", "http://www.w3id.org/ecsel-dr", "http://www.w3id.org/ecsel-dr-OOSMP", "http://www.w3id.org/ecsel-dr-RAMI40", "http://www.w3id.org/ecsel-dr-SO", "http://org.semanticweb.owlapi/error" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "58",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "93",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "99",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "109",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "49",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "73",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "34",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "137",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "88",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "177",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "182",
+    "type" : "owl:Class"
+  }, {
+    "id" : "183",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "41",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "186",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "178",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "4",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "237",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "240",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "247",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "249",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "90",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "231",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "176",
+    "type" : "owl:Class"
+  }, {
+    "id" : "288",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "127",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "140",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "211",
+    "type" : "owl:Class"
+  }, {
+    "id" : "232",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "164",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "294",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "162",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "110",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "31",
+    "type" : "owl:equivalentClass"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Sub_Application",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Sub Application",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Sub_Application",
+      "en" : "Sub Application"
+    },
+    "comment" : {
+      "en" : "An application area on lowest level (corresponing to application level 3) which can be assigned to super application levels (main application)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Main_Power_Device_Type",
+    "equivalent" : [ "19" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Main Power Device Type",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Main_Power_Device_Type",
+      "en" : "Main Power Device Type"
+    },
+    "comment" : {
+      "en" : "Each motor control and drive solution has a main power device type. Main power device type can be an \"IGBT\", \"MOSFET\" or \"Relay\"."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "17",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Without_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Motor Control And Drive Solution Without Sensor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Motor_Control_And_Drive_Solution_Without_Sensor",
+      "en" : "Motor Control And Drive Solution Without Sensor"
+    },
+    "comment" : {
+      "en" : "Motor control and drive solution without a sensor"
+    },
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Business_Line",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Business Line",
+        "type" : "label"
+      } ],
+      "abbreviation" : [ {
+        "identifier" : "abbreviation",
+        "language" : "en",
+        "value" : "BL",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Business_Line"
+    },
+    "comment" : {
+      "en" : "A business line is an organizational unit that can be assigned to a division and can have one or more product lines."
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Physical_Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Physical Product",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Physical_Product",
+      "en" : "Physical Product"
+    },
+    "subClasses" : [ "10" ],
+    "comment" : {
+      "en" : "A physical product is something that is produced with effort (e.g. by mechanical or industrial processes) and sold to a customer. A physical product is tangible."
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Motor Control And Drive Solution",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Motor_Control_And_Drive_Solution",
+      "en" : "Motor Control And Drive Solution"
+    },
+    "subClasses" : [ "35", "36", "20", "37", "38" ],
+    "comment" : {
+      "en" : "A motor control and drive solution is a semiconductor solution which function is to drive and control a motor."
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Sensing_Type",
+    "equivalent" : [ "41" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Sensing Type",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Sensing_Type",
+      "en" : "Sensing Type"
+    },
+    "comment" : {
+      "en" : "The sensing type of a semiconductor solution determines whether a semiconductor solution contains a sensor (\"WithSensor\") or not (\"WithoutSensor)."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "39",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Intelligent_Power_Module",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Intelligent Power Module",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Intelligent_Power_Module",
+      "en" : "Intelligent Power Module"
+    },
+    "comment" : {
+      "en" : "A semiconductor product which is used as intelligent power module"
+    },
+    "attributes" : [ "external" ],
+    "id" : "47",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Qualification",
+    "equivalent" : [ "52" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Qualification",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Qualification",
+      "en" : "Qualification"
+    },
+    "comment" : {
+      "en" : "If a product/solution has a certain qualification, the product/solution fulfills the standards of this certain industry."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "13",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#OPN_Status",
+    "equivalent" : [ "60" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "OPN Status",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OPN_Status",
+      "en" : "OPN Status"
+    },
+    "comment" : {
+      "en" : "This status determines the OPN status of a product. The OPN status of a product can either be \"active\", \"active and preferred\", \"discontinued\" and \"not for new design\"."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "58",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Hall_Switch",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Hall Switch",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Hall_Switch",
+      "en" : "Hall Switch"
+    },
+    "comment" : {
+      "en" : "The sensor provides an easy-to-use and cost effective solution for position sensing applications, requiring high temperature stability of the magnetic threshold. Today the market demands smaller and more energy efficient Hall switches. To satisfy the needs of more compact designs and environmental legislation  with a high quality product is very difficult. Infineon offers attractive pricing, reliable supply, benchmark quality and excellent design-in support to contribute to the customers success."
+    },
+    "attributes" : [ "external" ],
+    "id" : "61",
+    "superClasses" : [ "62" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Main_Application",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Sensor Main Application",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Sensor_Main_Application",
+      "en" : "Sensor Main Application"
+    },
+    "comment" : {
+      "en" : "An application area on medium level (corresponing to application level 2) for sensors which can have several sub application levels (sensor sub application)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "71",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Pressure_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Pressure Sensor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Pressure_Sensor",
+      "en" : "Pressure Sensor"
+    },
+    "subClasses" : [ "77", "78" ],
+    "comment" : {
+      "en" : "A pressure sensor is a sensor which measures pressure."
+    },
+    "attributes" : [ "external" ],
+    "id" : "76",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Linear_Hall_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Linear Hall Sensor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Linear_Hall_Sensor",
+      "en" : "Linear Hall Sensor"
+    },
+    "comment" : {
+      "en" : "Measure the vertical component of a magnetic field and outputs a signal that is directly proportional to the magnetic field. These programmable linear Hall sensors come with different interface options. Our family of TLE499x linear Hall ICs is tailored to the needs of highly accurate angular and linear position detection and current measurement applications.\r\nEach product measures the vertical component of a magnetic field and outputs a signal that is directly proportional to the magnetic field. These programmable linear Hall sensors come with different interface options."
+    },
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "62" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Integration_Level",
+    "equivalent" : [ "88" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Integration Level",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Integration_Level",
+      "en" : "Integration Level"
+    },
+    "comment" : {
+      "en" : "Each motor control and drive solution has an integration level which states if the different stage are built in an integrated or discrete way. The stages of a motor control and drive solution are \"Controller\", \"Driver\", \"Power Stage\". Following this, the different integration levels are \"discrete\" (not integrated), \"fully integrated\", \"integrated controller driver\", \"integrated driver power stage\", \"integrated power stage\"."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "87",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Electric_Power_Max_200",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Motor Control And Drive Solution With Electric Power Max 200.0",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Motor_Control_And_Drive_Solution_Electric_Power_Max_200",
+      "en" : "Motor Control And Drive Solution With Electric Power Max 200.0"
+    },
+    "comment" : {
+      "en" : "Motor control and drive solution with maximum electric power equal to 200.0."
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Product_Line",
+    "equivalent" : [ "73" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Line"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Main_Application",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Main Application",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Main_Application",
+      "en" : "Main Application"
+    },
+    "comment" : {
+      "en" : "An application area on medium level (corresponing to application level 2) which can have several sub application levels (sub application) and can be assigned to super application levels (industry)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "44",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-RAMI40#Sensor",
+    "equivalent" : [ "2" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-RAMI40",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sensor"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Gate_Driver",
+    "equivalent" : [ "110" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Gate Driver",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Gate_Driver",
+      "en" : "Gate Driver"
+    },
+    "comment" : {
+      "en" : "A semiconductor product which is used as a gate driver"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "109",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Discrete_Power_Stage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Discrete Power Stage",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Discrete_Power_Stage",
+      "en" : "Discrete Power Stage"
+    },
+    "comment" : {
+      "en" : "A semiconductor product which is used within a discrete power stage"
+    },
+    "attributes" : [ "external" ],
+    "id" : "113",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Industrial_Qualification",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Motor Control And Drive Solution With Industrial Qualification",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Motor_Control_And_Drive_Solution_Industrial_Qualification",
+      "en" : "Motor Control And Drive Solution With Industrial Qualification"
+    },
+    "comment" : {
+      "en" : "Motor control and drive solution with a industrial qualification."
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Product_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Lobe"
+    },
+    "subClasses" : [ "23", "80", "34", "17", "59", "16", "13", "87", "122", "31", "123" ],
+    "attributes" : [ "external" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Topology",
+    "equivalent" : [ "127" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Topology",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Topology",
+      "en" : "Topology"
+    },
+    "comment" : {
+      "en" : "Topology describes the arrangement and the amount of chips in a semiconductor solution. A toplogy can be \"3 phase\", \"half bridge\", \"h-bridge\", \"high side\", \"low side\" and \"relay\"."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "23",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Integrated_Pressure_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Integrated Pressure Sensor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Integrated_Pressure_Sensor",
+      "en" : "Integrated Pressure Sensor"
+    },
+    "comment" : {
+      "en" : "Infineon offers a different range of barometric air pressure sensor for automotive and industrial applications. The barometric air pressure (BAP) is an important parameter to compute the air-fuel ratio provided to the engine and for controlling spark advance to optimize engine efficiency. In automotive applications where high production volumes are common there is substantial interest in precision, low-cost and fully integrated sensors."
+    },
+    "attributes" : [ "external" ],
+    "id" : "78",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Smart_Driver",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Smart Driver",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Smart_Driver",
+      "en" : "Smart Driver"
+    },
+    "comment" : {
+      "en" : "A semiconductor product which is used as smart driver"
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Sensor",
+    "equivalent" : [ "108" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Sensor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Sensor",
+      "en" : "Sensor"
+    },
+    "subClasses" : [ "133", "62", "76", "134", "135", "136" ],
+    "comment" : {
+      "en" : "A semiconductor product which is used as sensor"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "2",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller",
+    "equivalent" : [ "137" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Microcontroller",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Microcontroller",
+      "en" : "Microcontroller"
+    },
+    "comment" : {
+      "en" : "A semiconductor product which is used as microcontroller"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "49",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Digital_Barometric_Pressure_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Digital Barometric Pressure Sensor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Digital_Barometric_Pressure_Sensor",
+      "en" : "Digital Barometric Pressure Sensor"
+    },
+    "comment" : {
+      "en" : "Infineon’s  DPS310 is a miniaturized digital barometric pressure sensor which offers high accuracy and low current consumption, and is capable of measuring both pressure and temperature. A sealed capacitive sensing element is used for pressure measurement, guaranteeing high precision and accuracy across temperature changes. The small package and low energy consumption make  DPS310 ideal for mobile applications and wearable devices."
+    },
+    "attributes" : [ "external" ],
+    "id" : "77",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Mounting_Style",
+    "equivalent" : [ "140" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Mounting Style",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Mounting_Style",
+      "en" : "Mounting Style"
+    },
+    "comment" : {
+      "en" : "Each sensor has a specific mounting style. A mounting style can either be a \"SMDSMT\" or \"Through Hole\"."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "1",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Product_Line",
+    "equivalent" : [ "107" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "Product Line",
+        "type" : "label"
+      } ],
+      "abbreviation" : [ {
+        "identifier" : "abbreviation",
+        "language" : "en",
+        "value" : "PL",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Product_Line",
+      "en" : "Product Line"
+    },
+    "comment" : {
+      "en" : "A product line is an organizational unit that can be assigned to a business line and directly owns/is responsible for products."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "73",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Semiconductor Solution",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Semiconductor_Solution",
+      "en" : "Semiconductor Solution"
+    },
+    "subClasses" : [ "21" ],
+    "comment" : {
+      "en" : "A semiconductor solution is combination of semiconductor products and is sold within the seminconductor industry."
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Additional_Power_Management",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Additional Power Management",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Additional_Power_Management",
+      "en" : "Additional Power Management"
+    },
+    "comment" : {
+      "en" : "A semiconductor product which is used within the context of additional power management"
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Sub_Application",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Sensor Sub Application",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Sensor_Sub_Application",
+      "en" : "Sensor Sub Application"
+    },
+    "comment" : {
+      "en" : "An application area on lowest level (corresponing to application level 3) for sensors which can be assigned to super application levels (sensor main application)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "119",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Completely_Lead_Free_Status",
+    "equivalent" : [ "162" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Completely Lead Free Status",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Completely_Lead_Free_Status",
+      "en" : "Completely Lead Free Status"
+    },
+    "comment" : {
+      "en" : "This status determines whether a semiconductor product is lead free or not."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "161",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Packing_Type",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Packing Type",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Packing_Type",
+      "en" : "Packing Type"
+    },
+    "comment" : {
+      "en" : "A packing type describes how products/solutions are packed for shipping. There are different packing types, like \"Ammo Pack\", \"Tape and Reel\", \"Tray\" and \"Tube\"."
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Industry",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Industry",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Industry",
+      "en" : "Industry"
+    },
+    "comment" : {
+      "en" : "An application area on top level (corresponing to application level 1) which can have several sub application levels (main application)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#3D_Magnetic_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "3D Magnetic Sensor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "3D_Magnetic_Sensor",
+      "en" : "3D Magnetic Sensor"
+    },
+    "comment" : {
+      "en" : "Capable of measuring 3D, linear and rotational movement. The sensor realizes an accurate three-dimensional sensing with extremely low power consumption. Capable of detecting the magnetic field in the x, y, and z-direction, the sensor is ideally suited for the measurement\r\nof linear, rotation or 3 dimensional movements."
+    },
+    "attributes" : [ "external" ],
+    "id" : "163",
+    "superClasses" : [ "62" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Price_Indication",
+    "equivalent" : [ "164" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Price Indication",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Price_Indication",
+      "en" : "Price Indication"
+    },
+    "comment" : {
+      "en" : "A price indication helps the customer to evaluate the price of an item. A price indication can be \"high\", \"low\", or \"medium\"."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "122",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Product",
+    "equivalent" : [ "99", "169", "93" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Product",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Product",
+      "en" : "Product"
+    },
+    "subClasses" : [ "33" ],
+    "comment" : {
+      "en" : "A product is something that is produced with effort (e.g. by mechanical or industrial processes) and sold to a customer. A product is either tangible (physical product) or intangible (service)."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "34",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Microcontroller",
+    "equivalent" : [ "49" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Microcontroller"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Radar",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Radar",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Radar",
+      "en" : "Radar"
+    },
+    "comment" : {
+      "en" : "Infineon’s range of radar offerings provide unique benefits not possible with traditional motion sensing technology. Whether you require increased range coverage for outdoor lighting or a small form factor solution to enable soft landing in your multicopter our radar provides you with the ability to make your motion sensing applications perform in a way previously not possible. The BGT24M/L family is the largest and highest integrated 24GHz ISM band radar transceiver family currently in the market, providing a range of different transmitter and receiver channel configurations, supporting different application requirements. the sensor allows a Long range distance detection of moving objects up to 30 m and a wide range speed detection up to more than ±100 km/h."
+    },
+    "attributes" : [ "external" ],
+    "id" : "135",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error318",
+    "equivalent" : [ "58" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error318"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error319",
+    "equivalent" : [ "87" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error319"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error316",
+    "equivalent" : [ "9" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error316"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error317",
+    "equivalent" : [ "13" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error317"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error311",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error311"
+    },
+    "attributes" : [ "external" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error314",
+    "equivalent" : [ "178" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error314"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error315",
+    "equivalent" : [ "39" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error315"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error312",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error312"
+    },
+    "attributes" : [ "external" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error313",
+    "equivalent" : [ "17" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error313"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "187",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "181",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "190",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "191",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Halogen_Free_Status",
+    "equivalent" : [ "183" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Halogen Free Status",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Halogen_Free_Status",
+      "en" : "Halogen Free Status"
+    },
+    "comment" : {
+      "en" : "This status determines whether a semiconductor product is halogen free or not."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "178",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "192",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "155",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "193",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product_Status",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Semiconductor Product Status",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Semiconductor_Product_Status",
+      "en" : "Semiconductor Product Status"
+    },
+    "subClasses" : [ "161", "9", "178", "58" ],
+    "comment" : {
+      "en" : "A semiconductor product can have different product states which describe the product characteristics more closely."
+    },
+    "attributes" : [ "external" ],
+    "id" : "59",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Solution",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Solution",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Solution",
+      "en" : "Solution"
+    },
+    "subClasses" : [ "6" ],
+    "comment" : {
+      "en" : "A solution is a combination of products which is produced or assembled by an organization. Further, a solution is sold to a customer and solves a specific problem / fulfills a specific need."
+    },
+    "attributes" : [ "external" ],
+    "id" : "123",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "200",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "201",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Ro_HS_Compliant_Status",
+    "equivalent" : [ "177" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "RoHS Compliant Status",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Ro_HS_Compliant_Status",
+      "en" : "RoHS Compliant Status"
+    },
+    "comment" : {
+      "en" : "This status determines whether a product is RoHS compliant or not."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "9",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "157",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Microphone",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Microphone",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Microphone",
+      "en" : "Microphone"
+    },
+    "comment" : {
+      "en" : "The highly performing MEMS Microphones will enable the next performance level of voice user interfaces, audio recording and active noise cancellation. Infineon’s Dual Backplate (DBP) MEMS technology provides crystal clear (SNR), distortion free (THD) audio signals."
+    },
+    "attributes" : [ "external" ],
+    "id" : "136",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "195",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "95",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "167",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "205",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "203",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_1",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Application Level 1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Application_Level_1",
+      "en" : "Application Level 1"
+    },
+    "comment" : {
+      "en" : "The top application level which can have several sub application levels (application level 2)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_2",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Application Level 2",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Application_Level_2",
+      "en" : "Application Level 2"
+    },
+    "comment" : {
+      "en" : "The medium application level which can have several sub application levels (application level 3) and can be assigned to super application levels (application level 1)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "67",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_3",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization",
+        "type" : "iri"
+      } ],
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Application Level 3",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Application_Level_3",
+      "en" : "Application Level 3"
+    },
+    "comment" : {
+      "en" : "The lowest application level which can be assigned to super application levels (application level 2)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Application_Area",
+    "equivalent" : [ "232" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Application Area",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Application_Area",
+      "en" : "Application Area"
+    },
+    "subClasses" : [ "71", "44", "3", "43", "70", "67", "119", "66" ],
+    "comment" : {
+      "en" : "A way in which something can be used for a particular purpose."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "4",
+    "superClasses" : [ "231" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "233",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Sensor_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sensor_Lobe"
+    },
+    "subClasses" : [ "1", "39" ],
+    "attributes" : [ "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "234",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "237",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "238",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "225",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "152",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Division",
+    "equivalent" : [ "90" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Division"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "240"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Angle_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Angle Sensor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Angle_Sensor",
+      "en" : "Angle Sensor"
+    },
+    "comment" : {
+      "en" : "Infineon offers a family of angle sensors based on integrated Magneto Resistive (ixMR) technologies. Technologies include today iGMR and AMR. The sensors detect the orientation of an applied magnetic field by measuring sine and cosine angle components with monolithically integrated magneto resistive elements. ixMR technology is now widely used in automotive and industrial applications and provides a wide range of benefits. Our iAMR sensors are ideal for applications with the highest accuracy requirements. Our iAMR technology offers best performance over temperature, lifetime and magnetic field range. They are pre-calibrated and ready to use."
+    },
+    "attributes" : [ "external" ],
+    "id" : "247",
+    "superClasses" : [ "62" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Position_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Magnetic Position Sensor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Magnetic_Position_Sensor",
+      "en" : "Magnetic Position Sensor"
+    },
+    "subClasses" : [ "81", "247", "163", "61" ],
+    "comment" : {
+      "en" : "A magnetic position sensor is a sensor which measures magnetic positions."
+    },
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Current_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Current_Sensor"
+    },
+    "subClasses" : [ "133" ],
+    "attributes" : [ "external" ],
+    "id" : "249"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Semiconductor Product",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Semiconductor_Product",
+      "en" : "Semiconductor Product"
+    },
+    "subClasses" : [ "47", "49", "28", "109", "113", "101", "2" ],
+    "comment" : {
+      "en" : "A semiconductor product is a physical product that is produced and sold within the semiconductor industry."
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/org#Organizational_Unit",
+    "baseIri" : "http://www.w3.org/ns/org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organizational_Unit"
+    },
+    "subClasses" : [ "73", "90", "25" ],
+    "attributes" : [ "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_With_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Motor_Control_And_Drive_Solution_With_Sensor",
+      "en" : "Motor Control And Drive Solution With Sensor"
+    },
+    "comment" : {
+      "en" : "Motor control and drive solution with sensor"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Speed_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Magnetic Speed Sensor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Magnetic_Speed_Sensor",
+      "en" : "Magnetic Speed Sensor"
+    },
+    "comment" : {
+      "en" : "The  magnetic speed sensors are designed to measure speed in safety and powertrain applications such as speedometers, ABS, camshafts/crankshafts and automatic transmissions. They are also used in similar applications in the industrial sector. The sensors use a ferromagnetic gear tooth or encoder structure to measure linear or rotational speed and position."
+    },
+    "attributes" : [ "external" ],
+    "id" : "134",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "213",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "64",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Division",
+    "equivalent" : [ "240" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Division",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "Lead Division",
+        "type" : "label"
+      } ],
+      "abbreviation" : [ {
+        "identifier" : "abbreviation",
+        "language" : "en",
+        "value" : "DIV",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Division",
+      "en" : "Division"
+    },
+    "comment" : {
+      "en" : "A division is a administrative business unit that is smaller than the whole company, but it is self-contained and most often responsible for its own revenue, cost, and profit. It has one or more business lines."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "90",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "254",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "199",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "146",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Application",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Application"
+    },
+    "subClasses" : [ "4" ],
+    "attributes" : [ "external" ],
+    "id" : "231"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "172",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "215",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "246",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error327",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error327"
+    },
+    "attributes" : [ "external" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error328",
+    "equivalent" : [ "31" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error328"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "288"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error321",
+    "equivalent" : [ "23" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error321"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error322",
+    "equivalent" : [ "1" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error322"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error320",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error320"
+    },
+    "attributes" : [ "external" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Application_Area",
+    "equivalent" : [ "4" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Application_Area"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "232"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error325",
+    "equivalent" : [ "122" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error325"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error326",
+    "equivalent" : [ "80" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error326"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "294"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error323",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error323"
+    },
+    "attributes" : [ "external" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_DC_Link_Voltage_155",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Motor Control And Drive Solution With DC Link Voltage 155.0",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Motor_Control_And_Drive_Solution_DC_Link_Voltage_155",
+      "en" : "Motor Control And Drive Solution With DC Link Voltage 155.0"
+    },
+    "comment" : {
+      "en" : "Motor control and drive solution with DC link voltage equal to 155.0."
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error324",
+    "equivalent" : [ "161" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error324"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Current_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Magnetic Current Sensor",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Magnetic_Current_Sensor",
+      "en" : "Magnetic Current Sensor"
+    },
+    "comment" : {
+      "en" : "A high-precision current sensor for industrial applications based on Infoneon proven Hall technology. The core-less concept significantly reduces footprint compared with existing solutions. Infineon´s TLI4970 is an easy-to-use, fully digital solution that does not require external calibration or additional parts such as A/D converters, 0 pAmps or reference voltage. It thus significantly reduces overall implementation effort as well as PCB space and cost."
+    },
+    "attributes" : [ "external" ],
+    "id" : "133",
+    "superClasses" : [ "249", "2" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Motor_Type",
+    "equivalent" : [ "294" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Motor Type",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Motor_Type",
+      "en" : "Motor Type"
+    },
+    "comment" : {
+      "en" : "Each motor control and drive solution has a motor type. The different motor types that exist are \"brushed DC\", \"induction\", \"permanent magnet stepper\", \"PMSM BLDC\" and \"switched reluctance\"."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "80",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Gate_Driver",
+    "equivalent" : [ "109" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gate_Driver"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#Design_Target",
+    "equivalent" : [ "288" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Design Target",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Design_Target",
+      "en" : "Design Target"
+    },
+    "comment" : {
+      "en" : "Semiconductor solutions are design for different purposes, with different design goals respectively. Design targets comprise \"flexible to design\", \"easy to design\" and \"allrounder\"."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "31",
+    "superClasses" : [ "18" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "158",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "159",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "166",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "168",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "170",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "180",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "174",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "184",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "179",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "188",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "194",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "198",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "197",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "210",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "212",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "214",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "224",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "228",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "229",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "185",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "245",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "248",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "255",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "257",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "250",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "263",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "265",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "269",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "272",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "273",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "274",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "275",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "276",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "277",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "278",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "279",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "280",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "204",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "281",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "282",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "284",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "285",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "286",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "287",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "289",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "290",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "291",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "292",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "293",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "295",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "296",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "297",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "298",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "299",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "300",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_mounting_style_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "is_mounting_style_of",
+      "en" : "is mounting style of"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#chip_count_smart_driver",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "chip_count_smart_driver",
+      "en" : "chip count smart driver"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_ro_HS_compliant_status_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "is_ro_HS_compliant_status_of",
+      "en" : "is ro HS compliant status of"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "9",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_product_qualification_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "is_product_qualification_of",
+      "en" : "is product qualification of"
+    },
+    "superproperty" : [ "14" ],
+    "domain" : "13",
+    "attributes" : [ "external", "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_packing_type_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "is_packing_type_of",
+      "en" : "is packing type of"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_topology",
+    "inverse" : "24",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "has_topology",
+      "en" : "has topology"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_additional_power_management",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "is_part_of_as_additional_power_management"
+    },
+    "superproperty" : [ "29" ],
+    "domain" : "28",
+    "comment" : {
+      "en" : "is part of as additional power management"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_design_target",
+    "inverse" : "32",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "has_design_target",
+      "en" : "has design target"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_main_application",
+    "inverse" : "45",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "has_main_application",
+      "en" : "has main application"
+    },
+    "superproperty" : [ "46" ],
+    "domain" : "43",
+    "attributes" : [ "external", "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#contains_microcontroller",
+    "inverse" : "50",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "contains_microcontroller",
+      "en" : "contains microcontroller"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "21",
+    "attributes" : [ "external", "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#hierarchy_information",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hierarchy_information",
+      "en" : "hierarchy information"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_topology_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "is_topology_of",
+      "en" : "is topology of"
+    },
+    "superproperty" : [ "55" ],
+    "domain" : "23",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#benefit",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "benefit",
+      "en" : "benefit"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_min",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "DC_link_voltage_min",
+      "undefined" : "has DC link voltage min"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_2",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "is_sub_application_area_of_application_level_2",
+      "en" : "is sub application area of application level 2"
+    },
+    "superproperty" : [ "68" ],
+    "domain" : "66",
+    "attributes" : [ "external", "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_1",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "is_sub_application_area_of_application_level_1",
+      "en" : "is sub application area of application level 1"
+    },
+    "superproperty" : [ "68" ],
+    "domain" : "67",
+    "attributes" : [ "external", "object" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_product_line",
+    "inverse" : "74",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "has_product_line",
+      "en" : "has product line"
+    },
+    "superproperty" : [ "75" ],
+    "domain" : "25",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_motor_type_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "is_motor_type_of",
+      "en" : "is motor type of"
+    },
+    "domain" : "80",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_semiconductor_product_status",
+    "inverse" : "11",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "has_semiconductor_product_status",
+      "en" : "has semiconductor product status"
+    },
+    "domain" : "10",
+    "subproperty" : [ "83", "84", "85", "86" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_division",
+    "inverse" : "91",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "belongs_to_division",
+      "en" : "belongs to division"
+    },
+    "superproperty" : [ "92" ],
+    "domain" : "66",
+    "attributes" : [ "external", "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#electric_power_max",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "electric_power_max",
+      "undefined" : "electric power max"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_solution_qualification",
+    "inverse" : "97",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "has_solution_qualification",
+      "en" : "has solution qualification"
+    },
+    "superproperty" : [ "98" ],
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#contains_smart_driver",
+    "inverse" : "102",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "contains_smart_driver",
+      "en" : "contains smart driver"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "21",
+    "attributes" : [ "external", "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "supply_voltage",
+      "en" : "supply voltage"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#product_family_name",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "product_family_name",
+      "en" : "product family name"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_discrete_power_stage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "footprint_area_discrete_power_stage",
+      "en" : "footprint area discrete power stage"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_sensing_type",
+    "inverse" : "115",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "has_sensing_type",
+      "en" : "has sensing type"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#owns_product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "owns_product",
+      "en" : "owns product"
+    },
+    "domain" : "26",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_discrete_power_stage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "is_part_of_as_discrete_power_stage"
+    },
+    "superproperty" : [ "29" ],
+    "domain" : "113",
+    "comment" : {
+      "en" : "is part of as discrete power stage"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_sensor_main_application",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "is_sub_application_area_of_sensor_main_application",
+      "en" : "is sub application area of sensor main application"
+    },
+    "superproperty" : [ "68" ],
+    "domain" : "119",
+    "attributes" : [ "external", "object" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_intelligent_power_module",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "footprint_area_intelligent_power_module",
+      "en" : "footprint area intelligent power module"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#budgetary_price",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "125",
+    "label" : {
+      "IRI-based" : "budgetary_price",
+      "en" : "budgetary price"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_main_application",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "is_sub_application_area_of_main_application",
+      "en" : "is sub application area of main application"
+    },
+    "superproperty" : [ "68" ],
+    "domain" : "3",
+    "attributes" : [ "external", "object" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_part_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "is_part_of"
+    },
+    "domain" : "34",
+    "subproperty" : [ "128", "27", "117", "129", "130", "50", "102" ],
+    "comment" : {
+      "en" : "is part of"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_max",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "supply_voltage_max",
+      "en" : "supply voltage max"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_level_3_division",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "responsible_for_application_level_3_division",
+      "en" : "responsible for application level 3 division"
+    },
+    "superproperty" : [ "138" ],
+    "domain" : "90",
+    "attributes" : [ "external", "object" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_motor_type",
+    "inverse" : "79",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "has_motor_type",
+      "en" : "has motor type"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_gate_driver",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "is_part_of_as_gate_driver"
+    },
+    "superproperty" : [ "29" ],
+    "domain" : "109",
+    "comment" : {
+      "en" : "is part od as gate driver"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#can_be_applied_in",
+    "inverse" : "143",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "can_be_applied_in",
+      "en" : "can be applied in"
+    },
+    "domain" : "142",
+    "attributes" : [ "external", "object" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#owned_by_organizational_unit",
+    "inverse" : "116",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "owned_by_organizational_unit",
+      "en" : "owned by"
+    },
+    "domain" : "34",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#chip_count",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "146",
+    "label" : {
+      "IRI-based" : "chip_count",
+      "en" : "chip count"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#contains_discrete_power_stage",
+    "inverse" : "117",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "113",
+    "label" : {
+      "IRI-based" : "contains_discrete_power_stage",
+      "en" : "contains discrete power stage"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "21",
+    "attributes" : [ "external", "object" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application",
+    "inverse" : "126",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "has_sub_application",
+      "en" : "has sub application"
+    },
+    "superproperty" : [ "46" ],
+    "domain" : "44",
+    "attributes" : [ "external", "object" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_business_line",
+    "inverse" : "150",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "has_business_line",
+      "en" : "has business line"
+    },
+    "superproperty" : [ "75" ],
+    "domain" : "90",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#target_application",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "152",
+    "label" : {
+      "IRI-based" : "target_application",
+      "en" : "target application"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_product_qualification",
+    "inverse" : "12",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "has_product_qualification",
+      "en" : "has product qualification"
+    },
+    "superproperty" : [ "98" ],
+    "domain" : "10",
+    "attributes" : [ "external", "object" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "155",
+    "label" : {
+      "IRI-based" : "footprint_area_product",
+      "en" : "footprint area product"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "154"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#electric_power",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "electric_power",
+      "undefined" : "electric power"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "156"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "is_sub_unit_of",
+      "en" : "is sub unit of"
+    },
+    "domain" : "26",
+    "subproperty" : [ "150", "74" ],
+    "attributes" : [ "external", "object", "irreflexive" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_microcontroller",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "is_part_of_as_microcontroller"
+    },
+    "superproperty" : [ "29" ],
+    "domain" : "49",
+    "comment" : {
+      "en" : "is part of as microcontroller"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_price_indication",
+    "inverse" : "160",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "has_price_indication",
+      "en" : "has price indication"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "BOM"
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_ro_HS_compliant_status",
+    "inverse" : "8",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "has_ro_HS_compliant_status",
+      "en" : "has ro HS compliant status"
+    },
+    "superproperty" : [ "82" ],
+    "domain" : "10",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_sensor_sub_application",
+    "inverse" : "118",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "has_sensor_sub_application",
+      "en" : "has sensor sub application"
+    },
+    "superproperty" : [ "46" ],
+    "domain" : "71",
+    "attributes" : [ "external", "object" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#chip_count_gate_driver",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "167",
+    "label" : {
+      "IRI-based" : "chip_count_gate_driver",
+      "en" : "chip count gate driver"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#contains_gate_driver",
+    "inverse" : "130",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "contains_gate_driver",
+      "en" : "contains gate driver"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "21",
+    "attributes" : [ "external", "object" ],
+    "id" : "168"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_packing_type",
+    "inverse" : "15",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "has_packing_type",
+      "en" : "has packing type"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_sensing_type_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "is_sensing_type_of",
+      "en" : "is sensing type of"
+    },
+    "domain" : "39",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#chip_count_discrete_power_stage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "172",
+    "label" : {
+      "IRI-based" : "chip_count_discrete_power_stage",
+      "en" : "chip count discrete power stage"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "171"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#contains_product",
+    "inverse" : "29",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "contains_product",
+      "en" : "contains product"
+    },
+    "domain" : "123",
+    "subproperty" : [ "173", "48", "174", "147", "100", "175", "168" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_qualification",
+    "inverse" : "14",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "has_qualification",
+      "en" : "has qualification"
+    },
+    "domain" : "176",
+    "subproperty" : [ "96", "153" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_halogen_free_status",
+    "inverse" : "179",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "178",
+    "label" : {
+      "IRI-based" : "has_halogen_free_status",
+      "en" : "has halogen free status"
+    },
+    "superproperty" : [ "82" ],
+    "domain" : "10",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_smart_driver",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "181",
+    "label" : {
+      "IRI-based" : "footprint_area_smart_driver",
+      "en" : "footprint area smart driver"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "180"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#could_contain_sensor",
+    "inverse" : "128",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "could_contain_sensor",
+      "en" : "could contain sensor"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "21",
+    "attributes" : [ "external", "object" ],
+    "id" : "174"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_integration_level",
+    "inverse" : "185",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "has_integration_level",
+      "en" : "has integration level"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "184"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_halogen_free_status_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "is_halogen_free_status_of",
+      "en" : "is halogen free status of"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "178",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "179"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_main_power_device_type",
+    "inverse" : "189",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "has_main_power_device_type",
+      "en" : "has main power device type"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_sub_unit",
+    "inverse" : "158",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "has_sub_unit",
+      "en" : "has sub unit"
+    },
+    "domain" : "26",
+    "subproperty" : [ "72", "149" ],
+    "attributes" : [ "external", "object", "irreflexive" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#electric_power_min",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "195",
+    "label" : {
+      "IRI-based" : "electric_power_min",
+      "undefined" : "electric power min"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "194"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_completely_lead_free_status",
+    "inverse" : "196",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "161",
+    "label" : {
+      "IRI-based" : "has_completely_lead_free_status",
+      "en" : "has completely lead free status"
+    },
+    "superproperty" : [ "82" ],
+    "domain" : "10",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_organizational_unit",
+    "inverse" : "138",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "belongs_to_organizational_unit",
+      "en" : "belongs to organizational unit"
+    },
+    "domain" : "4",
+    "subproperty" : [ "197", "89" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#channel_structure",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "199",
+    "label" : {
+      "IRI-based" : "channel_structure",
+      "en" : "channel structure"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#chip_count_intelligent_power_module",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "203",
+    "label" : {
+      "IRI-based" : "chip_count_intelligent_power_module",
+      "en" : "chip count intelligent power module"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_product_line",
+    "inverse" : "204",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "belongs_to_product_line",
+      "en" : "belongs to product line"
+    },
+    "superproperty" : [ "92" ],
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "197"
+  }, {
+    "range" : "18",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "18",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_microcontroller",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "193",
+    "label" : {
+      "IRI-based" : "footprint_area_microcontroller",
+      "en" : "footprint area microcontroller"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "208"
+  }, {
+    "range" : "18",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_completely_lead_free_status_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "is_completely_lead_free_status_of",
+      "en" : "is completely lead free status of"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "161",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "196"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#footprint_area",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "200",
+    "label" : {
+      "IRI-based" : "footprint_area",
+      "en" : "footprint area"
+    },
+    "domain" : "211",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "210"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_business_line",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "is_sub_unit_of_business_line",
+      "en" : "is sub unit of business line"
+    },
+    "superproperty" : [ "158" ],
+    "domain" : "73",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_max",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "213",
+    "label" : {
+      "IRI-based" : "DC_link_voltage_max",
+      "undefined" : "has DC link voltage max"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "212"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "215",
+    "label" : {
+      "IRI-based" : "DC_link_voltage",
+      "undefined" : "has DC link voltage"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "214"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_design_target_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "is_design_target_of",
+      "en" : "is design target of"
+    },
+    "domain" : "31",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "is_sub_application_area_of",
+      "en" : "is sub application area of"
+    },
+    "domain" : "4",
+    "subproperty" : [ "65", "69", "118", "45", "126" ],
+    "attributes" : [ "external", "object", "irreflexive" ],
+    "id" : "68"
+  }, {
+    "range" : "18",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "range" : "18",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "217"
+  }, {
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#finds_application_through",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "182",
+    "label" : {
+      "IRI-based" : "finds_application_through",
+      "en" : "finds application through"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "143"
+  }, {
+    "range" : "18",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "range" : "21",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "range" : "21",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "range" : "76",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "range" : "76",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "223"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#temperatue_max",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "225",
+    "label" : {
+      "IRI-based" : "temperatue_max",
+      "en" : "temperatue max"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "224"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "range" : "21",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "227"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_industry",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "is_sub_application_area_of_industry",
+      "en" : "is sub application area of industry"
+    },
+    "superproperty" : [ "68" ],
+    "domain" : "44",
+    "attributes" : [ "external", "object" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#package_name",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "191",
+    "label" : {
+      "IRI-based" : "package_name",
+      "en" : "package name"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "228"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_gate_driver",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "192",
+    "label" : {
+      "IRI-based" : "footprint_area_gate_driver",
+      "en" : "footprint area gate driver"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "229"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#contains_intelligent_power_module",
+    "inverse" : "129",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "contains_intelligent_power_module",
+      "en" : "contains intelligent power module"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "21",
+    "attributes" : [ "external", "object" ],
+    "id" : "173"
+  }, {
+    "range" : "21",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_main_power_device_type_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "is_main_power_device_type_of",
+      "en" : "is main power device type of"
+    },
+    "domain" : "17",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "189"
+  }, {
+    "range" : "33",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_mounting_style",
+    "inverse" : "0",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "has_mounting_style",
+      "en" : "has mounting style"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "236"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_integration_level_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "is_integration_level_of",
+      "en" : "is integration level of"
+    },
+    "domain" : "87",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "185"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "range" : "237",
+    "label" : {
+      "IRI-based" : "is_sub_flow_of"
+    },
+    "domain" : "237",
+    "subproperty" : [ "24" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "55"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "4",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "range" : "4",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "242"
+  }, {
+    "range" : "4",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  }, {
+    "range" : "4",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "244"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_characteristic",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "246",
+    "label" : {
+      "IRI-based" : "DC_link_voltage_characteristic",
+      "en" : "DC link voltage characteristic"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "245"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_qualification_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "186",
+    "label" : {
+      "IRI-based" : "is_qualification_of",
+      "en" : "is qualification of"
+    },
+    "domain" : "13",
+    "subproperty" : [ "97", "12" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#packing_size",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "187",
+    "label" : {
+      "IRI-based" : "packing_size",
+      "en" : "packing size"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "248"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_OPN_status",
+    "inverse" : "250",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "has_OPN_status",
+      "en" : "has OPN status"
+    },
+    "superproperty" : [ "82" ],
+    "domain" : "10",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "85"
+  }, {
+    "range" : "123",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "251"
+  }, {
+    "range" : "59",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#application_characteristic",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "254",
+    "label" : {
+      "IRI-based" : "application_characteristic",
+      "en" : "application characteristic"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "253"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_min",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "238",
+    "label" : {
+      "IRI-based" : "supply_voltage_min",
+      "en" : "supply voltage min"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "255"
+  }, {
+    "range" : "59",
+    "domain" : "161",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  }, {
+    "range" : "34",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "257"
+  }, {
+    "range" : "59",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "258"
+  }, {
+    "range" : "59",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "259"
+  }, {
+    "range" : "2",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "260"
+  }, {
+    "range" : "2",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "261"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_OPN_status_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "is_OPN_status_of",
+      "en" : "is OPN status of"
+    },
+    "superproperty" : [ "11" ],
+    "domain" : "58",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "250"
+  }, {
+    "range" : "6",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#chip_count_microcontroller",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "205",
+    "label" : {
+      "IRI-based" : "chip_count_microcontroller",
+      "en" : "chip count microcontroller"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "263"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_division",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "is_sub_unit_of_division",
+      "en" : "is sub unit of division"
+    },
+    "superproperty" : [ "158" ],
+    "domain" : "25",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "150"
+  }, {
+    "range" : "2",
+    "domain" : "136",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "264"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_price_indication_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "is_price_indication_of",
+      "en" : "is price indication of"
+    },
+    "domain" : "122",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "160"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#temperature_min",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "233",
+    "label" : {
+      "IRI-based" : "temperature_min",
+      "en" : "temperatue min"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "265"
+  }, {
+    "range" : "2",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "2",
+    "domain" : "133",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "267"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#contains_additional_power_management",
+    "inverse" : "27",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "contains_additional_power_management",
+      "en" : "contains additional power management"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "21",
+    "attributes" : [ "external", "object" ],
+    "id" : "175"
+  }, {
+    "range" : "2",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "268"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_semiconductor_product_status_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "is_semiconductor_product_status_of",
+      "en" : "is semiconductor product status of"
+    },
+    "domain" : "59",
+    "subproperty" : [ "250", "8", "196", "179" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "11"
+  }, {
+    "range" : "18",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "269"
+  }, {
+    "range" : "18",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "270"
+  }, {
+    "range" : "18",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "271"
+  }, {
+    "range" : "18",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "272"
+  }, {
+    "range" : "26",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "273"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_solution_qualification_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "is_solution_qualification_of",
+      "en" : "is solution qualification of"
+    },
+    "superproperty" : [ "14" ],
+    "domain" : "13",
+    "attributes" : [ "external", "object" ],
+    "id" : "97"
+  }, {
+    "range" : "26",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "274"
+  }, {
+    "range" : "231",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "275"
+  }, {
+    "range" : "10",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "276"
+  }, {
+    "range" : "26",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "277"
+  }, {
+    "range" : "10",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "278"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_3",
+    "inverse" : "65",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "has_application_level_3",
+      "en" : "has application level 3"
+    },
+    "superproperty" : [ "46" ],
+    "domain" : "67",
+    "attributes" : [ "external", "object" ],
+    "id" : "279"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_2",
+    "inverse" : "69",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "has_application_level_2",
+      "en" : "has application level 2"
+    },
+    "superproperty" : [ "46" ],
+    "domain" : "70",
+    "attributes" : [ "external", "object" ],
+    "id" : "280"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area_product_line",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "responsible_for_application_area_product_line",
+      "en" : "responsible for application area product line"
+    },
+    "superproperty" : [ "138" ],
+    "domain" : "73",
+    "attributes" : [ "external", "object" ],
+    "id" : "204"
+  }, {
+    "range" : "10",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "281"
+  }, {
+    "range" : "10",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "282"
+  }, {
+    "range" : "10",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "283"
+  }, {
+    "range" : "10",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "284"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_potential_sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "is_part_of_as_potential_sensor"
+    },
+    "superproperty" : [ "29" ],
+    "domain" : "2",
+    "comment" : {
+      "en" : "is part of as potential sensor"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "128"
+  }, {
+    "range" : "62",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "285"
+  }, {
+    "range" : "62",
+    "domain" : "163",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "286"
+  }, {
+    "range" : "10",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "287"
+  }, {
+    "range" : "249",
+    "domain" : "133",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "289"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application_area",
+    "inverse" : "68",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "has_sub_application_area",
+      "en" : "has sub application area"
+    },
+    "domain" : "4",
+    "subproperty" : [ "42", "279", "280", "148", "165" ],
+    "attributes" : [ "external", "object", "irreflexive" ],
+    "id" : "46"
+  }, {
+    "range" : "62",
+    "domain" : "247",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "290"
+  }, {
+    "range" : "62",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "291"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#feature",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "201",
+    "label" : {
+      "IRI-based" : "feature",
+      "en" : "feature"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "292"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "responsible_for_application_area",
+      "en" : "responsible for application area"
+    },
+    "domain" : "26",
+    "subproperty" : [ "91", "204" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#temperature",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "234",
+    "label" : {
+      "IRI-based" : "temperature",
+      "en" : "temperature"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "293"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_intelligent_power_module",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "is_part_of_as_intelligent_power_module"
+    },
+    "superproperty" : [ "29" ],
+    "domain" : "47",
+    "comment" : {
+      "en" : "is part of as intelligent power module"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "129"
+  }, {
+    "range" : "40",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "295"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_smart_driver",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "is_part_of_as_smart_driver"
+    },
+    "superproperty" : [ "29" ],
+    "domain" : "101",
+    "comment" : {
+      "en" : "is part of as smart driver"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "102"
+  }, {
+    "range" : "4",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "296"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product_family",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OOSMP",
+    "range" : "190",
+    "label" : {
+      "IRI-based" : "footprint_area_product_family",
+      "en" : "footprint area product family"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "297"
+  }, {
+    "range" : "4",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "298"
+  }, {
+    "range" : "40",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "299"
+  }, {
+    "range" : "4",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "300"
+  } ]
+}

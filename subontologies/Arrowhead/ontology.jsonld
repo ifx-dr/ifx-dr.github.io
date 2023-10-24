@@ -1,0 +1,2288 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error68",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error71",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error74",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error75",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://org.semanticweb.owlapi/error#Error76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Application_Servcice_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Application Servcice IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Application_Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Application services – they are application specific and are implemented by application systems along with functionalities (to match requirements of an application)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Application Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Application_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Application Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Description_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Application_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arrowhead Application Component"
+  }, {
+    "@language" : "en",
+    "@value" : "Arrowhead Application System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_System"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Application System Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Application System Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Authorization Control Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Authorization Control Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Authorization System Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Authorization System Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_WADL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Authorization System WADL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Automation Supporting Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_Service"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Automation Supporting Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Automation Supporting Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Automation Supporting System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_System"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Automation Supporting System Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Automation Supporting System Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Core Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Core Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Core Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Description_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Software system, that belongs to the \"standard\" components offered by Arrowhead framework. \r\nArrowhead core systems can occur once in each Arrowhead Local Cloud. \r\nArriwhead Core Systems can be distinguished in Arrowhead Mandatory Core Systems and Automation supporting systems. Mandatory core systems must exist in each Arrowhead Local Cloud, Automation supporting systems can occur in an Arrowhead Local Cloud."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arrowhead Core Component"
+  }, {
+    "@language" : "en",
+    "@value" : "Arrowhead Core System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Core System Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Core System Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Device Discovery Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Device Discovery Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Device Registry System Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Device Registry System Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Gatekeeper System Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Gatekeeper System Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Gateway System Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Gateway System Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Global Service Discovery Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Global Service Discovery Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Historian Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Historian Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Inter Cloud Negotiations Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Inter Cloud Negotiations Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Local_Cloud",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Local Cloud"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Mandatory Core Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_Service"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Class of all Interface Design Descriptions (IDDs) of mandatory Arrowwhead core services.\r\nWhile the class AH_mandatory_core_service contains the mandatory core services only as instances, this class contains classes of the IDDs of each single mandatory core service as subclasses (not only as instances). Since each AH Local Cloud runs one instance of each mandatory core service, each of these services has to be documented by an AH service documentation, i.e. at least by a SD and a IDD. So the IDD is an individual document for each mandatory core service in each single Local Cloud. Hence, all IDDs of a certain mandatory core service will be individuals of the corresponding IDD class."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Mandatory Core Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Mandatory Core Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Mandatory Core System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_System"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Mandatory Core System Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Mandatory Core System Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Orchestration Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Orchestration Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Orchestration System Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Orchestration System Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Orchestrator_WADL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Orchestrator WADL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH QoS Manager Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH QoS Manager Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Service Discovery Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Service Discovery Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Service Documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Documentation"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Document belonging to the documentation of an Arrowhead Service. \r\nThere are four types of documents for Arrowhead service documentations: \r\n- Service Description\r\n- Interface Design Description\r\n- Communication Profile\r\n- Semantic Profile. \r\nThe central documents are IDDs. They document the implementation of a certain service based on a certain communication technology (communication, encoding, data format) and a certain information model. \r\nThe Service Description contains a more general description of the service, without the link to a specific communication technology or information model. \r\nCommunication Profiles and Semantic Profiles are optional documents for a service documentation. They can be seen as modules of an IDD, since they can describe the communication technolopgy and the information model of a service implementation as external documents. If they exist, the IDD refers to them instead of declaring these contents by themselfes. \r\nThat is, CP and SP are useful if different service implementations use the same CP and SP - then their IDDs can refer to one and the same CP or SP document."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Service Documentation Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Documentation_Document"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Service Registry System Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Service Registry System Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_WADL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Service Registry WADL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Session Establish Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Session Establish Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Session Management Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Session Management Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Store Management Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Store Management Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Software_System"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH System Discovery Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH System Discovery Service SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH System Documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Documentation"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH System Documentation Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Documentation_Document"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH System Of Systems Documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Documentation"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH System Of Systems Documentation Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Documentation_Document"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH System Registry System Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH System Registry System Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Servcie_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Token Generation Servcie SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Service_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "AH Token Generation Service IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Arrowhead",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arrowhead"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Communication_Profile_CP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Communication Profile (CP)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Communication Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "corresponds to a part of OSI layer 5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Communication Security Mechanism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Communication_Technology"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Communication_Technology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Communications technology, also known as information technology, refers to all equipment and programs that are used to process and communicate information."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Communication Technology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Constrained_Device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A constrained device is a device in the sense of an service-oriented architecture that is restricted in terms of processing capabilities (speed, complexity of operations), memory and power supply. \r\nThe concept constrained device was introduced in the context of the Internet of Things (IoT) and refers for example to sensor devices, location devices, switches etc. which are connected by low-power wireless communication technologies like BLE, ZigBee, Z-Wave etc., have a battery on board that should last for two to three years and which are (very) small in physical size."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Constrained Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Data_Format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Data format in information technology may refer to: Data type, constraint placed upon the interpretation of data in a type system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Format"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Data_Link_Media_Access_Technology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "corresponds to OSI layer 1 and 2 technologies, like Ethernet, WLAN (802.11), WPAN (802.15.4), EtherCAT, ProfiNet, ..."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Link Media Access Technology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Communication_Technology"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Data_Model",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A data model is an abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data Model"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A device in the context of Arrowhead framework is a piece of equipment, machine, hardware, etc. with computational, memory, and communication capabilities which hosts one or several Arrowhead Framework systems. (Source: Arrowhead)"
+  }, {
+    "@language" : "en",
+    "@value" : "A device in the context of Service-oriented architectures (that is, in the context of Information Technology (IT) and Automation / Operations Technology (OT)) is an technical artefact that fulfills the basic definition of a \"computer\". That is, a device must be able to host (run) software systems. For this, it needs at least a processing unit (processor), a memory and a communication interface, which can be either wired or wireless."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AT#Device"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-PWR#Device"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Documentation_Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A document that documents something"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Documentation Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#End_To_End_Communication_Technology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "End-to-End Communication Technology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Communication_Technology"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Gateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A gateway is a piece of networking hardware used in telecommunications for telecommunications networks that allows data to flow from one discrete network to another."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gateway"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AT#Gateway"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#IP_address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "IP address"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Illumination_Device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A category of devices which's purpose is to illuminate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Illumination Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Constrained_Device"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Industrial_Personal_Computer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Industrial PCs are primarily used for process control and/or data acquisition. In some cases, an industrial PC is simply used as a front-end to another control computer in a distributed processing environment."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Industrial Personal Computer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Information_Model",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An information model in software engineering is a representation of concepts and the relationships, constraints, rules, and operations to specify data semantics for a chosen domain of discourse. Typically it specifies relations between kinds of things, but may also include relations with individual things."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Information Model"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Interface Design Description (IDD)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Interface Design Description IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Local_Network",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A local area network is a computer network that interconnects computers within a limited area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Local Network"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#MAC_address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MAC address"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Method",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Method of a service: method that is provided by a service within a SoA."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Method"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Personal_Computer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A personal computer (PC) is a multi-purpose computer whose size, capabilities, and price make it feasible for individual use."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Personal Computer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Point_To_Point_Communication_Technology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "corresponds to OSI layer 3, e.g. IPv4 or IPv6"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Point-to-Point Communication Technology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Communication_Technology"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Programmable_Logic_Controller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A programmable logic controller (PLC) is an industrial digital computer which has been ruggedized and adapted for the control of manufacturing processes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Programmable Logic Controller"
+  }, {
+    "@language" : "de",
+    "@value" : "SPS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Raspberry_Pi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Raspberry Pi is a series of small single-board computers developed in the United Kingdom by the Raspberry Pi Foundation to put the power of computing and digital making into the hands of people all over the world."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Raspberry Pi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Semantic_Profile_SP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Semantic Profile (SP)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Semantic Profile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Sensor_Device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A category of devices which's purpose is to sense"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sensor Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Constrained_Device"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AT#Sensor_Device"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "In the context of the Arrowhead Framework a Service is the information exchanged from a providing system to a consuming system.\r\n• is based on a number of service orientation principles derived from high level objectives and properties of the Arrowhead framework \r\n• can be realized by an arbitrary number of service producers and service consumers \r\n• a system can consume a number of services, process and provide other services to fulfil a more complex task \r\n• can only be provided by technical systems \r\n• can support operational activities within business processes \r\n• can support non-functional requirements, such as real-time \r\n• can have stakeholders, with an interest in business benefit, in one or more specific area of interest \r\n• can have an appointed stakeholder, responsible for the governance of the Service (definition, development). \r\n(Source: Arrowhead Framework Definitions V2.4 & Arrowhead Device Registry Presentation)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Software_System"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Description_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Service Description (SD)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Service Description SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Service documentation is any communicable material that is used to describe, explain or instruct regarding some attributes of a service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Service Documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Service-oriented architecture (SoA) is a style of software design where services are provided to the other components by application components, through a communication protocol over a network."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Service-Oriented Architecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Smartphone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A smartphone is a mobile device that combines cellular and mobile computing functions into one unit."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Smartphone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#SoA_Property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SoA Property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Software_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "System software is software designed to provide a platform for other software."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Software System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Switch_Device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A switch is a device in a computer network that connects other devices together."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Switch Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Constrained_Device"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "System Description Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "System Design Description Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "System documentation is any communicable material that is used to describe, explain or instruct regarding some attributes of a system"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "System Documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Of_Systems",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "System of systems is a collection of task-oriented or dedicated systems that pool their resources and capabilities together to create a new, more complex system which offers more functionality and performance than simply the sum of the constituent systems."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "System Of Systems"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Description_So_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "System Of Systems Description So SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "System Of Systems Design Description So SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Description of an Arrowhead compliant software system in terms of the Web Application Description Language WADL. \r\nThe Web Application Description Language (WADL) is a machine-readable XML description of HTTP-based web services. WADL models the resources provided by a service and the relationships between them. WADL is intended to simplify the reuse of web services that are based on the existing HTTP architecture of the Web. It is platform and language independent and aims to promote reuse of applications beyond the basic use in a web browser.\r\nWADL is the REST equivalent of SOAP's Web Services Description Language (WSDL), which can also be used to describe REST web services. Sources: https://en.wikipedia.org/wiki/Web_Application_Description_Language\r\nSun Microsystems (31 August 2009). \"Web Application Description Language: W3C Member Submission 31 August 2009\". World Wide Web Consortium. Retrieved 12 August 2012.\r\nWorld Wide Web Consortium (14 October 2009). \"Team Comment on the \"Web Application Description Language\" Submission\". World Wide Web Consortium. Retrieved 12 August 2012.\r\nLawrence Mandel (29 May 2008). \"Describe REST Web services with WSDL 2.0: A how-to guide\". IBM. Retrieved 12 August 2012."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "System Web Application Description WADL"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Tablet_Computer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A tablet computer, commonly shortened to tablet, is a mobile device, typically with a mobile operating system and touchscreen display"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tablet Computer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "corresponds to OSI layers 6 and 7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Transfer Protocol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Communication_Technology"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#contains_device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error68"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "contains device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#has_architectural_part"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_device_in"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#defines_compliant_documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "defines compliant documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error65"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#defines_compliant_service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "defines compliant service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#defines_compliant_system",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "defines compliant system"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Software_System"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#defines_compliant_system_architecture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "defines compliant system architecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Of_Systems"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#device_ID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Data property of each device in Arrowhead context. Needed by Device Discovery service.\r\nPurpose: provides an unique identifier for a device."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "device ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#device_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "device name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#documents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error69"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "documents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error62"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_documented_by"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_security_mechanism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error71"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "documents AH service comm security mechanism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error70"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "documents AH service comm tech"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error64"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#documents_service_part"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_data_format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error76"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "documents AH service data format"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Data_Format"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_information_model",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error75"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "documents AH service information model"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Information_Model"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#documents_service_part"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_method",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between an Interface Design Description document (of a specific service) and a method of this service. \r\nThe relation expresses that the IDD document documents the methods of the service the IDD belongs to. \r\nWith this, a consistency check would be possible: \r\nIF a service S has a method M AND the IDD IDD_S is part of the service documentation of S (i.e. IDD_S is the IDD of S) \r\nTHEN IDD_S should contain a documentation of M."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "documents AH service method"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Method"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#documents_service_part"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_transfer_protocol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error73"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "documents AH service transfer protocol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#documents_service_part",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Documentation_Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "documents service part"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#has_SoA_property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has SoA property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#SoA_Property"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_SoA_property_of"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#has_architectural_part",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has architectural part"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#has_information_model",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has information model"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Information_Model"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_information_model_of"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#has_method",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has method"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Method"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#has_architectural_part"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_method_of"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#has_part_documentation_document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error74"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has part"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Documentation_Document"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_part_of"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#hosts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hosts"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Software_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#has_architectural_part"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_hosted_by"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#runs_on"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_AH_service_documented_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "is AH service documented by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_service_documented_by"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_AH_system_documented_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "is AH system documented by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_system_documented_by"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_SoA_property_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#SoA_Property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is SoA property of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is an architectural part of"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_device_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is device in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error63"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_documented_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error67"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is documented by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error60"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_hosted_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Software_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is hosted by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#runs_on"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_information_model_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Information_Model"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is information model of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_method_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Method"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is method of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_part_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Documentation_Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is part of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error61"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_part_of_SoS_documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is part of SoS documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_part_of"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_part_of_service_documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is part of service documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_part_of"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_part_of_system_documentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is part of system documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_part_of"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_referred_to_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Documentation_Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is referred to by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Documentation_Document"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_service_documented_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "is service documented by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_documented_by"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_service_producer_of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Software_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is service producer of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#produces"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#produced_by"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#is_system_documented_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "is system documented by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Software_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Documentation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_documented_by"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#produced_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "produced by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Software_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#produces"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#produces",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation expressing that a software system produces a service. \r\nEquivalent names for this relation include: offers, provides, isServiceProducerOf \r\nSince Arrowhead uses the pair produce / consume and corresponding service producer / service consumer adressing the relations and the software systems, this ontology uses these names for the relations too. \r\nIf it is needed, object properties with other names can be added and stated to be equivalent to these ones."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Software_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "produces"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#has_architectural_part"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "describes the relation between two documentation documents that one document refers to another document.\r\nTo our best knowledge, the following relations hold between different types of documentation documents: \r\n- an IDD refers to exactly one SD.\r\n- an SD is referred to by one or more IDD (each stating a way of implementing the service with a specific technolopgy (Source: Arrowhead Framework Definitions V2.4))\r\n- an IDD refers to at most one CP (if it not refers to a CP, then the IDD contains all CP information by itself)\r\n- an IDD refers to n SP, 0 <= n (if it not refers to a SP, then the IDD contains all SP information by itself)\r\n- a SySD refers to one or more IDDs (that is, a system produces one or more services).\r\n- a SySDD refers to one or more SySD's. (Remark HB: I don't understand this. How can one concrete white box description of a system fulfill (support / implement) different black box descriptions of systems? The other way around seems to be possible as between SDs and IDDs). \r\n- an SoSD refers to n SySD's.\r\n- an SoSDD refers to n SoSD's. \r\n- an SoSDD refers to n SySD's. \r\n- an SoSDD refers to n SySDDs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Documentation_Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "refers to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Documentation_Document"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to_CP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "an Interface Design Description (IDD) can refer to a Communication Profile (CP). \r\nNo other documentation document can refer to a CP. Hence the domain of this object property is the class of IDDs. \r\nAn IDD can refer to a CP, but this is not mandatory. CPs are intended to be used in cases in which several services use the same CP. Then the CP information should be extracted to an CP document and the IDDs of all services that use this CP shall refer to this CP. \r\nIf the CP is unique for a specific service, the CP information can directly be included in the IDD.\r\nIf the IDD refers to a CP, this must be a unique reference. That is, one IDD must not refer to different CPs. Hence this object property is functional. (If the service could be implemented using different communication technologies, each implementation would need an own IDD!!)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "refers to CP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Communication_Profile_CP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to_IDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "refers to IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "refers to SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service_Description_SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to_SP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "an Interface Design Description (IDD) can refer to a Semantic Profile (SP). \r\nNo other documentation document can refer to a SP. Hence the domain of this object property is the class of IDDs. \r\nAn IDD can refer to a SP, but this is not mandatory. SPs are intended to be used in cases in which several services use the same SP. Then the SCP information should be extracted to an SP document and the IDDs of all services that use this SP shall refer to this SP. \r\nIf the SP is unique for a specific service, the SP information can directly be included in the IDD.\r\nReferences to SPs are not necessarily unique for an IDD. That is, different methods of the service documented by the IDD can use different Semantic Profiles."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "refers to SP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Semantic_Profile_SP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to_So_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "refers to So SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Description_So_SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error72"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "refers to Sy SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SDD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "refers to Sy SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#refers_to"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#runs_on",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Software_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "runs on"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Device"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#uses_comm_tech",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uses comm tech"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://org.semanticweb.owlapi/error#Error66"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#uses_communication_security_mechanism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uses communication security mechanism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#uses_comm_tech"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#uses_data_format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uses data format"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Data_Format"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#uses_comm_tech"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AH#uses_transfer_protocol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Service"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uses transfer protocol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AH#uses_comm_tech"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AT#Device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AT#Gateway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AT#Sensor_Device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-PWR#Device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

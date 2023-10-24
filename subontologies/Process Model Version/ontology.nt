@@ -1,0 +1,1228 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-PMV#activates
+<http://www.w3id.org/ecsel-dr-PMV#activates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#activates> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_activated_by> .
+<http://www.w3id.org/ecsel-dr-PMV#activates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error353> .
+<http://org.semanticweb.owlapi/error#Error353> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#activates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#activates> <http://www.w3.org/2000/01/rdf-schema#comment> "The connector is used to represent the chronological order in an EPC, where an Event or a Rule activate a Task or Process Interface. " .
+<http://www.w3id.org/ecsel-dr-PMV#activates> <http://www.w3.org/2000/01/rdf-schema#label> "activates"@en .
+<http://www.w3id.org/ecsel-dr-PMV#activates> <http://www.w3.org/2004/02/skos/core#altLabel> "activ" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#activates_function
+<http://www.w3id.org/ecsel-dr-PMV#activates_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#activates_function> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-PMV#activates> .
+<http://www.w3id.org/ecsel-dr-PMV#activates_function> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_activated_by_function> .
+<http://www.w3id.org/ecsel-dr-PMV#activates_function> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Event> .
+<http://www.w3id.org/ecsel-dr-PMV#activates_function> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error345> .
+<http://org.semanticweb.owlapi/error#Error345> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#activates_function> <http://www.w3.org/2000/01/rdf-schema#comment> "Specialization of the activates property that links the class Event with Task and Process Interface in the course of the process flow." .
+<http://www.w3id.org/ecsel-dr-PMV#activates_function> <http://www.w3.org/2000/01/rdf-schema#label> "activates function"@en .
+<http://www.w3id.org/ecsel-dr-PMV#activates_function> <http://www.w3.org/2004/02/skos/core#altLabel> "activ function" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#activates_task
+<http://www.w3id.org/ecsel-dr-PMV#activates_task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#activates_task> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-PMV#activates> .
+<http://www.w3id.org/ecsel-dr-PMV#activates_task> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_activated_by_task> .
+<http://www.w3id.org/ecsel-dr-PMV#activates_task> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#activates_task> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#activates_task> <http://www.w3.org/2000/01/rdf-schema#comment> "Specialization of the activates property that links the class Rule with Task in the course of the process flow." .
+<http://www.w3id.org/ecsel-dr-PMV#activates_task> <http://www.w3.org/2000/01/rdf-schema#label> "activates task"@en .
+<http://www.w3id.org/ecsel-dr-PMV#activates_task> <http://www.w3.org/2004/02/skos/core#altLabel> "activ task" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#belongs_to_model
+<http://www.w3id.org/ecsel-dr-PMV#belongs_to_model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#belongs_to_model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#belongs_to_model> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Model_Element> .
+<http://www.w3id.org/ecsel-dr-PMV#belongs_to_model> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Model> .
+<http://www.w3id.org/ecsel-dr-PMV#belongs_to_model> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the connection between a \"Function\" and another \"Process\" as this process may deliver an output used in this function." .
+<http://www.w3id.org/ecsel-dr-PMV#belongs_to_model> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to model"@en .
+<http://www.w3id.org/ecsel-dr-PMV#belongs_to_model> <http://www.w3.org/2004/02/skos/core#altLabel> "belong" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#carries_out_task
+<http://www.w3id.org/ecsel-dr-PMV#carries_out_task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#carries_out_task> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_carried_out_by> .
+<http://www.w3id.org/ecsel-dr-PMV#carries_out_task> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error363> .
+<http://org.semanticweb.owlapi/error#Error363> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#carries_out_task> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Role> .
+<http://www.w3id.org/ecsel-dr-PMV#carries_out_task> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#carries_out_task> <http://www.w3.org/2000/01/rdf-schema#comment> "Role(s) or Organizational unit(s) that carrries (carry) out the process step (equivalent to R in RACI notation)" .
+<http://www.w3id.org/ecsel-dr-PMV#carries_out_task> <http://www.w3.org/2000/01/rdf-schema#label> "carries out task"@en .
+<http://www.w3id.org/ecsel-dr-PMV#carries_out_task> <http://www.w3.org/2004/02/skos/core#altLabel> "carri" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#connected_to
+<http://www.w3id.org/ecsel-dr-PMV#connected_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#connected_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#connected_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#connected_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Model> .
+<http://www.w3id.org/ecsel-dr-PMV#connected_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Model> .
+<http://www.w3id.org/ecsel-dr-PMV#connected_to> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the connections and dependencies between models"@en .
+<http://www.w3id.org/ecsel-dr-PMV#connected_to> <http://www.w3.org/2000/01/rdf-schema#label> "connected to"@en .
+<http://www.w3id.org/ecsel-dr-PMV#connected_to> <http://www.w3.org/2004/02/skos/core#altLabel> "connect" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#contains
+<http://www.w3id.org/ecsel-dr-PMV#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#contains> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model> .
+<http://www.w3id.org/ecsel-dr-PMV#contains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Model> .
+<http://www.w3id.org/ecsel-dr-PMV#contains> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error344> .
+<http://org.semanticweb.owlapi/error#Error344> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#contains> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Model with the elements represented by it."@en .
+<http://www.w3id.org/ecsel-dr-PMV#contains> <http://www.w3.org/2000/01/rdf-schema#label> "contains"@en .
+<http://www.w3id.org/ecsel-dr-PMV#contains> <http://www.w3.org/2004/02/skos/core#altLabel> "contain" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#contributes_to_task
+<http://www.w3id.org/ecsel-dr-PMV#contributes_to_task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#contributes_to_task> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_worked_on_by_collaboration_of> .
+<http://www.w3id.org/ecsel-dr-PMV#contributes_to_task> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Role> .
+<http://www.w3id.org/ecsel-dr-PMV#contributes_to_task> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#contributes_to_task> <http://www.w3.org/2000/01/rdf-schema#comment> "Role(s) that contribute(s) to a process step during it is carried out." .
+<http://www.w3id.org/ecsel-dr-PMV#contributes_to_task> <http://www.w3.org/2000/01/rdf-schema#label> "contributes to task"@en .
+<http://www.w3id.org/ecsel-dr-PMV#contributes_to_task> <http://www.w3.org/2004/02/skos/core#altLabel> "contribut" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#controls_function
+<http://www.w3id.org/ecsel-dr-PMV#controls_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#controls_function> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal> .
+<http://www.w3id.org/ecsel-dr-PMV#controls_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#controls_function> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal> .
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#controls_function> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#controls_function> <http://www.w3.org/2000/01/rdf-schema#comment> "A goal controls the outcome of a function in a process flow." .
+<http://www.w3id.org/ecsel-dr-PMV#controls_function> <http://www.w3.org/2000/01/rdf-schema#label> "controls function"@en .
+<http://www.w3id.org/ecsel-dr-PMV#controls_function> <http://www.w3.org/2004/02/skos/core#altLabel> "control" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#creates_event
+<http://www.w3id.org/ecsel-dr-PMV#creates_event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#creates_event> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_created_by> .
+<http://www.w3id.org/ecsel-dr-PMV#creates_event> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error350> .
+<http://org.semanticweb.owlapi/error#Error350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#creates_event> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#creates_event> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Event> .
+<http://www.w3id.org/ecsel-dr-PMV#creates_event> <http://www.w3.org/2000/01/rdf-schema#comment> "A process step creates an event. The connector is used to represent the chronological order in an EPC." .
+<http://www.w3id.org/ecsel-dr-PMV#creates_event> <http://www.w3.org/2000/01/rdf-schema#label> "creates event"@en .
+<http://www.w3id.org/ecsel-dr-PMV#creates_event> <http://www.w3.org/2004/02/skos/core#altLabel> "creat" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model
+<http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error349> .
+<http://org.semanticweb.owlapi/error#Error349> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Model> .
+<http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a FuncitonObject or a ModelElement with the Model that it's represented in."@en .
+<http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model> <http://www.w3.org/2000/01/rdf-schema#label> "diagramed on model"@en .
+<http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model> <http://www.w3.org/2004/02/skos/core#altLabel> "diagram" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#evaluates
+<http://www.w3id.org/ecsel-dr-PMV#evaluates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#evaluates> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_evaluated_by> .
+<http://www.w3id.org/ecsel-dr-PMV#evaluates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Join_Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#evaluates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Event> .
+<http://www.w3id.org/ecsel-dr-PMV#evaluates> <http://www.w3.org/2000/01/rdf-schema#comment> "A rule evaluates an event. The connector is used to represent the chronological order in an EPC." .
+<http://www.w3id.org/ecsel-dr-PMV#evaluates> <http://www.w3.org/2000/01/rdf-schema#label> "evaluates"@en .
+<http://www.w3id.org/ecsel-dr-PMV#evaluates> <http://www.w3.org/2004/02/skos/core#altLabel> "evalu" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#executes_software
+<http://www.w3id.org/ecsel-dr-PMV#executes_software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#executes_software> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_executed_by_function> .
+<http://www.w3id.org/ecsel-dr-PMV#executes_software> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#executes_software> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/dcmitype/Software> .
+<http://purl.org/dc/dcmitype/Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#executes_software> <http://www.w3.org/2000/01/rdf-schema#comment> "A function in a process flow excutes software." .
+<http://www.w3id.org/ecsel-dr-PMV#executes_software> <http://www.w3.org/2000/01/rdf-schema#label> "executes software"@en .
+<http://www.w3id.org/ecsel-dr-PMV#executes_software> <http://www.w3.org/2004/02/skos/core#altLabel> "execut" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#flow
+<http://www.w3id.org/ecsel-dr-PMV#flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#flow> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Model_Element> .
+<http://www.w3id.org/ecsel-dr-PMV#flow> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Model_Element> .
+<http://www.w3id.org/ecsel-dr-PMV#flow> <http://www.w3.org/2000/01/rdf-schema#comment> "Enables the modelling of the process flow by logically connecting the different process elements. Therefore, the domain and the range are set to a \"Process Element\"." .
+<http://www.w3id.org/ecsel-dr-PMV#flow> <http://www.w3.org/2000/01/rdf-schema#label> "flow"@en .
+<http://www.w3id.org/ecsel-dr-PMV#flow> <http://www.w3.org/2004/02/skos/core#altLabel> "flow" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#follows
+<http://www.w3id.org/ecsel-dr-PMV#follows> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#follows> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of> .
+<http://www.w3id.org/ecsel-dr-PMV#follows> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#follows> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#follows> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#follows> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#follows> <http://www.w3.org/2000/01/rdf-schema#comment> "A process step follows a process step. The connector is used to represent the chronological order in an EPC." .
+<http://www.w3id.org/ecsel-dr-PMV#follows> <http://www.w3.org/2000/01/rdf-schema#label> "follows"@en .
+<http://www.w3id.org/ecsel-dr-PMV#follows> <http://www.w3.org/2004/02/skos/core#altLabel> "follow" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#has_as_input
+<http://www.w3id.org/ecsel-dr-PMV#has_as_input> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_input> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_input_for> .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_input> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_input> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Technical_Term> .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_input> <http://www.w3.org/2000/01/rdf-schema#comment> "A process step can have technical term(s) as input." .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_input> <http://www.w3.org/2000/01/rdf-schema#label> "has as input"@en .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_input> <http://www.w3.org/2004/02/skos/core#altLabel> "input" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#has_as_output
+<http://www.w3id.org/ecsel-dr-PMV#has_as_output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_output> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_output_of> .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_output> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_output> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_output> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Output> .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_output> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Technical_Term> .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_output> <http://www.w3.org/2000/01/rdf-schema#comment> "A function in a process flow produces a physical or non-physical output." .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_output> <http://www.w3.org/2000/01/rdf-schema#comment> "A process step can have technical term(s) as output." .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_output> <http://www.w3.org/2000/01/rdf-schema#label> "has as output"@en .
+<http://www.w3id.org/ecsel-dr-PMV#has_as_output> <http://www.w3.org/2004/02/skos/core#altLabel> "output" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#has_next_model
+<http://www.w3id.org/ecsel-dr-PMV#has_next_model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#has_next_model> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#has_previous_model> .
+<http://www.w3id.org/ecsel-dr-PMV#has_next_model> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> .
+<http://www.w3id.org/ecsel-dr-PMV#has_next_model> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> .
+<http://www.w3id.org/ecsel-dr-PMV#has_next_model> <http://www.w3.org/2000/01/rdf-schema#comment> "An EPC can have another EPC following which is dependent on the result. The connector is used to represent the chronological order in a VACD." .
+<http://www.w3id.org/ecsel-dr-PMV#has_next_model> <http://www.w3.org/2000/01/rdf-schema#label> "has next model" .
+<http://www.w3id.org/ecsel-dr-PMV#has_next_model> <http://www.w3.org/2004/02/skos/core#altLabel> "model" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#has_object
+<http://www.w3id.org/ecsel-dr-PMV#has_object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#has_object> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#relevant_to> .
+<http://www.w3id.org/ecsel-dr-PMV#has_object> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error352> .
+<http://org.semanticweb.owlapi/error#Error352> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#has_object> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error339> .
+<http://org.semanticweb.owlapi/error#Error339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#has_object> <http://www.w3.org/2000/01/rdf-schema#comment> "EPCs and Value-added chain diagrams consist of objects." .
+<http://www.w3id.org/ecsel-dr-PMV#has_object> <http://www.w3.org/2000/01/rdf-schema#label> "has object"@en .
+<http://www.w3id.org/ecsel-dr-PMV#has_object> <http://www.w3.org/2004/02/skos/core#altLabel> "object" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#has_previous_model
+<http://www.w3id.org/ecsel-dr-PMV#has_previous_model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#has_previous_model> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> .
+<http://www.w3id.org/ecsel-dr-PMV#has_previous_model> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> .
+<http://www.w3id.org/ecsel-dr-PMV#has_previous_model> <http://www.w3.org/2000/01/rdf-schema#comment> "An EPC can have another EPC previous to itself and is dependent on its results. The connector is used to represent the chronological order in a VACD." .
+<http://www.w3id.org/ecsel-dr-PMV#has_previous_model> <http://www.w3.org/2000/01/rdf-schema#label> "has previous model"@en .
+<http://www.w3id.org/ecsel-dr-PMV#has_previous_model> <http://www.w3.org/2004/02/skos/core#altLabel> "previou model" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#has_sub_flow
+<http://www.w3id.org/ecsel-dr-PMV#has_sub_flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#has_sub_flow> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of> .
+<http://www.w3id.org/ecsel-dr-PMV#has_sub_flow> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#has_sub_flow> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> .
+<http://www.w3id.org/ecsel-dr-PMV#has_sub_flow> <http://www.w3.org/2000/01/rdf-schema#comment> "EPCs can have other EPCs as subordinates. The connector is used to represent the hierarchical order." .
+<http://www.w3id.org/ecsel-dr-PMV#has_sub_flow> <http://www.w3.org/2000/01/rdf-schema#label> "has sub flow"@en .
+<http://www.w3id.org/ecsel-dr-PMV#has_sub_flow> <http://www.w3.org/2004/02/skos/core#altLabel> "sub flow" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#has_sub_model
+<http://www.w3id.org/ecsel-dr-PMV#has_sub_model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#has_sub_model> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#has_sub_model> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Model> .
+<http://www.w3id.org/ecsel-dr-PMV#has_sub_model> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes to which instance of \"Process\" an instance of a \"Process Element\" belongs." .
+<http://www.w3id.org/ecsel-dr-PMV#has_sub_model> <http://www.w3.org/2000/01/rdf-schema#label> "has sub model"@en .
+<http://www.w3id.org/ecsel-dr-PMV#has_sub_model> <http://www.w3.org/2004/02/skos/core#altLabel> "sub model" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#has_subordinate
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#has_superior> .
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram> .
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> .
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate> <http://www.w3.org/2000/01/rdf-schema#comment> "Value-added chain diagrams have EPCs as subordinates. The connector is used to represent the hierarchical order." .
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate> <http://www.w3.org/2000/01/rdf-schema#label> "has subordinate" .
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate> <http://www.w3.org/2004/02/skos/core#altLabel> "subordin" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#has_subordinate_VACD
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate_VACD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate_VACD> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#has_superior_VACD> .
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate_VACD> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram> .
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate_VACD> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram> .
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate_VACD> <http://www.w3.org/2000/01/rdf-schema#comment> "Value-added chain diagrams have value-added chain diagrams as subordinates. The connector is used to represent the hierarchical order." .
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate_VACD> <http://www.w3.org/2000/01/rdf-schema#label> "has subordinate VACD" .
+<http://www.w3id.org/ecsel-dr-PMV#has_subordinate_VACD> <http://www.w3.org/2004/02/skos/core#altLabel> "subordin vacd" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#has_superior
+<http://www.w3id.org/ecsel-dr-PMV#has_superior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#has_superior> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> .
+<http://www.w3id.org/ecsel-dr-PMV#has_superior> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram> .
+<http://www.w3id.org/ecsel-dr-PMV#has_superior> <http://www.w3.org/2000/01/rdf-schema#comment> "EPCs have value-added chain diagrams as superior. The connector is used to represent the hierarchical order." .
+<http://www.w3id.org/ecsel-dr-PMV#has_superior> <http://www.w3.org/2000/01/rdf-schema#label> "has superior" .
+<http://www.w3id.org/ecsel-dr-PMV#has_superior> <http://www.w3.org/2004/02/skos/core#altLabel> "superior" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#has_superior_VACD
+<http://www.w3id.org/ecsel-dr-PMV#has_superior_VACD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#has_superior_VACD> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram> .
+<http://www.w3id.org/ecsel-dr-PMV#has_superior_VACD> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram> .
+<http://www.w3id.org/ecsel-dr-PMV#has_superior_VACD> <http://www.w3.org/2000/01/rdf-schema#comment> "Value-added chain diagrams have another value-added chain diagram as superior. The connector is used to represent the hierarchical order." .
+<http://www.w3id.org/ecsel-dr-PMV#has_superior_VACD> <http://www.w3.org/2000/01/rdf-schema#label> "has superior VACD" .
+<http://www.w3id.org/ecsel-dr-PMV#has_superior_VACD> <http://www.w3.org/2004/02/skos/core#altLabel> "superior vacd" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_activated_by
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error338> .
+<http://org.semanticweb.owlapi/error#Error338> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by> <http://www.w3.org/2000/01/rdf-schema#comment> "A process step is activated by an event or a rule. The connector is used to represent the chronological order in an EPC." .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by> <http://www.w3.org/2000/01/rdf-schema#label> "is activated by" .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by> <http://www.w3.org/2004/02/skos/core#altLabel> "activ" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_activated_by_function
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_function> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-PMV#is_activated_by> .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_function> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error346> .
+<http://org.semanticweb.owlapi/error#Error346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_function> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Event> .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_function> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the inverse property of activatesFunction." .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_function> <http://www.w3.org/2000/01/rdf-schema#label> "is activated by function" .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_function> <http://www.w3.org/2004/02/skos/core#altLabel> "activ function" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_activated_by_task
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_task> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-PMV#is_activated_by> .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_task> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_task> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_task> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the inverse property of activatesTask." .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_task> <http://www.w3.org/2000/01/rdf-schema#label> "is activated by task" .
+<http://www.w3id.org/ecsel-dr-PMV#is_activated_by_task> <http://www.w3.org/2004/02/skos/core#altLabel> "activ task" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_assigned_to
+<http://www.w3id.org/ecsel-dr-PMV#is_assigned_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_assigned_to> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#leads_to_rule> .
+<http://www.w3id.org/ecsel-dr-PMV#is_assigned_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#is_assigned_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#is_assigned_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#is_assigned_to> <http://www.w3.org/2000/01/rdf-schema#comment> "A rule is assigned to a process step. The connector is used to represent the chronological order in an EPC." .
+<http://www.w3id.org/ecsel-dr-PMV#is_assigned_to> <http://www.w3.org/2000/01/rdf-schema#label> "is assigned to"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_assigned_to> <http://www.w3.org/2004/02/skos/core#altLabel> "assign" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_carried_out_by
+<http://www.w3id.org/ecsel-dr-PMV#is_carried_out_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_carried_out_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#is_carried_out_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error341> .
+<http://org.semanticweb.owlapi/error#Error341> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#is_carried_out_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Role> .
+<http://www.w3id.org/ecsel-dr-PMV#is_carried_out_by> <http://www.w3.org/2000/01/rdf-schema#comment> "A process step is carried out by role(s) or organizational unit(s) (equivalent to R in RACI notation)." .
+<http://www.w3id.org/ecsel-dr-PMV#is_carried_out_by> <http://www.w3.org/2000/01/rdf-schema#label> "is carried out by"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_carried_out_by> <http://www.w3.org/2004/02/skos/core#altLabel> "carri" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal
+<http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal> .
+<http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal> <http://www.w3.org/2000/01/rdf-schema#comment> "The result of a function in a process flow is controlled by a goal." .
+<http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal> <http://www.w3.org/2000/01/rdf-schema#label> "is controlled by"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal> <http://www.w3.org/2004/02/skos/core#altLabel> "control" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_created_by
+<http://www.w3id.org/ecsel-dr-PMV#is_created_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_created_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Event> .
+<http://www.w3id.org/ecsel-dr-PMV#is_created_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error337> .
+<http://org.semanticweb.owlapi/error#Error337> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#is_created_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#is_created_by> <http://www.w3.org/2000/01/rdf-schema#comment> "An event is created by a process step. The connector is used to represent the chronological order in an EPC." .
+<http://www.w3id.org/ecsel-dr-PMV#is_created_by> <http://www.w3.org/2000/01/rdf-schema#label> "is created by"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_created_by> <http://www.w3.org/2004/02/skos/core#altLabel> "creat" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_dependent_on
+<http://www.w3id.org/ecsel-dr-PMV#is_dependent_on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_dependent_on> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#leads_to_event> .
+<http://www.w3id.org/ecsel-dr-PMV#is_dependent_on> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Event> .
+<http://www.w3id.org/ecsel-dr-PMV#is_dependent_on> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#is_dependent_on> <http://www.w3.org/2000/01/rdf-schema#comment> "An event is dependent on a rule. The connector is used to represent the chronological order in an EPC." .
+<http://www.w3id.org/ecsel-dr-PMV#is_dependent_on> <http://www.w3.org/2000/01/rdf-schema#label> "is dependent on"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_dependent_on> <http://www.w3.org/2004/02/skos/core#altLabel> "depend" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_evaluated_by
+<http://www.w3id.org/ecsel-dr-PMV#is_evaluated_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_evaluated_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Event> .
+<http://www.w3id.org/ecsel-dr-PMV#is_evaluated_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Join_Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#is_evaluated_by> <http://www.w3.org/2000/01/rdf-schema#comment> "An event is evaluated by a rule. The connector is used to represent the chronological order in an EPC." .
+<http://www.w3id.org/ecsel-dr-PMV#is_evaluated_by> <http://www.w3.org/2000/01/rdf-schema#label> "is evaluated by"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_evaluated_by> <http://www.w3.org/2004/02/skos/core#altLabel> "evalu" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_executed_by_function
+<http://www.w3id.org/ecsel-dr-PMV#is_executed_by_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_executed_by_function> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/dc/dcmitype/Software> .
+<http://www.w3id.org/ecsel-dr-PMV#is_executed_by_function> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#is_executed_by_function> <http://www.w3.org/2000/01/rdf-schema#comment> "Software is executed by a function in a process flow." .
+<http://www.w3id.org/ecsel-dr-PMV#is_executed_by_function> <http://www.w3.org/2000/01/rdf-schema#label> "is exectued by function"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_executed_by_function> <http://www.w3.org/2004/02/skos/core#altLabel> "exectu" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_input_for
+<http://www.w3id.org/ecsel-dr-PMV#is_input_for> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_input_for> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Technical_Term> .
+<http://www.w3id.org/ecsel-dr-PMV#is_input_for> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#is_input_for> <http://www.w3.org/2000/01/rdf-schema#comment> "A software independent business object or product/services may be input for a process step." .
+<http://www.w3id.org/ecsel-dr-PMV#is_input_for> <http://www.w3.org/2000/01/rdf-schema#label> "is input for"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_input_for> <http://www.w3.org/2004/02/skos/core#altLabel> "input" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_input_of
+<http://www.w3id.org/ecsel-dr-PMV#is_input_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_input_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_input_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Input> .
+<http://www.w3id.org/ecsel-dr-PMV#is_input_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#is_input_of> <http://www.w3.org/2000/01/rdf-schema#comment> "An external physical or non-physical input is used in a function in a process flow and is therefore input of it." .
+<http://www.w3id.org/ecsel-dr-PMV#is_input_of> <http://www.w3.org/2000/01/rdf-schema#label> "is input of"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_input_of> <http://www.w3.org/2004/02/skos/core#altLabel> "isinput" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_linked_by
+<http://www.w3id.org/ecsel-dr-PMV#is_linked_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_linked_by> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#links> .
+<http://www.w3id.org/ecsel-dr-PMV#is_linked_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#is_linked_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#is_linked_by> <http://www.w3.org/2000/01/rdf-schema#label> "is linked by"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_linked_by> <http://www.w3.org/2004/02/skos/core#altLabel> "link" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_output_of
+<http://www.w3id.org/ecsel-dr-PMV#is_output_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_output_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_output_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Output> .
+<http://www.w3id.org/ecsel-dr-PMV#is_output_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Technical_Term> .
+<http://www.w3id.org/ecsel-dr-PMV#is_output_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#is_output_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#is_output_of> <http://www.w3.org/2000/01/rdf-schema#comment> "A software independent business object may be output of a process step." .
+<http://www.w3id.org/ecsel-dr-PMV#is_output_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Physical or non-physical output is produced by a function in a process flow." .
+<http://www.w3id.org/ecsel-dr-PMV#is_output_of> <http://www.w3.org/2000/01/rdf-schema#label> "is output of"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_output_of> <http://www.w3.org/2004/02/skos/core#altLabel> "output" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of
+<http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of> <http://www.w3.org/2000/01/rdf-schema#comment> "The connector is used to represent the chronological order of value chain elements." .
+<http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of> <http://www.w3.org/2000/01/rdf-schema#label> "is predecessor of"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of> <http://www.w3.org/2004/02/skos/core#altLabel> "predecessor" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_processed_by_human_output
+<http://www.w3id.org/ecsel-dr-PMV#is_processed_by_human_output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_processed_by_human_output> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#processes_function> .
+<http://www.w3id.org/ecsel-dr-PMV#is_processed_by_human_output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_processed_by_human_output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_processed_by_human_output> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#is_processed_by_human_output> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Human_Output> .
+<http://www.w3id.org/ecsel-dr-PMV#is_processed_by_human_output> <http://www.w3.org/2000/01/rdf-schema#comment> "The execution of a function in a process flow is processed by a person (human output)." .
+<http://www.w3id.org/ecsel-dr-PMV#is_processed_by_human_output> <http://www.w3.org/2000/01/rdf-schema#label> "is processed by"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_processed_by_human_output> <http://www.w3.org/2004/02/skos/core#altLabel> "process" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_represented_by
+<http://www.w3id.org/ecsel-dr-PMV#is_represented_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_represented_by> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#represents> .
+<http://www.w3id.org/ecsel-dr-PMV#is_represented_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error351> .
+<http://org.semanticweb.owlapi/error#Error351> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#is_represented_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#is_represented_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity> .
+<http://www.w3id.org/ecsel-dr-PMV#is_represented_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Screen> .
+<http://www.w3id.org/ecsel-dr-PMV#is_represented_by> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the inverse property of represents." .
+<http://www.w3id.org/ecsel-dr-PMV#is_represented_by> <http://www.w3.org/2000/01/rdf-schema#label> "is represented by" .
+<http://www.w3id.org/ecsel-dr-PMV#is_represented_by> <http://www.w3.org/2004/02/skos/core#altLabel> "repres" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_responsible_for_fuction
+<http://www.w3id.org/ecsel-dr-PMV#is_responsible_for_fuction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_responsible_for_fuction> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#is_under_responsibility_of> .
+<http://www.w3id.org/ecsel-dr-PMV#is_responsible_for_fuction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organizational_Unit> .
+<http://www.w3.org/ns/org#Organizational_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#is_responsible_for_fuction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#is_responsible_for_fuction> <http://www.w3.org/2000/01/rdf-schema#comment> "An organizational unit is responible for a function in a process flow." .
+<http://www.w3id.org/ecsel-dr-PMV#is_responsible_for_fuction> <http://www.w3.org/2000/01/rdf-schema#label> "is responsible for"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_responsible_for_fuction> <http://www.w3.org/2004/02/skos/core#altLabel> "respons" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of
+<http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> .
+<http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of> <http://www.w3.org/2000/01/rdf-schema#comment> "EPCs can have other EPCs as superiors. The connector is used to represent the hierarchical order." .
+<http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of> <http://www.w3.org/2000/01/rdf-schema#label> "is sub flow of"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of> <http://www.w3.org/2004/02/skos/core#altLabel> "sub flow" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_supported_by
+<http://www.w3id.org/ecsel-dr-PMV#is_supported_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_supported_by> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#supports_task> .
+<http://www.w3id.org/ecsel-dr-PMV#is_supported_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#is_supported_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Application_System_Type> .
+<http://www.w3id.org/ecsel-dr-PMV#is_supported_by> <http://www.w3.org/2000/01/rdf-schema#comment> "A process step is supported by an application system type." .
+<http://www.w3id.org/ecsel-dr-PMV#is_supported_by> <http://www.w3.org/2000/01/rdf-schema#label> "is supported by" .
+<http://www.w3id.org/ecsel-dr-PMV#is_supported_by> <http://www.w3.org/2004/02/skos/core#altLabel> "support" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_transformed_by
+<http://www.w3id.org/ecsel-dr-PMV#is_transformed_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_transformed_by> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#transforms> .
+<http://www.w3id.org/ecsel-dr-PMV#is_transformed_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Environmental_Data> .
+<http://www.w3id.org/ecsel-dr-PMV#is_transformed_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#is_transformed_by> <http://www.w3.org/2000/01/rdf-schema#comment> "Environmental data is transformed by a function in a process flow." .
+<http://www.w3id.org/ecsel-dr-PMV#is_transformed_by> <http://www.w3.org/2000/01/rdf-schema#label> "is transformed by"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_transformed_by> <http://www.w3.org/2004/02/skos/core#altLabel> "transform" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_under_responsibility_of
+<http://www.w3id.org/ecsel-dr-PMV#is_under_responsibility_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_under_responsibility_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_under_responsibility_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#is_under_responsibility_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organizational_Unit> .
+<http://www.w3id.org/ecsel-dr-PMV#is_under_responsibility_of> <http://www.w3.org/2000/01/rdf-schema#comment> "The execution of a function in a process flow is under the responsibility of an organizational unit." .
+<http://www.w3id.org/ecsel-dr-PMV#is_under_responsibility_of> <http://www.w3.org/2000/01/rdf-schema#label> "is under responsibility of"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_under_responsibility_of> <http://www.w3.org/2004/02/skos/core#altLabel> "respons" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_used_by_function
+<http://www.w3id.org/ecsel-dr-PMV#is_used_by_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_used_by_function> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#uses> .
+<http://www.w3id.org/ecsel-dr-PMV#is_used_by_function> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error355> .
+<http://org.semanticweb.owlapi/error#Error355> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#is_used_by_function> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#is_used_by_function> <http://www.w3.org/2000/01/rdf-schema#comment> "An external resource is used by a function in a process flow." .
+<http://www.w3id.org/ecsel-dr-PMV#is_used_by_function> <http://www.w3.org/2000/01/rdf-schema#label> "is used by function"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_used_by_function> <http://www.w3.org/2004/02/skos/core#altLabel> "use" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_worked_on_by_collaboration_of
+<http://www.w3id.org/ecsel-dr-PMV#is_worked_on_by_collaboration_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_worked_on_by_collaboration_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-SO#is_workshop_of> .
+<http://www.w3id.org/ecsel-dr-SO#is_workshop_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#is_worked_on_by_collaboration_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#is_worked_on_by_collaboration_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Role> .
+<http://www.w3id.org/ecsel-dr-PMV#is_worked_on_by_collaboration_of> <http://www.w3.org/2000/01/rdf-schema#comment> "A process step is worked on by collaboration of role(s)." .
+<http://www.w3id.org/ecsel-dr-PMV#is_worked_on_by_collaboration_of> <http://www.w3.org/2000/01/rdf-schema#label> "is worked on by collaboration of"@en .
+<http://www.w3id.org/ecsel-dr-PMV#is_worked_on_by_collaboration_of> <http://www.w3.org/2004/02/skos/core#altLabel> "work collabor" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#leads_to
+<http://www.w3id.org/ecsel-dr-PMV#leads_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to> <http://www.w3.org/2000/01/rdf-schema#comment> "The connector is used to represent the chronological order in an EPC." .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to> <http://www.w3.org/2000/01/rdf-schema#label> "leads to"@en .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to> <http://www.w3.org/2004/02/skos/core#altLabel> "lead" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#leads_to_event
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_event> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-PMV#leads_to> .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_event> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_event> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Event> .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_event> <http://www.w3.org/2000/01/rdf-schema#comment> "A rule leads to an event. The connector is used to represent the chronological order in an EPC." .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_event> <http://www.w3.org/2000/01/rdf-schema#label> "leads to event"@en .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_event> <http://www.w3.org/2004/02/skos/core#altLabel> "lead event" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#leads_to_rule
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_rule> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-PMV#leads_to> .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_rule> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_rule> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_rule> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_rule> <http://www.w3.org/2000/01/rdf-schema#comment> "A process step leads to a rule. The connector is used to represent the chronological order in an EPC." .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_rule> <http://www.w3.org/2000/01/rdf-schema#label> "leads to rule"@en .
+<http://www.w3id.org/ecsel-dr-PMV#leads_to_rule> <http://www.w3.org/2004/02/skos/core#altLabel> "lead rule" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#links
+<http://www.w3id.org/ecsel-dr-PMV#links> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#links> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#links> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#links> <http://www.w3.org/2000/01/rdf-schema#label> "links"@en .
+<http://www.w3id.org/ecsel-dr-PMV#links> <http://www.w3.org/2004/02/skos/core#altLabel> "link" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#must_be_informed_about
+<http://www.w3id.org/ecsel-dr-PMV#must_be_informed_about> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#must_be_informed_about> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-PMV#results_forwarded_to> .
+<http://www.w3id.org/ecsel-dr-PMV#must_be_informed_about> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Role> .
+<http://www.w3id.org/ecsel-dr-PMV#must_be_informed_about> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#must_be_informed_about> <http://www.w3.org/2000/01/rdf-schema#comment> "Role(s) to be informed after/ during the process step is carried out (one-way-communication) (equivalent to I in RACI notation)" .
+<http://www.w3id.org/ecsel-dr-PMV#must_be_informed_about> <http://www.w3.org/2000/01/rdf-schema#label> "must be informed about"@en .
+<http://www.w3id.org/ecsel-dr-PMV#must_be_informed_about> <http://www.w3.org/2004/02/skos/core#altLabel> "inform" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#processes_function
+<http://www.w3id.org/ecsel-dr-PMV#processes_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#processes_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#processes_function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#processes_function> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Human_Output> .
+<http://www.w3id.org/ecsel-dr-PMV#processes_function> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#processes_function> <http://www.w3.org/2000/01/rdf-schema#comment> "Some person, referred to as human output here, processes a function in a process flow. " .
+<http://www.w3id.org/ecsel-dr-PMV#processes_function> <http://www.w3.org/2000/01/rdf-schema#label> "processes" .
+<http://www.w3id.org/ecsel-dr-PMV#processes_function> <http://www.w3.org/2004/02/skos/core#altLabel> "process" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#relevant_to
+<http://www.w3id.org/ecsel-dr-PMV#relevant_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#relevant_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error362> .
+<http://org.semanticweb.owlapi/error#Error362> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#relevant_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error343> .
+<http://org.semanticweb.owlapi/error#Error343> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#relevant_to> <http://www.w3.org/2000/01/rdf-schema#comment> "An object is relevant for EPCs and value-added chain diagrams." .
+<http://www.w3id.org/ecsel-dr-PMV#relevant_to> <http://www.w3.org/2000/01/rdf-schema#label> "relevant to"@en .
+<http://www.w3id.org/ecsel-dr-PMV#relevant_to> <http://www.w3.org/2004/02/skos/core#altLabel> "relev" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#represents
+<http://www.w3id.org/ecsel-dr-PMV#represents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#represents> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity> .
+<http://www.w3id.org/ecsel-dr-PMV#represents> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Screen> .
+<http://www.w3id.org/ecsel-dr-PMV#represents> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error340> .
+<http://org.semanticweb.owlapi/error#Error340> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#represents> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#represents> <http://www.w3.org/2000/01/rdf-schema#comment> "A aris:BPActivity is the graphical representation of a aris:VACD or aris:BPFlow in a aris:VACD." .
+<http://www.w3id.org/ecsel-dr-PMV#represents> <http://www.w3.org/2000/01/rdf-schema#label> "represents"@en .
+<http://www.w3id.org/ecsel-dr-PMV#represents> <http://www.w3.org/2004/02/skos/core#altLabel> "repres" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#results_forwarded_to
+<http://www.w3id.org/ecsel-dr-PMV#results_forwarded_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#results_forwarded_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#results_forwarded_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Role> .
+<http://www.w3id.org/ecsel-dr-PMV#results_forwarded_to> <http://www.w3.org/2000/01/rdf-schema#comment> "A result of a process step is forwarded to role(s)." .
+<http://www.w3id.org/ecsel-dr-PMV#results_forwarded_to> <http://www.w3.org/2000/01/rdf-schema#label> "resultIs forwarded to"@en .
+<http://www.w3id.org/ecsel-dr-PMV#results_forwarded_to> <http://www.w3.org/2004/02/skos/core#altLabel> "result forward" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#supports_task
+<http://www.w3id.org/ecsel-dr-PMV#supports_task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#supports_task> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Application_System_Type> .
+<http://www.w3id.org/ecsel-dr-PMV#supports_task> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#supports_task> <http://www.w3.org/2000/01/rdf-schema#comment> "A process step is supported by an Application system." .
+<http://www.w3id.org/ecsel-dr-PMV#supports_task> <http://www.w3.org/2000/01/rdf-schema#label> "supports task"@en .
+<http://www.w3id.org/ecsel-dr-PMV#supports_task> <http://www.w3.org/2004/02/skos/core#altLabel> "support" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#transforms
+<http://www.w3id.org/ecsel-dr-PMV#transforms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#transforms> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#transforms> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-PMV#Environmental_Data> .
+<http://www.w3id.org/ecsel-dr-PMV#transforms> <http://www.w3.org/2000/01/rdf-schema#comment> "A function in a process flow transforms environmental data like work schedules." .
+<http://www.w3id.org/ecsel-dr-PMV#transforms> <http://www.w3.org/2000/01/rdf-schema#label> "transforms"@en .
+<http://www.w3id.org/ecsel-dr-PMV#transforms> <http://www.w3.org/2004/02/skos/core#altLabel> "transform" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#uses
+<http://www.w3id.org/ecsel-dr-PMV#uses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#uses> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#uses> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error342> .
+<http://org.semanticweb.owlapi/error#Error342> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#uses> <http://www.w3.org/2000/01/rdf-schema#comment> "A function in a process flow uses external resources like machines or computer hardware during its execution." .
+<http://www.w3id.org/ecsel-dr-PMV#uses> <http://www.w3.org/2000/01/rdf-schema#label> "uses"@en .
+<http://www.w3id.org/ecsel-dr-PMV#uses> <http://www.w3.org/2004/02/skos/core#altLabel> "use" .
+# 
+# http://www.w3id.org/ecsel-dr-SO#is_workshop_of
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-PMV#IP_code
+<http://www.w3id.org/ecsel-dr-PMV#IP_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#IP_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#IP_code> <http://www.w3.org/2000/01/rdf-schema#label> "IP code"@en .
+<http://www.w3id.org/ecsel-dr-PMV#IP_code> <http://www.w3.org/2004/02/skos/core#altLabel> "ip code" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#completion_status
+<http://www.w3id.org/ecsel-dr-PMV#completion_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#completion_status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#completion_status> <http://www.w3.org/2000/01/rdf-schema#label> "completion status"@en .
+<http://www.w3id.org/ecsel-dr-PMV#completion_status> <http://www.w3.org/2004/02/skos/core#altLabel> "complet statu" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#creator
+<http://www.w3id.org/ecsel-dr-PMV#creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#creator> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#creator> <http://www.w3.org/2000/01/rdf-schema#label> "creator"@en .
+<http://www.w3id.org/ecsel-dr-PMV#creator> <http://www.w3.org/2004/02/skos/core#altLabel> "creator" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#experience
+<http://www.w3id.org/ecsel-dr-PMV#experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#experience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Role> .
+<http://www.w3id.org/ecsel-dr-PMV#experience> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#experience> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the experience that is required."@en .
+<http://www.w3id.org/ecsel-dr-PMV#experience> <http://www.w3.org/2000/01/rdf-schema#label> "experience"@en .
+<http://www.w3id.org/ecsel-dr-PMV#experience> <http://www.w3.org/2004/02/skos/core#altLabel> "experi" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#handling
+<http://www.w3id.org/ecsel-dr-PMV#handling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#handling> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#handling> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#handling> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the requirements for the specific handling of objects."@en .
+<http://www.w3id.org/ecsel-dr-PMV#handling> <http://www.w3.org/2000/01/rdf-schema#label> "handling"@en .
+<http://www.w3id.org/ecsel-dr-PMV#handling> <http://www.w3.org/2004/02/skos/core#altLabel> "handl" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#identifier
+<http://www.w3id.org/ecsel-dr-PMV#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the unique identifier of the element."@en .
+<http://www.w3id.org/ecsel-dr-PMV#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "identifier"@en .
+<http://www.w3id.org/ecsel-dr-PMV#identifier> <http://www.w3.org/2004/02/skos/core#altLabel> "identifi"@en .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#knowledge
+<http://www.w3id.org/ecsel-dr-PMV#knowledge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#knowledge> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Role> .
+<http://www.w3id.org/ecsel-dr-PMV#knowledge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#knowledge> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the knowledge that is required."@en .
+<http://www.w3id.org/ecsel-dr-PMV#knowledge> <http://www.w3.org/2000/01/rdf-schema#label> "knwoledge"@en .
+<http://www.w3id.org/ecsel-dr-PMV#knowledge> <http://www.w3.org/2004/02/skos/core#altLabel> "knwoledg" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#mission
+<http://www.w3id.org/ecsel-dr-PMV#mission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#mission> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#mission> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes the mission or goal of a business process (flow)."@en .
+<http://www.w3id.org/ecsel-dr-PMV#mission> <http://www.w3.org/2000/01/rdf-schema#label> "mission"@en .
+<http://www.w3id.org/ecsel-dr-PMV#mission> <http://www.w3.org/2004/02/skos/core#altLabel> "mission" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#orphan
+<http://www.w3id.org/ecsel-dr-PMV#orphan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#orphan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#orphan> <http://www.w3.org/2000/01/rdf-schema#label> "orphan"@en .
+<http://www.w3id.org/ecsel-dr-PMV#orphan> <http://www.w3.org/2004/02/skos/core#altLabel> "orphan" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#owner
+<http://www.w3id.org/ecsel-dr-PMV#owner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#owner> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#owner> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the owner of a business process (flow)."@en .
+<http://www.w3id.org/ecsel-dr-PMV#owner> <http://www.w3.org/2000/01/rdf-schema#label> "owner"@en .
+<http://www.w3id.org/ecsel-dr-PMV#owner> <http://www.w3.org/2004/02/skos/core#altLabel> "owner" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#person_responsible
+<http://www.w3id.org/ecsel-dr-PMV#person_responsible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#person_responsible> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Subprocess_Diagram> .
+<http://www.w3id.org/ecsel-dr-PMV#person_responsible> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#person_responsible> <http://www.w3.org/2000/01/rdf-schema#comment> "States whether someone is responsible for the SubprocessDiagram or not."@en .
+<http://www.w3id.org/ecsel-dr-PMV#person_responsible> <http://www.w3.org/2000/01/rdf-schema#label> "person responsible"@en .
+<http://www.w3id.org/ecsel-dr-PMV#person_responsible> <http://www.w3.org/2004/02/skos/core#altLabel> "person respons" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#project_scope
+<http://www.w3id.org/ecsel-dr-PMV#project_scope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#project_scope> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#project_scope> <http://www.w3.org/2000/01/rdf-schema#label> "project scope"@en .
+<http://www.w3id.org/ecsel-dr-PMV#project_scope> <http://www.w3.org/2004/02/skos/core#altLabel> "project scope" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#remark_or_example
+<http://www.w3id.org/ecsel-dr-PMV#remark_or_example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#remark_or_example> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Application_System_Type> .
+<http://www.w3id.org/ecsel-dr-PMV#remark_or_example> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#remark_or_example> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes a remark or an example that is given specific to an element."@en .
+<http://www.w3id.org/ecsel-dr-PMV#remark_or_example> <http://www.w3.org/2000/01/rdf-schema#label> "remark or example"@en .
+<http://www.w3id.org/ecsel-dr-PMV#remark_or_example> <http://www.w3.org/2004/02/skos/core#altLabel> "remark exampl"@en .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#requirements
+<http://www.w3id.org/ecsel-dr-PMV#requirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#requirements> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#requirements> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of all requirements for the certain input or output."@en .
+<http://www.w3id.org/ecsel-dr-PMV#requirements> <http://www.w3.org/2000/01/rdf-schema#label> "requirements"@en .
+<http://www.w3id.org/ecsel-dr-PMV#requirements> <http://www.w3.org/2004/02/skos/core#altLabel> "requir"@en .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#scope
+<http://www.w3id.org/ecsel-dr-PMV#scope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#scope> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#scope> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the scope of a specific business process (flow)."@en .
+<http://www.w3id.org/ecsel-dr-PMV#scope> <http://www.w3.org/2000/01/rdf-schema#label> "scope"@en .
+<http://www.w3id.org/ecsel-dr-PMV#scope> <http://www.w3.org/2004/02/skos/core#altLabel> "scope"@en .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#transaction_code
+<http://www.w3id.org/ecsel-dr-PMV#transaction_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-PMV#transaction_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-PMV#Screen> .
+<http://www.w3id.org/ecsel-dr-PMV#transaction_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-PMV#transaction_code> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains the transaction code assigned to a Screen in SAP."@en .
+<http://www.w3id.org/ecsel-dr-PMV#transaction_code> <http://www.w3.org/2000/01/rdf-schema#label> "transaction code"@en .
+<http://www.w3id.org/ecsel-dr-PMV#transaction_code> <http://www.w3.org/2004/02/skos/core#altLabel> "transact code" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://org.semanticweb.owlapi/error#Error337
+# 
+# http://org.semanticweb.owlapi/error#Error338
+# 
+# http://org.semanticweb.owlapi/error#Error339
+# 
+# http://org.semanticweb.owlapi/error#Error340
+# 
+# http://org.semanticweb.owlapi/error#Error341
+# 
+# http://org.semanticweb.owlapi/error#Error342
+# 
+# http://org.semanticweb.owlapi/error#Error343
+# 
+# http://org.semanticweb.owlapi/error#Error344
+# 
+# http://org.semanticweb.owlapi/error#Error345
+# 
+# http://org.semanticweb.owlapi/error#Error346
+# 
+# http://org.semanticweb.owlapi/error#Error347
+<http://org.semanticweb.owlapi/error#Error347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error348
+<http://org.semanticweb.owlapi/error#Error348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error349
+# 
+# http://org.semanticweb.owlapi/error#Error350
+# 
+# http://org.semanticweb.owlapi/error#Error351
+# 
+# http://org.semanticweb.owlapi/error#Error352
+# 
+# http://org.semanticweb.owlapi/error#Error353
+# 
+# http://org.semanticweb.owlapi/error#Error354
+<http://org.semanticweb.owlapi/error#Error354> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error355
+# 
+# http://org.semanticweb.owlapi/error#Error356
+<http://org.semanticweb.owlapi/error#Error356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error357
+<http://org.semanticweb.owlapi/error#Error357> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error358
+<http://org.semanticweb.owlapi/error#Error358> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error359
+<http://org.semanticweb.owlapi/error#Error359> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error360
+<http://org.semanticweb.owlapi/error#Error360> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error361
+<http://org.semanticweb.owlapi/error#Error361> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error362
+# 
+# http://org.semanticweb.owlapi/error#Error363
+# 
+# http://org.semanticweb.owlapi/error#Error364
+<http://org.semanticweb.owlapi/error#Error364> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error365
+<http://org.semanticweb.owlapi/error#Error365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://org.semanticweb.owlapi/error#Error366
+<http://org.semanticweb.owlapi/error#Error366> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/dc/dcmitype/Service
+<http://purl.org/dc/dcmitype/Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/dc/dcmitype/Software
+# 
+# http://purl.org/dc/terms/Physical_Resource
+<http://purl.org/dc/terms/Physical_Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#Information_Object
+<http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#Information_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal
+# 
+# http://www.w3.org/ns/org#Organizational_Unit
+# 
+# http://www.w3id.org/ecsel-dr#Process_Lobe
+<http://www.w3id.org/ecsel-dr#Process_Lobe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#AND
+<http://www.w3id.org/ecsel-dr-PMV#AND> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#AND> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error366> .
+<http://www.w3id.org/ecsel-dr-PMV#AND> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Connector> .
+<http://www.w3id.org/ecsel-dr-PMV#AND> <http://www.w3.org/2000/01/rdf-schema#comment> "All incoming pathways required to proceed along the flow\r\nAll outgoing pathways must be followed\r\nUsed to divide/rejoin tasks/flows which happen in parallel with another, rather than in a strict sequence" .
+<http://www.w3id.org/ecsel-dr-PMV#AND> <http://www.w3.org/2000/01/rdf-schema#comment> "All outgoing process paths must be followed." .
+<http://www.w3id.org/ecsel-dr-PMV#AND> <http://www.w3.org/2000/01/rdf-schema#comment> "The connector is responsible for splitting the control flow in at least two different branches, which are executed parallely where all branches must be followed." .
+<http://www.w3id.org/ecsel-dr-PMV#AND> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://www.epc-standard.org/collaborate/AND-Split" .
+<http://www.w3id.org/ecsel-dr-PMV#AND> <http://www.w3.org/2000/01/rdf-schema#label> "AND"@en .
+<http://www.w3id.org/ecsel-dr-PMV#AND> <http://www.w3.org/2004/02/skos/core#altLabel> "and" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Application_System_Type
+<http://www.w3id.org/ecsel-dr-PMV#Application_System_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Application_System_Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Software> .
+<http://www.w3id.org/ecsel-dr-PMV#Application_System_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "An application system type classifies individual application systems which have exactly the same technological properties. Process steps might be supported by application systems. Object describe IT systems (library for IT systems available)." .
+<http://www.w3id.org/ecsel-dr-PMV#Application_System_Type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532992" .
+<http://www.w3id.org/ecsel-dr-PMV#Application_System_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Application System Type"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Application_System_Type> <http://www.w3.org/2004/02/skos/core#altLabel> "applic system type" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Business_Process
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error356> .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process> <http://www.w3.org/2000/01/rdf-schema#comment> "A Business Process (BP) consists of a series of value-creating activities that reach the performance expected by customers and fulfill goals derived from the business strategy." .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process> <http://www.w3.org/2000/01/rdf-schema#label> "Business Process"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process> <http://www.w3.org/2004/02/skos/core#altLabel> "BP" .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process> <http://www.w3.org/2004/02/skos/core#altLabel> "busi process" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "A Business Process (BP) Activity is a part of a Business Process containing one or more sub Business Processes or a Process Flow." .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity> <http://www.w3.org/2000/01/rdf-schema#label> "Business Process Activity"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity> <http://www.w3.org/2004/02/skos/core#altLabel> "BP Activity" .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity> <http://www.w3.org/2004/02/skos/core#altLabel> "busi process activ" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Process_Lobe> .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> <http://www.w3.org/2000/01/rdf-schema#comment> "An EPC describes a Business Process Flow, which is a sequence of required tasks to create specified outputs using defined inputs.\r\nA Business Process Flow is a sequence of required tasks to create specified outputs using defined inputs."@en .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> <http://www.w3.org/2000/01/rdf-schema#label> "Business Process Flow"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> <http://www.w3.org/2004/02/skos/core#altLabel> "Event-driven process chain"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow> <http://www.w3.org/2004/02/skos/core#altLabel> "busi process flow"@en .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Business_Process_Landscape
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Landscape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Landscape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error359> .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Landscape> <http://www.w3.org/2000/01/rdf-schema#comment> "A Business Process Landscape (BP_Landscape) is a detailed overview of a specific Core- or Enabler Process." .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Landscape> <http://www.w3.org/2000/01/rdf-schema#label> "Business Process Landscape"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Landscape> <http://www.w3.org/2004/02/skos/core#altLabel> "BP Landscape" .
+<http://www.w3id.org/ecsel-dr-PMV#Business_Process_Landscape> <http://www.w3.org/2004/02/skos/core#altLabel> "busi process landscap" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Company_Process_Framework
+<http://www.w3id.org/ecsel-dr-PMV#Company_Process_Framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Company_Process_Framework> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error361> .
+<http://www.w3id.org/ecsel-dr-PMV#Company_Process_Framework> <http://www.w3.org/2000/01/rdf-schema#comment> "IPF is the structured overview of all IFX Core and Enabler Processes. It contains 4 Core Processes and 6 Enabler Processes." .
+<http://www.w3id.org/ecsel-dr-PMV#Company_Process_Framework> <http://www.w3.org/2000/01/rdf-schema#label> "Company Process Framework"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Company_Process_Framework> <http://www.w3.org/2004/02/skos/core#altLabel> "Company process framework" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Computer_Hardware
+<http://www.w3id.org/ecsel-dr-PMV#Computer_Hardware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Computer_Hardware> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Physical_Resource> .
+<http://www.w3id.org/ecsel-dr-PMV#Computer_Hardware> <http://www.w3.org/2000/01/rdf-schema#comment> "Physical equipment that makes up a computer system, such as circuit boards, keyboard and mouse, monitor, printer, power supply, storage devices. Contrasts with software." .
+<http://www.w3id.org/ecsel-dr-PMV#Computer_Hardware> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.businessdictionary.com/definition/hardware.html" .
+<http://www.w3id.org/ecsel-dr-PMV#Computer_Hardware> <http://www.w3.org/2000/01/rdf-schema#label> "Computer Hardware"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Computer_Hardware> <http://www.w3.org/2004/02/skos/core#altLabel> "comput hardwar" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Connector
+<http://www.w3id.org/ecsel-dr-PMV#Connector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Connector> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-PMV#Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#Connector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Model_Element> .
+<http://www.w3id.org/ecsel-dr-PMV#Connector> <http://www.w3.org/2000/01/rdf-schema#comment> " A connector determines the behavior of the process in case its control ?ow is split up into or joined from several execution branches." .
+<http://www.w3id.org/ecsel-dr-PMV#Connector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://www.epc-standard.org/collaborate/Operator" .
+<http://www.w3id.org/ecsel-dr-PMV#Connector> <http://www.w3.org/2000/01/rdf-schema#label> "Connector"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Connector> <http://www.w3.org/2004/02/skos/core#altLabel> "Rule" .
+<http://www.w3id.org/ecsel-dr-PMV#Connector> <http://www.w3.org/2004/02/skos/core#altLabel> "connector" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#End_Event
+<http://www.w3id.org/ecsel-dr-PMV#End_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#End_Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Event> .
+<http://www.w3id.org/ecsel-dr-PMV#End_Event> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3id.org/ecsel-dr-PMV#Start_Event> .
+<http://www.w3id.org/ecsel-dr-PMV#End_Event> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the event element that stands at the end of a branch in the process flow and thus, ends the process flow branch or the total process."@en .
+<http://www.w3id.org/ecsel-dr-PMV#End_Event> <http://www.w3.org/2000/01/rdf-schema#label> "End Event"@en .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Environmental_Data
+<http://www.w3id.org/ecsel-dr-PMV#Environmental_Data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Environmental_Data> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#Information_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#Environmental_Data> <http://www.w3.org/2000/01/rdf-schema#comment> "Additional information to a process like work schedule, production plans, etc."@en .
+<http://www.w3id.org/ecsel-dr-PMV#Environmental_Data> <http://www.w3.org/2000/01/rdf-schema#label> "Environmental Data"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Environmental_Data> <http://www.w3.org/2004/02/skos/core#altLabel> "environment data" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Event
+<http://www.w3id.org/ecsel-dr-PMV#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Model_Element> .
+<http://www.w3id.org/ecsel-dr-PMV#Event> <http://www.w3.org/2000/01/rdf-schema#comment> "An event illustrates the fact that a process object has taken on a business relevant state influencing the further procedure of a process. Unlike a function, which is a time consuming occurrence, an event is related to one point in time. Therefore, it is used to describe an event or status in the process flow. The object is mandatory for: EPC start and EPC end or after x (xor), v (or)."@en .
+<http://www.w3id.org/ecsel-dr-PMV#Event> <http://www.w3.org/2000/01/rdf-schema#comment> "The event is a passive element since it represents a change of state but does not cause it. Furthermore it can characterize the conditions and the results of an activity, which in turn triggers the next function. An event with no incoming arc is called start event, while an event with no outgoing arc is called end event."@en .
+<http://www.w3id.org/ecsel-dr-PMV#Event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://www.epc-standard.org/collaborate/Event"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Event> <http://www.w3.org/2004/02/skos/core#altLabel> "Status"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Event> <http://www.w3.org/2004/02/skos/core#altLabel> "event"@en .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Function
+<http://www.w3id.org/ecsel-dr-PMV#Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Function> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-PMV#Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Model_Element> .
+<http://www.w3id.org/ecsel-dr-PMV#Function> <http://www.w3.org/2000/01/rdf-schema#comment> "The function type represents several action elements as task, process interfaces or business process activities." .
+<http://www.w3id.org/ecsel-dr-PMV#Function> <http://www.w3.org/2000/01/rdf-schema#comment> "They are the active elements of an EPC that represent the activities of a modelled process and again raise events upon completion. The extended event driven process chain expands the semantic of functions, since they may be associated with the organizational unit performing the function or the data needed and created as output by the function." .
+<http://www.w3id.org/ecsel-dr-PMV#Function> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993" .
+<http://www.w3id.org/ecsel-dr-PMV#Function> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://www.epc-standard.org/collaborate/Function" .
+<http://www.w3id.org/ecsel-dr-PMV#Function> <http://www.w3.org/2000/01/rdf-schema#label> "Function"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Function> <http://www.w3.org/2004/02/skos/core#altLabel> "function" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Function_Object
+<http://www.w3id.org/ecsel-dr-PMV#Function_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Function_Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Process_Lobe> .
+<http://www.w3id.org/ecsel-dr-PMV#Function_Object> <http://www.w3.org/2000/01/rdf-schema#comment> "In IndustryPrint 5, function objects are used to model the decomposition of a process."@en .
+<http://www.w3id.org/ecsel-dr-PMV#Function_Object> <http://www.w3.org/2000/01/rdf-schema#label> "Function Object"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Function_Object> <http://www.w3.org/2004/02/skos/core#altLabel> "function object" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Human_Output
+<http://www.w3id.org/ecsel-dr-PMV#Human_Output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Human_Output> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-PMV#Role> .
+<http://www.w3id.org/ecsel-dr-PMV#Human_Output> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Human_Output> <http://www.w3.org/2000/01/rdf-schema#comment> "Human being that puts effort in the processing of a process step (function). It belongs to the organizational unit that is responsible for the specific process step." .
+<http://www.w3id.org/ecsel-dr-PMV#Human_Output> <http://www.w3.org/2000/01/rdf-schema#label> "Human Output"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Human_Output> <http://www.w3.org/2004/02/skos/core#altLabel> "Role" .
+<http://www.w3id.org/ecsel-dr-PMV#Human_Output> <http://www.w3.org/2004/02/skos/core#altLabel> "human output" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Input
+<http://www.w3id.org/ecsel-dr-PMV#Input> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Input> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Process_Lobe> .
+<http://www.w3id.org/ecsel-dr-PMV#Input> <http://www.w3.org/2000/01/rdf-schema#comment> "Item external to a system (such as a process) that is transformed by the system (usually together with one or more other items) to become an output." .
+<http://www.w3id.org/ecsel-dr-PMV#Input> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.businessdictionary.com/definition/input.html" .
+<http://www.w3id.org/ecsel-dr-PMV#Input> <http://www.w3.org/2000/01/rdf-schema#label> "Input"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Input> <http://www.w3.org/2004/02/skos/core#altLabel> "input" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Join_Rule
+<http://www.w3id.org/ecsel-dr-PMV#Join_Rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Join_Rule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error357> .
+<http://www.w3id.org/ecsel-dr-PMV#Join_Rule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error358> .
+<http://www.w3id.org/ecsel-dr-PMV#Join_Rule> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3id.org/ecsel-dr-PMV#Split_Rule> .
+<http://www.w3id.org/ecsel-dr-PMV#Join_Rule> <http://www.w3.org/2000/01/rdf-schema#comment> "Rule element that unites the control flow after being split into several branches. Has several incoming paths (at least two) and one outgoing." .
+<http://www.w3id.org/ecsel-dr-PMV#Join_Rule> <http://www.w3.org/2000/01/rdf-schema#label> "Join Rule"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Join_Rule> <http://www.w3.org/2004/02/skos/core#altLabel> "join rule" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Machine_Resource
+<http://www.w3id.org/ecsel-dr-PMV#Machine_Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Machine_Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Physical_Resource> .
+<http://www.w3id.org/ecsel-dr-PMV#Machine_Resource> <http://www.w3.org/2000/01/rdf-schema#comment> "Semi or fully automated device that magnifies human physical and/or mental capabilities in performing one or more operations." .
+<http://www.w3id.org/ecsel-dr-PMV#Machine_Resource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.businessdictionary.com/definition/machine.html" .
+<http://www.w3id.org/ecsel-dr-PMV#Machine_Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Machine Resource"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Machine_Resource> <http://www.w3.org/2004/02/skos/core#altLabel> "machin resourc" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Material
+<http://www.w3id.org/ecsel-dr-PMV#Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Physical_Resource> .
+<http://www.w3id.org/ecsel-dr-PMV#Material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Input> .
+<http://www.w3id.org/ecsel-dr-PMV#Material> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Output> .
+<http://www.w3id.org/ecsel-dr-PMV#Material> <http://www.w3.org/2000/01/rdf-schema#comment> "The matter from which something can be made. Material can include but is not limited to raw and processed material, components, parts, assemblies, sub-assemblies, fuels, lubricants, coolants, cleaning agents, and small tools and accessories that may be consumed directly or indirectly." .
+<http://www.w3id.org/ecsel-dr-PMV#Material> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.businessdictionary.com/definition/material.html" .
+<http://www.w3id.org/ecsel-dr-PMV#Material> <http://www.w3.org/2000/01/rdf-schema#label> "Material"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Material> <http://www.w3.org/2004/02/skos/core#altLabel> "materi" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Model
+<http://www.w3id.org/ecsel-dr-PMV#Model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Process_Lobe> .
+<http://www.w3id.org/ecsel-dr-PMV#Model> <http://www.w3.org/2000/01/rdf-schema#comment> "One striking commonality between EPC meta models is the Process. One process may contain an unlimited number of elements, but a process element is always linked to a specific process. If a process contains an interface, it is always linked to one specific process and represents a refinement of a normal function." .
+<http://www.w3id.org/ecsel-dr-PMV#Model> <http://www.w3.org/2000/01/rdf-schema#comment> "To graphically depict functional and process decomposition, function objects are diagramed on models in IndustryPrint 5." .
+<http://www.w3id.org/ecsel-dr-PMV#Model> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://www.epc-standard.org/collaborate/Process" .
+<http://www.w3id.org/ecsel-dr-PMV#Model> <http://www.w3.org/2000/01/rdf-schema#label> "Model"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Model> <http://www.w3.org/2004/02/skos/core#altLabel> "model" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Model_Element
+<http://www.w3id.org/ecsel-dr-PMV#Model_Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Model_Element> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Process_Lobe> .
+<http://www.w3id.org/ecsel-dr-PMV#Model_Element> <http://www.w3.org/2000/01/rdf-schema#comment> "An EPC model element is part of the EPC meta model and can be represented by a Function, an Event, an Operator, a Process Interface." .
+<http://www.w3id.org/ecsel-dr-PMV#Model_Element> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an object in the EPC model. Includes all elements used in the modelling procedure of an EPC diagram." .
+<http://www.w3id.org/ecsel-dr-PMV#Model_Element> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents process flow elements except for modelling function objects." .
+<http://www.w3id.org/ecsel-dr-PMV#Model_Element> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://www.epc-standard.org/collaborate/Process_element" .
+<http://www.w3id.org/ecsel-dr-PMV#Model_Element> <http://www.w3.org/2000/01/rdf-schema#label> "Model Element"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Model_Element> <http://www.w3.org/2004/02/skos/core#altLabel> "model element" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object
+<http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> <http://www.w3.org/2000/01/rdf-schema#comment> "Function objects are used to model the decomposition of the process flow."@en .
+<http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> <http://www.w3.org/2000/01/rdf-schema#label> "Modelling Function Object"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> <http://www.w3.org/2004/02/skos/core#altLabel> "model function object" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#OR
+<http://www.w3id.org/ecsel-dr-PMV#OR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#OR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error354> .
+<http://www.w3id.org/ecsel-dr-PMV#OR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Connector> .
+<http://www.w3id.org/ecsel-dr-PMV#OR> <http://www.w3.org/2000/01/rdf-schema#comment> "At least one of the possible process paths must be followed." .
+<http://www.w3id.org/ecsel-dr-PMV#OR> <http://www.w3.org/2000/01/rdf-schema#comment> "It is responsible for splitting the control flow up in at least two different branches, due to an nonexclusive choice where one or several branches can be followed." .
+<http://www.w3id.org/ecsel-dr-PMV#OR> <http://www.w3.org/2000/01/rdf-schema#comment> "One or more incoming pathways required to proceed along the flow\r\nOne or more outgoing pathways must be followed\r\nUsed only when neither XOR nor AND can be used to better illustrate flow\r\nHas the weakest logic and should be used as sparingly as absolutely possible" .
+<http://www.w3id.org/ecsel-dr-PMV#OR> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://www.epc-standard.org/collaborate/OR-Split" .
+<http://www.w3id.org/ecsel-dr-PMV#OR> <http://www.w3.org/2000/01/rdf-schema#label> "OR"@en .
+<http://www.w3id.org/ecsel-dr-PMV#OR> <http://www.w3.org/2004/02/skos/core#altLabel> "or" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Other_Services
+<http://www.w3id.org/ecsel-dr-PMV#Other_Services> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Other_Services> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Service> .
+<http://www.w3id.org/ecsel-dr-PMV#Other_Services> <http://www.w3.org/2000/01/rdf-schema#comment> "Collection of other services used as input to a production process or which are created during a production process." .
+<http://www.w3id.org/ecsel-dr-PMV#Other_Services> <http://www.w3.org/2000/01/rdf-schema#label> "Other Services"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Other_Services> <http://www.w3.org/2004/02/skos/core#altLabel> "service"@en .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Output
+<http://www.w3id.org/ecsel-dr-PMV#Output> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Output> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Process_Lobe> .
+<http://www.w3id.org/ecsel-dr-PMV#Output> <http://www.w3.org/2000/01/rdf-schema#comment> "The amount of energy, work, goods, or services produced by a machine, factory, company, or an individual in a period." .
+<http://www.w3id.org/ecsel-dr-PMV#Output> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.businessdictionary.com/definition/output.html" .
+<http://www.w3id.org/ecsel-dr-PMV#Output> <http://www.w3.org/2000/01/rdf-schema#label> "Output"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Output> <http://www.w3.org/2004/02/skos/core#altLabel> "output" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Process
+<http://www.w3id.org/ecsel-dr-PMV#Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Process> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-SO#Process> .
+<http://www.w3id.org/ecsel-dr-SO#Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#Process> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of subprocesses that meet a specific business objective. E.g. Perform Sourcing or Purchase Materials and Services" .
+<http://www.w3id.org/ecsel-dr-PMV#Process> <http://www.w3.org/2000/01/rdf-schema#label> "Process"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Process> <http://www.w3.org/2004/02/skos/core#altLabel> "process" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Process_Diagram
+<http://www.w3id.org/ecsel-dr-PMV#Process_Diagram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Diagram> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Model> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Diagram> <http://www.w3.org/2000/01/rdf-schema#comment> "The first level of process decomposition that is comprised of subprocesses that depict a business objective." .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Diagram> <http://www.w3.org/2000/01/rdf-schema#label> "Process Diagram"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Diagram> <http://www.w3.org/2004/02/skos/core#altLabel> "Process Diagram (L2)" .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Diagram> <http://www.w3.org/2004/02/skos/core#altLabel> "process diagram" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Process_Group
+<http://www.w3id.org/ecsel-dr-PMV#Process_Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Group> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-SO#Process_Group> .
+<http://www.w3id.org/ecsel-dr-SO#Process_Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Group> <http://www.w3.org/2000/01/rdf-schema#comment> "A set of a processes covering a single business area. Usually under the ownership of one business process owner and correlates to one module. E.g. Procurement" .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Group> <http://www.w3.org/2000/01/rdf-schema#label> "Process Group"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Group> <http://www.w3.org/2004/02/skos/core#altLabel> "process group" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Process_Group_Map
+<http://www.w3id.org/ecsel-dr-PMV#Process_Group_Map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Group_Map> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Model> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Group_Map> <http://www.w3.org/2000/01/rdf-schema#comment> "A set of a processes covering a single business area. Usually under the ownership of one business process owner and aligning with a function." .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Group_Map> <http://www.w3.org/2000/01/rdf-schema#label> "Process Group Map"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Group_Map> <http://www.w3.org/2004/02/skos/core#altLabel> "Process Group Map (L1)" .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Group_Map> <http://www.w3.org/2004/02/skos/core#altLabel> "process group map" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Process_Interface
+<http://www.w3id.org/ecsel-dr-PMV#Process_Interface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Interface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Interface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Model_Element> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Interface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Interface> <http://www.w3.org/2000/01/rdf-schema#comment> "Process Interfaces connect several process models on the same Process hierarchical levelby linking the EPCs according to their shared events (also known as \"horizontal navigation\"). They thus facilitate process structuring and navigation by keeping models concise"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Interface> <http://www.w3.org/2000/01/rdf-schema#comment> "Process interfaces connect several process models on the same process hierarchical level by linking the EPCs according to their shared events (also known as \"horizontal navigation\"). They thus facilitate process structuring and navigation by keeping models concise and easy-to-read.\r\nFunctionality: Jump function to next process (e.g. EPC, VAC), typically at the end of process branches. In the EPC flow there is an Event directly before."@en .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Interface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993" .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Interface> <http://www.w3.org/2000/01/rdf-schema#label> "Process Interface"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Interface> <http://www.w3.org/2004/02/skos/core#altLabel> "Interface" .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Interface> <http://www.w3.org/2004/02/skos/core#altLabel> "process interfac" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Process_Type
+<http://www.w3id.org/ecsel-dr-PMV#Process_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "A set of core and enabler processes of Infineon on Level 0 (highest level). This level helps helps organizing project work/ development and represents a single track in the oneSAP project. It is based on a Deloitte standard which was adapted to Infineon's needs." .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Process Type"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Type> <http://www.w3.org/2004/02/skos/core#altLabel> "process type" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Process_Type_Map
+<http://www.w3id.org/ecsel-dr-PMV#Process_Type_Map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Type_Map> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Model> .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Type_Map> <http://www.w3.org/2000/01/rdf-schema#comment> "A set of process types and related process groups that define the enterprise for a particular industry/sector." .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Type_Map> <http://www.w3.org/2000/01/rdf-schema#label> "Process Type Map"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Type_Map> <http://www.w3.org/2004/02/skos/core#altLabel> "Process Type Map (L0)" .
+<http://www.w3id.org/ecsel-dr-PMV#Process_Type_Map> <http://www.w3.org/2004/02/skos/core#altLabel> "process type map" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Role
+<http://www.w3id.org/ecsel-dr-PMV#Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<http://www.w3id.org/ecsel-dr-PMV#Role> <http://www.w3.org/2000/01/rdf-schema#comment> "Business Role (Person) that performs task." .
+<http://www.w3id.org/ecsel-dr-PMV#Role> <http://www.w3.org/2000/01/rdf-schema#comment> "Object to describe the role. Type of responsibility is defined by the linkage between function or activity and role. IFX options: carries out, contribute, must be informed." .
+<http://www.w3id.org/ecsel-dr-PMV#Role> <http://www.w3.org/2000/01/rdf-schema#label> "Role"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Role> <http://www.w3.org/2004/02/skos/core#altLabel> "role" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Rule
+<http://www.w3id.org/ecsel-dr-PMV#Rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Rule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Model_Element> .
+<http://www.w3id.org/ecsel-dr-PMV#Rule> <http://www.w3.org/2000/01/rdf-schema#comment> "Rules allow to model alternative, exclusive alternative and parallel process flows." .
+<http://www.w3id.org/ecsel-dr-PMV#Rule> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993" .
+<http://www.w3id.org/ecsel-dr-PMV#Rule> <http://www.w3.org/2000/01/rdf-schema#label> "Rule"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Rule> <http://www.w3.org/2004/02/skos/core#altLabel> "Connector" .
+<http://www.w3id.org/ecsel-dr-PMV#Rule> <http://www.w3.org/2004/02/skos/core#altLabel> "rule" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Screen
+<http://www.w3id.org/ecsel-dr-PMV#Screen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Screen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Process_Lobe> .
+<http://www.w3id.org/ecsel-dr-PMV#Screen> <http://www.w3.org/2000/01/rdf-schema#comment> "A transaction in SAP is described as a screen. Here, they represent the actions undertaken in the application SAP to perform a function in a process flow." .
+<http://www.w3id.org/ecsel-dr-PMV#Screen> <http://www.w3.org/2000/01/rdf-schema#label> "Screen"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Screen> <http://www.w3.org/2004/02/skos/core#altLabel> "Transaction" .
+<http://www.w3id.org/ecsel-dr-PMV#Screen> <http://www.w3.org/2004/02/skos/core#altLabel> "screen" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Split_Rule
+<http://www.w3id.org/ecsel-dr-PMV#Split_Rule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Split_Rule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error347> .
+<http://www.w3id.org/ecsel-dr-PMV#Split_Rule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error348> .
+<http://www.w3id.org/ecsel-dr-PMV#Split_Rule> <http://www.w3.org/2000/01/rdf-schema#comment> "Rule element that splits the control flow into several branches. Has one incoming path and several (at least two) outgoing paths." .
+<http://www.w3id.org/ecsel-dr-PMV#Split_Rule> <http://www.w3.org/2000/01/rdf-schema#label> "Split Rule"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Split_Rule> <http://www.w3.org/2004/02/skos/core#altLabel> "split rule" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Start_Event
+<http://www.w3id.org/ecsel-dr-PMV#Start_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Start_Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Event> .
+<http://www.w3id.org/ecsel-dr-PMV#Start_Event> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the event that stands at the beginning of a branch in the process flow and thus, triggers the execution of this branch or the total process."@en .
+<http://www.w3id.org/ecsel-dr-PMV#Start_Event> <http://www.w3.org/2000/01/rdf-schema#label> "Start Event"@en .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object
+<http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object> <http://www.w3.org/2000/01/rdf-schema#comment> "Function objects are used to model the decomposition of the structure of a process." .
+<http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object> <http://www.w3.org/2000/01/rdf-schema#label> "Structural Function Object"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object> <http://www.w3.org/2004/02/skos/core#altLabel> "structur function object" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Subprocess
+<http://www.w3id.org/ecsel-dr-PMV#Subprocess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Subprocess> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#Subprocess> <http://www.w3.org/2000/01/rdf-schema#comment> "A grouping of related tasks that create an output within the larger objective of the subprocess. E.g. Create and Maintain Purchase Orders" .
+<http://www.w3id.org/ecsel-dr-PMV#Subprocess> <http://www.w3.org/2000/01/rdf-schema#label> "Subprocess"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Subprocess> <http://www.w3.org/2004/02/skos/core#altLabel> "subprocess" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Subprocess_Diagram
+<http://www.w3id.org/ecsel-dr-PMV#Subprocess_Diagram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Subprocess_Diagram> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Model> .
+<http://www.w3id.org/ecsel-dr-PMV#Subprocess_Diagram> <http://www.w3.org/2000/01/rdf-schema#comment> "The second and lowest level of process decomposition that is comprised of tasks that depict the role-based activities of the subprocess." .
+<http://www.w3id.org/ecsel-dr-PMV#Subprocess_Diagram> <http://www.w3.org/2000/01/rdf-schema#label> "Subprocess Diagram"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Subprocess_Diagram> <http://www.w3.org/2004/02/skos/core#altLabel> "Subprocess Diagram (L3)" .
+<http://www.w3id.org/ecsel-dr-PMV#Subprocess_Diagram> <http://www.w3.org/2004/02/skos/core#altLabel> "subprocess diagram" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Task
+<http://www.w3id.org/ecsel-dr-PMV#Task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Task> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Function> .
+<http://www.w3id.org/ecsel-dr-PMV#Task> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Model_Element> .
+<http://www.w3id.org/ecsel-dr-PMV#Task> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object> .
+<http://www.w3id.org/ecsel-dr-PMV#Task> <http://www.w3.org/2000/01/rdf-schema#comment> "A Task is an instruction of a work package to create the output."@en .
+<http://www.w3id.org/ecsel-dr-PMV#Task> <http://www.w3.org/2000/01/rdf-schema#comment> "The lowest level of detail, a task are the activities required to execute a subprocess. A single task within a subprocess can be manual or system supported. E.g. Create Purchase Order"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Task> <http://www.w3.org/2000/01/rdf-schema#label> "Task"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Task> <http://www.w3.org/2004/02/skos/core#altLabel> "Process step" .
+<http://www.w3id.org/ecsel-dr-PMV#Task> <http://www.w3.org/2004/02/skos/core#altLabel> "task" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Technical_Term
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Document> .
+<http://xmlns.com/foaf/0.1/Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term> <http://www.w3.org/2000/01/rdf-schema#comment> "Set up with connection to a function or activity or VAC. It can be either input or output, where the direction of the arrow describes whether it is an input or an output. Set up of a connection is not mandatory."@en .
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term> <http://www.w3.org/2000/01/rdf-schema#label> "Technical Term"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term> <http://www.w3.org/2004/02/skos/core#altLabel> "technic term" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Input_Element
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Input_Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Input_Element> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error360> .
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Input_Element> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the input element to a function in the process flow."@en .
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Input_Element> <http://www.w3.org/2000/01/rdf-schema#label> "Technical Term Input Element"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Input_Element> <http://www.w3.org/2004/02/skos/core#altLabel> "technic term input element" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Output_Element
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Output_Element> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Output_Element> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error365> .
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Output_Element> <http://www.w3.org/2000/01/rdf-schema#comment> "Denotes the output element of a function in the process flow."@en .
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Output_Element> <http://www.w3.org/2000/01/rdf-schema#label> "Technical Term Output Element"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Output_Element> <http://www.w3.org/2004/02/skos/core#altLabel> "technic term output element" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram
+<http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Process_Lobe> .
+<http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram> <http://www.w3.org/2000/01/rdf-schema#comment> "A Value-Added Chain is a process that represents an element of the process chain. A process hierarchy can be realized by hierarchically structuring value chains, thus modeling business areas, process groups, business processes and business process variants using the sam notation.\r\nHouse: represents enabler processes." .
+<http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532992" .
+<http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram> <http://www.w3.org/2000/01/rdf-schema#label> "Value-Added Chain Diagram"@en .
+<http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram> <http://www.w3.org/2004/02/skos/core#altLabel> "VACD" .
+<http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram> <http://www.w3.org/2004/02/skos/core#altLabel> "valu - ad chain diagram" .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#XOR
+<http://www.w3id.org/ecsel-dr-PMV#XOR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-PMV#XOR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://org.semanticweb.owlapi/error#Error364> .
+<http://www.w3id.org/ecsel-dr-PMV#XOR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-PMV#Connector> .
+<http://www.w3id.org/ecsel-dr-PMV#XOR> <http://www.w3.org/2000/01/rdf-schema#comment> "Exactly one of the possible process paths must be followed." .
+<http://www.w3id.org/ecsel-dr-PMV#XOR> <http://www.w3.org/2000/01/rdf-schema#comment> "It is responsible for splitting the control flow in at least two different branches, due to an exclusive choice where exactly one of the branches is followed." .
+<http://www.w3id.org/ecsel-dr-PMV#XOR> <http://www.w3.org/2000/01/rdf-schema#comment> "One and only one of the incoming pathways is required to proceed along the flow\r\nOne and only one of the outgoing pathways can be taken\r\nDivide should be made with yes/no question and lines labelled only with �yes� or �no�\r\nGateway must therefore be named with this Yes/No question" .
+<http://www.w3id.org/ecsel-dr-PMV#XOR> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "https://www.epc-standard.org/collaborate/XOR-Split" .
+<http://www.w3id.org/ecsel-dr-PMV#XOR> <http://www.w3.org/2000/01/rdf-schema#label> "XOR"@en .
+<http://www.w3id.org/ecsel-dr-PMV#XOR> <http://www.w3.org/2004/02/skos/core#altLabel> "Exclusive OR" .
+<http://www.w3id.org/ecsel-dr-PMV#XOR> <http://www.w3.org/2004/02/skos/core#altLabel> "xor" .
+# 
+# http://www.w3id.org/ecsel-dr-SO#Process
+# 
+# http://www.w3id.org/ecsel-dr-SO#Process_Group
+# 
+# http://xmlns.com/foaf/0.1/Document
+# 
+# http://xmlns.com/foaf/0.1/Person
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

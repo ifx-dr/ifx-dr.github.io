@@ -1,0 +1,5654 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr", "http://www.w3.org/2001/XMLSchema", "http://www.w3id.org/ecsel-dr-SO", "http://org.semanticweb.owlapi/error" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "145",
+    "type" : "owl:Class"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "265",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "269",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "276",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "281",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "282",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "293",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "298",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "299",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "288",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "300",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "275",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "301",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "303",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "286",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "308",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "309",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "310",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "311",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "316",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "317",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "320",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "232",
+    "type" : "owl:Class"
+  }, {
+    "id" : "255",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "313",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "278",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "104",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "322",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "279",
+    "type" : "owl:Class"
+  }, {
+    "id" : "326",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "327",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "328",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "329",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "330",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "319",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "335",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "336",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "339",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "332",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "295",
+    "type" : "owl:Class"
+  }, {
+    "id" : "291",
+    "type" : "owl:Class"
+  }, {
+    "id" : "347",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "349",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "261",
+    "type" : "owl:Class"
+  }, {
+    "id" : "273",
+    "type" : "owl:Class"
+  }, {
+    "id" : "323",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "345",
+    "type" : "owl:Class"
+  }, {
+    "id" : "351",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "354",
+    "type" : "owl:Class"
+  }, {
+    "id" : "353",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "258",
+    "type" : "owl:Class"
+  }, {
+    "id" : "264",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "207",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "373",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "183",
+    "type" : "owl:Class"
+  }, {
+    "id" : "333",
+    "type" : "owl:Class"
+  }, {
+    "id" : "227",
+    "type" : "owl:Class"
+  }, {
+    "id" : "167",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "382",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "369",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "378",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "338",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "423",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "428",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "162",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "instances" : 0,
+    "union" : [ "1", "2" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "0"
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "3"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "8" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "6"
+  }, {
+    "instances" : 0,
+    "union" : [ "5", "4" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "9"
+  }, {
+    "instances" : 0,
+    "union" : [ "16", "11" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Route",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Route",
+      "en" : "Route"
+    },
+    "comment" : {
+      "en" : "The master entity “Route” describes the structure of a workflow out of operations. Every product uses a specific route in its value stream, i.e. the complete sequence of operations with all mandatory and optional operations necessary to complete the product. A route makes use of the single operations. (workflow descriptive master entity)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Planning_Work_Center",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Work_Center",
+      "en" : "Planning Work Center"
+    },
+    "comment" : {
+      "en" : "Semiconductor wafers arrive at the planning work center according to a Poisson process in lots with a certain unit size. The planning work center X48- can process three different products which arrive in four different classes."
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "26" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "40", "41", "42", "43", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "39"
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Chemical_Polishing",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chemical_Polishing",
+      "en" : "Chemical Polishing"
+    },
+    "comment" : {
+      "en" : "The chemical polishing process or chemical mechanical planarization (CMP) is a process whereby a chemical reaction increases the mechanical removal rate of a material. CMP is commonly used to polish off high spots on wafers or films deposited on wafers, flattening the film or wafer, referred to as planarization. The chemical reaction that increases the mechanical removal rate is commonly tailored to provide a higher removal rate of one material versus another material. The chemical action in CMP helps to achieve higher selectivity's of one material to another than a strictly mechanical process would provide."
+    },
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Robot",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Robot",
+      "en" : "Robot"
+    },
+    "comment" : {
+      "en" : "The robot loads and unloads the lots from the WIP station into the furnace. Robot can load the furnace while another boat is processd by the tool."
+    },
+    "attributes" : [ "external" ],
+    "id" : "48",
+    "superClasses" : [ "20" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "8", "11" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "49"
+  }, {
+    "instances" : 0,
+    "union" : [ "5", "4" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "50"
+  }, {
+    "instances" : 0,
+    "union" : [ "52", "53" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "51"
+  }, {
+    "instances" : 0,
+    "union" : [ "5", "4" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "54"
+  }, {
+    "instances" : 0,
+    "union" : [ "56", "57" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "55"
+  }, {
+    "instances" : 0,
+    "union" : [ "5", "4" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "58"
+  }, {
+    "instances" : 0,
+    "union" : [ "60", "61" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Tool",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tool",
+      "en" : "Tool"
+    },
+    "subClasses" : [ "18" ],
+    "comment" : {
+      "en" : "A tool is any pieve of semiconductor fabrication or inspection equipment designed to process wafers. Often used synonymously with equipment in the silicon wafer processing industry."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "26" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "63", "53" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "62"
+  }, {
+    "instances" : 0,
+    "union" : [ "25", "5", "4" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "66"
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "79" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Plant",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Plant",
+      "en" : "Plant"
+    },
+    "comment" : {
+      "en" : "The “Plant” entity describes the plant as a physical location of one or more fabs. The Plant belongs to a supply chain and can either be internal or external. (master entity)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Deposition",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Deposition",
+      "en" : "Deposition"
+    },
+    "comment" : {
+      "en" : "The deposition process, or chemical vapor deposition (CVD) is a process whereby a fiolm is deposited by reacting chemicals together in the gaseous or vapor phase to form a film. The gases or vapors utilized for CVD are compounds that contain the element to be deposited and that may be inducted to react with a substrate or other gas(es) to deposit a film. The CVD reactoin may be thermally activated, plasma induced, plasma enhanced CVD or activated by light in photon induced CVD."
+    },
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Diffusion",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Diffusion",
+      "en" : "Diffusion"
+    },
+    "comment" : {
+      "en" : "Diffusion is a process whereby a substance redistributes from an area of relatively high concentration to an area of relatively low concentration due to random thermal motion. The larger the concentration gradient the faster diffusion occurs for a given temperature, conversely, the higher the temperature the faster diffusion occurs for a given concentration gradient."
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Furnace_Process",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Furnace_Process",
+      "en" : "Furnace Process"
+    },
+    "subClasses" : [ "96" ],
+    "comment" : {
+      "en" : "Sequence of interdependent and linked procedures which, at every stage, consume one or more resources (employee time, energy, machines, money) to convert inputs (data, material, parts, etc.) into outputs. These outputs then serve as inputs for the next stage until a known goal or end result is reached."
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Lithography",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lithography",
+      "en" : "Lithography"
+    },
+    "comment" : {
+      "en" : "The lithography process is the key process in frontend. This consists of the following steps: a photo resisting layer is spun on a wafer, then exposed through the mask, then developed, then showing the effect on the open places, and then final deletion of the photo resisting material leaves only the remaining structure on the water. after some time for deposition, these steps are repeated up to 35 times."
+    },
+    "attributes" : [ "external" ],
+    "id" : "97",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Sputtering",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sputtering",
+      "en" : "Sputtering"
+    },
+    "comment" : {
+      "en" : "The sputtering process, or physical vapor deposition (PVD) is the most used layering process today. Here gas atoms, mostly argon, strike out atoms from the cathode I an electric field which then form a thin film on the wafer surface."
+    },
+    "attributes" : [ "external" ],
+    "id" : "108",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Capacity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Capacity",
+      "en" : "Capacity"
+    },
+    "comment" : {
+      "en" : "As soon as a machine has free capacity: 1. all lots which belong to a priority class have to be dispatched imediately accordung to their priority  rank."
+    },
+    "attributes" : [ "external" ],
+    "id" : "113",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Material_Transfer_Matrix",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Material_Transfer_Matrix",
+      "en" : "Material Transfer Matrix"
+    },
+    "comment" : {
+      "en" : "A material transfer matrix estimates the duration of material from on to another equipment."
+    },
+    "attributes" : [ "external" ],
+    "id" : "74",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#EPA",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EPA",
+      "en" : "EPA"
+    },
+    "comment" : {
+      "en" : "The EPA is a product identifier referring to the associated process."
+    },
+    "attributes" : [ "external" ],
+    "id" : "135",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Equipment",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Equipment",
+      "en" : "Equipment"
+    },
+    "comment" : {
+      "en" : "The entity “Equipment” describes the semiconductor equipment of any equipment model. It allocates it to higher level entities and describes the behavior of the equipment. (master entity)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "148",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Target_Service_Level",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Target_Service_Level",
+      "en" : "Target Service Level"
+    },
+    "comment" : {
+      "en" : "The target service level is a performance indicator expressing the percentage of orders satisfied."
+    },
+    "attributes" : [ "external" ],
+    "id" : "41",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Demand_Snapshot",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Demand_Snapshot",
+      "en" : "Demand Snapshot"
+    },
+    "comment" : {
+      "en" : "The “Demand” entity stores redundant demand at every product level. (snapshot entity)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "61",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Current_WIP",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Current_WIP",
+      "en" : "Current Work In Progress"
+    },
+    "comment" : {
+      "en" : "“Current WIP” entity describes the actual material distribution in the supply chain. (snapshot entity)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Process",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process",
+      "en" : "Process"
+    },
+    "subClasses" : [ "147", "150", "123", "126" ],
+    "comment" : {
+      "en" : "Sequence of interdependent and linked procedures which, at every stage, consume one or more resources (employee time, energy, machines, money) to convert inputs (data, material, parts, etc.) into outputs. These outputs then serve as inputs for the next stage until a known goal or end result is reached."
+    },
+    "attributes" : [ "external" ],
+    "id" : "124",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Owner",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Owner",
+      "en" : "Owner"
+    },
+    "comment" : {
+      "en" : "An owner is the entity that has the highest level of access authority or legal right to a system or equipment."
+    },
+    "attributes" : [ "external" ],
+    "id" : "154",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Rocket",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rocket",
+      "en" : "Rocket"
+    },
+    "comment" : {
+      "en" : "Rocket lots are processed immediately if a machine has free capacity. The remaining furnace space is then filled up with lots of the same product."
+    },
+    "attributes" : [ "external" ],
+    "id" : "143",
+    "superClasses" : [ "140" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Technology",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Technology",
+      "en" : "Technology"
+    },
+    "subClasses" : [ "40" ],
+    "comment" : {
+      "en" : "A semiconductor technology is a set of equipment, processes, manufacturing techniques and the related methods and procedures to enable the design & production of components, sub-components and modules."
+    },
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "40", "26" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "225",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "173",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "197",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "168",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "236",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "237",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "239",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "208",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "217",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "240",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Productive",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Productive",
+      "en" : "Productive"
+    },
+    "comment" : {
+      "en" : "The standard lots, also referred to as Productive (Prod) lots, are the most common lot type and have no priority."
+    },
+    "attributes" : [ "external" ],
+    "id" : "145",
+    "superClasses" : [ "140" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "244",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "230",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "247",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "248",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "249",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "250",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "92",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "251",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "256",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "259",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "262",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "265",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Operation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Operation",
+      "en" : "Operation"
+    },
+    "comment" : {
+      "en" : "The master entity “Operation” depicts the generic behavior of a single process step. Each operation has a foreign key relation to equipment and to route which means that the operation is required by the specific routes and requires a specific equipment. (workflow descriptive master entity)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "267",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "268",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "269",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "270",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "271",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "276",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "281",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "282",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "283",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "293",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "298",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Work_In_Progress_Station",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Work_In_Progress_Station",
+      "en" : "Work In Progress Station"
+    },
+    "comment" : {
+      "en" : "Work in Progress (WIP) processing occurs here. WIP refers to the units of production that have been released into the factory, but have not yet been scrapped, have not been sent our for external rework, and have not finished processing through all of the production steps."
+    },
+    "attributes" : [ "external" ],
+    "id" : "170",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "164",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "137",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "253",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "179",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "299",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "288",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "228",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Cycle_Time_Committment",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cycle_Time_Committment",
+      "en" : "Cycle Time Commitment"
+    },
+    "comment" : {
+      "en" : "The “Cycle Time Commitment” entity helps controlling the WIP\r\nvia the release plan. (strategy entity)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "300",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "275",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "301",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Product_Level",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Level",
+      "en" : "Product Level"
+    },
+    "subClasses" : [ "7", "44" ],
+    "comment" : {
+      "en" : "In the \"product level\" entity, the aggregation of elements enables the grouping of products and defines the relationship between products and groups at different hierarchy levels. This supports planning, logistics, modeling, forecasting and reporting."
+    },
+    "attributes" : [ "external" ],
+    "id" : "118",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "303",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "189",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "195",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "286",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "308",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "309",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "310",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "243",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "311",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Event_Calendar",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event_Calendar",
+      "en" : "Event Calendar"
+    },
+    "comment" : {
+      "en" : "In the “Event Calendar” tracing entity, certain events like planned facility shutdowns, etc. can be scheduled"
+    },
+    "attributes" : [ "external" ],
+    "id" : "91",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "316",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "317",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "223",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "320",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "30"
+  }, {
+    "instances" : 0,
+    "union" : [ "19", "11" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "232"
+  }, {
+    "instances" : 0,
+    "union" : [ "91", "227", "2", "61", "207", "57" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "255"
+  }, {
+    "instances" : 0,
+    "union" : [ "28", "1", "7", "4", "5", "8", "227", "2", "11", "61", "279" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "313",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "278",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "104",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Product_Level_3",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Level_3",
+      "en" : "Product Level 3"
+    },
+    "comment" : {
+      "en" : "The static bottlenecks are determined in the “Product Level 3” master entity\r\nbecause the mid capacity planning is done on this first aggregated product level. There is no big difference in capacity from the aggregated level 3 product to its child level 4 products. (hierarchal aggregation level)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "118" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Simulation_Route",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Simulation_Route",
+      "en" : "Simulation Route"
+    },
+    "comment" : {
+      "en" : "A simulation route (AKA workroute) represents a sequence of process steps in manufacutring (mainly at wafer fab). This is a simulation entity and not a form of production/planning."
+    },
+    "attributes" : [ "external" ],
+    "id" : "322",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Product_Level_2",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Level_2",
+      "en" : "Product Level 2"
+    },
+    "comment" : {
+      "en" : "The product levels 3 to 1 are aggregated levels that are based on information from product level 4. (hierarchal aggregation level)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "44",
+    "superClasses" : [ "118" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "99",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Bottleneck",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bottleneck",
+      "en" : "Bottleneck"
+    },
+    "comment" : {
+      "en" : "A capacity Bottleneck is defined as an equipment or multiple equipment that reflect the capacity of the whole line (either a dedicated Line or Pool sharing)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "279",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "326",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "327",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "328",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "329",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "330",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "319",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semiconductor_Production_Lobe"
+    },
+    "subClasses" : [ "48", "4", "8", "227", "167", "2", "95", "53", "332", "56", "43", "5", "322", "113", "170", "60", "140", "279", "61", "333", "207" ],
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Hot",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hot",
+      "en" : "Hot"
+    },
+    "comment" : {
+      "en" : "These lots are processed after a certain maximum waiting time which is shorter than the maximum waiting time of standard lots. In general, for all classes, if there is more than one product type waiting."
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "140" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "335",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "336",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "339",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Tempering",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tempering",
+      "en" : "Tempering"
+    },
+    "comment" : {
+      "en" : "The tempering process is a type of heat treatment applied by the furnace. The process has the effect of toughening by lessing brittleness and reducing internal stresses."
+    },
+    "attributes" : [ "external" ],
+    "id" : "96",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Simulation_Part",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Simulation_Part",
+      "en" : "Simulation Part"
+    },
+    "comment" : {
+      "en" : "A simulation part helps to identify the same product in different locations. They are visible in Product Structures. This is a simulation entity and not a form of production/planning."
+    },
+    "attributes" : [ "external" ],
+    "id" : "332",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Process_Line",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process_Line",
+      "en" : "Process Line"
+    },
+    "comment" : {
+      "en" : "A Process Line is the forth hierarchy level in the Technology Catalogue and is a subset of Process Group. A Process Line is defined by WHAT is produced in detail"
+    },
+    "attributes" : [ "external" ],
+    "id" : "150",
+    "superClasses" : [ "124" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Delivery_Commitment",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Delivery_Commitment",
+      "en" : "Delivery Commitment"
+    },
+    "comment" : {
+      "en" : "The \"Delivery Commitment\" directly corresponds to the release plans and cycle time commitments introduced in the corresponding entities."
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error387",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error387"
+    },
+    "attributes" : [ "external" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error388",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error388"
+    },
+    "attributes" : [ "external" ],
+    "id" : "295"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error385",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error385"
+    },
+    "attributes" : [ "external" ],
+    "id" : "291"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error386",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error386"
+    },
+    "attributes" : [ "external" ],
+    "id" : "347"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error389",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error389"
+    },
+    "attributes" : [ "external" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error390",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error390"
+    },
+    "attributes" : [ "external" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error391",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error391"
+    },
+    "attributes" : [ "external" ],
+    "id" : "349"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error392",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error392"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "5" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "88"
+  }, {
+    "instances" : 0,
+    "union" : [ "25", "227", "11", "74", "279", "57" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "261"
+  }, {
+    "instances" : 0,
+    "union" : [ "322", "8" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "273"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error377",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error377"
+    },
+    "attributes" : [ "external" ],
+    "id" : "323"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Process_Class",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process_Class",
+      "en" : "Process Class"
+    },
+    "comment" : {
+      "en" : "A Process Class is the second hierarchy level in the Technology Catalogue and is a subset of top hierarchy level \"Technology Class\". A Process Class is defined by the device category and its generation or wafer diameter."
+    },
+    "attributes" : [ "external" ],
+    "id" : "123",
+    "superClasses" : [ "124" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error378",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error378"
+    },
+    "attributes" : [ "external" ],
+    "id" : "345"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error379",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error379"
+    },
+    "attributes" : [ "external" ],
+    "id" : "351"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error380",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error380"
+    },
+    "attributes" : [ "external" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Product_Group",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Group",
+      "en" : "Product Group"
+    },
+    "comment" : {
+      "en" : "A (main) product group is a grouping of products for calculation or sales purposes. The scope includes finished and unfinished products of one product line."
+    },
+    "attributes" : [ "external" ],
+    "id" : "354",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error383",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error383"
+    },
+    "attributes" : [ "external" ],
+    "id" : "353"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error384",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error384"
+    },
+    "attributes" : [ "external" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error381",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error381"
+    },
+    "attributes" : [ "external" ],
+    "id" : "258"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error382",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error382"
+    },
+    "attributes" : [ "external" ],
+    "id" : "264"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semiconductor_Development_Lobe"
+    },
+    "subClasses" : [ "25", "28", "40", "1", "80", "42", "41", "37", "91", "19", "124", "74", "11", "135", "57", "154", "118", "183", "47", "33", "101", "148" ],
+    "attributes" : [ "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Product_Line",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Line",
+      "en" : "Product Line"
+    },
+    "comment" : {
+      "en" : "The product line is one of the most prominent grouping of products. It is used in reporting as well as for structuring organizations."
+    },
+    "attributes" : [ "external" ],
+    "id" : "129",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Workshop",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Workshop",
+      "en" : "Workshop"
+    },
+    "subClasses" : [ "46", "81", "108", "82", "152", "97", "158", "160" ],
+    "comment" : {
+      "en" : "The overall organizational working structures within the fabs is described in the entity “Workshop” (master entity)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "47",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Equipment_Group",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Equipment_Group",
+      "en" : "Equipment Group"
+    },
+    "comment" : {
+      "en" : "Each machine is allocated to a group of machines doing similar processes. The equipment groups are described and allocated in the master entity “Equipment Group”. (master entity)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Process_Group",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process_Group",
+      "en" : "Process Group"
+    },
+    "comment" : {
+      "en" : "A Process Group is the third hierarchy level in the Technology Catalogue and a subset of the Process Class. A Process Group is defined by the device type and its generation (eventually voltage class) or wafer diameter"
+    },
+    "attributes" : [ "external" ],
+    "id" : "147",
+    "superClasses" : [ "124" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Target_Costs",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Target_Costs",
+      "en" : "Target Costs"
+    },
+    "comment" : {
+      "en" : "The target costs entity is the final cost of a product or service that must be achieved in order to generate the desired level of sales revenue and income or due to contractual agreements."
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Priority_Class",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Priority_Class",
+      "en" : "Priority Class"
+    },
+    "subClasses" : [ "162", "139", "22", "143", "145" ],
+    "comment" : {
+      "en" : "Each lot is characterized by a product type and a priority class. The priority classes are listed as follows: development, hot, productive, rocket and timecoupling."
+    },
+    "attributes" : [ "external" ],
+    "id" : "140",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Fab",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fab",
+      "en" : "Fabrication"
+    },
+    "comment" : {
+      "en" : "The “Fab” entity depicts the fab as a technological and physical production unit. (master entity)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "207",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Lot",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lot",
+      "en" : "Lot"
+    },
+    "comment" : {
+      "en" : "The Lot represents manufacturing unit (e.g. in the semicondutor industry in Frontend this often consists of 25 or 50 wafers)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Dry_Etching",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dry_Etching",
+      "en" : "Dry Etching"
+    },
+    "comment" : {
+      "en" : "Dry etching is a process whereby etching is accomplished by a reactive gas as opposed to a liquid. Dry etching techniques include plasma etch, reactive ion etch, magnetically enhanced reactive ion etch, inductively coupled plasma, electron spin resonance, etc."
+    },
+    "attributes" : [ "external" ],
+    "id" : "152",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Development",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Development",
+      "en" : "Development"
+    },
+    "comment" : {
+      "en" : "These lots have the same maxium waiting time as standard lots, however they are put before the standard lots."
+    },
+    "attributes" : [ "external" ],
+    "id" : "139",
+    "superClasses" : [ "140" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Release_Plan",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Release_Plan",
+      "en" : "Release Plan"
+    },
+    "comment" : {
+      "en" : "The “Release Plan” entity shows the quantity planned to be released to a fab or facility. (strategy entity)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Product_Number",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Number",
+      "en" : "Product Number"
+    },
+    "comment" : {
+      "en" : "The product number is a unique identifier of a product. The scope is limited to finished products only."
+    },
+    "attributes" : [ "external" ],
+    "id" : "373",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Shift",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Shift",
+      "en" : "Shift"
+    },
+    "comment" : {
+      "en" : "Each workshop has a certain technical and operational workforce organized in shifts described in the “Shift” entity."
+    },
+    "attributes" : [ "external" ],
+    "id" : "56",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Mask",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mask",
+      "en" : "Mask"
+    },
+    "comment" : {
+      "en" : "A transparent (glass or quartz) plate covered with an array of patterns used in making an IC. Each pattern consists of opaque and transparent areas that define the size and shape of all circuit and device elements. The mask is used to expose selected areas, and defines the areas to be processed. Masks may use emulsion, chrome, iron oxide, silicon or other material to produce the opaque areas."
+    },
+    "attributes" : [ "external" ],
+    "id" : "183",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Purge",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Purge",
+      "en" : "Purge"
+    },
+    "comment" : {
+      "en" : "purge' is the application of an intert gas, or gas mixture, to the OD or ID surface of the weld joint to displace non-inert atmospheric gases. A block purge is a non-flowing purge with positive pressure."
+    },
+    "attributes" : [ "external" ],
+    "id" : "333",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Lot_Size",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lot_Size",
+      "en" : "Lot Size"
+    },
+    "comment" : {
+      "en" : "A measure or quantity increment acceptable to or specified by the party offering to buy or sell. Used also as an alternative term for lot quantity."
+    },
+    "attributes" : [ "external" ],
+    "id" : "227",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Supply_Chain",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supply_Chain",
+      "en" : "Supply Chain"
+    },
+    "comment" : {
+      "en" : "The entity “Supply Chain” describes the supply chain from the topmost level with all possible material flow edges, referring on the FabIDs (master entity)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "167",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Lot_Event",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lot_Event",
+      "en" : "Lot Event"
+    },
+    "comment" : {
+      "en" : "The Lot Event  tracing entity gives the history of lot events. e.g. Hold events, Split events, Merge events, etc. (tracing entities)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Target_Revenue",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Target_Revenue",
+      "en" : "Target Revenue"
+    },
+    "comment" : {
+      "en" : "The target revenue is the amount of income a company wants to generate for the current accounting period."
+    },
+    "attributes" : [ "external" ],
+    "id" : "42",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Product_Class",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Class",
+      "en" : "Product Class"
+    },
+    "comment" : {
+      "en" : "the product class is an entity used for planning and reporting. This helps create stable brand/name architectures to enable highest possible product portfolio transparency, true value creation ad to prevent from product TM overload."
+    },
+    "attributes" : [ "external" ],
+    "id" : "382",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Operator",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Operator",
+      "en" : "Operator"
+    },
+    "comment" : {
+      "en" : "A user that interacts with the equipment only to the degree necessary for the equipment to perform its intended function."
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Process_Flow",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process_Flow",
+      "en" : "Process Flow"
+    },
+    "comment" : {
+      "en" : "A wafer technology is defined as a manufacturing process flow on wafer level including wafer test and pre-assembly which creates one device (discrete technology) or a set of different devices (IC technology) to be used in a product."
+    },
+    "attributes" : [ "external" ],
+    "id" : "126",
+    "superClasses" : [ "124" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product",
+      "en" : "Product"
+    },
+    "subClasses" : [ "129", "382", "354", "373" ],
+    "comment" : {
+      "en" : "A product is any tangible output or service that is a result of a process and that is intended for delivery to a customer or end user."
+    },
+    "attributes" : [ "external" ],
+    "id" : "53",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Implantation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Implantation",
+      "en" : "Implantation"
+    },
+    "comment" : {
+      "en" : "Implantation or Ion Implantation is a technique where ions are accelerated to a higher energy and speed an injected into a semiconductor. The dominant techniques for introducing dopants into a semiconductor."
+    },
+    "attributes" : [ "external" ],
+    "id" : "160",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Wet_Etching",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wet_Etching",
+      "en" : "Wet Etching"
+    },
+    "comment" : {
+      "en" : "Wet Etching is the process of removing material-etching, through the use of chemical activity."
+    },
+    "attributes" : [ "external" ],
+    "id" : "158",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Production_Request",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Production_Request",
+      "en" : "Production Request"
+    },
+    "comment" : {
+      "en" : "Production requests definte what the facilities need to produce when and in what quantity."
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Time_Constraints",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Time_Constraints",
+      "en" : "Time Constraints"
+    },
+    "comment" : {
+      "en" : "As single operations can set the lot to a time-critical state, time constraints can ensure that the operation setting it to an uncritical state is not delayed. Also the other case where certain time has to be spent between two operations can be covered with this master entity. (workflow deswcriptive master entities)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "369",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "77",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "94",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "215",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "378",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "338",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "423",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "134",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Furnace",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Furnace",
+      "en" : "Furnace"
+    },
+    "comment" : {
+      "en" : "Each furnace consists of two chambers with one tool in each chamber."
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "428",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "246",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Time_Coupling",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Time_Coupling",
+      "en" : "Time Coupling"
+    },
+    "comment" : {
+      "en" : "Lots of this type are requested by the next machine in the production line in irregular intervals. Special chemical characteristics require the lot being further processed immediately after the furnace operation. Thus, the downstram machines keep capacity free for the resulting time slot. timecoupling can be turned on or off. if it is on all lots are processed no matter how many are waiting and if not they wait."
+    },
+    "attributes" : [ "external" ],
+    "id" : "162",
+    "superClasses" : [ "140" ]
+  } ],
+  "property" : [ {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "166",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "172",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "190",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "191",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "196",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "202",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "204",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "206",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "214",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "216",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "218",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "222",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "226",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "229",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "231",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "234",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "238",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "241",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "242",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "245",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "252",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "254",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "257",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "260",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "263",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "266",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "272",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "274",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "277",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "284",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "285",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "287",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "289",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "290",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "294",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "297",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "302",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "304",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "305",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "306",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "307",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "312",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "314",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "315",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "318",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "321",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "292",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "324",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "325",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "331",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "334",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "337",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "340",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "342",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "343",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "344",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "346",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "348",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "350",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "296",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "352",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "355",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "356",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "357",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "359",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "360",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "362",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "363",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "235",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "364",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "365",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "366",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "367",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "368",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "370",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "371",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "372",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "374",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "375",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "376",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "377",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "379",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "380",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "280",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "381",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "155",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "341",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "383",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "384",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "385",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "386",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "387",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "388",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "389",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "390",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "391",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "392",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "358",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "393",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "394",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "395",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "396",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "397",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "398",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "219",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "205",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "399",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "400",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "401",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "402",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "403",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "404",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "405",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "406",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "407",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "408",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "409",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "410",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "411",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "412",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "413",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "414",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "415",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "416",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "417",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "418",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "419",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "420",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "421",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "422",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "424",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "425",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "426",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "427",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "429",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "192",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "430",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "431",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "432",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "361",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "433",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "434",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "435",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "233",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#p_time_per_unit",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "p_time_per_unit",
+      "en" : "p time per unit"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in seconds"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#enter_main_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "enter_main_quantity",
+      "en" : "enter main quantity"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Lot Event: Number of units in the lot (wafers / chips) when entered the event"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "13"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#hot_timeout",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hot_timeout",
+      "en" : "hot timeout"
+    },
+    "domain" : "22",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in hours"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "21"
+  }, {
+    "range" : "26",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "26",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#product_level_2_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "product_level_2_ID",
+      "en" : "product level 2 ID"
+    },
+    "domain" : "30",
+    "comment" : {
+      "en" : "Product Level 2: PK; Name of the product in level 2"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#consists_of_tool",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "consists_of_tool",
+      "en" : "consists of tool"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#split_lots",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "split_lots",
+      "en" : "split lots"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Split into # lots, added due to data import"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_time_constraints",
+    "inverse" : "38",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "has_time_constraints",
+      "en" : "has time constraints"
+    },
+    "domain" : "11",
+    "attributes" : [ "external", "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_delivery_commitment",
+    "inverse" : "65",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "has_delivery_commitment",
+      "en" : "has delivery commitment"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#product_level_3_pseudonym",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "product_level_3_pseudonym",
+      "en" : "product level 3 pseudonym"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "Product Level 4: FK; Assignment of product to first product aggregation level"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_equipment_group",
+    "inverse" : "72",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "has_equipment_group",
+      "en" : "has equipment group"
+    },
+    "domain" : "71",
+    "attributes" : [ "external", "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#transfer_mode",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "transfer_mode",
+      "en" : "transfer mode"
+    },
+    "domain" : "74",
+    "comment" : {
+      "en" : "Transfer Mode: Automation, AGV, milkrun or manual"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#customer_wish_time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "customer_wish_time",
+      "en" : "customer wish time"
+    },
+    "domain" : "61",
+    "comment" : {
+      "undefined" : "PK; customer wish time of the demand entry"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#target_service_level_beta",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "target_service_level_beta",
+      "en" : "target service level beta"
+    },
+    "domain" : "41",
+    "comment" : {
+      "en" : "Target Service Level: Target beta service level (Rate of demand to be fulfilled without delay)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#robot_loading_time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "robot_loading_time",
+      "en" : "robot loading time"
+    },
+    "domain" : "19",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in hours"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#product_level_3",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "product_level_3",
+      "en" : "product level 3"
+    },
+    "domain" : "88",
+    "comment" : {
+      "en" : "Lot: FK; Name of product level 3 lot belongs to"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#event_calendar_type",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "92",
+    "label" : {
+      "IRI-based" : "event_calendar_type",
+      "en" : "event calendar type"
+    },
+    "domain" : "91",
+    "comment" : {
+      "en" : "Event Calendar: Type of event"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#cycle_time_commitment_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "cycle_time_commitment_ID",
+      "en" : "cycle time commitment ID"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "Cycle Time Commitment: FK; Name of the product level 3"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#unit",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "unit",
+      "en" : "unit"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "unit, added due to data import"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_unloaded_by",
+    "inverse" : "102",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "is_unloaded_by",
+      "en" : "is unloaded by"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_demand_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_demand_of",
+      "en" : "is demand of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_operation",
+    "inverse" : "106",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "has_operation",
+      "en" : "has operation"
+    },
+    "domain" : "51",
+    "attributes" : [ "external", "object" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_workshop_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_workshop_of",
+      "en" : "is workshop of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#to_equipment_group_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "to_equipment_group_ID",
+      "en" : "to equipment group ID"
+    },
+    "domain" : "74",
+    "comment" : {
+      "en" : "Material Transfer: FK; target EquipmentGroup of transfer"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#variance_p_time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "variance_p_time",
+      "en" : "variance p time"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Variance of capacity relevant operation processing time"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_robotically_loaded_by",
+    "inverse" : "115",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "is_robotically_loaded_by",
+      "en" : "is robotically loaded by"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_product_level",
+    "inverse" : "119",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "118",
+    "label" : {
+      "IRI-based" : "has_product_level",
+      "en" : "has product level"
+    },
+    "domain" : "117",
+    "attributes" : [ "external", "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#shift_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "shift_ID",
+      "en" : "shift ID"
+    },
+    "domain" : "55",
+    "comment" : {
+      "en" : "Shift: PK; Name of shift"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "120"
+  }, {
+    "range" : "124",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "122"
+  }, {
+    "range" : "124",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "range" : "40",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "53",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_event_calendar_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_event_calendar_of",
+      "en" : "is event calendar of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#scrapping_test",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "scrapping_test",
+      "en" : "scrapping test"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Operation: Are the processed lots tested for scrapping?"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#demand_type",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "demand_type",
+      "en" : "demand type"
+    },
+    "domain" : "61",
+    "comment" : {
+      "en" : "Demand: PK; Demand forecast or real demand"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#mean_time_to_failure_distribution",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "137",
+    "label" : {
+      "IRI-based" : "mean_time_to_failure_distribution",
+      "en" : "mean time to failure distribution"
+    },
+    "domain" : "91",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "136"
+  }, {
+    "range" : "140",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "140",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "range" : "140",
+    "domain" : "143",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "range" : "140",
+    "domain" : "145",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "124",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "range" : "124",
+    "domain" : "150",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "47",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_owner",
+    "inverse" : "155",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "154",
+    "label" : {
+      "IRI-based" : "has_owner",
+      "en" : "has owner"
+    },
+    "domain" : "135",
+    "attributes" : [ "external", "object" ],
+    "id" : "153"
+  }, {
+    "range" : "47",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "47",
+    "domain" : "158",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "47",
+    "domain" : "160",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "140",
+    "domain" : "162",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#max_throughput_per_week",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "164",
+    "label" : {
+      "IRI-based" : "max_throughput_per_week",
+      "en" : "max throughput per week"
+    },
+    "domain" : "57",
+    "comment" : {
+      "en" : "Maximum Throughput per week"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_lot_event_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_lot_event_of",
+      "en" : "is lot event of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#from_fab_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "168",
+    "label" : {
+      "IRI-based" : "from_fab_ID",
+      "en" : "from fab ID"
+    },
+    "domain" : "167",
+    "comment" : {
+      "en" : "Supply Chain: FK; Source ID of supply chain edge"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_manually_loaded_by",
+    "inverse" : "171",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "is_manually_loaded_by",
+      "en" : "is manually loaded by"
+    },
+    "domain" : "170",
+    "attributes" : [ "external", "object" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#lot_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "173",
+    "label" : {
+      "IRI-based" : "lot_ID",
+      "en" : "lot ID"
+    },
+    "domain" : "66",
+    "comment" : {
+      "en" : "Lot Event: Name of the lot"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "172"
+  }, {
+    "range" : "95",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "47",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "range" : "47",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "range" : "47",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#lot_size_amount",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "179",
+    "label" : {
+      "IRI-based" : "lot_size_amount",
+      "en" : "lot size amount"
+    },
+    "domain" : "45",
+    "comment" : {
+      "en" : "Lot: Amount of units in the lot"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "178"
+  }, {
+    "range" : "47",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "26",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "26",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "26",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "26",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "26",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "range" : "26",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#sampling_rate",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "189",
+    "label" : {
+      "IRI-based" : "sampling_rate",
+      "en" : "sampling rate"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Sampling Rate: Execution rate of operation If operation is mandatory sampling rate is 1 (1- sampling rate = skipping rate of optional operation)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_release_plan_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_release_plan_of",
+      "en" : "is release plan of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "190"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#dedicates_epa",
+    "inverse" : "192",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "dedicates_epa",
+      "en" : "dedicates epa"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "191"
+  }, {
+    "range" : "26",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#robot_unloading_time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "195",
+    "label" : {
+      "IRI-based" : "robot_unloading_time",
+      "en" : "robot unloading time"
+    },
+    "domain" : "19",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in hours"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "194"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#load_time_wait",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "197",
+    "label" : {
+      "IRI-based" : "load_time_wait",
+      "en" : "load time wait"
+    },
+    "domain" : "101",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in hours"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "196"
+  }, {
+    "range" : "26",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_shift_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_shift_of",
+      "en" : "is shift of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "199"
+  }, {
+    "range" : "26",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "200"
+  }, {
+    "range" : "26",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "26",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "26",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_WIP_station",
+    "inverse" : "205",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "170",
+    "label" : {
+      "IRI-based" : "has_WIP_station",
+      "en" : "has WIP station"
+    },
+    "domain" : "113",
+    "attributes" : [ "external", "object" ],
+    "id" : "204"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#fab_type",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "208",
+    "label" : {
+      "IRI-based" : "fab_type",
+      "en" : "fab type"
+    },
+    "domain" : "207",
+    "comment" : {
+      "en" : "Fab: Front End, Wafer Testing, Back End Assembly, Back End Final Test, …"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "206"
+  }, {
+    "range" : "26",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "26",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "range" : "26",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "range" : "26",
+    "domain" : "124",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "212"
+  }, {
+    "range" : "26",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#cycle_time_committment",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "215",
+    "label" : {
+      "IRI-based" : "cycle_time_committment",
+      "en" : "cycle time committment"
+    },
+    "domain" : "28",
+    "comment" : {
+      "en" : "Cycle Time Commitment: Committed overall supply chain cycle time"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "214"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#frequency",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "217",
+    "label" : {
+      "IRI-based" : "frequency",
+      "en" : "frequency"
+    },
+    "domain" : "162",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "216"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_technology",
+    "inverse" : "219",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "has_technology",
+      "en" : "has technology"
+    },
+    "domain" : "15",
+    "attributes" : [ "external", "object" ],
+    "id" : "218"
+  }, {
+    "range" : "26",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "range" : "26",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#revenue_per_unit",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "223",
+    "label" : {
+      "IRI-based" : "revenue_per_unit",
+      "en" : "revenue per unit"
+    },
+    "domain" : "42",
+    "comment" : {
+      "en" : "Target Revenue: Revenue per unit of a certain technology"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "222"
+  }, {
+    "range" : "26",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "224"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#lot_size_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "228",
+    "label" : {
+      "IRI-based" : "lot_size_quantity",
+      "en" : "lot size quantity"
+    },
+    "domain" : "227",
+    "comment" : {
+      "en" : "Lot Size: Standard (FE) or optimal (BE) lot size for respective PL3"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#event_name",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "230",
+    "label" : {
+      "IRI-based" : "event_name",
+      "en" : "event name"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Lot Event: Name of event that occurred to lot (Hold, Split, Merge, Scrap, etc.)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "229"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_equipment",
+    "inverse" : "233",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "148",
+    "label" : {
+      "IRI-based" : "has_equipment",
+      "en" : "has equipment"
+    },
+    "domain" : "232",
+    "attributes" : [ "external", "object" ],
+    "id" : "231"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_plant",
+    "inverse" : "235",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "has_plant",
+      "en" : "has plant"
+    },
+    "domain" : "167",
+    "attributes" : [ "external", "object" ],
+    "id" : "234"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_route_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_route_of",
+      "en" : "is route of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "238"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#lot_due_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "225",
+    "label" : {
+      "IRI-based" : "lot_due_date",
+      "en" : "lot due date"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Lot Event: Date customer needs the lot delivered (DD.MM.YYYY hh:mm:ss)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "241"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#rework_test",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "243",
+    "label" : {
+      "IRI-based" : "rework_test",
+      "en" : "rework test"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Operation: Are the processed lots tested for rework?"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "242"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#capacity_loss",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "246",
+    "label" : {
+      "IRI-based" : "capacity_loss",
+      "en" : "capacity loss"
+    },
+    "domain" : "91",
+    "comment" : {
+      "en" : "Calendar: Facility capacity loss in percent"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "245"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#mean_time_to_failure",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "253",
+    "label" : {
+      "IRI-based" : "mean_time_to_failure",
+      "en" : "mean time to failure"
+    },
+    "domain" : "91",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in seconds"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "252"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#fab_pseudonym",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "247",
+    "label" : {
+      "IRI-based" : "fab_pseudonym",
+      "en" : "fab pseudonym"
+    },
+    "domain" : "255",
+    "comment" : {
+      "en" : "Release Plan: FK; Name of fab quantity of product level 4 is released"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "254"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_event_calendar",
+    "inverse" : "130",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "has_event_calendar",
+      "en" : "has event calendar"
+    },
+    "domain" : "258",
+    "attributes" : [ "external", "object" ],
+    "id" : "257"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#unloads",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "unloads",
+      "en" : "unloads"
+    },
+    "domain" : "101",
+    "attributes" : [ "external", "object" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#equipment_group_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "249",
+    "label" : {
+      "IRI-based" : "equipment_group_ID",
+      "en" : "has equipment group ID"
+    },
+    "domain" : "261",
+    "comment" : {
+      "en" : "Current WIP: PK; FK; Name of Equipment Group"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "260"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_workshop",
+    "inverse" : "107",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "has_workshop",
+      "en" : "has workshop"
+    },
+    "domain" : "264",
+    "attributes" : [ "external", "object" ],
+    "id" : "263"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#manually_loads",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "170",
+    "label" : {
+      "IRI-based" : "manually_loads",
+      "en" : "manually loads"
+    },
+    "domain" : "101",
+    "comment" : {
+      "undefined" : "the operator will load the wafer into the wip station and then the robot will load the wafers from the wip station to the tool"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "171"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#plant_name",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "259",
+    "label" : {
+      "IRI-based" : "plant_name",
+      "en" : "plant name"
+    },
+    "domain" : "80",
+    "comment" : {
+      "en" : "Plant: Will generally refer to the geographical location of the plant"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "266"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_operation_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_operation_of",
+      "en" : "is operation of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#robotically_loads",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "robotically_loads",
+      "en" : "robotically loads"
+    },
+    "domain" : "48",
+    "comment" : {
+      "undefined" : "the operator will load the wafer into the wip station and then the robot will load the wafers from the wip station to the tool"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_route",
+    "inverse" : "238",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "273",
+    "label" : {
+      "IRI-based" : "has_route",
+      "en" : "has route"
+    },
+    "domain" : "78",
+    "attributes" : [ "external", "object" ],
+    "id" : "272"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#split_lot_chips",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "275",
+    "label" : {
+      "IRI-based" : "split_lot_chips",
+      "en" : "split lot chips"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "split into lots with # chips, added due to data import"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "274"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_bottleneck",
+    "inverse" : "280",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "279",
+    "label" : {
+      "IRI-based" : "has_bottleneck",
+      "en" : "has bottleneck"
+    },
+    "domain" : "278",
+    "attributes" : [ "external", "object" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#mean_time_to_repair_distribution",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "283",
+    "label" : {
+      "IRI-based" : "mean_time_to_repair_distribution",
+      "en" : "mean time to repair distribution"
+    },
+    "domain" : "91",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "284"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#route_position",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "286",
+    "label" : {
+      "IRI-based" : "route_position",
+      "en" : "route position"
+    },
+    "domain" : "50",
+    "comment" : {
+      "en" : "Lot: FK; Sequential number of the operation lot has entered"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "285"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#max_WIP",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "288",
+    "label" : {
+      "IRI-based" : "max_WIP",
+      "en" : "max WIP"
+    },
+    "domain" : "207",
+    "comment" : {
+      "en" : "Fab: Hard capacity restriction of process units (NULL if no restriction)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "287"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#fill_rate",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "239",
+    "label" : {
+      "IRI-based" : "fill_rate",
+      "en" : "fill rate"
+    },
+    "domain" : "41",
+    "comment" : {
+      "en" : "Target Service Level: Rate of demand that can be fulfilled"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "289"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_current_WIP",
+    "inverse" : "292",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "has_current_WIP",
+      "en" : "has a current WIP"
+    },
+    "domain" : "291",
+    "attributes" : [ "external", "object" ],
+    "id" : "290"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_lot_size",
+    "inverse" : "296",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "227",
+    "label" : {
+      "IRI-based" : "has_lot_size",
+      "en" : "has lot size"
+    },
+    "domain" : "295",
+    "attributes" : [ "external", "object" ],
+    "id" : "294"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#plant_internal",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "268",
+    "label" : {
+      "IRI-based" : "plant_internal",
+      "en" : "plant internal"
+    },
+    "domain" : "80",
+    "comment" : {
+      "en" : "Plant: Does the plant belong to the company or to an external partner"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "297"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_lot_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_lot_of",
+      "en" : "is lot of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "302"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#equipment_group_type",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "248",
+    "label" : {
+      "IRI-based" : "equipment_group_type",
+      "en" : "equipment group type"
+    },
+    "domain" : "57",
+    "comment" : {
+      "en" : "Equipment Group: Refers to the technology used for the process tool: Lithography, Plasma Etching, Diffusion, Tester, Prober, etc."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "304"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#scrapping_probability_wafers",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "301",
+    "label" : {
+      "IRI-based" : "scrapping_probability_wafers",
+      "en" : "scrapping probability wafers"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Operation: Probability of scrapping-tested wafers to be scrapped"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "305"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#lot_owner",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "299",
+    "label" : {
+      "IRI-based" : "lot_owner",
+      "en" : "lot owner"
+    },
+    "domain" : "58",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "306"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#operation_critical",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "281",
+    "label" : {
+      "IRI-based" : "operation_critical",
+      "en" : "operation critical"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Operation: Is the Operation critical in terms of SC planning (a Bottleneck) or not?"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "307"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#workforce",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "313",
+    "label" : {
+      "IRI-based" : "workforce",
+      "en" : "workforce"
+    },
+    "domain" : "56",
+    "comment" : {
+      "en" : "Shift: Overall number of operational workers assigned to the shift"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "312"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_target_costs_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_target_costs_of",
+      "en" : "is target costs of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "314"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#fab_internal",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "244",
+    "label" : {
+      "IRI-based" : "fab_internal",
+      "en" : "fab internal"
+    },
+    "domain" : "207",
+    "comment" : {
+      "en" : "Fab: Does the fab belong to the company or to an external partner"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "315"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#technology_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "319",
+    "label" : {
+      "IRI-based" : "technology_ID",
+      "en" : "technology ID"
+    },
+    "domain" : "39",
+    "comment" : {
+      "en" : "Technology ID: FK; Name of the technology"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "318"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_priority_class_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "is_priority_class_of",
+      "en" : "is priority class of"
+    },
+    "domain" : "140",
+    "attributes" : [ "external", "object" ],
+    "id" : "321"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_current_WIP",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "323",
+    "label" : {
+      "IRI-based" : "is_current_WIP",
+      "en" : "is current WIP"
+    },
+    "domain" : "25",
+    "attributes" : [ "external", "object" ],
+    "id" : "292"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#requires",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "requires",
+      "en" : "requires"
+    },
+    "domain" : "183",
+    "attributes" : [ "external", "object" ],
+    "id" : "324"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#number_of_products",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "271",
+    "label" : {
+      "IRI-based" : "number_of_products",
+      "en" : "number of products"
+    },
+    "domain" : "162",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "325"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#enter_state",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "256",
+    "label" : {
+      "IRI-based" : "enter_state",
+      "en" : "enter state"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "Lot State: Time state is entered"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "331"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#priority",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "265",
+    "label" : {
+      "IRI-based" : "priority",
+      "en" : "priority"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Current WIP: Priority of the lot"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "334"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#demand_due_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "338",
+    "label" : {
+      "IRI-based" : "demand_due_date",
+      "en" : "demand due date"
+    },
+    "domain" : "61",
+    "comment" : {
+      "en" : "Demand: PK; Due Date of the demand entry"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "337"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_equipment_group_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_equipment_group_of",
+      "en" : "is equipment group of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_preceeded_by",
+    "inverse" : "341",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "162",
+    "label" : {
+      "IRI-based" : "is_preceeded_by",
+      "en" : "is preceeded by"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "340"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_fab_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_fab_of",
+      "en" : "is fab of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "342"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#release_plan_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "317",
+    "label" : {
+      "IRI-based" : "release_plan_ID",
+      "en" : "release plan ID"
+    },
+    "domain" : "2",
+    "comment" : {
+      "en" : "Release Plan: FK; Name of the product level 3"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "343"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_lot_event",
+    "inverse" : "165",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "has_lot_event",
+      "en" : "has lot event"
+    },
+    "domain" : "345",
+    "attributes" : [ "external", "object" ],
+    "id" : "344"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#sequence_number",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "300",
+    "label" : {
+      "IRI-based" : "sequence_number",
+      "en" : "sequence number"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Route: PK; Sequential number of operations along the route"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "346"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#event_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "250",
+    "label" : {
+      "IRI-based" : "event_date",
+      "en" : "event date"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Lot Event: Date event occurred (DD.MM.YYYY hh:mm:ss)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "348"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#scrapping_probability_lots",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "303",
+    "label" : {
+      "IRI-based" : "scrapping_probability_lots",
+      "en" : "scrapping probability lots"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Operation: Probability of scrapping-tested full lots to be scrapped"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "350"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_lot_size_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_lot_size_of",
+      "en" : "is lot size of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "296"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_target_costs",
+    "inverse" : "314",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "has_target_costs",
+      "en" : "has target costs"
+    },
+    "domain" : "353",
+    "attributes" : [ "external", "object" ],
+    "id" : "352"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#mean_time_off_line",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "298",
+    "label" : {
+      "IRI-based" : "mean_time_off_line",
+      "en" : "mean time off line"
+    },
+    "domain" : "19",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in hours"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "355"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#operation_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "270",
+    "label" : {
+      "IRI-based" : "operation_ID",
+      "en" : "operation ID"
+    },
+    "domain" : "49",
+    "comment" : {
+      "en" : "FK; Name of operation"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "356"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_target_revenue",
+    "inverse" : "358",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "has_target_revenue",
+      "en" : "has target revenue"
+    },
+    "domain" : "347",
+    "attributes" : [ "external", "object" ],
+    "id" : "357"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_delivery_commitment_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "is_delivery_commitment_of",
+      "en" : "is delivery commitment of"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#belongs_to_furnace_process",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "belongs_to_furnace_process",
+      "en" : "belongs to furnace process"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "359"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_processed_by_tool",
+    "inverse" : "361",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "is_processed_by_tool",
+      "en" : "is processed by"
+    },
+    "domain" : "135",
+    "attributes" : [ "external", "object" ],
+    "id" : "360"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#supply_chain_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "339",
+    "label" : {
+      "IRI-based" : "supply_chain_ID",
+      "en" : "supply chain ID"
+    },
+    "domain" : "40",
+    "comment" : {
+      "en" : "Technology: FK; Assignment of technology to supply chain"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "362"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#tool_availability",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "328",
+    "label" : {
+      "IRI-based" : "tool_availability",
+      "en" : "tool availability"
+    },
+    "domain" : "19",
+    "comment" : {
+      "en" : "is tool available? boolean YES/NO"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "363"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_plant_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_plant_of",
+      "en" : "is plant of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "235"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_required_by",
+    "inverse" : "324",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "183",
+    "label" : {
+      "IRI-based" : "is_required_by",
+      "en" : "is required by"
+    },
+    "domain" : "97",
+    "attributes" : [ "external", "object" ],
+    "id" : "364"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_demand",
+    "inverse" : "103",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "has_demand",
+      "en" : "has demand"
+    },
+    "domain" : "62",
+    "attributes" : [ "external", "object" ],
+    "id" : "365"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_responsible_for_planning_work_center",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "is_responsible_for_planning_work_center",
+      "en" : "is responsible for"
+    },
+    "domain" : "101",
+    "attributes" : [ "external", "object" ],
+    "id" : "366"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#operation_name",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "276",
+    "label" : {
+      "IRI-based" : "operation_name",
+      "en" : "operation name"
+    },
+    "domain" : "11",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "367"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#chips_per_wafer",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "369",
+    "label" : {
+      "IRI-based" : "chips_per_wafer",
+      "en" : "chips per wafer"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Product Level 4: Number of chips on a wafer"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "368"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#plant_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "269",
+    "label" : {
+      "IRI-based" : "plant_ID",
+      "en" : "plant ID"
+    },
+    "domain" : "207",
+    "comment" : {
+      "en" : "Plant: PK; Will generally refer to the geographical location of the plant"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "370"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#number_of_parallel_tools",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "282",
+    "label" : {
+      "IRI-based" : "number_of_parallel_tools",
+      "en" : "number of parallel tools"
+    },
+    "domain" : "57",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "371"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#units_per_time_period",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "327",
+    "label" : {
+      "IRI-based" : "units_per_time_period",
+      "en" : "units per time period"
+    },
+    "domain" : "0",
+    "comment" : {
+      "en" : "Release Plan: Quantity of release per time period (time period depends on company)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "372"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#route_name",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "308",
+    "label" : {
+      "IRI-based" : "route_name",
+      "en" : "route name"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "Name of route (usually equals product names requiring the route)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "374"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#rework_operation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "310",
+    "label" : {
+      "IRI-based" : "rework_operation",
+      "en" : "rework operation"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Operation: [FK] Rework Operation, if needed"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "375"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#supply_chain_name",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "336",
+    "label" : {
+      "IRI-based" : "supply_chain_name",
+      "en" : "supply chain name"
+    },
+    "domain" : "167",
+    "comment" : {
+      "en" : "Supply Chain: Name of the supply chain"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "376"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#delivery_commitment_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "378",
+    "label" : {
+      "IRI-based" : "delivery_commitment_ID",
+      "en" : "delivery commitment ID"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Delivery Commitment: FK; Name of the product level 3"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "377"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_shift",
+    "inverse" : "199",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "has_shift",
+      "en" : "has shift"
+    },
+    "domain" : "57",
+    "attributes" : [ "external", "object" ],
+    "id" : "379"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#simulation_part_is_part_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "simulation_part_is_part_of",
+      "en" : "is part of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "380"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_bottleneck_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "278",
+    "label" : {
+      "IRI-based" : "is_bottleneck_of",
+      "en" : "is bottleneck of"
+    },
+    "domain" : "279",
+    "attributes" : [ "external", "object" ],
+    "id" : "280"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_fab",
+    "inverse" : "342",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "207",
+    "label" : {
+      "IRI-based" : "has_fab",
+      "en" : "has fab"
+    },
+    "domain" : "351",
+    "attributes" : [ "external", "object" ],
+    "id" : "381"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_owned_by",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_owned_by",
+      "en" : "is owned by"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "155"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#preceeds",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "preceeds",
+      "en" : "preceeds"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "341"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#leave_main_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "237",
+    "label" : {
+      "IRI-based" : "leave_main_quantity",
+      "en" : "leave main quantity"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Lot Event: Number of units in the lot (wafers / chips) when left the event (Important for splits, merges and scraps)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "383"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#stock_out_probability",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "335",
+    "label" : {
+      "IRI-based" : "stock_out_probability",
+      "en" : "stock out probability"
+    },
+    "domain" : "41",
+    "comment" : {
+      "en" : "Target service level: Probability that customer demand cannot be fulfilled"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "384"
+  }, {
+    "range" : "20",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "385"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#mean_time_to_repair",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "293",
+    "label" : {
+      "IRI-based" : "mean_time_to_repair",
+      "en" : "mean time to repair"
+    },
+    "domain" : "91",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in seconds"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "386"
+  }, {
+    "range" : "20",
+    "domain" : "140",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "387"
+  }, {
+    "range" : "20",
+    "domain" : "279",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "388"
+  }, {
+    "range" : "20",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "389"
+  }, {
+    "range" : "20",
+    "domain" : "333",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "390"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_release_plan",
+    "inverse" : "190",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "has_release_plan",
+      "en" : "has release plan"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "391"
+  }, {
+    "range" : "20",
+    "domain" : "207",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "392"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_target_revenue_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_target_revenue_of",
+      "en" : "is target revenue of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "358"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#uses_one_or_more_technology",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "uses_one_or_more_technology",
+      "en" : "uses one or more technology"
+    },
+    "domain" : "124",
+    "attributes" : [ "external", "object" ],
+    "id" : "393"
+  }, {
+    "range" : "20",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "394"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#travel_time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "326",
+    "label" : {
+      "IRI-based" : "travel_time",
+      "en" : "travel time"
+    },
+    "domain" : "167",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in seconds"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "395"
+  }, {
+    "range" : "20",
+    "domain" : "170",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "396"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#rework_probability_wafers",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "311",
+    "label" : {
+      "IRI-based" : "rework_probability_wafers",
+      "en" : "rework probability wafers"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Operation: Probability of rework-tested wafers to be reworked"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "397"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#transfer_time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "330",
+    "label" : {
+      "IRI-based" : "transfer_time",
+      "en" : "transfer time"
+    },
+    "domain" : "74",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in seconds"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "398"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_technology_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_technology_of",
+      "en" : "is technology of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "219"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_WIP_station_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_WIP_station_of",
+      "en" : "is WIP station of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_product_level_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_product_level_of",
+      "en" : "is product level of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "119"
+  }, {
+    "range" : "20",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "399"
+  }, {
+    "range" : "20",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "400"
+  }, {
+    "range" : "20",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "401"
+  }, {
+    "range" : "20",
+    "domain" : "332",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "402"
+  }, {
+    "range" : "20",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "403"
+  }, {
+    "range" : "20",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "404"
+  }, {
+    "range" : "20",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "405"
+  }, {
+    "range" : "20",
+    "domain" : "322",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "406"
+  }, {
+    "range" : "20",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "407"
+  }, {
+    "range" : "20",
+    "domain" : "227",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "408"
+  }, {
+    "range" : "20",
+    "domain" : "167",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "409"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#residual_time_in_fab",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "316",
+    "label" : {
+      "IRI-based" : "residual_time_in_fab",
+      "en" : "residual time in fab"
+    },
+    "domain" : "25",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in seconds"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "410"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_lot",
+    "inverse" : "302",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "has_lot",
+      "en" : "has lot"
+    },
+    "domain" : "5",
+    "attributes" : [ "external", "object" ],
+    "id" : "411"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#leave_state",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "236",
+    "label" : {
+      "IRI-based" : "leave_state",
+      "en" : "leave state"
+    },
+    "domain" : "54",
+    "comment" : {
+      "en" : "Lot State: Time state is finished"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "412"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#needs_purge",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "333",
+    "label" : {
+      "IRI-based" : "needs_purge",
+      "en" : "needs purge"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "413"
+  }, {
+    "range" : "53",
+    "domain" : "382",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "414"
+  }, {
+    "range" : "53",
+    "domain" : "354",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "415"
+  }, {
+    "range" : "53",
+    "domain" : "373",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "416"
+  }, {
+    "range" : "118",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "417"
+  }, {
+    "range" : "118",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "418"
+  }, {
+    "range" : "20",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "419"
+  }, {
+    "range" : "20",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "420"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#to_fab_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "329",
+    "label" : {
+      "IRI-based" : "to_fab_ID",
+      "en" : "to fab ID"
+    },
+    "domain" : "167",
+    "comment" : {
+      "en" : "Supply Chain: FK; Sink ID of supply chain edge"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "421"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#demand_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "423",
+    "label" : {
+      "IRI-based" : "demand_quantity",
+      "en" : "demand quantity"
+    },
+    "domain" : "61",
+    "comment" : {
+      "en" : "Demand: Demand amount"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "422"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#purge_duration",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "320",
+    "label" : {
+      "IRI-based" : "purge_duration",
+      "en" : "purge duration"
+    },
+    "domain" : "333",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in hours"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "424"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_priority_class",
+    "inverse" : "321",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "140",
+    "label" : {
+      "IRI-based" : "has_priority_class",
+      "en" : "has priority class"
+    },
+    "domain" : "135",
+    "attributes" : [ "external", "object" ],
+    "id" : "425"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#processing_time_distribution",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "262",
+    "label" : {
+      "IRI-based" : "processing_time_distribution",
+      "en" : "processing time distribution"
+    },
+    "domain" : "11",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "426"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#WIP_costs_per_unit_and_time_unit",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "428",
+    "label" : {
+      "IRI-based" : "WIP_costs_per_unit_and_time_unit",
+      "en" : "WIP costs per unit and time unit"
+    },
+    "domain" : "43",
+    "comment" : {
+      "en" : "Target Costs: Capital bounding costs + Storage costs + Mean production costs of a unit of a certain technology and time unit"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "427"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#rework_probability_lots",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "309",
+    "label" : {
+      "IRI-based" : "rework_probability_lots",
+      "en" : "rework probability lots"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Operation: Probability of rework-tested full lots to be reworked"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "429"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_dedicated_to_tool",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "is_dedicated_to_tool",
+      "en" : "is dedicated to tool"
+    },
+    "domain" : "135",
+    "attributes" : [ "external", "object" ],
+    "id" : "192"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_time_constraints_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_time_constraints_of",
+      "en" : "is time constraints of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_product_number",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "373",
+    "label" : {
+      "IRI-based" : "has_product_number",
+      "en" : "has product number"
+    },
+    "domain" : "126",
+    "attributes" : [ "external", "object" ],
+    "id" : "430"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#development_timeout",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "251",
+    "label" : {
+      "IRI-based" : "development_timeout",
+      "en" : "development timeout"
+    },
+    "domain" : "139",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in hours"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "431"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_needed_by_tool",
+    "inverse" : "413",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "is_needed_by_tool",
+      "en" : "is needed by tool"
+    },
+    "domain" : "333",
+    "attributes" : [ "external", "object" ],
+    "id" : "432"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#processes",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "processes",
+      "en" : "processes"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "361"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#has_part_simulation_part",
+    "inverse" : "380",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "332",
+    "label" : {
+      "IRI-based" : "has_part_simulation_part",
+      "en" : "has part"
+    },
+    "domain" : "349",
+    "attributes" : [ "external", "object" ],
+    "id" : "433"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#finished_product_costs",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "240",
+    "label" : {
+      "IRI-based" : "finished_product_costs",
+      "en" : "finished product costs"
+    },
+    "domain" : "43",
+    "comment" : {
+      "en" : "Target Costs: Costs of a finished unit of a certain technology"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "434"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#parent_lot_event",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "parent_lot_event",
+      "en" : "parent lot event"
+    },
+    "domain" : "5",
+    "comment" : {
+      "en" : "Lot Event: FK; Name of ancestor lot event (important to rebuild the lot history)"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "435"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#is_equipment_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "is_equipment_of",
+      "en" : "is equipment of"
+    },
+    "domain" : "104",
+    "attributes" : [ "external", "object" ],
+    "id" : "233"
+  } ]
+}

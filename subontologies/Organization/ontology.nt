@@ -1,0 +1,423 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-ORG#has_category_level
+<http://www.w3id.org/ecsel-dr-ORG#has_category_level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#has_category_level> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-ORG#is_category_level_of> .
+<http://www.w3id.org/ecsel-dr-ORG#has_category_level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#has_category_level> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#has_category_level> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Category> .
+<http://www.w3id.org/ecsel-dr-ORG#has_category_level> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a project and its categories"@en .
+<http://www.w3id.org/ecsel-dr-ORG#has_category_level> <http://www.w3.org/2000/01/rdf-schema#label> "has category level"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#has_certification_level
+<http://www.w3id.org/ecsel-dr-ORG#has_certification_level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#has_certification_level> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-ORG#has_contributor> .
+<http://www.w3id.org/ecsel-dr-ORG#has_certification_level> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of> .
+<http://www.w3id.org/ecsel-dr-ORG#has_certification_level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#has_certification_level> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#has_certification_level> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Certification> .
+<http://www.w3id.org/ecsel-dr-ORG#has_certification_level> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a project and the certification that it has"@en .
+<http://www.w3id.org/ecsel-dr-ORG#has_certification_level> <http://www.w3.org/2000/01/rdf-schema#label> "has a certification level"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#has_contributor
+<http://www.w3id.org/ecsel-dr-ORG#has_contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#has_contributor> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-ORG#is_contributor_of> .
+<http://www.w3id.org/ecsel-dr-ORG#has_contributor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Role> .
+<http://www.w3id.org/ecsel-dr-ORG#has_contributor> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error330> .
+<http://org.semanticweb.owlapi/error#Error330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#has_contributor> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation between a role and the funcionts it has, division and region it is part of."@en .
+<http://www.w3id.org/ecsel-dr-ORG#has_contributor> <http://www.w3.org/2000/01/rdf-schema#label> "has a contributor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#has_project_status
+<http://www.w3id.org/ecsel-dr-ORG#has_project_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#has_project_status> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-ORG#is_project_status> .
+<http://www.w3id.org/ecsel-dr-ORG#has_project_status> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#has_project_status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Project_Status> .
+<http://www.w3id.org/ecsel-dr-ORG#has_project_status> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a project and its status"@en .
+<http://www.w3id.org/ecsel-dr-ORG#has_project_status> <http://www.w3.org/2000/01/rdf-schema#label> "has project status"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#has_role
+<http://www.w3id.org/ecsel-dr-ORG#has_role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#has_role> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-ORG#is_role_of> .
+<http://www.w3id.org/ecsel-dr-ORG#has_role> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#has_role> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Role> .
+<http://www.w3id.org/ecsel-dr-ORG#has_role> <http://www.w3.org/2000/01/rdf-schema#comment> "A relation that connects a role with a project"@en .
+<http://www.w3id.org/ecsel-dr-ORG#has_role> <http://www.w3.org/2000/01/rdf-schema#label> "has role"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#has_sub_project
+<http://www.w3id.org/ecsel-dr-ORG#has_sub_project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#has_sub_project> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of> .
+<http://www.w3id.org/ecsel-dr-ORG#has_sub_project> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#has_sub_project> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Sub_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#has_sub_project> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a project and its subprojects"@en .
+<http://www.w3id.org/ecsel-dr-ORG#has_sub_project> <http://www.w3.org/2000/01/rdf-schema#label> "has sub project"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#has_task
+<http://www.w3id.org/ecsel-dr-ORG#has_task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#has_task> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-ORG#is_task_of> .
+<http://www.w3id.org/ecsel-dr-ORG#has_task> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error336> .
+<http://org.semanticweb.owlapi/error#Error336> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#has_task> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Task> .
+<http://www.w3id.org/ecsel-dr-ORG#has_task> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a project or a subproject and their tasks"@en .
+<http://www.w3id.org/ecsel-dr-ORG#has_task> <http://www.w3.org/2000/01/rdf-schema#label> "has task"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#has_training_level
+<http://www.w3id.org/ecsel-dr-ORG#has_training_level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#has_training_level> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-ORG#is_training_level_of> .
+<http://www.w3id.org/ecsel-dr-ORG#has_training_level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#has_training_level> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Project_Manager> .
+<http://www.w3id.org/ecsel-dr-ORG#has_training_level> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Training> .
+<http://www.w3id.org/ecsel-dr-ORG#has_training_level> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a project manager and its training level"@en .
+<http://www.w3id.org/ecsel-dr-ORG#has_training_level> <http://www.w3.org/2000/01/rdf-schema#label> "has training level"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#has_work_package
+<http://www.w3id.org/ecsel-dr-ORG#has_work_package> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#has_work_package> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-ORG#is_work_package_of> .
+<http://www.w3id.org/ecsel-dr-ORG#has_work_package> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#has_work_package> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error332> .
+<http://org.semanticweb.owlapi/error#Error332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#has_work_package> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Work_Package> .
+<http://www.w3id.org/ecsel-dr-ORG#has_work_package> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a project or a subproject and their work packages"@en .
+<http://www.w3id.org/ecsel-dr-ORG#has_work_package> <http://www.w3.org/2000/01/rdf-schema#label> "has work package"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#is_category_level_of
+<http://www.w3id.org/ecsel-dr-ORG#is_category_level_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#is_category_level_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#is_category_level_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Category> .
+<http://www.w3id.org/ecsel-dr-ORG#is_category_level_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#is_category_level_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a category and its projects"@en .
+<http://www.w3id.org/ecsel-dr-ORG#is_category_level_of> <http://www.w3.org/2000/01/rdf-schema#label> "is category level of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of
+<http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Certification> .
+<http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a certification and its projects"@en .
+<http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of> <http://www.w3.org/2000/01/rdf-schema#label> "is certification level of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#is_contributor_of
+<http://www.w3id.org/ecsel-dr-ORG#is_contributor_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#is_contributor_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error335> .
+<http://org.semanticweb.owlapi/error#Error335> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#is_contributor_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Role> .
+<http://www.w3id.org/ecsel-dr-ORG#is_contributor_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a Central function, a division or a region and their roles"@en .
+<http://www.w3id.org/ecsel-dr-ORG#is_contributor_of> <http://www.w3.org/2000/01/rdf-schema#label> "is contributor of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#is_project_status
+<http://www.w3id.org/ecsel-dr-ORG#is_project_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#is_project_status> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Project_Status> .
+<http://www.w3id.org/ecsel-dr-ORG#is_project_status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#is_project_status> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a project status and the project it is part of"@en .
+<http://www.w3id.org/ecsel-dr-ORG#is_project_status> <http://www.w3.org/2000/01/rdf-schema#label> "is project status"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#is_role_of
+<http://www.w3id.org/ecsel-dr-ORG#is_role_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#is_role_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Role> .
+<http://www.w3id.org/ecsel-dr-ORG#is_role_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#is_role_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a role and the project it is part of"@en .
+<http://www.w3id.org/ecsel-dr-ORG#is_role_of> <http://www.w3.org/2000/01/rdf-schema#label> "is role of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of
+<http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Sub_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a subproject and the project it is part of"@en .
+<http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of> <http://www.w3.org/2000/01/rdf-schema#label> "is sub project of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#is_task_of
+<http://www.w3id.org/ecsel-dr-ORG#is_task_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#is_task_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Task> .
+<http://www.w3id.org/ecsel-dr-ORG#is_task_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error329> .
+<http://org.semanticweb.owlapi/error#Error329> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#is_task_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a task and the project or subproject it is part of"@en .
+<http://www.w3id.org/ecsel-dr-ORG#is_task_of> <http://www.w3.org/2000/01/rdf-schema#label> "is task of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#is_training_level_of
+<http://www.w3id.org/ecsel-dr-ORG#is_training_level_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#is_training_level_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#is_training_level_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Training> .
+<http://www.w3id.org/ecsel-dr-ORG#is_training_level_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-ORG#Project_Manager> .
+<http://www.w3id.org/ecsel-dr-ORG#is_training_level_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a training and the project manager that has it"@en .
+<http://www.w3id.org/ecsel-dr-ORG#is_training_level_of> <http://www.w3.org/2000/01/rdf-schema#label> "is training level of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#is_work_package_of
+<http://www.w3id.org/ecsel-dr-ORG#is_work_package_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#is_work_package_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#is_work_package_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Work_Package> .
+<http://www.w3id.org/ecsel-dr-ORG#is_work_package_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error331> .
+<http://org.semanticweb.owlapi/error#Error331> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#is_work_package_of> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between a workpackage and the project or subproject it is part of"@en .
+<http://www.w3id.org/ecsel-dr-ORG#is_work_package_of> <http://www.w3.org/2000/01/rdf-schema#label> "if work package of"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-ORG#budget_factor
+<http://www.w3id.org/ecsel-dr-ORG#budget_factor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#budget_factor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#budget_factor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-ORG#budget_factor> <http://www.w3.org/2000/01/rdf-schema#comment> "The budget factor of a project"@en .
+<http://www.w3id.org/ecsel-dr-ORG#budget_factor> <http://www.w3.org/2000/01/rdf-schema#label> "budget factor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#budget_value
+<http://www.w3id.org/ecsel-dr-ORG#budget_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#budget_value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#budget_value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#budget_value> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-ORG#budget_value> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of the budget of a project"@en .
+<http://www.w3id.org/ecsel-dr-ORG#budget_value> <http://www.w3.org/2000/01/rdf-schema#label> "budget value"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#category_factor
+<http://www.w3id.org/ecsel-dr-ORG#category_factor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#category_factor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Category> .
+<http://www.w3id.org/ecsel-dr-ORG#category_factor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-ORG#category_factor> <http://www.w3.org/2000/01/rdf-schema#comment> "The category factor of a project"@en .
+<http://www.w3id.org/ecsel-dr-ORG#category_factor> <http://www.w3.org/2000/01/rdf-schema#label> "category factor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#experience
+<http://www.w3id.org/ecsel-dr-ORG#experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#experience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Project_Manager> .
+<http://www.w3id.org/ecsel-dr-ORG#experience> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-ORG#experience> <http://www.w3.org/2000/01/rdf-schema#comment> "The experience that a project manager has"@en .
+<http://www.w3id.org/ecsel-dr-ORG#experience> <http://www.w3.org/2000/01/rdf-schema#label> "experience" .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#goal
+<http://www.w3id.org/ecsel-dr-ORG#goal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#goal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#goal> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-ORG#goal> <http://www.w3.org/2000/01/rdf-schema#comment> "The goal of a project"@en .
+<http://www.w3id.org/ecsel-dr-ORG#goal> <http://www.w3.org/2000/01/rdf-schema#label> "goal"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#impact_factor
+<http://www.w3id.org/ecsel-dr-ORG#impact_factor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#impact_factor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#impact_factor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-ORG#impact_factor> <http://www.w3.org/2000/01/rdf-schema#comment> "The factor of impact of a project"@en .
+<http://www.w3id.org/ecsel-dr-ORG#impact_factor> <http://www.w3.org/2000/01/rdf-schema#label> "impact factor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#interface_complexity_factor
+<http://www.w3id.org/ecsel-dr-ORG#interface_complexity_factor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#interface_complexity_factor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#interface_complexity_factor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-ORG#interface_complexity_factor> <http://www.w3.org/2000/01/rdf-schema#comment> "The factor of complexity of the interface"@en .
+<http://www.w3id.org/ecsel-dr-ORG#interface_complexity_factor> <http://www.w3.org/2000/01/rdf-schema#label> "interface complexity factor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#minimum_job_experience
+<http://www.w3id.org/ecsel-dr-ORG#minimum_job_experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#minimum_job_experience> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-ORG#experience> .
+<http://www.w3id.org/ecsel-dr-ORG#minimum_job_experience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Project_Manager> .
+<http://www.w3id.org/ecsel-dr-ORG#minimum_job_experience> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-ORG#minimum_job_experience> <http://www.w3.org/2000/01/rdf-schema#comment> "Minimum job experience that the project manager needs"@en .
+<http://www.w3id.org/ecsel-dr-ORG#minimum_job_experience> <http://www.w3.org/2000/01/rdf-schema#label> "minimum job experience" .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#minimum_project_manager_experience
+<http://www.w3id.org/ecsel-dr-ORG#minimum_project_manager_experience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#minimum_project_manager_experience> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-ORG#experience> .
+<http://www.w3id.org/ecsel-dr-ORG#minimum_project_manager_experience> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Project_Manager> .
+<http://www.w3id.org/ecsel-dr-ORG#minimum_project_manager_experience> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-ORG#minimum_project_manager_experience> <http://www.w3.org/2000/01/rdf-schema#comment> "Minimum job experience that the project manager needs"@en .
+<http://www.w3id.org/ecsel-dr-ORG#minimum_project_manager_experience> <http://www.w3.org/2000/01/rdf-schema#label> "minimum project manager experience" .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#name
+<http://www.w3id.org/ecsel-dr-ORG#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-ORG#name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the project"@en .
+<http://www.w3id.org/ecsel-dr-ORG#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#resulting_factor_average
+<http://www.w3id.org/ecsel-dr-ORG#resulting_factor_average> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-ORG#resulting_factor_average> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-ORG#Company_Project> .
+<http://www.w3id.org/ecsel-dr-ORG#resulting_factor_average> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-ORG#resulting_factor_average> <http://www.w3.org/2000/01/rdf-schema#label> "resulting factor average"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://org.semanticweb.owlapi/error#Error329
+# 
+# http://org.semanticweb.owlapi/error#Error330
+# 
+# http://org.semanticweb.owlapi/error#Error331
+# 
+# http://org.semanticweb.owlapi/error#Error332
+# 
+# http://org.semanticweb.owlapi/error#Error333
+<http://org.semanticweb.owlapi/error#Error333> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error333> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-ORG#Category> .
+# 
+# http://org.semanticweb.owlapi/error#Error334
+<http://org.semanticweb.owlapi/error#Error334> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error334> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-ORG#Project_Status> .
+# 
+# http://org.semanticweb.owlapi/error#Error335
+# 
+# http://org.semanticweb.owlapi/error#Error336
+# 
+# http://www.w3id.org/ecsel-dr#Organization_Lobe
+<http://www.w3id.org/ecsel-dr#Organization_Lobe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Category
+<http://www.w3id.org/ecsel-dr-ORG#Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Category> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+<http://www.w3id.org/ecsel-dr-ORG#Category> <http://www.w3.org/2000/01/rdf-schema#comment> "Categorizes the project in a big, medium or small project. Usually according the project size."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Category> <http://www.w3.org/2000/01/rdf-schema#label> "Category"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Central_Function
+<http://www.w3id.org/ecsel-dr-ORG#Central_Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Central_Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+<http://www.w3id.org/ecsel-dr-ORG#Central_Function> <http://www.w3.org/2000/01/rdf-schema#comment> "Large companies have central fuctions like the Finance or corporate suppyl chain department."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Central_Function> <http://www.w3.org/2000/01/rdf-schema#label> "Central Function"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Certification
+<http://www.w3id.org/ecsel-dr-ORG#Certification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Certification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+<http://www.w3id.org/ecsel-dr-ORG#Certification> <http://www.w3.org/2000/01/rdf-schema#comment> "An official document, as proof that something has happened or been done"@en .
+<http://www.w3id.org/ecsel-dr-ORG#Certification> <http://www.w3.org/2000/01/rdf-schema#label> "Certification"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Company_Project
+<http://www.w3id.org/ecsel-dr-ORG#Company_Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Company_Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-ORG#Project> .
+<http://www.w3id.org/ecsel-dr-ORG#Company_Project> <http://www.w3.org/2000/01/rdf-schema#comment> "Projects that are or have been developed using our methodology, based on the IPMA standard."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Company_Project> <http://www.w3.org/2000/01/rdf-schema#label> "Company Project"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Division
+<http://www.w3id.org/ecsel-dr-ORG#Division> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Division> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+<http://www.w3id.org/ecsel-dr-ORG#Division> <http://www.w3.org/2000/01/rdf-schema#comment> "Hierarchical structure of an organization. For example ATV, DDS, ICP..."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Division> <http://www.w3.org/2000/01/rdf-schema#label> "Division"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Project
+<http://www.w3id.org/ecsel-dr-ORG#Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+<http://www.w3id.org/ecsel-dr-ORG#Project> <http://www.w3.org/2000/01/rdf-schema#comment> "Achievement of the project objective requires these deliverables to conform to specific requirements, including multiple constraints such as time, cost, resources and quality standards or requirements."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Project> <http://www.w3.org/2000/01/rdf-schema#comment> "​Projects are a way to deliver value to an organization. A project is defined as a unique, temporary, multi-disciplinary and organized endeavor to realize agreed deliverables within predefined requirements and constraints."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Project> <http://www.w3.org/2000/01/rdf-schema#label> "Project"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Project_Manager
+<http://www.w3id.org/ecsel-dr-ORG#Project_Manager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Project_Manager> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-ORG#Role> .
+<http://www.w3id.org/ecsel-dr-ORG#Project_Manager> <http://www.w3.org/2000/01/rdf-schema#comment> "Project managers have the responsibility of the planning, procurement and execution of a project, in any undertaking that has a defined scope, defined start and a defined finish; regardless of industry."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Project_Manager> <http://www.w3.org/2000/01/rdf-schema#label> "Project Manager"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Project_Owner
+<http://www.w3id.org/ecsel-dr-ORG#Project_Owner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Project_Owner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-ORG#Role> .
+<http://www.w3id.org/ecsel-dr-ORG#Project_Owner> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines BP for target achievement."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Project_Owner> <http://www.w3.org/2000/01/rdf-schema#label> "Project Owner"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Project_Status
+<http://www.w3id.org/ecsel-dr-ORG#Project_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Project_Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+<http://www.w3id.org/ecsel-dr-ORG#Project_Status> <http://www.w3.org/2000/01/rdf-schema#comment> "The current status of the project"@en .
+<http://www.w3id.org/ecsel-dr-ORG#Project_Status> <http://www.w3.org/2000/01/rdf-schema#label> "Project Status"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Project_Team_Member
+<http://www.w3id.org/ecsel-dr-ORG#Project_Team_Member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Project_Team_Member> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-ORG#Role> .
+<http://www.w3id.org/ecsel-dr-ORG#Project_Team_Member> <http://www.w3.org/2000/01/rdf-schema#comment> "Project team members are the individuals who actively work on one or more phases of the project."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Project_Team_Member> <http://www.w3.org/2000/01/rdf-schema#label> "Project Team Members"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Region
+<http://www.w3id.org/ecsel-dr-ORG#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+<http://www.w3id.org/ecsel-dr-ORG#Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Large companies divide their activites in regions, like in America, Greater China, SEA (South East Asia), Europe and ROW (rest of World)."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Role
+<http://www.w3id.org/ecsel-dr-ORG#Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Role> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-PMV#Role> .
+<http://www.w3id.org/ecsel-dr-PMV#Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+<http://www.w3id.org/ecsel-dr-ORG#Role> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the responsibilities assumed by an individual."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Role> <http://www.w3.org/2000/01/rdf-schema#label> "Role"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Sub_Project
+<http://www.w3id.org/ecsel-dr-ORG#Sub_Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Sub_Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+<http://www.w3id.org/ecsel-dr-ORG#Sub_Project> <http://www.w3.org/2000/01/rdf-schema#comment> "A project within a larger project."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Sub_Project> <http://www.w3.org/2000/01/rdf-schema#label> "Sub Project"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Task
+<http://www.w3id.org/ecsel-dr-ORG#Task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Task> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-PMV#Task> .
+<http://www.w3id.org/ecsel-dr-PMV#Task> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Task> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+<http://www.w3id.org/ecsel-dr-ORG#Task> <http://www.w3.org/2000/01/rdf-schema#comment> "A piece of work to be done or undertaken."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Task> <http://www.w3.org/2000/01/rdf-schema#label> "Task"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Training
+<http://www.w3id.org/ecsel-dr-ORG#Training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Training> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+<http://www.w3id.org/ecsel-dr-ORG#Training> <http://www.w3.org/2000/01/rdf-schema#comment> "The process of learning the skills you need to do a particular job or activity"@en .
+<http://www.w3id.org/ecsel-dr-ORG#Training> <http://www.w3.org/2000/01/rdf-schema#label> "Training"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Work_Package
+<http://www.w3id.org/ecsel-dr-ORG#Work_Package> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-ORG#Work_Package> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+<http://www.w3id.org/ecsel-dr-ORG#Work_Package> <http://www.w3.org/2000/01/rdf-schema#comment> "A work package is a group of related tasks within a project."@en .
+<http://www.w3id.org/ecsel-dr-ORG#Work_Package> <http://www.w3.org/2000/01/rdf-schema#label> "Work Package"@en .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Role
+# 
+# http://www.w3id.org/ecsel-dr-PMV#Task
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Autobahn
+<http://www.w3id.org/ecsel-dr-ORG#Autobahn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Expedition
+<http://www.w3id.org/ecsel-dr-ORG#Expedition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Idea
+<http://www.w3id.org/ecsel-dr-ORG#Idea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Implemented
+<http://www.w3id.org/ecsel-dr-ORG#Implemented> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#In_Preperation
+<http://www.w3id.org/ecsel-dr-ORG#In_Preperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Mission
+<http://www.w3id.org/ecsel-dr-ORG#Mission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#On_Hold
+<http://www.w3id.org/ecsel-dr-ORG#On_Hold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Running
+<http://www.w3id.org/ecsel-dr-ORG#Running> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Withdrawn
+<http://www.w3id.org/ecsel-dr-ORG#Withdrawn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

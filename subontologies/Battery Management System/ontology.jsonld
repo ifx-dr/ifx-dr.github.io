@@ -1,0 +1,310 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr#Application",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "CO2 Savings refers to several solutions that might reduce carbon emissions throughout the course of a Lithiu-Ion battery's lifespan."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Application"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Battery_Control_Unit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Functional_Block"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Battery_Management_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A battery management system is, according to Infineon´s definition, a set of \"electronic control circuits that monitor and regulate the charging and discharge of batteries.\" It supervises parameters such as the temperature, voltages, capacity, state of charge, power consumption, charging cycles."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Application"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Cell_Supervision",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Functional_Block"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Cells",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Cells are fundamental electrochemical unit, or assembly of electrodes, separators, electrolyte, container, and terminals, that serves as a source of electrical energy by directly converting chemical energy. In this case, the cells are all of the type Li-Ion."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Application"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Current_Sensing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Functional_Block"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Current_Sensor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Semiconductor"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#E_Car",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Vehicle"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-CO2Savings#Electric_Car"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Electric_Means_Transportation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Functional_Block",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Functional Block is a component of the battery management system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Application"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Isolated_Communication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Functional_Block"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Lithium_Ion_Battery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Lithium-Ion Battery represents the set of cells together, which is the battery pack, plus the battery management system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Application"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Longer_Lifespan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Longer life cycle refers to the number of extra cycles of the battery due good handling throught its lifecycle. It is a way of CO2 savings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Microcontroller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Semiconductor"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Multichannel_Controler_Integrated_Circuit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Semiconductor"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Optimized_Charging",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Second life means that the Lithium-Ion battery has ceased its main activity, in this case powering an electric car, however, it is still able to be used for other purposes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Pack",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A battery pack is a set of Lithium-Ion cells."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Application"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Pack_Monitoring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Functional_Block"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Power_Management_Integrated_Circuit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Semiconductor"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Pressure_Sensor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Semiconductor"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Semiconductor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Semiconductor is an eletronic device which electrical conductivity value is between an insulator and a conductor. In this case, constitutes the battery management system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Application"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Semiconductor_Company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Company responsible for the manufacturing of semiconductors."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Application"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#UART_Transceiver_Integrated_Circuit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Semiconductor"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#Vehicle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A vehicle is a machine with wheels and an engine, used for transporting people or goods."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Application"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#contributes_for_CO2_savings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Battery_Management_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#enables_CO2_savings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Electric_Means_Transportation"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Longer_Lifespan"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Optimized_Charging"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#has_battery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#E_Car"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Lithium_Ion_Battery"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#has_functional_block",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Battery_Management_System"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Functional_Block"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#has_semiconductor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Battery_Control_Unit"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Cell_Supervision"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Current_Sensing"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Isolated_Communication"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Pack_Monitoring"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Semiconductor"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#is_functional_block",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Battery_Control_Unit"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Cell_Supervision"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Current_Sensing"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Isolated_Communication"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Pack_Monitoring"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Functional_Block"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#is_part_of_battery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Battery_Management_System"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Cells"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Pack"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Lithium_Ion_Battery"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#is_produced_by_semiconductor_company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Semiconductor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Semiconductor_Company"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#is_vehicle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#E_Car"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#Vehicle"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-BMS#model",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-BMS#E_Car"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-CO2Savings#Electric_Car",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

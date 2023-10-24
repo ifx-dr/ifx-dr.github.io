@@ -1,0 +1,1292 @@
+@prefix : <http://www.w3id.org/ecsel-dr-OOSMP#> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:3D_Magnetic_Sensor a owl:Class ;
+    rdfs:label "3D Magnetic Sensor"@en ;
+    rdfs:comment """Capable of measuring 3D, linear and rotational movement. The sensor realizes an accurate three-dimensional sensing with extremely low power consumption. Capable of detecting the magnetic field in the x, y, and z-direction, the sensor is ideally suited for the measurement\r
+of linear, rotation or 3 dimensional movements."""@en ;
+    rdfs:subClassOf :Magnetic_Position_Sensor ;
+    ns1:prefLabel "3D Magnetic Sensor"@en .
+
+:3Phase_Topology a owl:NamedIndividual .
+
+:Active_And_Preferred_OPN_Status a owl:NamedIndividual .
+
+:Active_OPN_Status a owl:NamedIndividual .
+
+:Allrounder_Design_Target a owl:NamedIndividual .
+
+:Angle_Sensor a owl:Class ;
+    rdfs:label "Angle Sensor"@en ;
+    rdfs:comment "Infineon offers a family of angle sensors based on integrated Magneto Resistive (ixMR) technologies. Technologies include today iGMR and AMR. The sensors detect the orientation of an applied magnetic field by measuring sine and cosine angle components with monolithically integrated magneto resistive elements. ixMR technology is now widely used in automotive and industrial applications and provides a wide range of benefits. Our iAMR sensors are ideal for applications with the highest accuracy requirements. Our iAMR technology offers best performance over temperature, lifetime and magnetic field range. They are pre-calibrated and ready to use."@en ;
+    rdfs:subClassOf :Magnetic_Position_Sensor ;
+    ns1:prefLabel "Angle Sensor"@en .
+
+:Automotive_Qualification a owl:NamedIndividual .
+
+:BrushedDC_Motor_Type a owl:NamedIndividual .
+
+:DC_link_voltage a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "has DC link voltage" ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :DC_link_voltage_characteristic .
+
+:DC_link_voltage_max a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "has DC link voltage max" ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :DC_link_voltage_characteristic .
+
+:DC_link_voltage_min a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "has DC link voltage min" ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :DC_link_voltage_characteristic .
+
+:Digital_Barometric_Pressure_Sensor a owl:Class ;
+    rdfs:label "Digital Barometric Pressure Sensor"@en ;
+    rdfs:comment "Infineon’s  DPS310 is a miniaturized digital barometric pressure sensor which offers high accuracy and low current consumption, and is capable of measuring both pressure and temperature. A sealed capacitive sensing element is used for pressure measurement, guaranteeing high precision and accuracy across temperature changes. The small package and low energy consumption make  DPS310 ideal for mobile applications and wearable devices."@en ;
+    rdfs:subClassOf :Pressure_Sensor ;
+    ns1:prefLabel "Digital Barometric Pressure Sensor"@en .
+
+:Discontinued_OPN_Status a owl:NamedIndividual .
+
+:Discrete_Solution_Integration_Level a owl:NamedIndividual .
+
+:Easy_To_Design_Design_Target a owl:NamedIndividual .
+
+:Flexible_To_Design_Design_Target a owl:NamedIndividual .
+
+:Fully_Integrated_Solution_Integration_Level a owl:NamedIndividual .
+
+:H_Bridge_Topology a owl:NamedIndividual .
+
+:Half_Bridge_Topology a owl:NamedIndividual .
+
+:Hall_Switch a owl:Class ;
+    rdfs:label "Hall Switch"@en ;
+    rdfs:comment "The sensor provides an easy-to-use and cost effective solution for position sensing applications, requiring high temperature stability of the magnetic threshold. Today the market demands smaller and more energy efficient Hall switches. To satisfy the needs of more compact designs and environmental legislation  with a high quality product is very difficult. Infineon offers attractive pricing, reliable supply, benchmark quality and excellent design-in support to contribute to the customers success."@en ;
+    rdfs:subClassOf :Magnetic_Position_Sensor ;
+    ns1:prefLabel "Hall Switch"@en .
+
+:High_Price_Price_Indication a owl:NamedIndividual .
+
+:High_Side_Topology a owl:NamedIndividual .
+
+:IGBT_Main_Power_Device_Type a owl:NamedIndividual .
+
+:Induction_Motor_Type a owl:NamedIndividual .
+
+:Industrial_Qualification a owl:NamedIndividual .
+
+:Integrated_Controller_Driver_Solution_Integration_Level a owl:NamedIndividual .
+
+:Integrated_Driver-Power_Stage_Solution_Integration_Level a owl:NamedIndividual .
+
+:Integrated_Power_Stage_Solution_Integration_Level a owl:NamedIndividual .
+
+:Integrated_Pressure_Sensor a owl:Class ;
+    rdfs:label "Integrated Pressure Sensor"@en ;
+    rdfs:comment "Infineon offers a different range of barometric air pressure sensor for automotive and industrial applications. The barometric air pressure (BAP) is an important parameter to compute the air-fuel ratio provided to the engine and for controlling spark advance to optimize engine efficiency. In automotive applications where high production volumes are common there is substantial interest in precision, low-cost and fully integrated sensors."@en ;
+    rdfs:subClassOf :Pressure_Sensor ;
+    ns1:prefLabel "Integrated Pressure Sensor"@en .
+
+:Linear_Hall_Sensor a owl:Class ;
+    rdfs:label "Linear Hall Sensor"@en ;
+    rdfs:comment """Measure the vertical component of a magnetic field and outputs a signal that is directly proportional to the magnetic field. These programmable linear Hall sensors come with different interface options. Our family of TLE499x linear Hall ICs is tailored to the needs of highly accurate angular and linear position detection and current measurement applications.\r
+Each product measures the vertical component of a magnetic field and outputs a signal that is directly proportional to the magnetic field. These programmable linear Hall sensors come with different interface options."""@en ;
+    rdfs:subClassOf :Magnetic_Position_Sensor ;
+    ns1:prefLabel "Linear Hall Sensor"@en .
+
+:Low_Price_Price_Indication a owl:NamedIndividual .
+
+:Low_Side_Topology a owl:NamedIndividual .
+
+:MOSFET_Main_Power_Device_Type a owl:NamedIndividual .
+
+:Magnetic_Current_Sensor a owl:Class ;
+    rdfs:label "Magnetic Current Sensor"@en ;
+    rdfs:comment "A high-precision current sensor for industrial applications based on Infoneon proven Hall technology. The core-less concept significantly reduces footprint compared with existing solutions. Infineon´s TLI4970 is an easy-to-use, fully digital solution that does not require external calibration or additional parts such as A/D converters, 0 pAmps or reference voltage. It thus significantly reduces overall implementation effort as well as PCB space and cost."@en,
+        "A magnetic current sensor is a sensor which measures magnetic current."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr-BMS#Current_Sensor>,
+        :Sensor ;
+    ns1:prefLabel "Magnetic Current Sensor"@en .
+
+:Magnetic_Speed_Sensor a owl:Class ;
+    rdfs:label "Magnetic Speed Sensor"@en ;
+    rdfs:comment "The  magnetic speed sensors are designed to measure speed in safety and powertrain applications such as speedometers, ABS, camshafts/crankshafts and automatic transmissions. They are also used in similar applications in the industrial sector. The sensors use a ferromagnetic gear tooth or encoder structure to measure linear or rotational speed and position."@en ;
+    rdfs:subClassOf :Sensor ;
+    ns1:prefLabel "Magnetic Speed Sensor"@en .
+
+:Medium_Price_Price_Indication a owl:NamedIndividual .
+
+:Microphone a owl:Class ;
+    rdfs:label "Microphone"@en ;
+    rdfs:comment "The highly performing MEMS Microphones will enable the next performance level of voice user interfaces, audio recording and active noise cancellation. Infineon’s Dual Backplate (DBP) MEMS technology provides crystal clear (SNR), distortion free (THD) audio signals."@en ;
+    rdfs:subClassOf :Sensor ;
+    ns1:prefLabel "Microphone"@en .
+
+:Motor_Control_And_Drive_Solution_DC_Link_Voltage_155 a owl:Class ;
+    rdfs:label "Motor Control And Drive Solution With DC Link Voltage 155.0"@en ;
+    rdfs:comment "Motor control and drive solution with DC link voltage equal to 155.0."@en ;
+    rdfs:subClassOf :Motor_Control_And_Drive_Solution ;
+    ns1:prefLabel "Motor Control And Drive Solution With DC Link Voltage 155.0"@en .
+
+:Motor_Control_And_Drive_Solution_Electric_Power_Max_200 a owl:Class ;
+    rdfs:label "Motor Control And Drive Solution With Electric Power Max 200.0"@en ;
+    rdfs:comment "Motor control and drive solution with maximum electric power equal to 200.0."@en ;
+    rdfs:subClassOf :Motor_Control_And_Drive_Solution ;
+    ns1:prefLabel "Motor Control And Drive Solution With Electric Power Max 200.0"@en .
+
+:Motor_Control_And_Drive_Solution_Industrial_Qualification a owl:Class ;
+    rdfs:label "Motor Control And Drive Solution With Industrial Qualification"@en ;
+    rdfs:comment "Motor control and drive solution with a industrial qualification."@en ;
+    rdfs:subClassOf :Motor_Control_And_Drive_Solution ;
+    ns1:prefLabel "Motor Control And Drive Solution With Industrial Qualification"@en .
+
+:Motor_Control_And_Drive_Solution_With_Sensor a owl:Class ;
+    rdfs:label "Motor Control And Drive Solution With Sensor"@en ;
+    rdfs:comment "Motor control and drive solution with sensor"@en ;
+    rdfs:subClassOf :Motor_Control_And_Drive_Solution .
+
+:Motor_Control_And_Drive_Solution_Without_Sensor a owl:Class ;
+    rdfs:label "Motor Control And Drive Solution Without Sensor"@en ;
+    rdfs:comment "Motor control and drive solution without a sensor"@en ;
+    rdfs:subClassOf :Motor_Control_And_Drive_Solution ;
+    ns1:prefLabel "Motor Control And Drive Solution Without Sensor"@en .
+
+:Not_Completely_Lead_Free_Status a owl:NamedIndividual .
+
+:Not_For_New_Design_OPN_Status a owl:NamedIndividual .
+
+:Not_Halogen_Free_Status a owl:NamedIndividual .
+
+:Not_Ro_HS_Compliant_Status a owl:NamedIndividual .
+
+:PMSM_BLDC_Motor_Type a owl:NamedIndividual .
+
+:Permanent_Magnet_Stepper_Motor_Type a owl:NamedIndividual .
+
+:Radar a owl:Class ;
+    rdfs:label "Radar"@en ;
+    rdfs:comment "Infineon’s range of radar offerings provide unique benefits not possible with traditional motion sensing technology. Whether you require increased range coverage for outdoor lighting or a small form factor solution to enable soft landing in your multicopter our radar provides you with the ability to make your motion sensing applications perform in a way previously not possible. The BGT24M/L family is the largest and highest integrated 24GHz ISM band radar transceiver family currently in the market, providing a range of different transmitter and receiver channel configurations, supporting different application requirements. the sensor allows a Long range distance detection of moving objects up to 30 m and a wide range speed detection up to more than ±100 km/h."@en ;
+    rdfs:subClassOf :Sensor ;
+    ns1:prefLabel "Radar"@en .
+
+:Relay_Main_Power_Device_Type a owl:NamedIndividual .
+
+:Relay_Topology a owl:NamedIndividual .
+
+:SMDSMT_Mounting_Style a owl:NamedIndividual .
+
+:Switched_Reluctance_Motor_Type a owl:NamedIndividual .
+
+:Through_Hole_Mounting_Style a owl:NamedIndividual .
+
+:With_Sensor_Sensing_Type a owl:NamedIndividual .
+
+:Without_Sensor_Sensing_Type a owl:NamedIndividual .
+
+:abbreviation a owl:AnnotationProperty ;
+    rdfs:comment "Any abbreviation of a concept"@en ;
+    rdfs:range xsd:string ;
+    ns1:prefLabel "Abbreviation"@en .
+
+:belongs_to_division a owl:ObjectProperty ;
+    rdfs:label "belongs to division"@en ;
+    rdfs:domain :Application_Level_3 ;
+    rdfs:range :Division ;
+    rdfs:subPropertyOf :belongs_to_organizational_unit ;
+    owl:inverseOf :responsible_for_application_level_3_division .
+
+:belongs_to_product_line a owl:ObjectProperty ;
+    rdfs:label "belongs to product line"@en ;
+    rdfs:domain :Application_Area ;
+    rdfs:range :Product_Line ;
+    rdfs:subPropertyOf :belongs_to_organizational_unit ;
+    owl:inverseOf :responsible_for_application_area_product_line .
+
+:benefit a owl:DatatypeProperty ;
+    rdfs:label "benefit"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :application_characteristic .
+
+:budgetary_price a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "budgetary price"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range xsd:double .
+
+:can_be_applied_in a owl:ObjectProperty ;
+    rdfs:label "can be applied in"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Application_Area ;
+    owl:inverseOf :finds_application_through .
+
+:channel_structure a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "channel structure"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :hierarchy_information .
+
+:chip_count_discrete_power_stage a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "chip count discrete power stage"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf :chip_count .
+
+:chip_count_gate_driver a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "chip count gate driver"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf :chip_count .
+
+:chip_count_intelligent_power_module a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "chip count intelligent power module"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf :chip_count .
+
+:chip_count_microcontroller a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "chip count microcontroller"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf :chip_count .
+
+:chip_count_smart_driver a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "chip count smart driver"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf :chip_count .
+
+:contains_additional_power_management a owl:ObjectProperty ;
+    rdfs:label "contains additional power management"@en ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range :Additional_Power_Management ;
+    rdfs:subPropertyOf :contains_product ;
+    owl:inverseOf :is_part_of_as_additional_power_management .
+
+:contains_discrete_power_stage a owl:ObjectProperty ;
+    rdfs:label "contains discrete power stage"@en ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range :Discrete_Power_Stage ;
+    rdfs:subPropertyOf :contains_product ;
+    owl:inverseOf :is_part_of_as_discrete_power_stage .
+
+:contains_gate_driver a owl:ObjectProperty ;
+    rdfs:label "contains gate driver"@en ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range :Gate_Driver ;
+    rdfs:subPropertyOf :contains_product ;
+    owl:inverseOf :is_part_of_as_gate_driver .
+
+:contains_intelligent_power_module a owl:ObjectProperty ;
+    rdfs:label "contains intelligent power module"@en ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range :Intelligent_Power_Module ;
+    rdfs:subPropertyOf :contains_product ;
+    owl:inverseOf :is_part_of_as_intelligent_power_module .
+
+:contains_microcontroller a owl:ObjectProperty ;
+    rdfs:label "contains microcontroller"@en ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range :Microcontroller ;
+    rdfs:subPropertyOf :contains_product ;
+    owl:inverseOf :is_part_of_as_microcontroller .
+
+:contains_smart_driver a owl:ObjectProperty ;
+    rdfs:label "contains smart driver"@en ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range :Smart_Driver ;
+    rdfs:subPropertyOf :contains_product ;
+    owl:inverseOf :is_part_of_as_smart_driver .
+
+:could_contain_sensor a owl:ObjectProperty ;
+    rdfs:label "could contain sensor"@en ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range :Sensor ;
+    rdfs:subPropertyOf :contains_product ;
+    owl:inverseOf :is_part_of_as_potential_sensor .
+
+:electric_power_max a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "electric power max" ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :electric_power .
+
+:electric_power_min a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "electric power min" ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :electric_power .
+
+:feature a owl:DatatypeProperty ;
+    rdfs:label "feature"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :application_characteristic .
+
+:footprint_area_discrete_power_stage a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "footprint area discrete power stage"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :footprint_area_product_family .
+
+:footprint_area_gate_driver a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "footprint area gate driver"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :footprint_area_product_family .
+
+:footprint_area_intelligent_power_module a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "footprint area intelligent power module"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :footprint_area_product_family .
+
+:footprint_area_microcontroller a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "footprint area microcontroller"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :footprint_area_product_family .
+
+:footprint_area_product a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "footprint area product"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :footprint_area .
+
+:footprint_area_smart_driver a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "footprint area smart driver"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :footprint_area_product_family .
+
+:has_OPN_status a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has OPN status"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range :OPN_Status ;
+    rdfs:subPropertyOf :has_semiconductor_product_status ;
+    owl:inverseOf :is_OPN_status_of .
+
+:has_application_level_2 a owl:ObjectProperty ;
+    rdfs:label "has application level 2"@en ;
+    rdfs:domain :Application_Level_1 ;
+    rdfs:range :Application_Level_2 ;
+    rdfs:subPropertyOf :has_sub_application_area ;
+    owl:inverseOf :is_sub_application_area_of_application_level_1 .
+
+:has_application_level_3 a owl:ObjectProperty ;
+    rdfs:label "has application level 3"@en ;
+    rdfs:domain :Application_Level_2 ;
+    rdfs:range :Application_Level_3 ;
+    rdfs:subPropertyOf :has_sub_application_area ;
+    owl:inverseOf :is_sub_application_area_of_application_level_2 .
+
+:has_business_line a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has business line"@en ;
+    rdfs:domain :Division ;
+    rdfs:range :Business_Line ;
+    rdfs:subPropertyOf :has_sub_unit ;
+    owl:inverseOf :is_sub_unit_of_division .
+
+:has_completely_lead_free_status a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has completely lead free status"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range :Completely_Lead_Free_Status ;
+    rdfs:subPropertyOf :has_semiconductor_product_status ;
+    owl:inverseOf :is_completely_lead_free_status_of .
+
+:has_design_target a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has design target"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range :Design_Target ;
+    owl:inverseOf :is_design_target_of .
+
+:has_halogen_free_status a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has halogen free status"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range :Halogen_Free_Status ;
+    rdfs:subPropertyOf :has_semiconductor_product_status ;
+    owl:inverseOf :is_halogen_free_status_of .
+
+:has_integration_level a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has integration level"@en ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range :Integration_Level ;
+    owl:inverseOf :is_integration_level_of .
+
+:has_main_application a owl:ObjectProperty ;
+    rdfs:label "has main application"@en ;
+    rdfs:domain :Industry ;
+    rdfs:range :Main_Application ;
+    rdfs:subPropertyOf :has_sub_application_area ;
+    owl:inverseOf :is_sub_application_area_of_industry .
+
+:has_main_power_device_type a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has main power device type"@en ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range :Main_Power_Device_Type ;
+    owl:inverseOf :is_main_power_device_type_of .
+
+:has_motor_type a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has motor type"@en ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range :Motor_Type ;
+    owl:inverseOf :is_motor_type_of .
+
+:has_mounting_style a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has mounting style"@en ;
+    rdfs:domain :Sensor ;
+    rdfs:range :Mounting_Style ;
+    owl:inverseOf :is_mounting_style_of .
+
+:has_packing_type a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has packing type"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range :Packing_Type ;
+    owl:inverseOf :is_packing_type_of .
+
+:has_price_indication a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has price indication"@en ;
+    rdfs:comment "BOM"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range :Price_Indication ;
+    owl:inverseOf :is_price_indication_of .
+
+:has_product_line a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has product line"@en ;
+    rdfs:domain :Business_Line ;
+    rdfs:range :Product_Line ;
+    rdfs:subPropertyOf :has_sub_unit ;
+    owl:inverseOf :is_sub_unit_of_business_line .
+
+:has_product_qualification a owl:ObjectProperty ;
+    rdfs:label "has product qualification"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range :Qualification ;
+    rdfs:subPropertyOf :has_qualification ;
+    owl:inverseOf :is_product_qualification_of .
+
+:has_ro_HS_compliant_status a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has ro HS compliant status"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range :Ro_HS_Compliant_Status ;
+    rdfs:subPropertyOf :has_semiconductor_product_status ;
+    owl:inverseOf :is_ro_HS_compliant_status_of .
+
+:has_sensing_type a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has sensing type"@en ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range :Sensing_Type ;
+    owl:inverseOf :is_sensing_type_of .
+
+:has_sensor_sub_application a owl:ObjectProperty ;
+    rdfs:label "has sensor sub application"@en ;
+    rdfs:domain :Sensor_Main_Application ;
+    rdfs:range :Sensor_Sub_Application ;
+    rdfs:subPropertyOf :has_sub_application_area ;
+    owl:inverseOf :is_sub_application_area_of_sensor_main_application .
+
+:has_solution_qualification a owl:ObjectProperty ;
+    rdfs:label "has solution qualification"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range :Qualification ;
+    rdfs:subPropertyOf :has_qualification ;
+    owl:inverseOf :is_solution_qualification_of .
+
+:has_sub_application a owl:ObjectProperty ;
+    rdfs:label "has sub application"@en ;
+    rdfs:domain :Main_Application ;
+    rdfs:range :Sub_Application ;
+    rdfs:subPropertyOf :has_sub_application_area ;
+    owl:inverseOf :is_sub_application_area_of_main_application .
+
+:has_topology a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has topology"@en ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range :Topology ;
+    owl:inverseOf :is_topology_of .
+
+:identifier_organizationalUnit a owl:AnnotationProperty ;
+    rdfs:comment "Any identifier (ID) of an organizational unit"@en ;
+    rdfs:domain <http://www.w3.org/ns/org#OrganizationalUnit> ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf :identifier ;
+    ns1:prefLabel "Unit ID"@en ;
+    :abbreviation "ID"@en .
+
+:identifier_product_internetSalesProductNumber a owl:AnnotationProperty ;
+    rdfs:comment "The internet sales product number (ISPN) of a product"@en ;
+    rdfs:domain :SemiconductorProduct ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :identifier_product ;
+    ns1:prefLabel "Internet Sales Product Number"@en ;
+    :abbreviation "ISPN"@en .
+
+:identifier_product_orderablePartNumber a owl:AnnotationProperty ;
+    rdfs:comment "The orderable part number (OPN) of a product"@en ;
+    rdfs:domain :SemiconductorProduct ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :identifier_product ;
+    ns1:prefLabel "Orderable Part Number"@en ;
+    :abbreviation "OPN"@en .
+
+:identifier_solution a owl:AnnotationProperty ;
+    rdfs:comment "Any identifier (ID) of a solution"@en ;
+    rdfs:domain :Solution ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :identifier ;
+    ns1:prefLabel "Solution ID"@en ;
+    :abbreviation "ID"@en .
+
+:owned_by_organizational_unit a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "owned by"@en ;
+    rdfs:domain :Product ;
+    rdfs:range <http://www.w3.org/ns/org#Organizational_Unit> ;
+    owl:inverseOf :owns_product .
+
+:package_name a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "package name"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :hierarchy_information .
+
+:packing_size a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "packing size"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range xsd:int .
+
+:product_family_name a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "product family name"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :hierarchy_information .
+
+:supply_voltage_max a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "supply voltage max"@en ;
+    rdfs:domain :Sensor ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :supply_voltage .
+
+:supply_voltage_min a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "supply voltage min"@en ;
+    rdfs:domain :Sensor ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :supply_voltage .
+
+:target_application a owl:DatatypeProperty ;
+    rdfs:label "target application"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :application_characteristic .
+
+:temperatue_max a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "temperatue max"@en ;
+    rdfs:domain :Sensor ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :temperature .
+
+:temperature_min a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "temperatue min"@en ;
+    rdfs:domain :Sensor ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :temperature .
+
+:uniformResourceLocator_productDatasheet a owl:AnnotationProperty ;
+    rdfs:comment "The uniform resource locator (URL) of the datasheet of a product"@en ;
+    rdfs:domain :Product ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :uniformResourceLocator ;
+    ns1:prefLabel "Product Datasheet URL"@en ;
+    :abbreviation "URL"@en .
+
+:uniformResourceLocator_productPage a owl:AnnotationProperty ;
+    rdfs:comment "The uniform resource locator (URL) of the page of a product"@en ;
+    rdfs:domain :Product ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :uniformResourceLocator ;
+    ns1:prefLabel "Product Page URL"@en ;
+    :abbreviation "URL"@en .
+
+:uniformResourceLocator_productPicture a owl:AnnotationProperty ;
+    rdfs:comment "The uniform resource locator (URL) of the picture of a product"@en ;
+    rdfs:domain :Product ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :uniformResourceLocator ;
+    ns1:prefLabel "Product Picture URL"@en ;
+    :abbreviation "URL"@en .
+
+:Physical_Product a owl:Class ;
+    rdfs:label "Physical Product"@en ;
+    rdfs:comment "A physical product is something that is produced with effort (e.g. by mechanical or industrial processes) and sold to a customer. A physical product is tangible."@en ;
+    rdfs:subClassOf :Product ;
+    ns1:prefLabel "Physical Product"@en .
+
+:finds_application_through a owl:ObjectProperty ;
+    rdfs:label "finds application through"@en ;
+    rdfs:domain :Application_Area ;
+    rdfs:range [ ] .
+
+:is_OPN_status_of a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is OPN status of"@en ;
+    rdfs:domain :OPN_Status ;
+    rdfs:range :Semiconductor_Product ;
+    rdfs:subPropertyOf :is_semiconductor_product_status_of .
+
+:is_completely_lead_free_status_of a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is completely lead free status of"@en ;
+    rdfs:domain :Completely_Lead_Free_Status ;
+    rdfs:range :Semiconductor_Product ;
+    rdfs:subPropertyOf :is_semiconductor_product_status_of .
+
+:is_design_target_of a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is design target of"@en ;
+    rdfs:domain :Design_Target ;
+    rdfs:range :Motor_Control_And_Drive_Solution .
+
+:is_halogen_free_status_of a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is halogen free status of"@en ;
+    rdfs:domain :Halogen_Free_Status ;
+    rdfs:range :Semiconductor_Product ;
+    rdfs:subPropertyOf :is_semiconductor_product_status_of .
+
+:is_integration_level_of a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is integration level of"@en ;
+    rdfs:domain :Integration_Level ;
+    rdfs:range :Motor_Control_And_Drive_Solution .
+
+:is_main_power_device_type_of a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is main power device type of"@en ;
+    rdfs:domain :Main_Power_Device_Type ;
+    rdfs:range :Motor_Control_And_Drive_Solution .
+
+:is_motor_type_of a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is motor type of"@en ;
+    rdfs:domain :Motor_Type ;
+    rdfs:range :Motor_Control_And_Drive_Solution .
+
+:is_mounting_style_of a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is mounting style of"@en ;
+    rdfs:domain :Mounting_Style ;
+    rdfs:range :Sensor .
+
+:is_packing_type_of a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is packing type of"@en ;
+    rdfs:domain :Packing_Type ;
+    rdfs:range :Semiconductor_Product .
+
+:is_part_of_as_additional_power_management a owl:ObjectProperty ;
+    rdfs:comment "is part of as additional power management"@en ;
+    rdfs:domain :Additional_Power_Management ;
+    rdfs:range :Motor_Control_And_Drive_Solution ;
+    rdfs:subPropertyOf :is_part_of .
+
+:is_part_of_as_discrete_power_stage a owl:ObjectProperty ;
+    rdfs:comment "is part of as discrete power stage"@en ;
+    rdfs:domain :Discrete_Power_Stage ;
+    rdfs:range :Motor_Control_And_Drive_Solution ;
+    rdfs:subPropertyOf :is_part_of .
+
+:is_part_of_as_gate_driver a owl:ObjectProperty ;
+    rdfs:comment "is part od as gate driver"@en ;
+    rdfs:domain :Gate_Driver ;
+    rdfs:range :Motor_Control_And_Drive_Solution ;
+    rdfs:subPropertyOf :is_part_of .
+
+:is_part_of_as_intelligent_power_module a owl:ObjectProperty ;
+    rdfs:comment "is part of as intelligent power module"@en ;
+    rdfs:domain :Intelligent_Power_Module ;
+    rdfs:range :Motor_Control_And_Drive_Solution ;
+    rdfs:subPropertyOf :is_part_of .
+
+:is_part_of_as_microcontroller a owl:ObjectProperty ;
+    rdfs:comment "is part of as microcontroller"@en ;
+    rdfs:domain :Microcontroller ;
+    rdfs:range :Motor_Control_And_Drive_Solution ;
+    rdfs:subPropertyOf :is_part_of .
+
+:is_part_of_as_potential_sensor a owl:ObjectProperty ;
+    rdfs:comment "is part of as potential sensor"@en ;
+    rdfs:domain :Sensor ;
+    rdfs:range :Motor_Control_And_Drive_Solution ;
+    rdfs:subPropertyOf :is_part_of .
+
+:is_part_of_as_smart_driver a owl:ObjectProperty ;
+    rdfs:comment "is part of as smart driver"@en ;
+    rdfs:domain :Smart_Driver ;
+    rdfs:range :Motor_Control_And_Drive_Solution ;
+    rdfs:subPropertyOf :is_part_of .
+
+:is_price_indication_of a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is price indication of"@en ;
+    rdfs:domain :Price_Indication ;
+    rdfs:range :Semiconductor_Solution .
+
+:is_product_qualification_of a owl:ObjectProperty ;
+    rdfs:label "is product qualification of"@en ;
+    rdfs:domain :Qualification ;
+    rdfs:range :Semiconductor_Product ;
+    rdfs:subPropertyOf :is_qualification_of .
+
+:is_ro_HS_compliant_status_of a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is ro HS compliant status of"@en ;
+    rdfs:domain :Ro_HS_Compliant_Status ;
+    rdfs:range :Semiconductor_Product ;
+    rdfs:subPropertyOf :is_semiconductor_product_status_of .
+
+:is_sensing_type_of a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is sensing type of"@en ;
+    rdfs:domain :Sensing_Type ;
+    rdfs:range :Motor_Control_And_Drive_Solution .
+
+:is_solution_qualification_of a owl:ObjectProperty ;
+    rdfs:label "is solution qualification of"@en ;
+    rdfs:domain :Qualification ;
+    rdfs:range :Semiconductor_Solution ;
+    rdfs:subPropertyOf :is_qualification_of .
+
+:is_sub_application_area_of_application_level_1 a owl:ObjectProperty ;
+    rdfs:label "is sub application area of application level 1"@en ;
+    rdfs:domain :Application_Level_2 ;
+    rdfs:range :Application_Level_1 ;
+    rdfs:subPropertyOf :is_sub_application_area_of .
+
+:is_sub_application_area_of_application_level_2 a owl:ObjectProperty ;
+    rdfs:label "is sub application area of application level 2"@en ;
+    rdfs:domain :Application_Level_3 ;
+    rdfs:range :Application_Level_2 ;
+    rdfs:subPropertyOf :is_sub_application_area_of .
+
+:is_sub_application_area_of_industry a owl:ObjectProperty ;
+    rdfs:label "is sub application area of industry"@en ;
+    rdfs:domain :Main_Application ;
+    rdfs:range :Industry ;
+    rdfs:subPropertyOf :is_sub_application_area_of .
+
+:is_sub_application_area_of_main_application a owl:ObjectProperty ;
+    rdfs:label "is sub application area of main application"@en ;
+    rdfs:domain :Sub_Application ;
+    rdfs:range :Main_Application ;
+    rdfs:subPropertyOf :is_sub_application_area_of .
+
+:is_sub_application_area_of_sensor_main_application a owl:ObjectProperty ;
+    rdfs:label "is sub application area of sensor main application"@en ;
+    rdfs:domain :Sensor_Sub_Application ;
+    rdfs:range :Sensor_Main_Application ;
+    rdfs:subPropertyOf :is_sub_application_area_of .
+
+:is_sub_unit_of_business_line a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is sub unit of business line"@en ;
+    rdfs:domain :Product_Line ;
+    rdfs:range :Business_Line ;
+    rdfs:subPropertyOf :is_sub_unit_of .
+
+:is_sub_unit_of_division a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is sub unit of division"@en ;
+    rdfs:domain :Business_Line ;
+    rdfs:range :Division ;
+    rdfs:subPropertyOf :is_sub_unit_of .
+
+:is_topology_of a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is topology of"@en ;
+    rdfs:domain :Topology ;
+    rdfs:range :Motor_Control_And_Drive_Solution ;
+    rdfs:subPropertyOf <http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of> .
+
+:owns_product a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "owns product"@en ;
+    rdfs:domain <http://www.w3.org/ns/org#Organizational_Unit> ;
+    rdfs:range :Product .
+
+:responsible_for_application_area_product_line a owl:ObjectProperty ;
+    rdfs:label "responsible for application area product line"@en ;
+    rdfs:domain :Product_Line ;
+    rdfs:range :Application_Area ;
+    rdfs:subPropertyOf :responsible_for_application_area .
+
+:responsible_for_application_level_3_division a owl:ObjectProperty ;
+    rdfs:label "responsible for application level 3 division"@en ;
+    rdfs:domain :Division ;
+    rdfs:range :Application_Level_3 ;
+    rdfs:subPropertyOf :responsible_for_application_area .
+
+:Additional_Power_Management a owl:Class ;
+    rdfs:label "Additional Power Management"@en ;
+    rdfs:comment "A semiconductor product which is used within the context of additional power management"@en ;
+    rdfs:subClassOf :Semiconductor_Product ;
+    ns1:prefLabel "Additional Power Management"@en .
+
+:Application_Level_1 a owl:Class ;
+    rdfs:label "Application Level 1"@en ;
+    rdfs:comment "The top application level which can have several sub application levels (application level 2)"@en ;
+    rdfs:isDefinedBy :InfineonTechnologiesAG_Organization ;
+    rdfs:subClassOf :Application_Area ;
+    ns1:prefLabel "Application Level 1"@en .
+
+:Completely_Lead_Free_Status a owl:Class,
+        owl:NamedIndividual ;
+    rdfs:label "Completely Lead Free Status"@en ;
+    rdfs:comment "This status determines whether a semiconductor product is lead free or not."@en ;
+    rdfs:subClassOf :Semiconductor_Product_Status ;
+    owl:equivalentClass [ ] ;
+    ns1:prefLabel "Completely Lead Free Status"@en .
+
+:Design_Target a owl:Class ;
+    rdfs:label "Design Target"@en ;
+    rdfs:comment "Semiconductor solutions are design for different purposes, with different design goals respectively. Design targets comprise \"flexible to design\", \"easy to design\" and \"allrounder\"."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+    owl:equivalentClass [ ] ;
+    ns1:prefLabel "Design Target"@en .
+
+:Discrete_Power_Stage a owl:Class ;
+    rdfs:label "Discrete Power Stage"@en ;
+    rdfs:comment "A semiconductor product which is used within a discrete power stage"@en ;
+    rdfs:subClassOf :Semiconductor_Product ;
+    ns1:prefLabel "Discrete Power Stage"@en .
+
+:Gate_Driver a owl:Class ;
+    rdfs:label "Gate Driver"@en ;
+    rdfs:comment "A semiconductor product which is used as a gate driver"@en ;
+    rdfs:subClassOf :Semiconductor_Product ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-PWR#Gate_Driver> ;
+    ns1:prefLabel "Gate Driver"@en .
+
+:Halogen_Free_Status a owl:Class,
+        owl:NamedIndividual ;
+    rdfs:label "Halogen Free Status"@en ;
+    rdfs:comment "This status determines whether a semiconductor product is halogen free or not."@en ;
+    rdfs:subClassOf :Semiconductor_Product_Status ;
+    owl:equivalentClass [ ] ;
+    ns1:prefLabel "Halogen Free Status"@en .
+
+:Industry a owl:Class ;
+    rdfs:label "Industry"@en ;
+    rdfs:comment "An application area on top level (corresponing to application level 1) which can have several sub application levels (main application)"@en ;
+    rdfs:isDefinedBy :InfineonTechnologiesAG_Organization ;
+    rdfs:subClassOf :Application_Area ;
+    ns1:prefLabel "Industry"@en .
+
+:Integration_Level a owl:Class ;
+    rdfs:label "Integration Level"@en ;
+    rdfs:comment "Each motor control and drive solution has an integration level which states if the different stage are built in an integrated or discrete way. The stages of a motor control and drive solution are \"Controller\", \"Driver\", \"Power Stage\". Following this, the different integration levels are \"discrete\" (not integrated), \"fully integrated\", \"integrated controller driver\", \"integrated driver power stage\", \"integrated power stage\"."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+    owl:equivalentClass [ ] ;
+    ns1:prefLabel "Integration Level"@en .
+
+:Intelligent_Power_Module a owl:Class ;
+    rdfs:label "Intelligent Power Module"@en ;
+    rdfs:comment "A semiconductor product which is used as intelligent power module"@en ;
+    rdfs:subClassOf :Semiconductor_Product ;
+    ns1:prefLabel "Intelligent Power Module"@en .
+
+:Main_Power_Device_Type a owl:Class ;
+    rdfs:label "Main Power Device Type"@en ;
+    rdfs:comment "Each motor control and drive solution has a main power device type. Main power device type can be an \"IGBT\", \"MOSFET\" or \"Relay\"."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+    owl:equivalentClass [ ] ;
+    ns1:prefLabel "Main Power Device Type"@en .
+
+:Microcontroller a owl:Class ;
+    rdfs:label "Microcontroller"@en ;
+    rdfs:comment "A semiconductor product which is used as microcontroller"@en ;
+    rdfs:subClassOf :Semiconductor_Product ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-PWR#Microcontroller> ;
+    ns1:prefLabel "Microcontroller"@en .
+
+:Motor_Type a owl:Class ;
+    rdfs:label "Motor Type"@en ;
+    rdfs:comment "Each motor control and drive solution has a motor type. The different motor types that exist are \"brushed DC\", \"induction\", \"permanent magnet stepper\", \"PMSM BLDC\" and \"switched reluctance\"."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+    owl:equivalentClass [ ] ;
+    ns1:prefLabel "Motor Type"@en .
+
+:Mounting_Style a owl:Class ;
+    rdfs:label "Mounting Style"@en ;
+    rdfs:comment "Each sensor has a specific mounting style. A mounting style can either be a \"SMDSMT\" or \"Through Hole\"."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Sensor_Lobe> ;
+    owl:equivalentClass [ ] ;
+    ns1:prefLabel "Mounting Style"@en .
+
+:OPN_Status a owl:Class ;
+    rdfs:label "OPN Status"@en ;
+    rdfs:comment "This status determines the OPN status of a product. The OPN status of a product can either be \"active\", \"active and preferred\", \"discontinued\" and \"not for new design\"."@en ;
+    rdfs:subClassOf :Semiconductor_Product_Status ;
+    owl:equivalentClass [ ] ;
+    ns1:prefLabel "OPN Status"@en .
+
+:Packing_Type a owl:Class ;
+    rdfs:label "Packing Type"@en ;
+    rdfs:comment "A packing type describes how products/solutions are packed for shipping. There are different packing types, like \"Ammo Pack\", \"Tape and Reel\", \"Tray\" and \"Tube\"."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+    ns1:prefLabel "Packing Type"@en .
+
+:Pressure_Sensor a owl:Class ;
+    rdfs:label "Pressure Sensor"@en ;
+    rdfs:comment "A pressure sensor is a sensor which measures pressure."@en ;
+    rdfs:subClassOf :Sensor ;
+    ns1:prefLabel "Pressure Sensor"@en .
+
+:Price_Indication a owl:Class ;
+    rdfs:label "Price Indication"@en ;
+    rdfs:comment "A price indication helps the customer to evaluate the price of an item. A price indication can be \"high\", \"low\", or \"medium\"."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+    owl:equivalentClass [ ] ;
+    ns1:prefLabel "Price Indication"@en .
+
+:Ro_HS_Compliant_Status a owl:Class,
+        owl:NamedIndividual ;
+    rdfs:label "RoHS Compliant Status"@en ;
+    rdfs:comment "This status determines whether a product is RoHS compliant or not."@en ;
+    rdfs:subClassOf :Semiconductor_Product_Status ;
+    owl:equivalentClass [ ] ;
+    ns1:prefLabel "RoHS Compliant Status"@en .
+
+:Sensing_Type a owl:Class ;
+    rdfs:label "Sensing Type"@en ;
+    rdfs:comment "The sensing type of a semiconductor solution determines whether a semiconductor solution contains a sensor (\"WithSensor\") or not (\"WithoutSensor)."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Sensor_Lobe> ;
+    owl:equivalentClass [ ] ;
+    ns1:prefLabel "Sensing Type"@en .
+
+:Sensor_Main_Application a owl:Class ;
+    rdfs:label "Sensor Main Application"@en ;
+    rdfs:comment "An application area on medium level (corresponing to application level 2) for sensors which can have several sub application levels (sensor sub application)"@en ;
+    rdfs:isDefinedBy :InfineonTechnologiesAG_Organization ;
+    rdfs:subClassOf :Application_Area ;
+    ns1:prefLabel "Sensor Main Application"@en .
+
+:Sensor_Sub_Application a owl:Class ;
+    rdfs:label "Sensor Sub Application"@en ;
+    rdfs:comment "An application area on lowest level (corresponing to application level 3) for sensors which can be assigned to super application levels (sensor main application)"@en ;
+    rdfs:isDefinedBy :InfineonTechnologiesAG_Organization ;
+    rdfs:subClassOf :Application_Area ;
+    ns1:prefLabel "Sensor Sub Application"@en .
+
+:Smart_Driver a owl:Class ;
+    rdfs:label "Smart Driver"@en ;
+    rdfs:comment "A semiconductor product which is used as smart driver"@en ;
+    rdfs:subClassOf :Semiconductor_Product ;
+    ns1:prefLabel "Smart Driver"@en .
+
+:Sub_Application a owl:Class ;
+    rdfs:label "Sub Application"@en ;
+    rdfs:comment "An application area on lowest level (corresponing to application level 3) which can be assigned to super application levels (main application)"@en ;
+    rdfs:isDefinedBy :InfineonTechnologiesAG_Organization ;
+    rdfs:subClassOf :Application_Area ;
+    ns1:prefLabel "Sub Application"@en .
+
+:Topology a owl:Class ;
+    rdfs:label "Topology"@en ;
+    rdfs:comment "Topology describes the arrangement and the amount of chips in a semiconductor solution. A toplogy can be \"3 phase\", \"half bridge\", \"h-bridge\", \"high side\", \"low side\" and \"relay\"."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+    owl:equivalentClass [ ] ;
+    ns1:prefLabel "Topology"@en .
+
+:belongs_to_organizational_unit a owl:ObjectProperty ;
+    rdfs:label "belongs to organizational unit"@en ;
+    rdfs:domain :Application_Area ;
+    rdfs:range <http://www.w3.org/ns/org#Organizational_Unit> ;
+    owl:inverseOf :responsible_for_application_area .
+
+:electric_power a owl:DatatypeProperty ;
+    rdfs:label "electric power" ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range xsd:double .
+
+:footprint_area a owl:DatatypeProperty ;
+    rdfs:label "footprint area"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range xsd:double .
+
+:has_qualification a owl:ObjectProperty ;
+    rdfs:label "has qualification"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Qualification ;
+    owl:inverseOf :is_qualification_of .
+
+:has_sub_unit a owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has sub unit"@en ;
+    rdfs:domain <http://www.w3.org/ns/org#Organizational_Unit> ;
+    rdfs:range <http://www.w3.org/ns/org#Organizational_Unit> ;
+    owl:inverseOf :is_sub_unit_of .
+
+:identifier_product a owl:AnnotationProperty ;
+    rdfs:domain :Product ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :identifier .
+
+:supply_voltage a owl:DatatypeProperty ;
+    rdfs:label "supply voltage"@en ;
+    rdfs:domain :Sensor ;
+    rdfs:range xsd:double .
+
+:temperature a owl:DatatypeProperty ;
+    rdfs:label "temperature"@en ;
+    rdfs:domain :Sensor ;
+    rdfs:range xsd:double .
+
+:DC_link_voltage_characteristic a owl:DatatypeProperty ;
+    rdfs:label "DC link voltage characteristic"@en ;
+    rdfs:domain :Motor_Control_And_Drive_Solution ;
+    rdfs:range xsd:double .
+
+:application_characteristic a owl:DatatypeProperty ;
+    rdfs:label "application characteristic"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range xsd:string .
+
+:hierarchy_information a owl:DatatypeProperty ;
+    rdfs:label "hierarchy information"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range xsd:string .
+
+:identifier a owl:AnnotationProperty ;
+    rdfs:comment "Any identifier (ID) of a concept"@en ;
+    rdfs:range xsd:int,
+        xsd:integer,
+        xsd:string ;
+    ns1:prefLabel "Identifier"@en ;
+    :abbreviation "ID"@en .
+
+:is_qualification_of a owl:ObjectProperty ;
+    rdfs:label "is qualification of"@en ;
+    rdfs:domain :Qualification ;
+    rdfs:range [ ] .
+
+:is_sub_unit_of a owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is sub unit of"@en ;
+    rdfs:domain <http://www.w3.org/ns/org#Organizational_Unit> ;
+    rdfs:range <http://www.w3.org/ns/org#Organizational_Unit> .
+
+:responsible_for_application_area a owl:ObjectProperty ;
+    rdfs:label "responsible for application area"@en ;
+    rdfs:domain <http://www.w3.org/ns/org#Organizational_Unit> ;
+    rdfs:range :Application_Area .
+
+:uniformResourceLocator a owl:AnnotationProperty ;
+    rdfs:comment "A Uniform Resource Locator (URL) is an address that shows where a particular page can be found on the World Wide Web."@en ;
+    rdfs:range xsd:string ;
+    ns1:prefLabel "Uniform Resource Locator"@en ;
+    :abbreviation "URL"@en .
+
+:Application_Level_2 a owl:Class ;
+    rdfs:label "Application Level 2"@en ;
+    rdfs:comment "The medium application level which can have several sub application levels (application level 3) and can be assigned to super application levels (application level 1)"@en ;
+    rdfs:isDefinedBy :InfineonTechnologiesAG_Organization ;
+    rdfs:subClassOf :Application_Area ;
+    ns1:prefLabel "Application Level 2"@en .
+
+:Application_Level_3 a owl:Class ;
+    rdfs:label "Application Level 3"@en ;
+    rdfs:comment "The lowest application level which can be assigned to super application levels (application level 2)"@en ;
+    rdfs:isDefinedBy :InfineonTechnologiesAG_Organization ;
+    rdfs:subClassOf :Application_Area ;
+    ns1:prefLabel "Application Level 3"@en .
+
+:Business_Line a owl:Class ;
+    rdfs:comment "A business line is an organizational unit that can be assigned to a division and can have one or more product lines."@en ;
+    rdfs:subClassOf <http://www.w3.org/ns/org#Organizational_Unit> ;
+    ns1:prefLabel "Business Line"@en ;
+    :abbreviation "BL"@en .
+
+:Division a owl:Class ;
+    rdfs:label "Division"@en ;
+    rdfs:comment "A division is a administrative business unit that is smaller than the whole company, but it is self-contained and most often responsible for its own revenue, cost, and profit. It has one or more business lines."@en ;
+    rdfs:subClassOf <http://www.w3.org/ns/org#Organizational_Unit> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-ORG#Division> ;
+    ns1:altLabel "Lead Division"@en ;
+    ns1:prefLabel "Division"@en ;
+    :abbreviation "DIV"@en .
+
+:Magnetic_Position_Sensor a owl:Class ;
+    rdfs:label "Magnetic Position Sensor"@en ;
+    rdfs:comment "A magnetic position sensor is a sensor which measures magnetic positions."@en ;
+    rdfs:subClassOf :Sensor ;
+    ns1:prefLabel "Magnetic Position Sensor"@en .
+
+:Main_Application a owl:Class ;
+    rdfs:label "Main Application"@en ;
+    rdfs:comment "An application area on medium level (corresponing to application level 2) which can have several sub application levels (sub application) and can be assigned to super application levels (industry)"@en ;
+    rdfs:isDefinedBy :InfineonTechnologiesAG_Organization ;
+    rdfs:subClassOf :Application_Area ;
+    ns1:prefLabel "Main Application"@en .
+
+:Product_Line a owl:Class ;
+    rdfs:label "Product Line"@en ;
+    rdfs:comment "A product line is an organizational unit that can be assigned to a business line and directly owns/is responsible for products."@en ;
+    rdfs:subClassOf <http://www.w3.org/ns/org#Organizational_Unit> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-SO#Product_Line> ;
+    ns1:altLabel "Product Line"@en ;
+    :abbreviation "PL"@en .
+
+:Solution a owl:Class ;
+    rdfs:label "Solution"@en ;
+    rdfs:comment "A solution is a combination of products which is produced or assembled by an organization. Further, a solution is sold to a customer and solves a specific problem / fulfills a specific need."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+    ns1:prefLabel "Solution"@en .
+
+:has_semiconductor_product_status a owl:ObjectProperty ;
+    rdfs:label "has semiconductor product status"@en ;
+    rdfs:domain :Semiconductor_Product ;
+    rdfs:range :Semiconductor_Product_Status ;
+    owl:inverseOf :is_semiconductor_product_status_of .
+
+:chip_count a owl:DatatypeProperty ;
+    rdfs:label "chip count"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range xsd:integer .
+
+:footprint_area_product_family a owl:DatatypeProperty ;
+    rdfs:label "footprint area product family"@en ;
+    rdfs:domain :Semiconductor_Solution ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :footprint_area .
+
+:has_sub_application_area a owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has sub application area"@en ;
+    rdfs:domain :Application_Area ;
+    rdfs:range :Application_Area ;
+    owl:inverseOf :is_sub_application_area_of .
+
+:is_semiconductor_product_status_of a owl:ObjectProperty ;
+    rdfs:label "is semiconductor product status of"@en ;
+    rdfs:domain :Semiconductor_Product_Status ;
+    rdfs:range :Semiconductor_Product .
+
+:Qualification a owl:Class ;
+    rdfs:label "Qualification"@en ;
+    rdfs:comment "If a product/solution has a certain qualification, the product/solution fulfills the standards of this certain industry."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+    owl:equivalentClass [ ] ;
+    ns1:prefLabel "Qualification"@en .
+
+:Semiconductor_Product_Status a owl:Class ;
+    rdfs:label "Semiconductor Product Status"@en ;
+    rdfs:comment "A semiconductor product can have different product states which describe the product characteristics more closely."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+    ns1:prefLabel "Semiconductor Product Status"@en .
+
+:is_sub_application_area_of a owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is sub application area of"@en ;
+    rdfs:domain :Application_Area ;
+    rdfs:range :Application_Area .
+
+:contains_product a owl:ObjectProperty ;
+    rdfs:label "contains product"@en ;
+    rdfs:domain :Solution ;
+    rdfs:range :Product ;
+    owl:inverseOf :is_part_of .
+
+:is_part_of a owl:ObjectProperty ;
+    rdfs:comment "is part of"@en ;
+    rdfs:domain :Product ;
+    rdfs:range :Solution .
+
+:Product a owl:Class ;
+    rdfs:label "Product"@en ;
+    rdfs:comment "A product is something that is produced with effort (e.g. by mechanical or industrial processes) and sold to a customer. A product is either tangible (physical product) or intangible (service)."@en,
+        "A solution is a combination of products which is sold to a customer. Thereby, a solution solves a problem or fulfills a customer need."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-PROD#Product>,
+        <http://www.w3id.org/ecsel-dr-PWR#Product>,
+        <http://www.w3id.org/ecsel-dr-SO#Product> ;
+    ns1:prefLabel "Product"@en .
+
+:Sensor a owl:Class ;
+    rdfs:label "Sensor"@en ;
+    rdfs:comment "A semiconductor product which is used as sensor"@en ;
+    rdfs:subClassOf :Semiconductor_Product ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-RAMI40#Sensor> ;
+    ns1:prefLabel "Sensor"@en .
+
+:Application_Area a owl:Class ;
+    rdfs:label "Application Area"@en ;
+    rdfs:comment "A way in which something can be used for a particular purpose."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Application> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-PWR#Application_Area> ;
+    ns1:prefLabel "Application Area"@en .
+
+:Semiconductor_Solution a owl:Class ;
+    rdfs:label "Semiconductor Solution"@en ;
+    rdfs:comment "A semiconductor solution is combination of semiconductor products and is sold within the seminconductor industry."@en ;
+    rdfs:subClassOf :Solution ;
+    ns1:prefLabel "Semiconductor Solution"@en .
+
+:Semiconductor_Product a owl:Class ;
+    rdfs:label "Semiconductor Product"@en ;
+    rdfs:comment "A semiconductor product is a physical product that is produced and sold within the semiconductor industry."@en ;
+    rdfs:subClassOf :Physical_Product ;
+    ns1:prefLabel "Semiconductor Product"@en .
+
+:Motor_Control_And_Drive_Solution a owl:Class ;
+    rdfs:label "Motor Control And Drive Solution"@en ;
+    rdfs:comment "A motor control and drive solution is a semiconductor solution which function is to drive and control a motor."@en ;
+    rdfs:subClassOf :Semiconductor_Solution ;
+    ns1:prefLabel "Motor Control And Drive Solution"@en .
+

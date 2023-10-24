@@ -1,0 +1,1120 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-AH#contains_device
+<http://www.w3id.org/ecsel-dr-AH#contains_device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#contains_device> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#has_architectural_part> .
+<http://www.w3id.org/ecsel-dr-AH#contains_device> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AH#is_device_in> .
+<http://www.w3id.org/ecsel-dr-AH#contains_device> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error68> .
+<http://org.semanticweb.owlapi/error#Error68> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#contains_device> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#contains_device> <http://www.w3.org/2000/01/rdf-schema#label> "contains device"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#defines_compliant_documentation
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_documentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture> .
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_documentation> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error65> .
+<http://org.semanticweb.owlapi/error#Error65> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_documentation> <http://www.w3.org/2000/01/rdf-schema#label> "defines compliant documentation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#defines_compliant_service
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_service> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture> .
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_service> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_service> <http://www.w3.org/2000/01/rdf-schema#label> "defines compliant service"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#defines_compliant_system
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_system> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture> .
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_system> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Software_System> .
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_system> <http://www.w3.org/2000/01/rdf-schema#label> "defines compliant system"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#defines_compliant_system_architecture
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_system_architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_system_architecture> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture> .
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_system_architecture> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#System_Of_Systems> .
+<http://www.w3id.org/ecsel-dr-AH#defines_compliant_system_architecture> <http://www.w3.org/2000/01/rdf-schema#label> "defines compliant system architecture"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#documents
+<http://www.w3id.org/ecsel-dr-AH#documents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#documents> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AH#is_documented_by> .
+<http://www.w3id.org/ecsel-dr-AH#documents> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error69> .
+<http://org.semanticweb.owlapi/error#Error69> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#documents> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error62> .
+<http://org.semanticweb.owlapi/error#Error62> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#documents> <http://www.w3.org/2000/01/rdf-schema#label> "documents"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_security_mechanism
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_security_mechanism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_security_mechanism> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_security_mechanism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_security_mechanism> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error71> .
+<http://org.semanticweb.owlapi/error#Error71> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_security_mechanism> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_security_mechanism> <http://www.w3.org/2000/01/rdf-schema#label> "documents AH service comm security mechanism"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#documents_service_part> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error70> .
+<http://org.semanticweb.owlapi/error#Error70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error64> .
+<http://org.semanticweb.owlapi/error#Error64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech> <http://www.w3.org/2000/01/rdf-schema#label> "documents AH service comm tech"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#documents_AH_service_data_format
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_data_format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_data_format> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_data_format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_data_format> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error76> .
+<http://org.semanticweb.owlapi/error#Error76> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_data_format> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Data_Format> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_data_format> <http://www.w3.org/2000/01/rdf-schema#label> "documents AH service data format"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#documents_AH_service_information_model
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_information_model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_information_model> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#documents_service_part> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_information_model> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error75> .
+<http://org.semanticweb.owlapi/error#Error75> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_information_model> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Information_Model> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_information_model> <http://www.w3.org/2000/01/rdf-schema#label> "documents AH service information model"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#documents_AH_service_method
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_method> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#documents_service_part> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_method> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_method> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Method> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_method> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation between an Interface Design Description document (of a specific service) and a method of this service. \r\nThe relation expresses that the IDD document documents the methods of the service the IDD belongs to. \r\nWith this, a consistency check would be possible: \r\nIF a service S has a method M AND the IDD IDD_S is part of the service documentation of S (i.e. IDD_S is the IDD of S) \r\nTHEN IDD_S should contain a documentation of M."@en .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_method> <http://www.w3.org/2000/01/rdf-schema#label> "documents AH service method"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#documents_AH_service_transfer_protocol
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_transfer_protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_transfer_protocol> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_transfer_protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_transfer_protocol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error73> .
+<http://org.semanticweb.owlapi/error#Error73> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_transfer_protocol> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol> .
+<http://www.w3id.org/ecsel-dr-AH#documents_AH_service_transfer_protocol> <http://www.w3.org/2000/01/rdf-schema#label> "documents AH service transfer protocol"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#documents_service_part
+<http://www.w3id.org/ecsel-dr-AH#documents_service_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#documents_service_part> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#documents_service_part> <http://www.w3.org/2000/01/rdf-schema#label> "documents service part"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#has_SoA_property
+<http://www.w3id.org/ecsel-dr-AH#has_SoA_property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#has_SoA_property> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AH#is_SoA_property_of> .
+<http://www.w3id.org/ecsel-dr-AH#has_SoA_property> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture> .
+<http://www.w3id.org/ecsel-dr-AH#has_SoA_property> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#SoA_Property> .
+<http://www.w3id.org/ecsel-dr-AH#has_SoA_property> <http://www.w3.org/2000/01/rdf-schema#label> "has SoA property"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#has_architectural_part
+<http://www.w3id.org/ecsel-dr-AH#has_architectural_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#has_architectural_part> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of> .
+<http://www.w3id.org/ecsel-dr-AH#has_architectural_part> <http://www.w3.org/2000/01/rdf-schema#label> "has architectural part"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#has_information_model
+<http://www.w3id.org/ecsel-dr-AH#has_information_model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#has_information_model> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AH#is_information_model_of> .
+<http://www.w3id.org/ecsel-dr-AH#has_information_model> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#has_information_model> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Information_Model> .
+<http://www.w3id.org/ecsel-dr-AH#has_information_model> <http://www.w3.org/2000/01/rdf-schema#label> "has information model"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#has_method
+<http://www.w3id.org/ecsel-dr-AH#has_method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#has_method> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#has_architectural_part> .
+<http://www.w3id.org/ecsel-dr-AH#has_method> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AH#is_method_of> .
+<http://www.w3id.org/ecsel-dr-AH#has_method> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#has_method> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Method> .
+<http://www.w3id.org/ecsel-dr-AH#has_method> <http://www.w3.org/2000/01/rdf-schema#label> "has method"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#has_part_documentation_document
+<http://www.w3id.org/ecsel-dr-AH#has_part_documentation_document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#has_part_documentation_document> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AH#is_part_of> .
+<http://www.w3id.org/ecsel-dr-AH#has_part_documentation_document> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error74> .
+<http://org.semanticweb.owlapi/error#Error74> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#has_part_documentation_document> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#has_part_documentation_document> <http://www.w3.org/2000/01/rdf-schema#label> "has part"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#hosts
+<http://www.w3id.org/ecsel-dr-AH#hosts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#hosts> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#has_architectural_part> .
+<http://www.w3id.org/ecsel-dr-AH#hosts> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AH#is_hosted_by> .
+<http://www.w3id.org/ecsel-dr-AH#hosts> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AH#runs_on> .
+<http://www.w3id.org/ecsel-dr-AH#hosts> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#hosts> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Software_System> .
+<http://www.w3id.org/ecsel-dr-AH#hosts> <http://www.w3.org/2000/01/rdf-schema#label> "hosts"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_AH_service_documented_by
+<http://www.w3id.org/ecsel-dr-AH#is_AH_service_documented_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_AH_service_documented_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#is_service_documented_by> .
+<http://www.w3id.org/ecsel-dr-AH#is_AH_service_documented_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#AH_Service> .
+<http://www.w3id.org/ecsel-dr-AH#is_AH_service_documented_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation> .
+<http://www.w3id.org/ecsel-dr-AH#is_AH_service_documented_by> <http://www.w3.org/2000/01/rdf-schema#comment> "is AH service documented by"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_AH_system_documented_by
+<http://www.w3id.org/ecsel-dr-AH#is_AH_system_documented_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_AH_system_documented_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#is_system_documented_by> .
+<http://www.w3id.org/ecsel-dr-AH#is_AH_system_documented_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#AH_System> .
+<http://www.w3id.org/ecsel-dr-AH#is_AH_system_documented_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation> .
+<http://www.w3id.org/ecsel-dr-AH#is_AH_system_documented_by> <http://www.w3.org/2000/01/rdf-schema#comment> "is AH system documented by"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_SoA_property_of
+<http://www.w3id.org/ecsel-dr-AH#is_SoA_property_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_SoA_property_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#SoA_Property> .
+<http://www.w3id.org/ecsel-dr-AH#is_SoA_property_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture> .
+<http://www.w3id.org/ecsel-dr-AH#is_SoA_property_of> <http://www.w3.org/2000/01/rdf-schema#label> "is SoA property of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of
+<http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of> <http://www.w3.org/2000/01/rdf-schema#label> "is an architectural part of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_device_in
+<http://www.w3id.org/ecsel-dr-AH#is_device_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_device_in> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of> .
+<http://www.w3id.org/ecsel-dr-AH#is_device_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#is_device_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error63> .
+<http://org.semanticweb.owlapi/error#Error63> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#is_device_in> <http://www.w3.org/2000/01/rdf-schema#label> "is device in"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_documented_by
+<http://www.w3id.org/ecsel-dr-AH#is_documented_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_documented_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error67> .
+<http://org.semanticweb.owlapi/error#Error67> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#is_documented_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error60> .
+<http://org.semanticweb.owlapi/error#Error60> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#is_documented_by> <http://www.w3.org/2000/01/rdf-schema#label> "is documented by"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_hosted_by
+<http://www.w3id.org/ecsel-dr-AH#is_hosted_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_hosted_by> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.w3id.org/ecsel-dr-AH#runs_on> .
+<http://www.w3id.org/ecsel-dr-AH#is_hosted_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of> .
+<http://www.w3id.org/ecsel-dr-AH#is_hosted_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Software_System> .
+<http://www.w3id.org/ecsel-dr-AH#is_hosted_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#is_hosted_by> <http://www.w3.org/2000/01/rdf-schema#label> "is hosted by"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_information_model_of
+<http://www.w3id.org/ecsel-dr-AH#is_information_model_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_information_model_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Information_Model> .
+<http://www.w3id.org/ecsel-dr-AH#is_information_model_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#is_information_model_of> <http://www.w3.org/2000/01/rdf-schema#label> "is information model of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_method_of
+<http://www.w3id.org/ecsel-dr-AH#is_method_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_method_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of> .
+<http://www.w3id.org/ecsel-dr-AH#is_method_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Method> .
+<http://www.w3id.org/ecsel-dr-AH#is_method_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#is_method_of> <http://www.w3.org/2000/01/rdf-schema#label> "is method of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_part_of
+<http://www.w3id.org/ecsel-dr-AH#is_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error61> .
+<http://org.semanticweb.owlapi/error#Error61> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of> <http://www.w3.org/2000/01/rdf-schema#label> "is part of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_part_of_SoS_documentation
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_SoS_documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_SoS_documentation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#is_part_of> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_SoS_documentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_SoS_documentation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_SoS_documentation> <http://www.w3.org/2000/01/rdf-schema#label> "is part of SoS documentation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_part_of_service_documentation
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_service_documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_service_documentation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#is_part_of> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_service_documentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_service_documentation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_service_documentation> <http://www.w3.org/2000/01/rdf-schema#label> "is part of service documentation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_part_of_system_documentation
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_system_documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_system_documentation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#is_part_of> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_system_documentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_system_documentation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation> .
+<http://www.w3id.org/ecsel-dr-AH#is_part_of_system_documentation> <http://www.w3.org/2000/01/rdf-schema#label> "is part of system documentation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_referred_to_by
+<http://www.w3id.org/ecsel-dr-AH#is_referred_to_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_referred_to_by> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AH#refers_to> .
+<http://www.w3id.org/ecsel-dr-AH#is_referred_to_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#is_referred_to_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#is_referred_to_by> <http://www.w3.org/2000/01/rdf-schema#label> "is referred to by"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_service_documented_by
+<http://www.w3id.org/ecsel-dr-AH#is_service_documented_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_service_documented_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#is_documented_by> .
+<http://www.w3id.org/ecsel-dr-AH#is_service_documented_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#is_service_documented_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Service_Documentation> .
+<http://www.w3id.org/ecsel-dr-AH#is_service_documented_by> <http://www.w3.org/2000/01/rdf-schema#comment> "is service documented by"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_service_producer_of
+<http://www.w3id.org/ecsel-dr-AH#is_service_producer_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_service_producer_of> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.w3id.org/ecsel-dr-AH#produces> .
+<http://www.w3id.org/ecsel-dr-AH#is_service_producer_of> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AH#produced_by> .
+<http://www.w3id.org/ecsel-dr-AH#is_service_producer_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Software_System> .
+<http://www.w3id.org/ecsel-dr-AH#is_service_producer_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#is_service_producer_of> <http://www.w3.org/2000/01/rdf-schema#label> "is service producer of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#is_system_documented_by
+<http://www.w3id.org/ecsel-dr-AH#is_system_documented_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#is_system_documented_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#is_documented_by> .
+<http://www.w3id.org/ecsel-dr-AH#is_system_documented_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Software_System> .
+<http://www.w3id.org/ecsel-dr-AH#is_system_documented_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#System_Documentation> .
+<http://www.w3id.org/ecsel-dr-AH#is_system_documented_by> <http://www.w3.org/2000/01/rdf-schema#comment> "is system documented by"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#produced_by
+<http://www.w3id.org/ecsel-dr-AH#produced_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#produced_by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of> .
+<http://www.w3id.org/ecsel-dr-AH#produced_by> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AH#produces> .
+<http://www.w3id.org/ecsel-dr-AH#produced_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#produced_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Software_System> .
+<http://www.w3id.org/ecsel-dr-AH#produced_by> <http://www.w3.org/2000/01/rdf-schema#label> "produced by"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#produces
+<http://www.w3id.org/ecsel-dr-AH#produces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#produces> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#has_architectural_part> .
+<http://www.w3id.org/ecsel-dr-AH#produces> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Software_System> .
+<http://www.w3id.org/ecsel-dr-AH#produces> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#produces> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation expressing that a software system produces a service. \r\nEquivalent names for this relation include: offers, provides, isServiceProducerOf \r\nSince Arrowhead uses the pair produce / consume and corresponding service producer / service consumer adressing the relations and the software systems, this ontology uses these names for the relations too. \r\nIf it is needed, object properties with other names can be added and stated to be equivalent to these ones."@en .
+<http://www.w3id.org/ecsel-dr-AH#produces> <http://www.w3.org/2000/01/rdf-schema#label> "produces"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#refers_to
+<http://www.w3id.org/ecsel-dr-AH#refers_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to> <http://www.w3.org/2000/01/rdf-schema#comment> "describes the relation between two documentation documents that one document refers to another document.\r\nTo our best knowledge, the following relations hold between different types of documentation documents: \r\n- an IDD refers to exactly one SD.\r\n- an SD is referred to by one or more IDD (each stating a way of implementing the service with a specific technolopgy (Source: Arrowhead Framework Definitions V2.4))\r\n- an IDD refers to at most one CP (if it not refers to a CP, then the IDD contains all CP information by itself)\r\n- an IDD refers to n SP, 0 <= n (if it not refers to a SP, then the IDD contains all SP information by itself)\r\n- a SySD refers to one or more IDDs (that is, a system produces one or more services).\r\n- a SySDD refers to one or more SySD's. (Remark HB: I don't understand this. How can one concrete white box description of a system fulfill (support / implement) different black box descriptions of systems? The other way around seems to be possible as between SDs and IDDs). \r\n- an SoSD refers to n SySD's.\r\n- an SoSDD refers to n SoSD's. \r\n- an SoSDD refers to n SySD's. \r\n- an SoSDD refers to n SySDDs."@en .
+<http://www.w3id.org/ecsel-dr-AH#refers_to> <http://www.w3.org/2000/01/rdf-schema#label> "refers to"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#refers_to_CP
+<http://www.w3id.org/ecsel-dr-AH#refers_to_CP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_CP> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#refers_to> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_CP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_CP> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_CP> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Communication_Profile_CP> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_CP> <http://www.w3.org/2000/01/rdf-schema#comment> "an Interface Design Description (IDD) can refer to a Communication Profile (CP). \r\nNo other documentation document can refer to a CP. Hence the domain of this object property is the class of IDDs. \r\nAn IDD can refer to a CP, but this is not mandatory. CPs are intended to be used in cases in which several services use the same CP. Then the CP information should be extracted to an CP document and the IDDs of all services that use this CP shall refer to this CP. \r\nIf the CP is unique for a specific service, the CP information can directly be included in the IDD.\r\nIf the IDD refers to a CP, this must be a unique reference. That is, one IDD must not refer to different CPs. Hence this object property is functional. (If the service could be implemented using different communication technologies, each implementation would need an own IDD!!)."@en .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_CP> <http://www.w3.org/2000/01/rdf-schema#label> "refers to CP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#refers_to_IDD
+<http://www.w3id.org/ecsel-dr-AH#refers_to_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_IDD> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#refers_to> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_IDD> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_IDD> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "refers to IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#refers_to_SD
+<http://www.w3id.org/ecsel-dr-AH#refers_to_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_SD> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#refers_to> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_SD> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_SD> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Service_Description_SD> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_SD> <http://www.w3.org/2000/01/rdf-schema#label> "refers to SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#refers_to_SP
+<http://www.w3id.org/ecsel-dr-AH#refers_to_SP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_SP> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#refers_to> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_SP> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_SP> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Semantic_Profile_SP> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_SP> <http://www.w3.org/2000/01/rdf-schema#comment> "an Interface Design Description (IDD) can refer to a Semantic Profile (SP). \r\nNo other documentation document can refer to a SP. Hence the domain of this object property is the class of IDDs. \r\nAn IDD can refer to a SP, but this is not mandatory. SPs are intended to be used in cases in which several services use the same SP. Then the SCP information should be extracted to an SP document and the IDDs of all services that use this SP shall refer to this SP. \r\nIf the SP is unique for a specific service, the SP information can directly be included in the IDD.\r\nReferences to SPs are not necessarily unique for an IDD. That is, different methods of the service documented by the IDD can use different Semantic Profiles."@en .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_SP> <http://www.w3.org/2000/01/rdf-schema#label> "refers to SP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#refers_to_So_SD
+<http://www.w3id.org/ecsel-dr-AH#refers_to_So_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_So_SD> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#refers_to> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_So_SD> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_So_SD> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Description_So_SD> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_So_SD> <http://www.w3.org/2000/01/rdf-schema#label> "refers to So SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#refers_to> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error72> .
+<http://org.semanticweb.owlapi/error#Error72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "refers to Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#refers_to> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "refers to Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#runs_on
+<http://www.w3id.org/ecsel-dr-AH#runs_on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#runs_on> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Software_System> .
+<http://www.w3id.org/ecsel-dr-AH#runs_on> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#runs_on> <http://www.w3.org/2000/01/rdf-schema#label> "runs on"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#uses_comm_tech
+<http://www.w3id.org/ecsel-dr-AH#uses_comm_tech> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#uses_comm_tech> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#uses_comm_tech> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error66> .
+<http://org.semanticweb.owlapi/error#Error66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#uses_comm_tech> <http://www.w3.org/2000/01/rdf-schema#label> "uses comm tech"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#uses_communication_security_mechanism
+<http://www.w3id.org/ecsel-dr-AH#uses_communication_security_mechanism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#uses_communication_security_mechanism> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#uses_comm_tech> .
+<http://www.w3id.org/ecsel-dr-AH#uses_communication_security_mechanism> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#uses_communication_security_mechanism> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism> .
+<http://www.w3id.org/ecsel-dr-AH#uses_communication_security_mechanism> <http://www.w3.org/2000/01/rdf-schema#label> "uses communication security mechanism"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#uses_data_format
+<http://www.w3id.org/ecsel-dr-AH#uses_data_format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#uses_data_format> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#uses_comm_tech> .
+<http://www.w3id.org/ecsel-dr-AH#uses_data_format> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#uses_data_format> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Data_Format> .
+<http://www.w3id.org/ecsel-dr-AH#uses_data_format> <http://www.w3.org/2000/01/rdf-schema#label> "uses data format"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#uses_transfer_protocol
+<http://www.w3id.org/ecsel-dr-AH#uses_transfer_protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AH#uses_transfer_protocol> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-AH#uses_comm_tech> .
+<http://www.w3id.org/ecsel-dr-AH#uses_transfer_protocol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#uses_transfer_protocol> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol> .
+<http://www.w3id.org/ecsel-dr-AH#uses_transfer_protocol> <http://www.w3.org/2000/01/rdf-schema#label> "uses transfer protocol"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-AH#IP_address
+<http://www.w3id.org/ecsel-dr-AH#IP_address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-AH#IP_address> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#IP_address> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-AH#IP_address> <http://www.w3.org/2000/01/rdf-schema#label> "IP address"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#MAC_address
+<http://www.w3id.org/ecsel-dr-AH#MAC_address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-AH#MAC_address> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#MAC_address> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-AH#MAC_address> <http://www.w3.org/2000/01/rdf-schema#label> "MAC address"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#device_ID
+<http://www.w3id.org/ecsel-dr-AH#device_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-AH#device_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-AH#device_ID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#device_ID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-AH#device_ID> <http://www.w3.org/2000/01/rdf-schema#comment> "Data property of each device in Arrowhead context. Needed by Device Discovery service.\r\nPurpose: provides an unique identifier for a device."@en .
+<http://www.w3id.org/ecsel-dr-AH#device_ID> <http://www.w3.org/2000/01/rdf-schema#label> "device ID" .
+# 
+# http://www.w3id.org/ecsel-dr-AH#device_name
+<http://www.w3id.org/ecsel-dr-AH#device_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-AH#device_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#device_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-AH#device_name> <http://www.w3.org/2000/01/rdf-schema#label> "device name" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://org.semanticweb.owlapi/error#Error60
+# 
+# http://org.semanticweb.owlapi/error#Error61
+# 
+# http://org.semanticweb.owlapi/error#Error62
+# 
+# http://org.semanticweb.owlapi/error#Error63
+# 
+# http://org.semanticweb.owlapi/error#Error64
+# 
+# http://org.semanticweb.owlapi/error#Error65
+# 
+# http://org.semanticweb.owlapi/error#Error66
+# 
+# http://org.semanticweb.owlapi/error#Error67
+# 
+# http://org.semanticweb.owlapi/error#Error68
+# 
+# http://org.semanticweb.owlapi/error#Error69
+# 
+# http://org.semanticweb.owlapi/error#Error70
+# 
+# http://org.semanticweb.owlapi/error#Error71
+# 
+# http://org.semanticweb.owlapi/error#Error72
+# 
+# http://org.semanticweb.owlapi/error#Error73
+# 
+# http://org.semanticweb.owlapi/error#Error74
+# 
+# http://org.semanticweb.owlapi/error#Error75
+# 
+# http://org.semanticweb.owlapi/error#Error76
+# 
+# http://www.w3id.org/ecsel-dr#Cloud_Lobe
+<http://www.w3id.org/ecsel-dr#Cloud_Lobe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Application_Servcice_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_Servcice_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_Servcice_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_Servcice_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Application Servcice IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Application_Service
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Service> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_Service> <http://www.w3.org/2000/01/rdf-schema#comment> "Application services – they are application specific and are implemented by application systems along with functionalities (to match requirements of an application)"@en .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_Service> <http://www.w3.org/2000/01/rdf-schema#label> "AH Application Service"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Application_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Service_Description_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Application Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Application_System
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_System> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_System> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3id.org/ecsel-dr-AH#AH_Core_System> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_System> <http://www.w3.org/2000/01/rdf-schema#label> "Arrowhead Application Component"@en .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_System> <http://www.w3.org/2000/01/rdf-schema#label> "Arrowhead Application System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Application System Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Application System Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Authorization Control Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Authorization Control Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Authorization System Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Authorization System Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_WADL
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_WADL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_WADL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_WADL> <http://www.w3.org/2000/01/rdf-schema#label> "AH Authorization System WADL"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Core_Service> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service> <http://www.w3.org/2000/01/rdf-schema#label> "AH Automation Supporting Service"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Automation Supporting Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Automation Supporting Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Core_System> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System> <http://www.w3.org/2000/01/rdf-schema#label> "AH Automation Supporting System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Automation Supporting System Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Automation Supporting System Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Core_Service
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Service> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_Service> <http://www.w3.org/2000/01/rdf-schema#label> "AH Core Service"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Core Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Service_Description_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Core Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Core_System
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_System> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_System> <http://www.w3.org/2000/01/rdf-schema#comment> "Software system, that belongs to the \"standard\" components offered by Arrowhead framework. \r\nArrowhead core systems can occur once in each Arrowhead Local Cloud. \r\nArriwhead Core Systems can be distinguished in Arrowhead Mandatory Core Systems and Automation supporting systems. Mandatory core systems must exist in each Arrowhead Local Cloud, Automation supporting systems can occur in an Arrowhead Local Cloud."@en .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_System> <http://www.w3.org/2000/01/rdf-schema#label> "Arrowhead Core Component"@en .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_System> <http://www.w3.org/2000/01/rdf-schema#label> "Arrowhead Core System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Core System Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Core System Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Device Discovery Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Device Discovery Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Device Registry System Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Device Registry System Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Gatekeeper System Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Gatekeeper System Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Gateway System Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Gateway System Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Global Service Discovery Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Global Service Discovery Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Historian Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Historian Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Inter Cloud Negotiations Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Inter Cloud Negotiations Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Local_Cloud
+<http://www.w3id.org/ecsel-dr-AH#AH_Local_Cloud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Local_Cloud> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Local_Cloud> <http://www.w3.org/2000/01/rdf-schema#label> "AH Local Cloud"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Core_Service> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service> <http://www.w3.org/2000/01/rdf-schema#label> "AH Mandatory Core Service"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#comment> "Class of all Interface Design Descriptions (IDDs) of mandatory Arrowwhead core services.\r\nWhile the class AH_mandatory_core_service contains the mandatory core services only as instances, this class contains classes of the IDDs of each single mandatory core service as subclasses (not only as instances). Since each AH Local Cloud runs one instance of each mandatory core service, each of these services has to be documented by an AH service documentation, i.e. at least by a SD and a IDD. So the IDD is an individual document for each mandatory core service in each single Local Cloud. Hence, all IDDs of a certain mandatory core service will be individuals of the corresponding IDD class."@en .
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Mandatory Core Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Mandatory Core Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Core_System> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System> <http://www.w3.org/2000/01/rdf-schema#label> "AH Mandatory Core System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Mandatory Core System Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Mandatory Core System Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Orchestration Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Orchestration Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Orchestration System Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Orchestration System Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Orchestrator_WADL
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestrator_WADL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestrator_WADL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Orchestrator_WADL> <http://www.w3.org/2000/01/rdf-schema#label> "AH Orchestrator WADL"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH QoS Manager Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH QoS Manager Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Service
+<http://www.w3id.org/ecsel-dr-AH#AH_Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Service> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service> <http://www.w3.org/2000/01/rdf-schema#label> "AH Service"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Service Discovery Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Service Discovery Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Service_Documentation> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation> <http://www.w3.org/2000/01/rdf-schema#label> "AH Service Documentation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document> <http://www.w3.org/2000/01/rdf-schema#comment> "Document belonging to the documentation of an Arrowhead Service. \r\nThere are four types of documents for Arrowhead service documentations: \r\n- Service Description\r\n- Interface Design Description\r\n- Communication Profile\r\n- Semantic Profile. \r\nThe central documents are IDDs. They document the implementation of a certain service based on a certain communication technology (communication, encoding, data format) and a certain information model. \r\nThe Service Description contains a more general description of the service, without the link to a specific communication technology or information model. \r\nCommunication Profiles and Semantic Profiles are optional documents for a service documentation. They can be seen as modules of an IDD, since they can describe the communication technolopgy and the information model of a service implementation as external documents. If they exist, the IDD refers to them instead of declaring these contents by themselfes. \r\nThat is, CP and SP are useful if different service implementations use the same CP and SP - then their IDDs can refer to one and the same CP or SP document."@de .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document> <http://www.w3.org/2000/01/rdf-schema#label> "AH Service Documentation Document"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Service Registry System Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Service Registry System Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_WADL
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_WADL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_WADL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_WADL> <http://www.w3.org/2000/01/rdf-schema#label> "AH Service Registry WADL"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Session Establish Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Session Establish Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Session Management Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Session Management Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Store Management Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Store Management Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_System
+<http://www.w3id.org/ecsel-dr-AH#AH_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Software_System> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System> <http://www.w3.org/2000/01/rdf-schema#label> "AH System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH System Discovery Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH System Discovery Service SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#System_Documentation> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation> <http://www.w3.org/2000/01/rdf-schema#label> "AH System Documentation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document> <http://www.w3.org/2000/01/rdf-schema#label> "AH System Documentation Document"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#System_Documentation> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation> <http://www.w3.org/2000/01/rdf-schema#label> "AH System Of Systems Documentation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document> <http://www.w3.org/2000/01/rdf-schema#label> "AH System Of Systems Documentation Document"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH System Registry System Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH System Registry System Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Servcie_SD
+<http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Servcie_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Servcie_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Servcie_SD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Token Generation Servcie SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Service_IDD
+<http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Service_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD> .
+<http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Service_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "AH Token Generation Service IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Arrowhead
+<http://www.w3id.org/ecsel-dr-AH#Arrowhead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Arrowhead> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture> .
+<http://www.w3id.org/ecsel-dr-AH#Arrowhead> <http://www.w3.org/2000/01/rdf-schema#label> "Arrowhead"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Communication_Profile_CP
+<http://www.w3id.org/ecsel-dr-AH#Communication_Profile_CP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Communication_Profile_CP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#Communication_Profile_CP> <http://www.w3.org/2000/01/rdf-schema#comment> "Communication Profile (CP)" .
+<http://www.w3id.org/ecsel-dr-AH#Communication_Profile_CP> <http://www.w3.org/2000/01/rdf-schema#label> "Communication Profile"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism
+<http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Communication_Technology> .
+<http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism> <http://www.w3.org/2000/01/rdf-schema#comment> "corresponds to a part of OSI layer 5" .
+<http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism> <http://www.w3.org/2000/01/rdf-schema#label> "Communication Security Mechanism"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Communication_Technology
+<http://www.w3id.org/ecsel-dr-AH#Communication_Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Communication_Technology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#Communication_Technology> <http://www.w3.org/2000/01/rdf-schema#comment> "Communications technology, also known as information technology, refers to all equipment and programs that are used to process and communicate information."@en .
+<http://www.w3id.org/ecsel-dr-AH#Communication_Technology> <http://www.w3.org/2000/01/rdf-schema#label> "Communication Technology"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Constrained_Device
+<http://www.w3id.org/ecsel-dr-AH#Constrained_Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Constrained_Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#Constrained_Device> <http://www.w3.org/2000/01/rdf-schema#comment> "A constrained device is a device in the sense of an service-oriented architecture that is restricted in terms of processing capabilities (speed, complexity of operations), memory and power supply. \r\nThe concept constrained device was introduced in the context of the Internet of Things (IoT) and refers for example to sensor devices, location devices, switches etc. which are connected by low-power wireless communication technologies like BLE, ZigBee, Z-Wave etc., have a battery on board that should last for two to three years and which are (very) small in physical size."@en .
+<http://www.w3id.org/ecsel-dr-AH#Constrained_Device> <http://www.w3.org/2000/01/rdf-schema#label> "Constrained Device"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Data_Format
+<http://www.w3id.org/ecsel-dr-AH#Data_Format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Data_Format> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#Data_Format> <http://www.w3.org/2000/01/rdf-schema#comment> "Data format in information technology may refer to: Data type, constraint placed upon the interpretation of data in a type system."@en .
+<http://www.w3id.org/ecsel-dr-AH#Data_Format> <http://www.w3.org/2000/01/rdf-schema#label> "Data Format"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Data_Link_Media_Access_Technology
+<http://www.w3id.org/ecsel-dr-AH#Data_Link_Media_Access_Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Data_Link_Media_Access_Technology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Communication_Technology> .
+<http://www.w3id.org/ecsel-dr-AH#Data_Link_Media_Access_Technology> <http://www.w3.org/2000/01/rdf-schema#comment> "corresponds to OSI layer 1 and 2 technologies, like Ethernet, WLAN (802.11), WPAN (802.15.4), EtherCAT, ProfiNet, ..." .
+<http://www.w3id.org/ecsel-dr-AH#Data_Link_Media_Access_Technology> <http://www.w3.org/2000/01/rdf-schema#label> "Data Link Media Access Technology"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Data_Model
+<http://www.w3id.org/ecsel-dr-AH#Data_Model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Data_Model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#Data_Model> <http://www.w3.org/2000/01/rdf-schema#comment> "A data model is an abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities."@en .
+<http://www.w3id.org/ecsel-dr-AH#Data_Model> <http://www.w3.org/2000/01/rdf-schema#label> "Data Model"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Device
+<http://www.w3id.org/ecsel-dr-AH#Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Device> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-AT#Device> .
+<http://www.w3id.org/ecsel-dr-AT#Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Device> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-PWR#Device> .
+<http://www.w3id.org/ecsel-dr-PWR#Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#Device> <http://www.w3.org/2000/01/rdf-schema#comment> "A device in the context of Arrowhead framework is a piece of equipment, machine, hardware, etc. with computational, memory, and communication capabilities which hosts one or several Arrowhead Framework systems. (Source: Arrowhead)"@en .
+<http://www.w3id.org/ecsel-dr-AH#Device> <http://www.w3.org/2000/01/rdf-schema#comment> "A device in the context of Service-oriented architectures (that is, in the context of Information Technology (IT) and Automation / Operations Technology (OT)) is an technical artefact that fulfills the basic definition of a \"computer\". That is, a device must be able to host (run) software systems. For this, it needs at least a processing unit (processor), a memory and a communication interface, which can be either wired or wireless."@en .
+<http://www.w3id.org/ecsel-dr-AH#Device> <http://www.w3.org/2000/01/rdf-schema#label> "Device"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Documentation_Document
+<http://www.w3id.org/ecsel-dr-AH#Documentation_Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Documentation_Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#Documentation_Document> <http://www.w3.org/2000/01/rdf-schema#comment> "A document that documents something"@en .
+<http://www.w3id.org/ecsel-dr-AH#Documentation_Document> <http://www.w3.org/2000/01/rdf-schema#label> "Documentation Document"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#End_To_End_Communication_Technology
+<http://www.w3id.org/ecsel-dr-AH#End_To_End_Communication_Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#End_To_End_Communication_Technology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Communication_Technology> .
+<http://www.w3id.org/ecsel-dr-AH#End_To_End_Communication_Technology> <http://www.w3.org/2000/01/rdf-schema#comment> "The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network."@en .
+<http://www.w3id.org/ecsel-dr-AH#End_To_End_Communication_Technology> <http://www.w3.org/2000/01/rdf-schema#label> "End-to-End Communication Technology"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Gateway
+<http://www.w3id.org/ecsel-dr-AH#Gateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Gateway> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-AT#Gateway> .
+<http://www.w3id.org/ecsel-dr-AT#Gateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Gateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#Gateway> <http://www.w3.org/2000/01/rdf-schema#comment> "A gateway is a piece of networking hardware used in telecommunications for telecommunications networks that allows data to flow from one discrete network to another."@en .
+<http://www.w3id.org/ecsel-dr-AH#Gateway> <http://www.w3.org/2000/01/rdf-schema#label> "Gateway"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Illumination_Device
+<http://www.w3id.org/ecsel-dr-AH#Illumination_Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Illumination_Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Constrained_Device> .
+<http://www.w3id.org/ecsel-dr-AH#Illumination_Device> <http://www.w3.org/2000/01/rdf-schema#comment> "A category of devices which's purpose is to illuminate"@en .
+<http://www.w3id.org/ecsel-dr-AH#Illumination_Device> <http://www.w3.org/2000/01/rdf-schema#label> "Illumination Device"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Industrial_Personal_Computer
+<http://www.w3id.org/ecsel-dr-AH#Industrial_Personal_Computer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Industrial_Personal_Computer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#Industrial_Personal_Computer> <http://www.w3.org/2000/01/rdf-schema#comment> "Industrial PCs are primarily used for process control and/or data acquisition. In some cases, an industrial PC is simply used as a front-end to another control computer in a distributed processing environment."@en .
+<http://www.w3id.org/ecsel-dr-AH#Industrial_Personal_Computer> <http://www.w3.org/2000/01/rdf-schema#label> "Industrial Personal Computer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Information_Model
+<http://www.w3id.org/ecsel-dr-AH#Information_Model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Information_Model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#Information_Model> <http://www.w3.org/2000/01/rdf-schema#comment> "An information model in software engineering is a representation of concepts and the relationships, constraints, rules, and operations to specify data semantics for a chosen domain of discourse. Typically it specifies relations between kinds of things, but may also include relations with individual things."@en .
+<http://www.w3id.org/ecsel-dr-AH#Information_Model> <http://www.w3.org/2000/01/rdf-schema#label> "Information Model"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD
+<http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD> <http://www.w3.org/2000/01/rdf-schema#comment> "Interface Design Description (IDD)"@en .
+<http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD> <http://www.w3.org/2000/01/rdf-schema#label> "Interface Design Description IDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Local_Network
+<http://www.w3id.org/ecsel-dr-AH#Local_Network> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Local_Network> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#Local_Network> <http://www.w3.org/2000/01/rdf-schema#comment> "A local area network is a computer network that interconnects computers within a limited area"@en .
+<http://www.w3id.org/ecsel-dr-AH#Local_Network> <http://www.w3.org/2000/01/rdf-schema#label> "Local Network"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Method
+<http://www.w3id.org/ecsel-dr-AH#Method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#Method> <http://www.w3.org/2000/01/rdf-schema#comment> "Method of a service: method that is provided by a service within a SoA."@en .
+<http://www.w3id.org/ecsel-dr-AH#Method> <http://www.w3.org/2000/01/rdf-schema#label> "Method"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Personal_Computer
+<http://www.w3id.org/ecsel-dr-AH#Personal_Computer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Personal_Computer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#Personal_Computer> <http://www.w3.org/2000/01/rdf-schema#comment> "A personal computer (PC) is a multi-purpose computer whose size, capabilities, and price make it feasible for individual use."@en .
+<http://www.w3id.org/ecsel-dr-AH#Personal_Computer> <http://www.w3.org/2000/01/rdf-schema#label> "Personal Computer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Point_To_Point_Communication_Technology
+<http://www.w3id.org/ecsel-dr-AH#Point_To_Point_Communication_Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Point_To_Point_Communication_Technology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Communication_Technology> .
+<http://www.w3id.org/ecsel-dr-AH#Point_To_Point_Communication_Technology> <http://www.w3.org/2000/01/rdf-schema#comment> "corresponds to OSI layer 3, e.g. IPv4 or IPv6" .
+<http://www.w3id.org/ecsel-dr-AH#Point_To_Point_Communication_Technology> <http://www.w3.org/2000/01/rdf-schema#label> "Point-to-Point Communication Technology" .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Programmable_Logic_Controller
+<http://www.w3id.org/ecsel-dr-AH#Programmable_Logic_Controller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Programmable_Logic_Controller> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller> .
+<http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Programmable_Logic_Controller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#Programmable_Logic_Controller> <http://www.w3.org/2000/01/rdf-schema#comment> "A programmable logic controller (PLC) is an industrial digital computer which has been ruggedized and adapted for the control of manufacturing processes"@en .
+<http://www.w3id.org/ecsel-dr-AH#Programmable_Logic_Controller> <http://www.w3.org/2000/01/rdf-schema#label> "Programmable Logic Controller"@en .
+<http://www.w3id.org/ecsel-dr-AH#Programmable_Logic_Controller> <http://www.w3.org/2000/01/rdf-schema#label> "SPS"@de .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Raspberry_Pi
+<http://www.w3id.org/ecsel-dr-AH#Raspberry_Pi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Raspberry_Pi> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#Raspberry_Pi> <http://www.w3.org/2000/01/rdf-schema#comment> "The Raspberry Pi is a series of small single-board computers developed in the United Kingdom by the Raspberry Pi Foundation to put the power of computing and digital making into the hands of people all over the world."@en .
+<http://www.w3id.org/ecsel-dr-AH#Raspberry_Pi> <http://www.w3.org/2000/01/rdf-schema#label> "Raspberry Pi"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Semantic_Profile_SP
+<http://www.w3id.org/ecsel-dr-AH#Semantic_Profile_SP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Semantic_Profile_SP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#Semantic_Profile_SP> <http://www.w3.org/2000/01/rdf-schema#comment> "Semantic Profile (SP)" .
+<http://www.w3id.org/ecsel-dr-AH#Semantic_Profile_SP> <http://www.w3.org/2000/01/rdf-schema#label> "Semantic Profile"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Sensor_Device
+<http://www.w3id.org/ecsel-dr-AH#Sensor_Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Sensor_Device> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-AT#Sensor_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Sensor_Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Sensor_Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Constrained_Device> .
+<http://www.w3id.org/ecsel-dr-AH#Sensor_Device> <http://www.w3.org/2000/01/rdf-schema#comment> "A category of devices which's purpose is to sense"@en .
+<http://www.w3id.org/ecsel-dr-AH#Sensor_Device> <http://www.w3.org/2000/01/rdf-schema#label> "Sensor Device"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Service
+<http://www.w3id.org/ecsel-dr-AH#Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#Service> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3id.org/ecsel-dr-AH#Software_System> .
+<http://www.w3id.org/ecsel-dr-AH#Service> <http://www.w3.org/2000/01/rdf-schema#comment> "In the context of the Arrowhead Framework a Service is the information exchanged from a providing system to a consuming system.\r\n• is based on a number of service orientation principles derived from high level objectives and properties of the Arrowhead framework \r\n• can be realized by an arbitrary number of service producers and service consumers \r\n• a system can consume a number of services, process and provide other services to fulfil a more complex task \r\n• can only be provided by technical systems \r\n• can support operational activities within business processes \r\n• can support non-functional requirements, such as real-time \r\n• can have stakeholders, with an interest in business benefit, in one or more specific area of interest \r\n• can have an appointed stakeholder, responsible for the governance of the Service (definition, development). \r\n(Source: Arrowhead Framework Definitions V2.4 & Arrowhead Device Registry Presentation)"@en .
+<http://www.w3id.org/ecsel-dr-AH#Service> <http://www.w3.org/2000/01/rdf-schema#label> "Service"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Service_Description_SD
+<http://www.w3id.org/ecsel-dr-AH#Service_Description_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Service_Description_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#Service_Description_SD> <http://www.w3.org/2000/01/rdf-schema#comment> "Service Description (SD)"@en .
+<http://www.w3id.org/ecsel-dr-AH#Service_Description_SD> <http://www.w3.org/2000/01/rdf-schema#label> "Service Description SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Service_Documentation
+<http://www.w3id.org/ecsel-dr-AH#Service_Documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Service_Documentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#Service_Documentation> <http://www.w3.org/2000/01/rdf-schema#comment> "Service documentation is any communicable material that is used to describe, explain or instruct regarding some attributes of a service"@en .
+<http://www.w3id.org/ecsel-dr-AH#Service_Documentation> <http://www.w3.org/2000/01/rdf-schema#label> "Service Documentation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture
+<http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> .
+<http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture> <http://www.w3.org/2000/01/rdf-schema#comment> "Service-oriented architecture (SoA) is a style of software design where services are provided to the other components by application components, through a communication protocol over a network."@en .
+<http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture> <http://www.w3.org/2000/01/rdf-schema#label> "Service-Oriented Architecture"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Smartphone
+<http://www.w3id.org/ecsel-dr-AH#Smartphone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Smartphone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#Smartphone> <http://www.w3.org/2000/01/rdf-schema#comment> "A smartphone is a mobile device that combines cellular and mobile computing functions into one unit."@en .
+<http://www.w3id.org/ecsel-dr-AH#Smartphone> <http://www.w3.org/2000/01/rdf-schema#label> "Smartphone"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#SoA_Property
+<http://www.w3id.org/ecsel-dr-AH#SoA_Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#SoA_Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#SoA_Property> <http://www.w3.org/2000/01/rdf-schema#label> "SoA Property"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Software_System
+<http://www.w3id.org/ecsel-dr-AH#Software_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Software_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#Software_System> <http://www.w3.org/2000/01/rdf-schema#comment> "System software is software designed to provide a platform for other software."@en .
+<http://www.w3id.org/ecsel-dr-AH#Software_System> <http://www.w3.org/2000/01/rdf-schema#label> "Software System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Switch_Device
+<http://www.w3id.org/ecsel-dr-AH#Switch_Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Switch_Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Constrained_Device> .
+<http://www.w3id.org/ecsel-dr-AH#Switch_Device> <http://www.w3.org/2000/01/rdf-schema#comment> "A switch is a device in a computer network that connects other devices together."@en .
+<http://www.w3id.org/ecsel-dr-AH#Switch_Device> <http://www.w3.org/2000/01/rdf-schema#label> "Switch Device"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD
+<http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD> <http://www.w3.org/2000/01/rdf-schema#label> "System Description Sy SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD
+<http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "System Design Description Sy SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#System_Documentation
+<http://www.w3id.org/ecsel-dr-AH#System_Documentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#System_Documentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#System_Documentation> <http://www.w3.org/2000/01/rdf-schema#comment> "System documentation is any communicable material that is used to describe, explain or instruct regarding some attributes of a system"@en .
+<http://www.w3id.org/ecsel-dr-AH#System_Documentation> <http://www.w3.org/2000/01/rdf-schema#label> "System Documentation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#System_Of_Systems
+<http://www.w3id.org/ecsel-dr-AH#System_Of_Systems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#System_Of_Systems> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+<http://www.w3id.org/ecsel-dr-AH#System_Of_Systems> <http://www.w3.org/2000/01/rdf-schema#comment> "System of systems is a collection of task-oriented or dedicated systems that pool their resources and capabilities together to create a new, more complex system which offers more functionality and performance than simply the sum of the constituent systems."@en .
+<http://www.w3id.org/ecsel-dr-AH#System_Of_Systems> <http://www.w3.org/2000/01/rdf-schema#label> "System Of Systems"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Description_So_SD
+<http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Description_So_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Description_So_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Description_So_SD> <http://www.w3.org/2000/01/rdf-schema#label> "System Of Systems Description So SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD
+<http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD> <http://www.w3.org/2000/01/rdf-schema#label> "System Of Systems Design Description So SDD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL
+<http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document> .
+<http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of an Arrowhead compliant software system in terms of the Web Application Description Language WADL. \r\nThe Web Application Description Language (WADL) is a machine-readable XML description of HTTP-based web services. WADL models the resources provided by a service and the relationships between them. WADL is intended to simplify the reuse of web services that are based on the existing HTTP architecture of the Web. It is platform and language independent and aims to promote reuse of applications beyond the basic use in a web browser.\r\nWADL is the REST equivalent of SOAP's Web Services Description Language (WSDL), which can also be used to describe REST web services. Sources: https://en.wikipedia.org/wiki/Web_Application_Description_Language\r\nSun Microsystems (31 August 2009). \"Web Application Description Language: W3C Member Submission 31 August 2009\". World Wide Web Consortium. Retrieved 12 August 2012.\r\nWorld Wide Web Consortium (14 October 2009). \"Team Comment on the \"Web Application Description Language\" Submission\". World Wide Web Consortium. Retrieved 12 August 2012.\r\nLawrence Mandel (29 May 2008). \"Describe REST Web services with WSDL 2.0: A how-to guide\". IBM. Retrieved 12 August 2012."@en .
+<http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL> <http://www.w3.org/2000/01/rdf-schema#label> "System Web Application Description WADL"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Tablet_Computer
+<http://www.w3id.org/ecsel-dr-AH#Tablet_Computer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Tablet_Computer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Device> .
+<http://www.w3id.org/ecsel-dr-AH#Tablet_Computer> <http://www.w3.org/2000/01/rdf-schema#comment> "A tablet computer, commonly shortened to tablet, is a mobile device, typically with a mobile operating system and touchscreen display"@en .
+<http://www.w3id.org/ecsel-dr-AH#Tablet_Computer> <http://www.w3.org/2000/01/rdf-schema#label> "Tablet Computer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol
+<http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AH#Communication_Technology> .
+<http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol> <http://www.w3.org/2000/01/rdf-schema#comment> "corresponds to OSI layers 6 and 7" .
+<http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol> <http://www.w3.org/2000/01/rdf-schema#label> "Transfer Protocol" .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Device
+# 
+# http://www.w3id.org/ecsel-dr-AT#Gateway
+# 
+# http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller
+# 
+# http://www.w3id.org/ecsel-dr-AT#Sensor_Device
+# 
+# http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols
+# 
+# http://www.w3id.org/ecsel-dr-PWR#Device
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

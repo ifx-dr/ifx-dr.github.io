@@ -1,0 +1,477 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.w3id.org/ecsel-dr-ORG#has_category_level
+<http://www.w3id.org/ecsel-dr-ORG#has_category_level> rdf:type owl:ObjectProperty ;
+                                                      owl:inverseOf <http://www.w3id.org/ecsel-dr-ORG#is_category_level_of> ;
+                                                      rdf:type owl:FunctionalProperty ;
+                                                      rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                                      rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Category> ;
+                                                      rdfs:comment "Relation between a project and its categories"@en ;
+                                                      rdfs:label "has category level"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#has_certification_level
+<http://www.w3id.org/ecsel-dr-ORG#has_certification_level> rdf:type owl:ObjectProperty ;
+                                                           rdfs:subPropertyOf <http://www.w3id.org/ecsel-dr-ORG#has_contributor> ;
+                                                           owl:inverseOf <http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of> ;
+                                                           rdf:type owl:FunctionalProperty ;
+                                                           rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                                           rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Certification> ;
+                                                           rdfs:comment "Relation between a project and the certification that it has"@en ;
+                                                           rdfs:label "has a certification level"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#has_contributor
+<http://www.w3id.org/ecsel-dr-ORG#has_contributor> rdf:type owl:ObjectProperty ;
+                                                   owl:inverseOf <http://www.w3id.org/ecsel-dr-ORG#is_contributor_of> ;
+                                                   rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Role> ;
+                                                   rdfs:range <http://org.semanticweb.owlapi/error#Error330> ;
+                                                   rdfs:comment "A relation between a role and the funcionts it has, division and region it is part of."@en ;
+                                                   rdfs:label "has a contributor"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#has_project_status
+<http://www.w3id.org/ecsel-dr-ORG#has_project_status> rdf:type owl:ObjectProperty ;
+                                                      owl:inverseOf <http://www.w3id.org/ecsel-dr-ORG#is_project_status> ;
+                                                      rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                                      rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Project_Status> ;
+                                                      rdfs:comment "Relation between a project and its status"@en ;
+                                                      rdfs:label "has project status"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#has_role
+<http://www.w3id.org/ecsel-dr-ORG#has_role> rdf:type owl:ObjectProperty ;
+                                            owl:inverseOf <http://www.w3id.org/ecsel-dr-ORG#is_role_of> ;
+                                            rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                            rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Role> ;
+                                            rdfs:comment "A relation that connects a role with a project"@en ;
+                                            rdfs:label "has role"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#has_sub_project
+<http://www.w3id.org/ecsel-dr-ORG#has_sub_project> rdf:type owl:ObjectProperty ;
+                                                   owl:inverseOf <http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of> ;
+                                                   rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                                   rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Sub_Project> ;
+                                                   rdfs:comment "Relation between a project and its subprojects"@en ;
+                                                   rdfs:label "has sub project"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#has_task
+<http://www.w3id.org/ecsel-dr-ORG#has_task> rdf:type owl:ObjectProperty ;
+                                            owl:inverseOf <http://www.w3id.org/ecsel-dr-ORG#is_task_of> ;
+                                            rdfs:domain <http://org.semanticweb.owlapi/error#Error336> ;
+                                            rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Task> ;
+                                            rdfs:comment "Relation between a project or a subproject and their tasks"@en ;
+                                            rdfs:label "has task"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#has_training_level
+<http://www.w3id.org/ecsel-dr-ORG#has_training_level> rdf:type owl:ObjectProperty ;
+                                                      owl:inverseOf <http://www.w3id.org/ecsel-dr-ORG#is_training_level_of> ;
+                                                      rdf:type owl:FunctionalProperty ;
+                                                      rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Project_Manager> ;
+                                                      rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Training> ;
+                                                      rdfs:comment "Relation between a project manager and its training level"@en ;
+                                                      rdfs:label "has training level"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#has_work_package
+<http://www.w3id.org/ecsel-dr-ORG#has_work_package> rdf:type owl:ObjectProperty ;
+                                                    owl:inverseOf <http://www.w3id.org/ecsel-dr-ORG#is_work_package_of> ;
+                                                    rdf:type owl:FunctionalProperty ;
+                                                    rdfs:domain <http://org.semanticweb.owlapi/error#Error332> ;
+                                                    rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Work_Package> ;
+                                                    rdfs:comment "Relation between a project or a subproject and their work packages"@en ;
+                                                    rdfs:label "has work package"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#is_category_level_of
+<http://www.w3id.org/ecsel-dr-ORG#is_category_level_of> rdf:type owl:ObjectProperty ,
+                                                                 owl:FunctionalProperty ;
+                                                        rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Category> ;
+                                                        rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                                        rdfs:comment "Relation between a category and its projects"@en ;
+                                                        rdfs:label "is category level of"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of
+<http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of> rdf:type owl:ObjectProperty ,
+                                                                      owl:FunctionalProperty ;
+                                                             rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Certification> ;
+                                                             rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                                             rdfs:comment "Relation between a certification and its projects"@en ;
+                                                             rdfs:label "is certification level of"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#is_contributor_of
+<http://www.w3id.org/ecsel-dr-ORG#is_contributor_of> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <http://org.semanticweb.owlapi/error#Error335> ;
+                                                     rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Role> ;
+                                                     rdfs:comment "Relation between a Central function, a division or a region and their roles"@en ;
+                                                     rdfs:label "is contributor of"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#is_project_status
+<http://www.w3id.org/ecsel-dr-ORG#is_project_status> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Project_Status> ;
+                                                     rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                                     rdfs:comment "Relation between a project status and the project it is part of"@en ;
+                                                     rdfs:label "is project status"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#is_role_of
+<http://www.w3id.org/ecsel-dr-ORG#is_role_of> rdf:type owl:ObjectProperty ;
+                                              rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Role> ;
+                                              rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                              rdfs:comment "Relation between a role and the project it is part of"@en ;
+                                              rdfs:label "is role of"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of
+<http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Sub_Project> ;
+                                                     rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                                     rdfs:comment "Relation between a subproject and the project it is part of"@en ;
+                                                     rdfs:label "is sub project of"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#is_task_of
+<http://www.w3id.org/ecsel-dr-ORG#is_task_of> rdf:type owl:ObjectProperty ;
+                                              rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Task> ;
+                                              rdfs:range <http://org.semanticweb.owlapi/error#Error329> ;
+                                              rdfs:comment "Relation between a task and the project or subproject it is part of"@en ;
+                                              rdfs:label "is task of"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#is_training_level_of
+<http://www.w3id.org/ecsel-dr-ORG#is_training_level_of> rdf:type owl:ObjectProperty ,
+                                                                 owl:FunctionalProperty ;
+                                                        rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Training> ;
+                                                        rdfs:range <http://www.w3id.org/ecsel-dr-ORG#Project_Manager> ;
+                                                        rdfs:comment "Relation between a training and the project manager that has it"@en ;
+                                                        rdfs:label "is training level of"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#is_work_package_of
+<http://www.w3id.org/ecsel-dr-ORG#is_work_package_of> rdf:type owl:ObjectProperty ,
+                                                               owl:FunctionalProperty ;
+                                                      rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Work_Package> ;
+                                                      rdfs:range <http://org.semanticweb.owlapi/error#Error331> ;
+                                                      rdfs:comment "Relation between a workpackage and the project or subproject it is part of"@en ;
+                                                      rdfs:label "if work package of"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.w3id.org/ecsel-dr-ORG#budget_factor
+<http://www.w3id.org/ecsel-dr-ORG#budget_factor> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                                 rdfs:range xsd:integer ;
+                                                 rdfs:comment "The budget factor of a project"@en ;
+                                                 rdfs:label "budget factor"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#budget_value
+<http://www.w3id.org/ecsel-dr-ORG#budget_value> rdf:type owl:DatatypeProperty ,
+                                                         owl:FunctionalProperty ;
+                                                rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                                rdfs:range xsd:integer ;
+                                                rdfs:comment "The value of the budget of a project"@en ;
+                                                rdfs:label "budget value"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#category_factor
+<http://www.w3id.org/ecsel-dr-ORG#category_factor> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Category> ;
+                                                   rdfs:range xsd:integer ;
+                                                   rdfs:comment "The category factor of a project"@en ;
+                                                   rdfs:label "category factor"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#experience
+<http://www.w3id.org/ecsel-dr-ORG#experience> rdf:type owl:DatatypeProperty ;
+                                              rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Project_Manager> ;
+                                              rdfs:range xsd:integer ;
+                                              rdfs:comment "The experience that a project manager has"@en ;
+                                              rdfs:label "experience" .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#goal
+<http://www.w3id.org/ecsel-dr-ORG#goal> rdf:type owl:DatatypeProperty ;
+                                        rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                        rdfs:range xsd:string ;
+                                        rdfs:comment "The goal of a project"@en ;
+                                        rdfs:label "goal"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#impact_factor
+<http://www.w3id.org/ecsel-dr-ORG#impact_factor> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                                 rdfs:range xsd:integer ;
+                                                 rdfs:comment "The factor of impact of a project"@en ;
+                                                 rdfs:label "impact factor"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#interface_complexity_factor
+<http://www.w3id.org/ecsel-dr-ORG#interface_complexity_factor> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                                               rdfs:range xsd:integer ;
+                                                               rdfs:comment "The factor of complexity of the interface"@en ;
+                                                               rdfs:label "interface complexity factor"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#minimum_job_experience
+<http://www.w3id.org/ecsel-dr-ORG#minimum_job_experience> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:subPropertyOf <http://www.w3id.org/ecsel-dr-ORG#experience> ;
+                                                          rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Project_Manager> ;
+                                                          rdfs:range xsd:integer ;
+                                                          rdfs:comment "Minimum job experience that the project manager needs"@en ;
+                                                          rdfs:label "minimum job experience" .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#minimum_project_manager_experience
+<http://www.w3id.org/ecsel-dr-ORG#minimum_project_manager_experience> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:subPropertyOf <http://www.w3id.org/ecsel-dr-ORG#experience> ;
+                                                                      rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Project_Manager> ;
+                                                                      rdfs:range xsd:integer ;
+                                                                      rdfs:comment "Minimum job experience that the project manager needs"@en ;
+                                                                      rdfs:label "minimum project manager experience" .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#name
+<http://www.w3id.org/ecsel-dr-ORG#name> rdf:type owl:DatatypeProperty ,
+                                                 owl:FunctionalProperty ;
+                                        rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                        rdfs:range xsd:string ;
+                                        rdfs:comment "The name of the project"@en ;
+                                        rdfs:label "name"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#resulting_factor_average
+<http://www.w3id.org/ecsel-dr-ORG#resulting_factor_average> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain <http://www.w3id.org/ecsel-dr-ORG#Company_Project> ;
+                                                            rdfs:range xsd:integer ;
+                                                            rdfs:label "resulting factor average"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://org.semanticweb.owlapi/error#Error329
+<http://org.semanticweb.owlapi/error#Error329> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error330
+<http://org.semanticweb.owlapi/error#Error330> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error331
+<http://org.semanticweb.owlapi/error#Error331> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error332
+<http://org.semanticweb.owlapi/error#Error332> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error333
+<http://org.semanticweb.owlapi/error#Error333> rdf:type owl:Class ;
+                                               owl:equivalentClass <http://www.w3id.org/ecsel-dr-ORG#Category> .
+
+
+###  http://org.semanticweb.owlapi/error#Error334
+<http://org.semanticweb.owlapi/error#Error334> rdf:type owl:Class ;
+                                               owl:equivalentClass <http://www.w3id.org/ecsel-dr-ORG#Project_Status> .
+
+
+###  http://org.semanticweb.owlapi/error#Error335
+<http://org.semanticweb.owlapi/error#Error335> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error336
+<http://org.semanticweb.owlapi/error#Error336> rdf:type owl:Class .
+
+
+###  http://www.w3id.org/ecsel-dr#Organization_Lobe
+<http://www.w3id.org/ecsel-dr#Organization_Lobe> rdf:type owl:Class .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Category
+<http://www.w3id.org/ecsel-dr-ORG#Category> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+                                            rdfs:comment "Categorizes the project in a big, medium or small project. Usually according the project size."@en ;
+                                            rdfs:label "Category"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Central_Function
+<http://www.w3id.org/ecsel-dr-ORG#Central_Function> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+                                                    rdfs:comment "Large companies have central fuctions like the Finance or corporate suppyl chain department."@en ;
+                                                    rdfs:label "Central Function"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Certification
+<http://www.w3id.org/ecsel-dr-ORG#Certification> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+                                                 rdfs:comment "An official document, as proof that something has happened or been done"@en ;
+                                                 rdfs:label "Certification"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Company_Project
+<http://www.w3id.org/ecsel-dr-ORG#Company_Project> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.w3id.org/ecsel-dr-ORG#Project> ;
+                                                   rdfs:comment "Projects that are or have been developed using our methodology, based on the IPMA standard."@en ;
+                                                   rdfs:label "Company Project"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Division
+<http://www.w3id.org/ecsel-dr-ORG#Division> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+                                            rdfs:comment "Hierarchical structure of an organization. For example ATV, DDS, ICP..."@en ;
+                                            rdfs:label "Division"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Project
+<http://www.w3id.org/ecsel-dr-ORG#Project> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+                                           rdfs:comment "Achievement of the project objective requires these deliverables to conform to specific requirements, including multiple constraints such as time, cost, resources and quality standards or requirements."@en ,
+                                                        "​Projects are a way to deliver value to an organization. A project is defined as a unique, temporary, multi-disciplinary and organized endeavor to realize agreed deliverables within predefined requirements and constraints."@en ;
+                                           rdfs:label "Project"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Project_Manager
+<http://www.w3id.org/ecsel-dr-ORG#Project_Manager> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.w3id.org/ecsel-dr-ORG#Role> ;
+                                                   rdfs:comment "Project managers have the responsibility of the planning, procurement and execution of a project, in any undertaking that has a defined scope, defined start and a defined finish; regardless of industry."@en ;
+                                                   rdfs:label "Project Manager"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Project_Owner
+<http://www.w3id.org/ecsel-dr-ORG#Project_Owner> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.w3id.org/ecsel-dr-ORG#Role> ;
+                                                 rdfs:comment "Defines BP for target achievement."@en ;
+                                                 rdfs:label "Project Owner"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Project_Status
+<http://www.w3id.org/ecsel-dr-ORG#Project_Status> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+                                                  rdfs:comment "The current status of the project"@en ;
+                                                  rdfs:label "Project Status"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Project_Team_Member
+<http://www.w3id.org/ecsel-dr-ORG#Project_Team_Member> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.w3id.org/ecsel-dr-ORG#Role> ;
+                                                       rdfs:comment "Project team members are the individuals who actively work on one or more phases of the project."@en ;
+                                                       rdfs:label "Project Team Members"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Region
+<http://www.w3id.org/ecsel-dr-ORG#Region> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+                                          rdfs:comment "Large companies divide their activites in regions, like in America, Greater China, SEA (South East Asia), Europe and ROW (rest of World)."@en ;
+                                          rdfs:label "Region"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Role
+<http://www.w3id.org/ecsel-dr-ORG#Role> rdf:type owl:Class ;
+                                        owl:equivalentClass <http://www.w3id.org/ecsel-dr-PMV#Role> ;
+                                        rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+                                        rdfs:comment "Defines the responsibilities assumed by an individual."@en ;
+                                        rdfs:label "Role"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Sub_Project
+<http://www.w3id.org/ecsel-dr-ORG#Sub_Project> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+                                               rdfs:comment "A project within a larger project."@en ;
+                                               rdfs:label "Sub Project"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Task
+<http://www.w3id.org/ecsel-dr-ORG#Task> rdf:type owl:Class ;
+                                        owl:equivalentClass <http://www.w3id.org/ecsel-dr-PMV#Task> ;
+                                        rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+                                        rdfs:comment "A piece of work to be done or undertaken."@en ;
+                                        rdfs:label "Task"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Training
+<http://www.w3id.org/ecsel-dr-ORG#Training> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+                                            rdfs:comment "The process of learning the skills you need to do a particular job or activity"@en ;
+                                            rdfs:label "Training"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Work_Package
+<http://www.w3id.org/ecsel-dr-ORG#Work_Package> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+                                                rdfs:comment "A work package is a group of related tasks within a project."@en ;
+                                                rdfs:label "Work Package"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PMV#Role
+<http://www.w3id.org/ecsel-dr-PMV#Role> rdf:type owl:Class .
+
+
+###  http://www.w3id.org/ecsel-dr-PMV#Task
+<http://www.w3id.org/ecsel-dr-PMV#Task> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.w3id.org/ecsel-dr-ORG#Autobahn
+<http://www.w3id.org/ecsel-dr-ORG#Autobahn> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Expedition
+<http://www.w3id.org/ecsel-dr-ORG#Expedition> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Idea
+<http://www.w3id.org/ecsel-dr-ORG#Idea> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Implemented
+<http://www.w3id.org/ecsel-dr-ORG#Implemented> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#In_Preperation
+<http://www.w3id.org/ecsel-dr-ORG#In_Preperation> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Mission
+<http://www.w3id.org/ecsel-dr-ORG#Mission> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#On_Hold
+<http://www.w3id.org/ecsel-dr-ORG#On_Hold> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Running
+<http://www.w3id.org/ecsel-dr-ORG#Running> rdf:type owl:NamedIndividual .
+
+
+###  http://www.w3id.org/ecsel-dr-ORG#Withdrawn
+<http://www.w3id.org/ecsel-dr-ORG#Withdrawn> rdf:type owl:NamedIndividual .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

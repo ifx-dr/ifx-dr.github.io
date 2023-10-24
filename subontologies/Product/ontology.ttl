@@ -1,0 +1,341 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.w3id.org/ecsel-dr-PROD#alternate_product
+<http://www.w3id.org/ecsel-dr-PROD#alternate_product> rdf:type owl:ObjectProperty ;
+                                                      rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Finished_Product> ;
+                                                      rdfs:range <http://www.w3id.org/ecsel-dr-PROD#Finished_Product> ;
+                                                      rdfs:comment "All FinishedProducts that share the same SalesProductNumber"@en ;
+                                                      rdfs:label "alternate product"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#customer
+<http://www.w3id.org/ecsel-dr-PROD#customer> rdf:type owl:ObjectProperty ;
+                                             rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Customer_Part_Number_Specification> ;
+                                             rdfs:range <http://www.w3id.org/ecsel-dr-PROD#Organization> ;
+                                             rdfs:label "customer"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#has_DREP
+<http://www.w3id.org/ecsel-dr-PROD#has_DREP> rdf:type owl:ObjectProperty ,
+                                                      owl:InverseFunctionalProperty ;
+                                             rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Fabrication_Position> ;
+                                             rdfs:range <http://www.w3id.org/ecsel-dr-PROD#Die_Representative> ;
+                                             rdfs:label "has DREP"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#has_SKU_PD
+<http://www.w3id.org/ecsel-dr-PROD#has_SKU_PD> rdf:type owl:ObjectProperty ,
+                                                        owl:InverseFunctionalProperty ;
+                                               rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Die_Representative> ;
+                                               rdfs:range <http://www.w3id.org/ecsel-dr-PROD#Stock_Keeping_Unit> ;
+                                               rdfs:label "has SKU PD"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#has_SKU_SM
+<http://www.w3id.org/ecsel-dr-PROD#has_SKU_SM> rdf:type owl:ObjectProperty ,
+                                                        owl:InverseFunctionalProperty ;
+                                               rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Finished_Product> ;
+                                               rdfs:range <http://www.w3id.org/ecsel-dr-PROD#Stock_Keeping_Unit> ;
+                                               rdfs:label "has SKU SM"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#has_customer_part_number_specification
+<http://www.w3id.org/ecsel-dr-PROD#has_customer_part_number_specification> rdf:type owl:ObjectProperty ;
+                                                                           rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Sales_Product> ;
+                                                                           rdfs:range <http://www.w3id.org/ecsel-dr-PROD#Customer_Part_Number_Specification> ;
+                                                                           rdfs:comment "Contains relevant information including customer and CPN. Several CPNs can be linked to the same SP number.'sold-to'"@en ;
+                                                                           rdfs:label "has a customer part number specification"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#has_fabric_position
+<http://www.w3id.org/ecsel-dr-PROD#has_fabric_position> rdf:type owl:ObjectProperty ,
+                                                                 owl:InverseFunctionalProperty ;
+                                                        rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Plan_Position> ;
+                                                        rdfs:range <http://www.w3id.org/ecsel-dr-PROD#Fabrication_Position> ;
+                                                        rdfs:label "has fabric position"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#has_finished_product
+<http://www.w3id.org/ecsel-dr-PROD#has_finished_product> rdf:type owl:ObjectProperty ,
+                                                                  owl:InverseFunctionalProperty ;
+                                                         rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Sales_Product> ;
+                                                         rdfs:range <http://www.w3id.org/ecsel-dr-PROD#Finished_Product> ;
+                                                         rdfs:comment "SalesProduct hasFinishedProduct FinishedProduct"@en ;
+                                                         rdfs:label "has finished product"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#has_required_for_plan
+<http://www.w3id.org/ecsel-dr-PROD#has_required_for_plan> rdf:type owl:ObjectProperty ,
+                                                                   owl:InverseFunctionalProperty ;
+                                                          rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Plan_Position> ;
+                                                          rdfs:range <http://www.w3id.org/ecsel-dr-PROD#Required_For_Plan> ;
+                                                          rdfs:label "has required for plan  (RfP)"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#has_sales_product
+<http://www.w3id.org/ecsel-dr-PROD#has_sales_product> rdf:type owl:ObjectProperty ,
+                                                               owl:InverseFunctionalProperty ;
+                                                      rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Required_For_Plan> ;
+                                                      rdfs:range <http://www.w3id.org/ecsel-dr-PROD#Sales_Product> ;
+                                                      rdfs:comment "FinishedProduct hasSalesProduct SalesProduct"@en ;
+                                                      rdfs:label "has sales product"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#is_similar_to
+<http://www.w3id.org/ecsel-dr-PROD#is_similar_to> rdf:type owl:ObjectProperty ;
+                                                  rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Product> ;
+                                                  rdfs:range <http://www.w3id.org/ecsel-dr-PROD#Product> ;
+                                                  rdfs:comment "Other variant after a product change, in case the customer wants to order old and new variant over a longer period. Has a separate SalesProductNumber"@en ;
+                                                  rdfs:label "is similar to"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#shipped_to
+<http://www.w3id.org/ecsel-dr-PROD#shipped_to> rdf:type owl:ObjectProperty ;
+                                               rdfs:domain <http://org.semanticweb.owlapi/error#Error368> ;
+                                               rdfs:label "shipped to"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#substitute_product
+<http://www.w3id.org/ecsel-dr-PROD#substitute_product> rdf:type owl:ObjectProperty ;
+                                                       rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Sales_Product> ;
+                                                       rdfs:range <http://www.w3id.org/ecsel-dr-PROD#Sales_Product> ;
+                                                       rdfs:comment "A Sales Product SP2 that can be used instead of a Sales Product SP1 to promise an order to a customer."@en ,
+                                                                    "Are finishedProductNumbers with different SalesProductNumber that meet the customer’s requirements on form – fit – function."@en ;
+                                                       rdfs:label "substitute product"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.w3id.org/ecsel-dr-PROD#additional_property
+<http://www.w3id.org/ecsel-dr-PROD#additional_property> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Product> ;
+                                                        rdfs:range xsd:string ;
+                                                        rdfs:comment "A property-value pair representing an additional characteristics of the entitity, e.g. a product feature or another characteristic for which there is no matching property in schema.org."@en ;
+                                                        rdfs:label "additional property"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#customer_part_number
+<http://www.w3id.org/ecsel-dr-PROD#customer_part_number> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Customer_Part_Number_Specification> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:comment "Product identifier used by the customer to identify one IFX product"@en ;
+                                                         rdfs:label "customer part number"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#delivery_lead_time
+<http://www.w3id.org/ecsel-dr-PROD#delivery_lead_time> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Finished_Product> ;
+                                                       rdfs:range xsd:integer ;
+                                                       rdfs:comment "The typical delay between the receipt of the order and the goods either leaving the warehouse or being prepared for pickup, in case the delivery method is on site pickup."@en ;
+                                                       rdfs:isDefinedBy "http://schema.org/deliveryLeadTime"@en ;
+                                                       rdfs:label "delivery lead time"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#finished_product_number
+<http://www.w3id.org/ecsel-dr-PROD#finished_product_number> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Finished_Product> ;
+                                                            rdfs:range xsd:string ;
+                                                            rdfs:comment "finishedProductNumber is the unique identifier for a FinishedProduct"@en ;
+                                                            rdfs:label "finished product number"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#halogen_free
+<http://www.w3id.org/ecsel-dr-PROD#halogen_free> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Sales_Product> ;
+                                                 rdfs:range xsd:boolean ;
+                                                 rdfs:comment "Free of halogen is a material classification. These are materials that emit limited smoke and no halogen when exposed to high sources of heat."@en ,
+                                                              "halogen free states if a SalesProduct is halogen free or not."@en ;
+                                                 rdfs:label "halogen free"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#location
+<http://www.w3id.org/ecsel-dr-PROD#location> rdf:type owl:DatatypeProperty ;
+                                             rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Planning_Element> ,
+                                                         <http://www.w3id.org/ecsel-dr-PROD#Product> ;
+                                             rdfs:range xsd:string ;
+                                             rdfs:comment "A Location within Infineon’s internal supply chain is a local area where products are manufactured or stored."@en ;
+                                             rdfs:label "location"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#min_order_quantity
+<http://www.w3id.org/ecsel-dr-PROD#min_order_quantity> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:domain <http://org.semanticweb.owlapi/error#Error367> ;
+                                                       rdfs:range xsd:integer ;
+                                                       rdfs:label "min order quantity"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#orderable_part_number
+<http://www.w3id.org/ecsel-dr-PROD#orderable_part_number> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Sales_Product> ;
+                                                          rdfs:range xsd:string ;
+                                                          rdfs:comment "Customers may use the OPN as their customer part number for ordering at Infineon. It is based on product attributes"@en ;
+                                                          rdfs:label "orderable part number"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#product_family
+<http://www.w3id.org/ecsel-dr-PROD#product_family> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Sales_Product> ;
+                                                   rdfs:range rdfs:Literal ;
+                                                   rdfs:label "product family"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#sales_product_name
+<http://www.w3id.org/ecsel-dr-PROD#sales_product_name> rdf:type owl:DatatypeProperty ;
+                                                       rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Sales_Product> ;
+                                                       rdfs:range xsd:string ;
+                                                       rdfs:comment """In verbal communication it is usually identified by Sales Product Name (SPN) which might not be sufficient for unique identification.
+It reflects a product from customer view without differentiation of manufacturing route or storage location ( form – fit – function )."""@en ;
+                                                       rdfs:label "sales product name"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#sales_product_number
+<http://www.w3id.org/ecsel-dr-PROD#sales_product_number> rdf:type owl:DatatypeProperty ;
+                                                         rdfs:subPropertyOf <http://www.w3id.org/ecsel-dr-PROD#sales_product_name> ;
+                                                         rdfs:domain <http://www.w3id.org/ecsel-dr-PROD#Sales_Product> ;
+                                                         rdfs:range xsd:string ;
+                                                         rdfs:comment "A salesProductNumber is a unique identifier of a Sales Product"@en ;
+                                                         rdfs:label "sales product number"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://org.semanticweb.owlapi/error#Error367
+<http://org.semanticweb.owlapi/error#Error367> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error368
+<http://org.semanticweb.owlapi/error#Error368> rdf:type owl:Class .
+
+
+###  http://www.w3id.org/ecsel-dr#Organization_Lobe
+<http://www.w3id.org/ecsel-dr#Organization_Lobe> rdf:type owl:Class .
+
+
+###  http://www.w3id.org/ecsel-dr#Product_Lobe
+<http://www.w3id.org/ecsel-dr#Product_Lobe> rdf:type owl:Class .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#Customer_Part_Number_Specification
+<http://www.w3id.org/ecsel-dr-PROD#Customer_Part_Number_Specification> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+                                                                       rdfs:comment "A Customer Part Number (CPN) is the product identifier used by the customer to identify one IFX product."@en ,
+                                                                                    "In general, one CPN is equal to one Sales Product Name. Each customer will use a different CPN."@en ;
+                                                                       rdfs:label "Customer Part Number Specification"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#Die_Representative
+<http://www.w3id.org/ecsel-dr-PROD#Die_Representative> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PROD#Planning_Element> ;
+                                                       rdfs:comment "Die-Representative (DREP): supply element; where the package is not yet decided"@en ;
+                                                       rdfs:label "Die-Representative"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#Fabrication_Position
+<http://www.w3id.org/ecsel-dr-PROD#Fabrication_Position> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PROD#Planning_Element> ;
+                                                         rdfs:comment "Fabrication Position (FPOS): product & manufacturing route; where it is produced - coarse"@en ;
+                                                         rdfs:label "Fabrication Position"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#Finished_Product
+<http://www.w3id.org/ecsel-dr-PROD#Finished_Product> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PROD#Product> ;
+                                                     owl:disjointWith <http://www.w3id.org/ecsel-dr-PROD#Sales_Product> ,
+                                                                      <http://www.w3id.org/ecsel-dr-PROD#Stock_Keeping_Unit> ;
+                                                     rdfs:comment "End result of the manufacturing process"@en ;
+                                                     rdfs:label "Finished Product"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#Non_Shippable_Product
+<http://www.w3id.org/ecsel-dr-PROD#Non_Shippable_Product> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PROD#Product> ;
+                                                          rdfs:comment "Non-Shippable Products are those finished Product Numbers that are not allowed to be shipped to a given customer"@en ;
+                                                          rdfs:label "Non-Shippable Product"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#Not_Released_Product
+<http://www.w3id.org/ecsel-dr-PROD#Not_Released_Product> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PROD#Product> ;
+                                                         rdfs:comment "Not Released Products are those finished Product Numbers that are not allowed to be shipped to any customer"@en ;
+                                                         rdfs:label "Not Released Product"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#Organization
+<http://www.w3id.org/ecsel-dr-PROD#Organization> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+                                                 rdfs:comment "An organization is en entity comprising multiple people. In SSC, this class mainly refers to businesses."@en ;
+                                                 rdfs:isDefinedBy "http://www.example.org/semanticSupplyChain/" ;
+                                                 rdfs:label "Organization"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#Plan_Position
+<http://www.w3id.org/ecsel-dr-PROD#Plan_Position> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PROD#Planning_Element> ;
+                                                  rdfs:comment "Plan Position (PPOS): capacity and demand planning element"@en ;
+                                                  rdfs:label "Plan Position"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#Planning_Element
+<http://www.w3id.org/ecsel-dr-PROD#Planning_Element> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+                                                     owl:disjointWith <http://www.w3id.org/ecsel-dr-PROD#Product> ;
+                                                     rdfs:label "Planning Element"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#Product
+<http://www.w3id.org/ecsel-dr-PROD#Product> rdf:type owl:Class ;
+                                            owl:equivalentClass <http://www.w3id.org/ecsel-dr-PWR#Product> ,
+                                                                <http://www.w3id.org/ecsel-dr-SO#Product> ;
+                                            rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+                                            rdfs:comment "A product is a work product that is delivered to the customer."@en ,
+                                                         "Any tangible output or service that is a result of a process and that is intended for delivery to a customer or end user."@en ;
+                                            rdfs:label "Product"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#Required_For_Plan
+<http://www.w3id.org/ecsel-dr-PROD#Required_For_Plan> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PROD#Planning_Element> ;
+                                                      rdfs:comment "Required for Plan (RfP): planning product being not capacity relevant"@en ;
+                                                      rdfs:label "Required for Plan"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#Sales_Product
+<http://www.w3id.org/ecsel-dr-PROD#Sales_Product> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PROD#Product> ;
+                                                  owl:disjointWith <http://www.w3id.org/ecsel-dr-PROD#Stock_Keeping_Unit> ;
+                                                  rdfs:comment "Sellable product; It can be identified by salesProductNumber"@en ;
+                                                  rdfs:label "Sales Product"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PROD#Stock_Keeping_Unit
+<http://www.w3id.org/ecsel-dr-PROD#Stock_Keeping_Unit> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PROD#Product> ;
+                                                       rdfs:comment "Stock Keeping Unit (SKU) - finished product by storage location; called DC BauNumber"@en ;
+                                                       rdfs:label "Stock Keeping Unit"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Product
+<http://www.w3id.org/ecsel-dr-PWR#Product> rdf:type owl:Class .
+
+
+###  http://www.w3id.org/ecsel-dr-SO#Product
+<http://www.w3id.org/ecsel-dr-SO#Product> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

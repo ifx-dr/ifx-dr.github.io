@@ -1,0 +1,251 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#is_applied_to
+<http://www.w3id.org/ecsel-dr-Incoterms#is_applied_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-Incoterms#is_applied_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-Incoterms#Exchange_Rate_Specification> .
+<http://www.w3id.org/ecsel-dr-Incoterms#is_applied_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-Incoterms#Transfer_Action> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#makes
+<http://www.w3id.org/ecsel-dr-Incoterms#makes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-Incoterms#makes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-Incoterms#Seller> .
+<http://www.w3id.org/ecsel-dr-Incoterms#makes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-Incoterms#Offer> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#provides
+<http://www.w3id.org/ecsel-dr-Incoterms#provides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-Incoterms#provides> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-Incoterms#Seller> .
+<http://www.w3id.org/ecsel-dr-Incoterms#provides> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-Incoterms#Product> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#purchases
+<http://www.w3id.org/ecsel-dr-Incoterms#purchases> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-Incoterms#purchases> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-Incoterms#Customer> .
+<http://www.w3id.org/ecsel-dr-Incoterms#purchases> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-Incoterms#Product> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#receives
+<http://www.w3id.org/ecsel-dr-Incoterms#receives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-Incoterms#receives> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-Incoterms#Customer> .
+<http://www.w3id.org/ecsel-dr-Incoterms#receives> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-Incoterms#Offer> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#refers_to
+<http://www.w3id.org/ecsel-dr-Incoterms#refers_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-Incoterms#refers_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-Incoterms#Transfer_Action> .
+<http://www.w3id.org/ecsel-dr-Incoterms#refers_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-Incoterms#Product> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#uses
+<http://www.w3id.org/ecsel-dr-Incoterms#uses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-Incoterms#uses> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-Incoterms#Transfer_Action> .
+<http://www.w3id.org/ecsel-dr-Incoterms#uses> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#uses_from_location
+<http://www.w3id.org/ecsel-dr-Incoterms#uses_from_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-Incoterms#uses_from_location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-Incoterms#Seller> .
+<http://www.w3id.org/ecsel-dr-Incoterms#uses_from_location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-Incoterms#From_Location> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#uses_to_location
+<http://www.w3id.org/ecsel-dr-Incoterms#uses_to_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-Incoterms#uses_to_location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-Incoterms#Customer> .
+<http://www.w3id.org/ecsel-dr-Incoterms#uses_to_location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-Incoterms#To_Location> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe
+<http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Standard
+<http://www.w3id.org/ecsel-dr-AT#Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid
+<http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group> .
+<http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid> <http://www.w3.org/2000/01/rdf-schema#comment> "An Incoterms rule of the group C." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#Customer
+<http://www.w3id.org/ecsel-dr-Incoterms#Customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Customer> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OM#Customer> .
+<http://www.w3id.org/ecsel-dr-OM#Customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Customer> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-SCP#Customer> .
+<http://www.w3id.org/ecsel-dr-SCP#Customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Customer> <http://www.w3.org/2000/01/rdf-schema#comment> "Customer is a person or organization that places order or pay the invoice." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#D_Arrival
+<http://www.w3id.org/ecsel-dr-Incoterms#D_Arrival> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#D_Arrival> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group> .
+<http://www.w3id.org/ecsel-dr-Incoterms#D_Arrival> <http://www.w3.org/2000/01/rdf-schema#comment> "An Incoterms rule of the group D." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#E_Departure
+<http://www.w3id.org/ecsel-dr-Incoterms#E_Departure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#E_Departure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group> .
+<http://www.w3id.org/ecsel-dr-Incoterms#E_Departure> <http://www.w3.org/2000/01/rdf-schema#comment> "An Incoterms rule of the group E." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#Exchange_Rate_Specification
+<http://www.w3id.org/ecsel-dr-Incoterms#Exchange_Rate_Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Exchange_Rate_Specification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Exchange_Rate_Specification> <http://www.w3.org/2000/01/rdf-schema#comment> "Exchange_Rate_Specification is structured value representing exchange rate." .
+<http://www.w3id.org/ecsel-dr-Incoterms#Exchange_Rate_Specification> <http://www.w3.org/2000/01/rdf-schema#label> "Exchange Rate Specification"@en .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#F_Main_Carriage_Unpaid
+<http://www.w3id.org/ecsel-dr-Incoterms#F_Main_Carriage_Unpaid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#F_Main_Carriage_Unpaid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group> .
+<http://www.w3id.org/ecsel-dr-Incoterms#F_Main_Carriage_Unpaid> <http://www.w3.org/2000/01/rdf-schema#comment> "An Incoterms rule of the group F." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#From_Location
+<http://www.w3id.org/ecsel-dr-Incoterms#From_Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#From_Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-Incoterms#Location> .
+<http://www.w3id.org/ecsel-dr-Incoterms#From_Location> <http://www.w3.org/2000/01/rdf-schema#comment> "A sub property of location. The original location of the object or the agent before the action." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020
+<http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standard> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020> <http://www.w3.org/2000/01/rdf-schema#comment> "The Incoterms or International Commercial Terms are a series of pre-defined commercial terms published by the International Chamber of Commerce (ICC) relating to international commercial law. They are widely used in international commercial transactions or procurement processes and their use is encouraged by trade councils, courts and international lawyers.\r\n\r\nIncoterms 2020 is the ninth set of international contract terms published by the International Chamber of Commerce, with the first set having been published in 1936. Incoterms 2020 defines 11 rules, the same number as defined by Incoterms 2010." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Application_Mode
+<http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Application_Mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Application_Mode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Application_Mode> <http://www.w3.org/2000/01/rdf-schema#comment> "Incoterms_Application_Mode is about the method of delivery the incoterm uses. An incoterm could use only ship or non-ship transport." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause
+<http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> <http://www.w3.org/2000/01/rdf-schema#comment> "An Incoterms_Clause is a term of the 11 pre-defined incoterms." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group
+<http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group> <http://www.w3.org/2000/01/rdf-schema#comment> "An Incoterms_Group is one of the four categories that describes incoterms rules." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#Location
+<http://www.w3id.org/ecsel-dr-Incoterms#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Location> <http://www.w3.org/2000/01/rdf-schema#comment> "Location is where an action takes place." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#Offer
+<http://www.w3id.org/ecsel-dr-Incoterms#Offer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Offer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Offer> <http://www.w3.org/2000/01/rdf-schema#comment> "An offer is to transfer some rights to an item or to provide a service." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause
+<http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Application_Mode> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause> <http://www.w3.org/2000/01/rdf-schema#comment> "Incoterms that solely involve transportation by water." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#Product
+<http://www.w3id.org/ecsel-dr-Incoterms#Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Product> <http://www.w3.org/2000/01/rdf-schema#comment> "Product is the object, upon which the tranfer action is carried out." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#Seller
+<http://www.w3id.org/ecsel-dr-Incoterms#Seller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Seller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Seller> <http://www.w3.org/2000/01/rdf-schema#comment> "Seller is an entity which offers the services/goods." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#To_Location
+<http://www.w3id.org/ecsel-dr-Incoterms#To_Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#To_Location> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-Incoterms#Location> .
+<http://www.w3id.org/ecsel-dr-Incoterms#To_Location> <http://www.w3.org/2000/01/rdf-schema#comment> "A sub property of location. The final location of the object or the agent after the action." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#Transfer_Action
+<http://www.w3id.org/ecsel-dr-Incoterms#Transfer_Action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Transfer_Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Transfer_Action> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of transferring/moving objects from one place to another." .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause
+<http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Application_Mode> .
+<http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause> <http://www.w3.org/2000/01/rdf-schema#comment> "Incoterms that may be used regardless of the method of transport." .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Customer
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Customer
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#CFR_Cost_And_Freight
+<http://www.w3id.org/ecsel-dr-Incoterms#CFR_Cost_And_Freight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3id.org/ecsel-dr-Incoterms#CFR_Cost_And_Freight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid> .
+<http://www.w3id.org/ecsel-dr-Incoterms#CFR_Cost_And_Freight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> .
+<http://www.w3id.org/ecsel-dr-Incoterms#CFR_Cost_And_Freight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#CIF_Cost_Insurance_And_Freight
+<http://www.w3id.org/ecsel-dr-Incoterms#CIF_Cost_Insurance_And_Freight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3id.org/ecsel-dr-Incoterms#CIF_Cost_Insurance_And_Freight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid> .
+<http://www.w3id.org/ecsel-dr-Incoterms#CIF_Cost_Insurance_And_Freight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> .
+<http://www.w3id.org/ecsel-dr-Incoterms#CIF_Cost_Insurance_And_Freight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#CIP_Carriage_And_Insurance_Paid_To
+<http://www.w3id.org/ecsel-dr-Incoterms#CIP_Carriage_And_Insurance_Paid_To> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3id.org/ecsel-dr-Incoterms#CIP_Carriage_And_Insurance_Paid_To> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid> .
+<http://www.w3id.org/ecsel-dr-Incoterms#CIP_Carriage_And_Insurance_Paid_To> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> .
+<http://www.w3id.org/ecsel-dr-Incoterms#CIP_Carriage_And_Insurance_Paid_To> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#CPT_Carriage_Paid_To
+<http://www.w3id.org/ecsel-dr-Incoterms#CPT_Carriage_Paid_To> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3id.org/ecsel-dr-Incoterms#CPT_Carriage_Paid_To> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid> .
+<http://www.w3id.org/ecsel-dr-Incoterms#CPT_Carriage_Paid_To> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> .
+<http://www.w3id.org/ecsel-dr-Incoterms#CPT_Carriage_Paid_To> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#DAP_Delivered_At_Place
+<http://www.w3id.org/ecsel-dr-Incoterms#DAP_Delivered_At_Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3id.org/ecsel-dr-Incoterms#DAP_Delivered_At_Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#D_Arrival> .
+<http://www.w3id.org/ecsel-dr-Incoterms#DAP_Delivered_At_Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> .
+<http://www.w3id.org/ecsel-dr-Incoterms#DAP_Delivered_At_Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#DDP_Delivered_Duty_Paid
+<http://www.w3id.org/ecsel-dr-Incoterms#DDP_Delivered_Duty_Paid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3id.org/ecsel-dr-Incoterms#DDP_Delivered_Duty_Paid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#D_Arrival> .
+<http://www.w3id.org/ecsel-dr-Incoterms#DDP_Delivered_Duty_Paid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> .
+<http://www.w3id.org/ecsel-dr-Incoterms#DDP_Delivered_Duty_Paid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#DPU_Delivered_At_Place_Unloaded
+<http://www.w3id.org/ecsel-dr-Incoterms#DPU_Delivered_At_Place_Unloaded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3id.org/ecsel-dr-Incoterms#DPU_Delivered_At_Place_Unloaded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#D_Arrival> .
+<http://www.w3id.org/ecsel-dr-Incoterms#DPU_Delivered_At_Place_Unloaded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> .
+<http://www.w3id.org/ecsel-dr-Incoterms#DPU_Delivered_At_Place_Unloaded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#EXW_Ex_Works
+<http://www.w3id.org/ecsel-dr-Incoterms#EXW_Ex_Works> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3id.org/ecsel-dr-Incoterms#EXW_Ex_Works> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#E_Departure> .
+<http://www.w3id.org/ecsel-dr-Incoterms#EXW_Ex_Works> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> .
+<http://www.w3id.org/ecsel-dr-Incoterms#EXW_Ex_Works> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#FAS_Free_Alongside_Ship
+<http://www.w3id.org/ecsel-dr-Incoterms#FAS_Free_Alongside_Ship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3id.org/ecsel-dr-Incoterms#FAS_Free_Alongside_Ship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#F_Main_Carriage_Unpaid> .
+<http://www.w3id.org/ecsel-dr-Incoterms#FAS_Free_Alongside_Ship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> .
+<http://www.w3id.org/ecsel-dr-Incoterms#FAS_Free_Alongside_Ship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#FCA_Free_Carrier
+<http://www.w3id.org/ecsel-dr-Incoterms#FCA_Free_Carrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3id.org/ecsel-dr-Incoterms#FCA_Free_Carrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#F_Main_Carriage_Unpaid> .
+<http://www.w3id.org/ecsel-dr-Incoterms#FCA_Free_Carrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> .
+<http://www.w3id.org/ecsel-dr-Incoterms#FCA_Free_Carrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause> .
+# 
+# http://www.w3id.org/ecsel-dr-Incoterms#FOB_Free_On_Board
+<http://www.w3id.org/ecsel-dr-Incoterms#FOB_Free_On_Board> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.w3id.org/ecsel-dr-Incoterms#FOB_Free_On_Board> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#F_Main_Carriage_Unpaid> .
+<http://www.w3id.org/ecsel-dr-Incoterms#FOB_Free_On_Board> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause> .
+<http://www.w3id.org/ecsel-dr-Incoterms#FOB_Free_On_Board> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

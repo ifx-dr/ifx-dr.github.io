@@ -1,0 +1,1004 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2002/07/owl#maxCardinality
+owl:maxCardinality rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.w3id.org/ecsel-dr-PWR#acting_as
+<http://www.w3id.org/ecsel-dr-PWR#acting_as> rdf:type owl:ObjectProperty ;
+                                             rdfs:label "acting as"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#amplication_switching_device_has_property
+<http://www.w3id.org/ecsel-dr-PWR#amplication_switching_device_has_property> rdf:type owl:ObjectProperty ;
+                                                                             rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> ;
+                                                                             rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                                             rdfs:label "has property"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#amplified_by
+<http://www.w3id.org/ecsel-dr-PWR#amplified_by> rdf:type owl:ObjectProperty ;
+                                                rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#The_Method_Of_The_Device_Function> ;
+                                                rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> ;
+                                                rdfs:comment "The Act of The Switching"@en ;
+                                                rdfs:label "amplified by"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#are
+<http://www.w3id.org/ecsel-dr-PWR#are> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Semiconductors> ;
+                                       rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Product> ;
+                                       rdfs:label "are"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#enhancement_mode_is_working_as
+<http://www.w3id.org/ecsel-dr-PWR#enhancement_mode_is_working_as> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:subPropertyOf <http://www.w3id.org/ecsel-dr-PWR#acting_as> ;
+                                                                  rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Enhancement_Mode> ;
+                                                                  rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Switcher> ;
+                                                                  rdfs:label "enhancement mode is working as"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_an_output_current
+<http://www.w3id.org/ecsel-dr-PWR#has_an_output_current> rdf:type owl:ObjectProperty ;
+                                                         rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#SiC_MOSFET> ;
+                                                         rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Drain_Current> ;
+                                                         rdfs:label "has an output current"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_application_area
+<http://www.w3id.org/ecsel-dr-PWR#has_application_area> rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Product> ;
+                                                        rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Application_Area> ;
+                                                        rdfs:label "has application area"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_configuration
+<http://www.w3id.org/ecsel-dr-PWR#has_configuration> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> ;
+                                                     rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Device_Configuration> ;
+                                                     rdfs:label "has a configuration"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_control_method
+<http://www.w3id.org/ecsel-dr-PWR#has_control_method> rdf:type owl:ObjectProperty ;
+                                                      rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> ;
+                                                      rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Control_Method> ;
+                                                      rdfs:label "has a control method"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_deployment
+<http://www.w3id.org/ecsel-dr-PWR#has_deployment> rdf:type owl:ObjectProperty ;
+                                                  rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#System> ;
+                                                  rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Deployment> ;
+                                                  rdfs:label "has deployment"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_dimension
+<http://www.w3id.org/ecsel-dr-PWR#has_dimension> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Product> ;
+                                                 rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Geometric_Dimension> ;
+                                                 rdfs:label "has dimension"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_element
+<http://www.w3id.org/ecsel-dr-PWR#has_element> rdf:type owl:ObjectProperty ;
+                                               rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> ;
+                                               rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Device_Element> ;
+                                               rdfs:label "has element"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_industry_sector
+<http://www.w3id.org/ecsel-dr-PWR#has_industry_sector> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf <http://www.w3id.org/ecsel-dr-PWR#are> ;
+                                                       rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> ;
+                                                       rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Semiconductors> ;
+                                                       rdfs:label "has industry sector"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_information_object
+<http://www.w3id.org/ecsel-dr-PWR#has_information_object> rdf:type owl:ObjectProperty ;
+                                                          rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> ;
+                                                          rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Semiconductor_Product_Data_Sheet> ;
+                                                          rdfs:comment "States that the devices have ona or more information objects, which can be a sensor data sheet for the sensors." ;
+                                                          rdfs:isDefinedBy "IFX" ;
+                                                          rdfs:label "has information object"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_operation_modes
+<http://www.w3id.org/ecsel-dr-PWR#has_operation_modes> rdf:type owl:ObjectProperty ;
+                                                       rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> ;
+                                                       rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Enhancement_Mode> ;
+                                                       rdfs:label "has an operation modes"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_operation_region
+<http://www.w3id.org/ecsel-dr-PWR#has_operation_region> rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> ;
+                                                        rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Region_Of_Operation> ;
+                                                        rdfs:label "has an operation region"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_power_loss_calculated_by_multiplication_of
+<http://www.w3id.org/ecsel-dr-PWR#has_power_loss_calculated_by_multiplication_of> rdf:type owl:ObjectProperty ;
+                                                                                  rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#On_State_Power_Loss> ;
+                                                                                  rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Drain_Current> ,
+                                                                                             <http://www.w3id.org/ecsel-dr-PWR#On_State_Resistance> ;
+                                                                                  rdfs:label "has a power loss calculated by multiplicatoin of"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_process_input
+<http://www.w3id.org/ecsel-dr-PWR#has_process_input> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Process> ;
+                                                     rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Process_Input> ;
+                                                     owl:maxCardinality "has process input"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_process_output
+<http://www.w3id.org/ecsel-dr-PWR#has_process_output> rdf:type owl:ObjectProperty ;
+                                                      rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Process> ;
+                                                      rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Process_Output> ;
+                                                      rdfs:label "has process output"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_properties_of
+<http://www.w3id.org/ecsel-dr-PWR#has_properties_of> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Semiconductor_Product_Data_Sheet> ;
+                                                     rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> ;
+                                                     rdfs:label "has propeties of"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_voltage
+<http://www.w3id.org/ecsel-dr-PWR#has_voltage> rdf:type owl:ObjectProperty ;
+                                               rdfs:label "has a voltage"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_voltage_drain_voltage
+<http://www.w3id.org/ecsel-dr-PWR#has_voltage_drain_voltage> rdf:type owl:ObjectProperty ;
+                                                             rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#The_Application_Voltage> ;
+                                                             rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Drain_Voltage> ;
+                                                             rdfs:label "is a volatge of"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#has_voltage_equals_or_greater_than
+<http://www.w3id.org/ecsel-dr-PWR#has_voltage_equals_or_greater_than> rdf:type owl:ObjectProperty ;
+                                                                      rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#On_State_Voltage> ;
+                                                                      rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Threshold_Voltage> ;
+                                                                      rdfs:label "has a voltage equals or greater than"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#in_deployment
+<http://www.w3id.org/ecsel-dr-PWR#in_deployment> rdf:type owl:ObjectProperty ;
+                                                 rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Platform> ;
+                                                 rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Deployment> ;
+                                                 rdfs:comment "Relation between a Platform and a Deployment, recording that the object was used as a platform for a system/ a device (sensor/power converter) for a particular deployment: as in this PhysicalObject is acting as a Platform inDeployment Deployment." ;
+                                                 rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#inDeployment" ;
+                                                 rdfs:label "in deployment"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#is_a_product_of
+<http://www.w3id.org/ecsel-dr-PWR#is_a_product_of> rdf:type owl:ObjectProperty ;
+                                                   rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#SiC_MOSFET> ;
+                                                   rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Product> ;
+                                                   rdfs:label "is a product of"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#is_produced_by
+<http://www.w3id.org/ecsel-dr-PWR#is_produced_by> rdf:type owl:ObjectProperty ;
+                                                  rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#The_Device_Output> ;
+                                                  rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> ;
+                                                  rdfs:label "is produced by" .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#is_working_as
+<http://www.w3id.org/ecsel-dr-PWR#is_working_as> rdf:type owl:ObjectProperty ;
+                                                 rdfs:subPropertyOf <http://www.w3id.org/ecsel-dr-PWR#acting_as> ;
+                                                 rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Depletion_Mode> ;
+                                                 rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Variable_Resistance> ;
+                                                 rdfs:label "The Depletion Mode Is Working As" ;
+                                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "is working as"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#makes_switching
+<http://www.w3id.org/ecsel-dr-PWR#makes_switching> rdf:type owl:ObjectProperty ;
+                                                   rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> ;
+                                                   rdfs:range <http://www.w3id.org/ecsel-dr-PWR#The_Method_Of_The_Device_Function> ;
+                                                   rdfs:comment "the method name, e.g.:observation and amlification"@en ;
+                                                   rdfs:label "makes switching"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#the_temperature_must_not_exceed
+<http://www.w3id.org/ecsel-dr-PWR#the_temperature_must_not_exceed> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:domain <http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> ;
+                                                                   rdfs:range <http://www.w3id.org/ecsel-dr-PWR#Maximum_Junction_Temperature> ;
+                                                                   rdfs:label "the temperature must not exceed"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://org.semanticweb.owlapi/error#Error369
+<http://org.semanticweb.owlapi/error#Error369> rdf:type owl:Class .
+
+
+###  http://org.semanticweb.owlapi/error#Error370
+<http://org.semanticweb.owlapi/error#Error370> rdf:type owl:Class ;
+                                               owl:equivalentClass <http://www.w3id.org/ecsel-dr-PWR#On_State_Voltage> .
+
+
+###  http://org.semanticweb.owlapi/error#Error371
+<http://org.semanticweb.owlapi/error#Error371> rdf:type owl:Class ;
+                                               owl:equivalentClass <http://www.w3id.org/ecsel-dr-PWR#On_State_Voltage> .
+
+
+###  http://www.w3id.org/ecsel-dr#Application
+<http://www.w3id.org/ecsel-dr#Application> rdf:type owl:Class .
+
+
+###  http://www.w3id.org/ecsel-dr#Power_Lobe
+<http://www.w3id.org/ecsel-dr#Power_Lobe> rdf:type owl:Class .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Abstract
+<http://www.w3id.org/ecsel-dr-PWR#Abstract> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Entity> ;
+                                            rdfs:comment """Any Entity that cannot be located in space-time.
+
+Example: mathematical entities: formal semantics elements, regions within dimensional spaces, etc.\"""" ;
+                                            rdfs:isDefinedBy "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Abstract\"" ;
+                                            rdfs:label "Abstract"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device
+<http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device> rdf:type owl:Class ;
+                                                                owl:equivalentClass <http://www.w3id.org/ecsel-dr-PWR#SiC_MOSFET> ;
+                                                                rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Device> ;
+                                                                rdfs:comment "Should defined as its function for example: Sensor, Power Converter, Microcontroller. Then must be defined what the device it is, for exmaple: A sensing device is a device that implments sensing." ;
+                                                                rdfs:label "Amplication Switching Device"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Application_Area
+<http://www.w3id.org/ecsel-dr-PWR#Application_Area> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Application> ;
+                                                    rdfs:comment "The different application ares that the product can be used." ;
+                                                    rdfs:label "Application Area"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Blocking_Capability
+<http://www.w3id.org/ecsel-dr-PWR#Blocking_Capability> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                       rdfs:label "Blocking Capability"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Blocking_Voltage
+<http://www.w3id.org/ecsel-dr-PWR#Blocking_Voltage> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                    rdfs:label "Blocking Voltage (Break Down)"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Communication_Services
+<http://www.w3id.org/ecsel-dr-PWR#Communication_Services> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector> ;
+                                                          rdfs:comment "Industrial sector of Communication Services"@en ;
+                                                          rdfs:label "Communication Services"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Constant_Resistance
+<http://www.w3id.org/ecsel-dr-PWR#Constant_Resistance> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Resistance> ;
+                                                       rdfs:comment "The constant degree to which a substance prevents the flow of an electric current through it"@en ;
+                                                       rdfs:label "Constant Resistance"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Consumer_Discretionary
+<http://www.w3id.org/ecsel-dr-PWR#Consumer_Discretionary> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector> ;
+                                                          rdfs:comment "Industrial sector of Consumer Discretionary"@en ;
+                                                          rdfs:label "Consumer Discretionary"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Consumer_Staples
+<http://www.w3id.org/ecsel-dr-PWR#Consumer_Staples> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector> ;
+                                                    rdfs:comment "Industrial sector of Consumer staples"@en ;
+                                                    rdfs:label "Consumer Staples"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Control_Method
+<http://www.w3id.org/ecsel-dr-PWR#Control_Method> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                                  rdfs:comment "It is the method used to turn on, turn off , increaseing, and decreasing output current/voltage." ;
+                                                  rdfs:isDefinedBy "Power Electronic book" ;
+                                                  rdfs:label "Control Method" .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Depletion_Mode
+<http://www.w3id.org/ecsel-dr-PWR#Depletion_Mode> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Operation_Mode> ;
+                                                  rdfs:label "Depletion Mode"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Deployment
+<http://www.w3id.org/ecsel-dr-PWR#Deployment> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Deployment_Related_Process> ;
+                                              rdfs:comment "The ongoing Process of Entities (for the purposes of this ontology, mainly the Infineon device) deployed for a particular purpose. For example, a particular Sensor deployed on a Platform, or a whole network of Sensors deployed for an observation campaign. The deployment may have sub processes, such as installation, maintenance, addition, and decomissioning and removal." ;
+                                              rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Deployment" ;
+                                              rdfs:label "Deplyment"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Deployment_Related_Process
+<http://www.w3id.org/ecsel-dr-PWR#Deployment_Related_Process> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Process> ;
+                                                              rdfs:comment "Place to group all the various Processes related to Deployment. For example, as well as Deployment, installation, maintenance, deployment of the further devices and the like would all be classified under DeploymentRelatedProcess." ;
+                                                              rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#DeploymentRelatedProcess" ;
+                                                              rdfs:label "Deployment-Related Process"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Device
+<http://www.w3id.org/ecsel-dr-PWR#Device> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#System> ;
+                                          rdfs:comment "A device is a physical piece of technology - a system in a box. Devices may of course be build of smaller devices and software components.\"" ;
+                                          rdfs:isDefinedBy "rdfs:isDefinedBy \"World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Device\"" ;
+                                          rdfs:label "Device"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Device_Configuration
+<http://www.w3id.org/ecsel-dr-PWR#Device_Configuration> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                                        rdfs:comment "Device configuration can refer to either hardware or software , or the combination of both."@en ;
+                                                        rdfs:label "Device Configuration"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Device_Element
+<http://www.w3id.org/ecsel-dr-PWR#Device_Element> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                                  rdfs:comment "Elements that are part of a device"@en ;
+                                                  rdfs:label "Device Element"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Document
+<http://www.w3id.org/ecsel-dr-PWR#Document> rdf:type owl:Class ;
+                                            owl:equivalentClass <http://xmlns.com/foaf/0.1/Document> ;
+                                            rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Information_Object> ;
+                                            rdfs:comment "The document class presents those things which are, broadly conceived, \"documents''. It should contain the manuals and the data sheet of the devices."@en ;
+                                            rdfs:isDefinedBy "Friend of a friend ontology http://xmlns.com/foaf/spec/#term_Document\"" ;
+                                            rdfs:label "Document"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Drain
+<http://www.w3id.org/ecsel-dr-PWR#Drain> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Device_Element> ;
+                                         rdfs:label "Drain"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Drain_Current
+<http://www.w3id.org/ecsel-dr-PWR#Drain_Current> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                 rdfs:label "Drain Current"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Drain_Source_Voltage
+<http://www.w3id.org/ecsel-dr-PWR#Drain_Source_Voltage> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                        rdfs:label "Drain-Source Voltage"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Drain_Voltage
+<http://www.w3id.org/ecsel-dr-PWR#Drain_Voltage> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Process_Input> ,
+                                                                 <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                 rdfs:label "Drain Voltage (Gate-Source Voltage)"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Electric_Vehicle_Charging
+<http://www.w3id.org/ecsel-dr-PWR#Electric_Vehicle_Charging> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Application_Area> ;
+                                                             rdfs:comment "Area that focuses on electric vehicles charging solutions"@en ;
+                                                             rdfs:label "Electric Vehicle Charging"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Electronic_Components
+<http://www.w3id.org/ecsel-dr-PWR#Electronic_Components> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Electronic_Equipment_Instruments_And_Components> ;
+                                                         rdfs:comment "Industrial sector of Electronic Components"@en ;
+                                                         rdfs:label "Electronic Components"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Electronic_Equipment_Instruments_And_Components
+<http://www.w3id.org/ecsel-dr-PWR#Electronic_Equipment_Instruments_And_Components> rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Technology_Hardware_And_Equipment> ;
+                                                                                   rdfs:comment "Industrial sector of Electronic Equipment, Instruments and Components"@en ;
+                                                                                   rdfs:label "Electronic Equipment Instruments And Components"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Energy
+<http://www.w3id.org/ecsel-dr-PWR#Energy> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector> ;
+                                          rdfs:comment "Industrial sector of Energy"@en ;
+                                          rdfs:label "Energy"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Energy_Storage
+<http://www.w3id.org/ecsel-dr-PWR#Energy_Storage> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Application_Area> ;
+                                                  rdfs:comment "Area that focuses on energy storage solutions"@en ;
+                                                  rdfs:label "Energy Storage"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Enhancement_Mode
+<http://www.w3id.org/ecsel-dr-PWR#Enhancement_Mode> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Operation_Mode> ;
+                                                    rdfs:label "Enhancement Mode"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Entity
+<http://www.w3id.org/ecsel-dr-PWR#Entity> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                          rdfs:comment "Anything: real, possible, or imaginary, which some modeller wants to talk about for some purpose." ;
+                                          rdfs:isDefinedBy "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Entity" ;
+                                          rdfs:label "Entity"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Financial
+<http://www.w3id.org/ecsel-dr-PWR#Financial> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector> ;
+                                             rdfs:comment "Financial Sector"@en ;
+                                             rdfs:label "Financial"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Gate
+<http://www.w3id.org/ecsel-dr-PWR#Gate> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Device_Element> ;
+                                        rdfs:label "Gate"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Gate_Driver
+<http://www.w3id.org/ecsel-dr-PWR#Gate_Driver> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                               rdfs:label "Gate Driver"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Geometric_Dimension
+<http://www.w3id.org/ecsel-dr-PWR#Geometric_Dimension> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Information_Object> ;
+                                                       rdfs:comment "\"Describes the Dimensions of any Physical Object (Length, Wisth, Height)\"" ;
+                                                       rdfs:isDefinedBy "DefinedBy \"IFX\"" ;
+                                                       rdfs:label "Geometric Dimension"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Healthcare
+<http://www.w3id.org/ecsel-dr-PWR#Healthcare> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector> ;
+                                              rdfs:comment "Healthcare sector"@en ;
+                                              rdfs:label "Healthcare"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Height
+<http://www.w3id.org/ecsel-dr-PWR#Height> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Geometric_Dimension> ;
+                                          rdfs:comment "The height of an entity"@en ;
+                                          rdfs:label "Height"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector
+<http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                                     rdfs:comment """The collection of all localized groups of enterprises that are producers of industrial commodities, in which each such group together forms the major industrial sector for the region. 'Industrial commodities' includes MechanicalDevices and basic industrial materials. Examples include 'the world industrial sector', the 'industrial sector of China'. The Chinese water pump industry would not be an exemplar of IndustrialEconomicSector but would rather be a sub-industry (see subIndustries) of it. On the other hand, chinese water pump manufacturers would be considered groupMembers of 'the industrial sector of China'.
+
+This classification is done by The Global Industry Classification Standard (GICS) is an industry taxonomy developed in 1999 by MSCI and Standard & Poor's (S&P) for use by the global financial community. The GICS structure consists of 11 sectors, 24 industry groups, 68 industries and 157 sub-industries[1] into which S&P has categorized all major public companies""" ;
+                                                     rdfs:isDefinedBy "http://umbel.org/umbel/rc/" ;
+                                                     rdfs:label "Industrial Sector"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Industrials
+<http://www.w3id.org/ecsel-dr-PWR#Industrials> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector> ;
+                                               rdfs:comment "Industrial sectors"@en ;
+                                               rdfs:label "Industrials"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Information_Entity
+<http://www.w3id.org/ecsel-dr-PWR#Information_Entity> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Entity> ;
+                                                      rdfs:comment "A piece of information, be it concretely realized or not."@en ;
+                                                      rdfs:isDefinedBy "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#InformationEntity\"" ;
+                                                      rdfs:label "Information Entity"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Information_Object
+<http://www.w3id.org/ecsel-dr-PWR#Information_Object> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Information_Entity> ;
+                                                      rdfs:comment "A piece of information, such as a musical composition, a text, a word, a picture, independently from how it is concretely realized."@en ;
+                                                      rdfs:isDefinedBy "\"World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#InformationObject\"" ;
+                                                      rdfs:label "Information Object"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Information_Technology
+<http://www.w3id.org/ecsel-dr-PWR#Information_Technology> rdf:type owl:Class ;
+                                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector> ;
+                                                          rdfs:comment "Industrial sector of Information Technology"@en ;
+                                                          rdfs:label "Information Technology"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Interface
+<http://www.w3id.org/ecsel-dr-PWR#Interface> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Physical_Object> ;
+                                             rdfs:comment "A common boundary or interconnection between systems, equipment, concepts, or human beings" ;
+                                             rdfs:label "Interface"@en ;
+                                             owl:incompatibleWith "IFX" .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Junction_Temperature
+<http://www.w3id.org/ecsel-dr-PWR#Junction_Temperature> rdf:type owl:Class ;
+                                                        rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                        rdfs:comment "The highest operating temperature of the actual semiconductor"@en ;
+                                                        rdfs:label "Junction Temperature"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Leakage_Current
+<http://www.w3id.org/ecsel-dr-PWR#Leakage_Current> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                   rdfs:label "Leakage Current"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Length
+<http://www.w3id.org/ecsel-dr-PWR#Length> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Geometric_Dimension> ;
+                                          rdfs:comment "The length of an entity"@en ;
+                                          rdfs:label "Lenght"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Materials
+<http://www.w3id.org/ecsel-dr-PWR#Materials> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector> ;
+                                             rdfs:comment "Industrial sector of Materials"@en ;
+                                             rdfs:label "Materials"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Maximum_Junction_Temperature
+<http://www.w3id.org/ecsel-dr-PWR#Maximum_Junction_Temperature> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Junction_Temperature> ;
+                                                                rdfs:comment "Is specified in the part's datasheet and is used when calculating the necessary case-to-ambient thermal resistance for a given power dissipation."@en ;
+                                                                rdfs:label "Maximum Junction Temperature"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Microcontroller
+<http://www.w3id.org/ecsel-dr-PWR#Microcontroller> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Semiconductors> ;
+                                                   rdfs:comment "Industrial sector of Microcontrollers"@en ;
+                                                   rdfs:label "Microcontroller"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#N_Channel_Configuration
+<http://www.w3id.org/ecsel-dr-PWR#N_Channel_Configuration> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Device_Configuration> ;
+                                                           owl:disjointWith <http://www.w3id.org/ecsel-dr-PWR#P_Channel_Configuration> ;
+                                                           rdfs:label "N-Channel Configuration"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Negative
+<http://www.w3id.org/ecsel-dr-PWR#Negative> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Voltage> ;
+                                            rdfs:comment "Is the negative difference in electric potential between two points"@en ;
+                                            rdfs:label "Negative (-)"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Object
+<http://www.w3id.org/ecsel-dr-PWR#Object> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Entity> ;
+                                          rdfs:comment "Any physical, social, or mental object, or a substance"@en ;
+                                          rdfs:isDefinedBy "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Object\"" ;
+                                          rdfs:label "Object"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Off_State_Region
+<http://www.w3id.org/ecsel-dr-PWR#Off_State_Region> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Region_Of_Operation> ;
+                                                    rdfs:label "Off-State Region"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#On_State_Power_Loss
+<http://www.w3id.org/ecsel-dr-PWR#On_State_Power_Loss> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                       rdfs:label "On-State Power Loss"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#On_State_Region
+<http://www.w3id.org/ecsel-dr-PWR#On_State_Region> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Region_Of_Operation> ;
+                                                   rdfs:label "On-State Region"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#On_State_Resistance
+<http://www.w3id.org/ecsel-dr-PWR#On_State_Resistance> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                       rdfs:label "On-State Resistance"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#On_State_Voltage
+<http://www.w3id.org/ecsel-dr-PWR#On_State_Voltage> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                    rdfs:label "On-State Voltage"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Operating_Property
+<http://www.w3id.org/ecsel-dr-PWR#Operating_Property> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                      rdfs:label "Operating Property"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Operation_Mode
+<http://www.w3id.org/ecsel-dr-PWR#Operation_Mode> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                                  rdfs:label "Operation Mode"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#P_Channel_Configuration
+<http://www.w3id.org/ecsel-dr-PWR#P_Channel_Configuration> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Device_Configuration> ;
+                                                           rdfs:label "P-Channel Configuration"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Package
+<http://www.w3id.org/ecsel-dr-PWR#Package> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Physical_Object> ;
+                                           rdfs:comment "A package is the housing for a chip (or several chips) and provides electrical contacts. It is an interconnect in between chip-pads and the interface to the PCB board. A package is characterized by its outline (drawing) and its materials." ;
+                                           rdfs:isDefinedBy "IFX" ;
+                                           rdfs:label "Package"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Physical_Object
+<http://www.w3id.org/ecsel-dr-PWR#Physical_Object> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Object> ;
+                                                   rdfs:comment "Any physical object"@en ;
+                                                   rdfs:label "Physical Object"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Platform
+<http://www.w3id.org/ecsel-dr-PWR#Platform> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Physical_Object> ;
+                                            rdfs:comment """An Entity to which other Entities can be attached - particularly semiconductor products and other platforms.
+
+Example: A post might act as the platform, a body might act as a platform for an attached device.""" ;
+                                            rdfs:isDefinedBy "rdfs:isDefinedBy \"World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Platform\"" ;
+                                            rdfs:label "Platform"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Positive
+<http://www.w3id.org/ecsel-dr-PWR#Positive> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Voltage> ;
+                                            rdfs:comment "Is the positive difference in electric potential between two points"@en ;
+                                            rdfs:label "Positive (+)"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Power_Converter
+<http://www.w3id.org/ecsel-dr-PWR#Power_Converter> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Semiconductors> ;
+                                                   rdfs:comment "Industrial sector of Power Converters"@en ;
+                                                   rdfs:label "Power Converter"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Price
+<http://www.w3id.org/ecsel-dr-PWR#Price> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Information_Object> ;
+                                         rdfs:comment "The element of an entity"@en ;
+                                         rdfs:label "Price"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Process
+<http://www.w3id.org/ecsel-dr-PWR#Process> rdf:type owl:Class ;
+                                           owl:equivalentClass <http://www.w3id.org/ecsel-dr-SO#Process> ;
+                                           rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                           rdfs:comment "A process has an output and possibly inputs, and for a compositive process, describes the temporal and dataflow dependencies and relationships amongst its parts." ;
+                                           rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Process" ;
+                                           rdfs:label "Process"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Process_Input
+<http://www.w3id.org/ecsel-dr-PWR#Process_Input> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                                 rdfs:comment "Any information that is provided a Procedure for its use." ;
+                                                 rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#ProcessInput" ;
+                                                 rdfs:label "Process Input"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Process_Output
+<http://www.w3id.org/ecsel-dr-PWR#Process_Output> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                                  rdfs:comment "Any information that is reported from a Procedure." ;
+                                                  rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#ProcessOutput" ;
+                                                  rdfs:label "Process Output"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Product
+<http://www.w3id.org/ecsel-dr-PWR#Product> rdf:type owl:Class ;
+                                           owl:equivalentClass <http://www.w3id.org/ecsel-dr-SO#Product> ;
+                                           rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                           rdfs:comment """The superclass of all classes describing products or services types, either by nature or purpose. Examples for such subclasses are \"TV set\", \"vacuum cleaner\", etc. An instance of this class can be either an actual product or service (gr:Individual), a placeholder instance for unknown instances of a mass-produced commodity (gr:SomeItems), or a model / prototype specification (gr:ProductOrServiceModel). When in doubt, use gr:SomeItems. Examples: 
+a) MyCellphone123, i.e. my personal, tangible cell phone (gr:Individual)
+b) Siemens1234, i.e. the Siemens cell phone make and model 1234 (gr:ProductOrServiceModel)
+c) dummyCellPhone123 as a placeholder for actual instances of a certain kind of cell phones (gr:SomeItems)""" ;
+                                           rdfs:isDefinedBy "The Web Vocabulary for E-Commerce Good Relations http://www.heppnetz.de/ontologies/goodrelations/v1.html#ProductOrService" ;
+                                           rdfs:label "Product"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Property
+<http://www.w3id.org/ecsel-dr-PWR#Property> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Quality> ;
+                                            rdfs:comment "Any attribute of an entity"@en ;
+                                            rdfs:label "Property"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Quality
+<http://www.w3id.org/ecsel-dr-PWR#Quality> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Entity> ;
+                                           rdfs:comment "Any aspect of an Entity (but not a part of it), which cannot exist without that Entity. For example, the way the surface of a specific PhysicalObject looks like is a Quality, while the encoding of that Quality into e.g. a PhysicalAttribute should be modeled as a Region. From the design viewpoint, the Quality-Region distinction is useful only when individual aspects of an Entity are considered in a domain of discourse. For example, in an automotive context, it would be irrelevant to consider the aspects of car windows for a specific car, unless the factory wants to check a specific window against design parameters (anomaly detection). On the other hand, in an antiques context, the individual aspects for a specific piece of furniture are a major focus of attention, and may constitute the actual added value, because the design parameters for old furniture are often not fixed, and may not be viewed as 'anomalies'." ;
+                                           rdfs:isDefinedBy "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Quality" ;
+                                           rdfs:label "Quality"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Real_Estate
+<http://www.w3id.org/ecsel-dr-PWR#Real_Estate> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector> ;
+                                               rdfs:comment "Real Estate sector"@en ;
+                                               rdfs:label "Real Estate"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Region_Of_Operation
+<http://www.w3id.org/ecsel-dr-PWR#Region_Of_Operation> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Operating_Property> ;
+                                                       rdfs:label "Region Of Operation"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Resistance
+<http://www.w3id.org/ecsel-dr-PWR#Resistance> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                              rdfs:comment "The degree to which a substance prevents the flow of an electric current through it"@en ;
+                                              rdfs:label "Resistance"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Saturation_Region
+<http://www.w3id.org/ecsel-dr-PWR#Saturation_Region> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#On_State_Region> ;
+                                                     owl:disjointWith <http://www.w3id.org/ecsel-dr-PWR#Triode/Constant_Resistance_Region> ;
+                                                     rdfs:label "Saturation Region" .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Semiconductor_Product_Data_Sheet
+<http://www.w3id.org/ecsel-dr-PWR#Semiconductor_Product_Data_Sheet> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Document> ;
+                                                                    rdfs:comment "Data sheet of a semiconductor product (its name), SiC MOSFET Data Sheet"@en ;
+                                                                    rdfs:label "Semiconductor Product Data Sheet"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Semiconductors
+<http://www.w3id.org/ecsel-dr-PWR#Semiconductors> rdf:type owl:Class ;
+                                                  rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Semiconductors_And_Semiconductor_Equipment> ;
+                                                  rdfs:comment "Industrial sector of Semiconductors"@en ;
+                                                  rdfs:label "Semiconductors"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Semiconductors_And_Semiconductor_Equipment
+<http://www.w3id.org/ecsel-dr-PWR#Semiconductors_And_Semiconductor_Equipment> rdf:type owl:Class ;
+                                                                              rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Information_Technology> ;
+                                                                              rdfs:comment "Industrial sector of Semiconductors and Semiconductor Equipment"@en ;
+                                                                              rdfs:label "Semiconductors And Semiconductor Equipment"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Sensors
+<http://www.w3id.org/ecsel-dr-PWR#Sensors> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Semiconductors> ;
+                                           rdfs:comment "Industrial sector of Sensors"@en ;
+                                           rdfs:label "Sensors"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#SiC_MOSFET
+<http://www.w3id.org/ecsel-dr-PWR#SiC_MOSFET> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                              rdfs:comment "Silicon Carbide Metal Oxide Semiconductor Field Effect Transistor (SiC MOSFET): It is a transistor: It is used for switching or amplifying the electronics signals or electric power." ;
+                                              rdfs:label "SiC MOSFET"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Situation
+<http://www.w3id.org/ecsel-dr-PWR#Situation> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Social_Object> ;
+                                             rdfs:comment "A view, consistent with ('satisfying') a Description, on a set of entities. It can also be seen as a 'relational context' created by an observer on the basis of a 'frame' (i.e. a Description). For example, a PlanExecution is a context including some actions executed by agents according to certain parameters and expected tasks to be achieved from a Plan; a DiagnosedSituation is a context of observed entities that is interpreted on the basis of a Diagnosis, etc. Situation is also able to represent reified n-ary relations, where isSettingFor is the top-level relation for all binary projections of the n-ary relation. If used in a transformation pattern for n-ary relations, the designer should take care of creating only one subclass of Situation for each n-ary relation, otherwise the 'identification constraint' (Calvanese et al., IJCAI 2001) could be violated." ;
+                                             rdfs:isDefinedBy "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Situation" ;
+                                             rdfs:label "Situation"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Social_Object
+<http://www.w3id.org/ecsel-dr-PWR#Social_Object> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Object> ;
+                                                 rdfs:comment """Act of carrying out an (Observation) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to an ObservableProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that proeprty was associated with.
+
+Example: The activity of estimating the intensity of an earthquake using the Mercalli intensity scale is an Observation as is measuring the moment magnitude, i.e., the energy released by said earthquake.""" ;
+                                                 rdfs:isDefinedBy "World Wide Web COnsortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Observation" ;
+                                                 rdfs:label "Social Object"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Software_And_Services
+<http://www.w3id.org/ecsel-dr-PWR#Software_And_Services> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Information_Technology> ;
+                                                         rdfs:comment "Industrial sector of Software and Services"@en ;
+                                                         rdfs:label "Software And Services"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Solar_Energy
+<http://www.w3id.org/ecsel-dr-PWR#Solar_Energy> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Application_Area> ;
+                                                rdfs:comment "Area that focuses on solar energy solutions"@en ;
+                                                rdfs:label "Solar Energy"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Source
+<http://www.w3id.org/ecsel-dr-PWR#Source> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Device_Element> ;
+                                          rdfs:label "Source"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Switcher
+<http://www.w3id.org/ecsel-dr-PWR#Switcher> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                            rdfs:comment "Switchers rapidly switch a series device on and off."@en ;
+                                            rdfs:label "Switcher" .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Switching_Frequency
+<http://www.w3id.org/ecsel-dr-PWR#Switching_Frequency> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                       rdfs:label "Switching Frequency"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Switching_Value
+<http://www.w3id.org/ecsel-dr-PWR#Switching_Value> rdf:type owl:Class ;
+                                                   rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Abstract> ;
+                                                   rdfs:comment """The value of the result of the method (procedures) of the device function. The result is an information object that encodes some value for a feature. For example:
+a) If we consider the observation is the method used for sensing of the sensors, then the observation has a result which is the output of the sensor,
+b) If we consider the amplification is the method used for boosting of the power converter, then the amplification has a result which is the output of the  power converter,""" ;
+                                                   rdfs:label "Switching Value"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#System
+<http://www.w3id.org/ecsel-dr-PWR#System> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Physical_Object> ;
+                                          rdfs:comment "System is a unit of abstraction for pieces of infrastructure that implements procedure. A System may have components, its subsystems, which are other systems.\"" ;
+                                          rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#System\"" ;
+                                          rdfs:label "System"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Technology_Hardware_And_Equipment
+<http://www.w3id.org/ecsel-dr-PWR#Technology_Hardware_And_Equipment> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Information_Technology> ;
+                                                                     rdfs:comment "Industrial sector of Technology Hardware and Equipment"@en ;
+                                                                     rdfs:label "Technology Hardware And Equipment"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#The_Application_Voltage
+<http://www.w3id.org/ecsel-dr-PWR#The_Application_Voltage> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Process_Input> ;
+                                                           rdfs:label "The Application Voltage"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#The_Device_Output
+<http://www.w3id.org/ecsel-dr-PWR#The_Device_Output> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Information_Object> ;
+                                                     rdfs:comment "SiC MOSFET Output, the device output is a piece of information (value), the value itself being represented by an The device function value."@en ;
+                                                     rdfs:label "The Device Output"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#The_Method_Of_The_Device_Function
+<http://www.w3id.org/ecsel-dr-PWR#The_Method_Of_The_Device_Function> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Situation> ;
+                                                                     rdfs:comment """The function of the devices has a method ( Procedure to estimate or calculate a value), for example:
+The Senor its function is the sensing, the sensing method is the observation
+The Boost converter ( a type of the power converter) its function is boosting, the boosting method is the amplification.  
+
+Act of carrying out an (the method) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to an the methodProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that proeprty was associated with.
+
+Example: The activity of estimating the intensity of an earthquake using the Mercalli intensity scale is an Observation as is measuring the moment magnitude, i.e., the energy released by said earthquake.\"""" ;
+                                                                     rdfs:label "The Method Of The Device Function (Switching)"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#The_Process_Name_Of_The_Device_Function
+<http://www.w3id.org/ecsel-dr-PWR#The_Process_Name_Of_The_Device_Function> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Process> ;
+                                                                           rdfs:comment """It is a process that results in the estimation, or calculation, of the value of a device output. 
+Usually it derived from the name of the device for example:
+Sensor process: sensing: Sensing is a process that results in the estimation, or calculation, of the value of a phenomenon.
+
+Boost Converter process: boosting: is a process that results in the estimation, or calculation, of the value of a amplified voltage.""" ;
+                                                                           rdfs:isDefinedBy "Only the defintion of the Sensor process: sensing (Sensing is a process that results in the estimation, or calculation, of the value of a phenomenon.) is defined by W3C SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Sensing" ;
+                                                                           rdfs:label "The Process Used In The Device Function"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Threshold_Voltage
+<http://www.w3id.org/ecsel-dr-PWR#Threshold_Voltage> rdf:type owl:Class ;
+                                                     rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Property> ;
+                                                     rdfs:label "Threshold Voltage"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Utilities
+<http://www.w3id.org/ecsel-dr-PWR#Utilities> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector> ;
+                                             rdfs:comment "Utilities sector"@en ;
+                                             rdfs:label "Utilities"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Variable_Resistance
+<http://www.w3id.org/ecsel-dr-PWR#Variable_Resistance> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Resistance> ;
+                                                       rdfs:comment "The variable degree to which a substance prevents the flow of an electric current through it"@en ;
+                                                       rdfs:label "Variable Resistance"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Voltage
+<http://www.w3id.org/ecsel-dr-PWR#Voltage> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+                                           rdfs:comment "Is the difference in electric potential between two points"@en ;
+                                           rdfs:label "Voltage"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Voltage_Controlled
+<http://www.w3id.org/ecsel-dr-PWR#Voltage_Controlled> rdf:type owl:Class ;
+                                                      rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Control_Method> ;
+                                                      rdfs:comment "by applying the voltage between Gate and Sourcet o turn on, turn off the MOSFET, and  increaseing, decreasing  the MOSFET output current." ;
+                                                      rdfs:isDefinedBy "rdfs:isDefinedBy" ;
+                                                      rdfs:label "Voltage Controlled" .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Weight
+<http://www.w3id.org/ecsel-dr-PWR#Weight> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Information_Object> ;
+                                          rdfs:comment "The element of an entity"@en ;
+                                          rdfs:label "Weight"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Width
+<http://www.w3id.org/ecsel-dr-PWR#Width> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://www.w3id.org/ecsel-dr-PWR#Geometric_Dimension> ;
+                                         rdfs:comment "The width of an entity"@en ;
+                                         rdfs:label "Width"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-PWR#Triode/Constant_Resistance_Region
+<http://www.w3id.org/ecsel-dr-PWR#Triode/Constant_Resistance_Region> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <http://org.semanticweb.owlapi/error#Error369> ,
+                                                                                     <http://www.w3id.org/ecsel-dr-PWR#On_State_Region> ;
+                                                                     rdfs:label "Triode/Constant Resistance Region"@en .
+
+
+###  http://www.w3id.org/ecsel-dr-SO#Process
+<http://www.w3id.org/ecsel-dr-SO#Process> rdf:type owl:Class .
+
+
+###  http://www.w3id.org/ecsel-dr-SO#Product
+<http://www.w3id.org/ecsel-dr-SO#Product> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Document
+<http://xmlns.com/foaf/0.1/Document> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

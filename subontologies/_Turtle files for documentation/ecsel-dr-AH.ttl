@@ -1,0 +1,908 @@
+@prefix : <http://www.w3id.org/ecsel-dr-AH#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+:AH_Application_Servcice_IDD a owl:Class ;
+    rdfs:label "AH Application Servcice IDD"@en ;
+    rdfs:subClassOf :Interface_Design_Description_IDD .
+
+:AH_Application_Service a owl:Class ;
+    rdfs:label "AH Application Service"@en ;
+    rdfs:comment "Application services – they are application specific and are implemented by application systems along with functionalities (to match requirements of an application)"@en ;
+    rdfs:subClassOf :AH_Service .
+
+:AH_Application_Service_SD a owl:Class ;
+    rdfs:label "AH Application Service SD"@en ;
+    rdfs:subClassOf :Service_Description_SD .
+
+:AH_Application_System a owl:Class ;
+    rdfs:label "Arrowhead Application Component"@en,
+        "Arrowhead Application System"@en ;
+    rdfs:subClassOf :AH_System ;
+    owl:disjointWith :AH_Core_System .
+
+:AH_Application_System_Sy_SD a owl:Class ;
+    rdfs:label "AH Application System Sy SD"@en ;
+    rdfs:subClassOf :System_Description_Sy_SD .
+
+:AH_Application_System_Sy_SDD a owl:Class ;
+    rdfs:label "AH Application System Sy SDD"@en ;
+    rdfs:subClassOf :System_Design_Description_Sy_SDD .
+
+:AH_Authorization_Control_Service_IDD a owl:Class ;
+    rdfs:label "AH Authorization Control Service IDD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_Service_IDD .
+
+:AH_Authorization_Control_Service_SD a owl:Class ;
+    rdfs:label "AH Authorization Control Service SD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_Service_SD .
+
+:AH_Authorization_System_Sy_SD a owl:Class ;
+    rdfs:label "AH Authorization System Sy SD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_System_Sy_SD .
+
+:AH_Authorization_System_Sy_SDD a owl:Class ;
+    rdfs:label "AH Authorization System Sy SDD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_System_Sy_SDD .
+
+:AH_Authorization_System_WADL a owl:Class ;
+    rdfs:label "AH Authorization System WADL"@en ;
+    rdfs:subClassOf :System_Web_Application_Description_WADL .
+
+:AH_Automation_Supporting_Service a owl:Class ;
+    rdfs:label "AH Automation Supporting Service"@en ;
+    rdfs:subClassOf :AH_Core_Service .
+
+:AH_Automation_Supporting_System a owl:Class ;
+    rdfs:label "AH Automation Supporting System"@en ;
+    rdfs:subClassOf :AH_Core_System ;
+    owl:disjointWith :AH_Mandatory_Core_System .
+
+:AH_Device_Discovery_Service_IDD a owl:Class ;
+    rdfs:label "AH Device Discovery Service IDD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_Service_IDD .
+
+:AH_Device_Discovery_Service_SD a owl:Class ;
+    rdfs:label "AH Device Discovery Service SD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_Service_SD .
+
+:AH_Device_Registry_System_Sy_SD a owl:Class ;
+    rdfs:label "AH Device Registry System Sy SD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_System_Sy_SD .
+
+:AH_Device_Registry_System_Sy_SDD a owl:Class ;
+    rdfs:label "AH Device Registry System Sy SDD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_System_Sy_SDD .
+
+:AH_Gatekeeper_System_Sy_SD a owl:Class ;
+    rdfs:label "AH Gatekeeper System Sy SD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_System_Sy_SD .
+
+:AH_Gatekeeper_System_Sy_SDD a owl:Class ;
+    rdfs:label "AH Gatekeeper System Sy SDD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_System_Sy_SDD .
+
+:AH_Gateway_System_Sy_SD a owl:Class ;
+    rdfs:label "AH Gateway System Sy SD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_System_Sy_SD .
+
+:AH_Gateway_System_Sy_SDD a owl:Class ;
+    rdfs:label "AH Gateway System Sy SDD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_System_Sy_SDD .
+
+:AH_Global_Service_Discovery_Service_IDD a owl:Class ;
+    rdfs:label "AH Global Service Discovery Service IDD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_Service_IDD .
+
+:AH_Global_Service_Discovery_Service_SD a owl:Class ;
+    rdfs:label "AH Global Service Discovery Service SD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_Service_SD .
+
+:AH_Historian_Sy_SD a owl:Class ;
+    rdfs:label "AH Historian Sy SD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_System_Sy_SD .
+
+:AH_Historian_Sy_SDD a owl:Class ;
+    rdfs:label "AH Historian Sy SDD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_System_Sy_SDD .
+
+:AH_Inter_Cloud_Negotiations_Service_IDD a owl:Class ;
+    rdfs:label "AH Inter Cloud Negotiations Service IDD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_Service_IDD .
+
+:AH_Inter_Cloud_Negotiations_Service_SD a owl:Class ;
+    rdfs:label "AH Inter Cloud Negotiations Service SD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_Service_SD .
+
+:AH_Local_Cloud a owl:Class ;
+    rdfs:label "AH Local Cloud"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+
+:AH_Mandatory_Core_Service a owl:Class ;
+    rdfs:label "AH Mandatory Core Service"@en ;
+    rdfs:subClassOf :AH_Core_Service .
+
+:AH_Orchestration_Service_IDD a owl:Class ;
+    rdfs:label "AH Orchestration Service IDD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_Service_IDD .
+
+:AH_Orchestration_Service_SD a owl:Class ;
+    rdfs:label "AH Orchestration Service SD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_Service_SD .
+
+:AH_Orchestration_System_Sy_SD a owl:Class ;
+    rdfs:label "AH Orchestration System Sy SD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_System_Sy_SD .
+
+:AH_Orchestration_System_Sy_SDD a owl:Class ;
+    rdfs:label "AH Orchestration System Sy SDD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_System_Sy_SDD .
+
+:AH_Orchestrator_WADL a owl:Class ;
+    rdfs:label "AH Orchestrator WADL"@en ;
+    rdfs:subClassOf :System_Web_Application_Description_WADL .
+
+:AH_QoS_Manager_Sy_SD a owl:Class ;
+    rdfs:label "AH QoS Manager Sy SD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_System_Sy_SD .
+
+:AH_QoS_Manager_Sy_SDD a owl:Class ;
+    rdfs:label "AH QoS Manager Sy SDD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_System_Sy_SDD .
+
+:AH_Service_Discovery_Service_IDD a owl:Class ;
+    rdfs:label "AH Service Discovery Service IDD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_Service_IDD .
+
+:AH_Service_Discovery_Service_SD a owl:Class ;
+    rdfs:label "AH Service Discovery Service SD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_Service_SD .
+
+:AH_Service_Registry_System_Sy_SD a owl:Class ;
+    rdfs:label "AH Service Registry System Sy SD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_System_Sy_SD .
+
+:AH_Service_Registry_System_Sy_SDD a owl:Class ;
+    rdfs:label "AH Service Registry System Sy SDD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_System_Sy_SDD .
+
+:AH_Service_Registry_WADL a owl:Class ;
+    rdfs:label "AH Service Registry WADL"@en ;
+    rdfs:subClassOf :System_Web_Application_Description_WADL .
+
+:AH_Session_Establish_Service_IDD a owl:Class ;
+    rdfs:label "AH Session Establish Service IDD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_Service_IDD .
+
+:AH_Session_Establish_Service_SD a owl:Class ;
+    rdfs:label "AH Session Establish Service SD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_Service_SD .
+
+:AH_Session_Management_Service_IDD a owl:Class ;
+    rdfs:label "AH Session Management Service IDD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_Service_IDD .
+
+:AH_Session_Management_Service_SD a owl:Class ;
+    rdfs:label "AH Session Management Service SD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_Service_SD .
+
+:AH_Store_Management_Service_IDD a owl:Class ;
+    rdfs:label "AH Store Management Service IDD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_Service_IDD .
+
+:AH_Store_Management_Service_SD a owl:Class ;
+    rdfs:label "AH Store Management Service SD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_Service_SD .
+
+:AH_System_Discovery_Service_IDD a owl:Class ;
+    rdfs:label "AH System Discovery Service IDD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_Service_IDD .
+
+:AH_System_Discovery_Service_SD a owl:Class ;
+    rdfs:label "AH System Discovery Service SD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_Service_SD .
+
+:AH_System_Registry_System_Sy_SD a owl:Class ;
+    rdfs:label "AH System Registry System Sy SD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_System_Sy_SD .
+
+:AH_System_Registry_System_Sy_SDD a owl:Class ;
+    rdfs:label "AH System Registry System Sy SDD"@en ;
+    rdfs:subClassOf :AH_Automation_Supporting_System_Sy_SDD .
+
+:AH_Token_Generation_Servcie_SD a owl:Class ;
+    rdfs:label "AH Token Generation Servcie SD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_Service_SD .
+
+:AH_Token_Generation_Service_IDD a owl:Class ;
+    rdfs:label "AH Token Generation Service IDD"@en ;
+    rdfs:subClassOf :AH_Mandatory_Core_Service_IDD .
+
+:Arrowhead a owl:Class ;
+    rdfs:label "Arrowhead"@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture .
+
+:Data_Link_Media_Access_Technology a owl:Class ;
+    rdfs:label "Data Link Media Access Technology"@en ;
+    rdfs:comment "corresponds to OSI layer 1 and 2 technologies, like Ethernet, WLAN (802.11), WPAN (802.15.4), EtherCAT, ProfiNet, ..." ;
+    rdfs:subClassOf :Communication_Technology .
+
+:Data_Model a owl:Class ;
+    rdfs:label "Data Model"@en ;
+    rdfs:comment "A data model is an abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+
+:End_To_End_Communication_Technology a owl:Class ;
+    rdfs:label "End-to-End Communication Technology"@en ;
+    rdfs:comment "The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network."@en ;
+    rdfs:subClassOf :Communication_Technology .
+
+:Gateway a owl:Class ;
+    rdfs:label "Gateway"@en ;
+    rdfs:comment "A gateway is a piece of networking hardware used in telecommunications for telecommunications networks that allows data to flow from one discrete network to another."@en ;
+    rdfs:subClassOf :Device ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-AT#Gateway> .
+
+:IP_address a owl:DatatypeProperty ;
+    rdfs:label "IP address"@en ;
+    rdfs:domain :Device ;
+    rdfs:range xsd:string .
+
+:Illumination_Device a owl:Class ;
+    rdfs:label "Illumination Device"@en ;
+    rdfs:comment "A category of devices which's purpose is to illuminate"@en ;
+    rdfs:subClassOf :Constrained_Device .
+
+:Industrial_Personal_Computer a owl:Class ;
+    rdfs:label "Industrial Personal Computer"@en ;
+    rdfs:comment "Industrial PCs are primarily used for process control and/or data acquisition. In some cases, an industrial PC is simply used as a front-end to another control computer in a distributed processing environment."@en ;
+    rdfs:subClassOf :Device .
+
+:Local_Network a owl:Class ;
+    rdfs:label "Local Network"@en ;
+    rdfs:comment "A local area network is a computer network that interconnects computers within a limited area"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+
+:MAC_address a owl:DatatypeProperty ;
+    rdfs:label "MAC address"@en ;
+    rdfs:domain :Device ;
+    rdfs:range xsd:string .
+
+:Personal_Computer a owl:Class ;
+    rdfs:label "Personal Computer"@en ;
+    rdfs:comment "A personal computer (PC) is a multi-purpose computer whose size, capabilities, and price make it feasible for individual use."@en ;
+    rdfs:subClassOf :Device .
+
+:Point_To_Point_Communication_Technology a owl:Class ;
+    rdfs:label "Point-to-Point Communication Technology" ;
+    rdfs:comment "corresponds to OSI layer 3, e.g. IPv4 or IPv6" ;
+    rdfs:subClassOf :Communication_Technology .
+
+:Programmable_Logic_Controller a owl:Class ;
+    rdfs:label "SPS"@de,
+        "Programmable Logic Controller"@en ;
+    rdfs:comment "A programmable logic controller (PLC) is an industrial digital computer which has been ruggedized and adapted for the control of manufacturing processes"@en ;
+    rdfs:subClassOf :Device ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller> .
+
+:Raspberry_Pi a owl:Class ;
+    rdfs:label "Raspberry Pi"@en ;
+    rdfs:comment "The Raspberry Pi is a series of small single-board computers developed in the United Kingdom by the Raspberry Pi Foundation to put the power of computing and digital making into the hands of people all over the world."@en ;
+    rdfs:subClassOf :Device .
+
+:Sensor_Device a owl:Class ;
+    rdfs:label "Sensor Device"@en ;
+    rdfs:comment "A category of devices which's purpose is to sense"@en ;
+    rdfs:subClassOf :Constrained_Device ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-AT#Sensor_Device> .
+
+:Smartphone a owl:Class ;
+    rdfs:label "Smartphone"@en ;
+    rdfs:comment "A smartphone is a mobile device that combines cellular and mobile computing functions into one unit."@en ;
+    rdfs:subClassOf :Device .
+
+:Switch_Device a owl:Class ;
+    rdfs:label "Switch Device"@en ;
+    rdfs:comment "A switch is a device in a computer network that connects other devices together."@en ;
+    rdfs:subClassOf :Constrained_Device .
+
+:Tablet_Computer a owl:Class ;
+    rdfs:label "Tablet Computer"@en ;
+    rdfs:comment "A tablet computer, commonly shortened to tablet, is a mobile device, typically with a mobile operating system and touchscreen display"@en ;
+    rdfs:subClassOf :Device .
+
+:contains_device a owl:ObjectProperty ;
+    rdfs:label "contains device"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Device ;
+    rdfs:subPropertyOf :has_architectural_part ;
+    owl:inverseOf :is_device_in .
+
+:defines_compliant_documentation a owl:ObjectProperty ;
+    rdfs:label "defines compliant documentation"@en ;
+    rdfs:domain :Service_Oriented_Architecture ;
+    rdfs:range [ ] .
+
+:defines_compliant_service a owl:ObjectProperty ;
+    rdfs:label "defines compliant service"@en ;
+    rdfs:domain :Service_Oriented_Architecture ;
+    rdfs:range :Service .
+
+:defines_compliant_system a owl:ObjectProperty ;
+    rdfs:label "defines compliant system"@en ;
+    rdfs:domain :Service_Oriented_Architecture ;
+    rdfs:range :Software_System .
+
+:defines_compliant_system_architecture a owl:ObjectProperty ;
+    rdfs:label "defines compliant system architecture"@en ;
+    rdfs:domain :Service_Oriented_Architecture ;
+    rdfs:range :System_Of_Systems .
+
+:device_ID a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "device ID" ;
+    rdfs:comment """Data property of each device in Arrowhead context. Needed by Device Discovery service.\r
+Purpose: provides an unique identifier for a device."""@en ;
+    rdfs:domain :Device ;
+    rdfs:range xsd:string .
+
+:device_name a owl:DatatypeProperty ;
+    rdfs:label "device name" ;
+    rdfs:domain :Device ;
+    rdfs:range xsd:string .
+
+:documents a owl:ObjectProperty ;
+    rdfs:label "documents"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range [ ] ;
+    owl:inverseOf :is_documented_by .
+
+:documents_AH_service_comm_security_mechanism a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "documents AH service comm security mechanism"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Communication_Security_Mechanism ;
+    rdfs:subPropertyOf :documents_AH_service_comm_tech .
+
+:documents_AH_service_data_format a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "documents AH service data format"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Data_Format ;
+    rdfs:subPropertyOf :documents_AH_service_comm_tech .
+
+:documents_AH_service_information_model a owl:ObjectProperty ;
+    rdfs:label "documents AH service information model"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Information_Model ;
+    rdfs:subPropertyOf :documents_service_part .
+
+:documents_AH_service_method a owl:ObjectProperty ;
+    rdfs:label "documents AH service method"@en ;
+    rdfs:comment """Relation between an Interface Design Description document (of a specific service) and a method of this service. \r
+The relation expresses that the IDD document documents the methods of the service the IDD belongs to. \r
+With this, a consistency check would be possible: \r
+IF a service S has a method M AND the IDD IDD_S is part of the service documentation of S (i.e. IDD_S is the IDD of S) \r
+THEN IDD_S should contain a documentation of M."""@en ;
+    rdfs:domain :Interface_Design_Description_IDD ;
+    rdfs:range :Method ;
+    rdfs:subPropertyOf :documents_service_part .
+
+:documents_AH_service_transfer_protocol a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "documents AH service transfer protocol"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Transfer_Protocol ;
+    rdfs:subPropertyOf :documents_AH_service_comm_tech .
+
+:has_SoA_property a owl:ObjectProperty ;
+    rdfs:label "has SoA property"@en ;
+    rdfs:domain :Service_Oriented_Architecture ;
+    rdfs:range :SoA_Property ;
+    owl:inverseOf :is_SoA_property_of .
+
+:has_information_model a owl:ObjectProperty ;
+    rdfs:label "has information model"@en ;
+    rdfs:domain :Service ;
+    rdfs:range :Information_Model ;
+    owl:inverseOf :is_information_model_of .
+
+:has_method a owl:ObjectProperty ;
+    rdfs:label "has method"@en ;
+    rdfs:domain :Service ;
+    rdfs:range :Method ;
+    rdfs:subPropertyOf :has_architectural_part ;
+    owl:inverseOf :is_method_of .
+
+:has_part_documentation_document a owl:ObjectProperty ;
+    rdfs:label "has part"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Documentation_Document ;
+    owl:inverseOf :is_part_of .
+
+:hosts a owl:ObjectProperty ;
+    rdfs:label "hosts"@en ;
+    rdfs:domain :Device ;
+    rdfs:range :Software_System ;
+    rdfs:subPropertyOf :has_architectural_part ;
+    owl:inverseOf :is_hosted_by,
+        :runs_on .
+
+:is_AH_service_documented_by a owl:ObjectProperty ;
+    rdfs:comment "is AH service documented by"@en ;
+    rdfs:domain :AH_Service ;
+    rdfs:range :AH_Service_Documentation ;
+    rdfs:subPropertyOf :is_service_documented_by .
+
+:is_AH_system_documented_by a owl:ObjectProperty ;
+    rdfs:comment "is AH system documented by"@en ;
+    rdfs:domain :AH_System ;
+    rdfs:range :AH_System_Documentation ;
+    rdfs:subPropertyOf :is_system_documented_by .
+
+:is_part_of_SoS_documentation a owl:ObjectProperty ;
+    rdfs:label "is part of SoS documentation"@en ;
+    rdfs:domain :AH_System_Of_Systems_Documentation_Document ;
+    rdfs:range :AH_System_Of_Systems_Documentation ;
+    rdfs:subPropertyOf :is_part_of .
+
+:is_part_of_service_documentation a owl:ObjectProperty ;
+    rdfs:label "is part of service documentation"@en ;
+    rdfs:domain :AH_Service_Documentation_Document ;
+    rdfs:range :AH_Service_Documentation ;
+    rdfs:subPropertyOf :is_part_of .
+
+:is_part_of_system_documentation a owl:ObjectProperty ;
+    rdfs:label "is part of system documentation"@en ;
+    rdfs:domain :AH_System_Documentation_Document ;
+    rdfs:range :AH_System_Documentation ;
+    rdfs:subPropertyOf :is_part_of .
+
+:is_referred_to_by a owl:ObjectProperty ;
+    rdfs:label "is referred to by"@en ;
+    rdfs:domain :Documentation_Document ;
+    rdfs:range :Documentation_Document ;
+    owl:inverseOf :refers_to .
+
+:is_service_producer_of a owl:ObjectProperty ;
+    rdfs:label "is service producer of"@en ;
+    rdfs:domain :Software_System ;
+    rdfs:range :Service ;
+    owl:equivalentProperty :produces ;
+    owl:inverseOf :produced_by .
+
+:refers_to_CP a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "refers to CP"@en ;
+    rdfs:comment """an Interface Design Description (IDD) can refer to a Communication Profile (CP). \r
+No other documentation document can refer to a CP. Hence the domain of this object property is the class of IDDs. \r
+An IDD can refer to a CP, but this is not mandatory. CPs are intended to be used in cases in which several services use the same CP. Then the CP information should be extracted to an CP document and the IDDs of all services that use this CP shall refer to this CP. \r
+If the CP is unique for a specific service, the CP information can directly be included in the IDD.\r
+If the IDD refers to a CP, this must be a unique reference. That is, one IDD must not refer to different CPs. Hence this object property is functional. (If the service could be implemented using different communication technologies, each implementation would need an own IDD!!)."""@en ;
+    rdfs:domain :Interface_Design_Description_IDD ;
+    rdfs:range :Communication_Profile_CP ;
+    rdfs:subPropertyOf :refers_to .
+
+:refers_to_IDD a owl:ObjectProperty ;
+    rdfs:label "refers to IDD"@en ;
+    rdfs:domain :System_Description_Sy_SD ;
+    rdfs:range :Interface_Design_Description_IDD ;
+    rdfs:subPropertyOf :refers_to .
+
+:refers_to_SD a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "refers to SD"@en ;
+    rdfs:domain :Interface_Design_Description_IDD ;
+    rdfs:range :Service_Description_SD ;
+    rdfs:subPropertyOf :refers_to .
+
+:refers_to_SP a owl:ObjectProperty ;
+    rdfs:label "refers to SP"@en ;
+    rdfs:comment """an Interface Design Description (IDD) can refer to a Semantic Profile (SP). \r
+No other documentation document can refer to a SP. Hence the domain of this object property is the class of IDDs. \r
+An IDD can refer to a SP, but this is not mandatory. SPs are intended to be used in cases in which several services use the same SP. Then the SCP information should be extracted to an SP document and the IDDs of all services that use this SP shall refer to this SP. \r
+If the SP is unique for a specific service, the SP information can directly be included in the IDD.\r
+References to SPs are not necessarily unique for an IDD. That is, different methods of the service documented by the IDD can use different Semantic Profiles."""@en ;
+    rdfs:domain :Interface_Design_Description_IDD ;
+    rdfs:range :Semantic_Profile_SP ;
+    rdfs:subPropertyOf :refers_to .
+
+:refers_to_So_SD a owl:ObjectProperty ;
+    rdfs:label "refers to So SD"@en ;
+    rdfs:domain :System_Of_Systems_Design_Description_So_SDD ;
+    rdfs:range :System_Of_Systems_Description_So_SD ;
+    rdfs:subPropertyOf :refers_to .
+
+:refers_to_Sy_SD a owl:ObjectProperty ;
+    rdfs:label "refers to Sy SD"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :System_Description_Sy_SD ;
+    rdfs:subPropertyOf :refers_to .
+
+:refers_to_Sy_SDD a owl:ObjectProperty ;
+    rdfs:label "refers to Sy SDD"@en ;
+    rdfs:domain :System_Of_Systems_Design_Description_So_SDD ;
+    rdfs:range :System_Design_Description_Sy_SDD ;
+    rdfs:subPropertyOf :refers_to .
+
+:uses_communication_security_mechanism a owl:ObjectProperty ;
+    rdfs:label "uses communication security mechanism"@en ;
+    rdfs:domain :Service ;
+    rdfs:range :Communication_Security_Mechanism ;
+    rdfs:subPropertyOf :uses_comm_tech .
+
+:uses_data_format a owl:ObjectProperty ;
+    rdfs:label "uses data format"@en ;
+    rdfs:domain :Service ;
+    rdfs:range :Data_Format ;
+    rdfs:subPropertyOf :uses_comm_tech .
+
+:uses_transfer_protocol a owl:ObjectProperty ;
+    rdfs:label "uses transfer protocol"@en ;
+    rdfs:domain :Service ;
+    rdfs:range :Transfer_Protocol ;
+    rdfs:subPropertyOf :uses_comm_tech .
+
+:AH_Mandatory_Core_System a owl:Class ;
+    rdfs:label "AH Mandatory Core System"@en ;
+    rdfs:subClassOf :AH_Core_System .
+
+:AH_System_Of_Systems_Documentation a owl:Class ;
+    rdfs:label "AH System Of Systems Documentation"@en ;
+    rdfs:subClassOf :System_Documentation .
+
+:Communication_Profile_CP a owl:Class ;
+    rdfs:label "Communication Profile"@en ;
+    rdfs:comment "Communication Profile (CP)" ;
+    rdfs:subClassOf :AH_Service_Documentation_Document .
+
+:Semantic_Profile_SP a owl:Class ;
+    rdfs:label "Semantic Profile"@en ;
+    rdfs:comment "Semantic Profile (SP)" ;
+    rdfs:subClassOf :AH_Service_Documentation_Document .
+
+:System_Of_Systems a owl:Class ;
+    rdfs:label "System Of Systems"@en ;
+    rdfs:comment "System of systems is a collection of task-oriented or dedicated systems that pool their resources and capabilities together to create a new, more complex system which offers more functionality and performance than simply the sum of the constituent systems."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+
+:System_Of_Systems_Description_So_SD a owl:Class ;
+    rdfs:label "System Of Systems Description So SD"@en ;
+    rdfs:subClassOf :AH_System_Of_Systems_Documentation_Document .
+
+:is_SoA_property_of a owl:ObjectProperty ;
+    rdfs:label "is SoA property of"@en ;
+    rdfs:domain :SoA_Property ;
+    rdfs:range :Service_Oriented_Architecture .
+
+:is_device_in a owl:ObjectProperty ;
+    rdfs:label "is device in"@en ;
+    rdfs:domain :Device ;
+    rdfs:range [ ] ;
+    rdfs:subPropertyOf :is_architectural_part_of .
+
+:is_hosted_by a owl:ObjectProperty ;
+    rdfs:label "is hosted by"@en ;
+    rdfs:domain :Software_System ;
+    rdfs:range :Device ;
+    rdfs:subPropertyOf :is_architectural_part_of ;
+    owl:equivalentProperty :runs_on .
+
+:is_information_model_of a owl:ObjectProperty ;
+    rdfs:label "is information model of"@en ;
+    rdfs:domain :Information_Model ;
+    rdfs:range :Service .
+
+:is_method_of a owl:ObjectProperty ;
+    rdfs:label "is method of"@en ;
+    rdfs:domain :Method ;
+    rdfs:range :Service ;
+    rdfs:subPropertyOf :is_architectural_part_of .
+
+:is_service_documented_by a owl:ObjectProperty ;
+    rdfs:comment "is service documented by"@en ;
+    rdfs:domain :Service ;
+    rdfs:range :Service_Documentation ;
+    rdfs:subPropertyOf :is_documented_by .
+
+:is_system_documented_by a owl:ObjectProperty ;
+    rdfs:comment "is system documented by"@en ;
+    rdfs:domain :Software_System ;
+    rdfs:range :System_Documentation ;
+    rdfs:subPropertyOf :is_documented_by .
+
+:produced_by a owl:ObjectProperty ;
+    rdfs:label "produced by"@en ;
+    rdfs:domain :Service ;
+    rdfs:range :Software_System ;
+    rdfs:subPropertyOf :is_architectural_part_of ;
+    owl:inverseOf :produces .
+
+:AH_Core_Service a owl:Class ;
+    rdfs:label "AH Core Service"@en ;
+    rdfs:subClassOf :AH_Service .
+
+:AH_Core_Service_IDD a owl:Class ;
+    rdfs:label "AH Core Service IDD"@en ;
+    rdfs:subClassOf :Interface_Design_Description_IDD .
+
+:AH_Core_Service_SD a owl:Class ;
+    rdfs:label "AH Core Service SD"@en ;
+    rdfs:subClassOf :Service_Description_SD .
+
+:AH_Core_System_Sy_SD a owl:Class ;
+    rdfs:label "AH Core System Sy SD"@en ;
+    rdfs:subClassOf :System_Description_Sy_SD .
+
+:AH_Core_System_Sy_SDD a owl:Class ;
+    rdfs:label "AH Core System Sy SDD"@en ;
+    rdfs:subClassOf :System_Design_Description_Sy_SDD .
+
+:AH_Service_Documentation a owl:Class ;
+    rdfs:label "AH Service Documentation"@en ;
+    rdfs:subClassOf :Service_Documentation .
+
+:AH_System_Documentation a owl:Class ;
+    rdfs:label "AH System Documentation"@en ;
+    rdfs:subClassOf :System_Documentation .
+
+:Communication_Security_Mechanism a owl:Class ;
+    rdfs:label "Communication Security Mechanism"@en ;
+    rdfs:comment "corresponds to a part of OSI layer 5" ;
+    rdfs:subClassOf :Communication_Technology .
+
+:Data_Format a owl:Class ;
+    rdfs:label "Data Format"@en ;
+    rdfs:comment "Data format in information technology may refer to: Data type, constraint placed upon the interpretation of data in a type system."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+
+:Service_Documentation a owl:Class ;
+    rdfs:label "Service Documentation"@en ;
+    rdfs:comment "Service documentation is any communicable material that is used to describe, explain or instruct regarding some attributes of a service"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+
+:SoA_Property a owl:Class ;
+    rdfs:label "SoA Property"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+
+:System_Of_Systems_Design_Description_So_SDD a owl:Class ;
+    rdfs:label "System Of Systems Design Description So SDD"@en ;
+    rdfs:subClassOf :AH_System_Of_Systems_Documentation_Document .
+
+:Transfer_Protocol a owl:Class ;
+    rdfs:label "Transfer Protocol" ;
+    rdfs:comment "corresponds to OSI layers 6 and 7" ;
+    rdfs:subClassOf :Communication_Technology .
+
+:produces a owl:ObjectProperty ;
+    rdfs:label "produces"@en ;
+    rdfs:comment """Relation expressing that a software system produces a service. \r
+Equivalent names for this relation include: offers, provides, isServiceProducerOf \r
+Since Arrowhead uses the pair produce / consume and corresponding service producer / service consumer adressing the relations and the software systems, this ontology uses these names for the relations too. \r
+If it is needed, object properties with other names can be added and stated to be equivalent to these ones."""@en ;
+    rdfs:domain :Software_System ;
+    rdfs:range :Service ;
+    rdfs:subPropertyOf :has_architectural_part .
+
+:runs_on a owl:ObjectProperty ;
+    rdfs:label "runs on"@en ;
+    rdfs:domain :Software_System ;
+    rdfs:range :Device .
+
+:AH_Core_System a owl:Class ;
+    rdfs:label "Arrowhead Core Component"@en,
+        "Arrowhead Core System"@en ;
+    rdfs:comment """Software system, that belongs to the "standard" components offered by Arrowhead framework. \r
+Arrowhead core systems can occur once in each Arrowhead Local Cloud. \r
+Arriwhead Core Systems can be distinguished in Arrowhead Mandatory Core Systems and Automation supporting systems. Mandatory core systems must exist in each Arrowhead Local Cloud, Automation supporting systems can occur in an Arrowhead Local Cloud."""@en ;
+    rdfs:subClassOf :AH_System .
+
+:AH_Mandatory_Core_System_Sy_SD a owl:Class ;
+    rdfs:label "AH Mandatory Core System Sy SD"@en ;
+    rdfs:subClassOf :AH_Core_System_Sy_SD .
+
+:AH_Mandatory_Core_System_Sy_SDD a owl:Class ;
+    rdfs:label "AH Mandatory Core System Sy SDD"@en ;
+    rdfs:subClassOf :AH_Core_System_Sy_SDD .
+
+:AH_Service a owl:Class ;
+    rdfs:label "AH Service"@en ;
+    rdfs:subClassOf :Service .
+
+:AH_System a owl:Class ;
+    rdfs:label "AH System"@en ;
+    rdfs:subClassOf :Software_System .
+
+:AH_System_Of_Systems_Documentation_Document a owl:Class ;
+    rdfs:label "AH System Of Systems Documentation Document"@en ;
+    rdfs:subClassOf :Documentation_Document .
+
+:Constrained_Device a owl:Class ;
+    rdfs:label "Constrained Device"@en ;
+    rdfs:comment """A constrained device is a device in the sense of an service-oriented architecture that is restricted in terms of processing capabilities (speed, complexity of operations), memory and power supply. \r
+The concept constrained device was introduced in the context of the Internet of Things (IoT) and refers for example to sensor devices, location devices, switches etc. which are connected by low-power wireless communication technologies like BLE, ZigBee, Z-Wave etc., have a battery on board that should last for two to three years and which are (very) small in physical size."""@en ;
+    rdfs:subClassOf :Device .
+
+:Information_Model a owl:Class ;
+    rdfs:label "Information Model"@en ;
+    rdfs:comment "An information model in software engineering is a representation of concepts and the relationships, constraints, rules, and operations to specify data semantics for a chosen domain of discourse. Typically it specifies relations between kinds of things, but may also include relations with individual things."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+
+:Method a owl:Class ;
+    rdfs:label "Method"@en ;
+    rdfs:comment "Method of a service: method that is provided by a service within a SoA."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+
+:Service_Description_SD a owl:Class ;
+    rdfs:label "Service Description SD"@en ;
+    rdfs:comment "Service Description (SD)"@en ;
+    rdfs:subClassOf :AH_Service_Documentation_Document .
+
+:System_Design_Description_Sy_SDD a owl:Class ;
+    rdfs:label "System Design Description Sy SDD"@en ;
+    rdfs:subClassOf :AH_System_Documentation_Document .
+
+:System_Documentation a owl:Class ;
+    rdfs:label "System Documentation"@en ;
+    rdfs:comment "System documentation is any communicable material that is used to describe, explain or instruct regarding some attributes of a system"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+
+:System_Web_Application_Description_WADL a owl:Class ;
+    rdfs:label "System Web Application Description WADL"@en ;
+    rdfs:comment """Description of an Arrowhead compliant software system in terms of the Web Application Description Language WADL. \r
+The Web Application Description Language (WADL) is a machine-readable XML description of HTTP-based web services. WADL models the resources provided by a service and the relationships between them. WADL is intended to simplify the reuse of web services that are based on the existing HTTP architecture of the Web. It is platform and language independent and aims to promote reuse of applications beyond the basic use in a web browser.\r
+WADL is the REST equivalent of SOAP's Web Services Description Language (WSDL), which can also be used to describe REST web services. Sources: https://en.wikipedia.org/wiki/Web_Application_Description_Language\r
+Sun Microsystems (31 August 2009). "Web Application Description Language: W3C Member Submission 31 August 2009". World Wide Web Consortium. Retrieved 12 August 2012.\r
+World Wide Web Consortium (14 October 2009). "Team Comment on the "Web Application Description Language" Submission". World Wide Web Consortium. Retrieved 12 August 2012.\r
+Lawrence Mandel (29 May 2008). "Describe REST Web services with WSDL 2.0: A how-to guide". IBM. Retrieved 12 August 2012."""@en ;
+    rdfs:subClassOf :AH_System_Documentation_Document .
+
+:documents_AH_service_comm_tech a owl:ObjectProperty ;
+    rdfs:label "documents AH service comm tech"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range [ ] ;
+    rdfs:subPropertyOf :documents_service_part .
+
+:documents_service_part a owl:ObjectProperty ;
+    rdfs:label "documents service part"@en ;
+    rdfs:domain :Documentation_Document .
+
+:is_documented_by a owl:ObjectProperty ;
+    rdfs:label "is documented by"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range [ ] .
+
+:uses_comm_tech a owl:ObjectProperty ;
+    rdfs:label "uses comm tech"@en ;
+    rdfs:domain :Service ;
+    rdfs:range [ ] .
+
+:AH_System_Documentation_Document a owl:Class ;
+    rdfs:label "AH System Documentation Document"@en ;
+    rdfs:subClassOf :Documentation_Document .
+
+:System_Description_Sy_SD a owl:Class ;
+    rdfs:label "System Description Sy SD"@en ;
+    rdfs:subClassOf :AH_System_Documentation_Document .
+
+:has_architectural_part a owl:ObjectProperty ;
+    rdfs:label "has architectural part"@en ;
+    owl:inverseOf :is_architectural_part_of .
+
+:is_part_of a owl:ObjectProperty ;
+    rdfs:label "is part of"@en ;
+    rdfs:domain :Documentation_Document ;
+    rdfs:range [ ] .
+
+:AH_Mandatory_Core_Service_IDD a owl:Class ;
+    rdfs:label "AH Mandatory Core Service IDD"@en ;
+    rdfs:comment """Class of all Interface Design Descriptions (IDDs) of mandatory Arrowwhead core services.\r
+While the class AH_mandatory_core_service contains the mandatory core services only as instances, this class contains classes of the IDDs of each single mandatory core service as subclasses (not only as instances). Since each AH Local Cloud runs one instance of each mandatory core service, each of these services has to be documented by an AH service documentation, i.e. at least by a SD and a IDD. So the IDD is an individual document for each mandatory core service in each single Local Cloud. Hence, all IDDs of a certain mandatory core service will be individuals of the corresponding IDD class."""@en ;
+    rdfs:subClassOf :AH_Core_Service_IDD .
+
+:AH_Mandatory_Core_Service_SD a owl:Class ;
+    rdfs:label "AH Mandatory Core Service SD"@en ;
+    rdfs:subClassOf :AH_Core_Service_SD .
+
+:AH_Service_Documentation_Document a owl:Class ;
+    rdfs:label "AH Service Documentation Document"@en ;
+    rdfs:comment """Document belonging to the documentation of an Arrowhead Service. \r
+There are four types of documents for Arrowhead service documentations: \r
+- Service Description\r
+- Interface Design Description\r
+- Communication Profile\r
+- Semantic Profile. \r
+The central documents are IDDs. They document the implementation of a certain service based on a certain communication technology (communication, encoding, data format) and a certain information model. \r
+The Service Description contains a more general description of the service, without the link to a specific communication technology or information model. \r
+Communication Profiles and Semantic Profiles are optional documents for a service documentation. They can be seen as modules of an IDD, since they can describe the communication technolopgy and the information model of a service implementation as external documents. If they exist, the IDD refers to them instead of declaring these contents by themselfes. \r
+That is, CP and SP are useful if different service implementations use the same CP and SP - then their IDDs can refer to one and the same CP or SP document."""@de ;
+    rdfs:subClassOf :Documentation_Document .
+
+:Communication_Technology a owl:Class ;
+    rdfs:label "Communication Technology"@en ;
+    rdfs:comment "Communications technology, also known as information technology, refers to all equipment and programs that are used to process and communicate information."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+
+:is_architectural_part_of a owl:ObjectProperty ;
+    rdfs:label "is an architectural part of"@en .
+
+:AH_Automation_Supporting_Service_IDD a owl:Class ;
+    rdfs:label "AH Automation Supporting Service IDD"@en ;
+    rdfs:subClassOf :AH_Core_Service_IDD .
+
+:AH_Automation_Supporting_Service_SD a owl:Class ;
+    rdfs:label "AH Automation Supporting Service SD"@en ;
+    rdfs:subClassOf :AH_Core_Service_SD .
+
+:AH_Automation_Supporting_System_Sy_SD a owl:Class ;
+    rdfs:label "AH Automation Supporting System Sy SD"@en ;
+    rdfs:subClassOf :AH_Core_System_Sy_SD .
+
+:AH_Automation_Supporting_System_Sy_SDD a owl:Class ;
+    rdfs:label "AH Automation Supporting System Sy SDD"@en ;
+    rdfs:subClassOf :AH_Core_System_Sy_SDD .
+
+:Interface_Design_Description_IDD a owl:Class ;
+    rdfs:label "Interface Design Description IDD"@en ;
+    rdfs:comment "Interface Design Description (IDD)"@en ;
+    rdfs:subClassOf :AH_Service_Documentation_Document .
+
+:Service_Oriented_Architecture a owl:Class ;
+    rdfs:label "Service-Oriented Architecture"@en ;
+    rdfs:comment "Service-oriented architecture (SoA) is a style of software design where services are provided to the other components by application components, through a communication protocol over a network."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> .
+
+:refers_to a owl:ObjectProperty ;
+    rdfs:label "refers to"@en ;
+    rdfs:comment """describes the relation between two documentation documents that one document refers to another document.\r
+To our best knowledge, the following relations hold between different types of documentation documents: \r
+- an IDD refers to exactly one SD.\r
+- an SD is referred to by one or more IDD (each stating a way of implementing the service with a specific technolopgy (Source: Arrowhead Framework Definitions V2.4))\r
+- an IDD refers to at most one CP (if it not refers to a CP, then the IDD contains all CP information by itself)\r
+- an IDD refers to n SP, 0 <= n (if it not refers to a SP, then the IDD contains all SP information by itself)\r
+- a SySD refers to one or more IDDs (that is, a system produces one or more services).\r
+- a SySDD refers to one or more SySD's. (Remark HB: I don't understand this. How can one concrete white box description of a system fulfill (support / implement) different black box descriptions of systems? The other way around seems to be possible as between SDs and IDDs). \r
+- an SoSD refers to n SySD's.\r
+- an SoSDD refers to n SoSD's. \r
+- an SoSDD refers to n SySD's. \r
+- an SoSDD refers to n SySDDs."""@en ;
+    rdfs:domain :Documentation_Document ;
+    rdfs:range :Documentation_Document .
+
+:Documentation_Document a owl:Class ;
+    rdfs:label "Documentation Document"@en ;
+    rdfs:comment "A document that documents something"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+
+:Software_System a owl:Class ;
+    rdfs:label "Software System"@en ;
+    rdfs:comment "System software is software designed to provide a platform for other software."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> .
+
+:Service a owl:Class ;
+    rdfs:label "Service"@en ;
+    rdfs:comment """In the context of the Arrowhead Framework a Service is the information exchanged from a providing system to a consuming system.\r
+• is based on a number of service orientation principles derived from high level objectives and properties of the Arrowhead framework \r
+• can be realized by an arbitrary number of service producers and service consumers \r
+• a system can consume a number of services, process and provide other services to fulfil a more complex task \r
+• can only be provided by technical systems \r
+• can support operational activities within business processes \r
+• can support non-functional requirements, such as real-time \r
+• can have stakeholders, with an interest in business benefit, in one or more specific area of interest \r
+• can have an appointed stakeholder, responsible for the governance of the Service (definition, development). \r
+(Source: Arrowhead Framework Definitions V2.4 & Arrowhead Device Registry Presentation)"""@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> ;
+    owl:disjointWith :Software_System .
+
+:Device a owl:Class ;
+    rdfs:label "Device"@en ;
+    rdfs:comment "A device in the context of Arrowhead framework is a piece of equipment, machine, hardware, etc. with computational, memory, and communication capabilities which hosts one or several Arrowhead Framework systems. (Source: Arrowhead)"@en,
+        "A device in the context of Service-oriented architectures (that is, in the context of Information Technology (IT) and Automation / Operations Technology (OT)) is an technical artefact that fulfills the basic definition of a \"computer\". That is, a device must be able to host (run) software systems. For this, it needs at least a processing unit (processor), a memory and a communication interface, which can be either wired or wireless."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Cloud_Lobe> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-AT#Device>,
+        <http://www.w3id.org/ecsel-dr-PWR#Device> .
+

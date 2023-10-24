@@ -1,0 +1,954 @@
+@prefix : <http://www.w3id.org/ecsel-dr-PMV#> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:AND a owl:Class ;
+    rdfs:label "AND"@en ;
+    rdfs:comment """All incoming pathways required to proceed along the flow\r
+All outgoing pathways must be followed\r
+Used to divide/rejoin tasks/flows which happen in parallel with another, rather than in a strict sequence""",
+        "All outgoing process paths must be followed.",
+        "The connector is responsible for splitting the control flow in at least two different branches, which are executed parallely where all branches must be followed." ;
+    rdfs:isDefinedBy "https://www.epc-standard.org/collaborate/AND-Split" ;
+    rdfs:subClassOf [ ],
+        :Connector ;
+    ns1:altLabel "and" .
+
+:Business_Process a owl:Class ;
+    rdfs:label "Business Process"@en ;
+    rdfs:comment "A Business Process (BP) consists of a series of value-creating activities that reach the performance expected by customers and fulfill goals derived from the business strategy." ;
+    rdfs:subClassOf [ ] ;
+    ns1:altLabel "BP",
+        "busi process" .
+
+:Business_Process_Landscape a owl:Class ;
+    rdfs:label "Business Process Landscape"@en ;
+    rdfs:comment "A Business Process Landscape (BP_Landscape) is a detailed overview of a specific Core- or Enabler Process." ;
+    rdfs:subClassOf [ ] ;
+    ns1:altLabel "BP Landscape",
+        "busi process landscap" .
+
+:Company_Process_Framework a owl:Class ;
+    rdfs:label "Company Process Framework"@en ;
+    rdfs:comment "IPF is the structured overview of all IFX Core and Enabler Processes. It contains 4 Core Processes and 6 Enabler Processes." ;
+    rdfs:subClassOf [ ] ;
+    ns1:altLabel "Company process framework" .
+
+:Computer_Hardware a owl:Class ;
+    rdfs:label "Computer Hardware"@en ;
+    rdfs:comment "Physical equipment that makes up a computer system, such as circuit boards, keyboard and mouse, monitor, printer, power supply, storage devices. Contrasts with software." ;
+    rdfs:isDefinedBy "http://www.businessdictionary.com/definition/hardware.html" ;
+    rdfs:subClassOf <http://purl.org/dc/terms/Physical_Resource> ;
+    ns1:altLabel "comput hardwar" .
+
+:End_Event a owl:Class ;
+    rdfs:label "End Event"@en ;
+    rdfs:comment "Denotes the event element that stands at the end of a branch in the process flow and thus, ends the process flow branch or the total process."@en ;
+    rdfs:subClassOf :Event ;
+    owl:disjointWith :Start_Event .
+
+:IP_code a owl:DatatypeProperty ;
+    rdfs:label "IP code"@en ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "ip code" .
+
+:Machine_Resource a owl:Class ;
+    rdfs:label "Machine Resource"@en ;
+    rdfs:comment "Semi or fully automated device that magnifies human physical and/or mental capabilities in performing one or more operations." ;
+    rdfs:isDefinedBy "http://www.businessdictionary.com/definition/machine.html" ;
+    rdfs:subClassOf <http://purl.org/dc/terms/Physical_Resource> ;
+    ns1:altLabel "machin resourc" .
+
+:Material a owl:Class ;
+    rdfs:label "Material"@en ;
+    rdfs:comment "The matter from which something can be made. Material can include but is not limited to raw and processed material, components, parts, assemblies, sub-assemblies, fuels, lubricants, coolants, cleaning agents, and small tools and accessories that may be consumed directly or indirectly." ;
+    rdfs:isDefinedBy "http://www.businessdictionary.com/definition/material.html" ;
+    rdfs:subClassOf <http://purl.org/dc/terms/Physical_Resource>,
+        :Input,
+        :Output ;
+    ns1:altLabel "materi" .
+
+:OR a owl:Class ;
+    rdfs:label "OR"@en ;
+    rdfs:comment "At least one of the possible process paths must be followed.",
+        "It is responsible for splitting the control flow up in at least two different branches, due to an nonexclusive choice where one or several branches can be followed.",
+        """One or more incoming pathways required to proceed along the flow\r
+One or more outgoing pathways must be followed\r
+Used only when neither XOR nor AND can be used to better illustrate flow\r
+Has the weakest logic and should be used as sparingly as absolutely possible""" ;
+    rdfs:isDefinedBy "https://www.epc-standard.org/collaborate/OR-Split" ;
+    rdfs:subClassOf [ ],
+        :Connector ;
+    ns1:altLabel "or" .
+
+:Other_Services a owl:Class ;
+    rdfs:label "Other Services"@en ;
+    rdfs:comment "Collection of other services used as input to a production process or which are created during a production process." ;
+    rdfs:subClassOf <http://purl.org/dc/dcmitype/Service> ;
+    ns1:altLabel "service"@en .
+
+:Process a owl:Class ;
+    rdfs:label "Process"@en ;
+    rdfs:comment "A collection of subprocesses that meet a specific business objective. E.g. Perform Sourcing or Purchase Materials and Services" ;
+    rdfs:subClassOf :Structural_Function_Object ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-SO#Process> ;
+    ns1:altLabel "process" .
+
+:Process_Diagram a owl:Class ;
+    rdfs:label "Process Diagram"@en ;
+    rdfs:comment "The first level of process decomposition that is comprised of subprocesses that depict a business objective." ;
+    rdfs:subClassOf :Model ;
+    ns1:altLabel "Process Diagram (L2)",
+        "process diagram" .
+
+:Process_Group a owl:Class ;
+    rdfs:label "Process Group"@en ;
+    rdfs:comment "A set of a processes covering a single business area. Usually under the ownership of one business process owner and correlates to one module. E.g. Procurement" ;
+    rdfs:subClassOf :Structural_Function_Object ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-SO#Process_Group> ;
+    ns1:altLabel "process group" .
+
+:Process_Group_Map a owl:Class ;
+    rdfs:label "Process Group Map"@en ;
+    rdfs:comment "A set of a processes covering a single business area. Usually under the ownership of one business process owner and aligning with a function." ;
+    rdfs:subClassOf :Model ;
+    ns1:altLabel "Process Group Map (L1)",
+        "process group map" .
+
+:Process_Interface a owl:Class ;
+    rdfs:label "Process Interface"@en ;
+    rdfs:comment "Process Interfaces connect several process models on the same Process hierarchical levelby linking the EPCs according to their shared events (also known as \"horizontal navigation\"). They thus facilitate process structuring and navigation by keeping models concise"@en,
+        """Process interfaces connect several process models on the same process hierarchical level by linking the EPCs according to their shared events (also known as "horizontal navigation"). They thus facilitate process structuring and navigation by keeping models concise and easy-to-read.\r
+Functionality: Jump function to next process (e.g. EPC, VAC), typically at the end of process branches. In the EPC flow there is an Event directly before."""@en ;
+    rdfs:isDefinedBy "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993" ;
+    rdfs:subClassOf :Function,
+        :Model_Element,
+        :Modelling_Function_Object ;
+    ns1:altLabel "Interface",
+        "process interfac" .
+
+:Process_Type a owl:Class ;
+    rdfs:label "Process Type"@en ;
+    rdfs:comment "A set of core and enabler processes of Infineon on Level 0 (highest level). This level helps helps organizing project work/ development and represents a single track in the oneSAP project. It is based on a Deloitte standard which was adapted to Infineon's needs." ;
+    rdfs:subClassOf :Structural_Function_Object ;
+    ns1:altLabel "process type" .
+
+:Process_Type_Map a owl:Class ;
+    rdfs:label "Process Type Map"@en ;
+    rdfs:comment "A set of process types and related process groups that define the enterprise for a particular industry/sector." ;
+    rdfs:subClassOf :Model ;
+    ns1:altLabel "Process Type Map (L0)",
+        "process type map" .
+
+:Subprocess a owl:Class ;
+    rdfs:label "Subprocess"@en ;
+    rdfs:comment "A grouping of related tasks that create an output within the larger objective of the subprocess. E.g. Create and Maintain Purchase Orders" ;
+    rdfs:subClassOf :Structural_Function_Object ;
+    ns1:altLabel "subprocess" .
+
+:Technical_Term_Input_Element a owl:Class ;
+    rdfs:label "Technical Term Input Element"@en ;
+    rdfs:comment "Denotes the input element to a function in the process flow."@en ;
+    rdfs:subClassOf [ ] ;
+    ns1:altLabel "technic term input element" .
+
+:Technical_Term_Output_Element a owl:Class ;
+    rdfs:label "Technical Term Output Element"@en ;
+    rdfs:comment "Denotes the output element of a function in the process flow."@en ;
+    rdfs:subClassOf [ ] ;
+    ns1:altLabel "technic term output element" .
+
+:XOR a owl:Class ;
+    rdfs:label "XOR"@en ;
+    rdfs:comment "Exactly one of the possible process paths must be followed.",
+        "It is responsible for splitting the control flow in at least two different branches, due to an exclusive choice where exactly one of the branches is followed.",
+        """One and only one of the incoming pathways is required to proceed along the flow\r
+One and only one of the outgoing pathways can be taken\r
+Divide should be made with yes/no question and lines labelled only with �yes� or �no�\r
+Gateway must therefore be named with this Yes/No question""" ;
+    rdfs:isDefinedBy "https://www.epc-standard.org/collaborate/XOR-Split" ;
+    rdfs:subClassOf [ ],
+        :Connector ;
+    ns1:altLabel "Exclusive OR",
+        "xor" .
+
+:activates_function a owl:ObjectProperty ;
+    rdfs:label "activates function"@en ;
+    rdfs:comment "Specialization of the activates property that links the class Event with Task and Process Interface in the course of the process flow." ;
+    rdfs:domain :Event ;
+    rdfs:range [ ] ;
+    rdfs:subPropertyOf :activates ;
+    owl:inverseOf :is_activated_by_function ;
+    ns1:altLabel "activ function" .
+
+:activates_task a owl:ObjectProperty ;
+    rdfs:label "activates task"@en ;
+    rdfs:comment "Specialization of the activates property that links the class Rule with Task in the course of the process flow." ;
+    rdfs:domain :Rule ;
+    rdfs:range :Task ;
+    rdfs:subPropertyOf :activates ;
+    owl:inverseOf :is_activated_by_task ;
+    ns1:altLabel "activ task" .
+
+:belongs_to_model a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "belongs to model"@en ;
+    rdfs:comment "Denotes the connection between a \"Function\" and another \"Process\" as this process may deliver an output used in this function." ;
+    rdfs:domain :Model_Element ;
+    rdfs:range :Model ;
+    ns1:altLabel "belong" .
+
+:carries_out_task a owl:ObjectProperty ;
+    rdfs:label "carries out task"@en ;
+    rdfs:comment "Role(s) or Organizational unit(s) that carrries (carry) out the process step (equivalent to R in RACI notation)" ;
+    rdfs:domain [ ],
+        :Role ;
+    rdfs:range :Task ;
+    owl:inverseOf :is_carried_out_by ;
+    ns1:altLabel "carri" .
+
+:completion_status a owl:DatatypeProperty ;
+    rdfs:label "completion status"@en ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "complet statu" .
+
+:connected_to a owl:ObjectProperty,
+        owl:SymmetricProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "connected to"@en ;
+    rdfs:comment "Represents the connections and dependencies between models"@en ;
+    rdfs:domain :Model ;
+    rdfs:range :Model ;
+    ns1:altLabel "connect" .
+
+:contains a owl:ObjectProperty ;
+    rdfs:label "contains"@en ;
+    rdfs:comment "Links a Model with the elements represented by it."@en ;
+    rdfs:domain :Model ;
+    rdfs:range [ ] ;
+    owl:inverseOf :diagramed_on_model ;
+    ns1:altLabel "contain" .
+
+:contributes_to_task a owl:ObjectProperty ;
+    rdfs:label "contributes to task"@en ;
+    rdfs:comment "Role(s) that contribute(s) to a process step during it is carried out." ;
+    rdfs:domain :Role ;
+    rdfs:range :Task ;
+    owl:inverseOf :is_worked_on_by_collaboration_of ;
+    ns1:altLabel "contribut" .
+
+:controls_function a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "controls function"@en ;
+    rdfs:comment "A goal controls the outcome of a function in a process flow." ;
+    rdfs:domain <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal> ;
+    rdfs:range :Function ;
+    owl:inverseOf :is_controlled_by_goal ;
+    ns1:altLabel "control" .
+
+:creates_event a owl:ObjectProperty ;
+    rdfs:label "creates event"@en ;
+    rdfs:comment "A process step creates an event. The connector is used to represent the chronological order in an EPC." ;
+    rdfs:domain [ ],
+        :Modelling_Function_Object ;
+    rdfs:range :Event ;
+    owl:inverseOf :is_created_by ;
+    ns1:altLabel "creat" .
+
+:creator a owl:DatatypeProperty ;
+    rdfs:label "creator"@en ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "creator" .
+
+:evaluates a owl:ObjectProperty ;
+    rdfs:label "evaluates"@en ;
+    rdfs:comment "A rule evaluates an event. The connector is used to represent the chronological order in an EPC." ;
+    rdfs:domain :Join_Rule ;
+    rdfs:range :Event ;
+    owl:inverseOf :is_evaluated_by ;
+    ns1:altLabel "evalu" .
+
+:executes_software a owl:ObjectProperty ;
+    rdfs:label "executes software"@en ;
+    rdfs:comment "A function in a process flow excutes software." ;
+    rdfs:domain :Function ;
+    rdfs:range <http://purl.org/dc/dcmitype/Software> ;
+    owl:inverseOf :is_executed_by_function ;
+    ns1:altLabel "execut" .
+
+:experience a owl:DatatypeProperty ;
+    rdfs:label "experience"@en ;
+    rdfs:comment "Describes the experience that is required."@en ;
+    rdfs:domain :Role ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "experi" .
+
+:flow a owl:ObjectProperty ;
+    rdfs:label "flow"@en ;
+    rdfs:comment "Enables the modelling of the process flow by logically connecting the different process elements. Therefore, the domain and the range are set to a \"Process Element\"." ;
+    rdfs:domain :Model_Element ;
+    rdfs:range :Model_Element ;
+    ns1:altLabel "flow" .
+
+:follows a owl:ObjectProperty ;
+    rdfs:label "follows"@en ;
+    rdfs:comment "A process step follows a process step. The connector is used to represent the chronological order in an EPC." ;
+    rdfs:domain :Modelling_Function_Object,
+        :Task ;
+    rdfs:range :Modelling_Function_Object,
+        :Task ;
+    owl:inverseOf :is_predecessor_of ;
+    ns1:altLabel "follow" .
+
+:handling a owl:DatatypeProperty ;
+    rdfs:label "handling"@en ;
+    rdfs:comment "Describes the requirements for the specific handling of objects."@en ;
+    rdfs:domain :Task ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "handl" .
+
+:has_as_input a owl:ObjectProperty ;
+    rdfs:label "has as input"@en ;
+    rdfs:comment "A process step can have technical term(s) as input." ;
+    rdfs:domain :Task ;
+    rdfs:range :Technical_Term ;
+    owl:inverseOf :is_input_for ;
+    ns1:altLabel "input" .
+
+:has_as_output a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has as output"@en ;
+    rdfs:comment "A function in a process flow produces a physical or non-physical output.",
+        "A process step can have technical term(s) as output." ;
+    rdfs:domain :Function,
+        :Task ;
+    rdfs:range :Output,
+        :Technical_Term ;
+    owl:inverseOf :is_output_of ;
+    ns1:altLabel "output" .
+
+:has_next_model a owl:ObjectProperty ;
+    rdfs:label "has next model" ;
+    rdfs:comment "An EPC can have another EPC following which is dependent on the result. The connector is used to represent the chronological order in a VACD." ;
+    rdfs:domain :Business_Process_Flow ;
+    rdfs:range :Business_Process_Flow ;
+    owl:inverseOf :has_previous_model ;
+    ns1:altLabel "model" .
+
+:has_object a owl:ObjectProperty ;
+    rdfs:label "has object"@en ;
+    rdfs:comment "EPCs and Value-added chain diagrams consist of objects." ;
+    rdfs:domain [ ] ;
+    rdfs:range [ ] ;
+    owl:inverseOf :relevant_to ;
+    ns1:altLabel "object" .
+
+:has_sub_flow a owl:ObjectProperty ;
+    rdfs:label "has sub flow"@en ;
+    rdfs:comment "EPCs can have other EPCs as subordinates. The connector is used to represent the hierarchical order." ;
+    rdfs:domain :Task ;
+    rdfs:range :Business_Process_Flow ;
+    owl:inverseOf :is_sub_flow_of ;
+    ns1:altLabel "sub flow" .
+
+:has_sub_model a owl:ObjectProperty ;
+    rdfs:label "has sub model"@en ;
+    rdfs:comment "Denotes to which instance of \"Process\" an instance of a \"Process Element\" belongs." ;
+    rdfs:domain :Function ;
+    rdfs:range :Model ;
+    ns1:altLabel "sub model" .
+
+:has_subordinate a owl:ObjectProperty ;
+    rdfs:label "has subordinate" ;
+    rdfs:comment "Value-added chain diagrams have EPCs as subordinates. The connector is used to represent the hierarchical order." ;
+    rdfs:domain :Value_Added_Chain_Diagram ;
+    rdfs:range :Business_Process_Flow ;
+    owl:inverseOf :has_superior ;
+    ns1:altLabel "subordin" .
+
+:has_subordinate_VACD a owl:ObjectProperty ;
+    rdfs:label "has subordinate VACD" ;
+    rdfs:comment "Value-added chain diagrams have value-added chain diagrams as subordinates. The connector is used to represent the hierarchical order." ;
+    rdfs:domain :Value_Added_Chain_Diagram ;
+    rdfs:range :Value_Added_Chain_Diagram ;
+    owl:inverseOf :has_superior_VACD ;
+    ns1:altLabel "subordin vacd" .
+
+:identifier a owl:DatatypeProperty ;
+    rdfs:label "identifier"@en ;
+    rdfs:comment "Represents the unique identifier of the element."@en ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "identifi"@en .
+
+:is_assigned_to a owl:ObjectProperty ;
+    rdfs:label "is assigned to"@en ;
+    rdfs:comment "A rule is assigned to a process step. The connector is used to represent the chronological order in an EPC." ;
+    rdfs:domain :Rule ;
+    rdfs:range :Modelling_Function_Object,
+        :Task ;
+    owl:inverseOf :leads_to_rule ;
+    ns1:altLabel "assign" .
+
+:is_dependent_on a owl:ObjectProperty ;
+    rdfs:label "is dependent on"@en ;
+    rdfs:comment "An event is dependent on a rule. The connector is used to represent the chronological order in an EPC." ;
+    rdfs:domain :Event ;
+    rdfs:range :Rule ;
+    owl:inverseOf :leads_to_event ;
+    ns1:altLabel "depend" .
+
+:is_input_of a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is input of"@en ;
+    rdfs:comment "An external physical or non-physical input is used in a function in a process flow and is therefore input of it." ;
+    rdfs:domain :Input ;
+    rdfs:range :Function ;
+    ns1:altLabel "isinput" .
+
+:is_linked_by a owl:ObjectProperty ;
+    rdfs:label "is linked by"@en ;
+    rdfs:domain :Rule ;
+    rdfs:range :Rule ;
+    owl:inverseOf :links ;
+    ns1:altLabel "link" .
+
+:is_processed_by_human_output a owl:FunctionalProperty,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is processed by"@en ;
+    rdfs:comment "The execution of a function in a process flow is processed by a person (human output)." ;
+    rdfs:domain :Function ;
+    rdfs:range :Human_Output ;
+    owl:inverseOf :processes_function ;
+    ns1:altLabel "process" .
+
+:is_represented_by a owl:ObjectProperty ;
+    rdfs:label "is represented by" ;
+    rdfs:comment "Represents the inverse property of represents." ;
+    rdfs:domain [ ],
+        :Task ;
+    rdfs:range :Business_Process_Activity,
+        :Screen ;
+    owl:inverseOf :represents ;
+    ns1:altLabel "repres" .
+
+:is_responsible_for_fuction a owl:ObjectProperty ;
+    rdfs:label "is responsible for"@en ;
+    rdfs:comment "An organizational unit is responible for a function in a process flow." ;
+    rdfs:domain <http://www.w3.org/ns/org#Organizational_Unit> ;
+    rdfs:range :Function ;
+    owl:inverseOf :is_under_responsibility_of ;
+    ns1:altLabel "respons" .
+
+:is_supported_by a owl:ObjectProperty ;
+    rdfs:label "is supported by" ;
+    rdfs:comment "A process step is supported by an application system type." ;
+    rdfs:domain :Task ;
+    rdfs:range :Application_System_Type ;
+    owl:inverseOf :supports_task ;
+    ns1:altLabel "support" .
+
+:is_transformed_by a owl:ObjectProperty ;
+    rdfs:label "is transformed by"@en ;
+    rdfs:comment "Environmental data is transformed by a function in a process flow." ;
+    rdfs:domain :Environmental_Data ;
+    rdfs:range :Function ;
+    owl:inverseOf :transforms ;
+    ns1:altLabel "transform" .
+
+:is_used_by_function a owl:ObjectProperty ;
+    rdfs:label "is used by function"@en ;
+    rdfs:comment "An external resource is used by a function in a process flow." ;
+    rdfs:domain [ ] ;
+    rdfs:range :Function ;
+    owl:inverseOf :uses ;
+    ns1:altLabel "use" .
+
+:knowledge a owl:DatatypeProperty ;
+    rdfs:label "knwoledge"@en ;
+    rdfs:comment "Describes the knowledge that is required."@en ;
+    rdfs:domain :Role ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "knwoledg" .
+
+:mission a owl:DatatypeProperty ;
+    rdfs:label "mission"@en ;
+    rdfs:comment "Describes the mission or goal of a business process (flow)."@en ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "mission" .
+
+:must_be_informed_about a owl:ObjectProperty ;
+    rdfs:label "must be informed about"@en ;
+    rdfs:comment "Role(s) to be informed after/ during the process step is carried out (one-way-communication) (equivalent to I in RACI notation)" ;
+    rdfs:domain :Role ;
+    rdfs:range :Task ;
+    owl:inverseOf :results_forwarded_to ;
+    ns1:altLabel "inform" .
+
+:orphan a owl:DatatypeProperty ;
+    rdfs:label "orphan"@en ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "orphan" .
+
+:owner a owl:DatatypeProperty ;
+    rdfs:label "owner"@en ;
+    rdfs:comment "Represents the owner of a business process (flow)."@en ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "owner" .
+
+:person_responsible a owl:DatatypeProperty ;
+    rdfs:label "person responsible"@en ;
+    rdfs:comment "States whether someone is responsible for the SubprocessDiagram or not."@en ;
+    rdfs:domain :Subprocess_Diagram ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "person respons" .
+
+:project_scope a owl:DatatypeProperty ;
+    rdfs:label "project scope"@en ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "project scope" .
+
+:remark_or_example a owl:DatatypeProperty ;
+    rdfs:label "remark or example"@en ;
+    rdfs:comment "Denotes a remark or an example that is given specific to an element."@en ;
+    rdfs:domain :Application_System_Type ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "remark exampl"@en .
+
+:requirements a owl:DatatypeProperty ;
+    rdfs:label "requirements"@en ;
+    rdfs:comment "Description of all requirements for the certain input or output."@en ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "requir"@en .
+
+:scope a owl:DatatypeProperty ;
+    rdfs:label "scope"@en ;
+    rdfs:comment "Denotes the scope of a specific business process (flow)."@en ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "scope"@en .
+
+:transaction_code a owl:DatatypeProperty ;
+    rdfs:label "transaction code"@en ;
+    rdfs:comment "Contains the transaction code assigned to a Screen in SAP."@en ;
+    rdfs:domain :Screen ;
+    rdfs:range xsd:string ;
+    ns1:altLabel "transact code" .
+
+:Split_Rule a owl:Class ;
+    rdfs:label "Split Rule"@en ;
+    rdfs:comment "Rule element that splits the control flow into several branches. Has one incoming path and several (at least two) outgoing paths." ;
+    rdfs:subClassOf [ ],
+        [ ] ;
+    ns1:altLabel "split rule" .
+
+:Start_Event a owl:Class ;
+    rdfs:label "Start Event"@en ;
+    rdfs:comment "Denotes the event that stands at the beginning of a branch in the process flow and thus, triggers the execution of this branch or the total process."@en ;
+    rdfs:subClassOf :Event .
+
+:Subprocess_Diagram a owl:Class ;
+    rdfs:label "Subprocess Diagram"@en ;
+    rdfs:comment "The second and lowest level of process decomposition that is comprised of tasks that depict the role-based activities of the subprocess." ;
+    rdfs:subClassOf :Model ;
+    ns1:altLabel "Subprocess Diagram (L3)",
+        "subprocess diagram" .
+
+:diagramed_on_model a owl:ObjectProperty ;
+    rdfs:label "diagramed on model"@en ;
+    rdfs:comment "Links a FuncitonObject or a ModelElement with the Model that it's represented in."@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Model ;
+    ns1:altLabel "diagram" .
+
+:has_previous_model a owl:ObjectProperty ;
+    rdfs:label "has previous model"@en ;
+    rdfs:comment "An EPC can have another EPC previous to itself and is dependent on its results. The connector is used to represent the chronological order in a VACD." ;
+    rdfs:domain :Business_Process_Flow ;
+    rdfs:range :Business_Process_Flow ;
+    ns1:altLabel "previou model" .
+
+:has_superior a owl:ObjectProperty ;
+    rdfs:label "has superior" ;
+    rdfs:comment "EPCs have value-added chain diagrams as superior. The connector is used to represent the hierarchical order." ;
+    rdfs:domain :Business_Process_Flow ;
+    rdfs:range :Value_Added_Chain_Diagram ;
+    ns1:altLabel "superior" .
+
+:has_superior_VACD a owl:ObjectProperty ;
+    rdfs:label "has superior VACD" ;
+    rdfs:comment "Value-added chain diagrams have another value-added chain diagram as superior. The connector is used to represent the hierarchical order." ;
+    rdfs:domain :Value_Added_Chain_Diagram ;
+    rdfs:range :Value_Added_Chain_Diagram ;
+    ns1:altLabel "superior vacd" .
+
+:is_activated_by_function a owl:ObjectProperty ;
+    rdfs:label "is activated by function" ;
+    rdfs:comment "Represents the inverse property of activatesFunction." ;
+    rdfs:domain [ ] ;
+    rdfs:range :Event ;
+    rdfs:subPropertyOf :is_activated_by ;
+    ns1:altLabel "activ function" .
+
+:is_activated_by_task a owl:ObjectProperty ;
+    rdfs:label "is activated by task" ;
+    rdfs:comment "Represents the inverse property of activatesTask." ;
+    rdfs:domain :Task ;
+    rdfs:range :Rule ;
+    rdfs:subPropertyOf :is_activated_by ;
+    ns1:altLabel "activ task" .
+
+:is_carried_out_by a owl:ObjectProperty ;
+    rdfs:label "is carried out by"@en ;
+    rdfs:comment "A process step is carried out by role(s) or organizational unit(s) (equivalent to R in RACI notation)." ;
+    rdfs:domain :Task ;
+    rdfs:range [ ],
+        :Role ;
+    ns1:altLabel "carri" .
+
+:is_controlled_by_goal a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is controlled by"@en ;
+    rdfs:comment "The result of a function in a process flow is controlled by a goal." ;
+    rdfs:domain :Function ;
+    rdfs:range <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal> ;
+    ns1:altLabel "control" .
+
+:is_created_by a owl:ObjectProperty ;
+    rdfs:label "is created by"@en ;
+    rdfs:comment "An event is created by a process step. The connector is used to represent the chronological order in an EPC." ;
+    rdfs:domain :Event ;
+    rdfs:range [ ],
+        :Modelling_Function_Object ;
+    ns1:altLabel "creat" .
+
+:is_evaluated_by a owl:ObjectProperty ;
+    rdfs:label "is evaluated by"@en ;
+    rdfs:comment "An event is evaluated by a rule. The connector is used to represent the chronological order in an EPC." ;
+    rdfs:domain :Event ;
+    rdfs:range :Join_Rule ;
+    ns1:altLabel "evalu" .
+
+:is_executed_by_function a owl:ObjectProperty ;
+    rdfs:label "is exectued by function"@en ;
+    rdfs:comment "Software is executed by a function in a process flow." ;
+    rdfs:domain <http://purl.org/dc/dcmitype/Software> ;
+    rdfs:range :Function ;
+    ns1:altLabel "exectu" .
+
+:is_input_for a owl:ObjectProperty ;
+    rdfs:label "is input for"@en ;
+    rdfs:comment "A software independent business object or product/services may be input for a process step." ;
+    rdfs:domain :Technical_Term ;
+    rdfs:range :Task ;
+    ns1:altLabel "input" .
+
+:is_output_of a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is output of"@en ;
+    rdfs:comment "A software independent business object may be output of a process step.",
+        "Physical or non-physical output is produced by a function in a process flow." ;
+    rdfs:domain :Output,
+        :Technical_Term ;
+    rdfs:range :Function,
+        :Task ;
+    ns1:altLabel "output" .
+
+:is_predecessor_of a owl:ObjectProperty ;
+    rdfs:label "is predecessor of"@en ;
+    rdfs:comment "The connector is used to represent the chronological order of value chain elements." ;
+    rdfs:domain :Modelling_Function_Object,
+        :Task ;
+    rdfs:range :Modelling_Function_Object,
+        :Task ;
+    ns1:altLabel "predecessor" .
+
+:is_sub_flow_of a owl:ObjectProperty ;
+    rdfs:label "is sub flow of"@en ;
+    rdfs:comment "EPCs can have other EPCs as superiors. The connector is used to represent the hierarchical order." ;
+    rdfs:domain :Business_Process_Flow ;
+    rdfs:range :Task ;
+    ns1:altLabel "sub flow" .
+
+:is_under_responsibility_of a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is under responsibility of"@en ;
+    rdfs:comment "The execution of a function in a process flow is under the responsibility of an organizational unit." ;
+    rdfs:domain :Function ;
+    rdfs:range <http://www.w3.org/ns/org#Organizational_Unit> ;
+    ns1:altLabel "respons" .
+
+:is_worked_on_by_collaboration_of a owl:ObjectProperty ;
+    rdfs:label "is worked on by collaboration of"@en ;
+    rdfs:comment "A process step is worked on by collaboration of role(s)." ;
+    rdfs:domain :Task ;
+    rdfs:range :Role ;
+    rdfs:subPropertyOf <http://www.w3id.org/ecsel-dr-SO#is_workshop_of> ;
+    ns1:altLabel "work collabor" .
+
+:leads_to_event a owl:ObjectProperty ;
+    rdfs:label "leads to event"@en ;
+    rdfs:comment "A rule leads to an event. The connector is used to represent the chronological order in an EPC." ;
+    rdfs:domain :Rule ;
+    rdfs:range :Event ;
+    rdfs:subPropertyOf :leads_to ;
+    ns1:altLabel "lead event" .
+
+:leads_to_rule a owl:ObjectProperty ;
+    rdfs:label "leads to rule"@en ;
+    rdfs:comment "A process step leads to a rule. The connector is used to represent the chronological order in an EPC." ;
+    rdfs:domain :Modelling_Function_Object,
+        :Task ;
+    rdfs:range :Rule ;
+    rdfs:subPropertyOf :leads_to ;
+    ns1:altLabel "lead rule" .
+
+:links a owl:ObjectProperty ;
+    rdfs:label "links"@en ;
+    rdfs:domain :Rule ;
+    rdfs:range :Rule ;
+    ns1:altLabel "link" .
+
+:processes_function a owl:FunctionalProperty,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "processes" ;
+    rdfs:comment "Some person, referred to as human output here, processes a function in a process flow. " ;
+    rdfs:domain :Human_Output ;
+    rdfs:range :Function ;
+    ns1:altLabel "process" .
+
+:relevant_to a owl:ObjectProperty ;
+    rdfs:label "relevant to"@en ;
+    rdfs:comment "An object is relevant for EPCs and value-added chain diagrams." ;
+    rdfs:domain [ ] ;
+    rdfs:range [ ] ;
+    ns1:altLabel "relev" .
+
+:represents a owl:ObjectProperty ;
+    rdfs:label "represents"@en ;
+    rdfs:comment "A aris:BPActivity is the graphical representation of a aris:VACD or aris:BPFlow in a aris:VACD." ;
+    rdfs:domain :Business_Process_Activity,
+        :Screen ;
+    rdfs:range [ ],
+        :Task ;
+    ns1:altLabel "repres" .
+
+:results_forwarded_to a owl:ObjectProperty ;
+    rdfs:label "resultIs forwarded to"@en ;
+    rdfs:comment "A result of a process step is forwarded to role(s)." ;
+    rdfs:domain :Task ;
+    rdfs:range :Role ;
+    ns1:altLabel "result forward" .
+
+:supports_task a owl:ObjectProperty ;
+    rdfs:label "supports task"@en ;
+    rdfs:comment "A process step is supported by an Application system." ;
+    rdfs:domain :Application_System_Type ;
+    rdfs:range :Task ;
+    ns1:altLabel "support" .
+
+:transforms a owl:ObjectProperty ;
+    rdfs:label "transforms"@en ;
+    rdfs:comment "A function in a process flow transforms environmental data like work schedules." ;
+    rdfs:domain :Function ;
+    rdfs:range :Environmental_Data ;
+    ns1:altLabel "transform" .
+
+:uses a owl:ObjectProperty ;
+    rdfs:label "uses"@en ;
+    rdfs:comment "A function in a process flow uses external resources like machines or computer hardware during its execution." ;
+    rdfs:domain :Function ;
+    rdfs:range [ ] ;
+    ns1:altLabel "use" .
+
+:Business_Process_Activity a owl:Class ;
+    rdfs:label "Business Process Activity"@en ;
+    rdfs:comment "A Business Process (BP) Activity is a part of a Business Process containing one or more sub Business Processes or a Process Flow." ;
+    rdfs:subClassOf :Function ;
+    ns1:altLabel "BP Activity",
+        "busi process activ" .
+
+:Environmental_Data a owl:Class ;
+    rdfs:label "Environmental Data"@en ;
+    rdfs:comment "Additional information to a process like work schedule, production plans, etc."@en ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#Information_Object> ;
+    ns1:altLabel "environment data" .
+
+:Human_Output a owl:Class ;
+    rdfs:label "Human Output"@en ;
+    rdfs:comment "Human being that puts effort in the processing of a process step (function). It belongs to the organizational unit that is responsible for the specific process step." ;
+    rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ;
+    owl:equivalentClass :Role ;
+    ns1:altLabel "Role",
+        "human output" .
+
+:Input a owl:Class ;
+    rdfs:label "Input"@en ;
+    rdfs:comment "Item external to a system (such as a process) that is transformed by the system (usually together with one or more other items) to become an output." ;
+    rdfs:isDefinedBy "http://www.businessdictionary.com/definition/input.html" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Process_Lobe> ;
+    ns1:altLabel "input" .
+
+:Join_Rule a owl:Class ;
+    rdfs:label "Join Rule"@en ;
+    rdfs:comment "Rule element that unites the control flow after being split into several branches. Has several incoming paths (at least two) and one outgoing." ;
+    rdfs:subClassOf [ ],
+        [ ] ;
+    owl:disjointWith :Split_Rule ;
+    ns1:altLabel "join rule" .
+
+:activates a owl:ObjectProperty ;
+    rdfs:label "activates"@en ;
+    rdfs:comment "The connector is used to represent the chronological order in an EPC, where an Event or a Rule activate a Task or Process Interface. " ;
+    rdfs:domain [ ] ;
+    rdfs:range :Modelling_Function_Object ;
+    owl:inverseOf :is_activated_by ;
+    ns1:altLabel "activ" .
+
+:leads_to a owl:ObjectProperty ;
+    rdfs:label "leads to"@en ;
+    rdfs:comment "The connector is used to represent the chronological order in an EPC." ;
+    ns1:altLabel "lead" .
+
+:Application_System_Type a owl:Class ;
+    rdfs:label "Application System Type"@en ;
+    rdfs:comment "An application system type classifies individual application systems which have exactly the same technological properties. Process steps might be supported by application systems. Object describe IT systems (library for IT systems available)." ;
+    rdfs:isDefinedBy "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532992" ;
+    rdfs:subClassOf <http://purl.org/dc/dcmitype/Software> ;
+    ns1:altLabel "applic system type" .
+
+:Connector a owl:Class ;
+    rdfs:label "Connector"@en ;
+    rdfs:comment " A connector determines the behavior of the process in case its control ?ow is split up into or joined from several execution branches." ;
+    rdfs:isDefinedBy "https://www.epc-standard.org/collaborate/Operator" ;
+    rdfs:subClassOf :Model_Element ;
+    owl:equivalentClass :Rule ;
+    ns1:altLabel "Rule",
+        "connector" .
+
+:Function_Object a owl:Class ;
+    rdfs:label "Function Object"@en ;
+    rdfs:comment "In IndustryPrint 5, function objects are used to model the decomposition of a process."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Process_Lobe> ;
+    ns1:altLabel "function object" .
+
+:Output a owl:Class ;
+    rdfs:label "Output"@en ;
+    rdfs:comment "The amount of energy, work, goods, or services produced by a machine, factory, company, or an individual in a period." ;
+    rdfs:isDefinedBy "http://www.businessdictionary.com/definition/output.html" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Process_Lobe> ;
+    ns1:altLabel "output" .
+
+:Screen a owl:Class ;
+    rdfs:label "Screen"@en ;
+    rdfs:comment "A transaction in SAP is described as a screen. Here, they represent the actions undertaken in the application SAP to perform a function in a process flow." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Process_Lobe> ;
+    ns1:altLabel "Transaction",
+        "screen" .
+
+:is_activated_by a owl:ObjectProperty ;
+    rdfs:label "is activated by" ;
+    rdfs:comment "A process step is activated by an event or a rule. The connector is used to represent the chronological order in an EPC." ;
+    rdfs:domain :Modelling_Function_Object ;
+    rdfs:range [ ] ;
+    ns1:altLabel "activ" .
+
+:Structural_Function_Object a owl:Class ;
+    rdfs:label "Structural Function Object"@en ;
+    rdfs:comment "Function objects are used to model the decomposition of the structure of a process." ;
+    rdfs:subClassOf :Function_Object ;
+    ns1:altLabel "structur function object" .
+
+:Technical_Term a owl:Class ;
+    rdfs:label "Technical Term"@en ;
+    rdfs:comment "Set up with connection to a function or activity or VAC. It can be either input or output, where the direction of the arrow describes whether it is an input or an output. Set up of a connection is not mandatory."@en ;
+    rdfs:subClassOf <http://xmlns.com/foaf/0.1/Document> ;
+    ns1:altLabel "technic term" .
+
+:Value_Added_Chain_Diagram a owl:Class ;
+    rdfs:label "Value-Added Chain Diagram"@en ;
+    rdfs:comment """A Value-Added Chain is a process that represents an element of the process chain. A process hierarchy can be realized by hierarchically structuring value chains, thus modeling business areas, process groups, business processes and business process variants using the sam notation.\r
+House: represents enabler processes.""" ;
+    rdfs:isDefinedBy "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532992" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Process_Lobe> ;
+    ns1:altLabel "VACD",
+        "valu - ad chain diagram" .
+
+:Business_Process_Flow a owl:Class ;
+    rdfs:label "Business Process Flow"@en ;
+    rdfs:comment """An EPC describes a Business Process Flow, which is a sequence of required tasks to create specified outputs using defined inputs.\r
+A Business Process Flow is a sequence of required tasks to create specified outputs using defined inputs."""@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Process_Lobe> ;
+    ns1:altLabel "Event-driven process chain"@en,
+        "busi process flow"@en .
+
+:Model_Element a owl:Class ;
+    rdfs:label "Model Element"@en ;
+    rdfs:comment "An EPC model element is part of the EPC meta model and can be represented by a Function, an Event, an Operator, a Process Interface.",
+        "Represents an object in the EPC model. Includes all elements used in the modelling procedure of an EPC diagram.",
+        "Represents process flow elements except for modelling function objects." ;
+    rdfs:isDefinedBy "https://www.epc-standard.org/collaborate/Process_element" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Process_Lobe> ;
+    ns1:altLabel "model element" .
+
+:Role a owl:Class ;
+    rdfs:label "Role"@en ;
+    rdfs:comment "Business Role (Person) that performs task.",
+        "Object to describe the role. Type of responsibility is defined by the linkage between function or activity and role. IFX options: carries out, contribute, must be informed." ;
+    rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ;
+    ns1:altLabel "role" .
+
+:Event a owl:Class ;
+    rdfs:label "Event"@en ;
+    rdfs:comment "An event illustrates the fact that a process object has taken on a business relevant state influencing the further procedure of a process. Unlike a function, which is a time consuming occurrence, an event is related to one point in time. Therefore, it is used to describe an event or status in the process flow. The object is mandatory for: EPC start and EPC end or after x (xor), v (or)."@en,
+        "The event is a passive element since it represents a change of state but does not cause it. Furthermore it can characterize the conditions and the results of an activity, which in turn triggers the next function. An event with no incoming arc is called start event, while an event with no outgoing arc is called end event."@en ;
+    rdfs:isDefinedBy "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993"@en,
+        "https://www.epc-standard.org/collaborate/Event"@en ;
+    rdfs:subClassOf :Model_Element ;
+    ns1:altLabel "Status"@en,
+        "event"@en .
+
+:Model a owl:Class ;
+    rdfs:label "Model"@en ;
+    rdfs:comment "One striking commonality between EPC meta models is the Process. One process may contain an unlimited number of elements, but a process element is always linked to a specific process. If a process contains an interface, it is always linked to one specific process and represents a refinement of a normal function.",
+        "To graphically depict functional and process decomposition, function objects are diagramed on models in IndustryPrint 5." ;
+    rdfs:isDefinedBy "https://www.epc-standard.org/collaborate/Process" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Process_Lobe> ;
+    ns1:altLabel "model" .
+
+:Rule a owl:Class ;
+    rdfs:label "Rule"@en ;
+    rdfs:comment "Rules allow to model alternative, exclusive alternative and parallel process flows." ;
+    rdfs:isDefinedBy "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993" ;
+    rdfs:subClassOf :Model_Element ;
+    ns1:altLabel "Connector",
+        "rule" .
+
+:Modelling_Function_Object a owl:Class ;
+    rdfs:label "Modelling Function Object"@en ;
+    rdfs:comment "Function objects are used to model the decomposition of the process flow."@en ;
+    rdfs:subClassOf :Function_Object ;
+    ns1:altLabel "model function object" .
+
+:Function a owl:Class ;
+    rdfs:label "Function"@en ;
+    rdfs:comment "The function type represents several action elements as task, process interfaces or business process activities.",
+        "They are the active elements of an EPC that represent the activities of a modelled process and again raise events upon completion. The extended event driven process chain expands the semantic of functions, since they may be associated with the organizational unit performing the function or the data needed and created as output by the function." ;
+    rdfs:isDefinedBy "https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993",
+        "https://www.epc-standard.org/collaborate/Function" ;
+    rdfs:subClassOf :Model_Element ;
+    owl:equivalentClass :Function_Object ;
+    ns1:altLabel "function" .
+
+:Task a owl:Class ;
+    rdfs:label "Task"@en ;
+    rdfs:comment "A Task is an instruction of a work package to create the output."@en,
+        "The lowest level of detail, a task are the activities required to execute a subprocess. A single task within a subprocess can be manual or system supported. E.g. Create Purchase Order"@en ;
+    rdfs:subClassOf :Function,
+        :Model_Element,
+        :Modelling_Function_Object ;
+    ns1:altLabel "Process step",
+        "task" .
+

@@ -1,0 +1,519 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-SCP#calculated_based
+<http://www.w3id.org/ecsel-dr-SCP#calculated_based> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#calculated_based> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule> .
+<http://www.w3id.org/ecsel-dr-SCP#calculated_based> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Supply_Picture> .
+<http://www.w3id.org/ecsel-dr-SCP#calculated_based> <http://www.w3.org/2000/01/rdf-schema#label> "calculated based"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#calculated_based_on
+<http://www.w3id.org/ecsel-dr-SCP#calculated_based_on> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#calculated_based_on> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Marketing_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#calculated_based_on> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Sales_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#calculated_based_on> <http://www.w3.org/2000/01/rdf-schema#label> "calculated based on"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#calculates
+<http://www.w3id.org/ecsel-dr-SCP#calculates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#calculates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match> .
+<http://www.w3id.org/ecsel-dr-SCP#calculates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Supply_Picture> .
+<http://www.w3id.org/ecsel-dr-SCP#calculates> <http://www.w3.org/2000/01/rdf-schema#label> "calculates"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#consists_of_open_order_book
+<http://www.w3id.org/ecsel-dr-SCP#consists_of_open_order_book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#consists_of_open_order_book> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-SCP#consists_of_open_order_book> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book> .
+<http://www.w3id.org/ecsel-dr-SCP#consists_of_open_order_book> <http://www.w3.org/2000/01/rdf-schema#label> "consists of open order book"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#constitutes
+<http://www.w3id.org/ecsel-dr-SCP#constitutes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#constitutes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Order> .
+<http://www.w3id.org/ecsel-dr-SCP#constitutes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Sales_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#constitutes> <http://www.w3.org/2000/01/rdf-schema#label> "constitutes"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#consumes
+<http://www.w3id.org/ecsel-dr-SCP#consumes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#consumes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-SCP#consumes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Available_To_Promise> .
+<http://www.w3id.org/ecsel-dr-SCP#consumes> <http://www.w3.org/2000/01/rdf-schema#label> "consumes"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#contributes_to_prioritized_order
+<http://www.w3id.org/ecsel-dr-SCP#contributes_to_prioritized_order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#contributes_to_prioritized_order> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Order> .
+<http://www.w3id.org/ecsel-dr-SCP#contributes_to_prioritized_order> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders> .
+<http://www.w3id.org/ecsel-dr-SCP#contributes_to_prioritized_order> <http://www.w3.org/2000/01/rdf-schema#label> "contributes to prioritized order"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#creates_prioritized_order
+<http://www.w3id.org/ecsel-dr-SCP#creates_prioritized_order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#creates_prioritized_order> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative> .
+<http://www.w3id.org/ecsel-dr-SCP#creates_prioritized_order> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders> .
+<http://www.w3id.org/ecsel-dr-SCP#creates_prioritized_order> <http://www.w3.org/2000/01/rdf-schema#label> "creates prioritized order"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#entered_to
+<http://www.w3id.org/ecsel-dr-SCP#entered_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#entered_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Order> .
+<http://www.w3id.org/ecsel-dr-SCP#entered_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative> .
+<http://www.w3id.org/ecsel-dr-SCP#entered_to> <http://www.w3.org/2000/01/rdf-schema#label> "entered to"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#figured_out_from
+<http://www.w3id.org/ecsel-dr-SCP#figured_out_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#figured_out_from> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Target_Allocation> .
+<http://www.w3id.org/ecsel-dr-SCP#figured_out_from> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Allocated_Available_To_Promise> .
+<http://www.w3id.org/ecsel-dr-SCP#figured_out_from> <http://www.w3.org/2000/01/rdf-schema#label> "figured out from"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#generates
+<http://www.w3id.org/ecsel-dr-SCP#generates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#generates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-SCP#generates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book> .
+<http://www.w3id.org/ecsel-dr-SCP#generates> <http://www.w3.org/2000/01/rdf-schema#label> "generates"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#goes_to
+<http://www.w3id.org/ecsel-dr-SCP#goes_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#goes_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-SCP#goes_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Order_Schedule_Line> .
+<http://www.w3id.org/ecsel-dr-SCP#goes_to> <http://www.w3.org/2000/01/rdf-schema#label> "goes to"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#has_input_in
+<http://www.w3id.org/ecsel-dr-SCP#has_input_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#has_input_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders> .
+<http://www.w3id.org/ecsel-dr-SCP#has_input_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Operational_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#has_input_in> <http://www.w3.org/2000/01/rdf-schema#label> "has input in"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#has_input_supply_demand_match
+<http://www.w3id.org/ecsel-dr-SCP#has_input_supply_demand_match> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#has_input_supply_demand_match> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Stocks> .
+<http://www.w3id.org/ecsel-dr-SCP#has_input_supply_demand_match> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match> .
+<http://www.w3id.org/ecsel-dr-SCP#has_input_supply_demand_match> <http://www.w3.org/2000/01/rdf-schema#label> "has input"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#has_result_operational_demand
+<http://www.w3id.org/ecsel-dr-SCP#has_result_operational_demand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#has_result_operational_demand> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Marketing_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#has_result_operational_demand> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Operational_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#has_result_operational_demand> <http://www.w3.org/2000/01/rdf-schema#label> "has result operational demand"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#is_part_of_operational_demand
+<http://www.w3id.org/ecsel-dr-SCP#is_part_of_operational_demand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#is_part_of_operational_demand> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Forecast> .
+<http://www.w3id.org/ecsel-dr-SCP#is_part_of_operational_demand> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Operational_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#is_part_of_operational_demand> <http://www.w3.org/2000/01/rdf-schema#label> "is part of operational demand"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#is_place_orders
+<http://www.w3id.org/ecsel-dr-SCP#is_place_orders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#is_place_orders> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Customer> .
+<http://www.w3id.org/ecsel-dr-SCP#is_place_orders> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Order> .
+<http://www.w3id.org/ecsel-dr-SCP#is_place_orders> <http://www.w3.org/2000/01/rdf-schema#label> "is place orders"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#is_result_of_orders_reschedule
+<http://www.w3id.org/ecsel-dr-SCP#is_result_of_orders_reschedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#is_result_of_orders_reschedule> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#NEWs> .
+<http://www.w3id.org/ecsel-dr-SCP#is_result_of_orders_reschedule> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule> .
+<http://www.w3id.org/ecsel-dr-SCP#is_result_of_orders_reschedule> <http://www.w3.org/2000/01/rdf-schema#label> "is result of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#is_transfer_to
+<http://www.w3id.org/ecsel-dr-SCP#is_transfer_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#is_transfer_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-SCP#is_transfer_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Order_Schedule_Line> .
+<http://www.w3id.org/ecsel-dr-SCP#is_transfer_to> <http://www.w3.org/2000/01/rdf-schema#label> "is transfer to"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#matches
+<http://www.w3id.org/ecsel-dr-SCP#matches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#matches> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Capacity_Bottleneck> .
+<http://www.w3id.org/ecsel-dr-SCP#matches> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match> .
+<http://www.w3id.org/ecsel-dr-SCP#matches> <http://www.w3.org/2000/01/rdf-schema#label> "matches"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#matches_in
+<http://www.w3id.org/ecsel-dr-SCP#matches_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#matches_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Prioritized_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#matches_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match> .
+<http://www.w3id.org/ecsel-dr-SCP#matches_in> <http://www.w3.org/2000/01/rdf-schema#label> "matches in"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#matches_to
+<http://www.w3id.org/ecsel-dr-SCP#matches_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#matches_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Aggregated_Capacity> .
+<http://www.w3id.org/ecsel-dr-SCP#matches_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Marketing_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#matches_to> <http://www.w3.org/2000/01/rdf-schema#label> "matches to"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#obtained_from_sales_demand
+<http://www.w3id.org/ecsel-dr-SCP#obtained_from_sales_demand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#obtained_from_sales_demand> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Forecast> .
+<http://www.w3id.org/ecsel-dr-SCP#obtained_from_sales_demand> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Sales_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#obtained_from_sales_demand> <http://www.w3.org/2000/01/rdf-schema#label> "obtained from sales demand"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#provides
+<http://www.w3id.org/ecsel-dr-SCP#provides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#provides> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative> .
+<http://www.w3id.org/ecsel-dr-SCP#provides> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Promise> .
+<http://www.w3id.org/ecsel-dr-SCP#provides> <http://www.w3.org/2000/01/rdf-schema#label> "provides"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#result_to
+<http://www.w3id.org/ecsel-dr-SCP#result_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#result_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Bottleneck_Resource> .
+<http://www.w3id.org/ecsel-dr-SCP#result_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Capacity_Bottleneck> .
+<http://www.w3id.org/ecsel-dr-SCP#result_to> <http://www.w3.org/2000/01/rdf-schema#label> "result to"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#results_in
+<http://www.w3id.org/ecsel-dr-SCP#results_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#results_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book> .
+<http://www.w3id.org/ecsel-dr-SCP#results_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule> .
+<http://www.w3id.org/ecsel-dr-SCP#results_in> <http://www.w3.org/2000/01/rdf-schema#label> "results in"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#sent_to
+<http://www.w3id.org/ecsel-dr-SCP#sent_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#sent_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#NEWs> .
+<http://www.w3id.org/ecsel-dr-SCP#sent_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative> .
+<http://www.w3id.org/ecsel-dr-SCP#sent_to> <http://www.w3.org/2000/01/rdf-schema#label> "sent to"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#sort_to
+<http://www.w3id.org/ecsel-dr-SCP#sort_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#sort_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Order> .
+<http://www.w3id.org/ecsel-dr-SCP#sort_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-SCP#sort_to> <http://www.w3.org/2000/01/rdf-schema#label> "sort to"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#transfer_to
+<http://www.w3id.org/ecsel-dr-SCP#transfer_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#transfer_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Operational_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#transfer_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Prioritized_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#transfer_to> <http://www.w3.org/2000/01/rdf-schema#label> "transfer to"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#transfers
+<http://www.w3id.org/ecsel-dr-SCP#transfers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#transfers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Promise> .
+<http://www.w3id.org/ecsel-dr-SCP#transfers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Confirmation> .
+<http://www.w3id.org/ecsel-dr-SCP#transfers> <http://www.w3.org/2000/01/rdf-schema#label> "transfers"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#use_in
+<http://www.w3id.org/ecsel-dr-SCP#use_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#use_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Bottleneck_Resource> .
+<http://www.w3id.org/ecsel-dr-SCP#use_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Resource_Capacity> .
+<http://www.w3id.org/ecsel-dr-SCP#use_in> <http://www.w3.org/2000/01/rdf-schema#label> "use in"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#use_up
+<http://www.w3id.org/ecsel-dr-SCP#use_up> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#use_up> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-SCP#use_up> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Allocated_Available_To_Promise> .
+<http://www.w3id.org/ecsel-dr-SCP#use_up> <http://www.w3.org/2000/01/rdf-schema#label> "use up"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#uses_order_line_item
+<http://www.w3id.org/ecsel-dr-SCP#uses_order_line_item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#uses_order_line_item> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative> .
+<http://www.w3id.org/ecsel-dr-SCP#uses_order_line_item> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-SCP#uses_order_line_item> <http://www.w3.org/2000/01/rdf-schema#label> "uses order line item"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-SCP#confirmed_date
+<http://www.w3id.org/ecsel-dr-SCP#confirmed_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#confirmed_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book> .
+<http://www.w3id.org/ecsel-dr-SCP#confirmed_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.w3id.org/ecsel-dr-SCP#confirmed_date> <http://www.w3.org/2000/01/rdf-schema#label> "confirmed date"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#confirmed_quantity
+<http://www.w3id.org/ecsel-dr-SCP#confirmed_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#confirmed_quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book> .
+<http://www.w3id.org/ecsel-dr-SCP#confirmed_quantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-SCP#confirmed_quantity> <http://www.w3.org/2000/01/rdf-schema#label> "confirmed quantity"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#customer_location
+<http://www.w3id.org/ecsel-dr-SCP#customer_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#customer_location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Customer> .
+<http://www.w3id.org/ecsel-dr-SCP#customer_location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-SCP#customer_location> <http://www.w3.org/2000/01/rdf-schema#label> "customer location"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#customers_ID
+<http://www.w3id.org/ecsel-dr-SCP#customers_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#customers_ID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Customer> .
+<http://www.w3id.org/ecsel-dr-SCP#customers_ID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-SCP#customers_ID> <http://www.w3.org/2000/01/rdf-schema#label> "customers ID"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#granularity
+<http://www.w3id.org/ecsel-dr-SCP#granularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-SCP#granularity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-SCP#Customer> .
+<http://www.w3id.org/ecsel-dr-SCP#granularity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3id.org/ecsel-dr-SCP#granularity> <http://www.w3.org/2000/01/rdf-schema#label> "granularity"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/ssn/Stimulus
+<http://www.w3.org/ns/ssn/Stimulus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr#Planning_Lobe
+<http://www.w3id.org/ecsel-dr#Planning_Lobe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#AP_FCST
+<http://www.w3id.org/ecsel-dr-SCP#AP_FCST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#AP_FCST> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Forecast> .
+<http://www.w3id.org/ecsel-dr-SCP#AP_FCST> <http://www.w3.org/2000/01/rdf-schema#label> "AP FCST"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Aggregated_Capacity
+<http://www.w3id.org/ecsel-dr-SCP#Aggregated_Capacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Aggregated_Capacity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Aggregated_Capacity> <http://www.w3.org/2000/01/rdf-schema#comment> "(restricted) The Aggregated Capacity Group combines products that are interchangeable in production resources (e.g. can be produced on the same equipment) and having the same capacity consumption. Using an ACG provides flexibility in a way of switching demands of this products within this ACG."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Aggregated_Capacity> <http://www.w3.org/2000/01/rdf-schema#label> "Aggregated Capacity"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Allocated_Available_To_Promise
+<http://www.w3id.org/ecsel-dr-SCP#Allocated_Available_To_Promise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Allocated_Available_To_Promise> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Allocated_Available_To_Promise> <http://www.w3.org/2000/01/rdf-schema#comment> "AATP  is a data mart  that shows data from GOAL AATP process, combining data from 3 sources: SAP, I2 Applications and LogDB. \r\n\r\nThe universe provides access to the fact tables delivered by GOAL like Availability / Allocation Planning / Seller Mapping / Coverage."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Allocated_Available_To_Promise> <http://www.w3.org/2000/01/rdf-schema#label> "Allocated Available To Promise"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Available_To_Promise
+<http://www.w3id.org/ecsel-dr-SCP#Available_To_Promise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Available_To_Promise> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Available_To_Promise> <http://www.w3.org/2000/01/rdf-schema#comment> "Available to promise is a business function that provides a response to customer order inquiries, based on resource availability. It generates available quantities of the requested product, and delivery due dates."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Available_To_Promise> <http://www.w3.org/2000/01/rdf-schema#label> "Available To Promise"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Bottleneck_Resource
+<http://www.w3id.org/ecsel-dr-SCP#Bottleneck_Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Bottleneck_Resource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Resource_Capacity> .
+<http://www.w3id.org/ecsel-dr-SCP#Bottleneck_Resource> <http://www.w3.org/2000/01/rdf-schema#comment> "A bottleneck resource is an obstacle to smooth flow in a process."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Bottleneck_Resource> <http://www.w3.org/2000/01/rdf-schema#label> "Bottleneck Resource"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Buffer_Stock_Order
+<http://www.w3id.org/ecsel-dr-SCP#Buffer_Stock_Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Buffer_Stock_Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Order> .
+<http://www.w3id.org/ecsel-dr-SCP#Buffer_Stock_Order> <http://www.w3.org/2000/01/rdf-schema#label> "Buffer Stock Order"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Capacity_Bottleneck
+<http://www.w3id.org/ecsel-dr-SCP#Capacity_Bottleneck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Capacity_Bottleneck> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Capacity_Bottleneck> <http://www.w3.org/2000/01/rdf-schema#label> "Capacity Bottleneck"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Confirmation
+<http://www.w3id.org/ecsel-dr-SCP#Confirmation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Confirmation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Confirmation> <http://www.w3.org/2000/01/rdf-schema#comment> "Order acknowledgement"@en .
+<http://www.w3id.org/ecsel-dr-SCP#Confirmation> <http://www.w3.org/2000/01/rdf-schema#label> "Confirmation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Consignment_Order
+<http://www.w3id.org/ecsel-dr-SCP#Consignment_Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Consignment_Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Order> .
+<http://www.w3id.org/ecsel-dr-SCP#Consignment_Order> <http://www.w3.org/2000/01/rdf-schema#comment> "Consignment Stock is a logistics concept where the supplier (Vendor) owned goods are stored at a customer location.\r\n\r\nThe supplier (Vendor) is responsible to maintain his stock within a defined min/max level."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Consignment_Order> <http://www.w3.org/2000/01/rdf-schema#label> "Consignment Order"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Customer
+<http://www.w3id.org/ecsel-dr-SCP#Customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#General_Customer> .
+<http://www.w3id.org/ecsel-dr-SCP#Customer> <http://www.w3.org/2000/01/rdf-schema#comment> "A person or entity that buys goods or services  from a shop or business."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Customer> <http://www.w3.org/2000/01/rdf-schema#label> "Customer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative
+<http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative> <http://www.w3.org/2000/01/rdf-schema#comment> "A Customer Logistics Management Representative (CLM) is the “one face to our customers” that takes care of all customers’ supply chain topics. He or she channels all customer logistic requirements into Infineon’s organization and balances the needs against our capabilities."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative> <http://www.w3.org/2000/01/rdf-schema#comment> "Being the main interface between Customer, Sales and the Supply Chain Planner he is responsible for the demand fulfilment process. It is his task to ensure in-time delivery to customers based on orders and forecasts and to achieve high customer satisfaction."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Logistics Management Representative"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#DC
+<http://www.w3id.org/ecsel-dr-SCP#DC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#DC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Stocks> .
+<http://www.w3id.org/ecsel-dr-SCP#DC> <http://www.w3.org/2000/01/rdf-schema#comment> "A DC Facility represents a finished goods store."@en .
+<http://www.w3id.org/ecsel-dr-SCP#DC> <http://www.w3.org/2000/01/rdf-schema#label> "DC"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Die_Bank
+<http://www.w3id.org/ecsel-dr-SCP#Die_Bank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Die_Bank> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Stocks> .
+<http://www.w3id.org/ecsel-dr-SCP#Die_Bank> <http://www.w3.org/2000/01/rdf-schema#comment> "A die bank is an area in production where (usually) tested wafers are stored waiting for disposition and further production."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Die_Bank> <http://www.w3.org/2000/01/rdf-schema#label> "Die Bank"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#EDI_Forecast
+<http://www.w3id.org/ecsel-dr-SCP#EDI_Forecast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#EDI_Forecast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Order> .
+<http://www.w3id.org/ecsel-dr-SCP#EDI_Forecast> <http://www.w3.org/2000/01/rdf-schema#comment> "The EDI Forecast Universe is a Data Mart that was started in 2010 (?) to support Forecast Accuracy  analysis"@en .
+<http://www.w3id.org/ecsel-dr-SCP#EDI_Forecast> <http://www.w3.org/2000/01/rdf-schema#label> "EDI Forecast"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Forecast
+<http://www.w3id.org/ecsel-dr-SCP#Forecast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Forecast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Operational_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#Forecast> <http://www.w3.org/2000/01/rdf-schema#comment> "Forecast is an unconstrained prospect about the customer future demand."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Forecast> <http://www.w3.org/2000/01/rdf-schema#label> "Forecast"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#General_Customer
+<http://www.w3id.org/ecsel-dr-SCP#General_Customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#General_Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#General_Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Customer> .
+<http://www.w3id.org/ecsel-dr-SCP#General_Customer> <http://www.w3.org/2000/01/rdf-schema#label> "General Customers"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#HP_Forecast
+<http://www.w3id.org/ecsel-dr-SCP#HP_Forecast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#HP_Forecast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Forecast> .
+<http://www.w3id.org/ecsel-dr-SCP#HP_Forecast> <http://www.w3.org/2000/01/rdf-schema#label> "HP Forecast"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Marketing_Demand
+<http://www.w3id.org/ecsel-dr-SCP#Marketing_Demand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Marketing_Demand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Marketing_Demand> <http://www.w3.org/2000/01/rdf-schema#label> "Marketing Demand"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Max_Stock
+<http://www.w3id.org/ecsel-dr-SCP#Max_Stock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Max_Stock> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks> .
+<http://www.w3id.org/ecsel-dr-SCP#Max_Stock> <http://www.w3.org/2000/01/rdf-schema#comment> "The amount of inventory which should not be exceeded. The limit is normally determined after considering storage space of the facilities, how quickly inventory is sold or used, cost of insurance on inventory, and the risk of inventory becoming outdated before it is used."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Max_Stock> <http://www.w3.org/2000/01/rdf-schema#label> "Max Stock"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Min_Stock
+<http://www.w3id.org/ecsel-dr-SCP#Min_Stock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Min_Stock> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks> .
+<http://www.w3id.org/ecsel-dr-SCP#Min_Stock> <http://www.w3.org/2000/01/rdf-schema#comment> "The minimum level of inventory is a kind of a precautionary level of inventory which indicates that the delivery of raw materials or merchandise may take more than the normal lead time."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Min_Stock> <http://www.w3.org/2000/01/rdf-schema#comment> "The minimum level of stock is a certain predetermined minimum quantity of raw materials or product inventory which should always be available in stock in the normal course of business."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Min_Stock> <http://www.w3.org/2000/01/rdf-schema#label> "Min Stock"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#NEWs
+<http://www.w3id.org/ecsel-dr-SCP#NEWs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#NEWs> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#NEWs> <http://www.w3.org/2000/01/rdf-schema#label> "nEWs"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#NP_Forecast
+<http://www.w3id.org/ecsel-dr-SCP#NP_Forecast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#NP_Forecast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Forecast> .
+<http://www.w3id.org/ecsel-dr-SCP#NP_Forecast> <http://www.w3.org/2000/01/rdf-schema#label> "NP Forecast"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#OP_Forecast
+<http://www.w3id.org/ecsel-dr-SCP#OP_Forecast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#OP_Forecast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Forecast> .
+<http://www.w3id.org/ecsel-dr-SCP#OP_Forecast> <http://www.w3.org/2000/01/rdf-schema#label> "OP Forecast"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book
+<http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book> <http://www.w3.org/2000/01/rdf-schema#comment> "An order book is a business's list of open, unshipped, customer orders, normally time-phased and valued at actual individual order prices, that may include margin and profitability analysis."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book> <http://www.w3.org/2000/01/rdf-schema#label> "Open Order Book"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Operational_Demand
+<http://www.w3id.org/ecsel-dr-SCP#Operational_Demand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Operational_Demand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Operational_Demand> <http://www.w3.org/2000/01/rdf-schema#label> "Operational Demand"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Order
+<http://www.w3id.org/ecsel-dr-SCP#Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Order> <http://www.w3.org/2000/01/rdf-schema#label> "Order"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item
+<http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item> <http://www.w3.org/2000/01/rdf-schema#comment> "Every product on the order is referenced by a record that includes quantity and a reference to which order it belongs."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item> <http://www.w3.org/2000/01/rdf-schema#label> "Order Line Item"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule
+<http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule> <http://www.w3.org/2000/01/rdf-schema#comment> "Any change in the requested order delivery date in an order line is referred to as an order rescheduling."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule> <http://www.w3.org/2000/01/rdf-schema#label> "Order Reschedule"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Order_Schedule_Line
+<http://www.w3id.org/ecsel-dr-SCP#Order_Schedule_Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Order_Schedule_Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Order_Schedule_Line> <http://www.w3.org/2000/01/rdf-schema#comment> "Schedule lines contain all the delivery related information"@en .
+<http://www.w3id.org/ecsel-dr-SCP#Order_Schedule_Line> <http://www.w3.org/2000/01/rdf-schema#label> "Order Schedule Line"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Prioritized_Demand
+<http://www.w3id.org/ecsel-dr-SCP#Prioritized_Demand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Prioritized_Demand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Prioritized_Demand> <http://www.w3.org/2000/01/rdf-schema#comment> "The demand that should be covered first."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Prioritized_Demand> <http://www.w3.org/2000/01/rdf-schema#label> "Prioritized Demand"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders
+<http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders> <http://www.w3.org/2000/01/rdf-schema#comment> "Orders that should be completed first."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders> <http://www.w3.org/2000/01/rdf-schema#label> "Prioritized Orders"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Private_Customer
+<http://www.w3id.org/ecsel-dr-SCP#Private_Customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Private_Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Customer> .
+<http://www.w3id.org/ecsel-dr-SCP#Private_Customer> <http://www.w3.org/2000/01/rdf-schema#label> "Private Customers"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Promise
+<http://www.w3id.org/ecsel-dr-SCP#Promise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Promise> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Promise> <http://www.w3.org/2000/01/rdf-schema#comment> "Is the uncommitted portion of supply by the master production schedule and material plan"@en .
+<http://www.w3id.org/ecsel-dr-SCP#Promise> <http://www.w3.org/2000/01/rdf-schema#label> "Promise"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Ramp_Up_Stock
+<http://www.w3id.org/ecsel-dr-SCP#Ramp_Up_Stock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Ramp_Up_Stock> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks> .
+<http://www.w3id.org/ecsel-dr-SCP#Ramp_Up_Stock> <http://www.w3.org/2000/01/rdf-schema#label> "Ramp Up Stock"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Resource_Capacity
+<http://www.w3id.org/ecsel-dr-SCP#Resource_Capacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Resource_Capacity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Aggregated_Capacity> .
+<http://www.w3id.org/ecsel-dr-SCP#Resource_Capacity> <http://www.w3.org/2000/01/rdf-schema#comment> "Resource capacity planning is about comparing future resource utilization of project resources against available capacity to do work."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Resource_Capacity> <http://www.w3.org/2000/01/rdf-schema#label> "Resource Capacity"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Retained_Stock
+<http://www.w3id.org/ecsel-dr-SCP#Retained_Stock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Retained_Stock> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks> .
+<http://www.w3id.org/ecsel-dr-SCP#Retained_Stock> <http://www.w3.org/2000/01/rdf-schema#label> "Retained Stock"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks
+<http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Operational_Demand> .
+<http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks> <http://www.w3.org/2000/01/rdf-schema#label> "SSO Stocks"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Safety_Stock
+<http://www.w3id.org/ecsel-dr-SCP#Safety_Stock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Safety_Stock> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks> .
+<http://www.w3id.org/ecsel-dr-SCP#Safety_Stock> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes a level of extra stock that is maintained to mitigate risk of stockouts  caused by uncertainties in supply and demand."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Safety_Stock> <http://www.w3.org/2000/01/rdf-schema#label> "Safety Stock"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Sales_Demand
+<http://www.w3id.org/ecsel-dr-SCP#Sales_Demand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Sales_Demand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Sales_Demand> <http://www.w3.org/2000/01/rdf-schema#label> "Sales Demand"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Standard_Order
+<http://www.w3id.org/ecsel-dr-SCP#Standard_Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Standard_Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Order> .
+<http://www.w3id.org/ecsel-dr-SCP#Standard_Order> <http://www.w3.org/2000/01/rdf-schema#label> "Standard Order"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Stocks
+<http://www.w3id.org/ecsel-dr-SCP#Stocks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Stocks> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/ssn/Stimulus> .
+<http://www.w3id.org/ecsel-dr-SCP#Stocks> <http://www.w3.org/2000/01/rdf-schema#comment> "A supply of something for use or sale"@en .
+<http://www.w3id.org/ecsel-dr-SCP#Stocks> <http://www.w3.org/2000/01/rdf-schema#label> "Stocks"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match
+<http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match> <http://www.w3.org/2000/01/rdf-schema#comment> "Supply and demand match when sufficient materials exist to cover material demand while taking available capacity into account."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match> <http://www.w3.org/2000/01/rdf-schema#label> "Supply Demand Match"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Supply_Picture
+<http://www.w3id.org/ecsel-dr-SCP#Supply_Picture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Supply_Picture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Supply_Picture> <http://www.w3.org/2000/01/rdf-schema#label> "Supply Picture"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Target_Allocation
+<http://www.w3id.org/ecsel-dr-SCP#Target_Allocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#Target_Allocation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+<http://www.w3id.org/ecsel-dr-SCP#Target_Allocation> <http://www.w3.org/2000/01/rdf-schema#comment> "The target allocation is the level of allocation planned by the company."@en .
+<http://www.w3id.org/ecsel-dr-SCP#Target_Allocation> <http://www.w3.org/2000/01/rdf-schema#label> "Target Allocation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#WIP
+<http://www.w3id.org/ecsel-dr-SCP#WIP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-SCP#WIP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-SCP#Stocks> .
+<http://www.w3id.org/ecsel-dr-SCP#WIP> <http://www.w3.org/2000/01/rdf-schema#comment> "Work In Progress (WIP) includes the unfinished items for products in a production process. \r\nThese items are not yet completed but either just being fabricated or waiting in a queue for further processing."@en .
+<http://www.w3id.org/ecsel-dr-SCP#WIP> <http://www.w3.org/2000/01/rdf-schema#label> "Work In Progress"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

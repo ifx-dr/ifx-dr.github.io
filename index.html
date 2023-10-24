@@ -293,7 +293,7 @@
                 display: inline-block;
                 width:33%;
                 float:left;
-                margin-bottom: 150px;
+                margin-bottom: 100px;
               }
         /* Style the tab */
         .tab {
@@ -546,54 +546,56 @@
           <button class="tablinks active" onclick="opentab(event, 1,1)">Metadata</button>
           <button class="tablinks" onclick="opentab(event, 2,1)">Introduction</button>
           </div>
+
           <div id="Me" class="tabcontent active">
             <h2>Metadata</h2>
-                <div>
-                  <dt>
-                    <a class="hover_property" href="http://purl.org/dc/terms/creator" title="An entity responsible for making the resource. Defined in DCMI Metadata Terms">Creator</a>
-                  </dt>
-                  <dd>
-                    <ul>
-                      <li><p>George Dimitrakopoulos</p></li>
-                      <li><p>Hans Ehm</p></li>
-                    </ul>
-                  </dd>
-                </div>
-                <div>
-                  <dt>
-                    <a class="hover_property" href="http://purl.org/dc/terms/created" title="Date of creation of the resource. Defined in DCMI Metadata Terms">Date Created</a>
-                  </dt>
-                  <dd><p>2019-11-07</p></dd>
-                </div>
-                <div>
-                  <dt>
-                    <a class="hover_property" href="http://purl.org/dc/terms/modified" title="Date on which the resource was changed. Defined in DCMI Metadata Terms">Date Modified</a>
-                  </dt>
-                  <dd><p>2020-09-18</p></dd>
-                </div>
-                <div>
-                  <dt>
-                    <a class="hover_property" href="http://www.w3.org/2002/07/owl#versionInfo" title="The annotation property that provides version information for an ontology or another OWL construct. Defined in The OWL 2 Schema vocabulary (OWL 2)">Version Info</a>
-                  </dt>
-                  <dd><p>Version 1.1</p></dd>
-                </div>
-                <div>
-                  <dt>
-                    <strong>IRI</strong>
-                  </dt>
-                  <dd>
-                    <code>http://www.w3id.org/ecsel-dr</code>
-                  </dd>
-                </div>
-                <div>
-                  <dt>
-                    <strong>Github</strong>
-                  </dt>
-                  <dd>
-                    <a href="https://github.com/tibonto/dr/">https://github.com/tibonto/dr/</a>
-                  </dd>
-                </div>
+              <div>
+                <dt>
+                  <a class="hover_property" href="http://purl.org/dc/terms/creator" title="An entity responsible for making the resource. Defined in DCMI Metadata Terms">Creator</a>
+                </dt>
+                <dd>
+                  <ul>
+                    <li><p>George Dimitrakopoulos</p></li>
+                    <li><p>Hans Ehm</p></li>
+                  </ul>
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  <a class="hover_property" href="http://purl.org/dc/terms/created" title="Date of creation of the resource. Defined in DCMI Metadata Terms">Date Created</a>
+                </dt>
+                <dd><p>2019-11-07</p></dd>
+              </div>
+              <div>
+                <dt>
+                  <a class="hover_property" href="http://purl.org/dc/terms/modified" title="Date on which the resource was changed. Defined in DCMI Metadata Terms">Date Modified</a>
+                </dt>
+                <dd><p>2020-09-18</p></dd>
+              </div>
+              <div>
+                <dt>
+                  <a class="hover_property" href="http://www.w3.org/2002/07/owl#versionInfo" title="The annotation property that provides version information for an ontology or another OWL construct. Defined in The OWL 2 Schema vocabulary (OWL 2)">Version Info</a>
+                </dt>
+                <dd><p>Version 1.1</p></dd>
+              </div>
+              <div>
+                <dt>
+                  <strong>IRI</strong>
+                </dt>
+                <dd>
+                  <code>http://www.w3id.org/ecsel-dr</code>
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  <strong>Github</strong>
+                </dt>
+                <dd>
+                  <a href="https://github.com/tibonto/dr/">https://github.com/tibonto/dr/</a>
+                </dd>
+              </div>
           </div>
+
           <div id="In" class="tabcontent">
             <h2>Introduction</h2>
             <p>
@@ -609,188 +611,231 @@
             <p class='center'><b>Lobes of Digital Reference</b></p>
           </div>
         </div>
+      </div>
       <iframe align="center" width="100%" height ="700px" src="http://ontology.tib.eu/dr/visualization"></iframe>
       <div id="namespaces">
         <h2>Namespaces</h2>
         <div class="text1">
-          <dt id="dc"><abbr title="Dublin Core Metadata Initiative">dc</abbr></dt>
-          <dd>
-            <code>http://purl.org/dc/elements/1.1/</code>
-          </dd>
-          <dt id="dcmitype"><abbr title="DCMI Type Vocabulary">dcmitype</abbr></dt>
-          <dd>
-            <code>http://purl.org/dc/dcmitype/</code>
-          </dd>
           <dt id="dr"><abbr title="Digital Reference">dr</abbr></dt>
           <dd>
-            <code>http://www.w3id.org/ecsel-dr#</code>
+            <code><a href=# target="_blank">http://www.w3id.org/ecsel-dr#</a></code>
           </dd>
           <dt id="ecsel-dr-AH"><abbr title="Arrowhead">ecsel-dr-AH</abbr></dt>
           <dd>
-            <code>http://www.w3id.org/ecsel-dr-AH#</code>
+            <code><a href="subontologies/Arrowhead/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-AH#</a></code>
           </dd>
-          <dt id="ecsel-dr-AT"><abbr title="Automation Technology">ecsel-dr-AT</abbr></dt>
+          <dt id="ecsel-dr-AT"><abbr title="Automation Technologies">ecsel-dr-AT</abbr></dt>
           <dd>
-            <code>http://www.w3id.org/ecsel-dr-AT#</code>
+            <code><a href="subontologies/Automation Technologies/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-AT#</a></code>
+          </dd>
+          <dt id="ecsel-dr-BMS"><abbr title="Battery Management System">ecsel-dr-BMS</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Battery Management System/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-BMS#</a></code>
+          </dd>
+          <dt id="ecsel-dr-CO2Savings"><abbr title="CO2 Savings">ecsel-dr-CO2Savings</abbr></dt>
+          <dd>
+            <code><a href="subontologies/CO2Savings/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-CO2Savings#</a></code>
+          </dd>
+          <dt id="ecsel-dr-Incoterms"><abbr title="Incoterms">ecsel-dr-Incoterms</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Incoterms/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-Incoterms#</a></code>
+          </dd>
+          <dt id="ecsel-dr-OM"><abbr title="Order Management">ecsel-dr-OM</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Order Management/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-OM#</a></code>
           </dd>
           <dt id="ecsel-dr-OOSMP"><abbr title="Open Online Sales Marketing Platform">ecsel-dr-OOSMP</abbr></dt>
           <dd>
-            <code>http://www.w3id.org/ecsel-dr-OOSMP#</code>
+            <code><a href="subontologies/OOSMP/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-OOSMP#</a></code>
+          </dd>
+          <dt id="ecsel-dr-ORG"><abbr title="Organization">ecsel-dr-ORG</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Organization/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-ORG#</a></code>
+          </dd>
+          <dt id="ecsel-dr-PMV"><abbr title="Process Model Version">ecsel-dr-PMV</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Process Model Version/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-PMV#</a></code>
           </dd>
           <dt id="ecsel-dr-PROD"><abbr title="Product">ecsel-dr-PROD</abbr></dt>
           <dd>
-            <code>http://www.w3id.org/ecsel-dr-PROD#</code>
-          </dd>
-          <dt id="ecsel-dr-RAMI40"><abbr title="Reference Architectural Model Industrie 4.0">ecsel-dr-RAMI40</abbr></dt>
-          <dd>
-            <code>http://www.w3id.org/ecsel-dr-RAMI40#</code>
+            <code><a href="subontologies/Product/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-PROD#</a></code>
           </dd>
         </div>
         <div class="text2">
-          <dt id="foaf"><abbr title="Friend of a Friend vocabulary">foaf</abbr></dt>
+          <dt id="ecsel-dr-PWR"><abbr title="Power">ecsel-dr-PWR</abbr></dt>
           <dd>
-            <code>http://xmlns.com/foaf/0.1/</code>
+            <code><a href="subontologies/Power/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-PWR#</a></code>
           </dd>
-          <dt id="org"><abbr title="Organization">org</abbr></dt>
+          <dt id="ecsel-dr-RAMI40"><abbr title="Reference Architectural Model Industrie 4.0">ecsel-dr-RAMI40</abbr></dt>
           <dd>
-            <code>http://www.w3.org/ns/org#</code>
+            <code><a href="subontologies/RAMI4.0/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-RAMI40#</a></code>
           </dd>
-          <dt id="owl"><abbr title="Web ontology language">owl</abbr></dt>
+          <dt id="ecsel-dr-SCP"><abbr title="Supply Chain Planning">ecsel-dr-SCP</abbr></dt>
           <dd>
-            <code>http://www.w3.org/2002/07/owl#</code>
+            <code><a href="subontologies/Supply Chain Planning/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-SCP#</a></code>
           </dd>
-          <dt id="prov"><abbr title="Provenance">prov</abbr></dt>
+          <dt id="ecsel-dr-SO"><abbr title="SemiOps">ecsel-dr-SO</abbr></dt>
           <dd>
-            <code>http://www.w3.org/ns/prov#</code>
+            <code><a href="subontologies/SemiOps/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-SO#</a></code>
           </dd>
-          <dt id="rdf"><abbr title="resource description framework">rdf</abbr></dt>
+          <dt id="Sensor"><abbr title="Sensor">Sensor</abbr></dt>
           <dd>
-            <code>http://www.w3.org/1999/02/22-rdf-syntax-ns#</code>
-          </dd>
-          <dt id="rdfs"><abbr title="resource description framework schema">rdfs</abbr></dt>
-          <dd>
-            <code>http://www.w3.org/2000/01/rdf-schema#</code>
-          </dd>
-          <dt id="schema1">schema1</dt>
-          <dd>
-            <code>http://schema.org/</code>
-          </dd>
-          <dt id="skos"><abbr title="Simple Knowledge Organization Systemskos">skos</dt>
-          <dd>
-            <code>http://www.w3.org/2004/02/skos/core#</code>
-          </dd>
-        </div>
-        <div class="text3">
-          <dt id="sosa"><abbr title="Sensor, Observation, Sample, and Actuator">sosa</dt>
-          <dd>
-            <code>http://www.w3.org/ns/sosa/</code>
-          </dd>
-          <dt id="ssn"><abbr title="Semantic Sensor Network">ssn</abbr></dt>
-          <dd>
-            <code>http://www.w3.org/ns/ssn/</code>
-          </dd>
-          <dt id="swrl"><abbr title="Semantic Web Rule Language">swrl</abbr></dt>
-          <dd>
-            <code>http://www.w3.org/2003/11/swrl#</code>
-          </dd>
-          <dt id="terms"><abbr title="DCMI Metadata Terms">terms</abbr></dt>
-          <dd>
-            <code>http://purl.org/dc/terms/</code>
+            <code><a href="http://www.w3.org/ns/sosa/Sensor" target="_blank">http://www.w3.org/ns/sosa/Sensor</a></code>
           </dd>
           <dt id="time">time</dt>
           <dd>
-            <code>http://www.w3.org/2006/time#</code>
+            <code><a href="subontologies/Time/index-en.html" target="_blank">http://www.w3.org/2006/time#</a></code>
+          </dd>
+          <dt id="dc"><abbr title="Dublin Core Metadata Initiative">dc</abbr></dt>
+          <dd>
+            <code><a href=http://purl.org/dc/elements/1.1/ target="_blank">http://purl.org/dc/elements/1.1/</a></code>
+          </dd>
+          <dt id="dcmitype"><abbr title="DCMI Type Vocabulary">dcmitype</abbr></dt>
+          <dd>
+            <code><a href=http://purl.org/dc/dcmitype/ target="_blank">http://purl.org/dc/dcmitype/</a></code>
+          </dd>
+          <dt id="foaf"><abbr title="Friend of a Friend vocabulary">foaf</abbr></dt>
+          <dd>
+            <code><a href=http://xmlns.com/foaf/0.1/ target="_blank">http://xmlns.com/foaf/0.1/</a></code>
+          </dd>
+          <dt id="org"><abbr title="Organization">org</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Core organization ontology/index-en.html" target="_blank">http://www.w3.org/ns/org#</a></code>
+          </dd>
+          <dt id="owl"><abbr title="Web ontology language">owl</abbr></dt>
+          <dd>
+            <code><a href="subontologies/OWL/index-en.html" target="_blank">http://www.w3.org/2002/07/owl#</a></code>
+          </dd>
+        </div>
+        <div class="text3">
+          <dt id="prov"><abbr title="Provenance">prov</abbr></dt>
+          <dd>
+            <code><a href="http://www.w3.org/ns/prov" target="_blank">http://www.w3.org/ns/prov#</a></code>
+          </dd>
+          <dt id="rdf"><abbr title="resource description framework">rdf</abbr></dt>
+          <dd>
+            <code><a href="subontologies/rdf/index-en.html" target="_blank">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a></code>
+          </dd>
+          <dt id="rdfs"><abbr title="resource description framework schema">rdfs</abbr></dt>
+          <dd>
+            <code><a href="subontologies/rdfs/index-en.html" target="_blank">http://www.w3.org/2000/01/rdf-schema#</a></code>
+          </dd>
+          <dt id="schema1">schema1</dt>
+          <dd>
+            <code><a href="http://schema.org/" target="_blank">http://schema.org/</a></code>
+          </dd>
+          <dt id="skos"><abbr title="Simple Knowledge Organization Systemskos">skos</abbr></dt>
+          <dd>
+            <code><a href="http://www.w3.org/2004/02/skos/core" target="_blank">http://www.w3.org/2004/02/skos/core#</a></code>
+          </dd>
+          <dt id="sosa"><abbr title="Sensor, Observation, Sample, and Actuator">sosa</abbr></dt>
+          <dd>
+            <code><a href="subontologies/sosa/index-en.html" target="_blank">http://www.w3.org/ns/sosa/</a></code>
+          </dd>
+          <dt id="ssn"><abbr title="Semantic Sensor Network">ssn</abbr></dt>
+          <dd>
+            <code><a href="subontologies/ssn/index-en.html" target="_blank">http://www.w3.org/ns/ssn/</a></code>
+          </dd>
+          <dt id="swrl"><abbr title="Semantic Web Rule Language">swrl</abbr></dt>
+          <dd>
+            <code><a href="https://www.w3.org/submissions/2004/SUBM-SWRL-20040521/" target="_blank">http://www.w3.org/2003/11/swrl#</a></code>
+          </dd>
+          <dt id="terms"><abbr title="DCMI Metadata Terms">terms</abbr></dt>
+          <dd>
+            <code><a href="http://purl.org/dc/terms/" target="_blank">http://purl.org/dc/terms/</a></code>
           </dd>
           <dt id="vann"><abbr title="A vocabulary for annotating vocabulary descriptions">vann</abbr></dt>
           <dd>
-            <code>http://purl.org/vocab/vann/</code>
+            <code><a href="http://purl.org/vocab/vann" target="_blank">http://purl.org/vocab/vann/</a></code>
           </dd>
           <dt id="xsd"><abbr title="XMLSchema">xsd</abbr></dt>
           <dd>
-            <code>http://www.w3.org/2001/XMLSchema#</code>
+            <code><a href="http://www.w3.org/2001/XMLSchema" target="_blank">http://www.w3.org/2001/XMLSchema#</a></code>
           </dd>
         </div>
       </div>
-      <h2>Lobes</h2>
-        <div class="container">
-          <div>
-            <img src="figures/Lobes_empty_resize.png"  class="map" usemap="#simple">
-            <map name="simple">
-              <area id="cloud_map" alt="cloud" title="cloud" href="" coords="192,279,392,428" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-              <area id="organization_map" alt="organization" title="organization" href="" coords="205,344,92,184" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-              <area id="planning_map" alt="planning" title="planning" href="" coords="73,153,273,314" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-              <area id="power_map" alt="power" title="power" href="" coords="41,0,255,110" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-              <area id="process_map" alt="process" title="process" href="" coords="165,204,284,407" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-              <area id="product_map" alt="product" title="product" href="" coords="48,169,249,285" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-              <area id="semidev_map" alt="semidev" title="semidev" href="" coords="9,100,222,229" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-              <area id="semiprod_map" alt="semiprod" title="semiprod" href="" coords="239,122,81,242" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-              <area id="sensor_map" alt="sensor" title="sensor" href="" coords="57,262,227,398" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-              <area id="supplychain_map" alt="supplychain" title="supplychain" href="" coords="106,214,244,427" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-              <area id="sustainability_map" alt="sustainability" title="sustainability" href="" coords="316,158,424,276" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-              <area id="system_map" alt="system" title="system" href="" coords="305,195,128,360" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-              <area id="time_map" alt="time" title="time" href="" coords="301,272,169,149" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-              <area id="wiredcom_map" alt="wiredcom" title="wiredcom" href="" coords="382,169,167,23" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
-            </map>
+      <div id="lobes">
+        <h2>Lobes</h2>
+          <div class="container">
+            <div>
+              <img src="figures/Lobes_empty_resize.png"  class="map" usemap="#simple">
+              <map name="simple">
+                <area id="cloud_map" alt="cloud" title="cloud" href="" coords="192,279,392,428" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="organization_map" alt="organization" title="organization" href="" coords="205,344,92,184" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="planning_map" alt="planning" title="planning" href="" coords="73,153,273,314" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="power_map" alt="power" title="power" href="" coords="41,0,255,110" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="process_map" alt="process" title="process" href="" coords="165,204,284,407" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="product_map" alt="product" title="product" href="" coords="48,169,249,285" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="semidev_map" alt="semidev" title="semidev" href="" coords="9,100,222,229" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="semiprod_map" alt="semiprod" title="semiprod" href="" coords="239,122,81,242" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="sensor_map" alt="sensor" title="sensor" href="" coords="57,262,227,398" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="supplychain_map" alt="supplychain" title="supplychain" href="" coords="106,214,244,427" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="sustainability_map" alt="sustainability" title="sustainability" href="" coords="316,158,424,276" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="system_map" alt="system" title="system" href="" coords="305,195,128,360" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="time_map" alt="time" title="time" href="" coords="301,272,169,149" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="wiredcom_map" alt="wiredcom" title="wiredcom" href="" coords="382,169,167,23" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+              </map>
+            </div>
+            <div class="text">
+              <details class="mainDetails">
+                <summary><a id="cloudlink" href="#cloud_map">Cloud</a></summary>
+                <p>Cloud refers to a network of remote servers that store, manage, and process data and applications, providing on-demand access and scalable computing resources over the internet.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="organizationlink" href="#organization_map">Organization</a></summary>
+                <p>Organization refers to the structural and managerial aspects such as organizational structure, roles and responsibilities, efficient coordination and collaboration among various stakeholders within the semiconductor supply chains.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="planninglink" href="#planning_map">Planning</a></summary>
+                <p>Planning is about making strategic decisions and creating comprehensive plans to ensure the efficient and effective flow of materials, products, and information throughout the manufacturing and distribution process. In includes information about marketing and sales demans, demand march, aggregated capacity, capacity bottlenecks, orders and customers.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="powerlink" href="#power_map">Power</a></summary>
+                <p>Power refers to the electrical energy consumed or dissipated by electronic devices or components during their operation, and is a crucial consideration for efficiency and performance optimization.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="processlink" href="#process_map">Process</a></summary>
+                <p>Process refers to a series of interconnected and sequential actions, steps, or operations designed to achieve a specific outcome or goal within a system or organization.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="productlink" href="#product_map">Product</a></summary>
+                <p>A product is a tangible or intangible item or service that is created, manufactured, or offered to fulfill a need or desire of customers.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="semidevlink" href="#semidev_map">Semiconductor Development</a></summary>
+                <p>Semiconductor development refers to the process of researching, designing, and creating semiconductor devices to meet technological avancements and inductry demands.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="semiprodlink" href="#semiprod_map">Semiconductor Production</a></summary>
+                <p>Semiconductor production refers to the manufacturing process of creating integrated circuits and other semiconductor devices by deposing, patterning, and doping various materials on a substrate to form electronic components.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="sensorlink" href="#sensor_map">Sensor</a></summary>
+                <p>A sensor is a device or component that detects and measures physical, chemical or environmental parameters and converts them into electrical signals for futher analysis or use.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="supplychainlink" href="#supplychain_map">Supply Chain</a></summary>
+                <p>Supply chain refers to a network of interconnected organizations, activities, resources, and technologies involved in the production, distribution, and delivery of goods or services from the source to end consumer.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="sustainabilitylink" href="#sustainability_map">Sustainability</a></summary>
+                <p>Sustainability refers to the practice of meeting present needs without compromising the ability of future generations to meet their own needs, balancing environmental, social, and economic considerations.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="systemlink" href="#system_map">System</a></summary>
+                <p>A system is a collection of interconnected components or elements that work together to perform a specific function or achieve a particular objective.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="timelink" href="#time_map">Time</a></summary>
+                <p>Time refers to a measurable dimension in which events occur sequentially and can be used to qualify the duration between occurences.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="wiredcomlink" href="#wiredcom_map">Wired Communication</a></summary>
+                <p>Wired communication refers to the transmission of data or signals through physical connections such as cables or wires.</p>
+              </details>            
+            </div>
           </div>
-          <div class="text">
-            <details class="mainDetails">
-              <summary><a id="cloudlink" href="#cloud_map">Cloud</a></summary>
-              <p>Cloud refers to a network of remote servers that store, manage, and process data and applications, providing on-demand access and scalable computing resources over the internet.</p>
-            </details>
-            <details class="mainDetails">
-              <summary><a id="organizationlink" href="#organization_map">Organization</a></summary>
-              <p>Organization refers to the structural and managerial aspects such as organizational structure, roles and responsibilities, efficient coordination and collaboration among various stakeholders within the semiconductor supply chains.</p>
-            </details>
-            <details class="mainDetails">
-              <summary><a id="planninglink" href="#planning_map">Planning</a></summary>
-              <p>Planning is about making strategic decisions and creating comprehensive plans to ensure the efficient and effective flow of materials, products, and information throughout the manufacturing and distribution process. In includes information about marketing and sales demans, demand march, aggregated capacity, capacity bottlenecks, orders and customers.</p>
-            </details>
-            <details class="mainDetails">
-              <summary><a id="powerlink" href="#power_map">Power</a></summary>
-              <p>Power refers to the electrical energy consumed or dissipated by electronic devices or components during their operation, and is a crucial consideration for efficiency and performance optimization.</p>
-            </details>
-            <details class="mainDetails">
-              <summary><a id="processlink" href="#process_map">Process</a></summary>
-              <p>Process refers to a series of interconnected and sequential actions, steps, or operations designed to achieve a specific outcome or goal within a system or organization.</p>
-            </details>
-            <details class="mainDetails">
-              <summary><a id="productlink" href="#product_map">Product</a></summary>
-              <p>A product is a tangible or intangible item or service that is created, manufactured, or offered to fulfill a need or desire of customers.</p>
-            </details>
-            <details class="mainDetails">
-              <summary><a id="semidevlink" href="#semidev_map">Semiconductor Development</a></summary>
-              <p>Semiconductor development refers to the process of researching, designing, and creating semiconductor devices to meet technological avancements and inductry demands.</p>
-            </details>
-            <details class="mainDetails">
-              <summary><a id="semiprodlink" href="#semiprod_map">Semiconductor Production</a></summary>
-              <p>Semiconductor production refers to the manufacturing process of creating integrated circuits and other semiconductor devices by deposing, patterning, and doping various materials on a substrate to form electronic components.</p>
-            </details>
-            <details class="mainDetails">
-              <summary><a id="sensorlink" href="#sensor_map">Sensor</a></summary>
-              <p>A sensor is a device or component that detects and measures physical, chemical or environmental parameters and converts them into electrical signals for futher analysis or use.</p>
-            </details>
-            <details class="mainDetails">
-              <summary><a id="supplychainlink" href="#supplychain_map">Supply Chain</a></summary>
-              <p>Supply chain refers to a network of interconnected organizations, activities, resources, and technologies involved in the production, distribution, and delivery of goods or services from the source to end consumer.</p>
-            </details>
-            <details class="mainDetails">
-              <summary><a id="sustainabilitylink" href="#sustainability_map">Sustainability</a></summary>
-              <p>Sustainability refers to the practice of meeting present needs without compromising the ability of future generations to meet their own needs, balancing environmental, social, and economic considerations.</p>
-            </details>
-            <details class="mainDetails">
-              <summary><a id="systemlink" href="#system_map">System</a></summary>
-              <p>A system is a collection of interconnected components or elements that work together to perform a specific function or achieve a particular objective.</p>
-            </details>
-            <details class="mainDetails">
-              <summary><a id="timelink" href="#time_map">Time</a></summary>
-              <p>Time refers to a measurable dimension in which events occur sequentially and can be used to qualify the duration between occurences.</p>
-            </details>
-            <details class="mainDetails">
-              <summary><a id="wiredcomlink" href="#wiredcom_map">Wired Communication</a></summary>
-              <p>Wired communication refers to the transmission of data or signals through physical connections such as cables or wires.</p>
-            </details>            
-          </div>
-        </div>
+      </div>
       <div id="divtop" class="tabcontainer" num='2'>
         <div class="tab">
           <button class="tablinks active" onclick="opentab(event, 1,2)">Classes</button>

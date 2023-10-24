@@ -1,0 +1,681 @@
+@prefix : <http://www.w3.org/2006/time#> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Unit_Month a owl:NamedIndividual .
+
+:Year a owl:Class ;
+    rdfs:label "Year"@en ;
+    rdfs:comment "Year duration" ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        :Duration_Description ;
+    owl:deprecated true ;
+    ns1:definition "Year duration" ;
+    ns1:historyNote """Year was proposed in the 2006 version of OWL-Time as an example of how DurationDescription could be specialized to allow for a duration to be restricted to a number of years. \r
+\r
+It is deprecated in this edition of OWL-Time. """ ;
+    ns1:prefLabel "سنة"@ar,
+        "Jahr"@de,
+        "Year"@en,
+        "Año"@es,
+        "Année (calendrier)"@fr,
+        "Anno"@it,
+        "年"@ja,
+        "Jaar"@nl,
+        "Rok"@pl,
+        "Ano"@pt,
+        "Год"@ru,
+        "年"@zh .
+
+:day a owl:DatatypeProperty ;
+    rdfs:label "day"@en ;
+    rdfs:comment """Day position in a calendar-clock system.\r
+\r
+The range of this property is not specified, so can be replaced by any specific representation of a calendar day from any calendar. """@en ;
+    rdfs:domain :General_Date_Time_Description ;
+    ns1:definition """Day position in a calendar-clock system.\r
+\r
+The range of this property is not specified, so can be replaced by any specific representation of a calendar day from any calendar. """@en .
+
+:day_of_week a owl:ObjectProperty ;
+    rdfs:label "day of week"@en ;
+    rdfs:comment "The day of week, whose value is a member of the class time:DayOfWeek"@en ;
+    rdfs:domain :General_Date_Time_Description ;
+    rdfs:range :Day_Of_Week ;
+    ns1:definition "The day of week, whose value is a member of the class time:DayOfWeek"@en .
+
+:day_of_year a owl:DatatypeProperty ;
+    rdfs:label "day of year"@en ;
+    rdfs:comment "The number of the day within the year"@en ;
+    rdfs:domain :General_Date_Time_Description ;
+    rdfs:range xsd:nonNegativeInteger ;
+    ns1:definition "The number of the day within the year"@en .
+
+:days a owl:DatatypeProperty ;
+    rdfs:label "days duration"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in days"@en ;
+    rdfs:domain :General_Duration_Description ;
+    rdfs:range xsd:decimal ;
+    ns1:definition "length of, or element of the length of, a temporal extent expressed in days"@en .
+
+:fiscal_day_of_year a owl:DatatypeProperty ;
+    rdfs:label "fiscal day of year" ;
+    rdfs:comment "day number within the fiscal year" ;
+    rdfs:domain :General_Date_Time_Description ;
+    rdfs:range xsd:nonNegativeInteger .
+
+:fiscal_month a owl:DatatypeProperty ;
+    rdfs:label "fiscal month" ;
+    rdfs:comment "month number within the fiscal year" ;
+    rdfs:domain :General_Date_Time_Description ;
+    rdfs:range xsd:nonNegativeInteger .
+
+:fiscal_week a owl:DatatypeProperty ;
+    rdfs:label "fiscal week" ;
+    rdfs:comment "week number within the fiscal year" ;
+    rdfs:domain :General_Date_Time_Description ;
+    rdfs:range xsd:nonNegativeInteger .
+
+:fiscal_year a owl:DatatypeProperty ;
+    rdfs:label "fiscal year" ;
+    rdfs:comment "Fiscal year position in a calendar-clock system" ;
+    rdfs:domain :General_Date_Time_Description .
+
+:has_TRS a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has temporal reference system used"@en ;
+    rdfs:comment "The temporal reference system used by a temporal position or extent description. "@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :TRS ;
+    ns1:definition "The temporal reference system used by a temporal position or extent description. "@en .
+
+:has_XSD_duration a owl:DatatypeProperty ;
+    rdfs:label "has XSD duration"@en ;
+    rdfs:comment "Extent of a temporal entity, expressed using xsd:duration"@en ;
+    rdfs:domain :Temporal_Entity ;
+    ns1:definition "Extent of a temporal entity, expressed using xsd:duration"@en ;
+    ns1:editorialNote "Feature at risk - added in 2017 revision, and not yet widely used. "@en .
+
+:has_beginning a owl:ObjectProperty ;
+    rdfs:label "has beginning"@en ;
+    rdfs:comment "Beginning of a temporal entity"@en ;
+    rdfs:domain :Temporal_Entity ;
+    rdfs:range :Instant ;
+    rdfs:subPropertyOf :has_time ;
+    ns1:definition "Beginning of a temporal entity."@en .
+
+:has_date_time_description a owl:ObjectProperty ;
+    rdfs:label "has date-time description"@en ;
+    rdfs:comment "Value of DateTimeInterval expressed as a structured value. The beginning and end of the interval coincide with the limits of the shortest element in the description."@en ;
+    rdfs:domain :Date_Time_Interval ;
+    rdfs:range :General_Date_Time_Description ;
+    ns1:definition "Value of DateTimeInterval expressed as a structured value. The beginning and end of the interval coincide with the limits of the shortest element in the description."@en .
+
+:has_duration a owl:ObjectProperty ;
+    rdfs:label "has duration"@en ;
+    rdfs:comment "Duration of a temporal entity, expressed as a scaled value or nominal value"@en ;
+    rdfs:range :Duration ;
+    rdfs:subPropertyOf :has_temporal_duration ;
+    ns1:definition "Duration of a temporal entity, event or activity, or thing, expressed as a scaled value"@en .
+
+:has_duration_description a owl:ObjectProperty ;
+    rdfs:label "has duration description"@en ;
+    rdfs:comment "Duration of a temporal entity, expressed using a structured description"@en ;
+    rdfs:range :General_Duration_Description ;
+    rdfs:subPropertyOf :has_temporal_duration ;
+    ns1:definition "Duration of a temporal entity, expressed using a structured description"@en .
+
+:has_end a owl:ObjectProperty ;
+    rdfs:label "has end"@en ;
+    rdfs:comment "End of a temporal entity."@en ;
+    rdfs:domain :Temporal_Entity ;
+    rdfs:range :Instant ;
+    rdfs:subPropertyOf :has_time ;
+    ns1:definition "End of a temporal entity."@en .
+
+:hour a owl:DatatypeProperty ;
+    rdfs:label "hour"@en ;
+    rdfs:comment "Hour position in a calendar-clock system."@en ;
+    rdfs:domain :General_Date_Time_Description ;
+    rdfs:range xsd:nonNegativeInteger ;
+    ns1:definition "Hour position in a calendar-clock system."@en .
+
+:hours a owl:DatatypeProperty ;
+    rdfs:label "hours duration"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in hours"@en ;
+    rdfs:domain :General_Duration_Description ;
+    rdfs:range xsd:decimal ;
+    ns1:definition "length of, or element of the length of, a temporal extent expressed in hours"@en .
+
+:inXSDDateTime a owl:DatatypeProperty ;
+    rdfs:label "in XSD Date-Time"@en ;
+    rdfs:comment "Position of an instant, expressed using xsd:dateTime"@en ;
+    rdfs:domain :Instant ;
+    rdfs:range xsd:dateTime ;
+    owl:deprecated true ;
+    ns1:definition "Position of an instant, expressed using xsd:dateTime"@en ;
+    ns1:note "The property :inXSDDateTime is replaced by :inXSDDateTimeStamp which makes the time-zone field mandatory."@en .
+
+:in_XSD_date a owl:DatatypeProperty ;
+    rdfs:label "in XSD date"@en ;
+    rdfs:comment "Position of an instant, expressed using xsd:date"@en ;
+    rdfs:domain :Instant ;
+    rdfs:range xsd:dateTime ;
+    ns1:definition "Position of an instant, expressed using xsd:date"@en .
+
+:in_XSD_date_time_stamp a owl:DatatypeProperty ;
+    rdfs:label "in XSD date-time-stamp"@en ;
+    rdfs:comment "Position of an instant, expressed using xsd:dateTimeStamp"@en ;
+    rdfs:domain :Instant ;
+    rdfs:range xsd:dateTimeStamp ;
+    ns1:definition "Position of an instant, expressed using xsd:dateTimeStamp"@en .
+
+:in_date_time a owl:ObjectProperty ;
+    rdfs:label "in date-time description"@en ;
+    rdfs:comment "Position of an instant, expressed using a structured description"@en ;
+    rdfs:domain :Instant ;
+    rdfs:range :General_Date_Time_Description ;
+    rdfs:subPropertyOf :in_temporal_position ;
+    ns1:definition "Position of an instant, expressed using a structured description"@en .
+
+:in_time_position a owl:ObjectProperty ;
+    rdfs:label "time position"@en ;
+    rdfs:comment "Position of an instant, expressed as a temporal coordinate or nominal value"@en ;
+    rdfs:domain :Instant ;
+    rdfs:range :Time_Position ;
+    rdfs:subPropertyOf :in_temporal_position ;
+    ns1:definition "Position of a time instant expressed as a TimePosition"@en .
+
+:inside a owl:ObjectProperty ;
+    rdfs:label "has time instant inside"@en ;
+    rdfs:comment "An instant that falls inside the interval. It is not intended to include beginnings and ends of intervals."@en ;
+    rdfs:domain :Interval ;
+    rdfs:range :Instant ;
+    ns1:definition "An instant that falls inside the interval. It is not intended to include beginnings and ends of intervals."@en .
+
+:interval_after a owl:ObjectProperty ;
+    rdfs:label "interval after"@en ;
+    rdfs:comment "If a proper interval T1 is intervalAfter another proper interval T2, then the beginning of T1 is after the end of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    rdfs:subPropertyOf :after,
+        :interval_disjoint ;
+    owl:inverseOf :interval_before ;
+    ns1:definition "If a proper interval T1 is intervalAfter another proper interval T2, then the beginning of T1 is after the end of T2."@en .
+
+:interval_contains a owl:ObjectProperty ;
+    rdfs:label "interval contains"@en ;
+    rdfs:comment "If a proper interval T1 is intervalContains another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is after the end of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    owl:inverseOf :interval_during ;
+    ns1:definition "If a proper interval T1 is intervalContains another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is after the end of T2."@en .
+
+:interval_equals a owl:ObjectProperty ;
+    rdfs:label "interval equals"@en ;
+    rdfs:comment "If a proper interval T1 is intervalEquals another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is coincident with the end of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    owl:propertyDisjointWith :interval_in ;
+    ns1:definition "If a proper interval T1 is intervalEquals another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is coincident with the end of T2."@en .
+
+:interval_finished_by a owl:ObjectProperty ;
+    rdfs:label "interval finished by"@en ;
+    rdfs:comment "If a proper interval T1 is intervalFinishedBy another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is coincident with the end of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    owl:inverseOf :interval_finishes ;
+    ns1:definition "If a proper interval T1 is intervalFinishedBy another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is coincident with the end of T2."@en .
+
+:interval_meets a owl:ObjectProperty ;
+    rdfs:label "interval meets"@en ;
+    rdfs:comment "If a proper interval T1 is intervalMeets another proper interval T2, then the end of T1 is coincident with the beginning of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    owl:inverseOf :interval_met_by ;
+    ns1:definition "If a proper interval T1 is intervalMeets another proper interval T2, then the end of T1 is coincident with the beginning of T2."@en .
+
+:interval_overlapped_by a owl:ObjectProperty ;
+    rdfs:label "interval overlapped by"@en ;
+    rdfs:comment "If a proper interval T1 is intervalOverlappedBy another proper interval T2, then the beginning of T1 is after the beginning of T2, the beginning of T1 is before the end of T2, and the end of T1 is after the end of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    owl:inverseOf :interval_overlaps ;
+    ns1:definition "If a proper interval T1 is intervalOverlappedBy another proper interval T2, then the beginning of T1 is after the beginning of T2, the beginning of T1 is before the end of T2, and the end of T1 is after the end of T2."@en .
+
+:interval_started_by a owl:ObjectProperty ;
+    rdfs:label "interval started by"@en ;
+    rdfs:comment "If a proper interval T1 is intervalStarted another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is after the end of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    owl:inverseOf :interval_starts ;
+    ns1:definition "If a proper interval T1 is intervalStarted another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is after the end of T2."@en .
+
+:minute a owl:DatatypeProperty ;
+    rdfs:label "minute"@en ;
+    rdfs:comment "Minute position in a calendar-clock system."@en ;
+    rdfs:domain :General_Date_Time_Description ;
+    rdfs:range xsd:nonNegativeInteger ;
+    ns1:definition "Minute position in a calendar-clock system."@en .
+
+:minutes a owl:DatatypeProperty ;
+    rdfs:label "minutes"@en ;
+    rdfs:comment "length, or element of, a temporal extent expressed in minutes"@en ;
+    rdfs:domain :General_Duration_Description ;
+    rdfs:range xsd:decimal ;
+    ns1:definition "length, or element of, a temporal extent expressed in minutes"@en .
+
+:month a owl:DatatypeProperty ;
+    rdfs:label "month"@en ;
+    rdfs:comment """Month position in a calendar-clock system.\r
+\r
+The range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. """@en ;
+    rdfs:domain :General_Date_Time_Description ;
+    ns1:definition """Month position in a calendar-clock system.\r
+\r
+The range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. """@en .
+
+:month_of_year a owl:ObjectProperty ;
+    rdfs:label "month of year"@en ;
+    rdfs:comment "The month of the year, whose value is a member of the class time:MonthOfYear"@en ;
+    rdfs:domain :General_Date_Time_Description ;
+    rdfs:range :Month_Of_Year ;
+    ns1:definition "The month of the year, whose value is a member of the class time:MonthOfYear"@en ;
+    ns1:editorialNote "Feature at risk - added in 2017 revision, and not yet widely used. "@en .
+
+:months a owl:DatatypeProperty ;
+    rdfs:label "months duration"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in months"@en ;
+    rdfs:domain :General_Duration_Description ;
+    rdfs:range xsd:decimal ;
+    ns1:definition "length of, or element of the length of, a temporal extent expressed in months"@en .
+
+:nominal_position a owl:DatatypeProperty ;
+    rdfs:label "name of temporal position"@en ;
+    rdfs:comment "The (nominal) value indicating temporal position in an ordinal reference system "@en ;
+    rdfs:domain :Time_Position ;
+    rdfs:range xsd:string ;
+    ns1:definition "The (nominal) value indicating temporal position in an ordinal reference system "@en .
+
+:numeric_duration a owl:DatatypeProperty ;
+    rdfs:label "numeric value of temporal duration"@en ;
+    rdfs:comment "Value of a temporal extent expressed as a decimal number scaled by a temporal unit"@en ;
+    rdfs:domain :Duration ;
+    rdfs:range xsd:decimal ;
+    ns1:definition "Value of a temporal extent expressed as a decimal number scaled by a temporal unit"@en .
+
+:numeric_position a owl:DatatypeProperty ;
+    rdfs:label "numeric value of temporal position"@en ;
+    rdfs:comment "The (numeric) value indicating position within a temporal coordinate system "@en ;
+    rdfs:domain :Time_Position ;
+    rdfs:range xsd:decimal ;
+    ns1:definition "The (numeric) value indicating position within a temporal coordinate system "@en .
+
+:second a owl:DatatypeProperty ;
+    rdfs:label "second"@en ;
+    rdfs:comment "Second position in a calendar-clock system."@en ;
+    rdfs:domain :General_Date_Time_Description ;
+    rdfs:range xsd:decimal .
+
+:seconds a owl:DatatypeProperty ;
+    rdfs:label "seconds duration"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in seconds"@en ;
+    rdfs:domain :General_Duration_Description ;
+    rdfs:range xsd:decimal ;
+    rdfs:seeAlso <http://www.bipm.org/en/publications/si-brochure/second.html> .
+
+:time_zone a owl:ObjectProperty ;
+    rdfs:label "in time zone"@en ;
+    rdfs:comment "The time zone for clock elements in the temporal position"@en ;
+    rdfs:domain :General_Date_Time_Description ;
+    rdfs:range :Time_Zone ;
+    ns1:historyNote """In the original 2006 version of OWL-Time, the range of time:timeZone was a TimeZone class in a separate namespace "http://www.w3.org/2006/timezone#". \r
+An alignment axiom \r
+	tzont:TimeZone rdfs:subClassOf time:TimeZone . \r
+allows data encoded according to the previous version to be consistent with the updated ontology. """ ;
+    ns1:note """IANA maintains a database of timezones. These are well maintained and generally considered authoritative, but individual items are not available at individual URIs, so cannot be used directly in data expressed using OWL-Time.\r
+\r
+DBPedia provides a set of resources corresponding to the IANA timezones, with a URI for each (e.g. http://dbpedia.org/resource/Australia/Eucla). The World Clock service also provides a list of time zones with the description of each available as an individual webpage with a convenient individual URI (e.g. https://www.timeanddate.com/time/zones/acwst). These or other, similar, resources might be used as a value of the time:timeZone property.""" .
+
+:unit_type a owl:ObjectProperty ;
+    rdfs:label "temporal unit type"@en ;
+    rdfs:comment "The temporal unit which provides the precision of a date-time value or scale of a temporal extent"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Temporal_Unit .
+
+:week a owl:DatatypeProperty ;
+    rdfs:label "week"@en ;
+    rdfs:comment "Week number within the year."@en ;
+    rdfs:domain :General_Date_Time_Description ;
+    rdfs:range xsd:nonNegativeInteger ;
+    ns1:note "Weeks are numbered differently depending on the calendar in use and the local language or cultural conventions (locale). ISO-8601 specifies that the first week of the year includes at least four days, and that Monday is the first day of the week. In that system, week 1 is the week that contains the first Thursday in the year."@en .
+
+:weeks a owl:DatatypeProperty ;
+    rdfs:label "weeks duration"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in weeks"@en ;
+    rdfs:domain :General_Duration_Description ;
+    rdfs:range xsd:decimal .
+
+:xsdDateTime a owl:DatatypeProperty ;
+    rdfs:label "has XSD date-time"@en ;
+    rdfs:comment "Value of DateTimeInterval expressed as a compact value."@en ;
+    rdfs:domain :Date_Time_Interval ;
+    rdfs:range xsd:dateTime ;
+    owl:deprecated true ;
+    ns1:note "Using xsd:dateTime in this place means that the duration of the interval is implicit: it corresponds to the length of the smallest non-zero element of the date-time literal. However, this rule cannot be used for intervals whose duration is more than one rank smaller than the starting time - e.g. the first minute or second of a day, the first hour of a month, or the first day of a year. In these cases the desired interval cannot be distinguished from the interval corresponding to the next rank up. Because of this essential ambiguity, use of this property is not recommended and it is deprecated."@en .
+
+:year a owl:DatatypeProperty ;
+    rdfs:label "year"@en ;
+    rdfs:comment """Year position in a calendar-clock system.\r
+\r
+The range of this property is not specified, so can be replaced by any specific representation of a calendar year from any calendar. """@en ;
+    rdfs:domain :General_Date_Time_Description .
+
+:years a owl:DatatypeProperty ;
+    rdfs:label "years duration"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in years"@en ;
+    rdfs:domain :General_Duration_Description ;
+    rdfs:range xsd:decimal .
+
+:Day_Of_Week a owl:Class ;
+    rdfs:label "Day Of Week"@en ;
+    rdfs:comment "The day of week"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Time_Lobe> ;
+    ns1:changeNote """Remove enumeration from definition, in order to allow other days to be used when required in other calendars. \r
+NOTE: existing days are still present as members of the class, but the class membership is now open. \r
+\r
+In the original OWL-Time the following constraint appeared: \r
+  owl:oneOf (\r
+      time:Monday\r
+      time:Tuesday\r
+      time:Wednesday\r
+      time:Thursday\r
+      time:Friday\r
+      time:Saturday\r
+      time:Sunday\r
+    ) ;"""@en ;
+    ns1:definition "The day of week"@en ;
+    ns1:note "Membership of the class :DayOfWeek is open, to allow for alternative week lengths and different day names."@en .
+
+:Duration_Description a owl:Class ;
+    rdfs:label "Duration Description"@en ;
+    rdfs:comment "Description of temporal extent structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of each of the numeric properties is restricted to xsd:decimal"@en ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        :General_Duration_Description ;
+    ns1:definition "Description of temporal extent structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of each of the numeric properties is restricted to xsd:decimal"@en ;
+    ns1:note "In the Gregorian calendar the length of the month is not fixed. Therefore, a value like \"2.5 months\" cannot be exactly compared with a similar duration expressed in terms of weeks or days."@en .
+
+:Month_Of_Year a owl:Class ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Time_Lobe> .
+
+:TRS a owl:Class ;
+    rdfs:label "Temporal Reference System"@en ;
+    rdfs:comment """A temporal reference system, such as a temporal coordinate system (with an origin, direction, and scale), a calendar-clock combination, or a (possibly hierarchical) ordinal system. \r
+\r
+This is a stub class, representing the set of all temporal reference systems."""@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Time_Lobe> ;
+    ns1:definition """A temporal reference system, such as a temporal coordinate system (with an origin, direction, and scale), a calendar-clock combination, or a (possibly hierarchical) ordinal system. \r
+\r
+This is a stub class, representing the set of all temporal reference systems."""@en ;
+    ns1:note "A taxonomy of temporal reference systems is provided in ISO 19108:2002 [ISO19108], including (a) calendar + clock systems; (b) temporal coordinate systems (i.e. numeric offset from an epoch); (c) temporal ordinal reference systems (i.e. ordered sequence of named intervals, not necessarily of equal duration)."@en .
+
+:Temporal_Unit a owl:Class ;
+    rdfs:label "Temporal Unit"@en ;
+    rdfs:comment "A standard duration, which provides a scale factor for a time extent, or the granularity or precision for a time position."@en ;
+    rdfs:subClassOf :Temporal_Duration ;
+    ns1:changeNote """Remove enumeration from definition, in order to allow other units to be used when required in other coordinate systems. \r
+NOTE: existing units are still present as members of the class, but the class membership is now open. \r
+\r
+In the original OWL-Time the following constraint appeared: \r
+  owl:oneOf (\r
+      time:unitSecond\r
+      time:unitMinute\r
+      time:unitHour\r
+      time:unitDay\r
+      time:unitWeek\r
+      time:unitMonth\r
+      time:unitYear\r
+    ) ;"""@en ;
+    ns1:definition "A standard duration, which provides a scale factor for a time extent, or the granularity or precision for a time position."@en ;
+    ns1:note "Membership of the class TemporalUnit is open, to allow for other temporal units used in some technical applications (e.g. millions of years, Baha'i month)."@en .
+
+:Time_Zone a owl:Class ;
+    rdfs:label "Time Zone"@en ;
+    rdfs:comment """A Time Zone specifies the amount by which the local time is offset from UTC. \r
+	A time zone is usually denoted geographically (e.g. Australian Eastern Daylight Time), with a constant value in a given region. \r
+The region where it applies and the offset from UTC are specified by a locally recognised governing authority."""@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Time_Lobe> ;
+    ns1:definition """A Time Zone specifies the amount by which the local time is offset from UTC. \r
+	A time zone is usually denoted geographically (e.g. Australian Eastern Daylight Time), with a constant value in a given region. \r
+The region where it applies and the offset from UTC are specified by a locally recognised governing authority."""@en ;
+    ns1:historyNote """In the original 2006 version of OWL-Time, the TimeZone class, with several properties corresponding to a specific model of time-zones, was defined in a separate namespace "http://www.w3.org/2006/timezone#". \r
+\r
+In the current version a class with same local name is put into the main OWL-Time namespace, removing the dependency on the external namespace. \r
+\r
+An alignment axiom \r
+	tzont:TimeZone rdfs:subClassOf time:TimeZone . \r
+allows data encoded according to the previous version to be consistent with the updated ontology. """ ;
+    ns1:note """A designated timezone is associated with a geographic region. However, for a particular region the offset from UTC often varies seasonally, and the dates of the changes may vary from year to year. The timezone designation usually changes for the different seasons (e.g. Australian Eastern Standard Time vs. Australian Eastern Daylight Time). Furthermore, the offset for a timezone may change over longer timescales, though its designation might not.  \r
+\r
+Detailed guidance about working with time zones is given in http://www.w3.org/TR/timezone/ ."""@en,
+        "An ontology for time zone descriptions was described in [owl-time-20060927] and provided as RDF in a separate namespace tzont:. However, that ontology was incomplete in scope, and the example datasets were selective. Furthermore, since the use of a class from an external ontology as the range of an ObjectProperty in OWL-Time creates a dependency, reference to the time zone class has been replaced with the 'stub' class in the normative part of this version of OWL-Time."@en ;
+    ns1:scopeNote "In this implementation TimeZone has no properties defined. It should be thought of as an 'abstract' superclass of all specific timezone implementations." .
+
+:after a owl:ObjectProperty ;
+    rdfs:label "after"@en ;
+    rdfs:comment "Gives directionality to time. If a temporal entity T1 is after another temporal entity T2, then the beginning of T1 is after the end of T2."@en ;
+    rdfs:domain :Temporal_Entity ;
+    rdfs:range :Temporal_Entity ;
+    owl:inverseOf :before ;
+    ns1:definition "Gives directionality to time. If a temporal entity T1 is after another temporal entity T2, then the beginning of T1 is after the end of T2."@en .
+
+:interval_before a owl:ObjectProperty ;
+    rdfs:label "interval before"@en ;
+    rdfs:comment "If a proper interval T1 is intervalBefore another proper interval T2, then the end of T1 is before the beginning of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    rdfs:subPropertyOf :before,
+        :interval_disjoint ;
+    ns1:definition "If a proper interval T1 is intervalBefore another proper interval T2, then the end of T1 is before the beginning of T2."@en .
+
+:interval_during a owl:ObjectProperty ;
+    rdfs:label "interval during"@en ;
+    rdfs:comment "If a proper interval T1 is intervalDuring another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is before the end of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    rdfs:subPropertyOf :interval_in ;
+    ns1:definition "If a proper interval T1 is intervalDuring another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is before the end of T2."@en .
+
+:interval_finishes a owl:ObjectProperty ;
+    rdfs:label "interval finishes"@en ;
+    rdfs:comment "If a proper interval T1 is intervalFinishes another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is coincident with the end of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    rdfs:subPropertyOf :interval_in ;
+    ns1:definition "If a proper interval T1 is intervalFinishes another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is coincident with the end of T2."@en .
+
+:interval_met_by a owl:ObjectProperty ;
+    rdfs:label "interval met by"@en ;
+    rdfs:comment "If a proper interval T1 is intervalMetBy another proper interval T2, then the beginning of T1 is coincident with the end of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    ns1:definition "If a proper interval T1 is intervalMetBy another proper interval T2, then the beginning of T1 is coincident with the end of T2."@en .
+
+:interval_overlaps a owl:ObjectProperty ;
+    rdfs:label "interval overlaps"@en ;
+    rdfs:comment "If a proper interval T1 is intervalOverlaps another proper interval T2, then the beginning of T1 is before the beginning of T2, the end of T1 is after the beginning of T2, and the end of T1 is before the end of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    ns1:definition "If a proper interval T1 is intervalOverlaps another proper interval T2, then the beginning of T1 is before the beginning of T2, the end of T1 is after the beginning of T2, and the end of T1 is before the end of T2."@en .
+
+:interval_starts a owl:ObjectProperty ;
+    rdfs:label "interval starts"@en ;
+    rdfs:comment "If a proper interval T1 is intervalStarts another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is before the end of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    rdfs:subPropertyOf :interval_in ;
+    ns1:definition "If a proper interval T1 is intervalStarts another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is before the end of T2."@en .
+
+:Date_Time_Interval a owl:Class ;
+    rdfs:label "Date-Time Interval"@en ;
+    rdfs:comment "DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription."@en ;
+    rdfs:subClassOf :Proper_Interval ;
+    ns1:definition "DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription."@en ;
+    ns1:note ":DateTimeInterval can only be used for an interval whose limits coincide with a date-time element aligned to the calendar and timezone indicated. For example, while both have a duration of one day, the 24-hour interval beginning at midnight at the beginning of 8 May in Central Europe can be expressed as a :DateTimeInterval, but the 24-hour interval starting at 1:30pm cannot."@en .
+
+:Duration a owl:Class ;
+    rdfs:label "Time Duration"@en ;
+    rdfs:comment "Duration of a temporal extent expressed as a number scaled by a temporal unit"@en ;
+    rdfs:subClassOf [ ],
+        [ ],
+        :Temporal_Duration ;
+    ns1:definition "Duration of a temporal extent expressed as a number scaled by a temporal unit"@en ;
+    ns1:note "Alternative to time:DurationDescription to support description of a temporal duration other than using a calendar/clock system."@en .
+
+:Interval a owl:Class ;
+    rdfs:label "Time Interval"@en ;
+    rdfs:comment "A temporal entity with an extent or duration"@en ;
+    rdfs:subClassOf :Temporal_Entity ;
+    ns1:definition "A temporal entity with an extent or duration"@en .
+
+:before a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "before"@en ;
+    rdfs:comment "Gives directionality to time. If a temporal entity T1 is before another temporal entity T2, then the end of T1 is before the beginning of T2. Thus, \"before\" can be considered to be basic to instants and derived for intervals."@en ;
+    rdfs:domain :Temporal_Entity ;
+    rdfs:range :Temporal_Entity ;
+    ns1:definition "Gives directionality to time. If a temporal entity T1 is before another temporal entity T2, then the end of T1 is before the beginning of T2. Thus, \"before\" can be considered to be basic to instants and derived for intervals."@en .
+
+:has_temporal_duration a owl:ObjectProperty ;
+    rdfs:label "has temporal duration"@en ;
+    rdfs:comment "Duration of a temporal entity."@en ;
+    rdfs:domain :Temporal_Entity ;
+    rdfs:range :Temporal_Duration ;
+    ns1:definition "Duration of a temporal entity."@en .
+
+:has_time a owl:ObjectProperty ;
+    rdfs:label "has time"@en ;
+    rdfs:comment "Supports the association of a temporal entity (instant or interval) to any thing"@en ;
+    rdfs:range :Temporal_Entity ;
+    ns1:definition "Supports the association of a temporal entity (instant or interval) to any thing"@en ;
+    ns1:editorialNote "Feature at risk - added in 2017 revision, and not yet widely used. "@en .
+
+:in_temporal_position a owl:ObjectProperty ;
+    rdfs:label "in temporal position"@en ;
+    rdfs:comment "Position of a time instant"@en ;
+    rdfs:domain :Instant ;
+    rdfs:range :Temporal_Position ;
+    ns1:definition "Position of a time instant"@en .
+
+:interval_disjoint a owl:ObjectProperty ;
+    rdfs:label "interval disjoint"@en ;
+    rdfs:comment "If a proper interval T1 is intervalDisjoint another proper interval T2, then the beginning of T1 is after the end of T2, or the end of T1 is before the beginning of T2, i.e. the intervals do not overlap in any way, but their ordering relationship is not known."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    ns1:definition "If a proper interval T1 is intervalDisjoint another proper interval T2, then the beginning of T1 is after the end of T2, or the end of T1 is before the beginning of T2, i.e. the intervals do not overlap in any way, but their ordering relationship is not known."@en ;
+    ns1:note "This interval relation is not included in the 13 basic relationships defined in Allen (1984), but is defined in (T.3) as the union of :intervalBefore v :intervalAfter . However, that is outside OWL2 expressivity, so is implemented as an explicit property, with :intervalBefore , :intervalAfter as sub-properties"@en .
+
+:Temporal_Position a owl:Class ;
+    rdfs:label "Temporal Position"@en ;
+    rdfs:comment "A position on a time-line"@en ;
+    rdfs:subClassOf [ ],
+        <http://www.w3id.org/ecsel-dr#Time_Lobe> ;
+    ns1:definition "A position on a time-line"@en .
+
+:Time_Position a owl:Class ;
+    rdfs:label "Time Position"@en ;
+    rdfs:comment "A temporal position described using either a (nominal) value from an ordinal reference system, or a (numeric) value in a temporal coordinate system. "@en ;
+    rdfs:subClassOf [ ],
+        :Temporal_Position ;
+    ns1:definition "A temporal position described using either a (nominal) value from an ordinal reference system, or a (numeric) value in a temporal coordinate system. "@en .
+
+:Temporal_Duration a owl:Class ;
+    rdfs:label "Temporal Duration"@en ;
+    rdfs:comment "Time extent; duration of a time interval separate from its particular start position"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Time_Lobe> ;
+    ns1:definition "Time extent; duration of a time interval separate from its particular start position"@en .
+
+:interval_in a owl:ObjectProperty ;
+    rdfs:label "interval in"@en ;
+    rdfs:comment "If a proper interval T1 is intervalIn another proper interval T2, then the beginning of T1 is after the beginning of T2 or is coincident with the beginning of T2, and the end of T1 is before the end of T2, or is coincident with the end of T2, except that end of T1 may not be coincident with the end of T2 if the beginning of T1 is coincident with the beginning of T2."@en ;
+    rdfs:domain :Proper_Interval ;
+    rdfs:range :Proper_Interval ;
+    ns1:definition "If a proper interval T1 is intervalIn another proper interval T2, then the beginning of T1 is after the beginning of T2 or is coincident with the beginning of T2, and the end of T1 is before the end of T2, or is coincident with the end of T2, except that end of T1 may not be coincident with the end of T2 if the beginning of T1 is coincident with the beginning of T2."@en ;
+    ns1:note "This interval relation is not included in the 13 basic relationships defined in Allen (1984), but is referred to as 'an important relationship' in Allen and Ferguson (1997). It is the disjoint union of :intervalStarts v :intervalDuring v :intervalFinishes . However, that is outside OWL2 expressivity, so is implemented as an explicit property, with :intervalStarts , :intervalDuring , :intervalFinishes as sub-properties"@en .
+
+:General_Duration_Description a owl:Class ;
+    rdfs:label "Generalized Duration Description"@en ;
+    rdfs:comment "Description of temporal extent structured with separate values for the various elements of a calendar-clock system."@en ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        :Temporal_Duration ;
+    ns1:definition "Description of temporal extent structured with separate values for the various elements of a calendar-clock system."@en ;
+    ns1:note "The extent of a time duration expressed as a GeneralDurationDescription depends on the Temporal Reference System. In some calendars the length of the week or month is not constant within the year. Therefore, a value like \"2.5 months\" may not necessarily be exactly compared with a similar duration expressed in terms of weeks or days. When non-earth-based calendars are considered even more care must be taken in comparing durations."@en .
+
+:Instant a owl:Class ;
+    rdfs:label "Time Instant"@en ;
+    rdfs:comment "A temporal entity with zero extent or duration"@en ;
+    rdfs:subClassOf :Temporal_Entity ;
+    owl:disjointWith :Proper_Interval ;
+    ns1:definition "A temporal entity with zero extent or duration"@en .
+
+:Temporal_Entity a owl:Class ;
+    rdfs:label "Temporal Entity",
+        "Temporal Entity"@en ;
+    rdfs:comment "A temporal interval or instant.",
+        "A temporal interval or instant."@en ;
+    rdfs:isDefinedBy "http://www.w3.org/TR/owl-time/#time:TemporalEntity" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Time_Lobe> ;
+    owl:equivalentClass [ ] ;
+    ns1:definition "A temporal interval or instant."@en .
+
+:General_Date_Time_Description a owl:Class ;
+    rdfs:label "Generalized Date-Time Description"@en ;
+    rdfs:comment "Description of date and time structured with separate values for the various elements of a calendar-clock system"@en ;
+    rdfs:subClassOf [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        [ ],
+        :Temporal_Position ;
+    ns1:definition "Description of date and time structured with separate values for the various elements of a calendar-clock system"@en ;
+    ns1:note "Some combinations of properties are redundant - for example, within a specified :year if :dayOfYear is provided then :day and :month can be computed, and vice versa. Individual values should be consistent with each other and the calendar, indicated through the value of the :hasTRS property." .
+
+:Proper_Interval a owl:Class ;
+    rdfs:label "Proper Interval"@en ;
+    rdfs:comment "A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different"@en ;
+    rdfs:subClassOf :Interval ;
+    ns1:definition "A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different"@en .
+

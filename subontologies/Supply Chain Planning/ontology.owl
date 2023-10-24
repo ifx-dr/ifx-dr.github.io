@@ -1,0 +1,970 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#calculated_based -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#calculated_based">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Supply_Picture"/>
+        <rdfs:label xml:lang="en">calculated based</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#calculated_based_on -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#calculated_based_on">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Marketing_Demand"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Sales_Demand"/>
+        <rdfs:label xml:lang="en">calculated based on</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#calculates -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#calculates">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Supply_Picture"/>
+        <rdfs:label xml:lang="en">calculates</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#consists_of_open_order_book -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#consists_of_open_order_book">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book"/>
+        <rdfs:label xml:lang="en">consists of open order book</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#constitutes -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#constitutes">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Sales_Demand"/>
+        <rdfs:label xml:lang="en">constitutes</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#consumes -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#consumes">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Available_To_Promise"/>
+        <rdfs:label xml:lang="en">consumes</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#contributes_to_prioritized_order -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#contributes_to_prioritized_order">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders"/>
+        <rdfs:label xml:lang="en">contributes to prioritized order</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#creates_prioritized_order -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#creates_prioritized_order">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders"/>
+        <rdfs:label xml:lang="en">creates prioritized order</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#entered_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#entered_to">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative"/>
+        <rdfs:label xml:lang="en">entered to</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#figured_out_from -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#figured_out_from">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Target_Allocation"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Allocated_Available_To_Promise"/>
+        <rdfs:label xml:lang="en">figured out from</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#generates -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#generates">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book"/>
+        <rdfs:label xml:lang="en">generates</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#goes_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#goes_to">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order_Schedule_Line"/>
+        <rdfs:label xml:lang="en">goes to</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#has_input_in -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#has_input_in">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Operational_Demand"/>
+        <rdfs:label xml:lang="en">has input in</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#has_input_supply_demand_match -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#has_input_supply_demand_match">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Stocks"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match"/>
+        <rdfs:label xml:lang="en">has input</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#has_result_operational_demand -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#has_result_operational_demand">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Marketing_Demand"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Operational_Demand"/>
+        <rdfs:label xml:lang="en">has result operational demand</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#is_part_of_operational_demand -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#is_part_of_operational_demand">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Forecast"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Operational_Demand"/>
+        <rdfs:label xml:lang="en">is part of operational demand</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#is_place_orders -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#is_place_orders">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Customer"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order"/>
+        <rdfs:label xml:lang="en">is place orders</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#is_result_of_orders_reschedule -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#is_result_of_orders_reschedule">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#NEWs"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule"/>
+        <rdfs:label xml:lang="en">is result of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#is_transfer_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#is_transfer_to">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order_Schedule_Line"/>
+        <rdfs:label xml:lang="en">is transfer to</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#matches -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#matches">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Capacity_Bottleneck"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match"/>
+        <rdfs:label xml:lang="en">matches</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#matches_in -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#matches_in">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Prioritized_Demand"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match"/>
+        <rdfs:label xml:lang="en">matches in</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#matches_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#matches_to">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Aggregated_Capacity"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Marketing_Demand"/>
+        <rdfs:label xml:lang="en">matches to</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#obtained_from_sales_demand -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#obtained_from_sales_demand">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Forecast"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Sales_Demand"/>
+        <rdfs:label xml:lang="en">obtained from sales demand</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#provides -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#provides">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Promise"/>
+        <rdfs:label xml:lang="en">provides</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#result_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#result_to">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Bottleneck_Resource"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Capacity_Bottleneck"/>
+        <rdfs:label xml:lang="en">result to</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#results_in -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#results_in">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule"/>
+        <rdfs:label xml:lang="en">results in</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#sent_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#sent_to">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#NEWs"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative"/>
+        <rdfs:label xml:lang="en">sent to</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#sort_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#sort_to">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item"/>
+        <rdfs:label xml:lang="en">sort to</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#transfer_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#transfer_to">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Operational_Demand"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Prioritized_Demand"/>
+        <rdfs:label xml:lang="en">transfer to</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#transfers -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#transfers">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Promise"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Confirmation"/>
+        <rdfs:label xml:lang="en">transfers</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#use_in -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#use_in">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Bottleneck_Resource"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Resource_Capacity"/>
+        <rdfs:label xml:lang="en">use in</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#use_up -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#use_up">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Allocated_Available_To_Promise"/>
+        <rdfs:label xml:lang="en">use up</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#uses_order_line_item -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#uses_order_line_item">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item"/>
+        <rdfs:label xml:lang="en">uses order line item</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#confirmed_date -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#confirmed_date">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="en">confirmed date</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#confirmed_quantity -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#confirmed_quantity">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">confirmed quantity</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#customer_location -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#customer_location">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Customer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">customer location</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#customers_ID -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#customers_ID">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Customer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">customers ID</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#granularity -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-SCP#granularity">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Customer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:label xml:lang="en">granularity</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Stimulus -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/ssn/Stimulus"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr#Planning_Lobe -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#AP_FCST -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#AP_FCST">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Forecast"/>
+        <rdfs:label xml:lang="en">AP FCST</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Aggregated_Capacity -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Aggregated_Capacity">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">(restricted) The Aggregated Capacity Group combines products that are interchangeable in production resources (e.g. can be produced on the same equipment) and having the same capacity consumption. Using an ACG provides flexibility in a way of switching demands of this products within this ACG.</rdfs:comment>
+        <rdfs:label xml:lang="en">Aggregated Capacity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Allocated_Available_To_Promise -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Allocated_Available_To_Promise">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">AATP  is a data mart  that shows data from GOAL AATP process, combining data from 3 sources: SAP, I2 Applications and LogDB. 
+
+The universe provides access to the fact tables delivered by GOAL like Availability / Allocation Planning / Seller Mapping / Coverage.</rdfs:comment>
+        <rdfs:label xml:lang="en">Allocated Available To Promise</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Available_To_Promise -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Available_To_Promise">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">Available to promise is a business function that provides a response to customer order inquiries, based on resource availability. It generates available quantities of the requested product, and delivery due dates.</rdfs:comment>
+        <rdfs:label xml:lang="en">Available To Promise</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Bottleneck_Resource -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Bottleneck_Resource">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Resource_Capacity"/>
+        <rdfs:comment xml:lang="en">A bottleneck resource is an obstacle to smooth flow in a process.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bottleneck Resource</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Buffer_Stock_Order -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Buffer_Stock_Order">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order"/>
+        <rdfs:label xml:lang="en">Buffer Stock Order</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Capacity_Bottleneck -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Capacity_Bottleneck">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:label xml:lang="en">Capacity Bottleneck</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Confirmation -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Confirmation">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">Order acknowledgement</rdfs:comment>
+        <rdfs:label xml:lang="en">Confirmation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Consignment_Order -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Consignment_Order">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order"/>
+        <rdfs:comment xml:lang="en">Consignment Stock is a logistics concept where the supplier (Vendor) owned goods are stored at a customer location.
+
+The supplier (Vendor) is responsible to maintain his stock within a defined min/max level.</rdfs:comment>
+        <rdfs:label xml:lang="en">Consignment Order</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Customer -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Customer">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#General_Customer"/>
+        <rdfs:comment xml:lang="en">A person or entity that buys goods or services  from a shop or business.</rdfs:comment>
+        <rdfs:label xml:lang="en">Customer</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">A Customer Logistics Management Representative (CLM) is the “one face to our customers” that takes care of all customers’ supply chain topics. He or she channels all customer logistic requirements into Infineon’s organization and balances the needs against our capabilities.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Being the main interface between Customer, Sales and the Supply Chain Planner he is responsible for the demand fulfilment process. It is his task to ensure in-time delivery to customers based on orders and forecasts and to achieve high customer satisfaction.</rdfs:comment>
+        <rdfs:label xml:lang="en">Customer Logistics Management Representative</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#DC -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#DC">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Stocks"/>
+        <rdfs:comment xml:lang="en">A DC Facility represents a finished goods store.</rdfs:comment>
+        <rdfs:label xml:lang="en">DC</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Die_Bank -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Die_Bank">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Stocks"/>
+        <rdfs:comment xml:lang="en">A die bank is an area in production where (usually) tested wafers are stored waiting for disposition and further production.</rdfs:comment>
+        <rdfs:label xml:lang="en">Die Bank</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#EDI_Forecast -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#EDI_Forecast">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order"/>
+        <rdfs:comment xml:lang="en">The EDI Forecast Universe is a Data Mart that was started in 2010 (?) to support Forecast Accuracy  analysis</rdfs:comment>
+        <rdfs:label xml:lang="en">EDI Forecast</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Forecast -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Forecast">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Operational_Demand"/>
+        <rdfs:comment xml:lang="en">Forecast is an unconstrained prospect about the customer future demand.</rdfs:comment>
+        <rdfs:label xml:lang="en">Forecast</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#General_Customer -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#General_Customer">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Customer"/>
+        <rdfs:label xml:lang="en">General Customers</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#HP_Forecast -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#HP_Forecast">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Forecast"/>
+        <rdfs:label xml:lang="en">HP Forecast</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Marketing_Demand -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Marketing_Demand">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:label xml:lang="en">Marketing Demand</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Max_Stock -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Max_Stock">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks"/>
+        <rdfs:comment xml:lang="en">The amount of inventory which should not be exceeded. The limit is normally determined after considering storage space of the facilities, how quickly inventory is sold or used, cost of insurance on inventory, and the risk of inventory becoming outdated before it is used.</rdfs:comment>
+        <rdfs:label xml:lang="en">Max Stock</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Min_Stock -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Min_Stock">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks"/>
+        <rdfs:comment xml:lang="en">The minimum level of inventory is a kind of a precautionary level of inventory which indicates that the delivery of raw materials or merchandise may take more than the normal lead time.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The minimum level of stock is a certain predetermined minimum quantity of raw materials or product inventory which should always be available in stock in the normal course of business.</rdfs:comment>
+        <rdfs:label xml:lang="en">Min Stock</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#NEWs -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#NEWs">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:label xml:lang="en">nEWs</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#NP_Forecast -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#NP_Forecast">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Forecast"/>
+        <rdfs:label xml:lang="en">NP Forecast</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#OP_Forecast -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#OP_Forecast">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Forecast"/>
+        <rdfs:label xml:lang="en">OP Forecast</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">An order book is a business&apos;s list of open, unshipped, customer orders, normally time-phased and valued at actual individual order prices, that may include margin and profitability analysis.</rdfs:comment>
+        <rdfs:label xml:lang="en">Open Order Book</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Operational_Demand -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Operational_Demand">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:label xml:lang="en">Operational Demand</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Order -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Order">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:label xml:lang="en">Order</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">Every product on the order is referenced by a record that includes quantity and a reference to which order it belongs.</rdfs:comment>
+        <rdfs:label xml:lang="en">Order Line Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">Any change in the requested order delivery date in an order line is referred to as an order rescheduling.</rdfs:comment>
+        <rdfs:label xml:lang="en">Order Reschedule</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Order_Schedule_Line -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Order_Schedule_Line">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">Schedule lines contain all the delivery related information</rdfs:comment>
+        <rdfs:label xml:lang="en">Order Schedule Line</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Prioritized_Demand -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Prioritized_Demand">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">The demand that should be covered first.</rdfs:comment>
+        <rdfs:label xml:lang="en">Prioritized Demand</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">Orders that should be completed first.</rdfs:comment>
+        <rdfs:label xml:lang="en">Prioritized Orders</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Private_Customer -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Private_Customer">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Customer"/>
+        <rdfs:label xml:lang="en">Private Customers</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Promise -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Promise">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">Is the uncommitted portion of supply by the master production schedule and material plan</rdfs:comment>
+        <rdfs:label xml:lang="en">Promise</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Ramp_Up_Stock -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Ramp_Up_Stock">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks"/>
+        <rdfs:label xml:lang="en">Ramp Up Stock</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Resource_Capacity -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Resource_Capacity">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Aggregated_Capacity"/>
+        <rdfs:comment xml:lang="en">Resource capacity planning is about comparing future resource utilization of project resources against available capacity to do work.</rdfs:comment>
+        <rdfs:label xml:lang="en">Resource Capacity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Retained_Stock -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Retained_Stock">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks"/>
+        <rdfs:label xml:lang="en">Retained Stock</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Operational_Demand"/>
+        <rdfs:label xml:lang="en">SSO Stocks</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Safety_Stock -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Safety_Stock">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks"/>
+        <rdfs:comment xml:lang="en">Describes a level of extra stock that is maintained to mitigate risk of stockouts  caused by uncertainties in supply and demand.</rdfs:comment>
+        <rdfs:label xml:lang="en">Safety Stock</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Sales_Demand -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Sales_Demand">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:label xml:lang="en">Sales Demand</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Standard_Order -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Standard_Order">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Order"/>
+        <rdfs:label xml:lang="en">Standard Order</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Stocks -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Stocks">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Stimulus"/>
+        <rdfs:comment xml:lang="en">A supply of something for use or sale</rdfs:comment>
+        <rdfs:label xml:lang="en">Stocks</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">Supply and demand match when sufficient materials exist to cover material demand while taking available capacity into account.</rdfs:comment>
+        <rdfs:label xml:lang="en">Supply Demand Match</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Supply_Picture -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Supply_Picture">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:label xml:lang="en">Supply Picture</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Target_Allocation -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Target_Allocation">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Planning_Lobe"/>
+        <rdfs:comment xml:lang="en">The target allocation is the level of allocation planned by the company.</rdfs:comment>
+        <rdfs:label xml:lang="en">Target Allocation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#WIP -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#WIP">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Stocks"/>
+        <rdfs:comment xml:lang="en">Work In Progress (WIP) includes the unfinished items for products in a production process. 
+These items are not yet completed but either just being fabricated or waiting in a queue for further processing.</rdfs:comment>
+        <rdfs:label xml:lang="en">Work In Progress</rdfs:label>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

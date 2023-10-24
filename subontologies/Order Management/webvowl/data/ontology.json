@@ -1,0 +1,1939 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr", "http://www.w3.org/2001/XMLSchema", "http://www.w3id.org/ecsel-dr-OM", "http://org.semanticweb.owlapi/error", "http://www.w3id.org/ecsel-dr-SCP" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "24",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error310",
+    "equivalent" : [ "5" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error310"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Supply",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supply",
+      "en" : "Supply"
+    },
+    "comment" : {
+      "en" : "The amount of goods that is available for use."
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "53",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "8",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error309",
+    "equivalent" : [ "66" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error309"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Customer_Data",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer_Data",
+      "en" : "Customer Data"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "72",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Contact_Person_Data",
+      "undefined" : "Contact Person Data"
+    },
+    "attributes" : [ "external" ],
+    "id" : "77",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "78",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "82",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Open_Order_Book",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Open_Order_Book",
+      "en" : "Open Order Book"
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Customer",
+    "equivalent" : [ "98" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer",
+      "en" : "Customer"
+    },
+    "comment" : {
+      "en" : "A customer is an business that purchases another company's goods or services."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "89",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Order_Line_Item",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order_Line_Item",
+      "en" : "Order Line Item"
+    },
+    "attributes" : [ "external" ],
+    "id" : "49",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Supplier_Data",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supplier_Data",
+      "en" : "Supplier Data"
+    },
+    "comment" : {
+      "en" : "Information about supplier"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Demand_Fulfillement",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Demand_Fulfillement",
+      "en" : "Demand Fulfillement"
+    },
+    "comment" : {
+      "en" : "The process of meeting a customer’s demand for product or services by fulfilling their request."
+    },
+    "attributes" : [ "external" ],
+    "id" : "107",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "109",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "24",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "115",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Order_Change_Request",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order_Change_Request",
+      "en" : "Order Change Request"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "97",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Action",
+    "equivalent" : [ "4" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Action",
+      "en" : "Action"
+    },
+    "comment" : {
+      "en" : "The process of doing something"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "5",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "124",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Supplier",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supplier",
+      "en" : "Supplier"
+    },
+    "comment" : {
+      "en" : "Organization that provides something needed such as a product or service."
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Allocation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Allocation",
+      "en" : "Allocation"
+    },
+    "comment" : {
+      "en" : "Allocation is a process used in order management in times when demand exceeds available supply."
+    },
+    "attributes" : [ "external" ],
+    "id" : "106",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Customer",
+    "equivalent" : [ "89" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Order_Confirmation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order_Confirmation",
+      "en" : "Order Confirmation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supply_Chain_Lobe"
+    },
+    "subClasses" : [ "71", "20", "95", "66", "14", "106", "90", "89", "49", "1", "10", "17", "7", "77", "13", "107", "5" ],
+    "attributes" : [ "external" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Open_Order",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Open_Order",
+      "en" : "Open Order"
+    },
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Customer_Plant",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer_Plant",
+      "en" : "Customer Plant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "90",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#User_Action",
+    "equivalent" : [ "65" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "User_Action",
+      "en" : "User Action"
+    },
+    "comment" : {
+      "en" : "Activity taken by user"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "66",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "94",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "64",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "144",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "147",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Customer_Plant_Data",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer_Plant_Data",
+      "en" : "Customer Plant Data"
+    },
+    "attributes" : [ "external" ],
+    "id" : "71",
+    "superClasses" : [ "18" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "6",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "146",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#customer_reference_number",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "customer_reference_number",
+      "en" : "customer reference number"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#open_quantity_OCR",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "open_quantity_OCR",
+      "en" : "open quantity OCR"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#customer_number",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "customer_number",
+      "en" : "customer number"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#describes_supplier",
+    "inverse" : "15",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "describes_supplier",
+      "en" : "describes supplier"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "13",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#PO_number_OO",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "PO_number_OO",
+      "en" : "PO number OO"
+    },
+    "domain" : "20",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "24",
+    "subproperty" : [ "25", "26", "27", "28", "29", "15", "12", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#has_allocated",
+    "inverse" : "50",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "has_allocated",
+      "en" : "has allocated"
+    },
+    "domain" : "49",
+    "attributes" : [ "external", "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#open_quantity_OLI",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "open_quantity_OLI",
+      "en" : "open quantity OLI"
+    },
+    "domain" : "49",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#customer_part_number",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "customer_part_number",
+      "en" : "customer part number"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#contains_customer_data",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "contains_customer_data",
+      "en" : "contains customer data"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#total_requested_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "total_requested_quantity",
+      "en" : "total requested quantity"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#confirmed_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "confirmed_quantity"
+    },
+    "domain" : "49",
+    "comment" : {
+      "en" : "confirmed quantity"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#contains_supplier_data",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "contains_supplier_data",
+      "en" : "contains supplier data"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#item_price",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "item_price",
+      "en" : "item price"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#current_dock_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "current_dock_date",
+      "en" : "current dock date"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#contains_customer_plant_data",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "contains_customer_plant_data",
+      "en" : "contains customer plant data"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#supplier_reference_number",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "supplier_reference_number",
+      "en" : "supplier reference number"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#requires_user_action",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "requires_user_action",
+      "en" : "requires user action"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "7",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#customer_requested_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "customer_requested_date",
+      "en" : "customer requested date"
+    },
+    "domain" : "49",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#total_open_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "total_open_quantity",
+      "en" : "total open quantity"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "86"
+  }, {
+    "range" : "18",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#is_delivered_to_customer_plant",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "is_delivered_to_customer_plant",
+      "en" : "is delivered to customer plant"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "20",
+    "attributes" : [ "external", "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#consists_of_order_line_item",
+    "inverse" : "28",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "consists_of_order_line_item",
+      "en" : "consists of order line item"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "20",
+    "attributes" : [ "external", "object" ],
+    "id" : "25"
+  }, {
+    "range" : "18",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "18",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#confirmed_delivery_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "confirmed_delivery_date",
+      "en" : "confirmed delivery date"
+    },
+    "domain" : "49",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#total_confirmed_open_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "total_confirmed_open_quantity",
+      "en" : "total confirmed open quantity"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#response_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "response_date",
+      "en" : "response date"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "99"
+  }, {
+    "range" : "18",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#plant_address",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "plant_address",
+      "en" : "plant address"
+    },
+    "domain" : "71",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#supplier_address",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "supplier_address",
+      "en" : "supplier address"
+    },
+    "domain" : "13",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "102"
+  }, {
+    "range" : "18",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "range" : "18",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "18",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "18",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "range" : "18",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "range" : "18",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#line_IDOCR",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "82",
+    "label" : {
+      "IRI-based" : "line_IDOCR",
+      "en" : "line IDOCR"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#describes_customer_plant",
+    "inverse" : "46",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "describes_customer_plant",
+      "en" : "describes customer plant"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "71",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#describes_customer",
+    "inverse" : "41",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "describes_customer",
+      "en" : "describes customer"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "10",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#department",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "department",
+      "undefined" : "department"
+    },
+    "domain" : "77",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#is_requested_by_customer",
+    "inverse" : "33",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "is_requested_by_customer",
+      "en" : "is requested by customer"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "7",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#unit_price",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "113",
+    "label" : {
+      "IRI-based" : "unit_price",
+      "en" : "unit price"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#allocates",
+    "inverse" : "119",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "allocates",
+      "en" : "allocates"
+    },
+    "domain" : "106",
+    "attributes" : [ "external", "object" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_plant_data",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "is_described_by_customer_plant_data",
+      "en" : "is described by customer plant data"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#line_IDOLI",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "line_IDOLI",
+      "en" : "line IDOLI"
+    },
+    "domain" : "49",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#is_allocated_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "is_allocated_to",
+      "en" : "is allocated to"
+    },
+    "domain" : "17",
+    "attributes" : [ "external", "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#total_delivered_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "total_delivered_quantity",
+      "en" : "total delivered quantity"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#item_number",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "item_number",
+      "en" : "item number"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#supplier_reason_code",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "supplier_reason_code",
+      "en" : "supplier reason code"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_supplier",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "partial_cancel_quantity_supplier",
+      "en" : "partial cancel quantity supplier"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_change_request",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "is_reconciled_order_change_request",
+      "en" : "is reconciled order change request"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "49",
+    "attributes" : [ "external", "inverse functional", "object", "functional" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#is_owned_by_customer",
+    "inverse" : "36",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "is_owned_by_customer",
+      "en" : "is owned by a customer"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "90",
+    "attributes" : [ "external", "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#contains_order_line_item",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "contains_order_line_item",
+      "en" : "contains order line item"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#belongs_to_open_order",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "belongs_to_open_order",
+      "en" : "belong to open order"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "1",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#contains_contact_person_data",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "contains_contact_person_data",
+      "en" : "contains contact person data"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#telephone",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "telephone",
+      "en" : "telephone"
+    },
+    "domain" : "77",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#owns_customer_plant",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "owns_customer_plant",
+      "en" : "owns customer plant"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "89",
+    "attributes" : [ "external", "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#name",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "name",
+      "en" : "name"
+    },
+    "domain" : "77",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#promised_dock_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "promised_dock_date",
+      "en" : "promised dock date"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_buyer",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "partial_cancel_quantity_buyer",
+      "en" : "partial cancel quantity buyer"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#fax",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "fax",
+      "undefined" : "fax"
+    },
+    "domain" : "77",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "133"
+  }, {
+    "range" : "18",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "18",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#incoterms",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "incoterms",
+      "undefined" : "icoterms"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "136"
+  }, {
+    "range" : "18",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "138"
+  }, {
+    "range" : "18",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "range" : "18",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "18",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#consits_of_open_order",
+    "inverse" : "29",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "consits_of_open_order",
+      "en" : "consists of open order"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "95",
+    "attributes" : [ "external", "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "is_part_of_open_order",
+      "en" : "is part of open order"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "49",
+    "attributes" : [ "external", "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order_book",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "is_part_of_open_order_book",
+      "en" : "is part of open order book"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "20",
+    "attributes" : [ "external", "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#requested_dock_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "requested_dock_date",
+      "en" : "requested dock date"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#total_unconfirmed_open_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "115",
+    "label" : {
+      "IRI-based" : "total_unconfirmed_open_quantity",
+      "en" : "total unconfirmed open quantity"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#is_described_by_supplier_data",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "is_described_by_supplier_data",
+      "en" : "is described by supplier data"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#customer_address",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "144",
+    "label" : {
+      "IRI-based" : "customer_address",
+      "en" : "customer address"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#PO_number_OCR",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "147",
+    "label" : {
+      "IRI-based" : "PO_number_OCR",
+      "en" : "PO number OCR"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "146"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#requests_order_change_request",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "requests_order_change_request",
+      "en" : "requests order change request"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "89",
+    "attributes" : [ "external", "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#supplier_comment",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "supplier_comment",
+      "en" : "supplier comment"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#email",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "email",
+      "undefined" : "email"
+    },
+    "domain" : "77",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_data",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "is_described_by_customer_data",
+      "en" : "is described by customer data"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#is_allocated_by",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "is_allocated_by",
+      "en" : "is allocated by"
+    },
+    "domain" : "106",
+    "attributes" : [ "external", "object" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#requested_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "requested_quantity",
+      "en" : "requested quantity"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#total_confirmed_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "total_confirmed_quantity",
+      "en" : "total confirmed quantity"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_line_item",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "is_reconciled_order_line_item",
+      "en" : "is reconciled order line item"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "7",
+    "attributes" : [ "external", "inverse functional", "object", "functional" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#mode_of_transport",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "mode_of_transport",
+      "en" : "mode of transport"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#requires_action",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "requires_action",
+      "en" : "requires action"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "7",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "47"
+  } ]
+}

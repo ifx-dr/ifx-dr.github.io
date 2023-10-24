@@ -1,0 +1,970 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3id.org/ecsel-dr-PWR", "http://www.w3id.org/ecsel-dr-PROD", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr", "http://www.w3.org/2001/XMLSchema", "http://www.w3id.org/ecsel-dr-SO", "http://org.semanticweb.owlapi/error" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Die_Representative",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Die_Representative",
+      "en" : "Die-Representative"
+    },
+    "comment" : {
+      "en" : "Die-Representative (DREP): supply element; where the package is not yet decided"
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Organization",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.example.org/semanticSupplyChain/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Organization",
+      "en" : "Organization"
+    },
+    "comment" : {
+      "en" : "An organization is en entity comprising multiple people. In SSC, this class mainly refers to businesses."
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Finished_Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Finished_Product",
+      "en" : "Finished Product"
+    },
+    "comment" : {
+      "en" : "End result of the manufacturing process"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Sales_Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sales_Product",
+      "en" : "Sales Product"
+    },
+    "comment" : {
+      "en" : "Sellable product; It can be identified by salesProductNumber"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "11" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "43",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Required_For_Plan",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Required_For_Plan",
+      "en" : "Required for Plan"
+    },
+    "comment" : {
+      "en" : "Required for Plan (RfP): planning product being not capacity relevant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Plan_Position",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Plan_Position",
+      "en" : "Plan Position"
+    },
+    "comment" : {
+      "en" : "Plan Position (PPOS): capacity and demand planning element"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Organization_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization_Lobe"
+    },
+    "subClasses" : [ "25" ],
+    "attributes" : [ "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Not_Released_Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Not_Released_Product",
+      "en" : "Not Released Product"
+    },
+    "comment" : {
+      "en" : "Not Released Products are those finished Product Numbers that are not allowed to be shipped to any customer"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Product",
+    "equivalent" : [ "53", "54" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product",
+      "en" : "Product"
+    },
+    "subClasses" : [ "38", "9", "6", "1", "29" ],
+    "comment" : {
+      "en" : "A product is a work product that is delivered to the customer."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Customer_Part_Number_Specification",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer_Part_Number_Specification",
+      "en" : "Customer Part Number Specification"
+    },
+    "comment" : {
+      "en" : "A Customer Part Number (CPN) is the product identifier used by the customer to identify one IFX product."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Fabrication_Position",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fabrication_Position",
+      "en" : "Fabrication Position"
+    },
+    "comment" : {
+      "en" : "Fabrication Position (FPOS): product & manufacturing route; where it is produced - coarse"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Non_Shippable_Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Non_Shippable_Product",
+      "en" : "Non-Shippable Product"
+    },
+    "comment" : {
+      "en" : "Non-Shippable Products are those finished Product Numbers that are not allowed to be shipped to a given customer"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error367",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error367"
+    },
+    "attributes" : [ "external" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error368",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error368"
+    },
+    "attributes" : [ "external" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Stock_Keeping_Unit",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stock_Keeping_Unit",
+      "en" : "Stock Keeping Unit"
+    },
+    "comment" : {
+      "en" : "Stock Keeping Unit (SKU) - finished product by storage location; called DC BauNumber"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#Planning_Element",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Element",
+      "en" : "Planning Element"
+    },
+    "subClasses" : [ "3", "17", "15", "21" ],
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Product_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Lobe"
+    },
+    "subClasses" : [ "19", "4", "11" ],
+    "attributes" : [ "external" ],
+    "id" : "12"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "49",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "58",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "59",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#sales_product_number",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "sales_product_number",
+      "en" : "sales product number"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A salesProductNumber is a unique identifier of a Sales Product"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#delivery_lead_time",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "7",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "http://schema.org/deliveryLeadTime",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "delivery_lead_time",
+      "en" : "delivery lead time"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "The typical delay between the receipt of the order and the goods either leaving the warehouse or being prepared for pickup, in case the delivery method is on site pickup."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#has_SKU_SM",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "has_SKU_SM",
+      "en" : "has SKU SM"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "8"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "12",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "4",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "4",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "12",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "4",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "11",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "11",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#is_similar_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "is_similar_to",
+      "en" : "is similar to"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Other variant after a product change, in case the customer wants to order old and new variant over a longer period. Has a separate SalesProductNumber"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "27"
+  }, {
+    "range" : "11",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#halogen_free",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "halogen_free",
+      "en" : "halogen free"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "halogen free states if a SalesProduct is halogen free or not."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#has_customer_part_number_specification",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "has_customer_part_number_specification",
+      "en" : "has a customer part number specification"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Contains relevant information including customer and CPN. Several CPNs can be linked to the same SP number.'sold-to'"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#has_required_for_plan",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "has_required_for_plan",
+      "en" : "has required for plan  (RfP)"
+    },
+    "domain" : "17",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#customer_part_number",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "customer_part_number",
+      "en" : "customer part number"
+    },
+    "domain" : "19",
+    "comment" : {
+      "en" : "Product identifier used by the customer to identify one IFX product"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#alternate_product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "alternate_product",
+      "en" : "alternate product"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "All FinishedProducts that share the same SalesProductNumber"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "11",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "26",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "11",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#orderable_part_number",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "orderable_part_number",
+      "en" : "orderable part number"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Customers may use the OPN as their customer part number for ordering at Infineon. It is based on product attributes"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "46"
+  }, {
+    "range" : "11",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "9",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#has_finished_product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "has_finished_product",
+      "en" : "has finished product"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "SalesProduct hasFinishedProduct FinishedProduct"
+    },
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#has_fabric_position",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "has_fabric_position",
+      "en" : "has fabric position"
+    },
+    "domain" : "17",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "52"
+  }, {
+    "range" : "9",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "1",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#sales_product_name",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "sales_product_name",
+      "en" : "sales product name"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "In verbal communication it is usually identified by Sales Product Name (SPN) which might not be sufficient for unique identification.\r\nIt reflects a product from customer view without differentiation of manufacturing route or storage location ( form – fit – function )."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#shipped_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "shipped_to",
+      "en" : "shipped to"
+    },
+    "domain" : "61",
+    "attributes" : [ "external", "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#has_DREP",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "has_DREP",
+      "en" : "has DREP"
+    },
+    "domain" : "21",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#has_sales_product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "has_sales_product",
+      "en" : "has sales product"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "FinishedProduct hasSalesProduct SalesProduct"
+    },
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#min_order_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "min_order_quantity",
+      "en" : "min order quantity"
+    },
+    "domain" : "65",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#product_family",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "product_family",
+      "en" : "product family"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#finished_product_number",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "finished_product_number",
+      "en" : "finished product number"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "finishedProductNumber is the unique identifier for a FinishedProduct"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#customer",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "customer",
+      "en" : "customer"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#location",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "location",
+      "en" : "location"
+    },
+    "domain" : "42",
+    "comment" : {
+      "en" : "A Location within Infineon’s internal supply chain is a local area where products are manufactured or stored."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#has_SKU_PD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "has_SKU_PD",
+      "en" : "has SKU PD"
+    },
+    "domain" : "3",
+    "attributes" : [ "external", "inverse functional", "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#additional_property",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "additional_property",
+      "en" : "additional property"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "A property-value pair representing an additional characteristics of the entitity, e.g. a product feature or another characteristic for which there is no matching property in schema.org."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PROD#substitute_product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PROD",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "substitute_product",
+      "en" : "substitute product"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A Sales Product SP2 that can be used instead of a Sales Product SP1 to promise an order to a customer."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "72"
+  } ]
+}

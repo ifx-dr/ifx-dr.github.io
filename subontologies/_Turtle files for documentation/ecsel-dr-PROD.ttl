@@ -1,0 +1,225 @@
+@prefix : <http://www.w3id.org/ecsel-dr-PROD#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Non_Shippable_Product a owl:Class ;
+    rdfs:label "Non-Shippable Product"@en ;
+    rdfs:comment "Non-Shippable Products are those finished Product Numbers that are not allowed to be shipped to a given customer"@en ;
+    rdfs:subClassOf :Product .
+
+:Not_Released_Product a owl:Class ;
+    rdfs:label "Not Released Product"@en ;
+    rdfs:comment "Not Released Products are those finished Product Numbers that are not allowed to be shipped to any customer"@en ;
+    rdfs:subClassOf :Product .
+
+:additional_property a owl:DatatypeProperty ;
+    rdfs:label "additional property"@en ;
+    rdfs:comment "A property-value pair representing an additional characteristics of the entitity, e.g. a product feature or another characteristic for which there is no matching property in schema.org."@en ;
+    rdfs:domain :Product ;
+    rdfs:range xsd:string .
+
+:alternate_product a owl:ObjectProperty ;
+    rdfs:label "alternate product"@en ;
+    rdfs:comment "All FinishedProducts that share the same SalesProductNumber"@en ;
+    rdfs:domain :Finished_Product ;
+    rdfs:range :Finished_Product .
+
+:customer a owl:ObjectProperty ;
+    rdfs:label "customer"@en ;
+    rdfs:domain :Customer_Part_Number_Specification ;
+    rdfs:range :Organization .
+
+:customer_part_number a owl:DatatypeProperty ;
+    rdfs:label "customer part number"@en ;
+    rdfs:comment "Product identifier used by the customer to identify one IFX product"@en ;
+    rdfs:domain :Customer_Part_Number_Specification ;
+    rdfs:range xsd:string .
+
+:delivery_lead_time a owl:DatatypeProperty ;
+    rdfs:label "delivery lead time"@en ;
+    rdfs:comment "The typical delay between the receipt of the order and the goods either leaving the warehouse or being prepared for pickup, in case the delivery method is on site pickup."@en ;
+    rdfs:domain :Finished_Product ;
+    rdfs:isDefinedBy "http://schema.org/deliveryLeadTime"@en ;
+    rdfs:range xsd:integer .
+
+:finished_product_number a owl:DatatypeProperty ;
+    rdfs:label "finished product number"@en ;
+    rdfs:comment "finishedProductNumber is the unique identifier for a FinishedProduct"@en ;
+    rdfs:domain :Finished_Product ;
+    rdfs:range xsd:string .
+
+:halogen_free a owl:DatatypeProperty ;
+    rdfs:label "halogen free"@en ;
+    rdfs:comment "Free of halogen is a material classification. These are materials that emit limited smoke and no halogen when exposed to high sources of heat."@en,
+        "halogen free states if a SalesProduct is halogen free or not."@en ;
+    rdfs:domain :Sales_Product ;
+    rdfs:range xsd:boolean .
+
+:has_DREP a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has DREP"@en ;
+    rdfs:domain :Fabrication_Position ;
+    rdfs:range :Die_Representative .
+
+:has_SKU_PD a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has SKU PD"@en ;
+    rdfs:domain :Die_Representative ;
+    rdfs:range :Stock_Keeping_Unit .
+
+:has_SKU_SM a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has SKU SM"@en ;
+    rdfs:domain :Finished_Product ;
+    rdfs:range :Stock_Keeping_Unit .
+
+:has_customer_part_number_specification a owl:ObjectProperty ;
+    rdfs:label "has a customer part number specification"@en ;
+    rdfs:comment "Contains relevant information including customer and CPN. Several CPNs can be linked to the same SP number.'sold-to'"@en ;
+    rdfs:domain :Sales_Product ;
+    rdfs:range :Customer_Part_Number_Specification .
+
+:has_fabric_position a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has fabric position"@en ;
+    rdfs:domain :Plan_Position ;
+    rdfs:range :Fabrication_Position .
+
+:has_finished_product a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has finished product"@en ;
+    rdfs:comment "SalesProduct hasFinishedProduct FinishedProduct"@en ;
+    rdfs:domain :Sales_Product ;
+    rdfs:range :Finished_Product .
+
+:has_required_for_plan a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has required for plan  (RfP)"@en ;
+    rdfs:domain :Plan_Position ;
+    rdfs:range :Required_For_Plan .
+
+:has_sales_product a owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has sales product"@en ;
+    rdfs:comment "FinishedProduct hasSalesProduct SalesProduct"@en ;
+    rdfs:domain :Required_For_Plan ;
+    rdfs:range :Sales_Product .
+
+:is_similar_to a owl:ObjectProperty ;
+    rdfs:label "is similar to"@en ;
+    rdfs:comment "Other variant after a product change, in case the customer wants to order old and new variant over a longer period. Has a separate SalesProductNumber"@en ;
+    rdfs:domain :Product ;
+    rdfs:range :Product .
+
+:location a owl:DatatypeProperty ;
+    rdfs:label "location"@en ;
+    rdfs:comment "A Location within Infineon’s internal supply chain is a local area where products are manufactured or stored."@en ;
+    rdfs:domain :Planning_Element,
+        :Product ;
+    rdfs:range xsd:string .
+
+:min_order_quantity a owl:DatatypeProperty ;
+    rdfs:label "min order quantity"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range xsd:integer .
+
+:orderable_part_number a owl:DatatypeProperty ;
+    rdfs:label "orderable part number"@en ;
+    rdfs:comment "Customers may use the OPN as their customer part number for ordering at Infineon. It is based on product attributes"@en ;
+    rdfs:domain :Sales_Product ;
+    rdfs:range xsd:string .
+
+:product_family a owl:DatatypeProperty ;
+    rdfs:label "product family"@en ;
+    rdfs:domain :Sales_Product ;
+    rdfs:range rdfs:Literal .
+
+:sales_product_number a owl:DatatypeProperty ;
+    rdfs:label "sales product number"@en ;
+    rdfs:comment "A salesProductNumber is a unique identifier of a Sales Product"@en ;
+    rdfs:domain :Sales_Product ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :sales_product_name .
+
+:shipped_to a owl:ObjectProperty ;
+    rdfs:label "shipped to"@en ;
+    rdfs:domain [ ] .
+
+:substitute_product a owl:ObjectProperty ;
+    rdfs:label "substitute product"@en ;
+    rdfs:comment "A Sales Product SP2 that can be used instead of a Sales Product SP1 to promise an order to a customer."@en,
+        "Are finishedProductNumbers with different SalesProductNumber that meet the customer’s requirements on form – fit – function."@en ;
+    rdfs:domain :Sales_Product ;
+    rdfs:range :Sales_Product .
+
+:Organization a owl:Class ;
+    rdfs:label "Organization"@en ;
+    rdfs:comment "An organization is en entity comprising multiple people. In SSC, this class mainly refers to businesses."@en ;
+    rdfs:isDefinedBy "http://www.example.org/semanticSupplyChain/" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+
+:sales_product_name a owl:DatatypeProperty ;
+    rdfs:label "sales product name"@en ;
+    rdfs:comment """In verbal communication it is usually identified by Sales Product Name (SPN) which might not be sufficient for unique identification.\r
+It reflects a product from customer view without differentiation of manufacturing route or storage location ( form – fit – function )."""@en ;
+    rdfs:domain :Sales_Product ;
+    rdfs:range xsd:string .
+
+:Die_Representative a owl:Class ;
+    rdfs:label "Die-Representative"@en ;
+    rdfs:comment "Die-Representative (DREP): supply element; where the package is not yet decided"@en ;
+    rdfs:subClassOf :Planning_Element .
+
+:Fabrication_Position a owl:Class ;
+    rdfs:label "Fabrication Position"@en ;
+    rdfs:comment "Fabrication Position (FPOS): product & manufacturing route; where it is produced - coarse"@en ;
+    rdfs:subClassOf :Planning_Element .
+
+:Plan_Position a owl:Class ;
+    rdfs:label "Plan Position"@en ;
+    rdfs:comment "Plan Position (PPOS): capacity and demand planning element"@en ;
+    rdfs:subClassOf :Planning_Element .
+
+:Required_For_Plan a owl:Class ;
+    rdfs:label "Required for Plan"@en ;
+    rdfs:comment "Required for Plan (RfP): planning product being not capacity relevant"@en ;
+    rdfs:subClassOf :Planning_Element .
+
+:Customer_Part_Number_Specification a owl:Class ;
+    rdfs:label "Customer Part Number Specification"@en ;
+    rdfs:comment "A Customer Part Number (CPN) is the product identifier used by the customer to identify one IFX product."@en,
+        "In general, one CPN is equal to one Sales Product Name. Each customer will use a different CPN."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> .
+
+:Stock_Keeping_Unit a owl:Class ;
+    rdfs:label "Stock Keeping Unit"@en ;
+    rdfs:comment "Stock Keeping Unit (SKU) - finished product by storage location; called DC BauNumber"@en ;
+    rdfs:subClassOf :Product .
+
+:Planning_Element a owl:Class ;
+    rdfs:label "Planning Element"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+    owl:disjointWith :Product .
+
+:Finished_Product a owl:Class ;
+    rdfs:label "Finished Product"@en ;
+    rdfs:comment "End result of the manufacturing process"@en ;
+    rdfs:subClassOf :Product ;
+    owl:disjointWith :Sales_Product,
+        :Stock_Keeping_Unit .
+
+:Product a owl:Class ;
+    rdfs:label "Product"@en ;
+    rdfs:comment "A product is a work product that is delivered to the customer."@en,
+        "Any tangible output or service that is a result of a process and that is intended for delivery to a customer or end user."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Product_Lobe> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-PWR#Product>,
+        <http://www.w3id.org/ecsel-dr-SO#Product> .
+
+:Sales_Product a owl:Class ;
+    rdfs:label "Sales Product"@en ;
+    rdfs:comment "Sellable product; It can be identified by salesProductNumber"@en ;
+    rdfs:subClassOf :Product ;
+    owl:disjointWith :Stock_Keeping_Unit .
+

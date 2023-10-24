@@ -1,0 +1,3278 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3id.org/ecsel-dr-PWR", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr", "http://www.w3.org/2001/XMLSchema", "http://org.semanticweb.owlapi/error", "http://www.w3id.org/ecsel-dr-SO", "http://xmlns.com/foaf/0.1" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "200",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "203",
+    "type" : "owl:Class"
+  }, {
+    "id" : "167",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "230",
+    "type" : "owl:Class"
+  }, {
+    "id" : "198",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "235",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Switcher",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Switcher",
+      "undefined" : "Switcher"
+    },
+    "comment" : {
+      "en" : "Switchers rapidly switch a series device on and off."
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#On_State_Region",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "On_State_Region",
+      "en" : "On-State Region"
+    },
+    "subClasses" : [ "4", "5" ],
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#N_Channel_Configuration",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "N_Channel_Configuration",
+      "en" : "N-Channel Configuration"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Software_And_Services",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Software_And_Services",
+      "en" : "Software And Services"
+    },
+    "comment" : {
+      "en" : "Industrial sector of Software and Services"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Semiconductors_And_Semiconductor_Equipment",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semiconductors_And_Semiconductor_Equipment",
+      "en" : "Semiconductors And Semiconductor Equipment"
+    },
+    "subClasses" : [ "11" ],
+    "comment" : {
+      "en" : "Industrial sector of Semiconductors and Semiconductor Equipment"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Depletion_Mode",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Depletion_Mode",
+      "en" : "Depletion Mode"
+    },
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Electronic_Equipment_Instruments_And_Components",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Electronic_Equipment_Instruments_And_Components",
+      "en" : "Electronic Equipment Instruments And Components"
+    },
+    "subClasses" : [ "24" ],
+    "comment" : {
+      "en" : "Industrial sector of Electronic Equipment, Instruments and Components"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Deployment_Related_Process",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#DeploymentRelatedProcess",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Deployment_Related_Process",
+      "en" : "Deployment-Related Process"
+    },
+    "subClasses" : [ "27" ],
+    "comment" : {
+      "undefined" : "Place to group all the various Processes related to Deployment. For example, as well as Deployment, installation, maintenance, deployment of the further devices and the like would all be classified under DeploymentRelatedProcess."
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Semiconductors",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semiconductors",
+      "en" : "Semiconductors"
+    },
+    "subClasses" : [ "31", "32", "33" ],
+    "comment" : {
+      "en" : "Industrial sector of Semiconductors"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Real_Estate",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Real_Estate",
+      "en" : "Real Estate"
+    },
+    "comment" : {
+      "en" : "Real Estate sector"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Region_Of_Operation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Region_Of_Operation",
+      "en" : "Region Of Operation"
+    },
+    "subClasses" : [ "2", "37" ],
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Process_Output",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#ProcessOutput",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Process_Output",
+      "en" : "Process Output"
+    },
+    "comment" : {
+      "undefined" : "Any information that is reported from a Procedure."
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Leakage_Current",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Leakage_Current",
+      "en" : "Leakage Current"
+    },
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Drain_Voltage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Drain_Voltage",
+      "en" : "Drain Voltage (Gate-Source Voltage)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "40", "45" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Document",
+    "equivalent" : [ "59" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Friend of a friend ontology http://xmlns.com/foaf/spec/#term_Document\"",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Document",
+      "en" : "Document"
+    },
+    "subClasses" : [ "58" ],
+    "comment" : {
+      "en" : "The document class presents those things which are, broadly conceived, \"documents''. It should contain the manuals and the data sheet of the devices."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "56",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Price",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Price",
+      "en" : "Price"
+    },
+    "comment" : {
+      "en" : "The element of an entity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Product",
+    "equivalent" : [ "61" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "The Web Vocabulary for E-Commerce Good Relations http://www.heppnetz.de/ontologies/goodrelations/v1.html#ProductOrService",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Product",
+      "en" : "Product"
+    },
+    "comment" : {
+      "undefined" : "The superclass of all classes describing products or services types, either by nature or purpose. Examples for such subclasses are \"TV set\", \"vacuum cleaner\", etc. An instance of this class can be either an actual product or service (gr:Individual), a placeholder instance for unknown instances of a mass-produced commodity (gr:SomeItems), or a model / prototype specification (gr:ProductOrServiceModel). When in doubt, use gr:SomeItems. Examples: \r\na) MyCellphone123, i.e. my personal, tangible cell phone (gr:Individual)\r\nb) Siemens1234, i.e. the Siemens cell phone make and model 1234 (gr:ProductOrServiceModel)\r\nc) dummyCellPhone123 as a placeholder for actual instances of a certain kind of cell phones (gr:SomeItems)"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "29",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Drain",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Drain",
+      "en" : "Drain"
+    },
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Enhancement_Mode",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Enhancement_Mode",
+      "en" : "Enhancement Mode"
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Weight",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Weight",
+      "en" : "Weight"
+    },
+    "comment" : {
+      "en" : "The element of an entity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "67",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#The_Application_Voltage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "The_Application_Voltage",
+      "en" : "The Application Voltage"
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error369",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error369"
+    },
+    "subClasses" : [ "5" ],
+    "attributes" : [ "external" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Energy",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Energy",
+      "en" : "Energy"
+    },
+    "comment" : {
+      "en" : "Industrial sector of Energy"
+    },
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Switching_Frequency",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Switching_Frequency",
+      "en" : "Switching Frequency"
+    },
+    "attributes" : [ "external" ],
+    "id" : "71",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error370",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error370"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Width",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Width",
+      "en" : "Width"
+    },
+    "comment" : {
+      "en" : "The width of an entity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error371",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error371"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Consumer_Discretionary",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Consumer_Discretionary",
+      "en" : "Consumer Discretionary"
+    },
+    "comment" : {
+      "en" : "Industrial sector of Consumer Discretionary"
+    },
+    "attributes" : [ "external" ],
+    "id" : "76",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Information_Object",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "\"World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#InformationObject\"",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Information_Object",
+      "en" : "Information Object"
+    },
+    "subClasses" : [ "60", "78", "74", "56", "67" ],
+    "comment" : {
+      "en" : "A piece of information, such as a musical composition, a text, a word, a picture, independently from how it is concretely realized."
+    },
+    "attributes" : [ "external" ],
+    "id" : "57",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Blocking_Voltage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Blocking_Voltage",
+      "en" : "Blocking Voltage (Break Down)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Triode/Constant_Resistance_Region",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Triode/Constant_Resistance_Region",
+      "en" : "Triode/Constant Resistance Region"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "2", "69" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#On_State_Power_Loss",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "On_State_Power_Loss",
+      "en" : "On-State Power Loss"
+    },
+    "attributes" : [ "external" ],
+    "id" : "83",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Gate",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gate",
+      "en" : "Gate"
+    },
+    "attributes" : [ "external" ],
+    "id" : "84",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#System",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#System\"",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "System",
+      "en" : "System"
+    },
+    "subClasses" : [ "86" ],
+    "comment" : {
+      "undefined" : "System is a unit of abstraction for pieces of infrastructure that implements procedure. A System may have components, its subsystems, which are other systems.\""
+    },
+    "attributes" : [ "external" ],
+    "id" : "65",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Variable_Resistance",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Variable_Resistance",
+      "en" : "Variable Resistance"
+    },
+    "comment" : {
+      "en" : "The variable degree to which a substance prevents the flow of an electric current through it"
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "88" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Drain_Current",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Drain_Current",
+      "en" : "Drain Current"
+    },
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Geometric_Dimension",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "DefinedBy \"IFX\"",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Geometric_Dimension",
+      "en" : "Geometric Dimension"
+    },
+    "subClasses" : [ "93", "73", "94" ],
+    "comment" : {
+      "undefined" : "\"Describes the Dimensions of any Physical Object (Length, Wisth, Height)\""
+    },
+    "attributes" : [ "external" ],
+    "id" : "74",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Solar_Energy",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Solar_Energy",
+      "en" : "Solar Energy"
+    },
+    "comment" : {
+      "en" : "Area that focuses on solar energy solutions"
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "96" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Situation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Situation",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Situation",
+      "en" : "Situation"
+    },
+    "subClasses" : [ "99" ],
+    "comment" : {
+      "undefined" : "A view, consistent with ('satisfying') a Description, on a set of entities. It can also be seen as a 'relational context' created by an observer on the basis of a 'frame' (i.e. a Description). For example, a PlanExecution is a context including some actions executed by agents according to certain parameters and expected tasks to be achieved from a Plan; a DiagnosedSituation is a context of observed entities that is interpreted on the basis of a Diagnosis, etc. Situation is also able to represent reified n-ary relations, where isSettingFor is the top-level relation for all binary projections of the n-ary relation. If used in a transformation pattern for n-ary relations, the designer should take care of creating only one subclass of Situation for each n-ary relation, otherwise the 'identification constraint' (Calvanese et al., IJCAI 2001) could be violated."
+    },
+    "attributes" : [ "external" ],
+    "id" : "97",
+    "superClasses" : [ "98" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Quality",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Quality",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Quality",
+      "en" : "Quality"
+    },
+    "subClasses" : [ "40" ],
+    "comment" : {
+      "undefined" : "Any aspect of an Entity (but not a part of it), which cannot exist without that Entity. For example, the way the surface of a specific PhysicalObject looks like is a Quality, while the encoding of that Quality into e.g. a PhysicalAttribute should be modeled as a Region. From the design viewpoint, the Quality-Region distinction is useful only when individual aspects of an Entity are considered in a domain of discourse. For example, in an automotive context, it would be irrelevant to consider the aspects of car windows for a specific car, unless the factory wants to check a specific window against design parameters (anomaly detection). On the other hand, in an antiques context, the individual aspects for a specific piece of furniture are a major focus of attention, and may constitute the actual added value, because the design parameters for old furniture are often not fixed, and may not be viewed as 'anomalies'."
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Deployment",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Deployment",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Deployment",
+      "en" : "Deplyment"
+    },
+    "comment" : {
+      "undefined" : "The ongoing Process of Entities (for the purposes of this ontology, mainly the Infineon device) deployed for a particular purpose. For example, a particular Sensor deployed on a Platform, or a whole network of Sensors deployed for an observation campaign. The deployment may have sub processes, such as installation, maintenance, addition, and decomissioning and removal."
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Saturation_Region",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Saturation_Region",
+      "undefined" : "Saturation Region"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Process",
+    "equivalent" : [ "105" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Process",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Process",
+      "en" : "Process"
+    },
+    "subClasses" : [ "25", "104" ],
+    "comment" : {
+      "undefined" : "A process has an output and possibly inputs, and for a compositive process, describes the temporal and dataflow dependencies and relationships amongst its parts."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "26",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Package",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "IFX",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Package",
+      "en" : "Package"
+    },
+    "comment" : {
+      "undefined" : "A package is the housing for a chip (or several chips) and provides electrical contacts. It is an interconnect in between chip-pads and the interface to the PCB board. A package is characterized by its outline (drawing) and its materials."
+    },
+    "attributes" : [ "external" ],
+    "id" : "106",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Maximum_Junction_Temperature",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Maximum_Junction_Temperature",
+      "en" : "Maximum Junction Temperature"
+    },
+    "comment" : {
+      "en" : "Is specified in the part's datasheet and is used when calculating the necessary case-to-ambient thermal resistance for a given power dissipation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "54",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Microcontroller",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Microcontroller",
+      "en" : "Microcontroller"
+    },
+    "comment" : {
+      "en" : "Industrial sector of Microcontrollers"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Operating_Property",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Operating_Property",
+      "en" : "Operating Property"
+    },
+    "subClasses" : [ "3" ],
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Negative",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Negative",
+      "en" : "Negative (-)"
+    },
+    "comment" : {
+      "en" : "Is the negative difference in electric potential between two points"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Switching_Value",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Switching_Value",
+      "en" : "Switching Value"
+    },
+    "comment" : {
+      "undefined" : "The value of the result of the method (procedures) of the device function. The result is an information object that encodes some value for a feature. For example:\r\na) If we consider the observation is the method used for sensing of the sensors, then the observation has a result which is the output of the sensor,\r\nb) If we consider the amplification is the method used for boosting of the power converter, then the amplification has a result which is the output of the  power converter,"
+    },
+    "attributes" : [ "external" ],
+    "id" : "107",
+    "superClasses" : [ "108" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Sensors",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sensors",
+      "en" : "Sensors"
+    },
+    "comment" : {
+      "en" : "Industrial sector of Sensors"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Process",
+    "equivalent" : [ "26" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Process"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#P_Channel_Configuration",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "P_Channel_Configuration",
+      "en" : "P-Channel Configuration"
+    },
+    "attributes" : [ "external" ],
+    "id" : "111",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Junction_Temperature",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Junction_Temperature",
+      "en" : "Junction Temperature"
+    },
+    "subClasses" : [ "54" ],
+    "comment" : {
+      "en" : "The highest operating temperature of the actual semiconductor"
+    },
+    "attributes" : [ "external" ],
+    "id" : "55",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Energy_Storage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Energy_Storage",
+      "en" : "Energy Storage"
+    },
+    "comment" : {
+      "en" : "Area that focuses on energy storage solutions"
+    },
+    "attributes" : [ "external" ],
+    "id" : "112",
+    "superClasses" : [ "96" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Information_Technology",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Information_Technology",
+      "en" : "Information Technology"
+    },
+    "subClasses" : [ "8", "19", "10" ],
+    "comment" : {
+      "en" : "Industrial sector of Information Technology"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Financial",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Financial",
+      "en" : "Financial"
+    },
+    "comment" : {
+      "en" : "Financial Sector"
+    },
+    "attributes" : [ "external" ],
+    "id" : "49",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Power_Converter",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Power_Converter",
+      "en" : "Power Converter"
+    },
+    "comment" : {
+      "en" : "Industrial sector of Power Converters"
+    },
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Process_Input",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#ProcessInput",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Process_Input",
+      "en" : "Process Input"
+    },
+    "subClasses" : [ "68", "50" ],
+    "comment" : {
+      "undefined" : "Any information that is provided a Procedure for its use."
+    },
+    "attributes" : [ "external" ],
+    "id" : "45",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Physical_Object",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Physical_Object",
+      "en" : "Physical Object"
+    },
+    "subClasses" : [ "116", "106", "65", "117" ],
+    "comment" : {
+      "en" : "Any physical object"
+    },
+    "attributes" : [ "external" ],
+    "id" : "85",
+    "superClasses" : [ "115" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Abstract",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Abstract\"",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Abstract",
+      "en" : "Abstract"
+    },
+    "subClasses" : [ "107" ],
+    "comment" : {
+      "undefined" : "Any Entity that cannot be located in space-time.\r\n\r\nExample: mathematical entities: formal semantics elements, regions within dimensional spaces, etc.\""
+    },
+    "attributes" : [ "external" ],
+    "id" : "108",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Off_State_Region",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Off_State_Region",
+      "en" : "Off-State Region"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Communication_Services",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Communication_Services",
+      "en" : "Communication Services"
+    },
+    "comment" : {
+      "en" : "Industrial sector of Communication Services"
+    },
+    "attributes" : [ "external" ],
+    "id" : "131",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Voltage_Controlled",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "rdfs:isDefinedBy",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Voltage_Controlled",
+      "undefined" : "Voltage Controlled"
+    },
+    "comment" : {
+      "undefined" : "by applying the voltage between Gate and Sourcet o turn on, turn off the MOSFET, and  increaseing, decreasing  the MOSFET output current."
+    },
+    "attributes" : [ "external" ],
+    "id" : "132",
+    "superClasses" : [ "92" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Utilities",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Utilities",
+      "en" : "Utilities"
+    },
+    "comment" : {
+      "en" : "Utilities sector"
+    },
+    "attributes" : [ "external" ],
+    "id" : "134",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Information_Entity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#InformationEntity\"",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Information_Entity",
+      "en" : "Information Entity"
+    },
+    "subClasses" : [ "57" ],
+    "comment" : {
+      "en" : "A piece of information, be it concretely realized or not."
+    },
+    "attributes" : [ "external" ],
+    "id" : "77",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Semiconductor_Product_Data_Sheet",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semiconductor_Product_Data_Sheet",
+      "en" : "Semiconductor Product Data Sheet"
+    },
+    "comment" : {
+      "en" : "Data sheet of a semiconductor product (its name), SiC MOSFET Data Sheet"
+    },
+    "attributes" : [ "external" ],
+    "id" : "58",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Object",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Object\"",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Object",
+      "en" : "Object"
+    },
+    "subClasses" : [ "98", "85" ],
+    "comment" : {
+      "en" : "Any physical, social, or mental object, or a substance"
+    },
+    "attributes" : [ "external" ],
+    "id" : "115",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Operation_Mode",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Operation_Mode",
+      "en" : "Operation Mode"
+    },
+    "subClasses" : [ "20", "66" ],
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SO#Product",
+    "equivalent" : [ "29" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SO",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Property",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Property",
+      "en" : "Property"
+    },
+    "subClasses" : [ "36", "119", "82", "43", "81", "83", "167", "71", "55", "39", "42", "168", "50" ],
+    "comment" : {
+      "en" : "Any attribute of an entity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "101" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Consumer_Staples",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Consumer_Staples",
+      "en" : "Consumer Staples"
+    },
+    "comment" : {
+      "en" : "Industrial sector of Consumer staples"
+    },
+    "attributes" : [ "external" ],
+    "id" : "171",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Electronic_Components",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Electronic_Components",
+      "en" : "Electronic Components"
+    },
+    "comment" : {
+      "en" : "Industrial sector of Electronic Components"
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Device_Element",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Device_Element",
+      "en" : "Device Element"
+    },
+    "subClasses" : [ "84", "157", "62" ],
+    "comment" : {
+      "en" : "Elements that are part of a device"
+    },
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Threshold_Voltage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Threshold_Voltage",
+      "en" : "Threshold Voltage"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Industrials",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Industrials",
+      "en" : "Industrials"
+    },
+    "comment" : {
+      "en" : "Industrial sectors"
+    },
+    "attributes" : [ "external" ],
+    "id" : "47",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#SiC_MOSFET",
+    "equivalent" : [ "90" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SiC_MOSFET",
+      "en" : "SiC MOSFET"
+    },
+    "comment" : {
+      "undefined" : "Silicon Carbide Metal Oxide Semiconductor Field Effect Transistor (SiC MOSFET): It is a transistor: It is used for switching or amplifying the electronics signals or electric power."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "80",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Positive",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Positive",
+      "en" : "Positive (+)"
+    },
+    "comment" : {
+      "en" : "Is the positive difference in electric potential between two points"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Interface",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "incompatibleWith" : [ {
+        "identifier" : "incompatibleWith",
+        "language" : "undefined",
+        "value" : "IFX",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Interface",
+      "en" : "Interface"
+    },
+    "comment" : {
+      "undefined" : "A common boundary or interconnection between systems, equipment, concepts, or human beings"
+    },
+    "attributes" : [ "external" ],
+    "id" : "117",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Device",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "rdfs:isDefinedBy \"World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Device\"",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Device",
+      "en" : "Device"
+    },
+    "subClasses" : [ "90" ],
+    "comment" : {
+      "undefined" : "A device is a physical piece of technology - a system in a box. Devices may of course be build of smaller devices and software components.\""
+    },
+    "attributes" : [ "external" ],
+    "id" : "86",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Healthcare",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Healthcare",
+      "en" : "Healthcare"
+    },
+    "comment" : {
+      "en" : "Healthcare sector"
+    },
+    "attributes" : [ "external" ],
+    "id" : "200",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#The_Method_Of_The_Device_Function",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "The_Method_Of_The_Device_Function",
+      "en" : "The Method Of The Device Function (Switching)"
+    },
+    "comment" : {
+      "undefined" : "The function of the devices has a method ( Procedure to estimate or calculate a value), for example:\r\nThe Senor its function is the sensing, the sensing method is the observation\r\nThe Boost converter ( a type of the power converter) its function is boosting, the boosting method is the amplification.  \r\n\r\nAct of carrying out an (the method) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to an the methodProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that proeprty was associated with.\r\n\r\nExample: The activity of estimating the intensity of an earthquake using the Mercalli intensity scale is an Observation as is measuring the moment magnitude, i.e., the energy released by said earthquake.\""
+    },
+    "attributes" : [ "external" ],
+    "id" : "99",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#On_State_Resistance",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "On_State_Resistance",
+      "en" : "On-State Resistance"
+    },
+    "attributes" : [ "external" ],
+    "id" : "119",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#The_Process_Name_Of_The_Device_Function",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Only the defintion of the Sensor process: sensing (Sensing is a process that results in the estimation, or calculation, of the value of a phenomenon.) is defined by W3C SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Sensing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "The_Process_Name_Of_The_Device_Function",
+      "en" : "The Process Used In The Device Function"
+    },
+    "comment" : {
+      "undefined" : "It is a process that results in the estimation, or calculation, of the value of a device output. \r\nUsually it derived from the name of the device for example:\r\nSensor process: sensing: Sensing is a process that results in the estimation, or calculation, of the value of a phenomenon.\r\n\r\nBoost Converter process: boosting: is a process that results in the estimation, or calculation, of the value of a amplified voltage."
+    },
+    "attributes" : [ "external" ],
+    "id" : "104",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Length",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Length",
+      "en" : "Lenght"
+    },
+    "comment" : {
+      "en" : "The length of an entity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "94",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Height",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Height",
+      "en" : "Height"
+    },
+    "comment" : {
+      "en" : "The height of an entity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Social_Object",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web COnsortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Observation",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Social_Object",
+      "en" : "Social Object"
+    },
+    "subClasses" : [ "97" ],
+    "comment" : {
+      "undefined" : "Act of carrying out an (Observation) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to an ObservableProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that proeprty was associated with.\r\n\r\nExample: The activity of estimating the intensity of an earthquake using the Mercalli intensity scale is an Observation as is measuring the moment magnitude, i.e., the energy released by said earthquake."
+    },
+    "attributes" : [ "external" ],
+    "id" : "98",
+    "superClasses" : [ "115" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Platform",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "rdfs:isDefinedBy \"World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Platform\"",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Platform",
+      "en" : "Platform"
+    },
+    "comment" : {
+      "undefined" : "An Entity to which other Entities can be attached - particularly semiconductor products and other platforms.\r\n\r\nExample: A post might act as the platform, a body might act as a platform for an attached device."
+    },
+    "attributes" : [ "external" ],
+    "id" : "116",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Control_Method",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "Power Electronic book",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Control_Method",
+      "undefined" : "Control Method"
+    },
+    "subClasses" : [ "132" ],
+    "comment" : {
+      "undefined" : "It is the method used to turn on, turn off , increaseing, and decreasing output current/voltage."
+    },
+    "attributes" : [ "external" ],
+    "id" : "92",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "150",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "119", "81" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Materials",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Materials",
+      "en" : "Materials"
+    },
+    "comment" : {
+      "en" : "Industrial sector of Materials"
+    },
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Application",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Application"
+    },
+    "subClasses" : [ "96" ],
+    "attributes" : [ "external" ],
+    "id" : "203"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Blocking_Capability",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Blocking_Capability",
+      "en" : "Blocking Capability"
+    },
+    "attributes" : [ "external" ],
+    "id" : "167",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Technology_Hardware_And_Equipment",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Technology_Hardware_And_Equipment",
+      "en" : "Technology Hardware And Equipment"
+    },
+    "subClasses" : [ "23" ],
+    "comment" : {
+      "en" : "Industrial sector of Technology Hardware and Equipment"
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Resistance",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resistance",
+      "en" : "Resistance"
+    },
+    "subClasses" : [ "87", "198" ],
+    "comment" : {
+      "en" : "The degree to which a substance prevents the flow of an electric current through it"
+    },
+    "attributes" : [ "external" ],
+    "id" : "88",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Device_Configuration",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Device_Configuration",
+      "en" : "Device Configuration"
+    },
+    "subClasses" : [ "6", "111" ],
+    "comment" : {
+      "en" : "Device configuration can refer to either hardware or software , or the combination of both."
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Entity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Entity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Entity",
+      "en" : "Entity"
+    },
+    "subClasses" : [ "108", "115", "77", "101" ],
+    "comment" : {
+      "undefined" : "Anything: real, possible, or imaginary, which some modeller wants to talk about for some purpose."
+    },
+    "attributes" : [ "external" ],
+    "id" : "102",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Drain_Source_Voltage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Drain_Source_Voltage",
+      "en" : "Drain-Source Voltage"
+    },
+    "attributes" : [ "external" ],
+    "id" : "168",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#The_Device_Output",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "The_Device_Output",
+      "en" : "The Device Output"
+    },
+    "comment" : {
+      "en" : "SiC MOSFET Output, the device output is a piece of information (value), the value itself being represented by an The device function value."
+    },
+    "attributes" : [ "external" ],
+    "id" : "78",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Power_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Power_Lobe"
+    },
+    "subClasses" : [ "0", "92", "63", "45", "80", "35", "26", "38", "29", "88", "14", "7", "102", "235", "21" ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Document",
+    "equivalent" : [ "56" ],
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Document"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Application_Area",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Application_Area",
+      "en" : "Application Area"
+    },
+    "subClasses" : [ "95", "112", "230" ],
+    "comment" : {
+      "undefined" : "The different application ares that the product can be used."
+    },
+    "attributes" : [ "external" ],
+    "id" : "96",
+    "superClasses" : [ "203" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Electric_Vehicle_Charging",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Electric_Vehicle_Charging",
+      "en" : "Electric Vehicle Charging"
+    },
+    "comment" : {
+      "en" : "Area that focuses on electric vehicles charging solutions"
+    },
+    "attributes" : [ "external" ],
+    "id" : "230",
+    "superClasses" : [ "96" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Constant_Resistance",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Constant_Resistance",
+      "en" : "Constant Resistance"
+    },
+    "comment" : {
+      "en" : "The constant degree to which a substance prevents the flow of an electric current through it"
+    },
+    "attributes" : [ "external" ],
+    "id" : "198",
+    "superClasses" : [ "88" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Industrial_Sector",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://umbel.org/umbel/rc/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Industrial_Sector",
+      "en" : "Industrial Sector"
+    },
+    "subClasses" : [ "70", "34", "200", "134", "171", "76", "9", "131", "49", "47", "52" ],
+    "comment" : {
+      "undefined" : "The collection of all localized groups of enterprises that are producers of industrial commodities, in which each such group together forms the major industrial sector for the region. 'Industrial commodities' includes MechanicalDevices and basic industrial materials. Examples include 'the world industrial sector', the 'industrial sector of China'. The Chinese water pump industry would not be an exemplar of IndustrialEconomicSector but would rather be a sub-industry (see subIndustries) of it. On the other hand, chinese water pump manufacturers would be considered groupMembers of 'the industrial sector of China'.\r\n\r\nThis classification is done by The Global Industry Classification Standard (GICS) is an industry taxonomy developed in 1999 by MSCI and Standard & Poor's (S&P) for use by the global financial community. The GICS structure consists of 11 sectors, 24 industry groups, 68 industries and 157 sub-industries[1] into which S&P has categorized all major public companies"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Source",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Source",
+      "en" : "Source"
+    },
+    "attributes" : [ "external" ],
+    "id" : "157",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Amplication_Switching_Device",
+    "equivalent" : [ "80" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Amplication_Switching_Device",
+      "en" : "Amplication Switching Device"
+    },
+    "comment" : {
+      "undefined" : "Should defined as its function for example: Sensor, Power Converter, Microcontroller. Then must be defined what the device it is, for exmaple: A sensing device is a device that implments sensing."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "90",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Voltage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Voltage",
+      "en" : "Voltage"
+    },
+    "subClasses" : [ "13", "16" ],
+    "comment" : {
+      "en" : "Is the difference in electric potential between two points"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#On_State_Voltage",
+    "equivalent" : [ "72", "75" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "On_State_Voltage",
+      "en" : "On-State Voltage"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "42",
+    "superClasses" : [ "40" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Gate_Driver",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gate_Driver",
+      "en" : "Gate Driver"
+    },
+    "attributes" : [ "external" ],
+    "id" : "235",
+    "superClasses" : [ "1" ]
+  } ],
+  "property" : [ {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "155",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "202",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "224",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "225",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "14",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "9",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "9",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#are",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "are",
+      "en" : "are"
+    },
+    "domain" : "11",
+    "subproperty" : [ "30" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_voltage_equals_or_greater_than",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "has_voltage_equals_or_greater_than",
+      "en" : "has a voltage equals or greater than"
+    },
+    "domain" : "42",
+    "attributes" : [ "external", "object" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_process_input",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "45",
+    "annotations" : {
+      "maxCardinality" : [ {
+        "identifier" : "maxCardinality",
+        "language" : "en",
+        "value" : "has process input",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_process_input"
+    },
+    "domain" : "26",
+    "attributes" : [ "external", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "35",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "35",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "35",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "55",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_deployment",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "has_deployment",
+      "en" : "has deployment"
+    },
+    "domain" : "65",
+    "attributes" : [ "external", "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_an_output_current",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "has_an_output_current",
+      "en" : "has an output current"
+    },
+    "domain" : "80",
+    "attributes" : [ "external", "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_operation_region",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "has_operation_region",
+      "en" : "has an operation region"
+    },
+    "domain" : "90",
+    "attributes" : [ "external", "object" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_control_method",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "92",
+    "label" : {
+      "IRI-based" : "has_control_method",
+      "en" : "has a control method"
+    },
+    "domain" : "90",
+    "attributes" : [ "external", "object" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_configuration",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "has_configuration",
+      "en" : "has a configuration"
+    },
+    "domain" : "90",
+    "attributes" : [ "external", "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_element",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "has_element",
+      "en" : "has element"
+    },
+    "domain" : "90",
+    "attributes" : [ "external", "object" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_power_loss_calculated_by_multiplication_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "has_power_loss_calculated_by_multiplication_of",
+      "en" : "has a power loss calculated by multiplicatoin of"
+    },
+    "domain" : "83",
+    "attributes" : [ "external", "object" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_application_area",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "has_application_area",
+      "en" : "has application area"
+    },
+    "domain" : "29",
+    "attributes" : [ "external", "object" ],
+    "id" : "113"
+  }, {
+    "range" : "40",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "40",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "118"
+  }, {
+    "range" : "40",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "56",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "122"
+  }, {
+    "range" : "69",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "range" : "21",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "range" : "77",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "range" : "3",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "115",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "115",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#is_working_as",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "87",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "is working as",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "is_working_as",
+      "undefined" : "The Depletion Mode Is Working As"
+    },
+    "superproperty" : [ "130" ],
+    "domain" : "20",
+    "attributes" : [ "external", "object" ],
+    "id" : "129"
+  }, {
+    "range" : "11",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_process_output",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "has_process_output",
+      "en" : "has process output"
+    },
+    "domain" : "26",
+    "attributes" : [ "external", "object" ],
+    "id" : "135"
+  }, {
+    "range" : "11",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_properties_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "has_properties_of",
+      "en" : "has propeties of"
+    },
+    "domain" : "58",
+    "attributes" : [ "external", "object" ],
+    "id" : "138"
+  }, {
+    "range" : "23",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "range" : "108",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "11",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#amplified_by",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "amplified_by",
+      "en" : "amplified by"
+    },
+    "domain" : "99",
+    "comment" : {
+      "en" : "The Act of The Switching"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "142"
+  }, {
+    "range" : "25",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "range" : "85",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#is_produced_by",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "is_produced_by",
+      "undefined" : "is produced by"
+    },
+    "domain" : "78",
+    "attributes" : [ "external", "object" ],
+    "id" : "145"
+  }, {
+    "range" : "10",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "range" : "85",
+    "domain" : "117",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "86",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_voltage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "has_voltage",
+      "en" : "has a voltage"
+    },
+    "domain" : "150",
+    "attributes" : [ "external", "object" ],
+    "id" : "149"
+  }, {
+    "range" : "74",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "74",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#acting_as",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "acting_as",
+      "en" : "acting as"
+    },
+    "domain" : "150",
+    "subproperty" : [ "153", "129" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#makes_switching",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "makes_switching",
+      "en" : "makes switching"
+    },
+    "domain" : "90",
+    "comment" : {
+      "en" : "the method name, e.g.:observation and amlification"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "154"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_operation_modes",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "has_operation_modes",
+      "en" : "has an operation modes"
+    },
+    "domain" : "90",
+    "attributes" : [ "external", "object" ],
+    "id" : "155"
+  }, {
+    "range" : "63",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "63",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "65",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "63",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "57",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "57",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "57",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "57",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "57",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "40",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#is_a_product_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "is_a_product_of",
+      "en" : "is a product of"
+    },
+    "domain" : "80",
+    "attributes" : [ "external", "object" ],
+    "id" : "169"
+  }, {
+    "range" : "40",
+    "domain" : "168",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "range" : "40",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#in_deployment",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "27",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#inDeployment",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "in_deployment",
+      "en" : "in deployment"
+    },
+    "domain" : "116",
+    "comment" : {
+      "undefined" : "Relation between a Platform and a Deployment, recording that the object was used as a platform for a system/ a device (sensor/power converter) for a particular deployment: as in this PhysicalObject is acting as a Platform inDeployment Deployment."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "173"
+  }, {
+    "range" : "40",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "40",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "range" : "40",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#the_temperature_must_not_exceed",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "the_temperature_must_not_exceed",
+      "en" : "the temperature must not exceed"
+    },
+    "domain" : "90",
+    "attributes" : [ "external", "object" ],
+    "id" : "177"
+  }, {
+    "range" : "40",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "range" : "40",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "range" : "40",
+    "domain" : "167",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "40",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "1",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_dimension",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "has_dimension",
+      "en" : "has dimension"
+    },
+    "domain" : "29",
+    "attributes" : [ "external", "object" ],
+    "id" : "184"
+  }, {
+    "range" : "1",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "1",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "range" : "36",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_information_object",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "58",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "IFX",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_information_object",
+      "en" : "has information object"
+    },
+    "domain" : "90",
+    "comment" : {
+      "undefined" : "States that the devices have ona or more information objects, which can be a sensor data sheet for the sensors."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "188"
+  }, {
+    "range" : "102",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "102",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "7",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "102",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "range" : "102",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "range" : "19",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "195"
+  }, {
+    "range" : "26",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "88",
+    "domain" : "198",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "range" : "88",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_voltage_drain_voltage",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "has_voltage_drain_voltage",
+      "en" : "is a volatge of"
+    },
+    "domain" : "68",
+    "attributes" : [ "external", "object" ],
+    "id" : "201"
+  }, {
+    "range" : "203",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "92",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "range" : "26",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "97",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "74",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "range" : "98",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "101",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#enhancement_mode_is_working_as",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "enhancement_mode_is_working_as",
+      "en" : "enhancement mode is working as"
+    },
+    "superproperty" : [ "130" ],
+    "domain" : "66",
+    "attributes" : [ "external", "object" ],
+    "id" : "153"
+  }, {
+    "range" : "35",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "range" : "35",
+    "domain" : "171",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "range" : "35",
+    "domain" : "131",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "212"
+  }, {
+    "range" : "35",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "range" : "35",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "35",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "35",
+    "domain" : "200",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "217"
+  }, {
+    "range" : "2",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "range" : "45",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "range" : "45",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "range" : "85",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "range" : "85",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "range" : "111",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "223"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "224"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#amplication_switching_device_has_property",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "amplication_switching_device_has_property",
+      "en" : "has property"
+    },
+    "domain" : "90",
+    "attributes" : [ "external", "object" ],
+    "id" : "225"
+  }, {
+    "range" : "96",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "range" : "96",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "227"
+  }, {
+    "range" : "35",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "228"
+  }, {
+    "range" : "96",
+    "domain" : "230",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "1",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "range" : "1",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "1",
+    "domain" : "235",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "range" : "1",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "1",
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#has_industry_sector",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "has_industry_sector",
+      "en" : "has industry sector"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "90",
+    "attributes" : [ "external", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "1",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "range" : "1",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "1",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "range" : "1",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "range" : "1",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "242"
+  } ]
+}

@@ -1,0 +1,3972 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "de", "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3id.org/ecsel-dr-AT", "http://www.w3id.org/ecsel-dr-PWR", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr-AH", "http://www.w3id.org/ecsel-dr", "http://www.w3.org/2001/XMLSchema", "http://org.semanticweb.owlapi/error" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "owl:Class"
+  }, {
+    "id" : "162",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "167",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:Class"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "124",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "185",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "190",
+    "type" : "owl:Class"
+  }, {
+    "id" : "197",
+    "type" : "owl:Class"
+  }, {
+    "id" : "198",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "194",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "192",
+    "type" : "owl:Class"
+  }, {
+    "id" : "203",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "206",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "209",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "219",
+    "type" : "owl:Class"
+  }, {
+    "id" : "187",
+    "type" : "owl:Class"
+  }, {
+    "id" : "226",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "229",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "184",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "250",
+    "type" : "owl:Class"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "263",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "272",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "242",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "227",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "179",
+    "type" : "owl:Class"
+  }, {
+    "id" : "228",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "274",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "129",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "286",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "204",
+    "type" : "owl:Class"
+  }, {
+    "id" : "182",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  }, {
+    "id" : "205",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "241",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Gateway_System_Sy_SDD",
+      "en" : "AH Gateway System Sy SDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Illumination_Device",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Illumination_Device",
+      "en" : "Illumination Device"
+    },
+    "comment" : {
+      "en" : "A category of devices which's purpose is to illuminate"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Method",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Method",
+      "en" : "Method"
+    },
+    "comment" : {
+      "en" : "Method of a service: method that is provided by a service within a SoA."
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Core_System_Sy_SDD",
+      "en" : "AH Core System Sy SDD"
+    },
+    "subClasses" : [ "15", "32" ],
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_System_Registry_System_Sy_SDD",
+      "en" : "AH System Registry System Sy SDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Application_System_Sy_SD",
+      "en" : "AH Application System Sy SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Service_Discovery_Service_IDD",
+      "en" : "AH Service Discovery Service IDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Application_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Application_Service_SD",
+      "en" : "AH Application Service SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Application_System",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Application_System",
+      "en" : "Arrowhead Application Component"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Constrained_Device",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Constrained_Device",
+      "en" : "Constrained Device"
+    },
+    "subClasses" : [ "45", "18", "46" ],
+    "comment" : {
+      "en" : "A constrained device is a device in the sense of an service-oriented architecture that is restricted in terms of processing capabilities (speed, complexity of operations), memory and power supply. \r\nThe concept constrained device was introduced in the context of the Internet of Things (IoT) and refers for example to sensor devices, location devices, switches etc. which are connected by low-power wireless communication technologies like BLE, ZigBee, Z-Wave etc., have a battery on board that should last for two to three years and which are (very) small in physical size."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#End_To_End_Communication_Technology",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "End_To_End_Communication_Technology",
+      "en" : "End-to-End Communication Technology"
+    },
+    "comment" : {
+      "en" : "The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network."
+    },
+    "attributes" : [ "external" ],
+    "id" : "47",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AT#Sensor_Device",
+    "equivalent" : [ "46" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sensor_Device"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Automation_Supporting_System",
+      "en" : "AH Automation Supporting System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Core_System_Sy_SD",
+      "en" : "AH Core System Sy SD"
+    },
+    "subClasses" : [ "64", "65" ],
+    "attributes" : [ "external" ],
+    "id" : "61",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Store_Management_Service_SD",
+      "en" : "AH Store Management Service SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "System_Of_Systems_Design_Description_So_SDD",
+      "en" : "System Of Systems Design Description So SDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Servcie_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Token_Generation_Servcie_SD",
+      "en" : "AH Token Generation Servcie SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Authorization_Control_Service_SD",
+      "en" : "AH Authorization Control Service SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "90",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Service_Documentation_Document",
+      "en" : "AH Service Documentation Document"
+    },
+    "subClasses" : [ "39", "94", "95", "69" ],
+    "comment" : {
+      "de" : "Document belonging to the documentation of an Arrowhead Service. \r\nThere are four types of documents for Arrowhead service documentations: \r\n- Service Description\r\n- Interface Design Description\r\n- Communication Profile\r\n- Semantic Profile. \r\nThe central documents are IDDs. They document the implementation of a certain service based on a certain communication technology (communication, encoding, data format) and a certain information model. \r\nThe Service Description contains a more general description of the service, without the link to a specific communication technology or information model. \r\nCommunication Profiles and Semantic Profiles are optional documents for a service documentation. They can be seen as modules of an IDD, since they can describe the communication technolopgy and the information model of a service implementation as external documents. If they exist, the IDD refers to them instead of declaring these contents by themselfes. \r\nThat is, CP and SP are useful if different service implementations use the same CP and SP - then their IDDs can refer to one and the same CP or SP document."
+    },
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Cloud_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cloud_Lobe"
+    },
+    "subClasses" : [ "57", "48", "2", "96", "25", "1", "86", "41", "29", "97", "98", "99", "52", "100", "42", "101" ],
+    "attributes" : [ "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Automation_Supporting_System_Sy_SDD",
+      "en" : "AH Automation Supporting System Sy SDD"
+    },
+    "subClasses" : [ "14", "106", "107", "108", "33", "109" ],
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Tablet_Computer",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tablet_Computer",
+      "en" : "Tablet Computer"
+    },
+    "comment" : {
+      "en" : "A tablet computer, commonly shortened to tablet, is a mobile device, typically with a mobile operating system and touchscreen display"
+    },
+    "attributes" : [ "external" ],
+    "id" : "110",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Authorization_System_Sy_SDD",
+      "en" : "AH Authorization System Sy SDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "113",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Gatekeeper_System_Sy_SD",
+      "en" : "AH Gatekeeper System Sy SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "117",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_System_Registry_System_Sy_SD",
+      "en" : "AH System Registry System Sy SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "118",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller",
+    "equivalent" : [ "122" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Programmable_Logic_Controller"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Switch_Device",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Switch_Device",
+      "en" : "Switch Device"
+    },
+    "comment" : {
+      "en" : "A switch is a device in a computer network that connects other devices together."
+    },
+    "attributes" : [ "external" ],
+    "id" : "45",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Gateway",
+    "equivalent" : [ "124" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gateway",
+      "en" : "Gateway"
+    },
+    "comment" : {
+      "en" : "A gateway is a piece of networking hardware used in telecommunications for telecommunications networks that allows data to flow from one discrete network to another."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "123",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Token_Generation_Service_IDD",
+      "en" : "AH Token Generation Service IDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "125",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Session_Establish_Service_SD",
+      "en" : "AH Session Establish Service SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "126",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_System_Discovery_Service_SD",
+      "en" : "AH System Discovery Service SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "140",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Global_Service_Discovery_Service_SD",
+      "en" : "AH Global Service Discovery Service SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "148",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transfer_Protocol",
+      "undefined" : "Transfer Protocol"
+    },
+    "comment" : {
+      "undefined" : "corresponds to OSI layers 6 and 7"
+    },
+    "attributes" : [ "external" ],
+    "id" : "152",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Orchestration_System_Sy_SD",
+      "en" : "AH Orchestration System Sy SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "153",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Smartphone",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Smartphone",
+      "en" : "Smartphone"
+    },
+    "comment" : {
+      "en" : "A smartphone is a mobile device that combines cellular and mobile computing functions into one unit."
+    },
+    "attributes" : [ "external" ],
+    "id" : "154",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Authorization_System_Sy_SD",
+      "en" : "AH Authorization System Sy SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "155",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_System_Documentation_Document",
+      "en" : "AH System Documentation Document"
+    },
+    "subClasses" : [ "156", "35", "31" ],
+    "attributes" : [ "external" ],
+    "id" : "56",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Historian_Sy_SD",
+      "en" : "AH Historian Sy SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "160",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Orchestration_Service_IDD",
+      "en" : "AH Orchestration Service IDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "162",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Communication_Technology",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Communication_Technology",
+      "en" : "Communication Technology"
+    },
+    "subClasses" : [ "164", "152", "165", "104", "47" ],
+    "comment" : {
+      "en" : "Communications technology, also known as information technology, refers to all equipment and programs that are used to process and communicate information."
+    },
+    "attributes" : [ "external" ],
+    "id" : "48",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Session_Management_Service_SD",
+      "en" : "AH Session Management Service SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "166",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Raspberry_Pi",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Raspberry_Pi",
+      "en" : "Raspberry Pi"
+    },
+    "comment" : {
+      "en" : "The Raspberry Pi is a series of small single-board computers developed in the United Kingdom by the Raspberry Pi Foundation to put the power of computing and digital making into the hands of people all over the world."
+    },
+    "attributes" : [ "external" ],
+    "id" : "167",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Semantic_Profile_SP",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semantic_Profile_SP",
+      "en" : "Semantic Profile"
+    },
+    "comment" : {
+      "undefined" : "Semantic Profile (SP)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Application_Service",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Application_Service",
+      "en" : "AH Application Service"
+    },
+    "comment" : {
+      "en" : "Application services – they are application specific and are implemented by application systems along with functionalities (to match requirements of an application)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "77",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "System_Web_Application_Description_WADL",
+      "en" : "System Web Application Description WADL"
+    },
+    "subClasses" : [ "168", "169", "170" ],
+    "comment" : {
+      "en" : "Description of an Arrowhead compliant software system in terms of the Web Application Description Language WADL. \r\nThe Web Application Description Language (WADL) is a machine-readable XML description of HTTP-based web services. WADL models the resources provided by a service and the relationships between them. WADL is intended to simplify the reuse of web services that are based on the existing HTTP architecture of the Web. It is platform and language independent and aims to promote reuse of applications beyond the basic use in a web browser.\r\nWADL is the REST equivalent of SOAP's Web Services Description Language (WSDL), which can also be used to describe REST web services. Sources: https://en.wikipedia.org/wiki/Web_Application_Description_Language\r\nSun Microsystems (31 August 2009). \"Web Application Description Language: W3C Member Submission 31 August 2009\". World Wide Web Consortium. Retrieved 12 August 2012.\r\nWorld Wide Web Consortium (14 October 2009). \"Team Comment on the \"Web Application Description Language\" Submission\". World Wide Web Consortium. Retrieved 12 August 2012.\r\nLawrence Mandel (29 May 2008). \"Describe REST Web services with WSDL 2.0: A how-to guide\". IBM. Retrieved 12 August 2012."
+    },
+    "attributes" : [ "external" ],
+    "id" : "156",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Device_Registry_System_Sy_SD",
+      "en" : "AH Device Registry System Sy SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "171",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Historian_Sy_SDD",
+      "en" : "AH Historian Sy SDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "106",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_System_Of_Systems_Documentation",
+      "en" : "AH System Of Systems Documentation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "79",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Mandatory_Core_System",
+      "en" : "AH Mandatory Core System"
+    },
+    "attributes" : [ "external" ],
+    "id" : "172",
+    "superClasses" : [ "63" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Device_Discovery_Service_SD",
+      "en" : "AH Device Discovery Service SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "173",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AT#Device",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Device"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "174"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AT#Gateway",
+    "equivalent" : [ "123" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gateway"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Communication_Security_Mechanism",
+      "en" : "Communication Security Mechanism"
+    },
+    "comment" : {
+      "undefined" : "corresponds to a part of OSI layer 5"
+    },
+    "attributes" : [ "external" ],
+    "id" : "104",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Communication_Profile_CP",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Communication_Profile_CP",
+      "en" : "Communication Profile"
+    },
+    "comment" : {
+      "undefined" : "Communication Profile (CP)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "94",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_System",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Core_System",
+      "en" : "Arrowhead Core Component"
+    },
+    "subClasses" : [ "62", "172" ],
+    "comment" : {
+      "en" : "Software system, that belongs to the \"standard\" components offered by Arrowhead framework. \r\nArrowhead core systems can occur once in each Arrowhead Local Cloud. \r\nArriwhead Core Systems can be distinguished in Arrowhead Mandatory Core Systems and Automation supporting systems. Mandatory core systems must exist in each Arrowhead Local Cloud, Automation supporting systems can occur in an Arrowhead Local Cloud."
+    },
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Service_Discovery_Service_SD",
+      "en" : "AH Service Discovery Service SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "178",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Session_Establish_Service_IDD",
+      "en" : "AH Session Establish Service IDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols",
+    "equivalent" : [ "29" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Service_Oriented_Architecture_Protocols"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "185"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Arrowhead",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Arrowhead",
+      "en" : "Arrowhead"
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_WADL",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Authorization_System_WADL",
+      "en" : "AH Authorization System WADL"
+    },
+    "attributes" : [ "external" ],
+    "id" : "169",
+    "superClasses" : [ "156" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Data_Model",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Data_Model",
+      "en" : "Data Model"
+    },
+    "comment" : {
+      "en" : "A data model is an abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities."
+    },
+    "attributes" : [ "external" ],
+    "id" : "100",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Global_Service_Discovery_Service_IDD",
+      "en" : "AH Global Service Discovery Service IDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Industrial_Personal_Computer",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Industrial_Personal_Computer",
+      "en" : "Industrial Personal Computer"
+    },
+    "comment" : {
+      "en" : "Industrial PCs are primarily used for process control and/or data acquisition. In some cases, an industrial PC is simply used as a front-end to another control computer in a distributed processing environment."
+    },
+    "attributes" : [ "external" ],
+    "id" : "190",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error68",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error68"
+    },
+    "attributes" : [ "external" ],
+    "id" : "197"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error69",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error69"
+    },
+    "attributes" : [ "external" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error66",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error66"
+    },
+    "attributes" : [ "external" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error67",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error67"
+    },
+    "attributes" : [ "external" ],
+    "id" : "194"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error71",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error71"
+    },
+    "attributes" : [ "external" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error72",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error72"
+    },
+    "attributes" : [ "external" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Service_Registry_System_Sy_SD",
+      "en" : "AH Service Registry System Sy SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "192",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error70",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error70"
+    },
+    "attributes" : [ "external" ],
+    "id" : "203"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Automation_Supporting_System_Sy_SD",
+      "en" : "AH Automation Supporting System Sy SD"
+    },
+    "subClasses" : [ "171", "204", "205", "118", "117", "160" ],
+    "attributes" : [ "external" ],
+    "id" : "65",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error75",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error75"
+    },
+    "attributes" : [ "external" ],
+    "id" : "206"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error76",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error76"
+    },
+    "attributes" : [ "external" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Core_Service_IDD",
+      "en" : "AH Core Service IDD"
+    },
+    "subClasses" : [ "37", "7" ],
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error73",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error73"
+    },
+    "attributes" : [ "external" ],
+    "id" : "209"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error74",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error74"
+    },
+    "attributes" : [ "external" ],
+    "id" : "210"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Inter_Cloud_Negotiations_Service_IDD",
+      "en" : "AH Inter Cloud Negotiations Service IDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Programmable_Logic_Controller",
+    "equivalent" : [ "121" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "de" : "SPS",
+      "IRI-based" : "Programmable_Logic_Controller",
+      "en" : "Programmable Logic Controller"
+    },
+    "comment" : {
+      "en" : "A programmable logic controller (PLC) is an industrial digital computer which has been ruggedized and adapted for the control of manufacturing processes"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "122",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Service_Description_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Service_Description_SD",
+      "en" : "Service Description SD"
+    },
+    "subClasses" : [ "22", "38" ],
+    "comment" : {
+      "en" : "Service Description (SD)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_System_Documentation",
+      "en" : "AH System Documentation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "51",
+    "superClasses" : [ "52" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error60",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error60"
+    },
+    "attributes" : [ "external" ],
+    "id" : "195"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error61",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error61"
+    },
+    "attributes" : [ "external" ],
+    "id" : "157"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Data_Format",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Data_Format",
+      "en" : "Data Format"
+    },
+    "comment" : {
+      "en" : "Data format in information technology may refer to: Data type, constraint placed upon the interpretation of data in a type system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "98",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error64",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error64"
+    },
+    "attributes" : [ "external" ],
+    "id" : "219"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error65",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error65"
+    },
+    "attributes" : [ "external" ],
+    "id" : "187"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error62",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error62"
+    },
+    "attributes" : [ "external" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_Service",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Core_Service",
+      "en" : "AH Core Service"
+    },
+    "subClasses" : [ "227", "228" ],
+    "attributes" : [ "external" ],
+    "id" : "74",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error63",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error63"
+    },
+    "attributes" : [ "external" ],
+    "id" : "229"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Device_Registry_System_Sy_SDD",
+      "en" : "AH Device Registry System Sy SDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "108",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Service_Registry_System_Sy_SDD",
+      "en" : "AH Service Registry System Sy SDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "184",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Device_Discovery_Service_IDD",
+      "en" : "AH Device Discovery Service IDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "54",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Service_Documentation",
+      "en" : "AH Service Documentation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "150",
+    "superClasses" : [ "99" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Device",
+    "equivalent" : [ "174", "242" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Device",
+      "en" : "Device"
+    },
+    "subClasses" : [ "154", "123", "19", "167", "110", "241", "122", "190" ],
+    "comment" : {
+      "en" : "A device in the context of Service-oriented architectures (that is, in the context of Information Technology (IT) and Automation / Operations Technology (OT)) is an technical artefact that fulfills the basic definition of a \"computer\". That is, a device must be able to host (run) software systems. For this, it needs at least a processing unit (processor), a memory and a communication interface, which can be either wired or wireless."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "1",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Service_Documentation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Service_Documentation",
+      "en" : "Service Documentation"
+    },
+    "subClasses" : [ "150" ],
+    "comment" : {
+      "en" : "Service documentation is any communicable material that is used to describe, explain or instruct regarding some attributes of a service"
+    },
+    "attributes" : [ "external" ],
+    "id" : "99",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Application_System_Sy_SDD",
+      "en" : "AH Application System Sy SDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "250",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Orchestrator_WADL",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Orchestrator_WADL",
+      "en" : "AH Orchestrator WADL"
+    },
+    "attributes" : [ "external" ],
+    "id" : "170",
+    "superClasses" : [ "156" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_System",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_System",
+      "en" : "AH System"
+    },
+    "subClasses" : [ "63", "43" ],
+    "attributes" : [ "external" ],
+    "id" : "44",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#System_Of_Systems",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "System_Of_Systems",
+      "en" : "System Of Systems"
+    },
+    "comment" : {
+      "en" : "System of systems is a collection of task-oriented or dedicated systems that pool their resources and capabilities together to create a new, more complex system which offers more functionality and performance than simply the sum of the constituent systems."
+    },
+    "attributes" : [ "external" ],
+    "id" : "96",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#SoA_Property",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoA_Property",
+      "en" : "SoA Property"
+    },
+    "attributes" : [ "external" ],
+    "id" : "86",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "System_Design_Description_Sy_SDD",
+      "en" : "System Design Description Sy SDD"
+    },
+    "subClasses" : [ "30", "250" ],
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Gatekeeper_System_Sy_SDD",
+      "en" : "AH Gatekeeper System Sy SDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "109",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Service",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Service",
+      "en" : "Service"
+    },
+    "subClasses" : [ "75" ],
+    "comment" : {
+      "en" : "In the context of the Arrowhead Framework a Service is the information exchanged from a providing system to a consuming system.\r\n• is based on a number of service orientation principles derived from high level objectives and properties of the Arrowhead framework \r\n• can be realized by an arbitrary number of service producers and service consumers \r\n• a system can consume a number of services, process and provide other services to fulfil a more complex task \r\n• can only be provided by technical systems \r\n• can support operational activities within business processes \r\n• can support non-functional requirements, such as real-time \r\n• can have stakeholders, with an interest in business benefit, in one or more specific area of interest \r\n• can have an appointed stakeholder, responsible for the governance of the Service (definition, development). \r\n(Source: Arrowhead Framework Definitions V2.4 & Arrowhead Device Registry Presentation)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "42",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Orchestration_Service_SD",
+      "en" : "AH Orchestration Service SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "263",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_WADL",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Service_Registry_WADL",
+      "en" : "AH Service Registry WADL"
+    },
+    "attributes" : [ "external" ],
+    "id" : "168",
+    "superClasses" : [ "156" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Software_System",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Software_System",
+      "en" : "Software System"
+    },
+    "subClasses" : [ "44" ],
+    "comment" : {
+      "en" : "System software is software designed to provide a platform for other software."
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_QoS_Manager_Sy_SDD",
+      "en" : "AH QoS Manager Sy SDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "107",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_System_Of_Systems_Documentation_Document",
+      "en" : "AH System Of Systems Documentation Document"
+    },
+    "subClasses" : [ "179", "80" ],
+    "attributes" : [ "external" ],
+    "id" : "59",
+    "superClasses" : [ "57" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Inter_Cloud_Negotiations_Service_SD",
+      "en" : "AH Inter Cloud Negotiations Service SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "272",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Automation_Supporting_Service_SD",
+      "en" : "AH Automation Supporting Service SD"
+    },
+    "subClasses" : [ "166", "173", "126", "140", "272", "148" ],
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PWR#Device",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PWR",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Device"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "242"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Automation_Supporting_Service",
+      "en" : "AH Automation Supporting Service"
+    },
+    "attributes" : [ "external" ],
+    "id" : "227",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Point_To_Point_Communication_Technology",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Point_To_Point_Communication_Technology",
+      "undefined" : "Point-to-Point Communication Technology"
+    },
+    "comment" : {
+      "undefined" : "corresponds to OSI layer 3, e.g. IPv4 or IPv6"
+    },
+    "attributes" : [ "external" ],
+    "id" : "165",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Authorization_Control_Service_IDD",
+      "en" : "AH Authorization Control Service IDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "84",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Description_So_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "System_Of_Systems_Description_So_SD",
+      "en" : "System Of Systems Description So SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "179",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Mandatory_Core_Service",
+      "en" : "AH Mandatory Core Service"
+    },
+    "attributes" : [ "external" ],
+    "id" : "228",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Mandatory_Core_Service_SD",
+      "en" : "AH Mandatory Core Service SD"
+    },
+    "subClasses" : [ "178", "72", "82", "263", "90" ],
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Information_Model",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Information_Model",
+      "en" : "Information Model"
+    },
+    "comment" : {
+      "en" : "An information model in software engineering is a representation of concepts and the relationships, constraints, rules, and operations to specify data semantics for a chosen domain of discourse. Typically it specifies relations between kinds of things, but may also include relations with individual things."
+    },
+    "attributes" : [ "external" ],
+    "id" : "41",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Local_Cloud",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Local_Cloud",
+      "en" : "AH Local Cloud"
+    },
+    "attributes" : [ "external" ],
+    "id" : "97",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Mandatory_Core_Service_IDD",
+      "en" : "AH Mandatory Core Service IDD"
+    },
+    "subClasses" : [ "162", "125", "89", "84", "36" ],
+    "comment" : {
+      "en" : "Class of all Interface Design Descriptions (IDDs) of mandatory Arrowwhead core services.\r\nWhile the class AH_mandatory_core_service contains the mandatory core services only as instances, this class contains classes of the IDDs of each single mandatory core service as subclasses (not only as instances). Since each AH Local Cloud runs one instance of each mandatory core service, each of these services has to be documented by an AH service documentation, i.e. at least by a SD and a IDD. So the IDD is an individual document for each mandatory core service in each single Local Cloud. Hence, all IDDs of a certain mandatory core service will be individuals of the corresponding IDD class."
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Local_Network",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Local_Network",
+      "en" : "Local Network"
+    },
+    "comment" : {
+      "en" : "A local area network is a computer network that interconnects computers within a limited area"
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Documentation_Document",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Documentation_Document",
+      "en" : "Documentation Document"
+    },
+    "subClasses" : [ "93", "56", "59" ],
+    "comment" : {
+      "en" : "A document that documents something"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "System_Description_Sy_SD",
+      "en" : "System Description Sy SD"
+    },
+    "subClasses" : [ "61", "34" ],
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "139",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "274",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "223",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "129",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Interface_Design_Description_IDD",
+      "en" : "Interface Design Description IDD"
+    },
+    "subClasses" : [ "68", "71" ],
+    "comment" : {
+      "en" : "Interface Design Description (IDD)"
+    },
+    "attributes" : [ "external" ],
+    "id" : "69",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "286",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Session_Management_Service_IDD",
+      "en" : "AH Session Management Service IDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Service",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Service",
+      "en" : "AH Service"
+    },
+    "subClasses" : [ "74", "77" ],
+    "attributes" : [ "external" ],
+    "id" : "75",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Gateway_System_Sy_SD",
+      "en" : "AH Gateway System Sy SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "204",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Orchestration_System_Sy_SDD",
+      "en" : "AH Orchestration System Sy SDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "182",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Application_Servcice_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Application_Servcice_IDD",
+      "en" : "AH Application Servcice IDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "71",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Store_Management_Service_IDD",
+      "en" : "AH Store Management Service IDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "89",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#System_Documentation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "System_Documentation",
+      "en" : "System Documentation"
+    },
+    "subClasses" : [ "79", "51" ],
+    "comment" : {
+      "en" : "System documentation is any communicable material that is used to describe, explain or instruct regarding some attributes of a system"
+    },
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Data_Link_Media_Access_Technology",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Data_Link_Media_Access_Technology",
+      "en" : "Data Link Media Access Technology"
+    },
+    "comment" : {
+      "undefined" : "corresponds to OSI layer 1 and 2 technologies, like Ethernet, WLAN (802.11), WPAN (802.15.4), EtherCAT, ProfiNet, ..."
+    },
+    "attributes" : [ "external" ],
+    "id" : "164",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_QoS_Manager_Sy_SD",
+      "en" : "AH QoS Manager Sy SD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "205",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Automation_Supporting_Service_IDD",
+      "en" : "AH Automation Supporting Service IDD"
+    },
+    "subClasses" : [ "54", "6", "9", "11", "13", "17" ],
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Sensor_Device",
+    "equivalent" : [ "49" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sensor_Device",
+      "en" : "Sensor Device"
+    },
+    "comment" : {
+      "en" : "A category of devices which's purpose is to sense"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "46",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Core_Service_SD",
+      "en" : "AH Core Service SD"
+    },
+    "subClasses" : [ "21", "24" ],
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_System_Discovery_Service_IDD",
+      "en" : "AH System Discovery Service IDD"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Personal_Computer",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Personal_Computer",
+      "en" : "Personal Computer"
+    },
+    "comment" : {
+      "en" : "A personal computer (PC) is a multi-purpose computer whose size, capabilities, and price make it feasible for individual use."
+    },
+    "attributes" : [ "external" ],
+    "id" : "241",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture",
+    "equivalent" : [ "185" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Service_Oriented_Architecture",
+      "en" : "Service-Oriented Architecture"
+    },
+    "subClasses" : [ "28" ],
+    "comment" : {
+      "en" : "Service-oriented architecture (SoA) is a style of software design where services are provided to the other components by application components, through a communication protocol over a network."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "29",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Mandatory_Core_System_Sy_SD",
+      "en" : "AH Mandatory Core System Sy SD"
+    },
+    "subClasses" : [ "155", "153", "192" ],
+    "attributes" : [ "external" ],
+    "id" : "64",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AH_Mandatory_Core_System_Sy_SDD",
+      "en" : "AH Mandatory Core System Sy SDD"
+    },
+    "subClasses" : [ "113", "182", "184" ],
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "30" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "146",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "175",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "176",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "199",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "200",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "222",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "243",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "255",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "159",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "256",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "257",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "260",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "265",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "269",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "273",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "275",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "276",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "277",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "278",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "279",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "280",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "281",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "282",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "284",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "285",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "220",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "287",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "288",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "289",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "290",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "291",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "292",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "293",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "294",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "295",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "296",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "297",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "298",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "299",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "300",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "301",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "302",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "303",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "304",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "305",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "306",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "307",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "308",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "309",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "310",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "311",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "312",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "313",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "314",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "315",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "316",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "317",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "318",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "319",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "320",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "321",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#hosts",
+    "inverse" : "3",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hosts",
+      "en" : "hosts"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "0"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "range" : "7",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "8"
+  }, {
+    "range" : "7",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
+  }, {
+    "range" : "7",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "7",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "22",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "range" : "22",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "29",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_information_model_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "is_information_model_of",
+      "en" : "is information model of"
+    },
+    "domain" : "41",
+    "attributes" : [ "external", "object" ],
+    "id" : "40"
+  }, {
+    "range" : "52",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "7",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "57",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "57",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "35",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "range" : "35",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "69",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "69",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "75",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "75",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "52",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#has_information_model",
+    "inverse" : "40",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "has_information_model",
+      "en" : "has information model"
+    },
+    "domain" : "42",
+    "attributes" : [ "external", "object" ],
+    "id" : "81"
+  }, {
+    "range" : "37",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#has_SoA_property",
+    "inverse" : "87",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "has_SoA_property",
+      "en" : "has SoA property"
+    },
+    "domain" : "29",
+    "attributes" : [ "external", "object" ],
+    "id" : "85"
+  }, {
+    "range" : "37",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "37",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "57",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_security_mechanism",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "documents_AH_service_comm_security_mechanism",
+      "en" : "documents AH service comm security mechanism"
+    },
+    "superproperty" : [ "105" ],
+    "domain" : "103",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#device_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "device_ID",
+      "undefined" : "device ID"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Data property of each device in Arrowhead context. Needed by Device Discovery service.\r\nPurpose: provides an unique identifier for a device."
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "refers_to_Sy_SD",
+      "en" : "refers to Sy SD"
+    },
+    "superproperty" : [ "116" ],
+    "domain" : "115",
+    "attributes" : [ "external", "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_method_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "is_method_of",
+      "en" : "is method of"
+    },
+    "superproperty" : [ "120" ],
+    "domain" : "25",
+    "attributes" : [ "external", "object" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_SoA_property_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "is_SoA_property_of",
+      "en" : "is SoA property of"
+    },
+    "domain" : "86",
+    "attributes" : [ "external", "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_data_format",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "documents_AH_service_data_format",
+      "en" : "documents AH service data format"
+    },
+    "superproperty" : [ "105" ],
+    "domain" : "128",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#has_architectural_part",
+    "inverse" : "120",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "has_architectural_part",
+      "en" : "has architectural part"
+    },
+    "domain" : "129",
+    "subproperty" : [ "0", "130", "131", "132" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#uses_communication_security_mechanism",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "uses_communication_security_mechanism",
+      "en" : "uses communication security mechanism"
+    },
+    "superproperty" : [ "134" ],
+    "domain" : "42",
+    "attributes" : [ "external", "object" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#uses_comm_tech",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "uses_comm_tech",
+      "en" : "uses comm tech"
+    },
+    "domain" : "42",
+    "subproperty" : [ "136", "133", "137" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#IP_address",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "139",
+    "label" : {
+      "IRI-based" : "IP_address",
+      "en" : "IP address"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#refers_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "refers_to",
+      "en" : "refers to"
+    },
+    "domain" : "57",
+    "subproperty" : [ "141", "142", "143", "114", "144", "145", "146" ],
+    "comment" : {
+      "en" : "describes the relation between two documentation documents that one document refers to another document.\r\nTo our best knowledge, the following relations hold between different types of documentation documents: \r\n- an IDD refers to exactly one SD.\r\n- an SD is referred to by one or more IDD (each stating a way of implementing the service with a specific technolopgy (Source: Arrowhead Framework Definitions V2.4))\r\n- an IDD refers to at most one CP (if it not refers to a CP, then the IDD contains all CP information by itself)\r\n- an IDD refers to n SP, 0 <= n (if it not refers to a SP, then the IDD contains all SP information by itself)\r\n- a SySD refers to one or more IDDs (that is, a system produces one or more services).\r\n- a SySDD refers to one or more SySD's. (Remark HB: I don't understand this. How can one concrete white box description of a system fulfill (support / implement) different black box descriptions of systems? The other way around seems to be possible as between SDs and IDDs). \r\n- an SoSD refers to n SySD's.\r\n- an SoSDD refers to n SoSD's. \r\n- an SoSDD refers to n SySD's. \r\n- an SoSDD refers to n SySDDs."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#produces",
+    "equivalent" : [ "147" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "produces",
+      "en" : "produces"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "2",
+    "comment" : {
+      "en" : "Relation expressing that a software system produces a service. \r\nEquivalent names for this relation include: offers, provides, isServiceProducerOf \r\nSince Arrowhead uses the pair produce / consume and corresponding service producer / service consumer adressing the relations and the software systems, this ontology uses these names for the relations too. \r\nIf it is needed, object properties with other names can be added and stated to be equivalent to these ones."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_part_of_service_documentation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "is_part_of_service_documentation",
+      "en" : "is part of service documentation"
+    },
+    "superproperty" : [ "151" ],
+    "domain" : "93",
+    "attributes" : [ "external", "object" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#refers_to_CP",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "refers_to_CP",
+      "en" : "refers to CP"
+    },
+    "superproperty" : [ "116" ],
+    "domain" : "69",
+    "comment" : {
+      "en" : "an Interface Design Description (IDD) can refer to a Communication Profile (CP). \r\nNo other documentation document can refer to a CP. Hence the domain of this object property is the class of IDDs. \r\nAn IDD can refer to a CP, but this is not mandatory. CPs are intended to be used in cases in which several services use the same CP. Then the CP information should be extracted to an CP document and the IDDs of all services that use this CP shall refer to this CP. \r\nIf the CP is unique for a specific service, the CP information can directly be included in the IDD.\r\nIf the IDD refers to a CP, this must be a unique reference. That is, one IDD must not refer to different CPs. Hence this object property is functional. (If the service could be implemented using different communication technologies, each implementation would need an own IDD!!)."
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_part_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "is_part_of",
+      "en" : "is part of"
+    },
+    "domain" : "57",
+    "subproperty" : [ "158", "149", "159" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#defines_compliant_system_architecture",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "defines_compliant_system_architecture",
+      "en" : "defines compliant system architecture"
+    },
+    "domain" : "29",
+    "attributes" : [ "external", "object" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_service_producer_of",
+    "inverse" : "163",
+    "equivalent" : [ "132" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "is_service_producer_of",
+      "en" : "is service producer of"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#refers_to_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "refers_to_SD",
+      "en" : "refers to SD"
+    },
+    "superproperty" : [ "116" ],
+    "domain" : "69",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#refers_to_SP",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "refers_to_SP",
+      "en" : "refers to SP"
+    },
+    "superproperty" : [ "116" ],
+    "domain" : "69",
+    "comment" : {
+      "en" : "an Interface Design Description (IDD) can refer to a Semantic Profile (SP). \r\nNo other documentation document can refer to a SP. Hence the domain of this object property is the class of IDDs. \r\nAn IDD can refer to a SP, but this is not mandatory. SPs are intended to be used in cases in which several services use the same SP. Then the SCP information should be extracted to an SP document and the IDDs of all services that use this SP shall refer to this SP. \r\nIf the SP is unique for a specific service, the SP information can directly be included in the IDD.\r\nReferences to SPs are not necessarily unique for an IDD. That is, different methods of the service documented by the IDD can use different Semantic Profiles."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "146"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_system_documented_by",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "is_system_documented_by"
+    },
+    "superproperty" : [ "176" ],
+    "domain" : "2",
+    "subproperty" : [ "177" ],
+    "comment" : {
+      "en" : "is system documented by"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "175"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#refers_to_So_SD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "179",
+    "label" : {
+      "IRI-based" : "refers_to_So_SD",
+      "en" : "refers to So SD"
+    },
+    "superproperty" : [ "116" ],
+    "domain" : "80",
+    "attributes" : [ "external", "object" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#uses_transfer_protocol",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "152",
+    "label" : {
+      "IRI-based" : "uses_transfer_protocol",
+      "en" : "uses transfer protocol"
+    },
+    "superproperty" : [ "134" ],
+    "domain" : "42",
+    "attributes" : [ "external", "object" ],
+    "id" : "137"
+  }, {
+    "range" : "32",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "32",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "32",
+    "domain" : "184",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#defines_compliant_documentation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "187",
+    "label" : {
+      "IRI-based" : "defines_compliant_documentation",
+      "en" : "defines compliant documentation"
+    },
+    "domain" : "29",
+    "attributes" : [ "external", "object" ],
+    "id" : "186"
+  }, {
+    "range" : "64",
+    "domain" : "155",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "64",
+    "domain" : "153",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "64",
+    "domain" : "192",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "26",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_part_of_SoS_documentation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "is_part_of_SoS_documentation",
+      "en" : "is part of SoS documentation"
+    },
+    "superproperty" : [ "151" ],
+    "domain" : "59",
+    "attributes" : [ "external", "object" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_documented_by",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "195",
+    "label" : {
+      "IRI-based" : "is_documented_by",
+      "en" : "is documented by"
+    },
+    "domain" : "194",
+    "subproperty" : [ "196", "175" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_referred_to_by",
+    "inverse" : "116",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "is_referred_to_by",
+      "en" : "is referred to by"
+    },
+    "domain" : "57",
+    "attributes" : [ "external", "object" ],
+    "id" : "199"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_AH_service_documented_by",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "is_AH_service_documented_by"
+    },
+    "superproperty" : [ "196" ],
+    "domain" : "75",
+    "comment" : {
+      "en" : "is AH service documented by"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "200"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "is_architectural_part_of",
+      "en" : "is an architectural part of"
+    },
+    "domain" : "129",
+    "subproperty" : [ "201", "119", "163", "202" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "120"
+  }, {
+    "range" : "26",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "range" : "26",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "26",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "range" : "26",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "212"
+  }, {
+    "range" : "26",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "range" : "26",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "26",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "26",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "range" : "26",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "217"
+  }, {
+    "range" : "26",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#refers_to_IDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "refers_to_IDD",
+      "en" : "refers to IDD"
+    },
+    "superproperty" : [ "116" ],
+    "domain" : "35",
+    "attributes" : [ "external", "object" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "219",
+    "label" : {
+      "IRI-based" : "documents_AH_service_comm_tech",
+      "en" : "documents AH service comm tech"
+    },
+    "superproperty" : [ "220" ],
+    "domain" : "203",
+    "subproperty" : [ "221", "102", "127" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#has_method",
+    "inverse" : "119",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "has_method",
+      "en" : "has method"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "42",
+    "attributes" : [ "external", "object" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#device_name",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "223",
+    "label" : {
+      "IRI-based" : "device_name",
+      "undefined" : "device name"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "222"
+  }, {
+    "range" : "93",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "224"
+  }, {
+    "range" : "93",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "225"
+  }, {
+    "range" : "93",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "61",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "range" : "19",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "range" : "93",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "61",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "range" : "30",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "19",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "range" : "156",
+    "domain" : "168",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "range" : "156",
+    "domain" : "170",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "156",
+    "domain" : "169",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#produced_by",
+    "inverse" : "132",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "produced_by",
+      "en" : "produced by"
+    },
+    "superproperty" : [ "120" ],
+    "domain" : "42",
+    "attributes" : [ "external", "object" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_hosted_by",
+    "equivalent" : [ "3" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "is_hosted_by",
+      "en" : "is hosted by"
+    },
+    "superproperty" : [ "120" ],
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_method",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "documents_AH_service_method",
+      "en" : "documents AH service method"
+    },
+    "superproperty" : [ "220" ],
+    "domain" : "69",
+    "comment" : {
+      "en" : "Relation between an Interface Design Description document (of a specific service) and a method of this service. \r\nThe relation expresses that the IDD document documents the methods of the service the IDD belongs to. \r\nWith this, a consistency check would be possible: \r\nIF a service S has a method M AND the IDD IDD_S is part of the service documentation of S (i.e. IDD_S is the IDD of S) \r\nTHEN IDD_S should contain a documentation of M."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "243"
+  }, {
+    "range" : "48",
+    "domain" : "165",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "244"
+  }, {
+    "range" : "48",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "245"
+  }, {
+    "range" : "48",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "48",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "range" : "56",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "range" : "56",
+    "domain" : "156",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "range" : "48",
+    "domain" : "164",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "251"
+  }, {
+    "range" : "56",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "15",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "15",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "254"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#defines_compliant_system",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "defines_compliant_system",
+      "en" : "defines compliant system"
+    },
+    "domain" : "29",
+    "attributes" : [ "external", "object" ],
+    "id" : "255"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_part_of_system_documentation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "is_part_of_system_documentation",
+      "en" : "is part of system documentation"
+    },
+    "superproperty" : [ "151" ],
+    "domain" : "56",
+    "attributes" : [ "external", "object" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_information_model",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "documents_AH_service_information_model",
+      "en" : "documents AH service information model"
+    },
+    "superproperty" : [ "220" ],
+    "domain" : "206",
+    "attributes" : [ "external", "object" ],
+    "id" : "256"
+  }, {
+    "range" : "15",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "257"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#uses_data_format",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "uses_data_format",
+      "en" : "uses data format"
+    },
+    "superproperty" : [ "134" ],
+    "domain" : "42",
+    "attributes" : [ "external", "object" ],
+    "id" : "136"
+  }, {
+    "range" : "15",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "258"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SDD",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "refers_to_Sy_SDD",
+      "en" : "refers to Sy SDD"
+    },
+    "superproperty" : [ "116" ],
+    "domain" : "80",
+    "attributes" : [ "external", "object" ],
+    "id" : "143"
+  }, {
+    "range" : "26",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "259"
+  }, {
+    "range" : "15",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "260"
+  }, {
+    "range" : "15",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "261"
+  }, {
+    "range" : "26",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "range" : "26",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "264"
+  }, {
+    "range" : "26",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "265"
+  }, {
+    "range" : "26",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "1",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "267"
+  }, {
+    "range" : "1",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "268"
+  }, {
+    "range" : "1",
+    "domain" : "190",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "269"
+  }, {
+    "range" : "1",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "270"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_service_documented_by",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "is_service_documented_by"
+    },
+    "superproperty" : [ "176" ],
+    "domain" : "42",
+    "subproperty" : [ "200" ],
+    "comment" : {
+      "en" : "is service documented by"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "196"
+  }, {
+    "range" : "1",
+    "domain" : "167",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "271"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#MAC_address",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "274",
+    "label" : {
+      "IRI-based" : "MAC_address",
+      "en" : "MAC address"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "273"
+  }, {
+    "range" : "1",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "275"
+  }, {
+    "range" : "1",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "276"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#contains_device",
+    "inverse" : "201",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "contains_device",
+      "en" : "contains device"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "197",
+    "attributes" : [ "external", "object" ],
+    "id" : "130"
+  }, {
+    "range" : "74",
+    "domain" : "227",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#documents",
+    "inverse" : "176",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "226",
+    "label" : {
+      "IRI-based" : "documents",
+      "en" : "documents"
+    },
+    "domain" : "198",
+    "attributes" : [ "external", "object" ],
+    "id" : "278"
+  }, {
+    "range" : "39",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "279"
+  }, {
+    "range" : "1",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "280"
+  }, {
+    "range" : "74",
+    "domain" : "228",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "281"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_device_in",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "229",
+    "label" : {
+      "IRI-based" : "is_device_in",
+      "en" : "is device in"
+    },
+    "superproperty" : [ "120" ],
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "201"
+  }, {
+    "range" : "68",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "282"
+  }, {
+    "range" : "65",
+    "domain" : "160",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "283"
+  }, {
+    "range" : "39",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "284"
+  }, {
+    "range" : "68",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "285"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#is_AH_system_documented_by",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "is_AH_system_documented_by"
+    },
+    "superproperty" : [ "175" ],
+    "domain" : "44",
+    "comment" : {
+      "en" : "is AH system documented by"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#documents_service_part",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "286",
+    "label" : {
+      "IRI-based" : "documents_service_part",
+      "en" : "documents service part"
+    },
+    "domain" : "57",
+    "subproperty" : [ "243", "105", "256" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "220"
+  }, {
+    "range" : "65",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "287"
+  }, {
+    "range" : "65",
+    "domain" : "205",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "288"
+  }, {
+    "range" : "65",
+    "domain" : "117",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "289"
+  }, {
+    "range" : "63",
+    "domain" : "172",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "290"
+  }, {
+    "range" : "63",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "291"
+  }, {
+    "range" : "65",
+    "domain" : "204",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "292"
+  }, {
+    "range" : "65",
+    "domain" : "171",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "293"
+  }, {
+    "range" : "24",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "294"
+  }, {
+    "range" : "24",
+    "domain" : "263",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "295"
+  }, {
+    "range" : "37",
+    "domain" : "125",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "296"
+  }, {
+    "range" : "37",
+    "domain" : "162",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "297"
+  }, {
+    "range" : "24",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "298"
+  }, {
+    "range" : "24",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "299"
+  }, {
+    "range" : "24",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "300"
+  }, {
+    "range" : "2",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "301"
+  }, {
+    "range" : "30",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "302"
+  }, {
+    "range" : "63",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "303"
+  }, {
+    "range" : "172",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "304"
+  }, {
+    "range" : "21",
+    "domain" : "140",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "305"
+  }, {
+    "range" : "21",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "306"
+  }, {
+    "range" : "21",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "307"
+  }, {
+    "range" : "21",
+    "domain" : "272",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "308"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#defines_compliant_service",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "defines_compliant_service",
+      "en" : "defines compliant service"
+    },
+    "domain" : "29",
+    "attributes" : [ "external", "object" ],
+    "id" : "309"
+  }, {
+    "range" : "59",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "310"
+  }, {
+    "range" : "59",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "311"
+  }, {
+    "range" : "21",
+    "domain" : "173",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "312"
+  }, {
+    "range" : "21",
+    "domain" : "166",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "313"
+  }, {
+    "range" : "2",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "314"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#documents_AH_service_transfer_protocol",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "152",
+    "label" : {
+      "IRI-based" : "documents_AH_service_transfer_protocol",
+      "en" : "documents AH service transfer protocol"
+    },
+    "superproperty" : [ "105" ],
+    "domain" : "209",
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "221"
+  }, {
+    "range" : "42",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "315"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#has_part_documentation_document",
+    "inverse" : "151",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "has_part_documentation_document",
+      "en" : "has part"
+    },
+    "domain" : "210",
+    "attributes" : [ "external", "object" ],
+    "id" : "316"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AH#runs_on",
+    "equivalent" : [ "202" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AH",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "runs_on",
+      "en" : "runs on"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "3"
+  }, {
+    "range" : "31",
+    "domain" : "250",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "317"
+  }, {
+    "range" : "44",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "318"
+  }, {
+    "range" : "99",
+    "domain" : "150",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "319"
+  }, {
+    "range" : "31",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "320"
+  }, {
+    "range" : "44",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "321"
+  } ]
+}

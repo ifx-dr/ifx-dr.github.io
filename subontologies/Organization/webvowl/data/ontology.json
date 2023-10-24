@@ -1,0 +1,1167 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3id.org/ecsel-dr-PMV", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr", "http://www.w3.org/2001/XMLSchema", "http://www.w3id.org/ecsel-dr-ORG", "http://org.semanticweb.owlapi/error" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "37",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "19",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "70",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "23",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Division",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Division",
+      "en" : "Division"
+    },
+    "comment" : {
+      "en" : "Hierarchical structure of an organization. For example ATV, DDS, ICP..."
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Category",
+    "equivalent" : [ "19" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Category",
+      "en" : "Category"
+    },
+    "comment" : {
+      "en" : "Categorizes the project in a big, medium or small project. Usually according the project size."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "18",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Project_Team_Member",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Project_Team_Member",
+      "en" : "Project Team Members"
+    },
+    "comment" : {
+      "en" : "Project team members are the individuals who actively work on one or more phases of the project."
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Project",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Project",
+      "en" : "Project"
+    },
+    "subClasses" : [ "6" ],
+    "comment" : {
+      "en" : "?Projects are a way to deliver value to an organization. A project is defined as a unique, temporary, multi-disciplinary and organized endeavor to realize agreed deliverables within predefined requirements and constraints."
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Project_Owner",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Project_Owner",
+      "en" : "Project Owner"
+    },
+    "comment" : {
+      "en" : "Defines BP for target achievement."
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Central_Function",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Central_Function",
+      "en" : "Central Function"
+    },
+    "comment" : {
+      "en" : "Large companies have central fuctions like the Finance or corporate suppyl chain department."
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Training",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Training",
+      "en" : "Training"
+    },
+    "comment" : {
+      "en" : "The process of learning the skills you need to do a particular job or activity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Role",
+    "equivalent" : [ "64" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Role",
+      "en" : "Role"
+    },
+    "subClasses" : [ "3", "29", "28" ],
+    "comment" : {
+      "en" : "Defines the responsibilities assumed by an individual."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "12",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error332",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error332"
+    },
+    "attributes" : [ "external" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Task",
+    "equivalent" : [ "66" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Task",
+      "en" : "Task"
+    },
+    "comment" : {
+      "en" : "A piece of work to be done or undertaken."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "37",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error333",
+    "equivalent" : [ "18" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error333"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Organization_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization_Lobe"
+    },
+    "subClasses" : [ "0", "49", "7", "18", "54", "12", "34", "23", "37", "25", "21", "27" ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error330",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error330"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error331",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error331"
+    },
+    "attributes" : [ "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error336",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error336"
+    },
+    "attributes" : [ "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "4",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error334",
+    "equivalent" : [ "23" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error334"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "71",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error335",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error335"
+    },
+    "attributes" : [ "external" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Certification",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Certification",
+      "en" : "Certification"
+    },
+    "comment" : {
+      "en" : "An official document, as proof that something has happened or been done"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Task",
+    "equivalent" : [ "37" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Task"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "77",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Region",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Region",
+      "en" : "Region"
+    },
+    "comment" : {
+      "en" : "Large companies divide their activites in regions, like in America, Greater China, SEA (South East Asia), Europe and ROW (rest of World)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error329",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error329"
+    },
+    "attributes" : [ "external" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Work_Package",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Work_Package",
+      "en" : "Work Package"
+    },
+    "comment" : {
+      "en" : "A work package is a group of related tasks within a project."
+    },
+    "attributes" : [ "external" ],
+    "id" : "49",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Company_Project",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Company_Project",
+      "en" : "Company Project"
+    },
+    "comment" : {
+      "en" : "Projects that are or have been developed using our methodology, based on the IPMA standard."
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "25" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Sub_Project",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sub_Project",
+      "en" : "Sub Project"
+    },
+    "comment" : {
+      "en" : "A project within a larger project."
+    },
+    "attributes" : [ "external" ],
+    "id" : "54",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-PMV#Role",
+    "equivalent" : [ "12" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-PMV",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Role"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Project_Status",
+    "equivalent" : [ "70" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Project_Status",
+      "en" : "Project Status"
+    },
+    "comment" : {
+      "en" : "The current status of the project"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "23",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#Project_Manager",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Project_Manager",
+      "en" : "Project Manager"
+    },
+    "comment" : {
+      "en" : "Project managers have the responsibility of the planning, procurement and execution of a project, in any undertaking that has a defined scope, defined start and a defined finish; regardless of industry."
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "12" ]
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#minimum_job_experience",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "minimum_job_experience",
+      "undefined" : "minimum job experience"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "Minimum job experience that the project manager needs"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#has_certification_level",
+    "inverse" : "8",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "has_certification_level",
+      "en" : "has a certification level"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "6",
+    "comment" : {
+      "en" : "Relation between a project and the certification that it has"
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#interface_complexity_factor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "interface_complexity_factor",
+      "en" : "interface complexity factor"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "The factor of complexity of the interface"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#has_contributor",
+    "inverse" : "14",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "has_contributor",
+      "en" : "has a contributor"
+    },
+    "domain" : "12",
+    "subproperty" : [ "5" ],
+    "comment" : {
+      "en" : "A relation between a role and the funcionts it has, division and region it is part of."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#budget_factor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "budget_factor",
+      "en" : "budget factor"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "The budget factor of a project"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#is_category_level_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "is_category_level_of",
+      "en" : "is category level of"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "Relation between a category and its projects"
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "17"
+  }, {
+    "range" : "1",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#is_project_status",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "is_project_status",
+      "en" : "is project status"
+    },
+    "domain" : "23",
+    "comment" : {
+      "en" : "Relation between a project status and the project it is part of"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "1",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "1",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#has_project_status",
+    "inverse" : "22",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "has_project_status",
+      "en" : "has project status"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "Relation between a project and its status"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#resulting_factor_average",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "resulting_factor_average",
+      "en" : "resulting factor average"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "31"
+  }, {
+    "range" : "1",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "1",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "1",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "1",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#has_role",
+    "inverse" : "40",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "has_role",
+      "en" : "has role"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "A relation that connects a role with a project"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#has_training_level",
+    "inverse" : "42",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "has_training_level",
+      "en" : "has training level"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "Relation between a project manager and its training level"
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#category_factor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "category_factor",
+      "en" : "category factor"
+    },
+    "domain" : "18",
+    "comment" : {
+      "en" : "The category factor of a project"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "is_certification_level_of",
+      "en" : "is certification level of"
+    },
+    "domain" : "7",
+    "comment" : {
+      "en" : "Relation between a certification and its projects"
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#has_task",
+    "inverse" : "47",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "has_task",
+      "en" : "has task"
+    },
+    "domain" : "46",
+    "comment" : {
+      "en" : "Relation between a project or a subproject and their tasks"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#is_work_package_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "is_work_package_of",
+      "en" : "if work package of"
+    },
+    "domain" : "49",
+    "comment" : {
+      "en" : "Relation between a workpackage and the project or subproject it is part of"
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "48"
+  }, {
+    "range" : "1",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "1",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "12",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "12",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "is_sub_project_of",
+      "en" : "is sub project of"
+    },
+    "domain" : "54",
+    "comment" : {
+      "en" : "Relation between a subproject and the project it is part of"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "57"
+  }, {
+    "range" : "1",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "12",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "range" : "25",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#has_work_package",
+    "inverse" : "48",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "has_work_package",
+      "en" : "has work package"
+    },
+    "domain" : "63",
+    "comment" : {
+      "en" : "Relation between a project or a subproject and their work packages"
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#is_task_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "is_task_of",
+      "en" : "is task of"
+    },
+    "domain" : "37",
+    "comment" : {
+      "en" : "Relation between a task and the project or subproject it is part of"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#is_training_level_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "is_training_level_of",
+      "en" : "is training level of"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "Relation between a training and the project manager that has it"
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#experience",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "experience",
+      "undefined" : "experience"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "The experience that a project manager has"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#has_category_level",
+    "inverse" : "17",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "has_category_level",
+      "en" : "has category level"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "Relation between a project and its categories"
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#has_sub_project",
+    "inverse" : "57",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "has_sub_project",
+      "en" : "has sub project"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "Relation between a project and its subprojects"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#goal",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "goal",
+      "en" : "goal"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "The goal of a project"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#name",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "name",
+      "en" : "name"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "The name of the project"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#is_contributor_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "is_contributor_of",
+      "en" : "is contributor of"
+    },
+    "domain" : "72",
+    "comment" : {
+      "en" : "Relation between a Central function, a division or a region and their roles"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#budget_value",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "budget_value",
+      "en" : "budget value"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "The value of the budget of a project"
+    },
+    "attributes" : [ "external", "functional", "datatype" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#impact_factor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "impact_factor",
+      "en" : "impact factor"
+    },
+    "domain" : "6",
+    "comment" : {
+      "en" : "The factor of impact of a project"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#is_role_of",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "is_role_of",
+      "en" : "is role of"
+    },
+    "domain" : "12",
+    "comment" : {
+      "en" : "Relation between a role and the project it is part of"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-ORG#minimum_project_manager_experience",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-ORG",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "minimum_project_manager_experience",
+      "undefined" : "minimum project manager experience"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "Minimum job experience that the project manager needs"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "82"
+  } ]
+}

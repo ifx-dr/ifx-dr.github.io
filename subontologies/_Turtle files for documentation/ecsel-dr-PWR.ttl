@@ -1,0 +1,688 @@
+@prefix : <http://www.w3id.org/ecsel-dr-PWR#> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Blocking_Capability a owl:Class ;
+    rdfs:label "Blocking Capability"@en ;
+    rdfs:subClassOf :Property .
+
+:Blocking_Voltage a owl:Class ;
+    rdfs:label "Blocking Voltage (Break Down)"@en ;
+    rdfs:subClassOf :Property .
+
+:Communication_Services a owl:Class ;
+    rdfs:label "Communication Services"@en ;
+    rdfs:comment "Industrial sector of Communication Services"@en ;
+    rdfs:subClassOf :Industrial_Sector .
+
+:Constant_Resistance a owl:Class ;
+    rdfs:label "Constant Resistance"@en ;
+    rdfs:comment "The constant degree to which a substance prevents the flow of an electric current through it"@en ;
+    rdfs:subClassOf :Resistance .
+
+:Consumer_Discretionary a owl:Class ;
+    rdfs:label "Consumer Discretionary"@en ;
+    rdfs:comment "Industrial sector of Consumer Discretionary"@en ;
+    rdfs:subClassOf :Industrial_Sector .
+
+:Consumer_Staples a owl:Class ;
+    rdfs:label "Consumer Staples"@en ;
+    rdfs:comment "Industrial sector of Consumer staples"@en ;
+    rdfs:subClassOf :Industrial_Sector .
+
+:Drain a owl:Class ;
+    rdfs:label "Drain"@en ;
+    rdfs:subClassOf :Device_Element .
+
+:Drain_Source_Voltage a owl:Class ;
+    rdfs:label "Drain-Source Voltage"@en ;
+    rdfs:subClassOf :Property .
+
+:Electric_Vehicle_Charging a owl:Class ;
+    rdfs:label "Electric Vehicle Charging"@en ;
+    rdfs:comment "Area that focuses on electric vehicles charging solutions"@en ;
+    rdfs:subClassOf :Application_Area .
+
+:Electronic_Components a owl:Class ;
+    rdfs:label "Electronic Components"@en ;
+    rdfs:comment "Industrial sector of Electronic Components"@en ;
+    rdfs:subClassOf :Electronic_Equipment_Instruments_And_Components .
+
+:Energy a owl:Class ;
+    rdfs:label "Energy"@en ;
+    rdfs:comment "Industrial sector of Energy"@en ;
+    rdfs:subClassOf :Industrial_Sector .
+
+:Energy_Storage a owl:Class ;
+    rdfs:label "Energy Storage"@en ;
+    rdfs:comment "Area that focuses on energy storage solutions"@en ;
+    rdfs:subClassOf :Application_Area .
+
+:Financial a owl:Class ;
+    rdfs:label "Financial"@en ;
+    rdfs:comment "Financial Sector"@en ;
+    rdfs:subClassOf :Industrial_Sector .
+
+:Gate a owl:Class ;
+    rdfs:label "Gate"@en ;
+    rdfs:subClassOf :Device_Element .
+
+:Gate_Driver a owl:Class ;
+    rdfs:label "Gate Driver"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> .
+
+:Healthcare a owl:Class ;
+    rdfs:label "Healthcare"@en ;
+    rdfs:comment "Healthcare sector"@en ;
+    rdfs:subClassOf :Industrial_Sector .
+
+:Height a owl:Class ;
+    rdfs:label "Height"@en ;
+    rdfs:comment "The height of an entity"@en ;
+    rdfs:subClassOf :Geometric_Dimension .
+
+:Industrials a owl:Class ;
+    rdfs:label "Industrials"@en ;
+    rdfs:comment "Industrial sectors"@en ;
+    rdfs:subClassOf :Industrial_Sector .
+
+:Interface a owl:Class ;
+    rdfs:label "Interface"@en ;
+    rdfs:comment "A common boundary or interconnection between systems, equipment, concepts, or human beings" ;
+    rdfs:subClassOf :Physical_Object ;
+    owl:incompatibleWith "IFX" .
+
+:Leakage_Current a owl:Class ;
+    rdfs:label "Leakage Current"@en ;
+    rdfs:subClassOf :Property .
+
+:Length a owl:Class ;
+    rdfs:label "Lenght"@en ;
+    rdfs:comment "The length of an entity"@en ;
+    rdfs:subClassOf :Geometric_Dimension .
+
+:Materials a owl:Class ;
+    rdfs:label "Materials"@en ;
+    rdfs:comment "Industrial sector of Materials"@en ;
+    rdfs:subClassOf :Industrial_Sector .
+
+:Microcontroller a owl:Class ;
+    rdfs:label "Microcontroller"@en ;
+    rdfs:comment "Industrial sector of Microcontrollers"@en ;
+    rdfs:subClassOf :Semiconductors .
+
+:N_Channel_Configuration a owl:Class ;
+    rdfs:label "N-Channel Configuration"@en ;
+    rdfs:subClassOf :Device_Configuration ;
+    owl:disjointWith :P_Channel_Configuration .
+
+:Negative a owl:Class ;
+    rdfs:label "Negative (-)"@en ;
+    rdfs:comment "Is the negative difference in electric potential between two points"@en ;
+    rdfs:subClassOf :Voltage .
+
+:Off_State_Region a owl:Class ;
+    rdfs:label "Off-State Region"@en ;
+    rdfs:subClassOf :Region_Of_Operation .
+
+:Package a owl:Class ;
+    rdfs:label "Package"@en ;
+    rdfs:comment "A package is the housing for a chip (or several chips) and provides electrical contacts. It is an interconnect in between chip-pads and the interface to the PCB board. A package is characterized by its outline (drawing) and its materials." ;
+    rdfs:isDefinedBy "IFX" ;
+    rdfs:subClassOf :Physical_Object .
+
+:Positive a owl:Class ;
+    rdfs:label "Positive (+)"@en ;
+    rdfs:comment "Is the positive difference in electric potential between two points"@en ;
+    rdfs:subClassOf :Voltage .
+
+:Power_Converter a owl:Class ;
+    rdfs:label "Power Converter"@en ;
+    rdfs:comment "Industrial sector of Power Converters"@en ;
+    rdfs:subClassOf :Semiconductors .
+
+:Price a owl:Class ;
+    rdfs:label "Price"@en ;
+    rdfs:comment "The element of an entity"@en ;
+    rdfs:subClassOf :Information_Object .
+
+:Real_Estate a owl:Class ;
+    rdfs:label "Real Estate"@en ;
+    rdfs:comment "Real Estate sector"@en ;
+    rdfs:subClassOf :Industrial_Sector .
+
+:Saturation_Region a owl:Class ;
+    rdfs:label "Saturation Region" ;
+    rdfs:subClassOf :On_State_Region ;
+    owl:disjointWith <http://www.w3id.org/ecsel-dr-PWR#Triode/Constant_Resistance_Region> .
+
+:Sensors a owl:Class ;
+    rdfs:label "Sensors"@en ;
+    rdfs:comment "Industrial sector of Sensors"@en ;
+    rdfs:subClassOf :Semiconductors .
+
+:Software_And_Services a owl:Class ;
+    rdfs:label "Software And Services"@en ;
+    rdfs:comment "Industrial sector of Software and Services"@en ;
+    rdfs:subClassOf :Information_Technology .
+
+:Solar_Energy a owl:Class ;
+    rdfs:label "Solar Energy"@en ;
+    rdfs:comment "Area that focuses on solar energy solutions"@en ;
+    rdfs:subClassOf :Application_Area .
+
+:Source a owl:Class ;
+    rdfs:label "Source"@en ;
+    rdfs:subClassOf :Device_Element .
+
+:Switching_Frequency a owl:Class ;
+    rdfs:label "Switching Frequency"@en ;
+    rdfs:subClassOf :Property .
+
+:Switching_Value a owl:Class ;
+    rdfs:label "Switching Value"@en ;
+    rdfs:comment """The value of the result of the method (procedures) of the device function. The result is an information object that encodes some value for a feature. For example:\r
+a) If we consider the observation is the method used for sensing of the sensors, then the observation has a result which is the output of the sensor,\r
+b) If we consider the amplification is the method used for boosting of the power converter, then the amplification has a result which is the output of the  power converter,""" ;
+    rdfs:subClassOf :Abstract .
+
+:The_Process_Name_Of_The_Device_Function a owl:Class ;
+    rdfs:label "The Process Used In The Device Function"@en ;
+    rdfs:comment """It is a process that results in the estimation, or calculation, of the value of a device output. \r
+Usually it derived from the name of the device for example:\r
+Sensor process: sensing: Sensing is a process that results in the estimation, or calculation, of the value of a phenomenon.\r
+\r
+Boost Converter process: boosting: is a process that results in the estimation, or calculation, of the value of a amplified voltage.""" ;
+    rdfs:isDefinedBy "Only the defintion of the Sensor process: sensing (Sensing is a process that results in the estimation, or calculation, of the value of a phenomenon.) is defined by W3C SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Sensing" ;
+    rdfs:subClassOf :Process .
+
+:Utilities a owl:Class ;
+    rdfs:label "Utilities"@en ;
+    rdfs:comment "Utilities sector"@en ;
+    rdfs:subClassOf :Industrial_Sector .
+
+:Voltage_Controlled a owl:Class ;
+    rdfs:label "Voltage Controlled" ;
+    rdfs:comment "by applying the voltage between Gate and Sourcet o turn on, turn off the MOSFET, and  increaseing, decreasing  the MOSFET output current." ;
+    rdfs:isDefinedBy "rdfs:isDefinedBy" ;
+    rdfs:subClassOf :Control_Method .
+
+:Weight a owl:Class ;
+    rdfs:label "Weight"@en ;
+    rdfs:comment "The element of an entity"@en ;
+    rdfs:subClassOf :Information_Object .
+
+:Width a owl:Class ;
+    rdfs:label "Width"@en ;
+    rdfs:comment "The width of an entity"@en ;
+    rdfs:subClassOf :Geometric_Dimension .
+
+:amplication_switching_device_has_property a owl:ObjectProperty ;
+    rdfs:label "has property"@en ;
+    rdfs:domain :Amplication_Switching_Device ;
+    rdfs:range :Property .
+
+:amplified_by a owl:ObjectProperty ;
+    rdfs:label "amplified by"@en ;
+    rdfs:comment "The Act of The Switching"@en ;
+    rdfs:domain :The_Method_Of_The_Device_Function ;
+    rdfs:range :Amplication_Switching_Device .
+
+:enhancement_mode_is_working_as a owl:ObjectProperty ;
+    rdfs:label "enhancement mode is working as"@en ;
+    rdfs:domain :Enhancement_Mode ;
+    rdfs:range :Switcher ;
+    rdfs:subPropertyOf :acting_as .
+
+:has_an_output_current a owl:ObjectProperty ;
+    rdfs:label "has an output current"@en ;
+    rdfs:domain :SiC_MOSFET ;
+    rdfs:range :Drain_Current .
+
+:has_application_area a owl:ObjectProperty ;
+    rdfs:label "has application area"@en ;
+    rdfs:domain :Product ;
+    rdfs:range :Application_Area .
+
+:has_configuration a owl:ObjectProperty ;
+    rdfs:label "has a configuration"@en ;
+    rdfs:domain :Amplication_Switching_Device ;
+    rdfs:range :Device_Configuration .
+
+:has_control_method a owl:ObjectProperty ;
+    rdfs:label "has a control method"@en ;
+    rdfs:domain :Amplication_Switching_Device ;
+    rdfs:range :Control_Method .
+
+:has_deployment a owl:ObjectProperty ;
+    rdfs:label "has deployment"@en ;
+    rdfs:domain :System ;
+    rdfs:range :Deployment .
+
+:has_dimension a owl:ObjectProperty ;
+    rdfs:label "has dimension"@en ;
+    rdfs:domain :Product ;
+    rdfs:range :Geometric_Dimension .
+
+:has_element a owl:ObjectProperty ;
+    rdfs:label "has element"@en ;
+    rdfs:domain :Amplication_Switching_Device ;
+    rdfs:range :Device_Element .
+
+:has_industry_sector a owl:ObjectProperty ;
+    rdfs:label "has industry sector"@en ;
+    rdfs:domain :Amplication_Switching_Device ;
+    rdfs:range :Semiconductors ;
+    rdfs:subPropertyOf :are .
+
+:has_information_object a owl:ObjectProperty ;
+    rdfs:label "has information object"@en ;
+    rdfs:comment "States that the devices have ona or more information objects, which can be a sensor data sheet for the sensors." ;
+    rdfs:domain :Amplication_Switching_Device ;
+    rdfs:isDefinedBy "IFX" ;
+    rdfs:range :Semiconductor_Product_Data_Sheet .
+
+:has_operation_modes a owl:ObjectProperty ;
+    rdfs:label "has an operation modes"@en ;
+    rdfs:domain :Amplication_Switching_Device ;
+    rdfs:range :Enhancement_Mode .
+
+:has_operation_region a owl:ObjectProperty ;
+    rdfs:label "has an operation region"@en ;
+    rdfs:domain :Amplication_Switching_Device ;
+    rdfs:range :Region_Of_Operation .
+
+:has_power_loss_calculated_by_multiplication_of a owl:ObjectProperty ;
+    rdfs:label "has a power loss calculated by multiplicatoin of"@en ;
+    rdfs:domain :On_State_Power_Loss ;
+    rdfs:range :Drain_Current,
+        :On_State_Resistance .
+
+:has_process_input a owl:ObjectProperty ;
+    rdfs:domain :Process ;
+    rdfs:range :Process_Input ;
+    owl:maxCardinality "has process input"@en .
+
+:has_process_output a owl:ObjectProperty ;
+    rdfs:label "has process output"@en ;
+    rdfs:domain :Process ;
+    rdfs:range :Process_Output .
+
+:has_properties_of a owl:ObjectProperty ;
+    rdfs:label "has propeties of"@en ;
+    rdfs:domain :Semiconductor_Product_Data_Sheet ;
+    rdfs:range :Amplication_Switching_Device .
+
+:has_voltage a owl:ObjectProperty ;
+    rdfs:label "has a voltage"@en .
+
+:has_voltage_drain_voltage a owl:ObjectProperty ;
+    rdfs:label "is a volatge of"@en ;
+    rdfs:domain :The_Application_Voltage ;
+    rdfs:range :Drain_Voltage .
+
+:has_voltage_equals_or_greater_than a owl:ObjectProperty ;
+    rdfs:label "has a voltage equals or greater than"@en ;
+    rdfs:domain :On_State_Voltage ;
+    rdfs:range :Threshold_Voltage .
+
+:in_deployment a owl:ObjectProperty ;
+    rdfs:label "in deployment"@en ;
+    rdfs:comment "Relation between a Platform and a Deployment, recording that the object was used as a platform for a system/ a device (sensor/power converter) for a particular deployment: as in this PhysicalObject is acting as a Platform inDeployment Deployment." ;
+    rdfs:domain :Platform ;
+    rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#inDeployment" ;
+    rdfs:range :Deployment .
+
+:is_a_product_of a owl:ObjectProperty ;
+    rdfs:label "is a product of"@en ;
+    rdfs:domain :SiC_MOSFET ;
+    rdfs:range :Product .
+
+:is_produced_by a owl:ObjectProperty ;
+    rdfs:label "is produced by" ;
+    rdfs:domain :The_Device_Output ;
+    rdfs:range :Amplication_Switching_Device .
+
+:is_working_as a owl:ObjectProperty ;
+    rdfs:label "The Depletion Mode Is Working As" ;
+    rdfs:domain :Depletion_Mode ;
+    rdfs:range :Variable_Resistance ;
+    rdfs:subPropertyOf :acting_as ;
+    ns1:prefLabel "is working as"@en .
+
+:makes_switching a owl:ObjectProperty ;
+    rdfs:label "makes switching"@en ;
+    rdfs:comment "the method name, e.g.:observation and amlification"@en ;
+    rdfs:domain :Amplication_Switching_Device ;
+    rdfs:range :The_Method_Of_The_Device_Function .
+
+:the_temperature_must_not_exceed a owl:ObjectProperty ;
+    rdfs:label "the temperature must not exceed"@en ;
+    rdfs:domain :Amplication_Switching_Device ;
+    rdfs:range :Maximum_Junction_Temperature .
+
+:Abstract a owl:Class ;
+    rdfs:label "Abstract"@en ;
+    rdfs:comment """Any Entity that cannot be located in space-time.\r
+\r
+Example: mathematical entities: formal semantics elements, regions within dimensional spaces, etc.\"""" ;
+    rdfs:isDefinedBy "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Abstract\"" ;
+    rdfs:subClassOf :Entity .
+
+:Depletion_Mode a owl:Class ;
+    rdfs:label "Depletion Mode"@en ;
+    rdfs:subClassOf :Operation_Mode .
+
+:Deployment_Related_Process a owl:Class ;
+    rdfs:label "Deployment-Related Process"@en ;
+    rdfs:comment "Place to group all the various Processes related to Deployment. For example, as well as Deployment, installation, maintenance, deployment of the further devices and the like would all be classified under DeploymentRelatedProcess." ;
+    rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#DeploymentRelatedProcess" ;
+    rdfs:subClassOf :Process .
+
+:Device a owl:Class ;
+    rdfs:label "Device"@en ;
+    rdfs:comment "A device is a physical piece of technology - a system in a box. Devices may of course be build of smaller devices and software components.\"" ;
+    rdfs:isDefinedBy "rdfs:isDefinedBy \"World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Device\"" ;
+    rdfs:subClassOf :System .
+
+:Document a owl:Class ;
+    rdfs:label "Document"@en ;
+    rdfs:comment "The document class presents those things which are, broadly conceived, \"documents''. It should contain the manuals and the data sheet of the devices."@en ;
+    rdfs:isDefinedBy "Friend of a friend ontology http://xmlns.com/foaf/spec/#term_Document\"" ;
+    rdfs:subClassOf :Information_Object ;
+    owl:equivalentClass <http://xmlns.com/foaf/0.1/Document> .
+
+:Drain_Voltage a owl:Class ;
+    rdfs:label "Drain Voltage (Gate-Source Voltage)"@en ;
+    rdfs:subClassOf :Process_Input,
+        :Property .
+
+:Electronic_Equipment_Instruments_And_Components a owl:Class ;
+    rdfs:label "Electronic Equipment Instruments And Components"@en ;
+    rdfs:comment "Industrial sector of Electronic Equipment, Instruments and Components"@en ;
+    rdfs:subClassOf :Technology_Hardware_And_Equipment .
+
+:Information_Entity a owl:Class ;
+    rdfs:label "Information Entity"@en ;
+    rdfs:comment "A piece of information, be it concretely realized or not."@en ;
+    rdfs:isDefinedBy "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#InformationEntity\"" ;
+    rdfs:subClassOf :Entity .
+
+:Junction_Temperature a owl:Class ;
+    rdfs:label "Junction Temperature"@en ;
+    rdfs:comment "The highest operating temperature of the actual semiconductor"@en ;
+    rdfs:subClassOf :Property .
+
+:Maximum_Junction_Temperature a owl:Class ;
+    rdfs:label "Maximum Junction Temperature"@en ;
+    rdfs:comment "Is specified in the part's datasheet and is used when calculating the necessary case-to-ambient thermal resistance for a given power dissipation."@en ;
+    rdfs:subClassOf :Junction_Temperature .
+
+:On_State_Power_Loss a owl:Class ;
+    rdfs:label "On-State Power Loss"@en ;
+    rdfs:subClassOf :Property .
+
+:On_State_Resistance a owl:Class ;
+    rdfs:label "On-State Resistance"@en ;
+    rdfs:subClassOf :Property .
+
+:On_State_Voltage a owl:Class ;
+    rdfs:label "On-State Voltage"@en ;
+    rdfs:subClassOf :Property ;
+    owl:equivalentClass [ ],
+        [ ] .
+
+:Operating_Property a owl:Class ;
+    rdfs:label "Operating Property"@en ;
+    rdfs:subClassOf :Property .
+
+:P_Channel_Configuration a owl:Class ;
+    rdfs:label "P-Channel Configuration"@en ;
+    rdfs:subClassOf :Device_Configuration .
+
+:Platform a owl:Class ;
+    rdfs:label "Platform"@en ;
+    rdfs:comment """An Entity to which other Entities can be attached - particularly semiconductor products and other platforms.\r
+\r
+Example: A post might act as the platform, a body might act as a platform for an attached device.""" ;
+    rdfs:isDefinedBy "rdfs:isDefinedBy \"World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Platform\"" ;
+    rdfs:subClassOf :Physical_Object .
+
+:Process_Output a owl:Class ;
+    rdfs:label "Process Output"@en ;
+    rdfs:comment "Any information that is reported from a Procedure." ;
+    rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#ProcessOutput" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> .
+
+:Quality a owl:Class ;
+    rdfs:label "Quality"@en ;
+    rdfs:comment "Any aspect of an Entity (but not a part of it), which cannot exist without that Entity. For example, the way the surface of a specific PhysicalObject looks like is a Quality, while the encoding of that Quality into e.g. a PhysicalAttribute should be modeled as a Region. From the design viewpoint, the Quality-Region distinction is useful only when individual aspects of an Entity are considered in a domain of discourse. For example, in an automotive context, it would be irrelevant to consider the aspects of car windows for a specific car, unless the factory wants to check a specific window against design parameters (anomaly detection). On the other hand, in an antiques context, the individual aspects for a specific piece of furniture are a major focus of attention, and may constitute the actual added value, because the design parameters for old furniture are often not fixed, and may not be viewed as 'anomalies'." ;
+    rdfs:isDefinedBy "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Quality" ;
+    rdfs:subClassOf :Entity .
+
+:Semiconductors_And_Semiconductor_Equipment a owl:Class ;
+    rdfs:label "Semiconductors And Semiconductor Equipment"@en ;
+    rdfs:comment "Industrial sector of Semiconductors and Semiconductor Equipment"@en ;
+    rdfs:subClassOf :Information_Technology .
+
+:Situation a owl:Class ;
+    rdfs:label "Situation"@en ;
+    rdfs:comment "A view, consistent with ('satisfying') a Description, on a set of entities. It can also be seen as a 'relational context' created by an observer on the basis of a 'frame' (i.e. a Description). For example, a PlanExecution is a context including some actions executed by agents according to certain parameters and expected tasks to be achieved from a Plan; a DiagnosedSituation is a context of observed entities that is interpreted on the basis of a Diagnosis, etc. Situation is also able to represent reified n-ary relations, where isSettingFor is the top-level relation for all binary projections of the n-ary relation. If used in a transformation pattern for n-ary relations, the designer should take care of creating only one subclass of Situation for each n-ary relation, otherwise the 'identification constraint' (Calvanese et al., IJCAI 2001) could be violated." ;
+    rdfs:isDefinedBy "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Situation" ;
+    rdfs:subClassOf :Social_Object .
+
+:Social_Object a owl:Class ;
+    rdfs:label "Social Object"@en ;
+    rdfs:comment """Act of carrying out an (Observation) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to an ObservableProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that proeprty was associated with.\r
+\r
+Example: The activity of estimating the intensity of an earthquake using the Mercalli intensity scale is an Observation as is measuring the moment magnitude, i.e., the energy released by said earthquake.""" ;
+    rdfs:isDefinedBy "World Wide Web COnsortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Observation" ;
+    rdfs:subClassOf :Object .
+
+:Switcher a owl:Class ;
+    rdfs:label "Switcher" ;
+    rdfs:comment "Switchers rapidly switch a series device on and off."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> .
+
+:Technology_Hardware_And_Equipment a owl:Class ;
+    rdfs:label "Technology Hardware And Equipment"@en ;
+    rdfs:comment "Industrial sector of Technology Hardware and Equipment"@en ;
+    rdfs:subClassOf :Information_Technology .
+
+:The_Application_Voltage a owl:Class ;
+    rdfs:label "The Application Voltage"@en ;
+    rdfs:subClassOf :Process_Input .
+
+:The_Device_Output a owl:Class ;
+    rdfs:label "The Device Output"@en ;
+    rdfs:comment "SiC MOSFET Output, the device output is a piece of information (value), the value itself being represented by an The device function value."@en ;
+    rdfs:subClassOf :Information_Object .
+
+:Threshold_Voltage a owl:Class ;
+    rdfs:label "Threshold Voltage"@en ;
+    rdfs:subClassOf :Property .
+
+<http://www.w3id.org/ecsel-dr-PWR#Triode/Constant_Resistance_Region> a owl:Class ;
+    rdfs:label "Triode/Constant Resistance Region"@en ;
+    rdfs:subClassOf [ ],
+        :On_State_Region .
+
+:Variable_Resistance a owl:Class ;
+    rdfs:label "Variable Resistance"@en ;
+    rdfs:comment "The variable degree to which a substance prevents the flow of an electric current through it"@en ;
+    rdfs:subClassOf :Resistance .
+
+:are a owl:ObjectProperty ;
+    rdfs:label "are"@en ;
+    rdfs:domain :Semiconductors ;
+    rdfs:range :Product .
+
+:Control_Method a owl:Class ;
+    rdfs:label "Control Method" ;
+    rdfs:comment "It is the method used to turn on, turn off , increaseing, and decreasing output current/voltage." ;
+    rdfs:isDefinedBy "Power Electronic book" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> .
+
+:Deployment a owl:Class ;
+    rdfs:label "Deplyment"@en ;
+    rdfs:comment "The ongoing Process of Entities (for the purposes of this ontology, mainly the Infineon device) deployed for a particular purpose. For example, a particular Sensor deployed on a Platform, or a whole network of Sensors deployed for an observation campaign. The deployment may have sub processes, such as installation, maintenance, addition, and decomissioning and removal." ;
+    rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Deployment" ;
+    rdfs:subClassOf :Deployment_Related_Process .
+
+:Drain_Current a owl:Class ;
+    rdfs:label "Drain Current"@en ;
+    rdfs:subClassOf :Property .
+
+:Enhancement_Mode a owl:Class ;
+    rdfs:label "Enhancement Mode"@en ;
+    rdfs:subClassOf :Operation_Mode .
+
+:Object a owl:Class ;
+    rdfs:label "Object"@en ;
+    rdfs:comment "Any physical, social, or mental object, or a substance"@en ;
+    rdfs:isDefinedBy "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Object\"" ;
+    rdfs:subClassOf :Entity .
+
+:On_State_Region a owl:Class ;
+    rdfs:label "On-State Region"@en ;
+    rdfs:subClassOf :Region_Of_Operation .
+
+:Operation_Mode a owl:Class ;
+    rdfs:label "Operation Mode"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> .
+
+:Resistance a owl:Class ;
+    rdfs:label "Resistance"@en ;
+    rdfs:comment "The degree to which a substance prevents the flow of an electric current through it"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> .
+
+:Semiconductor_Product_Data_Sheet a owl:Class ;
+    rdfs:label "Semiconductor Product Data Sheet"@en ;
+    rdfs:comment "Data sheet of a semiconductor product (its name), SiC MOSFET Data Sheet"@en ;
+    rdfs:subClassOf :Document .
+
+:System a owl:Class ;
+    rdfs:label "System"@en ;
+    rdfs:comment "System is a unit of abstraction for pieces of infrastructure that implements procedure. A System may have components, its subsystems, which are other systems.\"" ;
+    rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#System\"" ;
+    rdfs:subClassOf :Physical_Object .
+
+:The_Method_Of_The_Device_Function a owl:Class ;
+    rdfs:label "The Method Of The Device Function (Switching)"@en ;
+    rdfs:comment """The function of the devices has a method ( Procedure to estimate or calculate a value), for example:\r
+The Senor its function is the sensing, the sensing method is the observation\r
+The Boost converter ( a type of the power converter) its function is boosting, the boosting method is the amplification.  \r
+\r
+Act of carrying out an (the method) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to an the methodProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that proeprty was associated with.\r
+\r
+Example: The activity of estimating the intensity of an earthquake using the Mercalli intensity scale is an Observation as is measuring the moment magnitude, i.e., the energy released by said earthquake.\"""" ;
+    rdfs:subClassOf :Situation .
+
+:Voltage a owl:Class ;
+    rdfs:label "Voltage"@en ;
+    rdfs:comment "Is the difference in electric potential between two points"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> .
+
+:acting_as a owl:ObjectProperty ;
+    rdfs:label "acting as"@en .
+
+:Device_Configuration a owl:Class ;
+    rdfs:label "Device Configuration"@en ;
+    rdfs:comment "Device configuration can refer to either hardware or software , or the combination of both."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> .
+
+:Information_Technology a owl:Class ;
+    rdfs:label "Information Technology"@en ;
+    rdfs:comment "Industrial sector of Information Technology"@en ;
+    rdfs:subClassOf :Industrial_Sector .
+
+:Process_Input a owl:Class ;
+    rdfs:label "Process Input"@en ;
+    rdfs:comment "Any information that is provided a Procedure for its use." ;
+    rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#ProcessInput" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> .
+
+:Region_Of_Operation a owl:Class ;
+    rdfs:label "Region Of Operation"@en ;
+    rdfs:subClassOf :Operating_Property .
+
+:SiC_MOSFET a owl:Class ;
+    rdfs:label "SiC MOSFET"@en ;
+    rdfs:comment "Silicon Carbide Metal Oxide Semiconductor Field Effect Transistor (SiC MOSFET): It is a transistor: It is used for switching or amplifying the electronics signals or electric power." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> .
+
+:Application_Area a owl:Class ;
+    rdfs:label "Application Area"@en ;
+    rdfs:comment "The different application ares that the product can be used." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Application> .
+
+:Device_Element a owl:Class ;
+    rdfs:label "Device Element"@en ;
+    rdfs:comment "Elements that are part of a device"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> .
+
+:Entity a owl:Class ;
+    rdfs:label "Entity"@en ;
+    rdfs:comment "Anything: real, possible, or imaginary, which some modeller wants to talk about for some purpose." ;
+    rdfs:isDefinedBy "World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#Entity" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> .
+
+:Geometric_Dimension a owl:Class ;
+    rdfs:label "Geometric Dimension"@en ;
+    rdfs:comment "\"Describes the Dimensions of any Physical Object (Length, Wisth, Height)\"" ;
+    rdfs:isDefinedBy "DefinedBy \"IFX\"" ;
+    rdfs:subClassOf :Information_Object .
+
+:Physical_Object a owl:Class ;
+    rdfs:label "Physical Object"@en ;
+    rdfs:comment "Any physical object"@en ;
+    rdfs:subClassOf :Object .
+
+:Process a owl:Class ;
+    rdfs:label "Process"@en ;
+    rdfs:comment "A process has an output and possibly inputs, and for a compositive process, describes the temporal and dataflow dependencies and relationships amongst its parts." ;
+    rdfs:isDefinedBy "World Wide Web Consortium SSN http://www.w3.org/2005/Incubator/ssn/ssnx/ssn#Process" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-SO#Process> .
+
+:Product a owl:Class ;
+    rdfs:label "Product"@en ;
+    rdfs:comment """The superclass of all classes describing products or services types, either by nature or purpose. Examples for such subclasses are "TV set", "vacuum cleaner", etc. An instance of this class can be either an actual product or service (gr:Individual), a placeholder instance for unknown instances of a mass-produced commodity (gr:SomeItems), or a model / prototype specification (gr:ProductOrServiceModel). When in doubt, use gr:SomeItems. Examples: \r
+a) MyCellphone123, i.e. my personal, tangible cell phone (gr:Individual)\r
+b) Siemens1234, i.e. the Siemens cell phone make and model 1234 (gr:ProductOrServiceModel)\r
+c) dummyCellPhone123 as a placeholder for actual instances of a certain kind of cell phones (gr:SomeItems)""" ;
+    rdfs:isDefinedBy "The Web Vocabulary for E-Commerce Good Relations http://www.heppnetz.de/ontologies/goodrelations/v1.html#ProductOrService" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-SO#Product> .
+
+:Information_Object a owl:Class ;
+    rdfs:label "Information Object"@en ;
+    rdfs:comment "A piece of information, such as a musical composition, a text, a word, a picture, independently from how it is concretely realized."@en ;
+    rdfs:isDefinedBy "\"World Wide Web Consortium SSN DUL https://www.w3.org/2005/Incubator/ssn/wiki/DUL_ssn#InformationObject\"" ;
+    rdfs:subClassOf :Information_Entity .
+
+:Semiconductors a owl:Class ;
+    rdfs:label "Semiconductors"@en ;
+    rdfs:comment "Industrial sector of Semiconductors"@en ;
+    rdfs:subClassOf :Semiconductors_And_Semiconductor_Equipment .
+
+:Industrial_Sector a owl:Class ;
+    rdfs:label "Industrial Sector"@en ;
+    rdfs:comment """The collection of all localized groups of enterprises that are producers of industrial commodities, in which each such group together forms the major industrial sector for the region. 'Industrial commodities' includes MechanicalDevices and basic industrial materials. Examples include 'the world industrial sector', the 'industrial sector of China'. The Chinese water pump industry would not be an exemplar of IndustrialEconomicSector but would rather be a sub-industry (see subIndustries) of it. On the other hand, chinese water pump manufacturers would be considered groupMembers of 'the industrial sector of China'.\r
+\r
+This classification is done by The Global Industry Classification Standard (GICS) is an industry taxonomy developed in 1999 by MSCI and Standard & Poor's (S&P) for use by the global financial community. The GICS structure consists of 11 sectors, 24 industry groups, 68 industries and 157 sub-industries[1] into which S&P has categorized all major public companies""" ;
+    rdfs:isDefinedBy "http://umbel.org/umbel/rc/" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Power_Lobe> .
+
+:Amplication_Switching_Device a owl:Class ;
+    rdfs:label "Amplication Switching Device"@en ;
+    rdfs:comment "Should defined as its function for example: Sensor, Power Converter, Microcontroller. Then must be defined what the device it is, for exmaple: A sensing device is a device that implments sensing." ;
+    rdfs:subClassOf :Device ;
+    owl:equivalentClass :SiC_MOSFET .
+
+:Property a owl:Class ;
+    rdfs:label "Property"@en ;
+    rdfs:comment "Any attribute of an entity"@en ;
+    rdfs:subClassOf :Quality .
+

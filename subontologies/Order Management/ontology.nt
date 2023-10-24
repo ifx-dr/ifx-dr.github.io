@@ -1,0 +1,694 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-OM#allocates
+<http://www.w3id.org/ecsel-dr-OM#allocates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#allocates> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OM#is_allocated_by> .
+<http://www.w3id.org/ecsel-dr-OM#allocates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Allocation> .
+<http://www.w3id.org/ecsel-dr-OM#allocates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Supply> .
+<http://www.w3id.org/ecsel-dr-OM#allocates> <http://www.w3.org/2000/01/rdf-schema#label> "allocates"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#belongs_to_open_order
+<http://www.w3id.org/ecsel-dr-OM#belongs_to_open_order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#belongs_to_open_order> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#belongs_to_open_order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#belongs_to_open_order> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#belongs_to_open_order> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Open_Order> .
+<http://www.w3id.org/ecsel-dr-OM#belongs_to_open_order> <http://www.w3.org/2000/01/rdf-schema#label> "belong to open order"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#consists_of_order_line_item
+<http://www.w3id.org/ecsel-dr-OM#consists_of_order_line_item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#consists_of_order_line_item> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#consists_of_order_line_item> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order> .
+<http://www.w3id.org/ecsel-dr-OM#consists_of_order_line_item> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Open_Order> .
+<http://www.w3id.org/ecsel-dr-OM#consists_of_order_line_item> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-OM#consists_of_order_line_item> <http://www.w3.org/2000/01/rdf-schema#label> "consists of order line item"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#consits_of_open_order
+<http://www.w3id.org/ecsel-dr-OM#consits_of_open_order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#consits_of_open_order> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#consits_of_open_order> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order_book> .
+<http://www.w3id.org/ecsel-dr-OM#consits_of_open_order> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Open_Order_Book> .
+<http://www.w3id.org/ecsel-dr-OM#consits_of_open_order> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Open_Order> .
+<http://www.w3id.org/ecsel-dr-OM#consits_of_open_order> <http://www.w3.org/2000/01/rdf-schema#label> "consists of open order"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#contains_contact_person_data
+<http://www.w3id.org/ecsel-dr-OM#contains_contact_person_data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#contains_contact_person_data> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#contains_contact_person_data> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#contains_contact_person_data> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data> .
+<http://www.w3id.org/ecsel-dr-OM#contains_contact_person_data> <http://www.w3.org/2000/01/rdf-schema#label> "contains contact person data"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#contains_customer_data
+<http://www.w3id.org/ecsel-dr-OM#contains_customer_data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#contains_customer_data> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#contains_customer_data> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#contains_customer_data> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Customer_Data> .
+<http://www.w3id.org/ecsel-dr-OM#contains_customer_data> <http://www.w3.org/2000/01/rdf-schema#label> "contains customer data"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#contains_customer_plant_data
+<http://www.w3id.org/ecsel-dr-OM#contains_customer_plant_data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#contains_customer_plant_data> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#contains_customer_plant_data> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#contains_customer_plant_data> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Customer_Plant_Data> .
+<http://www.w3id.org/ecsel-dr-OM#contains_customer_plant_data> <http://www.w3.org/2000/01/rdf-schema#label> "contains customer plant data"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#contains_order_line_item
+<http://www.w3id.org/ecsel-dr-OM#contains_order_line_item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#contains_order_line_item> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#contains_order_line_item> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#contains_order_line_item> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-OM#contains_order_line_item> <http://www.w3.org/2000/01/rdf-schema#label> "contains order line item"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#contains_supplier_data
+<http://www.w3id.org/ecsel-dr-OM#contains_supplier_data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#contains_supplier_data> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#contains_supplier_data> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#contains_supplier_data> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Supplier_Data> .
+<http://www.w3id.org/ecsel-dr-OM#contains_supplier_data> <http://www.w3.org/2000/01/rdf-schema#label> "contains supplier data"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#describes_customer
+<http://www.w3id.org/ecsel-dr-OM#describes_customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#describes_customer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#describes_customer> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_data> .
+<http://www.w3id.org/ecsel-dr-OM#describes_customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#describes_customer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Customer_Data> .
+<http://www.w3id.org/ecsel-dr-OM#describes_customer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Customer> .
+<http://www.w3id.org/ecsel-dr-OM#describes_customer> <http://www.w3.org/2000/01/rdf-schema#label> "describes customer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#describes_customer_plant
+<http://www.w3id.org/ecsel-dr-OM#describes_customer_plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#describes_customer_plant> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#describes_customer_plant> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_plant_data> .
+<http://www.w3id.org/ecsel-dr-OM#describes_customer_plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#describes_customer_plant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Customer_Plant_Data> .
+<http://www.w3id.org/ecsel-dr-OM#describes_customer_plant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Customer_Plant> .
+<http://www.w3id.org/ecsel-dr-OM#describes_customer_plant> <http://www.w3.org/2000/01/rdf-schema#label> "describes customer plant"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#describes_supplier
+<http://www.w3id.org/ecsel-dr-OM#describes_supplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#describes_supplier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#describes_supplier> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OM#is_described_by_supplier_data> .
+<http://www.w3id.org/ecsel-dr-OM#describes_supplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#describes_supplier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Supplier_Data> .
+<http://www.w3id.org/ecsel-dr-OM#describes_supplier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Supplier> .
+<http://www.w3id.org/ecsel-dr-OM#describes_supplier> <http://www.w3.org/2000/01/rdf-schema#label> "describes supplier"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#has_allocated
+<http://www.w3id.org/ecsel-dr-OM#has_allocated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#has_allocated> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OM#is_allocated_to> .
+<http://www.w3id.org/ecsel-dr-OM#has_allocated> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-OM#has_allocated> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Supply> .
+<http://www.w3id.org/ecsel-dr-OM#has_allocated> <http://www.w3.org/2000/01/rdf-schema#label> "has allocated"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#is_allocated_by
+<http://www.w3id.org/ecsel-dr-OM#is_allocated_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_allocated_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Allocation> .
+<http://www.w3id.org/ecsel-dr-OM#is_allocated_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Supply> .
+<http://www.w3id.org/ecsel-dr-OM#is_allocated_by> <http://www.w3.org/2000/01/rdf-schema#label> "is allocated by"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#is_allocated_to
+<http://www.w3id.org/ecsel-dr-OM#is_allocated_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_allocated_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Supply> .
+<http://www.w3id.org/ecsel-dr-OM#is_allocated_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-OM#is_allocated_to> <http://www.w3.org/2000/01/rdf-schema#label> "is allocated to"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#is_delivered_to_customer_plant
+<http://www.w3id.org/ecsel-dr-OM#is_delivered_to_customer_plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_delivered_to_customer_plant> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_delivered_to_customer_plant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Open_Order> .
+<http://www.w3id.org/ecsel-dr-OM#is_delivered_to_customer_plant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Customer_Plant> .
+<http://www.w3id.org/ecsel-dr-OM#is_delivered_to_customer_plant> <http://www.w3.org/2000/01/rdf-schema#label> "is delivered to customer plant"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_data
+<http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_data> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_data> <http://www.w3.org/2000/01/rdf-schema#label> "is described by customer data"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_plant_data
+<http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_plant_data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_plant_data> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_plant_data> <http://www.w3.org/2000/01/rdf-schema#label> "is described by customer plant data"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#is_described_by_supplier_data
+<http://www.w3id.org/ecsel-dr-OM#is_described_by_supplier_data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_described_by_supplier_data> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_described_by_supplier_data> <http://www.w3.org/2000/01/rdf-schema#label> "is described by supplier data"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#is_owned_by_customer
+<http://www.w3id.org/ecsel-dr-OM#is_owned_by_customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_owned_by_customer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_owned_by_customer> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OM#owns_customer_plant> .
+<http://www.w3id.org/ecsel-dr-OM#is_owned_by_customer> <http://www.w3.org/2000/01/rdf-schema#label> "is owned by a customer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order
+<http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Open_Order> .
+<http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order> <http://www.w3.org/2000/01/rdf-schema#label> "is part of open order"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order_book
+<http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order_book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order_book> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order_book> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Open_Order> .
+<http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order_book> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Open_Order_Book> .
+<http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order_book> <http://www.w3.org/2000/01/rdf-schema#label> "is part of open order book"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_change_request
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_change_request> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_change_request> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_change_request> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_change_request> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_change_request> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_change_request> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_change_request> <http://www.w3.org/2000/01/rdf-schema#label> "is reconciled order change request"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_line_item
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_line_item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_line_item> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_line_item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_line_item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_line_item> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_line_item> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_line_item> <http://www.w3.org/2000/01/rdf-schema#label> "is reconciled order line item"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#is_requested_by_customer
+<http://www.w3id.org/ecsel-dr-OM#is_requested_by_customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_requested_by_customer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_requested_by_customer> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OM#requests_order_change_request> .
+<http://www.w3id.org/ecsel-dr-OM#is_requested_by_customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#is_requested_by_customer> <http://www.w3.org/2000/01/rdf-schema#label> "is requested by customer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#owns_customer_plant
+<http://www.w3id.org/ecsel-dr-OM#owns_customer_plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#owns_customer_plant> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#owns_customer_plant> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Customer> .
+<http://www.w3id.org/ecsel-dr-OM#owns_customer_plant> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Customer_Plant> .
+<http://www.w3id.org/ecsel-dr-OM#owns_customer_plant> <http://www.w3.org/2000/01/rdf-schema#label> "owns customer plant"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#requests_order_change_request
+<http://www.w3id.org/ecsel-dr-OM#requests_order_change_request> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requests_order_change_request> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requests_order_change_request> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Customer> .
+<http://www.w3id.org/ecsel-dr-OM#requests_order_change_request> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#requests_order_change_request> <http://www.w3.org/2000/01/rdf-schema#label> "requests order change request"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#requires_action
+<http://www.w3id.org/ecsel-dr-OM#requires_action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requires_action> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requires_action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requires_action> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#requires_action> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#Action> .
+<http://www.w3id.org/ecsel-dr-OM#requires_action> <http://www.w3.org/2000/01/rdf-schema#label> "requires action"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#requires_user_action
+<http://www.w3id.org/ecsel-dr-OM#requires_user_action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requires_user_action> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requires_user_action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requires_user_action> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#requires_user_action> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OM#User_Action> .
+<http://www.w3id.org/ecsel-dr-OM#requires_user_action> <http://www.w3.org/2000/01/rdf-schema#label> "requires user action"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-OM#PO_number_OCR
+<http://www.w3id.org/ecsel-dr-OM#PO_number_OCR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#PO_number_OCR> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#PO_number_OCR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#PO_number_OCR> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#PO_number_OCR> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#PO_number_OCR> <http://www.w3.org/2000/01/rdf-schema#label> "PO number OCR"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#PO_number_OO
+<http://www.w3id.org/ecsel-dr-OM#PO_number_OO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#PO_number_OO> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#PO_number_OO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#PO_number_OO> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Open_Order> .
+<http://www.w3id.org/ecsel-dr-OM#PO_number_OO> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#PO_number_OO> <http://www.w3.org/2000/01/rdf-schema#label> "PO number OO"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#confirmed_delivery_date
+<http://www.w3id.org/ecsel-dr-OM#confirmed_delivery_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#confirmed_delivery_date> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#confirmed_delivery_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#confirmed_delivery_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-OM#confirmed_delivery_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OM#confirmed_delivery_date> <http://www.w3.org/2000/01/rdf-schema#label> "confirmed delivery date"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#confirmed_quantity
+<http://www.w3id.org/ecsel-dr-OM#confirmed_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#confirmed_quantity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#confirmed_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#confirmed_quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-OM#confirmed_quantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#confirmed_quantity> <http://www.w3.org/2000/01/rdf-schema#comment> "confirmed quantity"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#current_dock_date
+<http://www.w3id.org/ecsel-dr-OM#current_dock_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#current_dock_date> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#current_dock_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#current_dock_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#current_dock_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.w3id.org/ecsel-dr-OM#current_dock_date> <http://www.w3.org/2000/01/rdf-schema#label> "current dock date"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#customer_address
+<http://www.w3id.org/ecsel-dr-OM#customer_address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#customer_address> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#customer_address> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Customer_Data> .
+<http://www.w3id.org/ecsel-dr-OM#customer_address> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OM#customer_address> <http://www.w3.org/2000/01/rdf-schema#label> "customer address"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#customer_number
+<http://www.w3id.org/ecsel-dr-OM#customer_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#customer_number> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#customer_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#customer_number> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Customer_Data> .
+<http://www.w3id.org/ecsel-dr-OM#customer_number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#customer_number> <http://www.w3.org/2000/01/rdf-schema#label> "customer number"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#customer_part_number
+<http://www.w3id.org/ecsel-dr-OM#customer_part_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#customer_part_number> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#customer_part_number> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#customer_part_number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#customer_part_number> <http://www.w3.org/2000/01/rdf-schema#label> "customer part number"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#customer_reference_number
+<http://www.w3id.org/ecsel-dr-OM#customer_reference_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#customer_reference_number> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#customer_reference_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#customer_reference_number> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#customer_reference_number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#customer_reference_number> <http://www.w3.org/2000/01/rdf-schema#label> "customer reference number"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#customer_requested_date
+<http://www.w3id.org/ecsel-dr-OM#customer_requested_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#customer_requested_date> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#customer_requested_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#customer_requested_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-OM#customer_requested_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.w3id.org/ecsel-dr-OM#customer_requested_date> <http://www.w3.org/2000/01/rdf-schema#label> "customer requested date"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#department
+<http://www.w3id.org/ecsel-dr-OM#department> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#department> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#department> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#department> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data> .
+<http://www.w3id.org/ecsel-dr-OM#department> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OM#department> <http://www.w3.org/2000/01/rdf-schema#label> "department" .
+# 
+# http://www.w3id.org/ecsel-dr-OM#email
+<http://www.w3id.org/ecsel-dr-OM#email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#email> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#email> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data> .
+<http://www.w3id.org/ecsel-dr-OM#email> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OM#email> <http://www.w3.org/2000/01/rdf-schema#label> "email" .
+# 
+# http://www.w3id.org/ecsel-dr-OM#fax
+<http://www.w3id.org/ecsel-dr-OM#fax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#fax> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#fax> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data> .
+<http://www.w3id.org/ecsel-dr-OM#fax> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#fax> <http://www.w3.org/2000/01/rdf-schema#label> "fax" .
+# 
+# http://www.w3id.org/ecsel-dr-OM#incoterms
+<http://www.w3id.org/ecsel-dr-OM#incoterms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#incoterms> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#incoterms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#incoterms> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#incoterms> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OM#incoterms> <http://www.w3.org/2000/01/rdf-schema#label> "icoterms" .
+# 
+# http://www.w3id.org/ecsel-dr-OM#item_number
+<http://www.w3id.org/ecsel-dr-OM#item_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#item_number> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#item_number> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#item_number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#item_number> <http://www.w3.org/2000/01/rdf-schema#label> "item number"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#item_price
+<http://www.w3id.org/ecsel-dr-OM#item_price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#item_price> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#item_price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#item_price> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#item_price> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-OM#item_price> <http://www.w3.org/2000/01/rdf-schema#label> "item price"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#line_IDOCR
+<http://www.w3id.org/ecsel-dr-OM#line_IDOCR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#line_IDOCR> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#line_IDOCR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#line_IDOCR> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#line_IDOCR> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#line_IDOCR> <http://www.w3.org/2000/01/rdf-schema#label> "line IDOCR"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#line_IDOLI
+<http://www.w3id.org/ecsel-dr-OM#line_IDOLI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#line_IDOLI> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#line_IDOLI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#line_IDOLI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-OM#line_IDOLI> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#line_IDOLI> <http://www.w3.org/2000/01/rdf-schema#label> "line IDOLI"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#mode_of_transport
+<http://www.w3id.org/ecsel-dr-OM#mode_of_transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#mode_of_transport> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#mode_of_transport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#mode_of_transport> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#mode_of_transport> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OM#mode_of_transport> <http://www.w3.org/2000/01/rdf-schema#label> "mode of transport"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#name
+<http://www.w3id.org/ecsel-dr-OM#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data> .
+<http://www.w3id.org/ecsel-dr-OM#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OM#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#open_quantity_OCR
+<http://www.w3id.org/ecsel-dr-OM#open_quantity_OCR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#open_quantity_OCR> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#open_quantity_OCR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#open_quantity_OCR> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#open_quantity_OCR> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#open_quantity_OCR> <http://www.w3.org/2000/01/rdf-schema#label> "open quantity OCR"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#open_quantity_OLI
+<http://www.w3id.org/ecsel-dr-OM#open_quantity_OLI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#open_quantity_OLI> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#open_quantity_OLI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#open_quantity_OLI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> .
+<http://www.w3id.org/ecsel-dr-OM#open_quantity_OLI> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#open_quantity_OLI> <http://www.w3.org/2000/01/rdf-schema#label> "open quantity OLI"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_buyer
+<http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_buyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_buyer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_buyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_buyer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_buyer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_buyer> <http://www.w3.org/2000/01/rdf-schema#label> "partial cancel quantity buyer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_supplier
+<http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_supplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_supplier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_supplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_supplier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_supplier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_supplier> <http://www.w3.org/2000/01/rdf-schema#label> "partial cancel quantity supplier"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#plant_address
+<http://www.w3id.org/ecsel-dr-OM#plant_address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#plant_address> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#plant_address> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Customer_Plant_Data> .
+<http://www.w3id.org/ecsel-dr-OM#plant_address> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OM#plant_address> <http://www.w3.org/2000/01/rdf-schema#label> "plant address"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#promised_dock_date
+<http://www.w3id.org/ecsel-dr-OM#promised_dock_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#promised_dock_date> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#promised_dock_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#promised_dock_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#promised_dock_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.w3id.org/ecsel-dr-OM#promised_dock_date> <http://www.w3.org/2000/01/rdf-schema#label> "promised dock date"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#requested_dock_date
+<http://www.w3id.org/ecsel-dr-OM#requested_dock_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requested_dock_date> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requested_dock_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requested_dock_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#requested_dock_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.w3id.org/ecsel-dr-OM#requested_dock_date> <http://www.w3.org/2000/01/rdf-schema#label> "requested dock date"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#requested_quantity
+<http://www.w3id.org/ecsel-dr-OM#requested_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requested_quantity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requested_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#requested_quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#requested_quantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#requested_quantity> <http://www.w3.org/2000/01/rdf-schema#label> "requested quantity"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#response_date
+<http://www.w3id.org/ecsel-dr-OM#response_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#response_date> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#response_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#response_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#response_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.w3id.org/ecsel-dr-OM#response_date> <http://www.w3.org/2000/01/rdf-schema#label> "response date"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#supplier_address
+<http://www.w3id.org/ecsel-dr-OM#supplier_address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_address> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_address> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Supplier_Data> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_address> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_address> <http://www.w3.org/2000/01/rdf-schema#label> "supplier address"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#supplier_comment
+<http://www.w3id.org/ecsel-dr-OM#supplier_comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_comment> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_comment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_comment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_comment> <http://www.w3.org/2000/01/rdf-schema#label> "supplier comment"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#supplier_reason_code
+<http://www.w3id.org/ecsel-dr-OM#supplier_reason_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_reason_code> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_reason_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_reason_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_reason_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_reason_code> <http://www.w3.org/2000/01/rdf-schema#label> "supplier reason code"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#supplier_reference_number
+<http://www.w3id.org/ecsel-dr-OM#supplier_reference_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_reference_number> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_reference_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_reference_number> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_reference_number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#supplier_reference_number> <http://www.w3.org/2000/01/rdf-schema#label> "supplier reference number"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#telephone
+<http://www.w3id.org/ecsel-dr-OM#telephone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#telephone> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#telephone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data> .
+<http://www.w3id.org/ecsel-dr-OM#telephone> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#telephone> <http://www.w3.org/2000/01/rdf-schema#label> "telephone"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#total_confirmed_open_quantity
+<http://www.w3id.org/ecsel-dr-OM#total_confirmed_open_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_confirmed_open_quantity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_confirmed_open_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_confirmed_open_quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#total_confirmed_open_quantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#total_confirmed_open_quantity> <http://www.w3.org/2000/01/rdf-schema#label> "total confirmed open quantity"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#total_confirmed_quantity
+<http://www.w3id.org/ecsel-dr-OM#total_confirmed_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_confirmed_quantity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_confirmed_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_confirmed_quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#total_confirmed_quantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#total_confirmed_quantity> <http://www.w3.org/2000/01/rdf-schema#label> "total confirmed quantity"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#total_delivered_quantity
+<http://www.w3id.org/ecsel-dr-OM#total_delivered_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_delivered_quantity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_delivered_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_delivered_quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#total_delivered_quantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#total_delivered_quantity> <http://www.w3.org/2000/01/rdf-schema#label> "total delivered quantity"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#total_open_quantity
+<http://www.w3id.org/ecsel-dr-OM#total_open_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_open_quantity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_open_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_open_quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#total_open_quantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#total_open_quantity> <http://www.w3.org/2000/01/rdf-schema#label> "total open quantity"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#total_requested_quantity
+<http://www.w3id.org/ecsel-dr-OM#total_requested_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_requested_quantity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_requested_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_requested_quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#total_requested_quantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#total_requested_quantity> <http://www.w3.org/2000/01/rdf-schema#label> "total requested quantity"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#total_unconfirmed_open_quantity
+<http://www.w3id.org/ecsel-dr-OM#total_unconfirmed_open_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_unconfirmed_open_quantity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_unconfirmed_open_quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#total_unconfirmed_open_quantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#total_unconfirmed_open_quantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OM#total_unconfirmed_open_quantity> <http://www.w3.org/2000/01/rdf-schema#label> "total unconfirmed open quantity"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#unit_price
+<http://www.w3id.org/ecsel-dr-OM#unit_price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OM#unit_price> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3id.org/ecsel-dr-OM#unit_price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OM#unit_price> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> .
+<http://www.w3id.org/ecsel-dr-OM#unit_price> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-OM#unit_price> <http://www.w3.org/2000/01/rdf-schema#label> "unit price"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://org.semanticweb.owlapi/error#Error309
+<http://org.semanticweb.owlapi/error#Error309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error309> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OM#User_Action> .
+# 
+# http://org.semanticweb.owlapi/error#Error310
+<http://org.semanticweb.owlapi/error#Error310> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error310> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OM#Action> .
+# 
+# http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe
+<http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Action
+<http://www.w3id.org/ecsel-dr-OM#Action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Action> <http://www.w3.org/2000/01/rdf-schema#comment> "The process of doing something"@en .
+<http://www.w3id.org/ecsel-dr-OM#Action> <http://www.w3.org/2000/01/rdf-schema#label> "Action"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Allocation
+<http://www.w3id.org/ecsel-dr-OM#Allocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Allocation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Allocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Allocation is a process used in order management in times when demand exceeds available supply."@en .
+<http://www.w3id.org/ecsel-dr-OM#Allocation> <http://www.w3.org/2000/01/rdf-schema#label> "Allocation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data
+<http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data> <http://www.w3.org/2000/01/rdf-schema#label> "Contact Person Data" .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Customer
+<http://www.w3id.org/ecsel-dr-OM#Customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Customer> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-SCP#Customer> .
+<http://www.w3id.org/ecsel-dr-SCP#Customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Customer> <http://www.w3.org/2000/01/rdf-schema#comment> "A customer is an business that purchases another company's goods or services."@en .
+<http://www.w3id.org/ecsel-dr-OM#Customer> <http://www.w3.org/2000/01/rdf-schema#label> "Customer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Customer_Data
+<http://www.w3id.org/ecsel-dr-OM#Customer_Data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Customer_Data> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Customer_Data> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Data"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Customer_Plant
+<http://www.w3id.org/ecsel-dr-OM#Customer_Plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Customer_Plant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Customer_Plant> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Plant"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Customer_Plant_Data
+<http://www.w3id.org/ecsel-dr-OM#Customer_Plant_Data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Customer_Plant_Data> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Customer_Plant_Data> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Plant Data"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Demand_Fulfillement
+<http://www.w3id.org/ecsel-dr-OM#Demand_Fulfillement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Demand_Fulfillement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Demand_Fulfillement> <http://www.w3.org/2000/01/rdf-schema#comment> "The process of meeting a customer’s demand for product or services by fulfilling their request."@en .
+<http://www.w3id.org/ecsel-dr-OM#Demand_Fulfillement> <http://www.w3.org/2000/01/rdf-schema#label> "Demand Fulfillement"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Open_Order
+<http://www.w3id.org/ecsel-dr-OM#Open_Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Open_Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Open_Order> <http://www.w3.org/2000/01/rdf-schema#label> "Open Order"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Open_Order_Book
+<http://www.w3id.org/ecsel-dr-OM#Open_Order_Book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Open_Order_Book> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Open_Order_Book> <http://www.w3.org/2000/01/rdf-schema#label> "Open Order Book"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Order_Change_Request
+<http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Order_Change_Request> <http://www.w3.org/2000/01/rdf-schema#label> "Order Change Request"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Order_Confirmation
+<http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Order_Confirmation> <http://www.w3.org/2000/01/rdf-schema#label> "Order Confirmation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Order_Line_Item
+<http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Order_Line_Item> <http://www.w3.org/2000/01/rdf-schema#label> "Order Line Item"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Supplier
+<http://www.w3id.org/ecsel-dr-OM#Supplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Supplier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Supplier> <http://www.w3.org/2000/01/rdf-schema#comment> "Organization that provides something needed such as a product or service."@en .
+<http://www.w3id.org/ecsel-dr-OM#Supplier> <http://www.w3.org/2000/01/rdf-schema#label> "Supplier"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Supplier_Data
+<http://www.w3id.org/ecsel-dr-OM#Supplier_Data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Supplier_Data> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Supplier_Data> <http://www.w3.org/2000/01/rdf-schema#comment> "Information about supplier"@en .
+<http://www.w3id.org/ecsel-dr-OM#Supplier_Data> <http://www.w3.org/2000/01/rdf-schema#label> "Supplier Data"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Supply
+<http://www.w3id.org/ecsel-dr-OM#Supply> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#Supply> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#Supply> <http://www.w3.org/2000/01/rdf-schema#comment> "The amount of goods that is available for use."@en .
+<http://www.w3id.org/ecsel-dr-OM#Supply> <http://www.w3.org/2000/01/rdf-schema#label> "Supply"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OM#User_Action
+<http://www.w3id.org/ecsel-dr-OM#User_Action> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OM#User_Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+<http://www.w3id.org/ecsel-dr-OM#User_Action> <http://www.w3.org/2000/01/rdf-schema#comment> "Activity taken by user"@en .
+<http://www.w3id.org/ecsel-dr-OM#User_Action> <http://www.w3.org/2000/01/rdf-schema#label> "User Action"@en .
+# 
+# http://www.w3id.org/ecsel-dr-SCP#Customer
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-OM#Accepted
+<http://www.w3id.org/ecsel-dr-OM#Accepted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Accepted_With_Change
+<http://www.w3id.org/ecsel-dr-OM#Accepted_With_Change> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Pull
+<http://www.w3id.org/ecsel-dr-OM#Pull> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Push
+<http://www.w3id.org/ecsel-dr-OM#Push> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Reconfirm
+<http://www.w3id.org/ecsel-dr-OM#Reconfirm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OM#Rejected
+<http://www.w3id.org/ecsel-dr-OM#Rejected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,756 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#has_category_level -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#has_category_level">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#is_category_level_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Category"/>
+        <rdfs:comment xml:lang="en">Relation between a project and its categories</rdfs:comment>
+        <rdfs:label xml:lang="en">has category level</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#has_certification_level -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#has_certification_level">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#has_contributor"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Certification"/>
+        <rdfs:comment xml:lang="en">Relation between a project and the certification that it has</rdfs:comment>
+        <rdfs:label xml:lang="en">has a certification level</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#has_contributor -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#has_contributor">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#is_contributor_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Role"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error330"/>
+        <rdfs:comment xml:lang="en">A relation between a role and the funcionts it has, division and region it is part of.</rdfs:comment>
+        <rdfs:label xml:lang="en">has a contributor</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#has_project_status -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#has_project_status">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#is_project_status"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Project_Status"/>
+        <rdfs:comment xml:lang="en">Relation between a project and its status</rdfs:comment>
+        <rdfs:label xml:lang="en">has project status</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#has_role -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#has_role">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#is_role_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Role"/>
+        <rdfs:comment xml:lang="en">A relation that connects a role with a project</rdfs:comment>
+        <rdfs:label xml:lang="en">has role</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#has_sub_project -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#has_sub_project">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Sub_Project"/>
+        <rdfs:comment xml:lang="en">Relation between a project and its subprojects</rdfs:comment>
+        <rdfs:label xml:lang="en">has sub project</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#has_task -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#has_task">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#is_task_of"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error336"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Task"/>
+        <rdfs:comment xml:lang="en">Relation between a project or a subproject and their tasks</rdfs:comment>
+        <rdfs:label xml:lang="en">has task</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#has_training_level -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#has_training_level">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#is_training_level_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Project_Manager"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Training"/>
+        <rdfs:comment xml:lang="en">Relation between a project manager and its training level</rdfs:comment>
+        <rdfs:label xml:lang="en">has training level</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#has_work_package -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#has_work_package">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#is_work_package_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error332"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Work_Package"/>
+        <rdfs:comment xml:lang="en">Relation between a project or a subproject and their work packages</rdfs:comment>
+        <rdfs:label xml:lang="en">has work package</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#is_category_level_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#is_category_level_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Category"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:comment xml:lang="en">Relation between a category and its projects</rdfs:comment>
+        <rdfs:label xml:lang="en">is category level of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#is_certification_level_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Certification"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:comment xml:lang="en">Relation between a certification and its projects</rdfs:comment>
+        <rdfs:label xml:lang="en">is certification level of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#is_contributor_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#is_contributor_of">
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error335"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Role"/>
+        <rdfs:comment xml:lang="en">Relation between a Central function, a division or a region and their roles</rdfs:comment>
+        <rdfs:label xml:lang="en">is contributor of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#is_project_status -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#is_project_status">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Project_Status"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:comment xml:lang="en">Relation between a project status and the project it is part of</rdfs:comment>
+        <rdfs:label xml:lang="en">is project status</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#is_role_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#is_role_of">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Role"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:comment xml:lang="en">Relation between a role and the project it is part of</rdfs:comment>
+        <rdfs:label xml:lang="en">is role of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#is_sub_project_of">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Sub_Project"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:comment xml:lang="en">Relation between a subproject and the project it is part of</rdfs:comment>
+        <rdfs:label xml:lang="en">is sub project of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#is_task_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#is_task_of">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Task"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error329"/>
+        <rdfs:comment xml:lang="en">Relation between a task and the project or subproject it is part of</rdfs:comment>
+        <rdfs:label xml:lang="en">is task of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#is_training_level_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#is_training_level_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Training"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Project_Manager"/>
+        <rdfs:comment xml:lang="en">Relation between a training and the project manager that has it</rdfs:comment>
+        <rdfs:label xml:lang="en">is training level of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#is_work_package_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#is_work_package_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Work_Package"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error331"/>
+        <rdfs:comment xml:lang="en">Relation between a workpackage and the project or subproject it is part of</rdfs:comment>
+        <rdfs:label xml:lang="en">if work package of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#budget_factor -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#budget_factor">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">The budget factor of a project</rdfs:comment>
+        <rdfs:label xml:lang="en">budget factor</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#budget_value -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#budget_value">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">The value of the budget of a project</rdfs:comment>
+        <rdfs:label xml:lang="en">budget value</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#category_factor -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#category_factor">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Category"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">The category factor of a project</rdfs:comment>
+        <rdfs:label xml:lang="en">category factor</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#experience -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#experience">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Project_Manager"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">The experience that a project manager has</rdfs:comment>
+        <rdfs:label>experience</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#goal -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#goal">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The goal of a project</rdfs:comment>
+        <rdfs:label xml:lang="en">goal</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#impact_factor -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#impact_factor">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">The factor of impact of a project</rdfs:comment>
+        <rdfs:label xml:lang="en">impact factor</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#interface_complexity_factor -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#interface_complexity_factor">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">The factor of complexity of the interface</rdfs:comment>
+        <rdfs:label xml:lang="en">interface complexity factor</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#minimum_job_experience -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#minimum_job_experience">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#experience"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Project_Manager"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Minimum job experience that the project manager needs</rdfs:comment>
+        <rdfs:label>minimum job experience</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#minimum_project_manager_experience -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#minimum_project_manager_experience">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#experience"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Project_Manager"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Minimum job experience that the project manager needs</rdfs:comment>
+        <rdfs:label>minimum project manager experience</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#name -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#name">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">The name of the project</rdfs:comment>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#resulting_factor_average -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-ORG#resulting_factor_average">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Company_Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">resulting factor average</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error329 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error329"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error330 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error330"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error331 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error331"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error332 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error332"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error333 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error333">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Category"/>
+    </Class>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error334 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error334">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Project_Status"/>
+    </Class>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error335 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error335"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error336 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error336"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr#Organization_Lobe -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr#Organization_Lobe"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Category -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Category">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Organization_Lobe"/>
+        <rdfs:comment xml:lang="en">Categorizes the project in a big, medium or small project. Usually according the project size.</rdfs:comment>
+        <rdfs:label xml:lang="en">Category</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Central_Function -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Central_Function">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Organization_Lobe"/>
+        <rdfs:comment xml:lang="en">Large companies have central fuctions like the Finance or corporate suppyl chain department.</rdfs:comment>
+        <rdfs:label xml:lang="en">Central Function</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Certification -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Certification">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Organization_Lobe"/>
+        <rdfs:comment xml:lang="en">An official document, as proof that something has happened or been done</rdfs:comment>
+        <rdfs:label xml:lang="en">Certification</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Company_Project -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Company_Project">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Project"/>
+        <rdfs:comment xml:lang="en">Projects that are or have been developed using our methodology, based on the IPMA standard.</rdfs:comment>
+        <rdfs:label xml:lang="en">Company Project</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Division -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Division">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Organization_Lobe"/>
+        <rdfs:comment xml:lang="en">Hierarchical structure of an organization. For example ATV, DDS, ICP...</rdfs:comment>
+        <rdfs:label xml:lang="en">Division</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Project -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Project">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Organization_Lobe"/>
+        <rdfs:comment xml:lang="en">Achievement of the project objective requires these deliverables to conform to specific requirements, including multiple constraints such as time, cost, resources and quality standards or requirements.</rdfs:comment>
+        <rdfs:comment xml:lang="en">​Projects are a way to deliver value to an organization. A project is defined as a unique, temporary, multi-disciplinary and organized endeavor to realize agreed deliverables within predefined requirements and constraints.</rdfs:comment>
+        <rdfs:label xml:lang="en">Project</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Project_Manager -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Project_Manager">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Role"/>
+        <rdfs:comment xml:lang="en">Project managers have the responsibility of the planning, procurement and execution of a project, in any undertaking that has a defined scope, defined start and a defined finish; regardless of industry.</rdfs:comment>
+        <rdfs:label xml:lang="en">Project Manager</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Project_Owner -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Project_Owner">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Role"/>
+        <rdfs:comment xml:lang="en">Defines BP for target achievement.</rdfs:comment>
+        <rdfs:label xml:lang="en">Project Owner</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Project_Status -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Project_Status">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Organization_Lobe"/>
+        <rdfs:comment xml:lang="en">The current status of the project</rdfs:comment>
+        <rdfs:label xml:lang="en">Project Status</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Project_Team_Member -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Project_Team_Member">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-ORG#Role"/>
+        <rdfs:comment xml:lang="en">Project team members are the individuals who actively work on one or more phases of the project.</rdfs:comment>
+        <rdfs:label xml:lang="en">Project Team Members</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Region -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Region">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Organization_Lobe"/>
+        <rdfs:comment xml:lang="en">Large companies divide their activites in regions, like in America, Greater China, SEA (South East Asia), Europe and ROW (rest of World).</rdfs:comment>
+        <rdfs:label xml:lang="en">Region</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Role -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Role">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Role"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Organization_Lobe"/>
+        <rdfs:comment xml:lang="en">Defines the responsibilities assumed by an individual.</rdfs:comment>
+        <rdfs:label xml:lang="en">Role</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Sub_Project -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Sub_Project">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Organization_Lobe"/>
+        <rdfs:comment xml:lang="en">A project within a larger project.</rdfs:comment>
+        <rdfs:label xml:lang="en">Sub Project</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Task -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Task">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Organization_Lobe"/>
+        <rdfs:comment xml:lang="en">A piece of work to be done or undertaken.</rdfs:comment>
+        <rdfs:label xml:lang="en">Task</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Training -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Training">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Organization_Lobe"/>
+        <rdfs:comment xml:lang="en">The process of learning the skills you need to do a particular job or activity</rdfs:comment>
+        <rdfs:label xml:lang="en">Training</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Work_Package -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-ORG#Work_Package">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Organization_Lobe"/>
+        <rdfs:comment xml:lang="en">A work package is a group of related tasks within a project.</rdfs:comment>
+        <rdfs:label xml:lang="en">Work Package</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Role -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Role"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Task -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Autobahn -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-ORG#Autobahn"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Expedition -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-ORG#Expedition"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Idea -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-ORG#Idea"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Implemented -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-ORG#Implemented"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#In_Preperation -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-ORG#In_Preperation"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Mission -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-ORG#Mission"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#On_Hold -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-ORG#On_Hold"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Running -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-ORG#Running"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-ORG#Withdrawn -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-ORG#Withdrawn"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

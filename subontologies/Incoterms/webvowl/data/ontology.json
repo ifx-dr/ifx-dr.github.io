@@ -1,0 +1,855 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3id.org/ecsel-dr-AT", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr", "http://www.w3id.org/ecsel-dr-Incoterms", "http://www.w3.org/2001/XMLSchema", "http://www.w3id.org/ecsel-dr-OM", "http://www.w3id.org/ecsel-dr-SCP" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#Exchange_Rate_Specification",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Exchange_Rate_Specification",
+      "en" : "Exchange Rate Specification"
+    },
+    "comment" : {
+      "undefined" : "Exchange_Rate_Specification is structured value representing exchange rate."
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Incoterms_2020"
+    },
+    "subClasses" : [ "9", "10", "11" ],
+    "comment" : {
+      "undefined" : "The Incoterms or International Commercial Terms are a series of pre-defined commercial terms published by the International Chamber of Commerce (ICC) relating to international commercial law. They are widely used in international commercial transactions or procurement processes and their use is encouraged by trade councils, courts and international lawyers.\r\n\r\nIncoterms 2020 is the ninth set of international contract terms published by the International Chamber of Commerce, with the first set having been published in 1936. Incoterms 2020 defines 11 rules, the same number as defined by Incoterms 2010."
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Customer",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Incoterms_Group"
+    },
+    "subClasses" : [ "13", "14", "15", "16" ],
+    "comment" : {
+      "undefined" : "An Incoterms_Group is one of the four categories that describes incoterms rules."
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Universal_Transport_Clause"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#CPT_Carriage_Paid_To",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "CPT_Carriage_Paid_To"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#EXW_Ex_Works",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "EXW_Ex_Works"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#FCA_Free_Carrier",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "FCA_Free_Carrier"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#DDP_Delivered_Duty_Paid",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "DDP_Delivered_Duty_Paid"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#DPU_Delivered_At_Place_Unloaded",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "DPU_Delivered_At_Place_Unloaded"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#DAP_Delivered_At_Place",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "DAP_Delivered_At_Place"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#CIP_Carriage_And_Insurance_Paid_To",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "CIP_Carriage_And_Insurance_Paid_To"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Incoterms that may be used regardless of the method of transport."
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supply_Chain_Lobe"
+    },
+    "subClasses" : [ "0", "20", "21", "4", "6", "3", "22" ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#From_Location",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "From_Location"
+    },
+    "comment" : {
+      "undefined" : "A sub property of location. The original location of the object or the agent before the action."
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-AT#Standard",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-AT",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Standard"
+    },
+    "subClasses" : [ "7" ],
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#Seller",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Seller"
+    },
+    "comment" : {
+      "undefined" : "Seller is an entity which offers the services/goods."
+    },
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#Transfer_Action",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transfer_Action"
+    },
+    "comment" : {
+      "undefined" : "The act of transferring/moving objects from one place to another."
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#F_Main_Carriage_Unpaid",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "F_Main_Carriage_Unpaid"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#FCA_Free_Carrier",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "FCA_Free_Carrier"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#FAS_Free_Alongside_Ship",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "FAS_Free_Alongside_Ship"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#FOB_Free_On_Board",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "FOB_Free_On_Board"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "An Incoterms rule of the group F."
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#D_Arrival",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "D_Arrival"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#DPU_Delivered_At_Place_Unloaded",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "DPU_Delivered_At_Place_Unloaded"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#DDP_Delivered_Duty_Paid",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "DDP_Delivered_Duty_Paid"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#DAP_Delivered_At_Place",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "DAP_Delivered_At_Place"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "An Incoterms rule of the group D."
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#Product",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product"
+    },
+    "comment" : {
+      "undefined" : "Product is the object, upon which the tranfer action is carried out."
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Application_Mode",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Incoterms_Application_Mode"
+    },
+    "subClasses" : [ "37", "17" ],
+    "comment" : {
+      "undefined" : "Incoterms_Application_Mode is about the method of delivery the incoterm uses. An incoterm could use only ship or non-ship transport."
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Incoterms_Clause"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#CPT_Carriage_Paid_To",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "CPT_Carriage_Paid_To"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#CFR_Cost_And_Freight",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "CFR_Cost_And_Freight"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#EXW_Ex_Works",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "EXW_Ex_Works"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#DDP_Delivered_Duty_Paid",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "DDP_Delivered_Duty_Paid"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#DPU_Delivered_At_Place_Unloaded",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "DPU_Delivered_At_Place_Unloaded"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#FCA_Free_Carrier",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "FCA_Free_Carrier"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#CIF_Cost_Insurance_And_Freight",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "CIF_Cost_Insurance_And_Freight"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#DAP_Delivered_At_Place",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "DAP_Delivered_At_Place"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#FAS_Free_Alongside_Ship",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "FAS_Free_Alongside_Ship"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#CIP_Carriage_And_Insurance_Paid_To",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "CIP_Carriage_And_Insurance_Paid_To"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#FOB_Free_On_Board",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "FOB_Free_On_Board"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "An Incoterms_Clause is a term of the 11 pre-defined incoterms."
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-OM#Customer",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-OM",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Only_Ship_Transport_Clause"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#CFR_Cost_And_Freight",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "CFR_Cost_And_Freight"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#CIF_Cost_Insurance_And_Freight",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "CIF_Cost_Insurance_And_Freight"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#FAS_Free_Alongside_Ship",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "FAS_Free_Alongside_Ship"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#FOB_Free_On_Board",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "FOB_Free_On_Board"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Incoterms that solely involve transportation by water."
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#Offer",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Offer"
+    },
+    "comment" : {
+      "undefined" : "An offer is to transfer some rights to an item or to provide a service."
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#E_Departure",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E_Departure"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#EXW_Ex_Works",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "EXW_Ex_Works"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "An Incoterms rule of the group E."
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#Customer",
+    "equivalent" : [ "12", "45" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer"
+    },
+    "comment" : {
+      "undefined" : "Customer is a person or organization that places order or pay the invoice."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "3",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#Location",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Location"
+    },
+    "subClasses" : [ "23", "19" ],
+    "comment" : {
+      "undefined" : "Location is where an action takes place."
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#To_Location",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "To_Location"
+    },
+    "comment" : {
+      "undefined" : "A sub property of location. The final location of the object or the agent after the action."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "C_Main_Carriage_Paid"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#CPT_Carriage_Paid_To",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "CPT_Carriage_Paid_To"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#CFR_Cost_And_Freight",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "CFR_Cost_And_Freight"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#CIF_Cost_Insurance_And_Freight",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "CIF_Cost_Insurance_And_Freight"
+      }
+    }, {
+      "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#CIP_Carriage_And_Insurance_Paid_To",
+      "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+      "labels" : {
+        "IRI-based" : "CIP_Carriage_And_Insurance_Paid_To"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "An Incoterms rule of the group C."
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "9" ]
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#purchases",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "purchases"
+    },
+    "domain" : "3",
+    "attributes" : [ "external", "object" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#refers_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "refers_to"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#uses_to_location",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "uses_to_location"
+    },
+    "domain" : "3",
+    "attributes" : [ "external", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "1",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#provides",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "provides"
+    },
+    "domain" : "20",
+    "attributes" : [ "external", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "8",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "1",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "1",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "1",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "range" : "1",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "22",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "22",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#uses_from_location",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "uses_from_location"
+    },
+    "domain" : "20",
+    "attributes" : [ "external", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "10",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "7",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#makes",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "makes"
+    },
+    "domain" : "20",
+    "attributes" : [ "external", "object" ],
+    "id" : "39"
+  }, {
+    "range" : "7",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "7",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "9",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "9",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "9",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "9",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "17",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "10",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#uses",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "uses"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#receives",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "receives"
+    },
+    "domain" : "3",
+    "attributes" : [ "external", "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-Incoterms#is_applied_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-Incoterms",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "is_applied_to"
+    },
+    "domain" : "0",
+    "attributes" : [ "external", "object" ],
+    "id" : "51"
+  } ]
+}

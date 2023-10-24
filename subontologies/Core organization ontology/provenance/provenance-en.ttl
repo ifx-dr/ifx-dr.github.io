@@ -1,0 +1,28 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<..\index-en.html> a prov:Entity;
+	 dc:title "Core organization ontology";
+	 prov:wasAttributedTo <http://www.asahi-net.or.jp/~ax2s-kmtn/>;
+	 dc:contributor <http://www.asahi-net.or.jp/~ax2s-kmtn/>;
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
+	 prov:wasAttributedTo :agent3;
+	 prov:wasAttributedTo :agent4;
+	 prov:wasAttributedTo :agent5;
+	 prov:wasAttributedTo :agent6;
+	 prov:wasAttributedTo :agent7;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <http://www.w3.org/ns/org#>;
+	 prov:wasGeneratedAt "2010-05-28";
+.
+:agent0 a prov:Agent; foaf:name "Antonio Maccioni".
+:agent1 a prov:Agent; foaf:name "María Poveda Villalón".
+:agent2 a prov:Agent; foaf:name "Elena Montiel Ponsoda".
+:agent3 a prov:Agent; foaf:name "Giorgia Lodi".
+:agent4 a prov:Agent; foaf:name "Dave Reynolds".
+:agent5 a prov:Agent; foaf:name "Olga Ximena Giraldo".
+:agent6 a prov:Agent; foaf:name "Dominique Guardiola".
+:agent7 a prov:Agent; foaf:name "Guadalupe Aguado de Cea".

@@ -1,0 +1,306 @@
+@prefix : <http://www.w3id.org/ecsel-dr-RAMI40#> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns2: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Business a owl:NamedIndividual ;
+    rdfs:comment "RAMI 4.0 business layer is composed of the business strategy, business environment, and business goals."@en .
+
+:Communication a owl:NamedIndividual ;
+    rdfs:comment "RAMI4.0 communication layer provides standardized communication between the integration and information layers (TCP/IP, HTTP/ FTP protocols,  LAN//WAN transmission, BLE (Bluetooth Low Energy) or Wi-Fi devices."@en .
+
+:Confirmation a owl:NamedIndividual .
+
+:Connected_World a owl:NamedIndividual .
+
+:Construction a owl:NamedIndividual .
+
+:Control_Device a owl:NamedIndividual .
+
+:Enterprise a owl:NamedIndividual .
+
+:Field_Device a owl:NamedIndividual .
+
+:Function a owl:NamedIndividual .
+
+:Functional a owl:NamedIndividual .
+
+:Information a owl:NamedIndividual ;
+    rdfs:comment "The goal of RAMI 4.0 information layer is to hold in an organized way."@en .
+
+:Instance a owl:NamedIndividual .
+
+:Integration a owl:NamedIndividual ;
+    rdfs:comment "RAMI4.0 integration layer deals with processing of information and serves as a link between the physical and digital worlds."@en .
+
+:Location a owl:NamedIndividual .
+
+:MES_Connection a owl:Class ;
+    rdfs:label "MES Connection"@en ;
+    rdfs:comment "Connects the station to a higher-level MES system via a small number of properties. Specifies whether the station is producing, ready for production, has a fault or is undergoing maintenance, for example."@en ;
+    rdfs:subClassOf :Submodel .
+
+:Machine a owl:Class ;
+    rdfs:label "Machine"@en ;
+    rdfs:subClassOf :Asset ;
+    ns1:definition "A machine is ordered, designed, commissioned, operated, serviced, converted and recycled."@en ;
+    ns1:preLabel "Machine"@en .
+
+:Measurement a owl:NamedIndividual .
+
+:Performance a owl:NamedIndividual .
+
+:Product a owl:NamedIndividual .
+
+:RAMI_IT_Layer_Dimension a owl:Class ;
+    rdfs:label "RAMI IT Layer Dimension"@en ;
+    rdfs:comment "The six layers on the vertical axis describe the decomposition of a machine into its properties, structured layer by layer, i.e., the virtual mapping of a machine. Such representations originate from information and communication technology, where properties of complex systems are commonly broken down into layers."@en ;
+    rdfs:subClassOf :Dimension ;
+    owl:equivalentClass [ ] .
+
+:Requirement a owl:NamedIndividual .
+
+:Sensor a owl:Class ;
+    rdfs:label "Sensor"@en ;
+    rdfs:comment "Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#System_Lobe> .
+
+:Sensor_Measurement a owl:Class ;
+    rdfs:label "Sensor Measurement"@en ;
+    rdfs:comment "Measurement performed by a sensor"@en ;
+    rdfs:subClassOf :Submodel .
+
+:Station a owl:NamedIndividual .
+
+:Structure a owl:Class ;
+    rdfs:label "Structure"@en ;
+    rdfs:comment "The way in which the parts of a system or object are arranged or organized, or a system arranged in this way"@en ;
+    rdfs:subClassOf :Submodel .
+
+:Transport_Interface a owl:Class ;
+    rdfs:label "Transport Interface"@en ;
+    rdfs:subClassOf :Submodel .
+
+:Type a owl:NamedIndividual .
+
+:View a owl:Class ;
+    rdfs:label "View"@en ;
+    rdfs:comment "Different views associated to the Administration Shell via the Submodels"@en ;
+    rdfs:isDefinedBy "https://www.plattform-i40.de/I40/Redaktion/DE/Downloads/Publikation/hm-2018-trilaterale-coop.html"@de ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#System_Lobe> ;
+    owl:equivalentClass [ ] .
+
+:Work_Center a owl:NamedIndividual .
+
+:contains_admin_shell a owl:ObjectProperty ;
+    rdfs:label "contains admin shell"@en ;
+    rdfs:comment "Points the I4.0 Component to the Administration Shell"@en ;
+    rdfs:domain :I_4.0_Component ;
+    rdfs:range :Admin_Shell .
+
+:date a owl:DatatypeProperty ;
+    rdfs:label "date"@en ;
+    rdfs:domain :Date ;
+    rdfs:range xsd:dateTime .
+
+:describes_asset a owl:ObjectProperty ;
+    rdfs:label "describes asset"@en ;
+    rdfs:comment "Connect the Asset with the Administration Shell"@en ;
+    rdfs:domain :Admin_Shell ;
+    rdfs:range :Asset .
+
+:description a owl:DatatypeProperty ;
+    rdfs:label "description"@en ;
+    rdfs:comment "Description of the Object/Entity"@en ;
+    rdfs:domain :Asset ;
+    rdfs:range xsd:string ;
+    ns1:definition "Description of the Object/Entity"@en .
+
+:energy_efficiency_value a owl:ObjectProperty ;
+    rdfs:label "energy efficiency value"@en ;
+    rdfs:comment "Points to the value of the Energy Efficiency comsuption."@en ;
+    rdfs:domain :Energy_Efficiency ;
+    rdfs:range :Measure .
+
+:has_RAMI_hierarchy_level a owl:ObjectProperty ;
+    rdfs:label "has RAMI hierarchy level"@en ;
+    rdfs:comment "Connects the concepts with the correspondent layer in the RAMI Hierarchy Levels"@en ;
+    rdfs:range :RAMI_Hierarchy_Level_Dimension ;
+    ns1:definition "Connects the concepts with the correspondent layer in the RAMI Hierarchy Levels"@en .
+
+:has_RAMI_life_cycle_layer a owl:ObjectProperty ;
+    rdfs:label "has RAMI life cycle layer"@en ;
+    rdfs:comment "Connects the concepts with the correspondent layer in the RAMI Hierarchy Levels"@en ;
+    rdfs:range :RAMI_Life_Cycle_Dimension ;
+    ns1:definition "Connects the concepts with the correspondent layer in the RAMI Hierarchy Levels"@en .
+
+:has_data a owl:ObjectProperty ;
+    rdfs:label "has data"@en ;
+    rdfs:comment "Connects the AdminShell with the different types of Data for the Object/Entity"@en ;
+    rdfs:domain :Admin_Shell ;
+    rdfs:range :Submodel ;
+    ns1:definition "Connects the AdminShell with the different types of Data for the Object/Entity"@en .
+
+:has_data_type a owl:ObjectProperty ;
+    rdfs:label "has data type"@en ;
+    rdfs:comment "Points to the datatypes of the Submodels"@en ;
+    rdfs:domain :Submodel .
+
+:has_reference a owl:ObjectProperty ;
+    rdfs:label "has reference"@en ;
+    rdfs:domain :Submodel .
+
+:has_semantic_expression a owl:ObjectProperty ;
+    rdfs:label "has semantic expression"@en ;
+    rdfs:domain :Submodel ;
+    rdfs:range :Semantic_Expression .
+
+:has_submodel a owl:ObjectProperty ;
+    rdfs:label "has submodel"@en ;
+    rdfs:domain :Admin_Shell ;
+    rdfs:range :Submodel .
+
+:has_used_date a owl:ObjectProperty ;
+    rdfs:label "has used date"@en ;
+    rdfs:comment "The date that standard has been used"@en ;
+    rdfs:domain :Standard ;
+    rdfs:range :Used_Date .
+
+:has_version a owl:ObjectProperty ;
+    rdfs:label "has version"@en ;
+    rdfs:comment "The current version of Standard."@en ;
+    rdfs:domain :Standard ;
+    rdfs:range :Standard_Version .
+
+:in_accordance_with a owl:ObjectProperty ;
+    rdfs:label "in accordance with"@en ;
+    rdfs:comment "The Submodel is in accordance with a given standard specified in the STO ontology"@en ;
+    rdfs:domain :Submodel ;
+    rdfs:range :Standard .
+
+:is_connected_to a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is connected to"@en ;
+    rdfs:comment "Connects the Admin Shell with the different RAMI4.0 Dimensions"@en ;
+    rdfs:domain :Admin_Shell ;
+    rdfs:range :Dimension .
+
+:is_described_with a owl:ObjectProperty ;
+    rdfs:label "is described with"@en ;
+    rdfs:domain :Admin_Shell ;
+    rdfs:range :Standard .
+
+:is_part_of_asset a owl:ObjectProperty ;
+    rdfs:label "is part of asset"@en ;
+    rdfs:comment "A relation between any entities, in this case, the Asset can be part of other Asset(s)."@en ;
+    rdfs:domain :Asset ;
+    rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> ;
+    rdfs:range :Asset .
+
+:is_used_by_standard_organization a owl:ObjectProperty ;
+    rdfs:label "is used by standard organization"@en ;
+    rdfs:domain :Standard ;
+    rdfs:range :Standard_Organization ;
+    owl:inverseOf :uses_standard .
+
+:latestStardardVersion a owl:AnnotationProperty .
+
+:Energy_Efficiency a owl:Class ;
+    rdfs:label "Energy Efficiency"@en ;
+    rdfs:comment "Specifies some details regarding energy efficiency. These can also be supplied by sensors."@en ;
+    rdfs:subClassOf :Submodel .
+
+:I_4.0_Component a owl:Class ;
+    rdfs:label "I 4.0 Component"@en ;
+    ns2:source "Industrie 4.0 – Begriffe/Terms, VDI Statusreport Industrie 4.0 (April 2017)"@en ;
+    rdfs:comment "Globally uniquely identifiable participant with communication capability consisting of administration shell and asset within an I4.0 system."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#System_Lobe> .
+
+:Measure a owl:Class ;
+    rdfs:label "Measure"@en ;
+    rdfs:comment "To discover the exact size or amount of something"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#System_Lobe> .
+
+:RAMI_Hierarchy_Level_Dimension a owl:Class ;
+    rdfs:label "RAMI Hierarchy Level Dimension"@en ;
+    rdfs:seeAlso <http://www.zvei.org/en/subjects/Industry-40/Pages/The-Reference-Architectural-Model-RAMI-40-and-the-Industrie-40-Component.aspx> ;
+    rdfs:subClassOf :Dimension ;
+    owl:equivalentClass [ ] ;
+    ns1:definition "It describes the functional classification of various circumstances within Industrie 4.0. For classification within a factory, this axis of the reference architecture(layers) follows the IEC 62264 Standard." .
+
+:RAMI_Life_Cycle_Dimension a owl:Class ;
+    rdfs:label "RAMI Life Cycle Dimension"@en ;
+    rdfs:seeAlso "http://www.zvei.org/en/subjects/Industry-40/Pages/The-Reference-Architectural-Model-RAMI-40-and-the-Industrie-40-Component.aspx" ;
+    rdfs:subClassOf :Dimension ;
+    owl:equivalentClass [ ] ;
+    ns1:definition "It describes the different Life Cycle and Value Stream layers for the RAMI model according to the IEC 62890 Standard." ;
+    ns1:preLabel "RAMI Layer",
+        "RAMI Life Cycle Dimension" .
+
+:Semantic_Expression a owl:Class ;
+    rdfs:label "Semantic Expression"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#System_Lobe> ;
+    owl:equivalentClass [ ] .
+
+:Standard_Version a owl:Class ;
+    rdfs:label "Standard Version"@en ;
+    rdfs:comment "Most commonly used version"@en ;
+    rdfs:subClassOf :Version .
+
+:Used_Date a owl:Class ;
+    rdfs:label "Used Date"@en ;
+    rdfs:comment "Date uded by particular standard"@en ;
+    rdfs:subClassOf :Date .
+
+:Version a owl:Class ;
+    rdfs:label "Version"@en ;
+    rdfs:comment "A particular form of something that is slightly different from other forms of the same thing"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#System_Lobe> .
+
+:uses_standard a owl:ObjectProperty ;
+    rdfs:label "uses standard"@en ;
+    rdfs:comment "Points to the standards describing the functions attached to the asset via the administration shell"@en ;
+    rdfs:domain :Standard_Organization ;
+    rdfs:range :Standard .
+
+:Date a owl:Class ;
+    rdfs:label "Date"@en ;
+    rdfs:comment "A numbered day in a month, often given with a combination of the name of the day, the month, and the year"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#System_Lobe> .
+
+:Standard_Organization a owl:Class ;
+    rdfs:label "Standard Organization"@en ;
+    rdfs:comment "Standards organisations that prepares and publishes International Standards for all electrical, electronic and related technologies"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#System_Lobe> ;
+    ns1:example "IEC (International Electrotechnical Commission)"@en .
+
+:Dimension a owl:Class ;
+    rdfs:label "Dimension"@en ;
+    rdfs:comment "Abstract class to describe the three different dimensions of RAMI4.0" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#System_Lobe> .
+
+:Asset a owl:Class,
+        owl:NamedIndividual ;
+    rdfs:label "Asset"@en ;
+    rdfs:comment "Every I4.0-component has to represent an entity. The entity can be physical or digital asset. The definition makes it possible to classify assets without integrated and accessible computers as I4.0-component, if the digital representation of the asset is accessible on a separate computer."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#System_Lobe> .
+
+:Admin_Shell a owl:Class ;
+    rdfs:label "Admin Shell"@en ;
+    rdfs:comment "Andmin Shell represents and describes an asset elecrtonically in a standardized manner"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#System_Lobe> .
+
+:Standard a owl:Class ;
+    rdfs:label "Standard"@en ;
+    rdfs:isDefinedBy <https://w3id.org/i40/sto/#Standard> ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#System_Lobe> ;
+    ns1:definition "Standards that are used to describe the actual I4.0 Asset. Defined in the STO ontology"@en ;
+    ns1:preLabel "Standard"@en .
+
+:Submodel a owl:Class ;
+    rdfs:label "Submodel"@en ;
+    rdfs:comment "Describe the different types of data related to the I4.0 asset"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr-SCP#Stocks> .
+

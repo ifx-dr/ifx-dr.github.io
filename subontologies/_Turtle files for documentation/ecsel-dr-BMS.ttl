@@ -1,0 +1,141 @@
+@prefix : <http://www.w3id.org/ecsel-dr-BMS#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Current_Sensor a owl:Class ;
+    rdfs:subClassOf :Semiconductor .
+
+:Microcontroller a owl:Class ;
+    rdfs:subClassOf :Semiconductor .
+
+:Multichannel_Controler_Integrated_Circuit a owl:Class ;
+    rdfs:subClassOf :Semiconductor .
+
+:Power_Management_Integrated_Circuit a owl:Class ;
+    rdfs:subClassOf :Semiconductor .
+
+:Pressure_Sensor a owl:Class ;
+    rdfs:subClassOf :Semiconductor .
+
+:UART_Transceiver_Integrated_Circuit a owl:Class ;
+    rdfs:subClassOf :Semiconductor .
+
+:contributes_for_CO2_savings a owl:ObjectProperty ;
+    rdfs:domain :Battery_Management_System ;
+    rdfs:range :Battery_CO2_Savings .
+
+:enables_CO2_savings a owl:ObjectProperty ;
+    rdfs:domain :Electric_Means_Transportation,
+        :Longer_Lifespan,
+        :Optimized_Charging ;
+    rdfs:range :Battery_CO2_Savings .
+
+:has_battery a owl:ObjectProperty ;
+    rdfs:domain :E_Car ;
+    rdfs:range :Lithium_Ion_Battery .
+
+:has_functional_block a owl:ObjectProperty ;
+    rdfs:domain :Battery_Management_System ;
+    rdfs:range :Functional_Block .
+
+:has_semiconductor a owl:ObjectProperty ;
+    rdfs:domain :Battery_Control_Unit,
+        :Cell_Supervision,
+        :Current_Sensing,
+        :Isolated_Communication,
+        :Pack_Monitoring ;
+    rdfs:range :Semiconductor .
+
+:is_functional_block a owl:ObjectProperty ;
+    rdfs:domain :Battery_Control_Unit,
+        :Cell_Supervision,
+        :Current_Sensing,
+        :Isolated_Communication,
+        :Pack_Monitoring ;
+    rdfs:range :Functional_Block .
+
+:is_part_of_battery a owl:ObjectProperty ;
+    rdfs:domain :Battery_Management_System,
+        :Cells,
+        :Pack ;
+    rdfs:range :Lithium_Ion_Battery .
+
+:is_produced_by_semiconductor_company a owl:ObjectProperty ;
+    rdfs:domain :Semiconductor ;
+    rdfs:range :Semiconductor_Company .
+
+:is_vehicle a owl:ObjectProperty ;
+    rdfs:domain :E_Car ;
+    rdfs:range :Vehicle .
+
+:model a owl:DatatypeProperty ;
+    rdfs:domain :E_Car ;
+    rdfs:range xsd:string .
+
+:Cells a owl:Class ;
+    rdfs:comment "Cells are fundamental electrochemical unit, or assembly of electrodes, separators, electrolyte, container, and terminals, that serves as a source of electrical energy by directly converting chemical energy. In this case, the cells are all of the type Li-Ion." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Application> .
+
+:Electric_Means_Transportation a owl:Class ;
+    rdfs:subClassOf :Battery_CO2_Savings .
+
+:Longer_Lifespan a owl:Class ;
+    rdfs:comment "Longer life cycle refers to the number of extra cycles of the battery due good handling throught its lifecycle. It is a way of CO2 savings."@en ;
+    rdfs:subClassOf :Battery_CO2_Savings .
+
+:Optimized_Charging a owl:Class ;
+    rdfs:comment "Second life means that the Lithium-Ion battery has ceased its main activity, in this case powering an electric car, however, it is still able to be used for other purposes."@en ;
+    rdfs:subClassOf :Battery_CO2_Savings .
+
+:Pack a owl:Class ;
+    rdfs:comment "A battery pack is a set of Lithium-Ion cells."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Application> .
+
+:Semiconductor_Company a owl:Class ;
+    rdfs:comment "Company responsible for the manufacturing of semiconductors." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Application> .
+
+:Battery_Control_Unit a owl:Class ;
+    rdfs:subClassOf :Functional_Block .
+
+:Cell_Supervision a owl:Class ;
+    rdfs:subClassOf :Functional_Block .
+
+:Current_Sensing a owl:Class ;
+    rdfs:subClassOf :Functional_Block .
+
+:Isolated_Communication a owl:Class ;
+    rdfs:subClassOf :Functional_Block .
+
+:Lithium_Ion_Battery a owl:Class ;
+    rdfs:comment "The Lithium-Ion Battery represents the set of cells together, which is the battery pack, plus the battery management system."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Application> .
+
+:Pack_Monitoring a owl:Class ;
+    rdfs:subClassOf :Functional_Block .
+
+:Vehicle a owl:Class ;
+    rdfs:comment "A vehicle is a machine with wheels and an engine, used for transporting people or goods."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Application> .
+
+:Battery_Management_System a owl:Class ;
+    rdfs:comment "A battery management system is, according to Infineon´s definition, a set of \"electronic control circuits that monitor and regulate the charging and discharge of batteries.\" It supervises parameters such as the temperature, voltages, capacity, state of charge, power consumption, charging cycles." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Application> .
+
+:E_Car a owl:Class ;
+    rdfs:subClassOf :Vehicle ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-CO2Savings#Electric_Car> .
+
+:Battery_CO2_Savings a owl:Class ;
+    rdfs:comment "CO2 Savings refers to several solutions that might reduce carbon emissions throughout the course of a Lithiu-Ion battery's lifespan." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Application> .
+
+:Functional_Block a owl:Class ;
+    rdfs:comment "A Functional Block is a component of the battery management system." ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Application> .
+
+:Semiconductor a owl:Class ;
+    rdfs:comment "Semiconductor is an eletronic device which electrical conductivity value is between an insulator and a conductor. In this case, constitutes the battery management system."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Application> .
+

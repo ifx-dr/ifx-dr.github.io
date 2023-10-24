@@ -1,0 +1,303 @@
+@prefix : <http://www.w3id.org/ecsel-dr-ORG#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Autobahn a owl:NamedIndividual .
+
+:Central_Function a owl:Class ;
+    rdfs:label "Central Function"@en ;
+    rdfs:comment "Large companies have central fuctions like the Finance or corporate suppyl chain department."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+
+:Division a owl:Class ;
+    rdfs:label "Division"@en ;
+    rdfs:comment "Hierarchical structure of an organization. For example ATV, DDS, ICP..."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+
+:Expedition a owl:NamedIndividual .
+
+:Idea a owl:NamedIndividual .
+
+:Implemented a owl:NamedIndividual .
+
+:In_Preperation a owl:NamedIndividual .
+
+:Mission a owl:NamedIndividual .
+
+:On_Hold a owl:NamedIndividual .
+
+:Project_Owner a owl:Class ;
+    rdfs:label "Project Owner"@en ;
+    rdfs:comment "Defines BP for target achievement."@en ;
+    rdfs:subClassOf :Role .
+
+:Project_Team_Member a owl:Class ;
+    rdfs:label "Project Team Members"@en ;
+    rdfs:comment "Project team members are the individuals who actively work on one or more phases of the project."@en ;
+    rdfs:subClassOf :Role .
+
+:Region a owl:Class ;
+    rdfs:label "Region"@en ;
+    rdfs:comment "Large companies divide their activites in regions, like in America, Greater China, SEA (South East Asia), Europe and ROW (rest of World)."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+
+:Running a owl:NamedIndividual .
+
+:Withdrawn a owl:NamedIndividual .
+
+:budget_factor a owl:DatatypeProperty ;
+    rdfs:label "budget factor"@en ;
+    rdfs:comment "The budget factor of a project"@en ;
+    rdfs:domain :Company_Project ;
+    rdfs:range xsd:integer .
+
+:budget_value a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "budget value"@en ;
+    rdfs:comment "The value of the budget of a project"@en ;
+    rdfs:domain :Company_Project ;
+    rdfs:range xsd:integer .
+
+:category_factor a owl:DatatypeProperty ;
+    rdfs:label "category factor"@en ;
+    rdfs:comment "The category factor of a project"@en ;
+    rdfs:domain :Category ;
+    rdfs:range xsd:integer .
+
+:goal a owl:DatatypeProperty ;
+    rdfs:label "goal"@en ;
+    rdfs:comment "The goal of a project"@en ;
+    rdfs:domain :Company_Project ;
+    rdfs:range xsd:string .
+
+:has_category_level a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has category level"@en ;
+    rdfs:comment "Relation between a project and its categories"@en ;
+    rdfs:domain :Company_Project ;
+    rdfs:range :Category ;
+    owl:inverseOf :is_category_level_of .
+
+:has_certification_level a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has a certification level"@en ;
+    rdfs:comment "Relation between a project and the certification that it has"@en ;
+    rdfs:domain :Company_Project ;
+    rdfs:range :Certification ;
+    rdfs:subPropertyOf :has_contributor ;
+    owl:inverseOf :is_certification_level_of .
+
+:has_project_status a owl:ObjectProperty ;
+    rdfs:label "has project status"@en ;
+    rdfs:comment "Relation between a project and its status"@en ;
+    rdfs:domain :Company_Project ;
+    rdfs:range :Project_Status ;
+    owl:inverseOf :is_project_status .
+
+:has_role a owl:ObjectProperty ;
+    rdfs:label "has role"@en ;
+    rdfs:comment "A relation that connects a role with a project"@en ;
+    rdfs:domain :Company_Project ;
+    rdfs:range :Role ;
+    owl:inverseOf :is_role_of .
+
+:has_sub_project a owl:ObjectProperty ;
+    rdfs:label "has sub project"@en ;
+    rdfs:comment "Relation between a project and its subprojects"@en ;
+    rdfs:domain :Company_Project ;
+    rdfs:range :Sub_Project ;
+    owl:inverseOf :is_sub_project_of .
+
+:has_task a owl:ObjectProperty ;
+    rdfs:label "has task"@en ;
+    rdfs:comment "Relation between a project or a subproject and their tasks"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Task ;
+    owl:inverseOf :is_task_of .
+
+:has_training_level a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has training level"@en ;
+    rdfs:comment "Relation between a project manager and its training level"@en ;
+    rdfs:domain :Project_Manager ;
+    rdfs:range :Training ;
+    owl:inverseOf :is_training_level_of .
+
+:has_work_package a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has work package"@en ;
+    rdfs:comment "Relation between a project or a subproject and their work packages"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Work_Package ;
+    owl:inverseOf :is_work_package_of .
+
+:impact_factor a owl:DatatypeProperty ;
+    rdfs:label "impact factor"@en ;
+    rdfs:comment "The factor of impact of a project"@en ;
+    rdfs:domain :Company_Project ;
+    rdfs:range xsd:integer .
+
+:interface_complexity_factor a owl:DatatypeProperty ;
+    rdfs:label "interface complexity factor"@en ;
+    rdfs:comment "The factor of complexity of the interface"@en ;
+    rdfs:domain :Company_Project ;
+    rdfs:range xsd:integer .
+
+:minimum_job_experience a owl:DatatypeProperty ;
+    rdfs:label "minimum job experience" ;
+    rdfs:comment "Minimum job experience that the project manager needs"@en ;
+    rdfs:domain :Project_Manager ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf :experience .
+
+:minimum_project_manager_experience a owl:DatatypeProperty ;
+    rdfs:label "minimum project manager experience" ;
+    rdfs:comment "Minimum job experience that the project manager needs"@en ;
+    rdfs:domain :Project_Manager ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf :experience .
+
+:name a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "name"@en ;
+    rdfs:comment "The name of the project"@en ;
+    rdfs:domain :Company_Project ;
+    rdfs:range xsd:string .
+
+:resulting_factor_average a owl:DatatypeProperty ;
+    rdfs:label "resulting factor average"@en ;
+    rdfs:domain :Company_Project ;
+    rdfs:range xsd:integer .
+
+:Project a owl:Class ;
+    rdfs:label "Project"@en ;
+    rdfs:comment "Achievement of the project objective requires these deliverables to conform to specific requirements, including multiple constraints such as time, cost, resources and quality standards or requirements."@en,
+        "​Projects are a way to deliver value to an organization. A project is defined as a unique, temporary, multi-disciplinary and organized endeavor to realize agreed deliverables within predefined requirements and constraints."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+
+:has_contributor a owl:ObjectProperty ;
+    rdfs:label "has a contributor"@en ;
+    rdfs:comment "A relation between a role and the funcionts it has, division and region it is part of."@en ;
+    rdfs:domain :Role ;
+    rdfs:range [ ] ;
+    owl:inverseOf :is_contributor_of .
+
+:is_category_level_of a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is category level of"@en ;
+    rdfs:comment "Relation between a category and its projects"@en ;
+    rdfs:domain :Category ;
+    rdfs:range :Company_Project .
+
+:is_certification_level_of a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is certification level of"@en ;
+    rdfs:comment "Relation between a certification and its projects"@en ;
+    rdfs:domain :Certification ;
+    rdfs:range :Company_Project .
+
+:is_contributor_of a owl:ObjectProperty ;
+    rdfs:label "is contributor of"@en ;
+    rdfs:comment "Relation between a Central function, a division or a region and their roles"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Role .
+
+:is_project_status a owl:ObjectProperty ;
+    rdfs:label "is project status"@en ;
+    rdfs:comment "Relation between a project status and the project it is part of"@en ;
+    rdfs:domain :Project_Status ;
+    rdfs:range :Company_Project .
+
+:is_role_of a owl:ObjectProperty ;
+    rdfs:label "is role of"@en ;
+    rdfs:comment "Relation between a role and the project it is part of"@en ;
+    rdfs:domain :Role ;
+    rdfs:range :Company_Project .
+
+:is_sub_project_of a owl:ObjectProperty ;
+    rdfs:label "is sub project of"@en ;
+    rdfs:comment "Relation between a subproject and the project it is part of"@en ;
+    rdfs:domain :Sub_Project ;
+    rdfs:range :Company_Project .
+
+:is_task_of a owl:ObjectProperty ;
+    rdfs:label "is task of"@en ;
+    rdfs:comment "Relation between a task and the project or subproject it is part of"@en ;
+    rdfs:domain :Task ;
+    rdfs:range [ ] .
+
+:is_training_level_of a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is training level of"@en ;
+    rdfs:comment "Relation between a training and the project manager that has it"@en ;
+    rdfs:domain :Training ;
+    rdfs:range :Project_Manager .
+
+:is_work_package_of a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "if work package of"@en ;
+    rdfs:comment "Relation between a workpackage and the project or subproject it is part of"@en ;
+    rdfs:domain :Work_Package ;
+    rdfs:range [ ] .
+
+:Certification a owl:Class ;
+    rdfs:label "Certification"@en ;
+    rdfs:comment "An official document, as proof that something has happened or been done"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+
+:Project_Status a owl:Class ;
+    rdfs:label "Project Status"@en ;
+    rdfs:comment "The current status of the project"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+    owl:equivalentClass [ ] .
+
+:Sub_Project a owl:Class ;
+    rdfs:label "Sub Project"@en ;
+    rdfs:comment "A project within a larger project."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+
+:Task a owl:Class ;
+    rdfs:label "Task"@en ;
+    rdfs:comment "A piece of work to be done or undertaken."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-PMV#Task> .
+
+:Training a owl:Class ;
+    rdfs:label "Training"@en ;
+    rdfs:comment "The process of learning the skills you need to do a particular job or activity"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+
+:Work_Package a owl:Class ;
+    rdfs:label "Work Package"@en ;
+    rdfs:comment "A work package is a group of related tasks within a project."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> .
+
+:experience a owl:DatatypeProperty ;
+    rdfs:label "experience" ;
+    rdfs:comment "The experience that a project manager has"@en ;
+    rdfs:domain :Project_Manager ;
+    rdfs:range xsd:integer .
+
+:Category a owl:Class ;
+    rdfs:label "Category"@en ;
+    rdfs:comment "Categorizes the project in a big, medium or small project. Usually according the project size."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+    owl:equivalentClass [ ] .
+
+:Project_Manager a owl:Class ;
+    rdfs:label "Project Manager"@en ;
+    rdfs:comment "Project managers have the responsibility of the planning, procurement and execution of a project, in any undertaking that has a defined scope, defined start and a defined finish; regardless of industry."@en ;
+    rdfs:subClassOf :Role .
+
+:Role a owl:Class ;
+    rdfs:label "Role"@en ;
+    rdfs:comment "Defines the responsibilities assumed by an individual."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Organization_Lobe> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-PMV#Role> .
+
+:Company_Project a owl:Class ;
+    rdfs:label "Company Project"@en ;
+    rdfs:comment "Projects that are or have been developed using our methodology, based on the IPMA standard."@en ;
+    rdfs:subClassOf :Project .
+

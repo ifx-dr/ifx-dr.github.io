@@ -1,0 +1,2153 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#contains_device -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#contains_device">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#has_architectural_part"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_device_in"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error68"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:label xml:lang="en">contains device</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#defines_compliant_documentation -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#defines_compliant_documentation">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error65"/>
+        <rdfs:label xml:lang="en">defines compliant documentation</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#defines_compliant_service -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#defines_compliant_service">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:label xml:lang="en">defines compliant service</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#defines_compliant_system -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#defines_compliant_system">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Software_System"/>
+        <rdfs:label xml:lang="en">defines compliant system</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#defines_compliant_system_architecture -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#defines_compliant_system_architecture">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Of_Systems"/>
+        <rdfs:label xml:lang="en">defines compliant system architecture</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#documents -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#documents">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_documented_by"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error69"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error62"/>
+        <rdfs:label xml:lang="en">documents</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_security_mechanism -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_security_mechanism">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error71"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism"/>
+        <rdfs:label xml:lang="en">documents AH service comm security mechanism</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#documents_service_part"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error70"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error64"/>
+        <rdfs:label xml:lang="en">documents AH service comm tech</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#documents_AH_service_data_format -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#documents_AH_service_data_format">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error76"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Data_Format"/>
+        <rdfs:label xml:lang="en">documents AH service data format</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#documents_AH_service_information_model -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#documents_AH_service_information_model">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#documents_service_part"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error75"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Information_Model"/>
+        <rdfs:label xml:lang="en">documents AH service information model</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#documents_AH_service_method -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#documents_AH_service_method">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#documents_service_part"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Method"/>
+        <rdfs:comment xml:lang="en">Relation between an Interface Design Description document (of a specific service) and a method of this service. 
+The relation expresses that the IDD document documents the methods of the service the IDD belongs to. 
+With this, a consistency check would be possible: 
+IF a service S has a method M AND the IDD IDD_S is part of the service documentation of S (i.e. IDD_S is the IDD of S) 
+THEN IDD_S should contain a documentation of M.</rdfs:comment>
+        <rdfs:label xml:lang="en">documents AH service method</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#documents_AH_service_transfer_protocol -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#documents_AH_service_transfer_protocol">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#documents_AH_service_comm_tech"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error73"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol"/>
+        <rdfs:label xml:lang="en">documents AH service transfer protocol</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#documents_service_part -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#documents_service_part">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Documentation_Document"/>
+        <rdfs:label xml:lang="en">documents service part</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#has_SoA_property -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#has_SoA_property">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_SoA_property_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#SoA_Property"/>
+        <rdfs:label xml:lang="en">has SoA property</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#has_architectural_part -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#has_architectural_part">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of"/>
+        <rdfs:label xml:lang="en">has architectural part</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#has_information_model -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#has_information_model">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_information_model_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Information_Model"/>
+        <rdfs:label xml:lang="en">has information model</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#has_method -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#has_method">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#has_architectural_part"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_method_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Method"/>
+        <rdfs:label xml:lang="en">has method</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#has_part_documentation_document -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#has_part_documentation_document">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_part_of"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error74"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Documentation_Document"/>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#hosts -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#hosts">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#has_architectural_part"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_hosted_by"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#runs_on"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Software_System"/>
+        <rdfs:label xml:lang="en">hosts</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_AH_service_documented_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_AH_service_documented_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_service_documented_by"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Service"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation"/>
+        <rdfs:comment xml:lang="en">is AH service documented by</rdfs:comment>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_AH_system_documented_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_AH_system_documented_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_system_documented_by"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_System"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation"/>
+        <rdfs:comment xml:lang="en">is AH system documented by</rdfs:comment>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_SoA_property_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_SoA_property_of">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#SoA_Property"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"/>
+        <rdfs:label xml:lang="en">is SoA property of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of">
+        <rdfs:label xml:lang="en">is an architectural part of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_device_in -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_device_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error63"/>
+        <rdfs:label xml:lang="en">is device in</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_documented_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_documented_by">
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error67"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error60"/>
+        <rdfs:label xml:lang="en">is documented by</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_hosted_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_hosted_by">
+        <equivalentProperty rdf:resource="http://www.w3id.org/ecsel-dr-AH#runs_on"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Software_System"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:label xml:lang="en">is hosted by</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_information_model_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_information_model_of">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Information_Model"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:label xml:lang="en">is information model of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_method_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_method_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Method"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:label xml:lang="en">is method of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_part_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_part_of">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Documentation_Document"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error61"/>
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_part_of_SoS_documentation -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_part_of_SoS_documentation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_part_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation"/>
+        <rdfs:label xml:lang="en">is part of SoS documentation</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_part_of_service_documentation -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_part_of_service_documentation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_part_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation"/>
+        <rdfs:label xml:lang="en">is part of service documentation</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_part_of_system_documentation -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_part_of_system_documentation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_part_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation"/>
+        <rdfs:label xml:lang="en">is part of system documentation</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_referred_to_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_referred_to_by">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#refers_to"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Documentation_Document"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Documentation_Document"/>
+        <rdfs:label xml:lang="en">is referred to by</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_service_documented_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_service_documented_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_documented_by"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service_Documentation"/>
+        <rdfs:comment xml:lang="en">is service documented by</rdfs:comment>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_service_producer_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_service_producer_of">
+        <equivalentProperty rdf:resource="http://www.w3id.org/ecsel-dr-AH#produces"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#produced_by"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Software_System"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:label xml:lang="en">is service producer of</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#is_system_documented_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#is_system_documented_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_documented_by"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Software_System"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Documentation"/>
+        <rdfs:comment xml:lang="en">is system documented by</rdfs:comment>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#produced_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#produced_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#is_architectural_part_of"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#produces"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Software_System"/>
+        <rdfs:label xml:lang="en">produced by</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#produces -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#produces">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#has_architectural_part"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Software_System"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:comment xml:lang="en">Relation expressing that a software system produces a service. 
+Equivalent names for this relation include: offers, provides, isServiceProducerOf 
+Since Arrowhead uses the pair produce / consume and corresponding service producer / service consumer adressing the relations and the software systems, this ontology uses these names for the relations too. 
+If it is needed, object properties with other names can be added and stated to be equivalent to these ones.</rdfs:comment>
+        <rdfs:label xml:lang="en">produces</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#refers_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#refers_to">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Documentation_Document"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Documentation_Document"/>
+        <rdfs:comment xml:lang="en">describes the relation between two documentation documents that one document refers to another document.
+To our best knowledge, the following relations hold between different types of documentation documents: 
+- an IDD refers to exactly one SD.
+- an SD is referred to by one or more IDD (each stating a way of implementing the service with a specific technolopgy (Source: Arrowhead Framework Definitions V2.4))
+- an IDD refers to at most one CP (if it not refers to a CP, then the IDD contains all CP information by itself)
+- an IDD refers to n SP, 0 &lt;= n (if it not refers to a SP, then the IDD contains all SP information by itself)
+- a SySD refers to one or more IDDs (that is, a system produces one or more services).
+- a SySDD refers to one or more SySD&apos;s. (Remark HB: I don&apos;t understand this. How can one concrete white box description of a system fulfill (support / implement) different black box descriptions of systems? The other way around seems to be possible as between SDs and IDDs). 
+- an SoSD refers to n SySD&apos;s.
+- an SoSDD refers to n SoSD&apos;s. 
+- an SoSDD refers to n SySD&apos;s. 
+- an SoSDD refers to n SySDDs.</rdfs:comment>
+        <rdfs:label xml:lang="en">refers to</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#refers_to_CP -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#refers_to_CP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#refers_to"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Communication_Profile_CP"/>
+        <rdfs:comment xml:lang="en">an Interface Design Description (IDD) can refer to a Communication Profile (CP). 
+No other documentation document can refer to a CP. Hence the domain of this object property is the class of IDDs. 
+An IDD can refer to a CP, but this is not mandatory. CPs are intended to be used in cases in which several services use the same CP. Then the CP information should be extracted to an CP document and the IDDs of all services that use this CP shall refer to this CP. 
+If the CP is unique for a specific service, the CP information can directly be included in the IDD.
+If the IDD refers to a CP, this must be a unique reference. That is, one IDD must not refer to different CPs. Hence this object property is functional. (If the service could be implemented using different communication technologies, each implementation would need an own IDD!!).</rdfs:comment>
+        <rdfs:label xml:lang="en">refers to CP</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#refers_to_IDD -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#refers_to_IDD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#refers_to"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"/>
+        <rdfs:label xml:lang="en">refers to IDD</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#refers_to_SD -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#refers_to_SD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#refers_to"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service_Description_SD"/>
+        <rdfs:label xml:lang="en">refers to SD</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#refers_to_SP -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#refers_to_SP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#refers_to"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Semantic_Profile_SP"/>
+        <rdfs:comment xml:lang="en">an Interface Design Description (IDD) can refer to a Semantic Profile (SP). 
+No other documentation document can refer to a SP. Hence the domain of this object property is the class of IDDs. 
+An IDD can refer to a SP, but this is not mandatory. SPs are intended to be used in cases in which several services use the same SP. Then the SCP information should be extracted to an SP document and the IDDs of all services that use this SP shall refer to this SP. 
+If the SP is unique for a specific service, the SP information can directly be included in the IDD.
+References to SPs are not necessarily unique for an IDD. That is, different methods of the service documented by the IDD can use different Semantic Profiles.</rdfs:comment>
+        <rdfs:label xml:lang="en">refers to SP</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#refers_to_So_SD -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#refers_to_So_SD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#refers_to"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Description_So_SD"/>
+        <rdfs:label xml:lang="en">refers to So SD</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SD -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#refers_to"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error72"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD"/>
+        <rdfs:label xml:lang="en">refers to Sy SD</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SDD -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#refers_to_Sy_SDD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#refers_to"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD"/>
+        <rdfs:label xml:lang="en">refers to Sy SDD</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#runs_on -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#runs_on">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Software_System"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:label xml:lang="en">runs on</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#uses_comm_tech -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#uses_comm_tech">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error66"/>
+        <rdfs:label xml:lang="en">uses comm tech</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#uses_communication_security_mechanism -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#uses_communication_security_mechanism">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#uses_comm_tech"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism"/>
+        <rdfs:label xml:lang="en">uses communication security mechanism</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#uses_data_format -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#uses_data_format">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#uses_comm_tech"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Data_Format"/>
+        <rdfs:label xml:lang="en">uses data format</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#uses_transfer_protocol -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#uses_transfer_protocol">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#uses_comm_tech"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol"/>
+        <rdfs:label xml:lang="en">uses transfer protocol</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#IP_address -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#IP_address">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">IP address</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#MAC_address -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#MAC_address">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">MAC address</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#device_ID -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#device_ID">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Data property of each device in Arrowhead context. Needed by Device Discovery service.
+Purpose: provides an unique identifier for a device.</rdfs:comment>
+        <rdfs:label>device ID</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#device_name -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-AH#device_name">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>device name</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error60 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error60"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error61 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error61"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error62 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error62"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error63 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error63"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error64 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error64"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error65 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error65"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error66 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error66"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error67 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error67"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error68 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error68"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error69 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error69"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error70 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error70"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error71 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error71"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error72 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error72"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error73 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error73"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error74 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error74"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error75 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error75"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error76 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error76"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr#Cloud_Lobe -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Application_Servcice_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Application_Servcice_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"/>
+        <rdfs:label xml:lang="en">AH Application Servcice IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Application_Service -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Application_Service">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Service"/>
+        <rdfs:comment xml:lang="en">Application services – they are application specific and are implemented by application systems along with functionalities (to match requirements of an application)</rdfs:comment>
+        <rdfs:label xml:lang="en">AH Application Service</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Application_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Application_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service_Description_SD"/>
+        <rdfs:label xml:lang="en">AH Application Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Application_System -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Application_System">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_System"/>
+        <disjointWith rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Core_System"/>
+        <rdfs:label xml:lang="en">Arrowhead Application Component</rdfs:label>
+        <rdfs:label xml:lang="en">Arrowhead Application System</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD"/>
+        <rdfs:label xml:lang="en">AH Application System Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Application_System_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD"/>
+        <rdfs:label xml:lang="en">AH Application System Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD"/>
+        <rdfs:label xml:lang="en">AH Authorization Control Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Authorization_Control_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD"/>
+        <rdfs:label xml:lang="en">AH Authorization Control Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD"/>
+        <rdfs:label xml:lang="en">AH Authorization System Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD"/>
+        <rdfs:label xml:lang="en">AH Authorization System Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_WADL -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Authorization_System_WADL">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL"/>
+        <rdfs:label xml:lang="en">AH Authorization System WADL</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Core_Service"/>
+        <rdfs:label xml:lang="en">AH Automation Supporting Service</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD"/>
+        <rdfs:label xml:lang="en">AH Automation Supporting Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD"/>
+        <rdfs:label xml:lang="en">AH Automation Supporting Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Core_System"/>
+        <disjointWith rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System"/>
+        <rdfs:label xml:lang="en">AH Automation Supporting System</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD"/>
+        <rdfs:label xml:lang="en">AH Automation Supporting System Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD"/>
+        <rdfs:label xml:lang="en">AH Automation Supporting System Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Core_Service -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Core_Service">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Service"/>
+        <rdfs:label xml:lang="en">AH Core Service</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD"/>
+        <rdfs:label xml:lang="en">AH Core Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service_Description_SD"/>
+        <rdfs:label xml:lang="en">AH Core Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Core_System -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Core_System">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_System"/>
+        <rdfs:comment xml:lang="en">Software system, that belongs to the &quot;standard&quot; components offered by Arrowhead framework. 
+Arrowhead core systems can occur once in each Arrowhead Local Cloud. 
+Arriwhead Core Systems can be distinguished in Arrowhead Mandatory Core Systems and Automation supporting systems. Mandatory core systems must exist in each Arrowhead Local Cloud, Automation supporting systems can occur in an Arrowhead Local Cloud.</rdfs:comment>
+        <rdfs:label xml:lang="en">Arrowhead Core Component</rdfs:label>
+        <rdfs:label xml:lang="en">Arrowhead Core System</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD"/>
+        <rdfs:label xml:lang="en">AH Core System Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD"/>
+        <rdfs:label xml:lang="en">AH Core System Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD"/>
+        <rdfs:label xml:lang="en">AH Device Discovery Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Device_Discovery_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD"/>
+        <rdfs:label xml:lang="en">AH Device Discovery Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD"/>
+        <rdfs:label xml:lang="en">AH Device Registry System Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Device_Registry_System_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD"/>
+        <rdfs:label xml:lang="en">AH Device Registry System Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD"/>
+        <rdfs:label xml:lang="en">AH Gatekeeper System Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Gatekeeper_System_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD"/>
+        <rdfs:label xml:lang="en">AH Gatekeeper System Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD"/>
+        <rdfs:label xml:lang="en">AH Gateway System Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Gateway_System_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD"/>
+        <rdfs:label xml:lang="en">AH Gateway System Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD"/>
+        <rdfs:label xml:lang="en">AH Global Service Discovery Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Global_Service_Discovery_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD"/>
+        <rdfs:label xml:lang="en">AH Global Service Discovery Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD"/>
+        <rdfs:label xml:lang="en">AH Historian Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Historian_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD"/>
+        <rdfs:label xml:lang="en">AH Historian Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD"/>
+        <rdfs:label xml:lang="en">AH Inter Cloud Negotiations Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Inter_Cloud_Negotiations_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD"/>
+        <rdfs:label xml:lang="en">AH Inter Cloud Negotiations Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Local_Cloud -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Local_Cloud">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:label xml:lang="en">AH Local Cloud</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Core_Service"/>
+        <rdfs:label xml:lang="en">AH Mandatory Core Service</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_IDD"/>
+        <rdfs:comment xml:lang="en">Class of all Interface Design Descriptions (IDDs) of mandatory Arrowwhead core services.
+While the class AH_mandatory_core_service contains the mandatory core services only as instances, this class contains classes of the IDDs of each single mandatory core service as subclasses (not only as instances). Since each AH Local Cloud runs one instance of each mandatory core service, each of these services has to be documented by an AH service documentation, i.e. at least by a SD and a IDD. So the IDD is an individual document for each mandatory core service in each single Local Cloud. Hence, all IDDs of a certain mandatory core service will be individuals of the corresponding IDD class.</rdfs:comment>
+        <rdfs:label xml:lang="en">AH Mandatory Core Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Core_Service_SD"/>
+        <rdfs:label xml:lang="en">AH Mandatory Core Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Core_System"/>
+        <rdfs:label xml:lang="en">AH Mandatory Core System</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SD"/>
+        <rdfs:label xml:lang="en">AH Mandatory Core System Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Core_System_Sy_SDD"/>
+        <rdfs:label xml:lang="en">AH Mandatory Core System Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD"/>
+        <rdfs:label xml:lang="en">AH Orchestration Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD"/>
+        <rdfs:label xml:lang="en">AH Orchestration Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD"/>
+        <rdfs:label xml:lang="en">AH Orchestration System Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Orchestration_System_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD"/>
+        <rdfs:label xml:lang="en">AH Orchestration System Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Orchestrator_WADL -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Orchestrator_WADL">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL"/>
+        <rdfs:label xml:lang="en">AH Orchestrator WADL</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD"/>
+        <rdfs:label xml:lang="en">AH QoS Manager Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_QoS_Manager_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD"/>
+        <rdfs:label xml:lang="en">AH QoS Manager Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Service -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Service">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service"/>
+        <rdfs:label xml:lang="en">AH Service</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD"/>
+        <rdfs:label xml:lang="en">AH Service Discovery Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Service_Discovery_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD"/>
+        <rdfs:label xml:lang="en">AH Service Discovery Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service_Documentation"/>
+        <rdfs:label xml:lang="en">AH Service Documentation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Documentation_Document"/>
+        <rdfs:comment xml:lang="de">Document belonging to the documentation of an Arrowhead Service. 
+There are four types of documents for Arrowhead service documentations: 
+- Service Description
+- Interface Design Description
+- Communication Profile
+- Semantic Profile. 
+The central documents are IDDs. They document the implementation of a certain service based on a certain communication technology (communication, encoding, data format) and a certain information model. 
+The Service Description contains a more general description of the service, without the link to a specific communication technology or information model. 
+Communication Profiles and Semantic Profiles are optional documents for a service documentation. They can be seen as modules of an IDD, since they can describe the communication technolopgy and the information model of a service implementation as external documents. If they exist, the IDD refers to them instead of declaring these contents by themselfes. 
+That is, CP and SP are useful if different service implementations use the same CP and SP - then their IDDs can refer to one and the same CP or SP document.</rdfs:comment>
+        <rdfs:label xml:lang="en">AH Service Documentation Document</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SD"/>
+        <rdfs:label xml:lang="en">AH Service Registry System Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_System_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_System_Sy_SDD"/>
+        <rdfs:label xml:lang="en">AH Service Registry System Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_WADL -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Service_Registry_WADL">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL"/>
+        <rdfs:label xml:lang="en">AH Service Registry WADL</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD"/>
+        <rdfs:label xml:lang="en">AH Session Establish Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Session_Establish_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD"/>
+        <rdfs:label xml:lang="en">AH Session Establish Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD"/>
+        <rdfs:label xml:lang="en">AH Session Management Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Session_Management_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD"/>
+        <rdfs:label xml:lang="en">AH Session Management Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD"/>
+        <rdfs:label xml:lang="en">AH Store Management Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Store_Management_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD"/>
+        <rdfs:label xml:lang="en">AH Store Management Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_System -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_System">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Software_System"/>
+        <rdfs:label xml:lang="en">AH System</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_IDD"/>
+        <rdfs:label xml:lang="en">AH System Discovery Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_System_Discovery_Service_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_Service_SD"/>
+        <rdfs:label xml:lang="en">AH System Discovery Service SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Documentation"/>
+        <rdfs:label xml:lang="en">AH System Documentation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Documentation_Document"/>
+        <rdfs:label xml:lang="en">AH System Documentation Document</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#System_Documentation"/>
+        <rdfs:label xml:lang="en">AH System Of Systems Documentation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Documentation_Document"/>
+        <rdfs:label xml:lang="en">AH System Of Systems Documentation Document</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SD"/>
+        <rdfs:label xml:lang="en">AH System Registry System Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_System_Registry_System_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Automation_Supporting_System_Sy_SDD"/>
+        <rdfs:label xml:lang="en">AH System Registry System Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Servcie_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Servcie_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_SD"/>
+        <rdfs:label xml:lang="en">AH Token Generation Servcie SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Service_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#AH_Token_Generation_Service_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Mandatory_Core_Service_IDD"/>
+        <rdfs:label xml:lang="en">AH Token Generation Service IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Arrowhead -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Arrowhead">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture"/>
+        <rdfs:label xml:lang="en">Arrowhead</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Communication_Profile_CP -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Communication_Profile_CP">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document"/>
+        <rdfs:comment>Communication Profile (CP)</rdfs:comment>
+        <rdfs:label xml:lang="en">Communication Profile</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Communication_Security_Mechanism">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Communication_Technology"/>
+        <rdfs:comment>corresponds to a part of OSI layer 5</rdfs:comment>
+        <rdfs:label xml:lang="en">Communication Security Mechanism</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Communication_Technology -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Communication_Technology">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:comment xml:lang="en">Communications technology, also known as information technology, refers to all equipment and programs that are used to process and communicate information.</rdfs:comment>
+        <rdfs:label xml:lang="en">Communication Technology</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Constrained_Device -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Constrained_Device">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:comment xml:lang="en">A constrained device is a device in the sense of an service-oriented architecture that is restricted in terms of processing capabilities (speed, complexity of operations), memory and power supply. 
+The concept constrained device was introduced in the context of the Internet of Things (IoT) and refers for example to sensor devices, location devices, switches etc. which are connected by low-power wireless communication technologies like BLE, ZigBee, Z-Wave etc., have a battery on board that should last for two to three years and which are (very) small in physical size.</rdfs:comment>
+        <rdfs:label xml:lang="en">Constrained Device</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Data_Format -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Data_Format">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:comment xml:lang="en">Data format in information technology may refer to: Data type, constraint placed upon the interpretation of data in a type system.</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Format</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Data_Link_Media_Access_Technology -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Data_Link_Media_Access_Technology">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Communication_Technology"/>
+        <rdfs:comment>corresponds to OSI layer 1 and 2 technologies, like Ethernet, WLAN (802.11), WPAN (802.15.4), EtherCAT, ProfiNet, ...</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Link Media Access Technology</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Data_Model -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Data_Model">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:comment xml:lang="en">A data model is an abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities.</rdfs:comment>
+        <rdfs:label xml:lang="en">Data Model</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Device -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Device">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-AT#Device"/>
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-PWR#Device"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:comment xml:lang="en">A device in the context of Arrowhead framework is a piece of equipment, machine, hardware, etc. with computational, memory, and communication capabilities which hosts one or several Arrowhead Framework systems. (Source: Arrowhead)</rdfs:comment>
+        <rdfs:comment xml:lang="en">A device in the context of Service-oriented architectures (that is, in the context of Information Technology (IT) and Automation / Operations Technology (OT)) is an technical artefact that fulfills the basic definition of a &quot;computer&quot;. That is, a device must be able to host (run) software systems. For this, it needs at least a processing unit (processor), a memory and a communication interface, which can be either wired or wireless.</rdfs:comment>
+        <rdfs:label xml:lang="en">Device</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Documentation_Document -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Documentation_Document">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:comment xml:lang="en">A document that documents something</rdfs:comment>
+        <rdfs:label xml:lang="en">Documentation Document</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#End_To_End_Communication_Technology -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#End_To_End_Communication_Technology">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Communication_Technology"/>
+        <rdfs:comment xml:lang="en">The end-to-end principle is a design framework in computer networking. In networks designed according to this principle, application-specific features reside in the communicating end nodes of the network, rather than in intermediary nodes, such as gateways and routers, that exist to establish the network.</rdfs:comment>
+        <rdfs:label xml:lang="en">End-to-End Communication Technology</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Gateway -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Gateway">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-AT#Gateway"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:comment xml:lang="en">A gateway is a piece of networking hardware used in telecommunications for telecommunications networks that allows data to flow from one discrete network to another.</rdfs:comment>
+        <rdfs:label xml:lang="en">Gateway</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Illumination_Device -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Illumination_Device">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Constrained_Device"/>
+        <rdfs:comment xml:lang="en">A category of devices which&apos;s purpose is to illuminate</rdfs:comment>
+        <rdfs:label xml:lang="en">Illumination Device</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Industrial_Personal_Computer -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Industrial_Personal_Computer">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:comment xml:lang="en">Industrial PCs are primarily used for process control and/or data acquisition. In some cases, an industrial PC is simply used as a front-end to another control computer in a distributed processing environment.</rdfs:comment>
+        <rdfs:label xml:lang="en">Industrial Personal Computer</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Information_Model -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Information_Model">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:comment xml:lang="en">An information model in software engineering is a representation of concepts and the relationships, constraints, rules, and operations to specify data semantics for a chosen domain of discourse. Typically it specifies relations between kinds of things, but may also include relations with individual things.</rdfs:comment>
+        <rdfs:label xml:lang="en">Information Model</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Interface_Design_Description_IDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document"/>
+        <rdfs:comment xml:lang="en">Interface Design Description (IDD)</rdfs:comment>
+        <rdfs:label xml:lang="en">Interface Design Description IDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Local_Network -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Local_Network">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:comment xml:lang="en">A local area network is a computer network that interconnects computers within a limited area</rdfs:comment>
+        <rdfs:label xml:lang="en">Local Network</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Method -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Method">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:comment xml:lang="en">Method of a service: method that is provided by a service within a SoA.</rdfs:comment>
+        <rdfs:label xml:lang="en">Method</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Personal_Computer -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Personal_Computer">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:comment xml:lang="en">A personal computer (PC) is a multi-purpose computer whose size, capabilities, and price make it feasible for individual use.</rdfs:comment>
+        <rdfs:label xml:lang="en">Personal Computer</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Point_To_Point_Communication_Technology -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Point_To_Point_Communication_Technology">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Communication_Technology"/>
+        <rdfs:comment>corresponds to OSI layer 3, e.g. IPv4 or IPv6</rdfs:comment>
+        <rdfs:label>Point-to-Point Communication Technology</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Programmable_Logic_Controller -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Programmable_Logic_Controller">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:comment xml:lang="en">A programmable logic controller (PLC) is an industrial digital computer which has been ruggedized and adapted for the control of manufacturing processes</rdfs:comment>
+        <rdfs:label xml:lang="en">Programmable Logic Controller</rdfs:label>
+        <rdfs:label xml:lang="de">SPS</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Raspberry_Pi -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Raspberry_Pi">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:comment xml:lang="en">The Raspberry Pi is a series of small single-board computers developed in the United Kingdom by the Raspberry Pi Foundation to put the power of computing and digital making into the hands of people all over the world.</rdfs:comment>
+        <rdfs:label xml:lang="en">Raspberry Pi</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Semantic_Profile_SP -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Semantic_Profile_SP">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document"/>
+        <rdfs:comment>Semantic Profile (SP)</rdfs:comment>
+        <rdfs:label xml:lang="en">Semantic Profile</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Sensor_Device -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Sensor_Device">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-AT#Sensor_Device"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Constrained_Device"/>
+        <rdfs:comment xml:lang="en">A category of devices which&apos;s purpose is to sense</rdfs:comment>
+        <rdfs:label xml:lang="en">Sensor Device</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Service -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Service">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <disjointWith rdf:resource="http://www.w3id.org/ecsel-dr-AH#Software_System"/>
+        <rdfs:comment xml:lang="en">In the context of the Arrowhead Framework a Service is the information exchanged from a providing system to a consuming system.
+• is based on a number of service orientation principles derived from high level objectives and properties of the Arrowhead framework 
+• can be realized by an arbitrary number of service producers and service consumers 
+• a system can consume a number of services, process and provide other services to fulfil a more complex task 
+• can only be provided by technical systems 
+• can support operational activities within business processes 
+• can support non-functional requirements, such as real-time 
+• can have stakeholders, with an interest in business benefit, in one or more specific area of interest 
+• can have an appointed stakeholder, responsible for the governance of the Service (definition, development). 
+(Source: Arrowhead Framework Definitions V2.4 &amp; Arrowhead Device Registry Presentation)</rdfs:comment>
+        <rdfs:label xml:lang="en">Service</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Service_Description_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Service_Description_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_Service_Documentation_Document"/>
+        <rdfs:comment xml:lang="en">Service Description (SD)</rdfs:comment>
+        <rdfs:label xml:lang="en">Service Description SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Service_Documentation -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Service_Documentation">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:comment xml:lang="en">Service documentation is any communicable material that is used to describe, explain or instruct regarding some attributes of a service</rdfs:comment>
+        <rdfs:label xml:lang="en">Service Documentation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:comment xml:lang="en">Service-oriented architecture (SoA) is a style of software design where services are provided to the other components by application components, through a communication protocol over a network.</rdfs:comment>
+        <rdfs:label xml:lang="en">Service-Oriented Architecture</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Smartphone -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Smartphone">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:comment xml:lang="en">A smartphone is a mobile device that combines cellular and mobile computing functions into one unit.</rdfs:comment>
+        <rdfs:label xml:lang="en">Smartphone</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#SoA_Property -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#SoA_Property">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:label xml:lang="en">SoA Property</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Software_System -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Software_System">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:comment xml:lang="en">System software is software designed to provide a platform for other software.</rdfs:comment>
+        <rdfs:label xml:lang="en">Software System</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Switch_Device -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Switch_Device">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Constrained_Device"/>
+        <rdfs:comment xml:lang="en">A switch is a device in a computer network that connects other devices together.</rdfs:comment>
+        <rdfs:label xml:lang="en">Switch Device</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#System_Description_Sy_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document"/>
+        <rdfs:label xml:lang="en">System Description Sy SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#System_Design_Description_Sy_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document"/>
+        <rdfs:label xml:lang="en">System Design Description Sy SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#System_Documentation -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#System_Documentation">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:comment xml:lang="en">System documentation is any communicable material that is used to describe, explain or instruct regarding some attributes of a system</rdfs:comment>
+        <rdfs:label xml:lang="en">System Documentation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#System_Of_Systems -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#System_Of_Systems">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Cloud_Lobe"/>
+        <rdfs:comment xml:lang="en">System of systems is a collection of task-oriented or dedicated systems that pool their resources and capabilities together to create a new, more complex system which offers more functionality and performance than simply the sum of the constituent systems.</rdfs:comment>
+        <rdfs:label xml:lang="en">System Of Systems</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Description_So_SD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Description_So_SD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document"/>
+        <rdfs:label xml:lang="en">System Of Systems Description So SD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#System_Of_Systems_Design_Description_So_SDD">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_System_Of_Systems_Documentation_Document"/>
+        <rdfs:label xml:lang="en">System Of Systems Design Description So SDD</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#System_Web_Application_Description_WADL">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#AH_System_Documentation_Document"/>
+        <rdfs:comment xml:lang="en">Description of an Arrowhead compliant software system in terms of the Web Application Description Language WADL. 
+The Web Application Description Language (WADL) is a machine-readable XML description of HTTP-based web services. WADL models the resources provided by a service and the relationships between them. WADL is intended to simplify the reuse of web services that are based on the existing HTTP architecture of the Web. It is platform and language independent and aims to promote reuse of applications beyond the basic use in a web browser.
+WADL is the REST equivalent of SOAP&apos;s Web Services Description Language (WSDL), which can also be used to describe REST web services. Sources: https://en.wikipedia.org/wiki/Web_Application_Description_Language
+Sun Microsystems (31 August 2009). &quot;Web Application Description Language: W3C Member Submission 31 August 2009&quot;. World Wide Web Consortium. Retrieved 12 August 2012.
+World Wide Web Consortium (14 October 2009). &quot;Team Comment on the &quot;Web Application Description Language&quot; Submission&quot;. World Wide Web Consortium. Retrieved 12 August 2012.
+Lawrence Mandel (29 May 2008). &quot;Describe REST Web services with WSDL 2.0: A how-to guide&quot;. IBM. Retrieved 12 August 2012.</rdfs:comment>
+        <rdfs:label xml:lang="en">System Web Application Description WADL</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Tablet_Computer -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Tablet_Computer">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Device"/>
+        <rdfs:comment xml:lang="en">A tablet computer, commonly shortened to tablet, is a mobile device, typically with a mobile operating system and touchscreen display</rdfs:comment>
+        <rdfs:label xml:lang="en">Tablet Computer</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AH#Transfer_Protocol">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-AH#Communication_Technology"/>
+        <rdfs:comment>corresponds to OSI layers 6 and 7</rdfs:comment>
+        <rdfs:label>Transfer Protocol</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AT#Device -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AT#Device"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AT#Gateway -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AT#Gateway"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AT#Sensor_Device -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AT#Sensor_Device"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PWR#Device -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PWR#Device"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

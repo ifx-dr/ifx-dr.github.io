@@ -1,0 +1,411 @@
+@prefix : <http://www.w3id.org/ecsel-dr-SCP#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:AP_FCST a owl:Class ;
+    rdfs:label "AP FCST"@en ;
+    rdfs:subClassOf :Forecast .
+
+:Buffer_Stock_Order a owl:Class ;
+    rdfs:label "Buffer Stock Order"@en ;
+    rdfs:subClassOf :Order .
+
+:Consignment_Order a owl:Class ;
+    rdfs:label "Consignment Order"@en ;
+    rdfs:comment """Consignment Stock is a logistics concept where the supplier (Vendor) owned goods are stored at a customer location.\r
+\r
+The supplier (Vendor) is responsible to maintain his stock within a defined min/max level."""@en ;
+    rdfs:subClassOf :Order .
+
+:DC a owl:Class ;
+    rdfs:label "DC"@en ;
+    rdfs:comment "A DC Facility represents a finished goods store."@en ;
+    rdfs:subClassOf :Stocks .
+
+:Die_Bank a owl:Class ;
+    rdfs:label "Die Bank"@en ;
+    rdfs:comment "A die bank is an area in production where (usually) tested wafers are stored waiting for disposition and further production."@en ;
+    rdfs:subClassOf :Stocks .
+
+:EDI_Forecast a owl:Class ;
+    rdfs:label "EDI Forecast"@en ;
+    rdfs:comment "The EDI Forecast Universe is a Data Mart that was started in 2010 (?) to support Forecast Accuracy  analysis"@en ;
+    rdfs:subClassOf :Order .
+
+:HP_Forecast a owl:Class ;
+    rdfs:label "HP Forecast"@en ;
+    rdfs:subClassOf :Forecast .
+
+:Max_Stock a owl:Class ;
+    rdfs:label "Max Stock"@en ;
+    rdfs:comment "The amount of inventory which should not be exceeded. The limit is normally determined after considering storage space of the facilities, how quickly inventory is sold or used, cost of insurance on inventory, and the risk of inventory becoming outdated before it is used."@en ;
+    rdfs:subClassOf :SSO_Stocks .
+
+:Min_Stock a owl:Class ;
+    rdfs:label "Min Stock"@en ;
+    rdfs:comment "The minimum level of inventory is a kind of a precautionary level of inventory which indicates that the delivery of raw materials or merchandise may take more than the normal lead time."@en,
+        "The minimum level of stock is a certain predetermined minimum quantity of raw materials or product inventory which should always be available in stock in the normal course of business."@en ;
+    rdfs:subClassOf :SSO_Stocks .
+
+:NP_Forecast a owl:Class ;
+    rdfs:label "NP Forecast"@en ;
+    rdfs:subClassOf :Forecast .
+
+:OP_Forecast a owl:Class ;
+    rdfs:label "OP Forecast"@en ;
+    rdfs:subClassOf :Forecast .
+
+:Private_Customer a owl:Class ;
+    rdfs:label "Private Customers"@en ;
+    rdfs:subClassOf :Customer .
+
+:Ramp_Up_Stock a owl:Class ;
+    rdfs:label "Ramp Up Stock"@en ;
+    rdfs:subClassOf :SSO_Stocks .
+
+:Retained_Stock a owl:Class ;
+    rdfs:label "Retained Stock"@en ;
+    rdfs:subClassOf :SSO_Stocks .
+
+:Safety_Stock a owl:Class ;
+    rdfs:label "Safety Stock"@en ;
+    rdfs:comment "Describes a level of extra stock that is maintained to mitigate risk of stockouts  caused by uncertainties in supply and demand."@en ;
+    rdfs:subClassOf :SSO_Stocks .
+
+:Standard_Order a owl:Class ;
+    rdfs:label "Standard Order"@en ;
+    rdfs:subClassOf :Order .
+
+:WIP a owl:Class ;
+    rdfs:label "Work In Progress"@en ;
+    rdfs:comment """Work In Progress (WIP) includes the unfinished items for products in a production process. \r
+These items are not yet completed but either just being fabricated or waiting in a queue for further processing."""@en ;
+    rdfs:subClassOf :Stocks .
+
+:calculated_based a owl:ObjectProperty ;
+    rdfs:label "calculated based"@en ;
+    rdfs:domain :Order_Reschedule ;
+    rdfs:range :Supply_Picture .
+
+:calculated_based_on a owl:ObjectProperty ;
+    rdfs:label "calculated based on"@en ;
+    rdfs:domain :Marketing_Demand ;
+    rdfs:range :Sales_Demand .
+
+:calculates a owl:ObjectProperty ;
+    rdfs:label "calculates"@en ;
+    rdfs:domain :Supply_Demand_Match ;
+    rdfs:range :Supply_Picture .
+
+:confirmed_date a owl:DatatypeProperty ;
+    rdfs:label "confirmed date"@en ;
+    rdfs:domain :Open_Order_Book ;
+    rdfs:range xsd:dateTime .
+
+:confirmed_quantity a owl:DatatypeProperty ;
+    rdfs:label "confirmed quantity"@en ;
+    rdfs:domain :Open_Order_Book ;
+    rdfs:range xsd:integer .
+
+:consists_of_open_order_book a owl:ObjectProperty ;
+    rdfs:label "consists of open order book"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range :Open_Order_Book .
+
+:constitutes a owl:ObjectProperty ;
+    rdfs:label "constitutes"@en ;
+    rdfs:domain :Order ;
+    rdfs:range :Sales_Demand .
+
+:consumes a owl:ObjectProperty ;
+    rdfs:label "consumes"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range :Available_To_Promise .
+
+:contributes_to_prioritized_order a owl:ObjectProperty ;
+    rdfs:label "contributes to prioritized order"@en ;
+    rdfs:domain :Order ;
+    rdfs:range :Prioritized_Orders .
+
+:creates_prioritized_order a owl:ObjectProperty ;
+    rdfs:label "creates prioritized order"@en ;
+    rdfs:domain :Customer_Logistics_Management_Representative ;
+    rdfs:range :Prioritized_Orders .
+
+:customer_location a owl:DatatypeProperty ;
+    rdfs:label "customer location"@en ;
+    rdfs:domain :Customer ;
+    rdfs:range xsd:string .
+
+:customers_ID a owl:DatatypeProperty ;
+    rdfs:label "customers ID"@en ;
+    rdfs:domain :Customer ;
+    rdfs:range xsd:integer .
+
+:entered_to a owl:ObjectProperty ;
+    rdfs:label "entered to"@en ;
+    rdfs:domain :Order ;
+    rdfs:range :Customer_Logistics_Management_Representative .
+
+:figured_out_from a owl:ObjectProperty ;
+    rdfs:label "figured out from"@en ;
+    rdfs:domain :Target_Allocation ;
+    rdfs:range :Allocated_Available_To_Promise .
+
+:generates a owl:ObjectProperty ;
+    rdfs:label "generates"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range :Open_Order_Book .
+
+:goes_to a owl:ObjectProperty ;
+    rdfs:label "goes to"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range :Order_Schedule_Line .
+
+:granularity a owl:DatatypeProperty ;
+    rdfs:label "granularity"@en ;
+    rdfs:domain :Customer ;
+    rdfs:range rdfs:Literal .
+
+:has_input_in a owl:ObjectProperty ;
+    rdfs:label "has input in"@en ;
+    rdfs:domain :Prioritized_Orders ;
+    rdfs:range :Operational_Demand .
+
+:has_input_supply_demand_match a owl:ObjectProperty ;
+    rdfs:label "has input"@en ;
+    rdfs:domain :Stocks ;
+    rdfs:range :Supply_Demand_Match .
+
+:has_result_operational_demand a owl:ObjectProperty ;
+    rdfs:label "has result operational demand"@en ;
+    rdfs:domain :Marketing_Demand ;
+    rdfs:range :Operational_Demand .
+
+:is_part_of_operational_demand a owl:ObjectProperty ;
+    rdfs:label "is part of operational demand"@en ;
+    rdfs:domain :Forecast ;
+    rdfs:range :Operational_Demand .
+
+:is_place_orders a owl:ObjectProperty ;
+    rdfs:label "is place orders"@en ;
+    rdfs:domain :Customer ;
+    rdfs:range :Order .
+
+:is_result_of_orders_reschedule a owl:ObjectProperty ;
+    rdfs:label "is result of"@en ;
+    rdfs:domain :NEWs ;
+    rdfs:range :Order_Reschedule .
+
+:is_transfer_to a owl:ObjectProperty ;
+    rdfs:label "is transfer to"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range :Order_Schedule_Line .
+
+:matches a owl:ObjectProperty ;
+    rdfs:label "matches"@en ;
+    rdfs:domain :Capacity_Bottleneck ;
+    rdfs:range :Supply_Demand_Match .
+
+:matches_in a owl:ObjectProperty ;
+    rdfs:label "matches in"@en ;
+    rdfs:domain :Prioritized_Demand ;
+    rdfs:range :Supply_Demand_Match .
+
+:matches_to a owl:ObjectProperty ;
+    rdfs:label "matches to"@en ;
+    rdfs:domain :Aggregated_Capacity ;
+    rdfs:range :Marketing_Demand .
+
+:obtained_from_sales_demand a owl:ObjectProperty ;
+    rdfs:label "obtained from sales demand"@en ;
+    rdfs:domain :Forecast ;
+    rdfs:range :Sales_Demand .
+
+:provides a owl:ObjectProperty ;
+    rdfs:label "provides"@en ;
+    rdfs:domain :Customer_Logistics_Management_Representative ;
+    rdfs:range :Promise .
+
+:result_to a owl:ObjectProperty ;
+    rdfs:label "result to"@en ;
+    rdfs:domain :Bottleneck_Resource ;
+    rdfs:range :Capacity_Bottleneck .
+
+:results_in a owl:ObjectProperty ;
+    rdfs:label "results in"@en ;
+    rdfs:domain :Open_Order_Book ;
+    rdfs:range :Order_Reschedule .
+
+:sent_to a owl:ObjectProperty ;
+    rdfs:label "sent to"@en ;
+    rdfs:domain :NEWs ;
+    rdfs:range :Customer_Logistics_Management_Representative .
+
+:sort_to a owl:ObjectProperty ;
+    rdfs:label "sort to"@en ;
+    rdfs:domain :Order ;
+    rdfs:range :Order_Line_Item .
+
+:transfer_to a owl:ObjectProperty ;
+    rdfs:label "transfer to"@en ;
+    rdfs:domain :Operational_Demand ;
+    rdfs:range :Prioritized_Demand .
+
+:transfers a owl:ObjectProperty ;
+    rdfs:label "transfers"@en ;
+    rdfs:domain :Promise ;
+    rdfs:range :Confirmation .
+
+:use_in a owl:ObjectProperty ;
+    rdfs:label "use in"@en ;
+    rdfs:domain :Bottleneck_Resource ;
+    rdfs:range :Resource_Capacity .
+
+:use_up a owl:ObjectProperty ;
+    rdfs:label "use up"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range :Allocated_Available_To_Promise .
+
+:uses_order_line_item a owl:ObjectProperty ;
+    rdfs:label "uses order line item"@en ;
+    rdfs:domain :Customer_Logistics_Management_Representative ;
+    rdfs:range :Order_Line_Item .
+
+:Available_To_Promise a owl:Class ;
+    rdfs:label "Available To Promise"@en ;
+    rdfs:comment "Available to promise is a business function that provides a response to customer order inquiries, based on resource availability. It generates available quantities of the requested product, and delivery due dates."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Confirmation a owl:Class ;
+    rdfs:label "Confirmation"@en ;
+    rdfs:comment "Order acknowledgement"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:General_Customer a owl:Class ;
+    rdfs:label "General Customers"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe>,
+        :Customer .
+
+:Target_Allocation a owl:Class ;
+    rdfs:label "Target Allocation"@en ;
+    rdfs:comment "The target allocation is the level of allocation planned by the company."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Aggregated_Capacity a owl:Class ;
+    rdfs:label "Aggregated Capacity"@en ;
+    rdfs:comment "(restricted) The Aggregated Capacity Group combines products that are interchangeable in production resources (e.g. can be produced on the same equipment) and having the same capacity consumption. Using an ACG provides flexibility in a way of switching demands of this products within this ACG."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Allocated_Available_To_Promise a owl:Class ;
+    rdfs:label "Allocated Available To Promise"@en ;
+    rdfs:comment """AATP  is a data mart  that shows data from GOAL AATP process, combining data from 3 sources: SAP, I2 Applications and LogDB. \r
+\r
+The universe provides access to the fact tables delivered by GOAL like Availability / Allocation Planning / Seller Mapping / Coverage."""@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Bottleneck_Resource a owl:Class ;
+    rdfs:label "Bottleneck Resource"@en ;
+    rdfs:comment "A bottleneck resource is an obstacle to smooth flow in a process."@en ;
+    rdfs:subClassOf :Resource_Capacity .
+
+:Capacity_Bottleneck a owl:Class ;
+    rdfs:label "Capacity Bottleneck"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:NEWs a owl:Class ;
+    rdfs:label "nEWs"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Order_Schedule_Line a owl:Class ;
+    rdfs:label "Order Schedule Line"@en ;
+    rdfs:comment "Schedule lines contain all the delivery related information"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Prioritized_Demand a owl:Class ;
+    rdfs:label "Prioritized Demand"@en ;
+    rdfs:comment "The demand that should be covered first."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Promise a owl:Class ;
+    rdfs:label "Promise"@en ;
+    rdfs:comment "Is the uncommitted portion of supply by the master production schedule and material plan"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Resource_Capacity a owl:Class ;
+    rdfs:label "Resource Capacity"@en ;
+    rdfs:comment "Resource capacity planning is about comparing future resource utilization of project resources against available capacity to do work."@en ;
+    rdfs:subClassOf :Aggregated_Capacity .
+
+:Supply_Picture a owl:Class ;
+    rdfs:label "Supply Picture"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Marketing_Demand a owl:Class ;
+    rdfs:label "Marketing Demand"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Order_Reschedule a owl:Class ;
+    rdfs:label "Order Reschedule"@en ;
+    rdfs:comment "Any change in the requested order delivery date in an order line is referred to as an order rescheduling."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Prioritized_Orders a owl:Class ;
+    rdfs:label "Prioritized Orders"@en ;
+    rdfs:comment "Orders that should be completed first."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Sales_Demand a owl:Class ;
+    rdfs:label "Sales Demand"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Stocks a owl:Class ;
+    rdfs:label "Stocks"@en ;
+    rdfs:comment "A supply of something for use or sale"@en ;
+    rdfs:subClassOf <http://www.w3.org/ns/ssn/Stimulus> .
+
+:Supply_Demand_Match a owl:Class ;
+    rdfs:label "Supply Demand Match"@en ;
+    rdfs:comment "Supply and demand match when sufficient materials exist to cover material demand while taking available capacity into account."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Customer_Logistics_Management_Representative a owl:Class ;
+    rdfs:label "Customer Logistics Management Representative"@en ;
+    rdfs:comment "A Customer Logistics Management Representative (CLM) is the “one face to our customers” that takes care of all customers’ supply chain topics. He or she channels all customer logistic requirements into Infineon’s organization and balances the needs against our capabilities."@en,
+        "Being the main interface between Customer, Sales and the Supply Chain Planner he is responsible for the demand fulfilment process. It is his task to ensure in-time delivery to customers based on orders and forecasts and to achieve high customer satisfaction."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Open_Order_Book a owl:Class ;
+    rdfs:label "Open Order Book"@en ;
+    rdfs:comment "An order book is a business's list of open, unshipped, customer orders, normally time-phased and valued at actual individual order prices, that may include margin and profitability analysis."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:SSO_Stocks a owl:Class ;
+    rdfs:label "SSO Stocks"@en ;
+    rdfs:subClassOf :Operational_Demand .
+
+:Customer a owl:Class ;
+    rdfs:label "Customer"@en ;
+    rdfs:comment "A person or entity that buys goods or services  from a shop or business."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe>,
+        :General_Customer .
+
+:Forecast a owl:Class ;
+    rdfs:label "Forecast"@en ;
+    rdfs:comment "Forecast is an unconstrained prospect about the customer future demand."@en ;
+    rdfs:subClassOf :Operational_Demand .
+
+:Operational_Demand a owl:Class ;
+    rdfs:label "Operational Demand"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Order_Line_Item a owl:Class ;
+    rdfs:label "Order Line Item"@en ;
+    rdfs:comment "Every product on the order is referenced by a record that includes quantity and a reference to which order it belongs."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+
+:Order a owl:Class ;
+    rdfs:label "Order"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Planning_Lobe> .
+

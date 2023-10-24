@@ -1,0 +1,1730 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#preLabel
+<http://www.w3.org/2004/02/skos/core#preLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-AT#belongs_to_ISA_95_layer
+<http://www.w3id.org/ecsel-dr-AT#belongs_to_ISA_95_layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#belongs_to_ISA_95_layer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#belongs_to_ISA_95_layer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#belongs_to_ISA_95_layer> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to ISA-95 layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#contains_OSI_layer
+<http://www.w3id.org/ecsel-dr-AT#contains_OSI_layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#contains_OSI_layer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AT#OSI_Aggregated_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#contains_OSI_layer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AT#OSI_Detailed_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#contains_OSI_layer> <http://www.w3.org/2000/01/rdf-schema#label> "contains OSI layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#has_IT_module_or_part
+<http://www.w3id.org/ecsel-dr-AT#has_IT_module_or_part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#has_IT_module_or_part> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AT#is_part_of_IT_suite> .
+<http://www.w3id.org/ecsel-dr-AT#has_IT_module_or_part> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#has_IT_module_or_part> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#has_IT_module_or_part> <http://www.w3.org/2000/01/rdf-schema#label> "has IT module or part"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#has_communication_device
+<http://www.w3id.org/ecsel-dr-AT#has_communication_device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#has_communication_device> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AT#is_device_of_OSI_layer> .
+<http://www.w3id.org/ecsel-dr-AT#has_communication_device> <http://www.w3.org/2000/01/rdf-schema#label> "has communication device"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#has_data_transmission_unit
+<http://www.w3id.org/ecsel-dr-AT#has_data_transmission_unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#has_data_transmission_unit> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AT#is_data_transmission_unit_of> .
+<http://www.w3id.org/ecsel-dr-AT#has_data_transmission_unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error56> .
+<http://org.semanticweb.owlapi/error#Error56> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#has_data_transmission_unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AT#Data_Transmission_Unit> .
+<http://www.w3id.org/ecsel-dr-AT#has_data_transmission_unit> <http://www.w3.org/2000/01/rdf-schema#label> "has data transmission unit"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#has_implementation_technology
+<http://www.w3id.org/ecsel-dr-AT#has_implementation_technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#has_implementation_technology> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AT#implements_OSI_layer> .
+<http://www.w3id.org/ecsel-dr-AT#has_implementation_technology> <http://www.w3.org/2000/01/rdf-schema#label> "has implementation technology"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#has_service_description_language
+<http://www.w3id.org/ecsel-dr-AT#has_service_description_language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#has_service_description_language> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AT#is_service_description_language_of> .
+<http://www.w3id.org/ecsel-dr-AT#has_service_description_language> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> .
+<http://www.w3id.org/ecsel-dr-AT#has_service_description_language> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AT#W3C_L5_Data_Semantics> .
+<http://www.w3id.org/ecsel-dr-AT#has_service_description_language> <http://www.w3.org/2000/01/rdf-schema#label> "has service description language"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#has_vendor
+<http://www.w3id.org/ecsel-dr-AT#has_vendor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#has_vendor> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AT#is_vendor_of> .
+<http://www.w3id.org/ecsel-dr-AT#has_vendor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#has_vendor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AT#IT_Vendor> .
+<http://www.w3id.org/ecsel-dr-AT#has_vendor> <http://www.w3.org/2000/01/rdf-schema#label> "has vendor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#implements_OSI_layer
+<http://www.w3id.org/ecsel-dr-AT#implements_OSI_layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#implements_OSI_layer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error57> .
+<http://org.semanticweb.owlapi/error#Error57> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#implements_OSI_layer> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error52> .
+<http://org.semanticweb.owlapi/error#Error52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#implements_OSI_layer> <http://www.w3.org/2000/01/rdf-schema#label> "implements OSI layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#is_data_transmission_unit_of
+<http://www.w3id.org/ecsel-dr-AT#is_data_transmission_unit_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#is_data_transmission_unit_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AT#Data_Transmission_Unit> .
+<http://www.w3id.org/ecsel-dr-AT#is_data_transmission_unit_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error53> .
+<http://org.semanticweb.owlapi/error#Error53> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#is_data_transmission_unit_of> <http://www.w3.org/2000/01/rdf-schema#label> "is data transmission unit of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#is_device_of_OSI_layer
+<http://www.w3id.org/ecsel-dr-AT#is_device_of_OSI_layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#is_device_of_OSI_layer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error58> .
+<http://org.semanticweb.owlapi/error#Error58> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#is_device_of_OSI_layer> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error54> .
+<http://org.semanticweb.owlapi/error#Error54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#is_device_of_OSI_layer> <http://www.w3.org/2000/01/rdf-schema#label> "is device of OSI layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#is_part_of_IT_suite
+<http://www.w3id.org/ecsel-dr-AT#is_part_of_IT_suite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#is_part_of_IT_suite> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#is_part_of_IT_suite> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#is_part_of_IT_suite> <http://www.w3.org/2000/01/rdf-schema#label> "is part of IT suite"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#is_service_description_language_of
+<http://www.w3id.org/ecsel-dr-AT#is_service_description_language_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#is_service_description_language_of> <http://www.w3.org/2000/01/rdf-schema#label> "is service description language of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#is_standard_of
+<http://www.w3id.org/ecsel-dr-AT#is_standard_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#is_standard_of> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AT#standardized_by> .
+<http://www.w3id.org/ecsel-dr-AT#is_standard_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AT#Standard> .
+<http://www.w3id.org/ecsel-dr-AT#is_standard_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3id.org/ecsel-dr-AT#is_standard_of> <http://www.w3.org/2000/01/rdf-schema#label> "is standard of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#is_vendor_of
+<http://www.w3id.org/ecsel-dr-AT#is_vendor_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#is_vendor_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AT#IT_Vendor> .
+<http://www.w3id.org/ecsel-dr-AT#is_vendor_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#is_vendor_of> <http://www.w3.org/2000/01/rdf-schema#label> "is vendor of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#standardized_by
+<http://www.w3id.org/ecsel-dr-AT#standardized_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#standardized_by> <http://www.w3.org/2000/01/rdf-schema#label> "standarized by"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#supported_by_technology_or_protocol
+<http://www.w3id.org/ecsel-dr-AT#supported_by_technology_or_protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#supported_by_technology_or_protocol> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-AT#used_in_ISA_95_communication> .
+<http://www.w3id.org/ecsel-dr-AT#supported_by_technology_or_protocol> <http://www.w3.org/2000/01/rdf-schema#label> "supported by technology or protocol"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#used_in_ISA_95_communication
+<http://www.w3id.org/ecsel-dr-AT#used_in_ISA_95_communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#used_in_ISA_95_communication> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error59> .
+<http://org.semanticweb.owlapi/error#Error59> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#used_in_ISA_95_communication> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error55> .
+<http://org.semanticweb.owlapi/error#Error55> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#used_in_ISA_95_communication> <http://www.w3.org/2000/01/rdf-schema#label> "used in ISA-95 communication"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#used_in_ISA_95_layer
+<http://www.w3id.org/ecsel-dr-AT#used_in_ISA_95_layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-AT#used_in_ISA_95_layer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-AT#Device> .
+<http://www.w3id.org/ecsel-dr-AT#used_in_ISA_95_layer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#used_in_ISA_95_layer> <http://www.w3.org/2000/01/rdf-schema#label> "used in ISA-95 layer"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://org.semanticweb.owlapi/error#Error52
+# 
+# http://org.semanticweb.owlapi/error#Error53
+# 
+# http://org.semanticweb.owlapi/error#Error54
+# 
+# http://org.semanticweb.owlapi/error#Error55
+# 
+# http://org.semanticweb.owlapi/error#Error56
+# 
+# http://org.semanticweb.owlapi/error#Error57
+# 
+# http://org.semanticweb.owlapi/error#Error58
+# 
+# http://org.semanticweb.owlapi/error#Error59
+# 
+# http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe
+<http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr-AT#AMQP
+<http://www.w3id.org/ecsel-dr-AT#AMQP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#AMQP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#AMQP> <http://www.w3.org/2000/01/rdf-schema#label> "AMQP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ANSI
+<http://www.w3id.org/ecsel-dr-AT#ANSI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ANSI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> .
+<http://www.w3id.org/ecsel-dr-AT#ANSI> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a private non-profit organization that oversees the development of voluntary consensus standards for products, services, processes, systems, and personnel in the United States."@en .
+<http://www.w3id.org/ecsel-dr-AT#ANSI> <http://www.w3.org/2000/01/rdf-schema#label> "ANSI"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ANSI_Standard
+<http://www.w3id.org/ecsel-dr-AT#ANSI_Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ANSI_Standard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standard> .
+<http://www.w3id.org/ecsel-dr-AT#ANSI_Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "American National Standards Institute is a private non-profit organization that oversees the development of voluntary consensus standards for products, services, processes, systems, and personnel in the United States."@en .
+<http://www.w3id.org/ecsel-dr-AT#ANSI_Standard> <http://www.w3.org/2000/01/rdf-schema#label> "ANSI Standard"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ANSI_X12_Data_Format
+<http://www.w3id.org/ecsel-dr-AT#ANSI_X12_Data_Format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ANSI_X12_Data_Format> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax> .
+<http://www.w3id.org/ecsel-dr-AT#ANSI_X12_Data_Format> <http://www.w3.org/2000/01/rdf-schema#comment> "Is predominant in North America."@en .
+<http://www.w3id.org/ecsel-dr-AT#ANSI_X12_Data_Format> <http://www.w3.org/2000/01/rdf-schema#label> "ANSI X12 Data Format"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ANSI_X12_Specification
+<http://www.w3id.org/ecsel-dr-AT#ANSI_X12_Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ANSI_X12_Specification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#EDI_Specification> .
+<http://www.w3id.org/ecsel-dr-AT#ANSI_X12_Specification> <http://www.w3.org/2000/01/rdf-schema#label> "ANSI X12 Specification"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#APS
+<http://www.w3id.org/ecsel-dr-AT#APS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#APS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#APS> <http://www.w3.org/2000/01/rdf-schema#comment> "Advanced planning and scheduling system (APS) refers to a manufacturing management process by which raw materials and production capacity are optimally allocated to meet demand."@en .
+<http://www.w3id.org/ecsel-dr-AT#APS> <http://www.w3.org/2000/01/rdf-schema#label> "APS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ARCNET
+<http://www.w3id.org/ecsel-dr-AT#ARCNET> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ARCNET> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#ARCNET> <http://www.w3.org/2000/01/rdf-schema#label> "ARCNET"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#AS2
+<http://www.w3id.org/ecsel-dr-AT#AS2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#AS2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#AS2> <http://www.w3.org/2000/01/rdf-schema#label> "AS2"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Actuator_Device
+<http://www.w3id.org/ecsel-dr-AT#Actuator_Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Actuator_Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Device> .
+<http://www.w3id.org/ecsel-dr-AT#Actuator_Device> <http://www.w3.org/2000/01/rdf-schema#label> "Acutator Device"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Apple_Talk
+<http://www.w3id.org/ecsel-dr-AT#Apple_Talk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Apple_Talk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#Apple_Talk> <http://www.w3.org/2000/01/rdf-schema#label> "Apple Talk"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Assembly_Line_Planning
+<http://www.w3id.org/ecsel-dr-AT#Assembly_Line_Planning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Assembly_Line_Planning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM1_Module> .
+<http://www.w3id.org/ecsel-dr-AT#Assembly_Line_Planning> <http://www.w3.org/2000/01/rdf-schema#label> "Assembly Line Planning"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Auto_Gration_Specification
+<http://www.w3id.org/ecsel-dr-AT#Auto_Gration_Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Auto_Gration_Specification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Data_Language> .
+<http://www.w3id.org/ecsel-dr-AT#Auto_Gration_Specification> <http://www.w3.org/2000/01/rdf-schema#comment> "XML Schema describing the Grammar of data content representing the content of a set of EDIFACT messages.\r\nRelies on XML as data syntax, XML Schema as knowledge representation scheme and on EDIFACT message specifications (like ORDER, ORDRSP, DELFOR, DELJIT etc.). Has no Semantics representation." .
+<http://www.w3id.org/ecsel-dr-AT#Auto_Gration_Specification> <http://www.w3.org/2000/01/rdf-schema#label> "Auto Gration Specification"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Automation_Markup_Language
+<http://www.w3id.org/ecsel-dr-AT#Automation_Markup_Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Automation_Markup_Language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Markup_Language> .
+<http://www.w3id.org/ecsel-dr-AT#Automation_Markup_Language> <http://www.w3.org/2000/01/rdf-schema#label> "Automation Markup Language"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Autonomously_Guided_Vehicle
+<http://www.w3id.org/ecsel-dr-AT#Autonomously_Guided_Vehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Autonomously_Guided_Vehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Actuator_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Autonomously_Guided_Vehicle> <http://www.w3.org/2000/01/rdf-schema#label> "AGV"@en .
+<http://www.w3id.org/ecsel-dr-AT#Autonomously_Guided_Vehicle> <http://www.w3.org/2000/01/rdf-schema#label> "FTF"@de .
+<http://www.w3id.org/ecsel-dr-AT#Autonomously_Guided_Vehicle> <http://www.w3.org/2000/01/rdf-schema#label> "Fahrerloses Transportfahrzeug"@de .
+<http://www.w3id.org/ecsel-dr-AT#Autonomously_Guided_Vehicle> <http://www.w3.org/2004/02/skos/core#preLabel> "Autonomously Guided Vehicle"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#B2MML_Based_Service
+<http://www.w3id.org/ecsel-dr-AT#B2MML_Based_Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#B2MML_Based_Service> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> .
+<http://www.w3id.org/ecsel-dr-AT#B2MML_Based_Service> <http://www.w3.org/2000/01/rdf-schema#comment> "B2MML consists of a set of XML schemas written using the World Wide Web Consortium's XML Schema language (XSD) that implement the data models in the ISA-95 standard."@en .
+<http://www.w3id.org/ecsel-dr-AT#B2MML_Based_Service> <http://www.w3.org/2000/01/rdf-schema#label> "B2MML-Based Service"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#B2M_Markup_Language
+<http://www.w3id.org/ecsel-dr-AT#B2M_Markup_Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#B2M_Markup_Language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Markup_Language> .
+<http://www.w3id.org/ecsel-dr-AT#B2M_Markup_Language> <http://www.w3.org/2000/01/rdf-schema#label> "B2M Markup Language"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#BI_System
+<http://www.w3id.org/ecsel-dr-AT#BI_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#BI_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#BI_System> <http://www.w3.org/2000/01/rdf-schema#comment> "Business intelligence system (BI) comprises the strategies and technologies used by enterprises for the data analysis and management of business information."@en .
+<http://www.w3id.org/ecsel-dr-AT#BI_System> <http://www.w3.org/2000/01/rdf-schema#label> "BI System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Big_Data_Analytics_System
+<http://www.w3id.org/ecsel-dr-AT#Big_Data_Analytics_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Big_Data_Analytics_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#Big_Data_Analytics_System> <http://www.w3.org/2000/01/rdf-schema#label> "Big Data Analytics System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Bit
+<http://www.w3id.org/ecsel-dr-AT#Bit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Bit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Data_Transmission_Unit> .
+<http://www.w3id.org/ecsel-dr-AT#Bit> <http://www.w3.org/2000/01/rdf-schema#label> "Bit"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Bluetooth
+<http://www.w3id.org/ecsel-dr-AT#Bluetooth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Bluetooth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#Bluetooth> <http://www.w3.org/2000/01/rdf-schema#label> "Bluetooth"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Bridge
+<http://www.w3id.org/ecsel-dr-AT#Bridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Bridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Communication_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Bridge> <http://www.w3.org/2000/01/rdf-schema#label> "Bridge"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CAD_System
+<http://www.w3id.org/ecsel-dr-AT#CAD_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CAD_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#CAD_System> <http://www.w3.org/2000/01/rdf-schema#comment> "Computer-aided design system (CAD) is used for creation, modification, analysis, or optimization of a design."@en .
+<http://www.w3id.org/ecsel-dr-AT#CAD_System> <http://www.w3.org/2000/01/rdf-schema#label> "CAD System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CAN_Bus
+<http://www.w3id.org/ecsel-dr-AT#CAN_Bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CAN_Bus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Car_Airplane> .
+<http://www.w3id.org/ecsel-dr-AT#CAN_Bus> <http://www.w3.org/2000/01/rdf-schema#label> "CAN Bus"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF10_VNET_IP
+<http://www.w3id.org/ecsel-dr-AT#CPF10_VNET_IP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF10_VNET_IP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF10_VNET_IP> <http://www.w3.org/2000/01/rdf-schema#label> "CPF10 VNET IP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF11_TC_Net
+<http://www.w3id.org/ecsel-dr-AT#CPF11_TC_Net> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF11_TC_Net> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF11_TC_Net> <http://www.w3.org/2000/01/rdf-schema#label> "CPF11 TC Net"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF12_Ether_CAT
+<http://www.w3id.org/ecsel-dr-AT#CPF12_Ether_CAT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF12_Ether_CAT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF12_Ether_CAT> <http://www.w3.org/2000/01/rdf-schema#label> "CPF12 Ether CAT"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF13_Ethernet_Powerlink
+<http://www.w3id.org/ecsel-dr-AT#CPF13_Ethernet_Powerlink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF13_Ethernet_Powerlink> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF13_Ethernet_Powerlink> <http://www.w3.org/2000/01/rdf-schema#label> "CPF13 Ethernet Powerlink"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF14_EPA
+<http://www.w3id.org/ecsel-dr-AT#CPF14_EPA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF14_EPA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF14_EPA> <http://www.w3.org/2000/01/rdf-schema#label> "CPF14 EPA"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF15_Mod_Bus
+<http://www.w3id.org/ecsel-dr-AT#CPF15_Mod_Bus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF15_Mod_Bus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF15_Mod_Bus> <http://www.w3.org/2000/01/rdf-schema#label> "CPF15 Mod Bus"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF16_SERCOS
+<http://www.w3id.org/ecsel-dr-AT#CPF16_SERCOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF16_SERCOS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF16_SERCOS> <http://www.w3.org/2000/01/rdf-schema#label> "CPF16 SERCOS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF17_RAPI_Net
+<http://www.w3id.org/ecsel-dr-AT#CPF17_RAPI_Net> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF17_RAPI_Net> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF17_RAPI_Net> <http://www.w3.org/2000/01/rdf-schema#label> "CPF17 RAPI Net"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF18_Safety_Net_P
+<http://www.w3id.org/ecsel-dr-AT#CPF18_Safety_Net_P> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF18_Safety_Net_P> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF18_Safety_Net_P> <http://www.w3.org/2000/01/rdf-schema#label> "CPF18 Safety Net P"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF1_FOUNDATION_Fieldbus
+<http://www.w3id.org/ecsel-dr-AT#CPF1_FOUNDATION_Fieldbus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF1_FOUNDATION_Fieldbus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF1_FOUNDATION_Fieldbus> <http://www.w3.org/2000/01/rdf-schema#label> "CPF1 FOUNDATION Fieldbus"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF2_Control_Net
+<http://www.w3id.org/ecsel-dr-AT#CPF2_Control_Net> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF2_Control_Net> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF2_Control_Net> <http://www.w3.org/2000/01/rdf-schema#label> "CPF2 Control Net"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF3_1_Profibus_DP
+<http://www.w3id.org/ecsel-dr-AT#CPF3_1_Profibus_DP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_1_Profibus_DP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#CPF3_Profibus_Profi_Net> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_1_Profibus_DP> <http://www.w3.org/2000/01/rdf-schema#label> "CPF3 1 Profibus DP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF3_2_Profibus_PA
+<http://www.w3id.org/ecsel-dr-AT#CPF3_2_Profibus_PA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_2_Profibus_PA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#CPF3_Profibus_Profi_Net> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_2_Profibus_PA> <http://www.w3.org/2000/01/rdf-schema#label> "CPF3 2 Profibus PA"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF3_3_Profinet_CBA
+<http://www.w3id.org/ecsel-dr-AT#CPF3_3_Profinet_CBA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_3_Profinet_CBA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#CPF3_Profibus_Profi_Net> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_3_Profinet_CBA> <http://www.w3.org/2000/01/rdf-schema#label> "CPF3 3 Profinet CBA"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF3_4_Profinet_IO_Class_A
+<http://www.w3id.org/ecsel-dr-AT#CPF3_4_Profinet_IO_Class_A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_4_Profinet_IO_Class_A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#CPF3_Profibus_Profi_Net> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_4_Profinet_IO_Class_A> <http://www.w3.org/2000/01/rdf-schema#label> "CPF3 4 Profinet IO Class A"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF3_5_Profinet_IO_Class_B
+<http://www.w3id.org/ecsel-dr-AT#CPF3_5_Profinet_IO_Class_B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_5_Profinet_IO_Class_B> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#CPF3_Profibus_Profi_Net> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_5_Profinet_IO_Class_B> <http://www.w3.org/2000/01/rdf-schema#label> "CPF3 5 Profinet IO Class B"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF3_6_Profinet_IO_Class_C
+<http://www.w3id.org/ecsel-dr-AT#CPF3_6_Profinet_IO_Class_C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_6_Profinet_IO_Class_C> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#CPF3_Profibus_Profi_Net> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_6_Profinet_IO_Class_C> <http://www.w3.org/2000/01/rdf-schema#label> "CPF3 6 Profinet IO Class C"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF3_Profibus_Profi_Net
+<http://www.w3id.org/ecsel-dr-AT#CPF3_Profibus_Profi_Net> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_Profibus_Profi_Net> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF3_Profibus_Profi_Net> <http://www.w3.org/2000/01/rdf-schema#label> "CPF3 Profibus Profi Net"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF4_P_NET
+<http://www.w3id.org/ecsel-dr-AT#CPF4_P_NET> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF4_P_NET> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF4_P_NET> <http://www.w3.org/2000/01/rdf-schema#label> "CPF4 P NET"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF5_World_FIP
+<http://www.w3id.org/ecsel-dr-AT#CPF5_World_FIP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF5_World_FIP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF5_World_FIP> <http://www.w3.org/2000/01/rdf-schema#label> "CPF5 World FIP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF6_INTERBUS
+<http://www.w3id.org/ecsel-dr-AT#CPF6_INTERBUS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF6_INTERBUS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF6_INTERBUS> <http://www.w3.org/2000/01/rdf-schema#label> "CPF6 INTERBUS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF7_Swift_Net
+<http://www.w3id.org/ecsel-dr-AT#CPF7_Swift_Net> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF7_Swift_Net> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF7_Swift_Net> <http://www.w3.org/2000/01/rdf-schema#label> "CPF7 Swift Net"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF8_CC_Link
+<http://www.w3id.org/ecsel-dr-AT#CPF8_CC_Link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF8_CC_Link> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF8_CC_Link> <http://www.w3.org/2000/01/rdf-schema#label> "CPF8 CC Link"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#CPF9_HART
+<http://www.w3id.org/ecsel-dr-AT#CPF9_HART> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#CPF9_HART> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> .
+<http://www.w3id.org/ecsel-dr-AT#CPF9_HART> <http://www.w3.org/2000/01/rdf-schema#label> "CPF9 HART"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Character_Set
+<http://www.w3id.org/ecsel-dr-AT#Character_Set> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Character_Set> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L1_Web_Platform> .
+<http://www.w3id.org/ecsel-dr-AT#Character_Set> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a collection of characters that might be used by multiple languages."@en .
+<http://www.w3id.org/ecsel-dr-AT#Character_Set> <http://www.w3.org/2000/01/rdf-schema#label> "Character Set"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Co_AP
+<http://www.w3id.org/ecsel-dr-AT#Co_AP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Co_AP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#Co_AP> <http://www.w3.org/2000/01/rdf-schema#label> "Co AP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Comma_Separated_Values
+<http://www.w3id.org/ecsel-dr-AT#Comma_Separated_Values> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Comma_Separated_Values> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax> .
+<http://www.w3id.org/ecsel-dr-AT#Comma_Separated_Values> <http://www.w3.org/2000/01/rdf-schema#comment> "Comma Separated Values (CSV) is a delimited text file that uses a comma to separate values. Each line of the file is a data record."@en .
+<http://www.w3id.org/ecsel-dr-AT#Comma_Separated_Values> <http://www.w3.org/2000/01/rdf-schema#label> "Comma Separated Values" .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Communication_Device
+<http://www.w3id.org/ecsel-dr-AT#Communication_Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Communication_Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Device> .
+<http://www.w3id.org/ecsel-dr-AT#Communication_Device> <http://www.w3.org/2000/01/rdf-schema#comment> "A communications device is any type of hardware capable of transmitting data, instructions, and information between a sending device and a receiving device."@en .
+<http://www.w3id.org/ecsel-dr-AT#Communication_Device> <http://www.w3.org/2000/01/rdf-schema#label> "Communication Device"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Computer
+<http://www.w3id.org/ecsel-dr-AT#Computer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Computer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Device> .
+<http://www.w3id.org/ecsel-dr-AT#Computer> <http://www.w3.org/2000/01/rdf-schema#comment> "A computer is a machine that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming."@en .
+<http://www.w3id.org/ecsel-dr-AT#Computer> <http://www.w3.org/2000/01/rdf-schema#label> "Computer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Control_Device
+<http://www.w3id.org/ecsel-dr-AT#Control_Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Control_Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Device> .
+<http://www.w3id.org/ecsel-dr-AT#Control_Device> <http://www.w3.org/2000/01/rdf-schema#comment> "Output devices that work in conjunction with sensor input devices and commands from computers in order to control a process."@en .
+<http://www.w3id.org/ecsel-dr-AT#Control_Device> <http://www.w3.org/2000/01/rdf-schema#label> "Control Device"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#DDS
+<http://www.w3id.org/ecsel-dr-AT#DDS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#DDS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#DDS> <http://www.w3.org/2000/01/rdf-schema#label> "DDS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#DHCP
+<http://www.w3id.org/ecsel-dr-AT#DHCP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#DHCP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#DHCP> <http://www.w3.org/2000/01/rdf-schema#label> "DHCP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#DNS
+<http://www.w3id.org/ecsel-dr-AT#DNS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#DNS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#DNS> <http://www.w3.org/2000/01/rdf-schema#label> "DNS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#DNS_SD
+<http://www.w3id.org/ecsel-dr-AT#DNS_SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#DNS_SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#DNS_SD> <http://www.w3.org/2000/01/rdf-schema#label> "DNS SD"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#DPWS
+<http://www.w3id.org/ecsel-dr-AT#DPWS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#DPWS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> .
+<http://www.w3id.org/ecsel-dr-AT#DPWS> <http://www.w3.org/2000/01/rdf-schema#label> "DPWS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#DSL
+<http://www.w3id.org/ecsel-dr-AT#DSL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#DSL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#DSL> <http://www.w3.org/2000/01/rdf-schema#label> "DSL"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Data_Language_Semantic_Web_Stack_Based
+<http://www.w3id.org/ecsel-dr-AT#Data_Language_Semantic_Web_Stack_Based> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Data_Language_Semantic_Web_Stack_Based> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L3_Knowledge_Representation> .
+<http://www.w3id.org/ecsel-dr-AT#Data_Language_Semantic_Web_Stack_Based> <http://www.w3.org/2000/01/rdf-schema#label> "Data Language Semantic Web Stack Based"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Data_Language_XML_Based
+<http://www.w3id.org/ecsel-dr-AT#Data_Language_XML_Based> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Data_Language_XML_Based> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L3_Knowledge_Representation> .
+<http://www.w3id.org/ecsel-dr-AT#Data_Language_XML_Based> <http://www.w3.org/2000/01/rdf-schema#label> "Data Language XML-Based"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Data_Transmission_Unit
+<http://www.w3id.org/ecsel-dr-AT#Data_Transmission_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Data_Transmission_Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#Data_Transmission_Unit> <http://www.w3.org/2000/01/rdf-schema#comment> "Units of technical data transfer. Shows the different data groupings at the  ISO/OSI communication layers, e.g. bits on the physical link layer and packets at the network layer."@en .
+<http://www.w3id.org/ecsel-dr-AT#Data_Transmission_Unit> <http://www.w3.org/2000/01/rdf-schema#label> "Data Transmission Unit"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Database_System
+<http://www.w3id.org/ecsel-dr-AT#Database_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Database_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#Database_System> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an organized collection of data, generally stored and accessed electronically from a computer system."@en .
+<http://www.w3id.org/ecsel-dr-AT#Database_System> <http://www.w3.org/2000/01/rdf-schema#label> "Database System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Device
+<http://www.w3id.org/ecsel-dr-AT#Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Device> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-PWR#Device> .
+<http://www.w3id.org/ecsel-dr-PWR#Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#Device> <http://www.w3.org/2000/01/rdf-schema#label> "Device"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Device_Control_App
+<http://www.w3id.org/ecsel-dr-AT#Device_Control_App> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Device_Control_App> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#Device_Control_App> <http://www.w3.org/2000/01/rdf-schema#label> "Davice Control App"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Digital_Factory_System
+<http://www.w3id.org/ecsel-dr-AT#Digital_Factory_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Digital_Factory_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#Digital_Factory_System> <http://www.w3.org/2000/01/rdf-schema#comment> "The term \"Digital Factory\" is used in different meanings today and should hence not longer be used. \r\nIt should be replaced by more specific terms like \"Digital Factory Planning system\" or \"Digital Factory Twin\". \r\nOriginally, Digital Factory referred to software tools for computer-aided planning, design, engineering and simulation of production, manufacturing, or assembly systems. These tools supplemented CAD-based tools for factory layout planning and tools for computer-aided tools for production engineering (work plan preparation, production process planning) and were glued together with them to PLM software suites. \r\nAs today even CAD-based layout planning and process planning tools are \"digital\" and refer to the factory, the terms \"Digital Factory tool\" and \"Production Engineering tool\" more and more converge. \r\nAt the same time, automation vendors start to use the concept \"Digital Factory\" to address online monitoring and control tools for production systems. In this meaning, the term is a synonym for \"Digital Factory Twin\" or \"Digital Twin of a Factory\". \r\nThe important difference between these two meanings is the phase in the life cycle in which the tool is used: Manufacturing Planning / Eingineering is conducted mainly in the first two lifecycle phases in which the product (type, class) is created, designed, and engineered, as well as the corresponding production system. \r\nThe online monitoring and control is conducted during the third phase, in which the product individuals are produced on the existing production system. \r\nHartwig Baumgaertel, 2018-11-12"@en .
+<http://www.w3id.org/ecsel-dr-AT#Digital_Factory_System> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Factory System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Digital_Factory_Twin
+<http://www.w3id.org/ecsel-dr-AT#Digital_Factory_Twin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Digital_Factory_Twin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM2_Module> .
+<http://www.w3id.org/ecsel-dr-AT#Digital_Factory_Twin> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Factory Twin"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Document_Type_Description
+<http://www.w3id.org/ecsel-dr-AT#Document_Type_Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Document_Type_Description> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Data_Language_XML_Based> .
+<http://www.w3id.org/ecsel-dr-AT#Document_Type_Description> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a set of markup declarations that define a document type for an SGML-family markup language (GML, SGML, XML, HTML)."@en .
+<http://www.w3id.org/ecsel-dr-AT#Document_Type_Description> <http://www.w3.org/2000/01/rdf-schema#label> "Document Type Description"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#EDIFACT_DELFOR
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_DELFOR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_DELFOR> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#EDIFACT_Specification> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_DELFOR> <http://www.w3.org/2000/01/rdf-schema#label> "EDIFACT DELFOR"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#EDIFACT_DELJIT
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_DELJIT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_DELJIT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#EDIFACT_Specification> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_DELJIT> <http://www.w3.org/2000/01/rdf-schema#label> "EDIFACT DELJIT"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#EDIFACT_DESADV
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_DESADV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_DESADV> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#EDIFACT_Specification> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_DESADV> <http://www.w3.org/2000/01/rdf-schema#label> "EDIFACT DESADV"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#EDIFACT_Data_Format
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_Data_Format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_Data_Format> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_Data_Format> <http://www.w3.org/2000/01/rdf-schema#comment> "Data Format of EDIFACT messages. \r\nDescribes e.g. block organization, data field separators etc. \r\nHolds for all EDIFACT messages (which are described in DataSemantics class hierarchy)."@de .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_Data_Format> <http://www.w3.org/2000/01/rdf-schema#label> "EDIFACT Data Format"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#EDIFACT_ORDERS
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_ORDERS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_ORDERS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#EDIFACT_Specification> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_ORDERS> <http://www.w3.org/2000/01/rdf-schema#label> "EDIFACT ORDERS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#EDIFACT_ORDRSP
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_ORDRSP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_ORDRSP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#EDIFACT_Specification> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_ORDRSP> <http://www.w3.org/2000/01/rdf-schema#label> "EDIFACT ORDRSP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#EDIFACT_Specification
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_Specification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#EDI_Specification> .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_Specification> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an Electronic Data Interchange format used in Business-to-business transactions. It allows EDIFACT message types to be used by XML systems."@en .
+<http://www.w3id.org/ecsel-dr-AT#EDIFACT_Specification> <http://www.w3.org/2000/01/rdf-schema#label> "EDIFACT Specification"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#EDI_Specification
+<http://www.w3id.org/ecsel-dr-AT#EDI_Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#EDI_Specification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L5_Data_Semantics> .
+<http://www.w3id.org/ecsel-dr-AT#EDI_Specification> <http://www.w3.org/2000/01/rdf-schema#comment> "It provides a technical basis for automated commercial \"conversations\" between two entities, either internal or external."@en .
+<http://www.w3id.org/ecsel-dr-AT#EDI_Specification> <http://www.w3.org/2000/01/rdf-schema#label> "EDI Specification"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ERP_System
+<http://www.w3id.org/ecsel-dr-AT#ERP_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ERP_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#ERP_System> <http://www.w3.org/2000/01/rdf-schema#comment> "Enterprise resource planning system (ERP) is a system for integrated management of main business processes."@en .
+<http://www.w3id.org/ecsel-dr-AT#ERP_System> <http://www.w3.org/2000/01/rdf-schema#label> "ERP System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Electric_Drive
+<http://www.w3id.org/ecsel-dr-AT#Electric_Drive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Electric_Drive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Actuator_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Electric_Drive> <http://www.w3.org/2000/01/rdf-schema#label> "Electric Drive"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Enocean
+<http://www.w3id.org/ecsel-dr-AT#Enocean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Enocean> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#Enocean> <http://www.w3.org/2000/01/rdf-schema#label> "Enocean"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Ethernet_802_3
+<http://www.w3id.org/ecsel-dr-AT#Ethernet_802_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Ethernet_802_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#Ethernet_802_3> <http://www.w3.org/2000/01/rdf-schema#label> "Ethernet 802 3"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#FDDI
+<http://www.w3id.org/ecsel-dr-AT#FDDI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#FDDI> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#FDDI> <http://www.w3.org/2000/01/rdf-schema#label> "FDDI"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#FTP
+<http://www.w3id.org/ecsel-dr-AT#FTP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#FTP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#FTP> <http://www.w3.org/2000/01/rdf-schema#label> "FTP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Factory_Layout_Planning
+<http://www.w3id.org/ecsel-dr-AT#Factory_Layout_Planning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Factory_Layout_Planning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM1_Module> .
+<http://www.w3id.org/ecsel-dr-AT#Factory_Layout_Planning> <http://www.w3.org/2000/01/rdf-schema#label> "Factory Layout Planning"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Factory_Simulation_System
+<http://www.w3id.org/ecsel-dr-AT#Factory_Simulation_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Factory_Simulation_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Simulation_System> .
+<http://www.w3id.org/ecsel-dr-AT#Factory_Simulation_System> <http://www.w3.org/2000/01/rdf-schema#label> "Factory Simulation System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Fieldbus_Car_Airplane
+<http://www.w3id.org/ecsel-dr-AT#Fieldbus_Car_Airplane> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Fieldbus_Car_Airplane> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#Fieldbus_Car_Airplane> <http://www.w3.org/2000/01/rdf-schema#label> "Fieldbus Car Airplane"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family
+<http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> <http://www.w3.org/2000/01/rdf-schema#comment> "A field bus is a bus system that connects field devices such as sensors and actuators in a plant for the purpose of communication with an automation device. If several communication participants send their messages over the same line, then it must be specified who (identifier) says what (measured value, command) and when (initiative). There are standardized protocols for this.\r\nThe first generation of fieldbus technology was developed in the 1980s to replace the parallel wiring of binary signals and analog signal transmission that had been common until then with digital transmission technology. Today, many different fieldbus systems with different characteristics are established on the market. Since 1999, fieldbuses have been standardized worldwide in the IEC 61158 standard (Digital data communication for measurement and control - Fieldbus for use in industrial control systems) and by the IEC 61784 standard.    \r\nThe second generation of fieldbus technology is based on real-time Ethernet (Industrial Ethernet).\r\n\r\nA fieldbus defines a complete protocol stack over the 7 layers of the OSI layer model. If necessary, not all layers are occupied.\r\n\r\nExample for first generation fieldbus is Profibus, \r\nExample for second generation fieldbus is ProfiNet."@en .
+<http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> <http://www.w3.org/2000/01/rdf-schema#comment> "Beispiel für Feldbus der ersten Generation ist Profibus, \r\nBeispiel für Feldbus der zweiten Generation ist ProfiNet."@de .
+<http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Feldbus ist ein Bussystem, das in einer Anlage Feldgeräte wie Messfühler (Sensoren) und Stellglieder (Aktoren) zwecks Kommunikation mit einem Automatisierungsgerät verbindet. Wenn mehrere Kommunikationsteilnehmer ihre Nachrichten über dieselbe Leitung senden, dann muss festgelegt sein, wer (Kennung) was (Messwert, Befehl) wann (Initiative) sagt. Hierfür gibt es normierte Protokolle.\r\nDie erste Generation der Feldbustechnik wurde in den 1980er Jahren entwickelt, um die bis dahin übliche Parallelverdrahtung binärer Signale sowie die analoge Signalübertragung durch digitale Übertragungstechnik zu ersetzen. Heute sind viele unterschiedliche Feldbussysteme mit unterschiedlichen Eigenschaften am Markt etabliert. Seit 1999 werden Feldbusse in der Norm IEC 61158 (Digital data communication for measurement and control - Fieldbus for use in industrial control systems) sowie durch die Norm IEC 61784 weltweit standardisiert.    \r\nDie zweite Generation der Feldbustechnik basiert auf Echtzeit-Ethernet (Industrial Ethernet)."@de .
+<http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein Feldbus definiert einen kompletten Protokoll-Stack über die 7 SChichten des OSI-Schichtenmodells. Ggf. werden nicht alle Schichten belegt." .
+<http://www.w3id.org/ecsel-dr-AT#Fieldbus_Communication_Profile_Family> <http://www.w3.org/2000/01/rdf-schema#label> "Fieldbus Communication Profile Family"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Frame
+<http://www.w3id.org/ecsel-dr-AT#Frame> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Frame> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Data_Transmission_Unit> .
+<http://www.w3id.org/ecsel-dr-AT#Frame> <http://www.w3.org/2000/01/rdf-schema#label> "Frame"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Gateway
+<http://www.w3id.org/ecsel-dr-AT#Gateway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Gateway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Communication_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Gateway> <http://www.w3.org/2000/01/rdf-schema#label> "Gateway"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#HTML
+<http://www.w3id.org/ecsel-dr-AT#HTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#HTML> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax> .
+<http://www.w3id.org/ecsel-dr-AT#HTML> <http://www.w3.org/2000/01/rdf-schema#comment> "Is the standard markup language for documents designed to be displayed in a web browser."@en .
+<http://www.w3id.org/ecsel-dr-AT#HTML> <http://www.w3.org/2000/01/rdf-schema#label> "HTML"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#HTTP
+<http://www.w3id.org/ecsel-dr-AT#HTTP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#HTTP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#HTTP> <http://www.w3.org/2000/01/rdf-schema#label> "HTTP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#HTTPS
+<http://www.w3id.org/ecsel-dr-AT#HTTPS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#HTTPS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#HTTPS> <http://www.w3.org/2000/01/rdf-schema#label> "HTTPS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Hub
+<http://www.w3id.org/ecsel-dr-AT#Hub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Hub> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Communication_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Hub> <http://www.w3.org/2000/01/rdf-schema#label> "Hub"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#IEC
+<http://www.w3id.org/ecsel-dr-AT#IEC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#IEC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> .
+<http://www.w3id.org/ecsel-dr-AT#IEC> <http://www.w3.org/2000/01/rdf-schema#label> "IEC"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#IEC_Standard
+<http://www.w3id.org/ecsel-dr-AT#IEC_Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#IEC_Standard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standard> .
+<http://www.w3id.org/ecsel-dr-AT#IEC_Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "Standard maintained and published by International Electrotechnical Commission"@en .
+<http://www.w3id.org/ecsel-dr-AT#IEC_Standard> <http://www.w3.org/2000/01/rdf-schema#label> "IEC Standard"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#IEEE
+<http://www.w3id.org/ecsel-dr-AT#IEEE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#IEEE> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> .
+<http://www.w3id.org/ecsel-dr-AT#IEEE> <http://www.w3.org/2000/01/rdf-schema#label> "IEEE"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#IEEE_Standard
+<http://www.w3id.org/ecsel-dr-AT#IEEE_Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#IEEE_Standard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standard> .
+<http://www.w3id.org/ecsel-dr-AT#IEEE_Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an organization within IEEE (Institute of Electrical and Electronics Engineers) that develops global standards in a broad range of industries."@en .
+<http://www.w3id.org/ecsel-dr-AT#IEEE_Standard> <http://www.w3.org/2000/01/rdf-schema#label> "IEEE Standard"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#IETF
+<http://www.w3id.org/ecsel-dr-AT#IETF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#IETF> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> .
+<http://www.w3id.org/ecsel-dr-AT#IETF> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an open standards organization, which develops and promotes voluntary Internet standards, in particular the standards that comprise the Internet protocol suite"@en .
+<http://www.w3id.org/ecsel-dr-AT#IETF> <http://www.w3.org/2000/01/rdf-schema#label> "IETF"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#IETF_Standard
+<http://www.w3id.org/ecsel-dr-AT#IETF_Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#IETF_Standard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standard> .
+<http://www.w3id.org/ecsel-dr-AT#IETF_Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "Internet Engineering Task Forces is an open standards organization, which develops and promotes voluntary Internet standards, in particular the standards that comprise the Internet protocol suite."@en .
+<http://www.w3id.org/ecsel-dr-AT#IETF_Standard> <http://www.w3.org/2000/01/rdf-schema#label> "IETF Standard"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#IMAP
+<http://www.w3id.org/ecsel-dr-AT#IMAP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#IMAP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#IMAP> <http://www.w3.org/2000/01/rdf-schema#label> "IMAP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA
+<http://www.w3id.org/ecsel-dr-AT#ISA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> .
+<http://www.w3id.org/ecsel-dr-AT#ISA> <http://www.w3.org/2000/01/rdf-schema#label> "ISA"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Automation_Hierarchy
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Automation_Hierarchy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Automation_Hierarchy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Network_Layer_Model> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Automation_Hierarchy> <http://www.w3.org/2000/01/rdf-schema#label> "ISA 95 Automation Hierarchy"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_1
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Communication> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_1> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Comm 1 1"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_2
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Communication> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_2> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Comm 1 2"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_3
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Cross_Layer_Communication> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_3> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Comm 1 3"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_4
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Cross_Layer_Communication> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_1_4> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Comm 1 4"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_2_2
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_2_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Communication> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_2_2> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Comm 2 2"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_2_3
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_2_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_2_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Communication> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_2_3> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Comm 2 3"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_2_4
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_2_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_2_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Cross_Layer_Communication> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_2_4> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Comm 2 4"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_3_3
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_3_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_3_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Communication> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_3_3> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Comm 3 3"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_3_4
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_3_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_3_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Communication> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_3_4> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Comm 3 4"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_4_4
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_4_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_4_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Communication> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Comm_4_4> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Comm 4 4"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Communication
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Communication> <http://www.w3.org/2000/01/rdf-schema#comment> "ISA-95 is an international standard from the International Society of Automation for developing an automated interface between enterprise and control systems."@en .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Communication> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Communication"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Cross_Layer_Communication
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Cross_Layer_Communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Cross_Layer_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Cross_Layer_Communication> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Cross Layer Communication"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_0_Physical_Process
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_0_Physical_Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_0_Physical_Process> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_0_Physical_Process> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Layer 0 Physical Process"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_1_Sensors_Actuators
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_1_Sensors_Actuators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_1_Sensors_Actuators> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_1_Sensors_Actuators> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Layer 1 Sensors Actuators"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_2_Distributed_Control_SCADA
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_2_Distributed_Control_SCADA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_2_Distributed_Control_SCADA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_2_Distributed_Control_SCADA> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Layer 2 Distributed Control SCADA"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_3_MES_LES
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_3_MES_LES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_3_MES_LES> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_3_MES_LES> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Layer 3 MES LES"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_4_ERP
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_4_ERP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_4_ERP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_4_ERP> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the business-related activities needed to manage a manufacturing operation."@en .
+<http://www.w3id.org/ecsel-dr-AT#ISA_95_Layer_4_ERP> <http://www.w3.org/2000/01/rdf-schema#label> "ISA-95 Layer 4 ERP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISA_Standard
+<http://www.w3id.org/ecsel-dr-AT#ISA_Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_Standard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standard> .
+<http://www.w3id.org/ecsel-dr-AT#ISA_Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "Standards for Automation is one of the foremost professional organizations in the world for setting standards and educating industry professionals in automation."@en .
+<http://www.w3id.org/ecsel-dr-AT#ISA_Standard> <http://www.w3.org/2000/01/rdf-schema#label> "ISA Standard"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISO
+<http://www.w3id.org/ecsel-dr-AT#ISO> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISO> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> .
+<http://www.w3id.org/ecsel-dr-AT#ISO> <http://www.w3.org/2000/01/rdf-schema#label> "ISO"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#ISO_Standard
+<http://www.w3id.org/ecsel-dr-AT#ISO_Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#ISO_Standard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standard> .
+<http://www.w3id.org/ecsel-dr-AT#ISO_Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "International Organization for Standardization is an international standard-setting body composed of representatives from various national standards organizations."@en .
+<http://www.w3id.org/ecsel-dr-AT#ISO_Standard> <http://www.w3.org/2000/01/rdf-schema#label> "ISO Standard"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#IT_System
+<http://www.w3id.org/ecsel-dr-AT#IT_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#IT_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#IT_System> <http://www.w3.org/2000/01/rdf-schema#comment> "An information system is a formal, sociotechnical, organizational system designed to collect, process, store, and distribute information."@en .
+<http://www.w3id.org/ecsel-dr-AT#IT_System> <http://www.w3.org/2000/01/rdf-schema#label> "IT System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#IT_Vendor
+<http://www.w3id.org/ecsel-dr-AT#IT_Vendor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#IT_Vendor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#IT_Vendor> <http://www.w3.org/2000/01/rdf-schema#comment> "A provider of IT systems and services"@en .
+<http://www.w3id.org/ecsel-dr-AT#IT_Vendor> <http://www.w3.org/2000/01/rdf-schema#label> "IT Vendor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Industrial_Ethernet
+<http://www.w3id.org/ecsel-dr-AT#Industrial_Ethernet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Industrial_Ethernet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#Industrial_Ethernet> <http://www.w3.org/2000/01/rdf-schema#label> "Industrial Ethernet"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Industrial_WLAN
+<http://www.w3id.org/ecsel-dr-AT#Industrial_WLAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Industrial_WLAN> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#Industrial_WLAN> <http://www.w3.org/2000/01/rdf-schema#label> "Industrial WLAN"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Industry_PC
+<http://www.w3id.org/ecsel-dr-AT#Industry_PC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Industry_PC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Control_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Industry_PC> <http://www.w3.org/2000/01/rdf-schema#label> "Industry PC"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#JSON
+<http://www.w3id.org/ecsel-dr-AT#JSON> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#JSON> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax> .
+<http://www.w3id.org/ecsel-dr-AT#JSON> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an open standard file format, and data interchange format, that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value)."@en .
+<http://www.w3id.org/ecsel-dr-AT#JSON> <http://www.w3.org/2000/01/rdf-schema#label> "JSON"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#KPI_Markup_Language
+<http://www.w3id.org/ecsel-dr-AT#KPI_Markup_Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#KPI_Markup_Language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Markup_Language> .
+<http://www.w3id.org/ecsel-dr-AT#KPI_Markup_Language> <http://www.w3.org/2000/01/rdf-schema#label> "KPI Markup Language"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#LES
+<http://www.w3id.org/ecsel-dr-AT#LES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#LES> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#LES> <http://www.w3.org/2000/01/rdf-schema#label> "LES"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#LIMS
+<http://www.w3id.org/ecsel-dr-AT#LIMS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#LIMS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#LIMS> <http://www.w3.org/2000/01/rdf-schema#comment> "A laboratory information management system (LIMS)  is a software-based solution with features that support a modern laboratory's operations."@en .
+<http://www.w3id.org/ecsel-dr-AT#LIMS> <http://www.w3.org/2000/01/rdf-schema#label> "LIMS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Lo_Ra_WAN
+<http://www.w3id.org/ecsel-dr-AT#Lo_Ra_WAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Lo_Ra_WAN> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#Lo_Ra_WAN> <http://www.w3.org/2000/01/rdf-schema#label> "Lo Ra WAN"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#MES
+<http://www.w3id.org/ecsel-dr-AT#MES> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#MES> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#MES> <http://www.w3.org/2000/01/rdf-schema#comment> "Manufacturing execution system (MES) is a computerized systems used in manufacturing to track and document the transformation of raw materials to finished goods."@en .
+<http://www.w3id.org/ecsel-dr-AT#MES> <http://www.w3.org/2000/01/rdf-schema#label> "MES"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#MESA
+<http://www.w3id.org/ecsel-dr-AT#MESA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#MESA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> .
+<http://www.w3id.org/ecsel-dr-AT#MESA> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a worldwide not-for-profit community of manufacturing companies, information technology hardware and software suppliers, system integrators, consulting service providers, analysts, editors, academics, and students."@en .
+<http://www.w3id.org/ecsel-dr-AT#MESA> <http://www.w3.org/2000/01/rdf-schema#comment> "especially MESA XML Committee"@en .
+<http://www.w3id.org/ecsel-dr-AT#MESA> <http://www.w3.org/2000/01/rdf-schema#label> "MESA"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#MESA_Standard
+<http://www.w3id.org/ecsel-dr-AT#MESA_Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#MESA_Standard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standard> .
+<http://www.w3id.org/ecsel-dr-AT#MESA_Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "Modular Energy System Architecture is a worldwide not-for-profit community of manufacturing companies, information technology hardware and software suppliers, system integrators, consulting service providers, analysts, editors, academics, and students."@en .
+<http://www.w3id.org/ecsel-dr-AT#MESA_Standard> <http://www.w3.org/2000/01/rdf-schema#label> "MESA Standard"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#MIS
+<http://www.w3id.org/ecsel-dr-AT#MIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#MIS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#MIS> <http://www.w3.org/2000/01/rdf-schema#comment> "A management information system (MIS) is an information system used for decision-making, coordination, control, analysis, and visualization of information in an organization."@en .
+<http://www.w3id.org/ecsel-dr-AT#MIS> <http://www.w3.org/2000/01/rdf-schema#label> "MIS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#MQTT
+<http://www.w3id.org/ecsel-dr-AT#MQTT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#MQTT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#MQTT> <http://www.w3.org/2000/01/rdf-schema#comment> "MQTT is not only application protocol. It's take layers 5-7 (App, Presentation and Session).\r\nFor example, you can see that MQTT has Persistent Session. It means MQTT contains Session Layer."@de .
+<http://www.w3id.org/ecsel-dr-AT#MQTT> <http://www.w3.org/2000/01/rdf-schema#comment> "MQTT[1] (Message Queuing Telemetry Transport) is an ISO standard (ISO/IEC PRF 20922)[2] publish-subscribe-based messaging protocol. It works on top of the TCP/IP protocol. It is designed for connections with remote locations where a \"small code footprint\" is required or the network bandwidth is limited. The publish-subscribe messaging pattern requires a message broker.\r\n\r\nAndy Stanford-Clark of IBM and Arlen Nipper of Cirrus Link authored the first version of the protocol in 1999.[3]\r\n\r\nThe specification does not specify the meaning of \"small code footprint\" or the meaning of \"limited network bandwidth\". Thus, the protocol's availability for use depends on the context. In 2013, IBM submitted MQTT v3.1 to the OASIS specification body with a charter that ensured only minor changes to the specification could be accepted.[4] MQTT-SN[5] is a variation of the main protocol aimed at embedded devices on non-TCP/IP networks, such as ZigBee.\r\n\r\nHistorically, the \"MQ\" in \"MQTT\" came from IBM's MQ Series message queuing product line.[6] However, queuing itself is not required to be supported as a standard feature in all situations.[7]\r\n\r\nAlternative protocols include the Advanced Message Queuing Protocol (AMQP), Streaming Text Oriented Messaging Protocol (STOMP), the IETF Constrained Application Protocol,[8] XMPP,[9][10] DDS,[11] OPC UA,[12] and Web Application Messaging Protocol (WAMP). (https://en.wikipedia.org/wiki/MQTT)"@en .
+<http://www.w3id.org/ecsel-dr-AT#MQTT> <http://www.w3.org/2000/01/rdf-schema#label> "MQTT"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#MQTT_Non_TCPIP_Based
+<http://www.w3id.org/ecsel-dr-AT#MQTT_Non_TCPIP_Based> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#MQTT_Non_TCPIP_Based> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#MQTT> .
+<http://www.w3id.org/ecsel-dr-AT#MQTT_Non_TCPIP_Based> <http://www.w3.org/2000/01/rdf-schema#label> "MQTT Non TCPIP Based"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#MQTT_SN
+<http://www.w3id.org/ecsel-dr-AT#MQTT_SN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#MQTT_SN> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#MQTT_Non_TCPIP_Based> .
+<http://www.w3id.org/ecsel-dr-AT#MQTT_SN> <http://www.w3.org/2000/01/rdf-schema#label> "MQTT SN"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#MQTT_TCPIP
+<http://www.w3id.org/ecsel-dr-AT#MQTT_TCPIP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#MQTT_TCPIP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#MQTT_TCPIP_Based> .
+<http://www.w3id.org/ecsel-dr-AT#MQTT_TCPIP> <http://www.w3.org/2000/01/rdf-schema#label> "MQTT TCPIP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#MQTT_TCPIP_Based
+<http://www.w3id.org/ecsel-dr-AT#MQTT_TCPIP_Based> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#MQTT_TCPIP_Based> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#MQTT> .
+<http://www.w3id.org/ecsel-dr-AT#MQTT_TCPIP_Based> <http://www.w3.org/2000/01/rdf-schema#label> "MQTT TCPIP Based"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Machine_Simulation_System
+<http://www.w3id.org/ecsel-dr-AT#Machine_Simulation_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Machine_Simulation_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Simulation_System> .
+<http://www.w3id.org/ecsel-dr-AT#Machine_Simulation_System> <http://www.w3.org/2000/01/rdf-schema#label> "Machine Simulation System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Manufacturing_Simulation_System
+<http://www.w3id.org/ecsel-dr-AT#Manufacturing_Simulation_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Manufacturing_Simulation_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Simulation_System> .
+<http://www.w3id.org/ecsel-dr-AT#Manufacturing_Simulation_System> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturing Simulation System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Markup_Language
+<http://www.w3id.org/ecsel-dr-AT#Markup_Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Markup_Language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L5_Data_Semantics> .
+<http://www.w3id.org/ecsel-dr-AT#Markup_Language> <http://www.w3.org/2000/01/rdf-schema#comment> "Markup Language (ML) is a system for annotating a document in a way that is syntactically distinguishable from the text, meaning when the document is processed for display, the markup language is not shown, and is only used to format the text."@en .
+<http://www.w3id.org/ecsel-dr-AT#Markup_Language> <http://www.w3.org/2000/01/rdf-schema#label> "Markup Language"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Material_Flow_Planning
+<http://www.w3id.org/ecsel-dr-AT#Material_Flow_Planning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Material_Flow_Planning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM1_Module> .
+<http://www.w3id.org/ecsel-dr-AT#Material_Flow_Planning> <http://www.w3.org/2000/01/rdf-schema#label> "Material Flow Planning"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Material_Flow_Simulation
+<http://www.w3id.org/ecsel-dr-AT#Material_Flow_Simulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Material_Flow_Simulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM1_Module> .
+<http://www.w3id.org/ecsel-dr-AT#Material_Flow_Simulation> <http://www.w3.org/2000/01/rdf-schema#label> "Material Flow Simulation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Message
+<http://www.w3id.org/ecsel-dr-AT#Message> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Message> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Data_Transmission_Unit> .
+<http://www.w3id.org/ecsel-dr-AT#Message> <http://www.w3.org/2000/01/rdf-schema#label> "Message"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Message_Broker_System
+<http://www.w3id.org/ecsel-dr-AT#Message_Broker_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Message_Broker_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#Message_Broker_System> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an intermediary computer program module that translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver."@en .
+<http://www.w3id.org/ecsel-dr-AT#Message_Broker_System> <http://www.w3.org/2000/01/rdf-schema#label> "Message Broker System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Microcontroller
+<http://www.w3id.org/ecsel-dr-AT#Microcontroller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Microcontroller> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Microcontroller> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-PWR#Microcontroller> .
+<http://www.w3id.org/ecsel-dr-PWR#Microcontroller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Microcontroller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Control_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Microcontroller> <http://www.w3.org/2000/01/rdf-schema#label> "Microcontroller"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#N3_TURTLE
+<http://www.w3id.org/ecsel-dr-AT#N3_TURTLE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#N3_TURTLE> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax> .
+<http://www.w3id.org/ecsel-dr-AT#N3_TURTLE> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a syntax and file format for expressing data in the Resource Description Framework (RDF) data model. Turtle syntax is similar to that of SPARQL, an RDF query language. It is a common data format for storing RDF data"@en .
+<http://www.w3id.org/ecsel-dr-AT#N3_TURTLE> <http://www.w3.org/2000/01/rdf-schema#label> "N3 TURTLE"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Network_Layer_Model
+<http://www.w3id.org/ecsel-dr-AT#Network_Layer_Model> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Network_Layer_Model> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#Network_Layer_Model> <http://www.w3.org/2000/01/rdf-schema#comment> "Conceptual models that characterize and standardize communication functions in layers"@en .
+<http://www.w3id.org/ecsel-dr-AT#Network_Layer_Model> <http://www.w3.org/2000/01/rdf-schema#label> "Network Layer Model"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OASIS
+<http://www.w3id.org/ecsel-dr-AT#OASIS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OASIS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> .
+<http://www.w3id.org/ecsel-dr-AT#OASIS> <http://www.w3.org/2000/01/rdf-schema#label> "OASIS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OASIS_Standard
+<http://www.w3id.org/ecsel-dr-AT#OASIS_Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OASIS_Standard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standard> .
+<http://www.w3id.org/ecsel-dr-AT#OASIS_Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "Organization for the Advancement of Structured Information Standards is a global nonprofit consortium that works on the development, convergence, and adoption of open standards for security, Internet of Things, energy, content technologies, emergency management, and other areas."@en .
+<http://www.w3id.org/ecsel-dr-AT#OASIS_Standard> <http://www.w3.org/2000/01/rdf-schema#label> "OASIS Standard"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OCF
+<http://www.w3id.org/ecsel-dr-AT#OCF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OCF> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> .
+<http://www.w3id.org/ecsel-dr-AT#OCF> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an industry organization having as its stated mission is to develop specification standards, promote a set of interoperability guidelines, and provide a certification program for devices involved in the Internet of Things (IoT)."@en .
+<http://www.w3id.org/ecsel-dr-AT#OCF> <http://www.w3.org/2000/01/rdf-schema#label> "Open Connectivity Foundation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OCF_Standard
+<http://www.w3id.org/ecsel-dr-AT#OCF_Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OCF_Standard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standard> .
+<http://www.w3id.org/ecsel-dr-AT#OCF_Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "Open Connectivity Foundation is an industry organization having as its stated mission is to develop specification standards, promote a set of interoperability guidelines, and provide a certification program for devices involved in the Internet of Things (IoT)."@en .
+<http://www.w3id.org/ecsel-dr-AT#OCF_Standard> <http://www.w3.org/2000/01/rdf-schema#label> "OCF Standard"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OMG
+<http://www.w3id.org/ecsel-dr-AT#OMG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OMG> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> .
+<http://www.w3id.org/ecsel-dr-AT#OMG> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a computer industry standards consortium. OMG Task Forces develop enterprise integration standards for a range of technologies."@en .
+<http://www.w3id.org/ecsel-dr-AT#OMG> <http://www.w3.org/2000/01/rdf-schema#label> "Object Management Group"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OMG_Standard
+<http://www.w3id.org/ecsel-dr-AT#OMG_Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OMG_Standard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standard> .
+<http://www.w3id.org/ecsel-dr-AT#OMG_Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a computer industry standards consortium. OMG Task Forces develop enterprise integration standards for a range of technologies."@en .
+<http://www.w3id.org/ecsel-dr-AT#OMG_Standard> <http://www.w3.org/2000/01/rdf-schema#label> "OMG Standard"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OPC
+<http://www.w3id.org/ecsel-dr-AT#OPC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OPC> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#OPC> <http://www.w3.org/2000/01/rdf-schema#label> "OPC"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OPC_UA
+<http://www.w3id.org/ecsel-dr-AT#OPC_UA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OPC_UA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> .
+<http://www.w3id.org/ecsel-dr-AT#OPC_UA> <http://www.w3.org/2000/01/rdf-schema#label> "OPC UA"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OPC_UA_Binary_Protocol
+<http://www.w3id.org/ecsel-dr-AT#OPC_UA_Binary_Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OPC_UA_Binary_Protocol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#OPC_UA_Binary_Protocol> <http://www.w3.org/2000/01/rdf-schema#label> "OPC UA Binary Protocol"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology
+<http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> <http://www.w3.org/2000/01/rdf-schema#comment> "A net access technology provides the physical link layer and the data link layer  of the OSI layer model (i.e. OSI layer 1 and 2)."@en .
+<http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> <http://www.w3.org/2000/01/rdf-schema#label> "OSI 1 2 Net Access Technology"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology
+<http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> <http://www.w3.org/2000/01/rdf-schema#comment> "Technologie, die die mittleren Schichten des OSI-Schichtenmodells abdeckt, z.B. TCP/IP, ZigBee, UDP usw."@de .
+<http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> <http://www.w3.org/2000/01/rdf-schema#comment> "Technology that covers the middle layers of the OSI layer models, e.g. TCP/IP, ZigBee, UDP, etc."@en .
+<http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> <http://www.w3.org/2000/01/rdf-schema#label> "OSI 3 4 Network Technology"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol
+<http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> <http://www.w3.org/2000/01/rdf-schema#comment> "Is the OSI layer closest to the end user, which means both the OSI application layer and the user interact directly with the software application."@en .
+<http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> <http://www.w3.org/2000/01/rdf-schema#label> "OSI 5 7 Application Protocol"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_AL_1_Network_Access_Layer
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_1_Network_Access_Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_1_Network_Access_Layer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Aggregated_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_1_Network_Access_Layer> <http://www.w3.org/2000/01/rdf-schema#label> "OSI AL 1 Network Access Layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_AL_2_Internet_Layer
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_2_Internet_Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_2_Internet_Layer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Aggregated_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_2_Internet_Layer> <http://www.w3.org/2000/01/rdf-schema#comment> "Corresponds 1:1 to ISO/OSI layer 3: Network Layer. \r\nconducts transmission of data packets and choice of the net node (routing), i.e. determines the next intermediate node for received data packets and transmits the data packet there. \r\nHandles point-to-pint (node-to-node) transmissions, no transmission paths. \r\nExamples: Internet Protocol Version 4 (IPv4), IPv6."@de .
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_2_Internet_Layer> <http://www.w3.org/2000/01/rdf-schema#label> "Internetschicht"@de .
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_2_Internet_Layer> <http://www.w3.org/2000/01/rdf-schema#label> "OSI AL 2 Internet Layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_AL_3_Transport_Layer
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_3_Transport_Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_3_Transport_Layer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Aggregated_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_3_Transport_Layer> <http://www.w3.org/2000/01/rdf-schema#label> "OSI AL 3 Transport Layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_AL_4_Application_Layer
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_4_Application_Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_4_Application_Layer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Aggregated_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_AL_4_Application_Layer> <http://www.w3.org/2000/01/rdf-schema#label> "OSI AL 4 Application Layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_Aggregated_Layer
+<http://www.w3id.org/ecsel-dr-AT#OSI_Aggregated_Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_Aggregated_Layer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_Aggregated_Layer> <http://www.w3.org/2000/01/rdf-schema#label> "OSI Aggregated Layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_Detailed_Layer
+<http://www.w3id.org/ecsel-dr-AT#OSI_Detailed_Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_Detailed_Layer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_Detailed_Layer> <http://www.w3.org/2000/01/rdf-schema#label> "OSI Detailed Layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_L_1_Physical_Link
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_1_Physical_Link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_1_Physical_Link> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Detailed_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_1_Physical_Link> <http://www.w3.org/2000/01/rdf-schema#label> "OSI L 1 Physical Link"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_L_2_Data_Link
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_2_Data_Link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_2_Data_Link> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Detailed_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_2_Data_Link> <http://www.w3.org/2000/01/rdf-schema#label> "OSI L 2 Data Link"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_L_3_Network_Layer
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_3_Network_Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_3_Network_Layer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Detailed_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_3_Network_Layer> <http://www.w3.org/2000/01/rdf-schema#label> "OSI L 3 Network Layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_L_4_Transport_Layer
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_4_Transport_Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_4_Transport_Layer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Detailed_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_4_Transport_Layer> <http://www.w3.org/2000/01/rdf-schema#label> "OSI L 4 Transport Layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_L_5_Session_Layer
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_5_Session_Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_5_Session_Layer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Detailed_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_5_Session_Layer> <http://www.w3.org/2000/01/rdf-schema#label> "OSI L 5 Session Layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_L_6_Presentation_Layer
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_6_Presentation_Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_6_Presentation_Layer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Detailed_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_6_Presentation_Layer> <http://www.w3.org/2000/01/rdf-schema#label> "OSI L 6 Presentation Layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_L_7_Application_Layer
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_7_Application_Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_7_Application_Layer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Detailed_Layer> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_L_7_Application_Layer> <http://www.w3.org/2000/01/rdf-schema#label> "OSI L 7 Application Layer"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_Layer_Model_Aggregated
+<http://www.w3id.org/ecsel-dr-AT#OSI_Layer_Model_Aggregated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_Layer_Model_Aggregated> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Network_Layer_Model> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_Layer_Model_Aggregated> <http://www.w3.org/2000/01/rdf-schema#label> "OSI Layer Model Aggregated"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_Layer_Model_Detailed
+<http://www.w3id.org/ecsel-dr-AT#OSI_Layer_Model_Detailed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_Layer_Model_Detailed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Network_Layer_Model> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_Layer_Model_Detailed> <http://www.w3.org/2000/01/rdf-schema#label> "OSI Layer Model Detailed"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OSI_Transport_Protocol
+<http://www.w3id.org/ecsel-dr-AT#OSI_Transport_Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_Transport_Protocol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#OSI_Transport_Protocol> <http://www.w3.org/2000/01/rdf-schema#label> "OSI Transport Protocol"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#OWL
+<http://www.w3id.org/ecsel-dr-AT#OWL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#OWL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L4_Semantics_Representation> .
+<http://www.w3id.org/ecsel-dr-AT#OWL> <http://www.w3.org/2000/01/rdf-schema#comment> "Web Ontology Language (OWL) is a family of knowledge representation languages for authoring ontologies."@en .
+<http://www.w3id.org/ecsel-dr-AT#OWL> <http://www.w3.org/2000/01/rdf-schema#label> "Web Ontology Language"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Ontology
+<http://www.w3id.org/ecsel-dr-AT#Ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Ontology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L5_Data_Semantics> .
+<http://www.w3id.org/ecsel-dr-AT#Ontology> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology encompasses a representation, formal naming and definition of the categories, properties and relations between the concepts, data and entities that substantiate one, many or all domains of discourse."@en .
+<http://www.w3id.org/ecsel-dr-AT#Ontology> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#PLM1_Module
+<http://www.w3id.org/ecsel-dr-AT#PLM1_Module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#PLM1_Module> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM_System_First_Generation> .
+<http://www.w3id.org/ecsel-dr-AT#PLM1_Module> <http://www.w3.org/2000/01/rdf-schema#label> "PLM1 Module"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#PLM1_System_Suite
+<http://www.w3id.org/ecsel-dr-AT#PLM1_System_Suite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#PLM1_System_Suite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM_System_First_Generation> .
+<http://www.w3id.org/ecsel-dr-AT#PLM1_System_Suite> <http://www.w3.org/2000/01/rdf-schema#label> "PLM1 System Suite"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#PLM1_Vendor
+<http://www.w3id.org/ecsel-dr-AT#PLM1_Vendor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#PLM1_Vendor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM_System_First_Generation> .
+<http://www.w3id.org/ecsel-dr-AT#PLM1_Vendor> <http://www.w3.org/2000/01/rdf-schema#label> "PLM1 Vendor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#PLM2_Module
+<http://www.w3id.org/ecsel-dr-AT#PLM2_Module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#PLM2_Module> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM_System_Second_Generation> .
+<http://www.w3id.org/ecsel-dr-AT#PLM2_Module> <http://www.w3.org/2000/01/rdf-schema#label> "PLM2 Module"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#PLM2_System_Suite
+<http://www.w3id.org/ecsel-dr-AT#PLM2_System_Suite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#PLM2_System_Suite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM_System_Second_Generation> .
+<http://www.w3id.org/ecsel-dr-AT#PLM2_System_Suite> <http://www.w3.org/2000/01/rdf-schema#label> "PLM2 System Suite"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#PLM2_Vendor
+<http://www.w3id.org/ecsel-dr-AT#PLM2_Vendor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#PLM2_Vendor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM_System_Second_Generation> .
+<http://www.w3id.org/ecsel-dr-AT#PLM2_Vendor> <http://www.w3.org/2000/01/rdf-schema#label> "PLM2 Vendor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#PLM_System
+<http://www.w3id.org/ecsel-dr-AT#PLM_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#PLM_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#PLM_System> <http://www.w3.org/2000/01/rdf-schema#comment> "Product lifecycle management system (PLM) is a system for managing the entire lifecycle of a product"@en .
+<http://www.w3id.org/ecsel-dr-AT#PLM_System> <http://www.w3.org/2000/01/rdf-schema#label> "PLM System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#PLM_System_First_Generation
+<http://www.w3id.org/ecsel-dr-AT#PLM_System_First_Generation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#PLM_System_First_Generation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM_System> .
+<http://www.w3id.org/ecsel-dr-AT#PLM_System_First_Generation> <http://www.w3.org/2000/01/rdf-schema#label> "PLM System First Generation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#PLM_System_Second_Generation
+<http://www.w3id.org/ecsel-dr-AT#PLM_System_Second_Generation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#PLM_System_Second_Generation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM_System> .
+<http://www.w3id.org/ecsel-dr-AT#PLM_System_Second_Generation> <http://www.w3.org/2000/01/rdf-schema#label> "PLM System Second Generation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#PL_Phase_1_Development
+<http://www.w3id.org/ecsel-dr-AT#PL_Phase_1_Development> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#PL_Phase_1_Development> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Product_Lifecycle_Phase> .
+<http://www.w3id.org/ecsel-dr-AT#PL_Phase_1_Development> <http://www.w3.org/2000/01/rdf-schema#label> "PL Phase 1 Development"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#PL_Phase_2_Maintenance_Improvement
+<http://www.w3id.org/ecsel-dr-AT#PL_Phase_2_Maintenance_Improvement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#PL_Phase_2_Maintenance_Improvement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Product_Lifecycle_Phase> .
+<http://www.w3id.org/ecsel-dr-AT#PL_Phase_2_Maintenance_Improvement> <http://www.w3.org/2000/01/rdf-schema#label> "PL Phase 2 Maintenance Improvement"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#PL_Phase_3_Production
+<http://www.w3id.org/ecsel-dr-AT#PL_Phase_3_Production> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#PL_Phase_3_Production> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Product_Lifecycle_Phase> .
+<http://www.w3id.org/ecsel-dr-AT#PL_Phase_3_Production> <http://www.w3.org/2000/01/rdf-schema#label> "PL Phase 3 Production"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#PL_Phase_4_Usage_Maintenance
+<http://www.w3id.org/ecsel-dr-AT#PL_Phase_4_Usage_Maintenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#PL_Phase_4_Usage_Maintenance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Product_Lifecycle_Phase> .
+<http://www.w3id.org/ecsel-dr-AT#PL_Phase_4_Usage_Maintenance> <http://www.w3.org/2000/01/rdf-schema#label> "PL Phase 4 Usage Maintenance"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Packet
+<http://www.w3id.org/ecsel-dr-AT#Packet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Packet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Data_Transmission_Unit> .
+<http://www.w3id.org/ecsel-dr-AT#Packet> <http://www.w3.org/2000/01/rdf-schema#label> "Packet"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Product_Data_Management_Module
+<http://www.w3id.org/ecsel-dr-AT#Product_Data_Management_Module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Product_Data_Management_Module> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM1_Module> .
+<http://www.w3id.org/ecsel-dr-AT#Product_Data_Management_Module> <http://www.w3.org/2000/01/rdf-schema#label> "Product Data Management Module"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Product_Lifecycle_Phase
+<http://www.w3id.org/ecsel-dr-AT#Product_Lifecycle_Phase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Product_Lifecycle_Phase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#Product_Lifecycle_Phase> <http://www.w3.org/2000/01/rdf-schema#label> "Product Lifecycle Phase"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Production_Cell_Planning
+<http://www.w3id.org/ecsel-dr-AT#Production_Cell_Planning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Production_Cell_Planning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM1_Module> .
+<http://www.w3id.org/ecsel-dr-AT#Production_Cell_Planning> <http://www.w3.org/2000/01/rdf-schema#label> "Production Cell Planning"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller
+<http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Control_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Programmable_Logic_Controller> <http://www.w3.org/2000/01/rdf-schema#label> "Programmable Logic Controller"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Proxy
+<http://www.w3id.org/ecsel-dr-AT#Proxy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Proxy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Communication_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Proxy> <http://www.w3.org/2000/01/rdf-schema#label> "Proxy"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#RDF
+<http://www.w3id.org/ecsel-dr-AT#RDF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#RDF> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Data_Language_Semantic_Web_Stack_Based> .
+<http://www.w3id.org/ecsel-dr-AT#RDF> <http://www.w3.org/2000/01/rdf-schema#comment> "Resource Description Framework (RDF) is a family of World Wide Web Consortium (W3C) specifications originally designed as a metadata data model. It has come to be used as a general method for conceptual description or modeling of information that is implemented in web resources, using a variety of syntax notations and data serialization formats. It is also used in knowledge management applications."@en .
+<http://www.w3id.org/ecsel-dr-AT#RDF> <http://www.w3.org/2000/01/rdf-schema#label> "Resource Description Framework"@de .
+# 
+# http://www.w3id.org/ecsel-dr-AT#RDFS
+<http://www.w3id.org/ecsel-dr-AT#RDFS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#RDFS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L4_Semantics_Representation> .
+<http://www.w3id.org/ecsel-dr-AT#RDFS> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a set of classes with certain properties using the RDF extensible knowledge representation data model, providing basic elements for the description of ontologies, otherwise called RDF vocabularies, intended to structure RDF resources."@en .
+<http://www.w3id.org/ecsel-dr-AT#RDFS> <http://www.w3.org/2000/01/rdf-schema#label> "Resource Description Framework Schema"@de .
+# 
+# http://www.w3id.org/ecsel-dr-AT#RDF_Graph_Store
+<http://www.w3id.org/ecsel-dr-AT#RDF_Graph_Store> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#RDF_Graph_Store> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Database_System> .
+<http://www.w3id.org/ecsel-dr-AT#RDF_Graph_Store> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a purpose-built database for the storage and retrieval of triples through semantic queries."@en .
+<http://www.w3id.org/ecsel-dr-AT#RDF_Graph_Store> <http://www.w3.org/2000/01/rdf-schema#label> "RDF Graph Store"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#RDFa
+<http://www.w3id.org/ecsel-dr-AT#RDFa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#RDFa> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax> .
+<http://www.w3id.org/ecsel-dr-AT#RDFa> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a W3C Recommendation that adds a set of attribute-level extensions to HTML, XHTML and various XML-based document types for embedding rich metadata within Web documents."@en .
+<http://www.w3id.org/ecsel-dr-AT#RDFa> <http://www.w3.org/2000/01/rdf-schema#label> "RDFa"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#REST
+<http://www.w3id.org/ecsel-dr-AT#REST> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#REST> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> .
+<http://www.w3id.org/ecsel-dr-AT#REST> <http://www.w3.org/2000/01/rdf-schema#label> "REST"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#RFID
+<http://www.w3id.org/ecsel-dr-AT#RFID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#RFID> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#RFID> <http://www.w3.org/2000/01/rdf-schema#label> "RFID"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Rack_Feeder
+<http://www.w3id.org/ecsel-dr-AT#Rack_Feeder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Rack_Feeder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Actuator_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Rack_Feeder> <http://www.w3.org/2000/01/rdf-schema#comment> "Device for material movement in an automated high-bay warehouse."@en .
+<http://www.w3id.org/ecsel-dr-AT#Rack_Feeder> <http://www.w3.org/2000/01/rdf-schema#comment> "Gerät zur Materialbewegung in einem automatisierten Hochregallager."@de .
+<http://www.w3id.org/ecsel-dr-AT#Rack_Feeder> <http://www.w3.org/2000/01/rdf-schema#label> "Rack Feeder"@en .
+<http://www.w3id.org/ecsel-dr-AT#Rack_Feeder> <http://www.w3.org/2000/01/rdf-schema#label> "Regalbediengerät"@de .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Relational_Database_System
+<http://www.w3id.org/ecsel-dr-AT#Relational_Database_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Relational_Database_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Database_System> .
+<http://www.w3id.org/ecsel-dr-AT#Relational_Database_System> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a digital database based on the relational model of data"@en .
+<http://www.w3id.org/ecsel-dr-AT#Relational_Database_System> <http://www.w3.org/2000/01/rdf-schema#label> "Relational Database System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Repeater
+<http://www.w3id.org/ecsel-dr-AT#Repeater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Repeater> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Communication_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Repeater> <http://www.w3.org/2000/01/rdf-schema#comment> "A repeater is an electronic device that receives a signal and retransmits it. Repeaters are used to extend transmissions so that the signal can cover longer distances or be received on the other side of an obstruction."@en .
+<http://www.w3id.org/ecsel-dr-AT#Repeater> <http://www.w3.org/2000/01/rdf-schema#label> "Repeater"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Robot_Cell_Planning
+<http://www.w3id.org/ecsel-dr-AT#Robot_Cell_Planning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Robot_Cell_Planning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#PLM1_Module> .
+<http://www.w3id.org/ecsel-dr-AT#Robot_Cell_Planning> <http://www.w3.org/2000/01/rdf-schema#label> "Robot Cell Planning"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Rosetta_Net_Specification
+<http://www.w3id.org/ecsel-dr-AT#Rosetta_Net_Specification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Rosetta_Net_Specification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#RDFS> .
+<http://www.w3id.org/ecsel-dr-AT#Rosetta_Net_Specification> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a non-profit consortium aimed at establishing standard processes for the sharing of business information (B2B)."@en .
+<http://www.w3id.org/ecsel-dr-AT#Rosetta_Net_Specification> <http://www.w3.org/2000/01/rdf-schema#label> "Rosetta Net Specification"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Router
+<http://www.w3id.org/ecsel-dr-AT#Router> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Router> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Communication_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Router> <http://www.w3.org/2000/01/rdf-schema#label> "Router"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SCADA_System
+<http://www.w3id.org/ecsel-dr-AT#SCADA_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SCADA_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#SCADA_System> <http://www.w3.org/2000/01/rdf-schema#comment> "Supervisory control and data acquisition (SCADA) is a control system architecture comprising computers, networked data communications and graphical user interfaces for high-level supervision of machines and processes. It also covers sensors and other devices, such as programmable logic controllers, which interface with process plant or machinery."@en .
+<http://www.w3id.org/ecsel-dr-AT#SCADA_System> <http://www.w3.org/2000/01/rdf-schema#label> "SCADA System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SCTP
+<http://www.w3id.org/ecsel-dr-AT#SCTP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SCTP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Transport_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#SCTP> <http://www.w3.org/2000/01/rdf-schema#comment> "Das Stream Control Transmission Protocol (SCTP) ist ein zuverlässiges, verbindungsorientiertes Netzwerkprotokoll. Es gehört zur Transportschicht und setzt auf einem potenziell unzuverlässigen, verbindungslosen Paketdienst auf."@de .
+<http://www.w3id.org/ecsel-dr-AT#SCTP> <http://www.w3.org/2000/01/rdf-schema#comment> "Es wurde von der Internet Engineering Task Force (IETF) als neues Transportprotokoll vorgeschlagen und im Oktober 2000 in dem Standarddokument RFC 2960 veröffentlicht und im September 2007 durch RFC 4960 erweitert. Eine Einführung findet sich auch in RFC 3286. Das zuständige Gremium bei der IETF ist die Arbeitsgruppe Signaling Transport, kurz SIGTRAN.\r\n\r\nAls Transportprotokoll steht SCTP auf derselben Stufe des TCP/IP-Referenzmodells wie TCP und UDP (Schicht 4 des OSI-Modells).\r\n\r\nSCTP realisiert das Konzept einer Association: Hier wird eine Verbindung aufgebaut, in der mehrere Nachrichten-Datenströme in sich reihenfolgenerhaltend (untereinander aber potentiell nicht-reihenfolgenerhaltend) transportiert werden. Zusätzlich können einzelne, zum Beispiel dringende, Datagramme separat und außer der Reihe verschickt werden, die dadurch eventuell die In-Order-Datenströme „überholen“.\r\n\r\nSCTP kennt außerdem Multistreaming und Multihoming (ein Host mit mehreren gültigen IP-Adressen). Es werden Heartbeats verwendet, um aktiv auf Verbindungsabriss zu testen.\r\n\r\nAnders als TCP zeigt sich SCTP resistent gegen SYN-Flooding, eine Denial-of-Service-Attacke, bei der durch halboffene Verbindungen die Ressourcen des Servers aufgebraucht werden. Dazu verwendet es einen sogenannten Vier-Wege-Handshake. Hierbei speichert der Server bei einer Verbindungsanfrage (INIT-Paket) keine Zustandsinformationen, sondern schickt diese in Form eines Cookies (INIT-ACK-Paket) an den Client. Der Client muss dieses Cookie in seine Antwort (COOKIE-ECHO-Paket) einfügen und wird damit vom Server als zum Verbindungsaufbau berechtigt erkannt, was dieser ihm bestätigt (COOKIE-ACK-Paket). Ein ähnliches Verfahren ist mit TCP ebenfalls möglich, siehe SYN-Cookies.\r\n\r\nUrsprünglich wurde SCTP als Transportprotokoll definiert, um Zeichengabenachrichten (SS7) aus Telefonnetzen auch über IP-Netzwerke übertragen zu können. Bei der Entwicklung stand insbesondere die Zuverlässigkeit des Protokolls im Vordergrund. SCTP ist aber auch für andere Anwendungen geeignet, da es Vorteile von TCP und UDP vereint. Eine wichtige, auf SCTP aufbauende Anwendung ist Reliable Server Pooling (RSerPool).\r\n\r\nSCTP verwendet für Fluss- und Überlastkontrolle ähnliche Algorithmen wie TCP, verhält sich also in einem gemischten Netz (SCTP und TCP) neutral.[1]\r\n\r\nAuch Java bietet seit Version 7 eine eigene API für SCTP an."@de .
+<http://www.w3id.org/ecsel-dr-AT#SCTP> <http://www.w3.org/2000/01/rdf-schema#comment> "It was proposed by the Internet Engineering Task Force (IETF) as a new transport protocol and published in October 2000 in the standard document RFC 2960 and extended in September 2007 by RFC 4960. An introduction can also be found in RFC 3286. The responsible body at the IETF is the Signaling Transport Working Group, or SIGTRAN for short.\r\n\r\nAs a transport protocol, SCTP is on the same level of the TCP/IP reference model as TCP and UDP (layer 4 of the OSI model).\r\n\r\nSCTP implements the concept of an association: A connection is set up in which several message data streams are transported in a sequence-preserving manner (but potentially non-sequence-preserving among themselves). In addition, individual datagrams, for example urgent datagrams, can be sent separately and out of sequence, possibly \"overtaking\" the in-order data streams.\r\n\r\nSCTP also knows multistreaming and multihoming (one host with several valid IP addresses). Heartbeats are used to actively test for connection failure.\r\n\r\nUnlike TCP, SCTP is resistant to SYN flooding, a denial-of-service attack in which half-open connections use up the server's resources. It uses a so-called four-way handshake for this purpose. Here, the server does not store any state information in a connection request (INIT packet), but sends it to the client in the form of a cookie (INIT-ACK packet). The client must include this cookie in its response (COOKIE-ECHO packet) and is thus recognized by the server as authorized to establish a connection, which the server confirms to it (COOKIE-ACK packet). A similar procedure is also possible with TCP, see SYN cookies.\r\n\r\nSCTP was originally defined as a transport protocol for transmitting signalling messages (SS7) from telephone networks over IP networks. During development, the reliability of the protocol was a particular focus. However, SCTP is also suitable for other applications because it combines the advantages of TCP and UDP. An important application based on SCTP is Reliable Server Pooling (RSerPool).\r\n\r\nSCTP uses similar algorithms as TCP for flow and congestion control, so it behaves neutrally in a mixed network (SCTP and TCP)[1].\r\n\r\nJava also provides its own API for SCTP since version 7."@en .
+<http://www.w3id.org/ecsel-dr-AT#SCTP> <http://www.w3.org/2000/01/rdf-schema#comment> "The Stream Control Transmission Protocol (SCTP) is a reliable, connection-oriented network protocol. It belongs to the transport layer and relies on a potentially unreliable connectionless packet service."@en .
+<http://www.w3id.org/ecsel-dr-AT#SCTP> <http://www.w3.org/2000/01/rdf-schema#label> "SCTP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SECS
+<http://www.w3id.org/ecsel-dr-AT#SECS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SECS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#SECS> <http://www.w3.org/2000/01/rdf-schema#label> "SECS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SECS_GEM
+<http://www.w3id.org/ecsel-dr-AT#SECS_GEM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SECS_GEM> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> .
+<http://www.w3id.org/ecsel-dr-AT#SECS_GEM> <http://www.w3.org/2000/01/rdf-schema#label> "SECS GEM"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SMQTT
+<http://www.w3id.org/ecsel-dr-AT#SMQTT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SMQTT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#MQTT_TCPIP_Based> .
+<http://www.w3id.org/ecsel-dr-AT#SMQTT> <http://www.w3.org/2000/01/rdf-schema#label> "SMQTT"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SMQTT_SN
+<http://www.w3id.org/ecsel-dr-AT#SMQTT_SN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SMQTT_SN> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#MQTT_Non_TCPIP_Based> .
+<http://www.w3id.org/ecsel-dr-AT#SMQTT_SN> <http://www.w3.org/2000/01/rdf-schema#label> "SMQTT SN"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SMTP
+<http://www.w3id.org/ecsel-dr-AT#SMTP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SMTP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#SMTP> <http://www.w3.org/2000/01/rdf-schema#label> "SMTP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SOAP
+<http://www.w3id.org/ecsel-dr-AT#SOAP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SOAP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> .
+<http://www.w3id.org/ecsel-dr-AT#SOAP> <http://www.w3.org/2000/01/rdf-schema#label> "SOAP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SOSA
+<http://www.w3id.org/ecsel-dr-AT#SOSA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SOSA> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Ontology> .
+<http://www.w3id.org/ecsel-dr-AT#SOSA> <http://www.w3.org/2000/01/rdf-schema#comment> "A lightweight version of the SSN ontology"@en .
+<http://www.w3id.org/ecsel-dr-AT#SOSA> <http://www.w3.org/2000/01/rdf-schema#label> "SOSA"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SPARQL_Language
+<http://www.w3id.org/ecsel-dr-AT#SPARQL_Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SPARQL_Language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Data_Language_Semantic_Web_Stack_Based> .
+<http://www.w3id.org/ecsel-dr-AT#SPARQL_Language> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an RDF query language—that is, a semantic query language for databases—able to retrieve and manipulate data stored in Resource Description Framework (RDF) format."@en .
+<http://www.w3id.org/ecsel-dr-AT#SPARQL_Language> <http://www.w3.org/2000/01/rdf-schema#label> "SPARQL Language"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SPARQL_Protocol
+<http://www.w3id.org/ecsel-dr-AT#SPARQL_Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SPARQL_Protocol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> .
+<http://www.w3id.org/ecsel-dr-AT#SPARQL_Protocol> <http://www.w3.org/2000/01/rdf-schema#label> "SPARQL Protocol"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SSN
+<http://www.w3id.org/ecsel-dr-AT#SSN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SSN> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Ontology> .
+<http://www.w3id.org/ecsel-dr-AT#SSN> <http://www.w3.org/2000/01/rdf-schema#comment> "Enables expressive representation of sensor observations, sampling, and actuation."@en .
+<http://www.w3id.org/ecsel-dr-AT#SSN> <http://www.w3.org/2000/01/rdf-schema#label> "SSN"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#STOMP
+<http://www.w3id.org/ecsel-dr-AT#STOMP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#STOMP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#STOMP> <http://www.w3.org/2000/01/rdf-schema#label> "STOMP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Segment
+<http://www.w3id.org/ecsel-dr-AT#Segment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Segment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Data_Transmission_Unit> .
+<http://www.w3id.org/ecsel-dr-AT#Segment> <http://www.w3.org/2000/01/rdf-schema#label> "Segment"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Sen_Markup_Language
+<http://www.w3id.org/ecsel-dr-AT#Sen_Markup_Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Sen_Markup_Language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Markup_Language> .
+<http://www.w3id.org/ecsel-dr-AT#Sen_Markup_Language> <http://www.w3.org/2000/01/rdf-schema#label> "Sen Markup Language"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Sens_Markup_Language
+<http://www.w3id.org/ecsel-dr-AT#Sens_Markup_Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Sens_Markup_Language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Markup_Language> .
+<http://www.w3id.org/ecsel-dr-AT#Sens_Markup_Language> <http://www.w3.org/2000/01/rdf-schema#label> "Sens Markup Language"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Sensor_Device
+<http://www.w3id.org/ecsel-dr-AT#Sensor_Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Sensor_Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Device> .
+<http://www.w3id.org/ecsel-dr-AT#Sensor_Device> <http://www.w3.org/2000/01/rdf-schema#label> "Sensor Device"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Service_Data_Language
+<http://www.w3id.org/ecsel-dr-AT#Service_Data_Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Service_Data_Language> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L5_Data_Semantics> .
+<http://www.w3id.org/ecsel-dr-AT#Service_Data_Language> <http://www.w3.org/2000/01/rdf-schema#label> "Service Data Language"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Function_Pattern
+<http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Function_Pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Function_Pattern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Function_Pattern> <http://www.w3.org/2000/01/rdf-schema#label> "Service-Oriented Architecture Function Pattern"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Implementation
+<http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Implementation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Implementation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Implementation> <http://www.w3.org/2000/01/rdf-schema#comment> "Implementations or Realizations of Service-oriented Architectures.\r\n\r\nThis class contains existing implementations, i.e. software systems, which are designed as Service-oriented Architectures. That is, these systems realize service-oriented communication between their participants / components. (2018-08-04 HB)."@en .
+<http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Implementation> <http://www.w3.org/2000/01/rdf-schema#label> "Service-Oriented Architecture Implementation"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols
+<http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a style of software design where services are provided to the other components by application components, through a communication protocol over a network."@en .
+<http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Protocols> <http://www.w3.org/2000/01/rdf-schema#label> "Service-Oriented Architecture Protocols"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Simulation_System
+<http://www.w3id.org/ecsel-dr-AT#Simulation_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Simulation_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#IT_System> .
+<http://www.w3id.org/ecsel-dr-AT#Simulation_System> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a set of techniques that uses computers to imitate the operations of various real-world tasks or processes through simulation."@en .
+<http://www.w3id.org/ecsel-dr-AT#Simulation_System> <http://www.w3.org/2000/01/rdf-schema#label> "Simulation System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SoA_Client
+<http://www.w3id.org/ecsel-dr-AT#SoA_Client> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Client> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Function_Pattern> .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Client> <http://www.w3.org/2000/01/rdf-schema#comment> "\"Role\" or function of an software (application) system that consumes / uses one or several services to other systems in a client-server communication pattern / process. \r\nOther names: Service Consumer"@en .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Client> <http://www.w3.org/2000/01/rdf-schema#label> "SoA Client"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SoA_Publisher
+<http://www.w3id.org/ecsel-dr-AT#SoA_Publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Publisher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Function_Pattern> .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Publisher> <http://www.w3.org/2000/01/rdf-schema#comment> "\"Role\" or function of a software (application) system that publishes data to a communication channel in a publish-subscribe communication pattern / process."@en .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Publisher> <http://www.w3.org/2000/01/rdf-schema#label> "SoA Publisher"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SoA_Server
+<http://www.w3id.org/ecsel-dr-AT#SoA_Server> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Server> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Function_Pattern> .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Server> <http://www.w3.org/2000/01/rdf-schema#comment> "\"Role\" or function of an software (application) system that offers one or several services to other systems. \r\nOther names: Service Producer,"@en .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Server> <http://www.w3.org/2000/01/rdf-schema#label> "SoA Server"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SoA_Service_Broker
+<http://www.w3id.org/ecsel-dr-AT#SoA_Service_Broker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Service_Broker> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Function_Pattern> .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Service_Broker> <http://www.w3.org/2000/01/rdf-schema#comment> "\"Role\" or function of an software (application) system that is a registry of services."@en .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Service_Broker> <http://www.w3.org/2000/01/rdf-schema#label> "SoA Service Broker"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SoA_Service_Repository
+<http://www.w3id.org/ecsel-dr-AT#SoA_Service_Repository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Service_Repository> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Function_Pattern> .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Service_Repository> <http://www.w3.org/2000/01/rdf-schema#comment> "\"Role\" or function of an software (application) system that stores metadata of srevices and related SoA artifacts"@en .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Service_Repository> <http://www.w3.org/2000/01/rdf-schema#label> "SoA Service Repository"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#SoA_Subscriber
+<http://www.w3id.org/ecsel-dr-AT#SoA_Subscriber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Subscriber> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Service_Oriented_Architecture_Function_Pattern> .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Subscriber> <http://www.w3.org/2000/01/rdf-schema#comment> "\"Role\" or function of a software (application) system that subscribes to a communication channel in a publish-subscribe communication pattern / process."@en .
+<http://www.w3id.org/ecsel-dr-AT#SoA_Subscriber> <http://www.w3.org/2000/01/rdf-schema#label> "SoA Subscriber"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Standard
+<http://www.w3id.org/ecsel-dr-AT#Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Standard> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-RAMI40#Standard> .
+<http://www.w3id.org/ecsel-dr-RAMI40#Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Standard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "An official rule, unit of measurement, or way of operating that is used in a particular area of manufacturing or services"@en .
+<http://www.w3id.org/ecsel-dr-AT#Standard> <http://www.w3.org/2000/01/rdf-schema#label> "Standard"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Standardization_Organization
+<http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+<http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "Is an organization whose primary activities are developing, coordinating, promulgating, revising, amending, reissuing, interpreting, or otherwise producing technical standards that are intended to address the needs of a group of affected adopters."@en .
+<http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Standardization Organization"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Stationary_Robot
+<http://www.w3id.org/ecsel-dr-AT#Stationary_Robot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Stationary_Robot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Actuator_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Stationary_Robot> <http://www.w3.org/2000/01/rdf-schema#label> "Stationary Robot"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Supply_Chain_Simulation_System
+<http://www.w3id.org/ecsel-dr-AT#Supply_Chain_Simulation_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Supply_Chain_Simulation_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Simulation_System> .
+<http://www.w3id.org/ecsel-dr-AT#Supply_Chain_Simulation_System> <http://www.w3.org/2000/01/rdf-schema#label> "Supply Chain Simulation System"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Switch
+<http://www.w3id.org/ecsel-dr-AT#Switch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Switch> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Communication_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Switch> <http://www.w3.org/2000/01/rdf-schema#label> "Switch"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#TCP
+<http://www.w3id.org/ecsel-dr-AT#TCP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#TCP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Transport_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#TCP> <http://www.w3.org/2000/01/rdf-schema#comment> "TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network."@en .
+<http://www.w3id.org/ecsel-dr-AT#TCP> <http://www.w3.org/2000/01/rdf-schema#label> "TCP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#TCP_IP
+<http://www.w3id.org/ecsel-dr-AT#TCP_IP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#TCP_IP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#TCP_IP> <http://www.w3.org/2000/01/rdf-schema#label> "TCP IP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#TTP_A
+<http://www.w3id.org/ecsel-dr-AT#TTP_A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#TTP_A> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Car_Airplane> .
+<http://www.w3id.org/ecsel-dr-AT#TTP_A> <http://www.w3.org/2000/01/rdf-schema#label> "TTP A"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#TTP_C
+<http://www.w3id.org/ecsel-dr-AT#TTP_C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#TTP_C> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Fieldbus_Car_Airplane> .
+<http://www.w3id.org/ecsel-dr-AT#TTP_C> <http://www.w3.org/2000/01/rdf-schema#label> "TTP C"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Token_Ring
+<http://www.w3id.org/ecsel-dr-AT#Token_Ring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Token_Ring> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#Token_Ring> <http://www.w3.org/2000/01/rdf-schema#label> "Token Ring"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Tooling_Machine
+<http://www.w3id.org/ecsel-dr-AT#Tooling_Machine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Tooling_Machine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Actuator_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Tooling_Machine> <http://www.w3.org/2000/01/rdf-schema#label> "Tooling Machine"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Transport_Robot
+<http://www.w3id.org/ecsel-dr-AT#Transport_Robot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Transport_Robot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Actuator_Device> .
+<http://www.w3id.org/ecsel-dr-AT#Transport_Robot> <http://www.w3.org/2000/01/rdf-schema#comment> "Newer version of driverless transport vehicle. \r\nUnlike traditional FTFs, transport robots have the ability to navigate freely in space. \r\nThat means, they not only move along predefined physical (e.g., optimized or magnetic) or virtual lanes, but navigate freely in space using their own sensor technology for environment recognition and positioning."@en .
+<http://www.w3id.org/ecsel-dr-AT#Transport_Robot> <http://www.w3.org/2000/01/rdf-schema#comment> "neuere Version von fahrerlosem Transportfahrzeug. \r\nIm Gegensatz zu traditionellen FTF verfügen Transportroboter über die Fähigkeit der freien Navigation im Raum. \r\nD.h. sie bewegen sich nicht nur entlang vorgegebener physischer (z.B. optimscher oder magnetischer) oder virtueller Fahrspuren, sondern navigieren frei im Raum unter Nutzung eigener Sensorik zur Umgebungserkennung und Positionierung."@de .
+<http://www.w3id.org/ecsel-dr-AT#Transport_Robot> <http://www.w3.org/2000/01/rdf-schema#label> "Transport Robot"@en .
+<http://www.w3id.org/ecsel-dr-AT#Transport_Robot> <http://www.w3.org/2000/01/rdf-schema#label> "Transportroboter"@de .
+# 
+# http://www.w3id.org/ecsel-dr-AT#UDP
+<http://www.w3id.org/ecsel-dr-AT#UDP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#UDP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_Transport_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#UDP> <http://www.w3.org/2000/01/rdf-schema#comment> "With UDP, computer applications can send messages, in this case referred to as datagrams, to other hosts on an Internet Protocol (IP) network. Prior communications are not required in order to set up communication channels or data paths."@en .
+<http://www.w3id.org/ecsel-dr-AT#UDP> <http://www.w3.org/2000/01/rdf-schema#label> "UDP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#UDS
+<http://www.w3id.org/ecsel-dr-AT#UDS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#UDS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#UDS> <http://www.w3.org/2000/01/rdf-schema#label> "UDS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#UML
+<http://www.w3id.org/ecsel-dr-AT#UML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#UML> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Markup_Language> .
+<http://www.w3id.org/ecsel-dr-AT#UML> <http://www.w3.org/2000/01/rdf-schema#label> "UML"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#UPnP
+<http://www.w3id.org/ecsel-dr-AT#UPnP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#UPnP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#UPnP> <http://www.w3.org/2000/01/rdf-schema#label> "uPnP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#W3C
+<http://www.w3id.org/ecsel-dr-AT#W3C> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#W3C> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standardization_Organization> .
+<http://www.w3id.org/ecsel-dr-AT#W3C> <http://www.w3.org/2000/01/rdf-schema#label> "W3C"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#W3C_Data_Knowledge_Stack
+<http://www.w3id.org/ecsel-dr-AT#W3C_Data_Knowledge_Stack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_Data_Knowledge_Stack> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Network_Layer_Model> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_Data_Knowledge_Stack> <http://www.w3.org/2000/01/rdf-schema#label> "W3C Data Knowledge Stack"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#W3C_L1_Web_Platform
+<http://www.w3id.org/ecsel-dr-AT#W3C_L1_Web_Platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_L1_Web_Platform> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_Standard> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_L1_Web_Platform> <http://www.w3.org/2000/01/rdf-schema#comment> "W3C L1 Data Semantics Web Platform"@en .
+<http://www.w3id.org/ecsel-dr-AT#W3C_L1_Web_Platform> <http://www.w3.org/2000/01/rdf-schema#label> "W3C L1 Data Semantics"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax
+<http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_Standard> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax> <http://www.w3.org/2000/01/rdf-schema#comment> "W3C L2 Data Semantics Data Syntax"@en .
+<http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax> <http://www.w3.org/2000/01/rdf-schema#label> "W3C L2 Data Semantics"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#W3C_L3_Knowledge_Representation
+<http://www.w3id.org/ecsel-dr-AT#W3C_L3_Knowledge_Representation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_L3_Knowledge_Representation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_Standard> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_L3_Knowledge_Representation> <http://www.w3.org/2000/01/rdf-schema#comment> "W3C L3 Data Semantics Knowledge Representation"@en .
+<http://www.w3id.org/ecsel-dr-AT#W3C_L3_Knowledge_Representation> <http://www.w3.org/2000/01/rdf-schema#label> "W3C L3 Data Semantics"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#W3C_L4_Semantics_Representation
+<http://www.w3id.org/ecsel-dr-AT#W3C_L4_Semantics_Representation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_L4_Semantics_Representation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_Standard> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_L4_Semantics_Representation> <http://www.w3.org/2000/01/rdf-schema#label> "W3C L4 Data Semantics"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#W3C_L5_Data_Semantics
+<http://www.w3id.org/ecsel-dr-AT#W3C_L5_Data_Semantics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_L5_Data_Semantics> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_Standard> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_L5_Data_Semantics> <http://www.w3.org/2000/01/rdf-schema#label> "W3C L5 Data Semantics"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#W3C_Standard
+<http://www.w3id.org/ecsel-dr-AT#W3C_Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_Standard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Standard> .
+<http://www.w3id.org/ecsel-dr-AT#W3C_Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "Is the main international standards organization for the World Wide Web."@en .
+<http://www.w3id.org/ecsel-dr-AT#W3C_Standard> <http://www.w3.org/2000/01/rdf-schema#label> "W3C Standard"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#WADL
+<http://www.w3id.org/ecsel-dr-AT#WADL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#WADL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Markup_Language> .
+<http://www.w3id.org/ecsel-dr-AT#WADL> <http://www.w3.org/2000/01/rdf-schema#label> "WADL"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#WAP
+<http://www.w3id.org/ecsel-dr-AT#WAP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#WAP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Communication_Device> .
+<http://www.w3id.org/ecsel-dr-AT#WAP> <http://www.w3.org/2000/01/rdf-schema#label> "WAP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#WIMAX_802_16
+<http://www.w3id.org/ecsel-dr-AT#WIMAX_802_16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#WIMAX_802_16> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#WIMAX_802_16> <http://www.w3.org/2000/01/rdf-schema#label> "WIMAX 802 16"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#WLAN_802_11
+<http://www.w3id.org/ecsel-dr-AT#WLAN_802_11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#WLAN_802_11> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#WLAN_802_11> <http://www.w3.org/2000/01/rdf-schema#label> "WLAN 802 11"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#WPAN_802_15_4
+<http://www.w3id.org/ecsel-dr-AT#WPAN_802_15_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#WPAN_802_15_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#WPAN_802_15_4> <http://www.w3.org/2000/01/rdf-schema#label> "WPAN 802 15 4"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#WSDL
+<http://www.w3id.org/ecsel-dr-AT#WSDL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#WSDL> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Markup_Language> .
+<http://www.w3id.org/ecsel-dr-AT#WSDL> <http://www.w3.org/2000/01/rdf-schema#label> "WSDL"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Web_Address
+<http://www.w3id.org/ecsel-dr-AT#Web_Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Web_Address> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L1_Web_Platform> .
+<http://www.w3id.org/ecsel-dr-AT#Web_Address> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it."@en .
+<http://www.w3id.org/ecsel-dr-AT#Web_Address> <http://www.w3.org/2000/01/rdf-schema#label> "Web Address"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Web_Application_Protocol
+<http://www.w3id.org/ecsel-dr-AT#Web_Application_Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Web_Application_Protocol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L1_Web_Platform> .
+<http://www.w3id.org/ecsel-dr-AT#Web_Application_Protocol> <http://www.w3.org/2000/01/rdf-schema#label> "Web Application Protocol"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Wireless_HART
+<http://www.w3id.org/ecsel-dr-AT#Wireless_HART> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Wireless_HART> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#Wireless_HART> <http://www.w3.org/2000/01/rdf-schema#label> "Wireless HART"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#X400
+<http://www.w3id.org/ecsel-dr-AT#X400> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#X400> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#X400> <http://www.w3.org/2000/01/rdf-schema#label> "X400"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#XHTML
+<http://www.w3id.org/ecsel-dr-AT#XHTML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#XHTML> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax> .
+<http://www.w3id.org/ecsel-dr-AT#XHTML> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a separate language from HTML that began as a reformulation of HTML 4.01 using XML 1.0."@en .
+<http://www.w3id.org/ecsel-dr-AT#XHTML> <http://www.w3.org/2000/01/rdf-schema#label> "XHTML"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#XML
+<http://www.w3id.org/ecsel-dr-AT#XML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#XML> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#W3C_L2_Data_Syntax> .
+<http://www.w3id.org/ecsel-dr-AT#XML> <http://www.w3.org/2000/01/rdf-schema#comment> "Extended Markup Language (XML) Is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable."@en .
+<http://www.w3id.org/ecsel-dr-AT#XML> <http://www.w3.org/2000/01/rdf-schema#label> "XML" .
+# 
+# http://www.w3id.org/ecsel-dr-AT#XML_Schema
+<http://www.w3id.org/ecsel-dr-AT#XML_Schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#XML_Schema> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#Data_Language_XML_Based> .
+<http://www.w3id.org/ecsel-dr-AT#XML_Schema> <http://www.w3.org/2000/01/rdf-schema#comment> "A recommendation of the World Wide Web Consortium (W3C), specifies how to formally describe the elements in an Extensible Markup Language (XML) document."@en .
+<http://www.w3id.org/ecsel-dr-AT#XML_Schema> <http://www.w3.org/2000/01/rdf-schema#label> "XML Schema"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#XMPP
+<http://www.w3id.org/ecsel-dr-AT#XMPP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#XMPP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_5_7_Application_Protocol> .
+<http://www.w3id.org/ecsel-dr-AT#XMPP> <http://www.w3.org/2000/01/rdf-schema#label> "XMPP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Z_Wave
+<http://www.w3id.org/ecsel-dr-AT#Z_Wave> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Z_Wave> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#Z_Wave> <http://www.w3.org/2000/01/rdf-schema#label> "Z-Wave"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Zig_Bee
+<http://www.w3id.org/ecsel-dr-AT#Zig_Bee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Zig_Bee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#Zig_Bee> <http://www.w3.org/2000/01/rdf-schema#label> "Zig Bee"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Zig_Bee_IP
+<http://www.w3id.org/ecsel-dr-AT#Zig_Bee_IP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Zig_Bee_IP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#Zig_Bee_IP> <http://www.w3.org/2000/01/rdf-schema#label> "Zig Bee IP"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#Zig_Bee_RF4CE
+<http://www.w3id.org/ecsel-dr-AT#Zig_Bee_RF4CE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#Zig_Bee_RF4CE> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#Zig_Bee_RF4CE> <http://www.w3.org/2000/01/rdf-schema#label> "Zig Bee RF4CE"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#2G_GPRS
+<http://www.w3id.org/ecsel-dr-AT#2G_GPRS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#2G_GPRS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#2G_GPRS> <http://www.w3.org/2000/01/rdf-schema#label> "2G GPRS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#3G_UMTS
+<http://www.w3id.org/ecsel-dr-AT#3G_UMTS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#3G_UMTS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#3G_UMTS> <http://www.w3.org/2000/01/rdf-schema#label> "3G UMTS"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#4G_LTE
+<http://www.w3id.org/ecsel-dr-AT#4G_LTE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#4G_LTE> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#4G_LTE> <http://www.w3.org/2000/01/rdf-schema#label> "4G LTE"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#5G
+<http://www.w3id.org/ecsel-dr-AT#5G> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#5G> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_1_2_Net_Access_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#5G> <http://www.w3.org/2000/01/rdf-schema#label> "5G"@en .
+# 
+# http://www.w3id.org/ecsel-dr-AT#6_Lo_WPAN
+<http://www.w3id.org/ecsel-dr-AT#6_Lo_WPAN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-AT#6_Lo_WPAN> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-AT#OSI_3_4_Network_Technology> .
+<http://www.w3id.org/ecsel-dr-AT#6_Lo_WPAN> <http://www.w3.org/2000/01/rdf-schema#label> "6 Lo WPAN"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller
+# 
+# http://www.w3id.org/ecsel-dr-PWR#Device
+# 
+# http://www.w3id.org/ecsel-dr-PWR#Microcontroller
+# 
+# http://www.w3id.org/ecsel-dr-RAMI40#Standard
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

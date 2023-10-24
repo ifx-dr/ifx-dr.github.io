@@ -1,0 +1,1309 @@
+@prefix : <http://www.w3id.org/ecsel-dr-SO#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Chemical_Polishing a owl:Class ;
+    rdfs:label "Chemical Polishing"@en ;
+    rdfs:comment "The chemical polishing process or chemical mechanical planarization (CMP) is a process whereby a chemical reaction increases the mechanical removal rate of a material. CMP is commonly used to polish off high spots on wafers or films deposited on wafers, flattening the film or wafer, referred to as planarization. The chemical reaction that increases the mechanical removal rate is commonly tailored to provide a higher removal rate of one material versus another material. The chemical action in CMP helps to achieve higher selectivity's of one material to another than a strictly mechanical process would provide."@en ;
+    rdfs:subClassOf :Workshop .
+
+:Deposition a owl:Class ;
+    rdfs:label "Deposition"@en ;
+    rdfs:comment "The deposition process, or chemical vapor deposition (CVD) is a process whereby a fiolm is deposited by reacting chemicals together in the gaseous or vapor phase to form a film. The gases or vapors utilized for CVD are compounds that contain the element to be deposited and that may be inducted to react with a substrate or other gas(es) to deposit a film. The CVD reactoin may be thermally activated, plasma induced, plasma enhanced CVD or activated by light in photon induced CVD."@en ;
+    rdfs:subClassOf :Workshop .
+
+:Diffusion a owl:Class ;
+    rdfs:label "Diffusion"@en ;
+    rdfs:comment "Diffusion is a process whereby a substance redistributes from an area of relatively high concentration to an area of relatively low concentration due to random thermal motion. The larger the concentration gradient the faster diffusion occurs for a given temperature, conversely, the higher the temperature the faster diffusion occurs for a given concentration gradient."@en ;
+    rdfs:subClassOf :Workshop .
+
+:Dry_Etching a owl:Class ;
+    rdfs:label "Dry Etching"@en ;
+    rdfs:comment "Dry etching is a process whereby etching is accomplished by a reactive gas as opposed to a liquid. Dry etching techniques include plasma etch, reactive ion etch, magnetically enhanced reactive ion etch, inductively coupled plasma, electron spin resonance, etc."@en ;
+    rdfs:subClassOf :Workshop .
+
+:Furnace a owl:Class ;
+    rdfs:label "Furnace"@en ;
+    rdfs:comment "Each furnace consists of two chambers with one tool in each chamber."@en ;
+    rdfs:subClassOf :Tool .
+
+:Implantation a owl:Class ;
+    rdfs:label "Implantation"@en ;
+    rdfs:comment "Implantation or Ion Implantation is a technique where ions are accelerated to a higher energy and speed an injected into a semiconductor. The dominant techniques for introducing dopants into a semiconductor."@en ;
+    rdfs:subClassOf :Workshop .
+
+:Process_Class a owl:Class ;
+    rdfs:label "Process Class"@en ;
+    rdfs:comment "A Process Class is the second hierarchy level in the Technology Catalogue and is a subset of top hierarchy level \"Technology Class\". A Process Class is defined by the device category and its generation or wafer diameter."@en ;
+    rdfs:subClassOf :Process .
+
+:Process_Group a owl:Class ;
+    rdfs:label "Process Group"@en ;
+    rdfs:comment "A Process Group is the third hierarchy level in the Technology Catalogue and a subset of the Process Class. A Process Group is defined by the device type and its generation (eventually voltage class) or wafer diameter"@en ;
+    rdfs:subClassOf :Process .
+
+:Process_Line a owl:Class ;
+    rdfs:label "Process Line"@en ;
+    rdfs:comment "A Process Line is the forth hierarchy level in the Technology Catalogue and is a subset of Process Group. A Process Line is defined by WHAT is produced in detail"@en ;
+    rdfs:subClassOf :Process .
+
+:Product_Class a owl:Class ;
+    rdfs:label "Product Class"@en ;
+    rdfs:comment "the product class is an entity used for planning and reporting. This helps create stable brand/name architectures to enable highest possible product portfolio transparency, true value creation ad to prevent from product TM overload."@en ;
+    rdfs:subClassOf :Product .
+
+:Product_Group a owl:Class ;
+    rdfs:label "Product Group"@en ;
+    rdfs:comment "A (main) product group is a grouping of products for calculation or sales purposes. The scope includes finished and unfinished products of one product line."@en ;
+    rdfs:subClassOf :Product .
+
+:Product_Line a owl:Class ;
+    rdfs:label "Product Line"@en ;
+    rdfs:comment "The product line is one of the most prominent grouping of products. It is used in reporting as well as for structuring organizations."@en ;
+    rdfs:subClassOf :Product .
+
+:Productive a owl:Class ;
+    rdfs:label "Productive"@en ;
+    rdfs:comment "The standard lots, also referred to as Productive (Prod) lots, are the most common lot type and have no priority."@en ;
+    rdfs:subClassOf :Priority_Class .
+
+:Rocket a owl:Class ;
+    rdfs:label "Rocket"@en ;
+    rdfs:comment "Rocket lots are processed immediately if a machine has free capacity. The remaining furnace space is then filled up with lots of the same product."@en ;
+    rdfs:subClassOf :Priority_Class .
+
+:Sputtering a owl:Class ;
+    rdfs:label "Sputtering"@en ;
+    rdfs:comment "The sputtering process, or physical vapor deposition (PVD) is the most used layering process today. Here gas atoms, mostly argon, strike out atoms from the cathode I an electric field which then form a thin film on the wafer surface."@en ;
+    rdfs:subClassOf :Workshop .
+
+:Tempering a owl:Class ;
+    rdfs:label "Tempering"@en ;
+    rdfs:comment "The tempering process is a type of heat treatment applied by the furnace. The process has the effect of toughening by lessing brittleness and reducing internal stresses."@en ;
+    rdfs:subClassOf :Furnace_Process .
+
+:WIP_costs_per_unit_and_time_unit a owl:DatatypeProperty ;
+    rdfs:label "WIP costs per unit and time unit"@en ;
+    rdfs:comment "Target Costs: Capital bounding costs + Storage costs + Mean production costs of a unit of a certain technology and time unit"@en ;
+    rdfs:domain :Target_Costs ;
+    rdfs:range xsd:integer .
+
+:Wet_Etching a owl:Class ;
+    rdfs:label "Wet Etching"@en ;
+    rdfs:comment "Wet Etching is the process of removing material-etching, through the use of chemical activity."@en ;
+    rdfs:subClassOf :Workshop .
+
+:belongs_to_furnace_process a owl:ObjectProperty ;
+    rdfs:label "belongs to furnace process"@en ;
+    rdfs:domain :Planning_Work_Center ;
+    rdfs:range :Furnace_Process .
+
+:capacity_loss a owl:DatatypeProperty ;
+    rdfs:label "capacity loss"@en ;
+    rdfs:comment "Calendar: Facility capacity loss in percent"@en ;
+    rdfs:domain :Event_Calendar ;
+    rdfs:range xsd:double .
+
+:chips_per_wafer a owl:DatatypeProperty ;
+    rdfs:label "chips per wafer"@en ;
+    rdfs:comment "Product Level 4: Number of chips on a wafer"@en ;
+    rdfs:domain :Product_Level_3 ;
+    rdfs:range xsd:integer .
+
+:consists_of_tool a owl:ObjectProperty ;
+    rdfs:label "consists of tool"@en ;
+    rdfs:domain :Planning_Work_Center ;
+    rdfs:range :Tool .
+
+:customer_wish_time a owl:DatatypeProperty ;
+    rdfs:label "customer wish time"@en ;
+    rdfs:comment "PK; customer wish time of the demand entry" ;
+    rdfs:domain :Demand_Snapshot ;
+    rdfs:range xsd:dateTime .
+
+:cycle_time_commitment_ID a owl:DatatypeProperty ;
+    rdfs:label "cycle time commitment ID"@en ;
+    rdfs:comment "Cycle Time Commitment: FK; Name of the product level 3"@en ;
+    rdfs:domain :Cycle_Time_Committment ;
+    rdfs:range xsd:string .
+
+:cycle_time_committment a owl:DatatypeProperty ;
+    rdfs:label "cycle time committment"@en ;
+    rdfs:comment "Cycle Time Commitment: Committed overall supply chain cycle time"@en,
+        "length of, or element of the length of, a temporal extent expressed in seconds"@en ;
+    rdfs:domain :Cycle_Time_Committment ;
+    rdfs:range xsd:dateTime .
+
+:dedicates_epa a owl:ObjectProperty ;
+    rdfs:label "dedicates epa"@en ;
+    owl:inverseOf :is_dedicated_to_tool .
+
+:delivery_commitment_ID a owl:DatatypeProperty ;
+    rdfs:label "delivery commitment ID"@en ;
+    rdfs:comment "Delivery Commitment: FK; Name of the product level 3"@en ;
+    rdfs:domain :Delivery_Commitment ;
+    rdfs:range xsd:string .
+
+:demand_due_date a owl:DatatypeProperty ;
+    rdfs:label "demand due date"@en ;
+    rdfs:comment "Demand: PK; Due Date of the demand entry"@en ;
+    rdfs:domain :Demand_Snapshot ;
+    rdfs:range xsd:dateTime .
+
+:demand_quantity a owl:DatatypeProperty ;
+    rdfs:label "demand quantity"@en ;
+    rdfs:comment "Demand: Demand amount"@en ;
+    rdfs:domain :Demand_Snapshot ;
+    rdfs:range xsd:integer .
+
+:demand_type a owl:DatatypeProperty ;
+    rdfs:label "demand type"@en ;
+    rdfs:comment "Demand: PK; Demand forecast or real demand"@en ;
+    rdfs:domain :Demand_Snapshot ;
+    rdfs:range xsd:string .
+
+:development_timeout a owl:DatatypeProperty ;
+    rdfs:label "development timeout"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in hours"@en ;
+    rdfs:domain :Development ;
+    rdfs:range xsd:decimal .
+
+:enter_main_quantity a owl:DatatypeProperty ;
+    rdfs:label "enter main quantity"@en ;
+    rdfs:comment "Lot Event: Number of units in the lot (wafers / chips) when entered the event"@en ;
+    rdfs:domain :Lot_Event ;
+    rdfs:range xsd:integer .
+
+:enter_state a owl:DatatypeProperty ;
+    rdfs:label "enter state"@en ;
+    rdfs:comment "Lot Event: Time state is entered"@en,
+        "Lot State: Time state is entered"@en ;
+    rdfs:domain :Lot,
+        :Lot_Event ;
+    rdfs:range xsd:dateTime .
+
+:equipment_group_ID a owl:DatatypeProperty ;
+    rdfs:label "equipment group ID"@en,
+        "has equipment group ID"@en ;
+    rdfs:comment "Current WIP: PK; FK; Name of Equipment Group"@en,
+        "Equipment Group: PK; Name of the Workshop"@en,
+        "Equipment: FK; technical equipment group affiliation; FK to FabID"@en,
+        "Material Transfer: FK; start Equipment Group of material transfer"@en,
+        "Setup: FK; Name of equipment"@en ;
+    rdfs:domain :Bottleneck,
+        :Current_WIP,
+        :Equipment_Group,
+        :Lot_Size,
+        :Material_Transfer_Matrix,
+        :Operation ;
+    rdfs:range xsd:string .
+
+:equipment_group_type a owl:DatatypeProperty ;
+    rdfs:label "equipment group type"@en ;
+    rdfs:comment "Equipment Group: Refers to the technology used for the process tool: Lithography, Plasma Etching, Diffusion, Tester, Prober, etc."@en ;
+    rdfs:domain :Equipment_Group ;
+    rdfs:range xsd:string .
+
+:event_calendar_type a owl:DatatypeProperty ;
+    rdfs:label "event calendar type"@en ;
+    rdfs:comment "Event Calendar: Type of event"@en ;
+    rdfs:domain :Event_Calendar ;
+    rdfs:range xsd:string .
+
+:event_date a owl:DatatypeProperty ;
+    rdfs:label "event date"@en ;
+    rdfs:comment "Lot Event: Date event occurred (DD.MM.YYYY hh:mm:ss)"@en ;
+    rdfs:domain :Lot_Event ;
+    rdfs:range xsd:dateTime .
+
+:event_name a owl:DatatypeProperty ;
+    rdfs:label "event name"@en ;
+    rdfs:comment "Lot Event: Name of event that occurred to lot (Hold, Split, Merge, Scrap, etc.)"@en ;
+    rdfs:domain :Lot_Event ;
+    rdfs:range xsd:string .
+
+:fab_internal a owl:DatatypeProperty ;
+    rdfs:label "fab internal"@en ;
+    rdfs:comment "Fab: Does the fab belong to the company or to an external partner"@en ;
+    rdfs:domain :Fab ;
+    rdfs:range xsd:boolean .
+
+:fab_pseudonym a owl:DatatypeProperty ;
+    rdfs:label "fab pseudonym"@en ;
+    rdfs:comment "Calendar: FK; Name of the facility"@en,
+        "Demand: PK; Fab where the demand appears"@en,
+        "Equipment Group: FK"@en,
+        "FK; Name of the facility"@en,
+        "Fab: PK; Name of the production unit"@en,
+        "Release Plan: FK; Name of fab quantity of product level 4 is released"@en,
+        "Workshop: FK; Name of the production unit"@en ;
+    rdfs:domain :Demand_Snapshot,
+        :Equipment_Group,
+        :Event_Calendar,
+        :Fab,
+        :Lot_Size,
+        :Release_Plan ;
+    rdfs:range xsd:string .
+
+:fab_type a owl:DatatypeProperty ;
+    rdfs:label "fab type"@en ;
+    rdfs:comment "Fab: Front End, Wafer Testing, Back End Assembly, Back End Final Test, …"@en ;
+    rdfs:domain :Fab ;
+    rdfs:range xsd:string .
+
+:fill_rate a owl:DatatypeProperty ;
+    rdfs:label "fill rate"@en ;
+    rdfs:comment "Target Service Level: Rate of demand that can be fulfilled"@en ;
+    rdfs:domain :Target_Service_Level ;
+    rdfs:range xsd:double .
+
+:finished_product_costs a owl:DatatypeProperty ;
+    rdfs:label "finished product costs"@en ;
+    rdfs:comment "Target Costs: Costs of a finished unit of a certain technology"@en ;
+    rdfs:domain :Target_Costs ;
+    rdfs:range xsd:integer .
+
+:frequency a owl:DatatypeProperty ;
+    rdfs:label "frequency"@en ;
+    rdfs:domain :Time_Coupling ;
+    rdfs:range xsd:integer .
+
+:from_fab_ID a owl:DatatypeProperty ;
+    rdfs:label "from fab ID"@en ;
+    rdfs:comment "Supply Chain: FK; Source ID of supply chain edge"@en ;
+    rdfs:domain :Supply_Chain ;
+    rdfs:range xsd:string .
+
+:has_WIP_station a owl:ObjectProperty ;
+    rdfs:label "has WIP station"@en ;
+    rdfs:domain :Capacity ;
+    rdfs:range :Work_In_Progress_Station ;
+    owl:inverseOf :is_WIP_station_of .
+
+:has_bottleneck a owl:ObjectProperty ;
+    rdfs:label "has bottleneck"@en ;
+    rdfs:range :Bottleneck ;
+    owl:inverseOf :is_bottleneck_of .
+
+:has_current_WIP a owl:ObjectProperty ;
+    rdfs:label "has a current WIP"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Current_WIP ;
+    owl:inverseOf :is_current_WIP .
+
+:has_delivery_commitment a owl:ObjectProperty ;
+    rdfs:label "has delivery commitment"@en ;
+    rdfs:domain :Release_Plan ;
+    rdfs:range :Delivery_Commitment ;
+    owl:inverseOf :is_delivery_commitment_of .
+
+:has_demand a owl:ObjectProperty ;
+    rdfs:label "has demand"@en ;
+    rdfs:domain [ ],
+        :Product ;
+    rdfs:range :Demand_Snapshot,
+        :Production_Request ;
+    owl:inverseOf :is_demand_of .
+
+:has_equipment a owl:ObjectProperty ;
+    rdfs:label "has equipment"@en ;
+    rdfs:domain :Operation,
+        :Tool ;
+    rdfs:range :Equipment ;
+    owl:inverseOf :is_equipment_of .
+
+:has_equipment_group a owl:ObjectProperty ;
+    rdfs:label "has equipment group"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Equipment_Group ;
+    owl:inverseOf :is_equipment_group_of .
+
+:has_event_calendar a owl:ObjectProperty ;
+    rdfs:label "has event calendar"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Event_Calendar ;
+    owl:inverseOf :is_event_calendar_of .
+
+:has_fab a owl:ObjectProperty ;
+    rdfs:label "has fab"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Fab ;
+    owl:inverseOf :is_fab_of .
+
+:has_lot a owl:ObjectProperty ;
+    rdfs:label "has lot"@en ;
+    rdfs:domain :Lot_Event ;
+    rdfs:range :Lot ;
+    owl:inverseOf :is_lot_of .
+
+:has_lot_event a owl:ObjectProperty ;
+    rdfs:label "has lot event"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Lot_Event ;
+    owl:inverseOf :is_lot_event_of .
+
+:has_lot_size a owl:ObjectProperty ;
+    rdfs:label "has lot size"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Lot_Size ;
+    owl:inverseOf :is_lot_size_of .
+
+:has_operation a owl:ObjectProperty ;
+    rdfs:label "has operation"@en ;
+    rdfs:domain [ ],
+        :Product ;
+    rdfs:range :Operation ;
+    owl:inverseOf :is_operation_of .
+
+:has_owner a owl:ObjectProperty ;
+    rdfs:label "has owner"@en ;
+    rdfs:domain :EPA ;
+    rdfs:range :Owner ;
+    owl:inverseOf :is_owned_by .
+
+:has_part_simulation_part a owl:ObjectProperty ;
+    rdfs:label "has part"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Simulation_Part ;
+    owl:inverseOf :simulation_part_is_part_of .
+
+:has_plant a owl:ObjectProperty ;
+    rdfs:label "has plant"@en ;
+    rdfs:domain :Supply_Chain ;
+    rdfs:range :Plant ;
+    owl:inverseOf :is_plant_of .
+
+:has_priority_class a owl:ObjectProperty ;
+    rdfs:label "has priority class"@en ;
+    rdfs:domain :EPA ;
+    rdfs:range :Priority_Class ;
+    owl:inverseOf :is_priority_class_of .
+
+:has_product_level a owl:ObjectProperty ;
+    rdfs:label "has product level"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Product_Level ;
+    owl:inverseOf :is_product_level_of .
+
+:has_product_number a owl:ObjectProperty ;
+    rdfs:label "has product number"@en ;
+    rdfs:domain :Process_Flow ;
+    rdfs:range :Product_Number .
+
+:has_release_plan a owl:ObjectProperty ;
+    rdfs:label "has release plan"@en ;
+    rdfs:domain :Delivery_Commitment ;
+    rdfs:range :Release_Plan ;
+    owl:inverseOf :is_release_plan_of .
+
+:has_route a owl:ObjectProperty ;
+    rdfs:label "has route"@en ;
+    rdfs:domain [ ],
+        :Product_Level_3 ;
+    rdfs:range :Route,
+        :Simulation_Route ;
+    owl:inverseOf :is_route_of .
+
+:has_shift a owl:ObjectProperty ;
+    rdfs:label "has shift"@en ;
+    rdfs:domain :Equipment_Group ;
+    rdfs:range :Shift ;
+    owl:inverseOf :is_shift_of .
+
+:has_target_costs a owl:ObjectProperty ;
+    rdfs:label "has target costs"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Target_Costs ;
+    owl:inverseOf :is_target_costs_of .
+
+:has_target_revenue a owl:ObjectProperty ;
+    rdfs:label "has target revenue"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Target_Revenue ;
+    owl:inverseOf :is_target_revenue_of .
+
+:has_technology a owl:ObjectProperty ;
+    rdfs:label "has technology"@en ;
+    rdfs:domain [ ],
+        :Operation ;
+    rdfs:range :Technology ;
+    owl:inverseOf :is_technology_of .
+
+:has_time_constraints a owl:ObjectProperty ;
+    rdfs:label "has time constraints"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range :Time_Constraints ;
+    owl:inverseOf :is_time_constraints_of .
+
+:has_workshop a owl:ObjectProperty ;
+    rdfs:label "has workshop"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Workshop ;
+    owl:inverseOf :is_workshop_of .
+
+:hot_timeout a owl:DatatypeProperty ;
+    rdfs:label "hot timeout"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in hours"@en ;
+    rdfs:domain :Hot ;
+    rdfs:range xsd:decimal .
+
+:is_manually_loaded_by a owl:ObjectProperty ;
+    rdfs:label "is manually loaded by"@en ;
+    owl:inverseOf :manually_loads .
+
+:is_needed_by_tool a owl:ObjectProperty ;
+    rdfs:label "is needed by tool"@en ;
+    owl:inverseOf :needs_purge .
+
+:is_preceeded_by a owl:ObjectProperty ;
+    rdfs:label "is preceeded by"@en ;
+    rdfs:domain :Tool ;
+    rdfs:range :Time_Coupling ;
+    owl:inverseOf :preceeds .
+
+:is_processed_by_tool a owl:ObjectProperty ;
+    rdfs:label "is processed by"@en ;
+    rdfs:domain :EPA ;
+    rdfs:range :Tool ;
+    owl:inverseOf :processes .
+
+:is_required_by a owl:ObjectProperty ;
+    rdfs:label "is required by"@en ;
+    owl:inverseOf :requires .
+
+:is_responsible_for_planning_work_center a owl:ObjectProperty ;
+    rdfs:label "is responsible for"@en ;
+    rdfs:domain :Operator ;
+    rdfs:range :Planning_Work_Center .
+
+:is_robotically_loaded_by a owl:ObjectProperty ;
+    rdfs:label "is robotically loaded by"@en ;
+    owl:inverseOf :robotically_loads .
+
+:is_unloaded_by a owl:ObjectProperty ;
+    rdfs:label "is unloaded by"@en ;
+    owl:inverseOf :unloads .
+
+:leave_main_quantity a owl:DatatypeProperty ;
+    rdfs:label "leave main quantity"@en ;
+    rdfs:comment "Lot Event: Number of units in the lot (wafers / chips) when left the event (Important for splits, merges and scraps)"@en ;
+    rdfs:domain :Lot_Event ;
+    rdfs:range xsd:integer .
+
+:leave_state a owl:DatatypeProperty ;
+    rdfs:label "leave state"@en ;
+    rdfs:comment "Lot Event: Time state is finished"@en,
+        "Lot State: Time state is finished"@en ;
+    rdfs:domain :Lot,
+        :Lot_Event ;
+    rdfs:range xsd:dateTime .
+
+:load_time_wait a owl:DatatypeProperty ;
+    rdfs:label "load time wait"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in hours"@en ;
+    rdfs:domain :Operator ;
+    rdfs:range xsd:decimal .
+
+:lot_ID a owl:DatatypeProperty ;
+    rdfs:label "lot ID"@en ;
+    rdfs:comment "Current WIP: PK; FK; Name of Lot"@en,
+        "Lot Event: Name of the lot"@en,
+        "Lot ID: PK; Name of the lot"@en ;
+    rdfs:domain :Current_WIP,
+        :Lot,
+        :Lot_Event ;
+    rdfs:range xsd:string .
+
+:lot_due_date a owl:DatatypeProperty ;
+    rdfs:label "lot due date"@en ;
+    rdfs:comment "Lot Event: Date customer needs the lot delivered (DD.MM.YYYY hh:mm:ss)"@en,
+        "Lot: Date customer needs the lot delivered (DD.MM.YYYY hh:mm:ss)"@en ;
+    rdfs:domain :Lot ;
+    rdfs:range xsd:dateTime .
+
+:lot_owner a owl:DatatypeProperty ;
+    rdfs:label "lot owner"@en ;
+    rdfs:domain :Lot,
+        :Lot_Event ;
+    rdfs:range xsd:string .
+
+:lot_size_amount a owl:DatatypeProperty ;
+    rdfs:label "lot size amount"@en ;
+    rdfs:comment "Lot Event: Amount of units in the lot"@en,
+        "Lot: Amount of units in the lot"@en ;
+    rdfs:domain :Lot,
+        :Lot_Event ;
+    rdfs:range xsd:integer .
+
+:lot_size_quantity a owl:DatatypeProperty ;
+    rdfs:label "lot size quantity"@en ;
+    rdfs:comment "Lot Size: Standard (FE) or optimal (BE) lot size for respective PL3"@en ;
+    rdfs:domain :Lot_Size ;
+    rdfs:range xsd:string .
+
+:max_WIP a owl:DatatypeProperty ;
+    rdfs:label "max WIP"@en ;
+    rdfs:comment "Fab: Hard capacity restriction of process units (NULL if no restriction)"@en ;
+    rdfs:domain :Fab ;
+    rdfs:range xsd:integer .
+
+:max_throughput_per_week a owl:DatatypeProperty ;
+    rdfs:label "max throughput per week"@en ;
+    rdfs:comment "Maximum Throughput per week"@en ;
+    rdfs:domain :Equipment_Group ;
+    rdfs:range xsd:integer .
+
+:mean_time_off_line a owl:DatatypeProperty ;
+    rdfs:label "mean time off line"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in hours"@en ;
+    rdfs:domain :Tool ;
+    rdfs:range xsd:decimal .
+
+:mean_time_to_failure a owl:DatatypeProperty ;
+    rdfs:label "mean time to failure"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in seconds"@en,
+        "mean time to failure - MTTF"@en ;
+    rdfs:domain :Event_Calendar ;
+    rdfs:range xsd:decimal .
+
+:mean_time_to_failure_distribution a owl:DatatypeProperty ;
+    rdfs:label "mean time to failure distribution"@en ;
+    rdfs:domain :Event_Calendar ;
+    rdfs:range xsd:string .
+
+:mean_time_to_repair a owl:DatatypeProperty ;
+    rdfs:label "mean time to repair"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in seconds"@en,
+        "mean time to repair - MTTR"@en ;
+    rdfs:domain :Event_Calendar ;
+    rdfs:range xsd:decimal .
+
+:mean_time_to_repair_distribution a owl:DatatypeProperty ;
+    rdfs:label "mean time to repair distribution"@en ;
+    rdfs:domain :Event_Calendar ;
+    rdfs:range xsd:string .
+
+:number_of_parallel_tools a owl:DatatypeProperty ;
+    rdfs:label "number of parallel tools"@en ;
+    rdfs:domain :Equipment_Group ;
+    rdfs:range xsd:integer .
+
+:number_of_products a owl:DatatypeProperty ;
+    rdfs:label "number of products"@en ;
+    rdfs:domain :Time_Coupling ;
+    rdfs:range xsd:integer .
+
+:operation_ID a owl:DatatypeProperty ;
+    rdfs:label "operation ID"@en ;
+    rdfs:comment "FK; Name of operation"@en ;
+    rdfs:domain :Operation,
+        :Route ;
+    rdfs:range xsd:string .
+
+:operation_critical a owl:DatatypeProperty ;
+    rdfs:label "operation critical"@en ;
+    rdfs:comment "Operation: Is the Operation critical in terms of SC planning (a Bottleneck) or not?"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:boolean .
+
+:operation_name a owl:DatatypeProperty ;
+    rdfs:label "operation name"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:string .
+
+:p_time_per_unit a owl:DatatypeProperty ;
+    rdfs:label "p time per unit"@en ;
+    rdfs:comment "Operation: Capacity consuming / relevant equipment processing time"@en,
+        "length of, or element of the length of, a temporal extent expressed in seconds"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:decimal .
+
+:parent_lot_event a owl:DatatypeProperty ;
+    rdfs:label "parent lot event"@en ;
+    rdfs:comment "Lot Event: FK; Name of ancestor lot event (important to rebuild the lot history)"@en ;
+    rdfs:domain :Lot_Event ;
+    rdfs:range xsd:string .
+
+:plant_ID a owl:DatatypeProperty ;
+    rdfs:label "plant ID"@en ;
+    rdfs:comment "Fab: FK; Geographical location"@en,
+        "Plant: PK; Will generally refer to the geographical location of the plant"@en ;
+    rdfs:domain :Fab ;
+    rdfs:range xsd:string .
+
+:plant_internal a owl:DatatypeProperty ;
+    rdfs:label "plant internal"@en ;
+    rdfs:comment "Plant: Does the plant belong to the company or to an external partner"@en ;
+    rdfs:domain :Plant ;
+    rdfs:range xsd:boolean .
+
+:plant_name a owl:DatatypeProperty ;
+    rdfs:label "plant name"@en ;
+    rdfs:comment "Plant: Will generally refer to the geographical location of the plant"@en ;
+    rdfs:domain :Plant ;
+    rdfs:range xsd:string .
+
+:priority a owl:DatatypeProperty ;
+    rdfs:label "priority"@en ;
+    rdfs:comment "Current WIP: Priority of the lot"@en ;
+    rdfs:domain :Lot,
+        :Lot_Event ;
+    rdfs:range xsd:integer .
+
+:processing_time_distribution a owl:DatatypeProperty ;
+    rdfs:label "processing time distribution"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:string .
+
+:product_level_2_ID a owl:DatatypeProperty ;
+    rdfs:label "product level 2 ID"@en ;
+    rdfs:comment "Product Level 2: PK; Name of the product in level 2"@en,
+        "Product Level 3: FK; Assignment of product to second product aggregation level"@en ;
+    rdfs:domain :Product_Level_2,
+        :Product_Level_3 ;
+    rdfs:range xsd:string .
+
+:product_level_3 a owl:DatatypeProperty ;
+    rdfs:label "product level 3"@en ;
+    rdfs:comment "Lot Event: FK; Name of product level 3 lot belongs to"@en,
+        "Lot: FK; Name of product level 3 lot belongs to"@en ;
+    rdfs:domain :Lot,
+        :Lot_Event ;
+    rdfs:range xsd:string .
+
+:product_level_3_pseudonym a owl:DatatypeProperty ;
+    rdfs:label "product level 3 pseudonym"@en ;
+    rdfs:comment "Demand: PK; Associated PL3"@en,
+        "Product Level 3: PK; Name of the product in level 3"@en,
+        "Product Level 4: FK; Assignment of product to first product aggregation level"@en ;
+    rdfs:domain :Bottleneck,
+        :Cycle_Time_Committment,
+        :Delivery_Commitment,
+        :Demand_Snapshot,
+        :Lot,
+        :Lot_Event,
+        :Lot_Size,
+        :Operation,
+        :Product_Level_3,
+        :Release_Plan,
+        :Route ;
+    rdfs:range xsd:string .
+
+:purge_duration a owl:DatatypeProperty ;
+    rdfs:label "purge duration"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in hours"@en ;
+    rdfs:domain :Purge ;
+    rdfs:range xsd:decimal .
+
+:release_plan_ID a owl:DatatypeProperty ;
+    rdfs:label "release plan ID"@en ;
+    rdfs:comment "Release Plan: FK; Name of the product level 3"@en ;
+    rdfs:domain :Release_Plan ;
+    rdfs:range xsd:string .
+
+:residual_time_in_fab a owl:DatatypeProperty ;
+    rdfs:label "residual time in fab"@en ;
+    rdfs:comment "Current WIP: Expected residual time lot spends in current Fab (FE/BE)"@en,
+        "length of, or element of the length of, a temporal extent expressed in seconds"@en ;
+    rdfs:domain :Current_WIP ;
+    rdfs:range xsd:decimal .
+
+:revenue_per_unit a owl:DatatypeProperty ;
+    rdfs:label "revenue per unit"@en ;
+    rdfs:comment "Target Revenue: Revenue per unit of a certain technology"@en ;
+    rdfs:domain :Target_Revenue ;
+    rdfs:range xsd:integer .
+
+:rework_operation a owl:DatatypeProperty ;
+    rdfs:label "rework operation"@en ;
+    rdfs:comment "Operation: [FK] Rework Operation, if needed"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:string .
+
+:rework_probability_lots a owl:DatatypeProperty ;
+    rdfs:label "rework probability lots"@en ;
+    rdfs:comment "Operation: Probability of rework-tested full lots to be reworked"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:double .
+
+:rework_probability_wafers a owl:DatatypeProperty ;
+    rdfs:label "rework probability wafers"@en ;
+    rdfs:comment "Operation: Probability of rework-tested wafers to be reworked"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:double .
+
+:rework_test a owl:DatatypeProperty ;
+    rdfs:label "rework test"@en ;
+    rdfs:comment "Operation: Are the processed lots tested for rework?"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:boolean .
+
+:robot_loading_time a owl:DatatypeProperty ;
+    rdfs:label "robot loading time"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in hours"@en ;
+    rdfs:domain :Tool ;
+    rdfs:range xsd:decimal .
+
+:robot_unloading_time a owl:DatatypeProperty ;
+    rdfs:label "robot unloading time"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in hours"@en ;
+    rdfs:domain :Tool ;
+    rdfs:range xsd:decimal .
+
+:route_name a owl:DatatypeProperty ;
+    rdfs:label "route name"@en ;
+    rdfs:comment "Name of route (usually equals product names requiring the route)"@en ;
+    rdfs:domain :Product_Level_3,
+        :Route ;
+    rdfs:range xsd:string .
+
+:route_position a owl:DatatypeProperty ;
+    rdfs:label "route position"@en ;
+    rdfs:comment "Lot Event: FK; Sequential number of the operation lot has entered"@en,
+        "Lot: FK; Sequential number of the operation lot has entered"@en ;
+    rdfs:domain :Lot,
+        :Lot_Event ;
+    rdfs:range xsd:integer .
+
+:sampling_rate a owl:DatatypeProperty ;
+    rdfs:label "sampling rate"@en ;
+    rdfs:comment "Sampling Rate: Execution rate of operation If operation is mandatory sampling rate is 1 (1- sampling rate = skipping rate of optional operation)"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:double .
+
+:scrapping_probability_lots a owl:DatatypeProperty ;
+    rdfs:label "scrapping probability lots"@en ;
+    rdfs:comment "Operation: Probability of scrapping-tested full lots to be scrapped"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:double .
+
+:scrapping_probability_wafers a owl:DatatypeProperty ;
+    rdfs:label "scrapping probability wafers"@en ;
+    rdfs:comment "Operation: Probability of scrapping-tested wafers to be scrapped"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:double .
+
+:scrapping_test a owl:DatatypeProperty ;
+    rdfs:label "scrapping test"@en ;
+    rdfs:comment "Operation: Are the processed lots tested for scrapping?"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:boolean .
+
+:sequence_number a owl:DatatypeProperty ;
+    rdfs:label "sequence number"@en ;
+    rdfs:comment "Lot Event: FK; Sequential number of the operation lot has entered"@en,
+        "Lot State: FK; Sequential number of the operation lot has entered"@en,
+        "Route: PK; Sequential number of operations along the route"@en ;
+    rdfs:domain :Route ;
+    rdfs:range xsd:integer .
+
+:shift_ID a owl:DatatypeProperty ;
+    rdfs:label "shift ID"@en ;
+    rdfs:comment "Shift: PK; Name of shift"@en ;
+    rdfs:domain :Equipment_Group,
+        :Shift ;
+    rdfs:range xsd:string .
+
+:split_lot_chips a owl:DatatypeProperty ;
+    rdfs:label "split lot chips"@en ;
+    rdfs:comment "split into lots with # chips, added due to data import" ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:integer .
+
+:split_lots a owl:DatatypeProperty ;
+    rdfs:label "split lots"@en ;
+    rdfs:comment "Split into # lots, added due to data import" ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:integer .
+
+:stock_out_probability a owl:DatatypeProperty ;
+    rdfs:label "stock out probability"@en ;
+    rdfs:comment "Target service level: Probability that customer demand cannot be fulfilled"@en ;
+    rdfs:domain :Target_Service_Level ;
+    rdfs:range xsd:double .
+
+:supply_chain_ID a owl:DatatypeProperty ;
+    rdfs:label "supply chain ID"@en ;
+    rdfs:comment "Technology: FK; Assignment of technology to supply chain"@en ;
+    rdfs:domain :Technology ;
+    rdfs:range xsd:string .
+
+:supply_chain_name a owl:DatatypeProperty ;
+    rdfs:label "supply chain name"@en ;
+    rdfs:comment "Supply Chain: Name of the supply chain"@en ;
+    rdfs:domain :Supply_Chain ;
+    rdfs:range xsd:string .
+
+:target_service_level_beta a owl:DatatypeProperty ;
+    rdfs:label "target service level beta"@en ;
+    rdfs:comment "Target Service Level: Target beta service level (Rate of demand to be fulfilled without delay)"@en ;
+    rdfs:domain :Target_Service_Level ;
+    rdfs:range xsd:double .
+
+:technology_ID a owl:DatatypeProperty ;
+    rdfs:label "technology ID"@en ;
+    rdfs:comment "Target Costs: FK; Name of the technology"@en,
+        "Target Revenue: FK; Name of the technology"@en,
+        "Target Service Level: FK; Name of the technology"@en,
+        "Technology ID: FK; Assignment of product to highest product aggregation level (technology)"@en,
+        "Technology ID: FK; Name of the technology"@en,
+        "Technology: PK; Name of the technology"@en ;
+    rdfs:domain :Product_Level_2,
+        :Target_Costs,
+        :Target_Revenue,
+        :Target_Service_Level,
+        :Technology ;
+    rdfs:range xsd:string .
+
+:to_equipment_group_ID a owl:DatatypeProperty ;
+    rdfs:label "to equipment group ID"@en ;
+    rdfs:comment "Material Transfer: FK; target EquipmentGroup of transfer"@en ;
+    rdfs:domain :Material_Transfer_Matrix ;
+    rdfs:range xsd:string .
+
+:to_fab_ID a owl:DatatypeProperty ;
+    rdfs:label "to fab ID"@en ;
+    rdfs:comment "Supply Chain: FK; Sink ID of supply chain edge"@en ;
+    rdfs:domain :Supply_Chain ;
+    rdfs:range xsd:string .
+
+:tool_availability a owl:DatatypeProperty ;
+    rdfs:label "tool availability"@en ;
+    rdfs:comment "is tool available? boolean YES/NO"@en ;
+    rdfs:domain :Tool ;
+    rdfs:range xsd:boolean .
+
+:transfer_mode a owl:DatatypeProperty ;
+    rdfs:label "transfer mode"@en ;
+    rdfs:comment "Transfer Mode: Automation, AGV, milkrun or manual"@en ;
+    rdfs:domain :Material_Transfer_Matrix ;
+    rdfs:range xsd:string .
+
+:transfer_time a owl:DatatypeProperty ;
+    rdfs:label "transfer time"@en ;
+    rdfs:comment "Material Transfer: Duration of transfer from on to the other equipment"@en,
+        "length of, or element of the length of, a temporal extent expressed in seconds"@en ;
+    rdfs:domain :Material_Transfer_Matrix ;
+    rdfs:range xsd:decimal .
+
+:travel_time a owl:DatatypeProperty ;
+    rdfs:label "travel time"@en ;
+    rdfs:comment "length of, or element of the length of, a temporal extent expressed in seconds"@en ;
+    rdfs:domain :Supply_Chain ;
+    rdfs:range xsd:decimal .
+
+:unit a owl:DatatypeProperty ;
+    rdfs:label "unit"@en ;
+    rdfs:comment "unit, added due to data import" ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:string .
+
+:units_per_time_period a owl:DatatypeProperty ;
+    rdfs:label "units per time period"@en ;
+    rdfs:comment "Delivery Commitment: Quantity of committed delivery per time period (time period depends on company planning process)"@en,
+        "Release Plan: Quantity of release per time period (time period depends on company)"@en ;
+    rdfs:domain :Delivery_Commitment,
+        :Release_Plan ;
+    rdfs:range xsd:integer .
+
+:uses_one_or_more_technology a owl:ObjectProperty ;
+    rdfs:label "uses one or more technology"@en ;
+    rdfs:domain :Process ;
+    rdfs:range :Workshop .
+
+:variance_p_time a owl:DatatypeProperty ;
+    rdfs:label "variance p time"@en ;
+    rdfs:comment "Variance of capacity relevant operation processing time"@en,
+        "length of, or element of the length of, a temporal extent expressed in seconds"@en ;
+    rdfs:domain :Operation ;
+    rdfs:range xsd:decimal .
+
+:workforce a owl:DatatypeProperty ;
+    rdfs:label "workforce"@en ;
+    rdfs:comment "Shift: Overall number of operational workers assigned to the shift"@en ;
+    rdfs:domain :Shift ;
+    rdfs:range xsd:integer .
+
+:Capacity a owl:Class ;
+    rdfs:label "Capacity"@en ;
+    rdfs:comment "As soon as a machine has free capacity: 1. all lots which belong to a priority class have to be dispatched imediately accordung to their priority  rank."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Development a owl:Class ;
+    rdfs:label "Development"@en ;
+    rdfs:comment "These lots have the same maxium waiting time as standard lots, however they are put before the standard lots."@en ;
+    rdfs:subClassOf :Priority_Class .
+
+:Equipment a owl:Class ;
+    rdfs:label "Equipment"@en ;
+    rdfs:comment "The entity “Equipment” describes the semiconductor equipment of any equipment model. It allocates it to higher level entities and describes the behavior of the equipment. (master entity)"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Hot a owl:Class ;
+    rdfs:label "Hot"@en ;
+    rdfs:comment "These lots are processed after a certain maximum waiting time which is shorter than the maximum waiting time of standard lots. In general, for all classes, if there is more than one product type waiting."@en ;
+    rdfs:subClassOf :Priority_Class .
+
+:Lithography a owl:Class ;
+    rdfs:label "Lithography"@en ;
+    rdfs:comment "The lithography process is the key process in frontend. This consists of the following steps: a photo resisting layer is spun on a wafer, then exposed through the mask, then developed, then showing the effect on the open places, and then final deletion of the photo resisting material leaves only the remaining structure on the water. after some time for deposition, these steps are repeated up to 35 times."@en ;
+    rdfs:subClassOf :Workshop .
+
+:Mask a owl:Class ;
+    rdfs:label "Mask"@en ;
+    rdfs:comment "A transparent (glass or quartz) plate covered with an array of patterns used in making an IC. Each pattern consists of opaque and transparent areas that define the size and shape of all circuit and device elements. The mask is used to expose selected areas, and defines the areas to be processed. Masks may use emulsion, chrome, iron oxide, silicon or other material to produce the opaque areas."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Owner a owl:Class ;
+    rdfs:label "Owner"@en ;
+    rdfs:comment "An owner is the entity that has the highest level of access authority or legal right to a system or equipment."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Process_Flow a owl:Class ;
+    rdfs:label "Process Flow"@en ;
+    rdfs:comment "A wafer technology is defined as a manufacturing process flow on wafer level including wafer test and pre-assembly which creates one device (discrete technology) or a set of different devices (IC technology) to be used in a product."@en ;
+    rdfs:subClassOf :Process .
+
+:Product_Number a owl:Class ;
+    rdfs:label "Product Number"@en ;
+    rdfs:comment "The product number is a unique identifier of a product. The scope is limited to finished products only."@en ;
+    rdfs:subClassOf :Product .
+
+:Production_Request a owl:Class ;
+    rdfs:label "Production Request"@en ;
+    rdfs:comment "Production requests definte what the facilities need to produce when and in what quantity."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Robot a owl:Class ;
+    rdfs:label "Robot"@en ;
+    rdfs:comment "The robot loads and unloads the lots from the WIP station into the furnace. Robot can load the furnace while another boat is processd by the tool."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Simulation_Part a owl:Class ;
+    rdfs:label "Simulation Part"@en ;
+    rdfs:comment "A simulation part helps to identify the same product in different locations. They are visible in Product Structures. This is a simulation entity and not a form of production/planning."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Simulation_Route a owl:Class ;
+    rdfs:label "Simulation Route"@en ;
+    rdfs:comment "A simulation route (AKA workroute) represents a sequence of process steps in manufacutring (mainly at wafer fab). This is a simulation entity and not a form of production/planning."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Time_Constraints a owl:Class ;
+    rdfs:label "Time Constraints"@en ;
+    rdfs:comment "As single operations can set the lot to a time-critical state, time constraints can ensure that the operation setting it to an uncritical state is not delayed. Also the other case where certain time has to be spent between two operations can be covered with this master entity. (workflow deswcriptive master entities)"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:is_WIP_station_of a owl:ObjectProperty ;
+    rdfs:label "is WIP station of"@en .
+
+:is_bottleneck_of a owl:ObjectProperty ;
+    rdfs:label "is bottleneck of"@en ;
+    rdfs:domain :Bottleneck .
+
+:is_current_WIP a owl:ObjectProperty ;
+    rdfs:label "is current WIP"@en ;
+    rdfs:domain :Current_WIP ;
+    rdfs:range [ ] .
+
+:is_dedicated_to_tool a owl:ObjectProperty ;
+    rdfs:label "is dedicated to tool"@en ;
+    rdfs:domain :EPA ;
+    rdfs:range :Tool .
+
+:is_delivery_commitment_of a owl:ObjectProperty ;
+    rdfs:label "is delivery commitment of"@en ;
+    rdfs:domain :Delivery_Commitment ;
+    rdfs:range :Release_Plan .
+
+:is_demand_of a owl:ObjectProperty ;
+    rdfs:label "is demand of"@en .
+
+:is_equipment_group_of a owl:ObjectProperty ;
+    rdfs:label "is equipment group of"@en .
+
+:is_equipment_of a owl:ObjectProperty ;
+    rdfs:label "is equipment of"@en .
+
+:is_event_calendar_of a owl:ObjectProperty ;
+    rdfs:label "is event calendar of"@en .
+
+:is_fab_of a owl:ObjectProperty ;
+    rdfs:label "is fab of"@en .
+
+:is_lot_event_of a owl:ObjectProperty ;
+    rdfs:label "is lot event of"@en .
+
+:is_lot_of a owl:ObjectProperty ;
+    rdfs:label "is lot of"@en .
+
+:is_lot_size_of a owl:ObjectProperty ;
+    rdfs:label "is lot size of"@en .
+
+:is_operation_of a owl:ObjectProperty ;
+    rdfs:label "is operation of"@en .
+
+:is_owned_by a owl:ObjectProperty ;
+    rdfs:label "is owned by"@en .
+
+:is_plant_of a owl:ObjectProperty ;
+    rdfs:label "is plant of"@en .
+
+:is_priority_class_of a owl:ObjectProperty ;
+    rdfs:label "is priority class of"@en ;
+    rdfs:domain :Priority_Class ;
+    rdfs:range :EPA .
+
+:is_product_level_of a owl:ObjectProperty ;
+    rdfs:label "is product level of"@en .
+
+:is_release_plan_of a owl:ObjectProperty ;
+    rdfs:label "is release plan of"@en .
+
+:is_route_of a owl:ObjectProperty ;
+    rdfs:label "is route of"@en .
+
+:is_shift_of a owl:ObjectProperty ;
+    rdfs:label "is shift of"@en .
+
+:is_target_costs_of a owl:ObjectProperty ;
+    rdfs:label "is target costs of"@en .
+
+:is_target_revenue_of a owl:ObjectProperty ;
+    rdfs:label "is target revenue of"@en .
+
+:is_technology_of a owl:ObjectProperty ;
+    rdfs:label "is technology of"@en .
+
+:is_time_constraints_of a owl:ObjectProperty ;
+    rdfs:label "is time constraints of"@en .
+
+:is_workshop_of a owl:ObjectProperty ;
+    rdfs:label "is workshop of"@en .
+
+:manually_loads a owl:ObjectProperty ;
+    rdfs:label "manually loads"@en ;
+    rdfs:comment "the operator will load the wafer into the wip station and then the robot will load the wafers from the wip station to the tool" ;
+    rdfs:domain :Operator ;
+    rdfs:range :Work_In_Progress_Station .
+
+:needs_purge a owl:ObjectProperty ;
+    rdfs:label "needs purge"@en ;
+    rdfs:domain :Tool ;
+    rdfs:range :Purge .
+
+:preceeds a owl:ObjectProperty ;
+    rdfs:label "preceeds"@en .
+
+:processes a owl:ObjectProperty ;
+    rdfs:label "processes"@en .
+
+:requires a owl:ObjectProperty ;
+    rdfs:label "requires"@en ;
+    rdfs:domain :Mask ;
+    rdfs:range :Lithography .
+
+:robotically_loads a owl:ObjectProperty ;
+    rdfs:label "robotically loads"@en ;
+    rdfs:comment "the operator will load the wafer into the wip station and then the robot will load the wafers from the wip station to the tool" ;
+    rdfs:domain :Robot ;
+    rdfs:range :Tool .
+
+:simulation_part_is_part_of a owl:ObjectProperty ;
+    rdfs:label "is part of"@en .
+
+:unloads a owl:ObjectProperty ;
+    rdfs:label "unloads"@en ;
+    rdfs:domain :Operator ;
+    rdfs:range :Tool .
+
+:Furnace_Process a owl:Class ;
+    rdfs:label "Furnace Process"@en ;
+    rdfs:comment "Sequence of interdependent and linked procedures which, at every stage, consume one or more resources (employee time, energy, machines, money) to convert inputs (data, material, parts, etc.) into outputs. These outputs then serve as inputs for the next stage until a known goal or end result is reached."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Product_Level_2 a owl:Class ;
+    rdfs:label "Product Level 2"@en ;
+    rdfs:comment "The product levels 3 to 1 are aggregated levels that are based on information from product level 4. (hierarchal aggregation level)"@en ;
+    rdfs:subClassOf :Product_Level .
+
+:Purge a owl:Class ;
+    rdfs:label "Purge"@en ;
+    rdfs:comment "purge' is the application of an intert gas, or gas mixture, to the OD or ID surface of the weld joint to displace non-inert atmospheric gases. A block purge is a non-flowing purge with positive pressure."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Work_In_Progress_Station a owl:Class ;
+    rdfs:label "Work In Progress Station"@en ;
+    rdfs:comment "Work in Progress (WIP) processing occurs here. WIP refers to the units of production that have been released into the factory, but have not yet been scrapped, have not been sent our for external rework, and have not finished processing through all of the production steps."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Cycle_Time_Committment a owl:Class ;
+    rdfs:label "Cycle Time Commitment"@en ;
+    rdfs:comment """The “Cycle Time Commitment” entity helps controlling the WIP\r
+via the release plan. (strategy entity)"""@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Planning_Work_Center a owl:Class ;
+    rdfs:label "Planning Work Center"@en ;
+    rdfs:comment "Semiconductor wafers arrive at the planning work center according to a Poisson process in lots with a certain unit size. The planning work center X48- can process three different products which arrive in four different classes."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Plant a owl:Class ;
+    rdfs:label "Plant"@en ;
+    rdfs:comment "The “Plant” entity describes the plant as a physical location of one or more fabs. The Plant belongs to a supply chain and can either be internal or external. (master entity)"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Product_Level a owl:Class ;
+    rdfs:label "Product Level"@en ;
+    rdfs:comment "In the \"product level\" entity, the aggregation of elements enables the grouping of products and defines the relationship between products and groups at different hierarchy levels. This supports planning, logistics, modeling, forecasting and reporting."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Shift a owl:Class ;
+    rdfs:label "Shift"@en ;
+    rdfs:comment "Each workshop has a certain technical and operational workforce organized in shifts described in the “Shift” entity."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Target_Revenue a owl:Class ;
+    rdfs:label "Target Revenue"@en ;
+    rdfs:comment "The target revenue is the amount of income a company wants to generate for the current accounting period."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Time_Coupling a owl:Class ;
+    rdfs:label "Time Coupling"@en ;
+    rdfs:comment "Lots of this type are requested by the next machine in the production line in irregular intervals. Special chemical characteristics require the lot being further processed immediately after the furnace operation. Thus, the downstram machines keep capacity free for the resulting time slot. timecoupling can be turned on or off. if it is on all lots are processed no matter how many are waiting and if not they wait."@en ;
+    rdfs:subClassOf :Priority_Class .
+
+:Bottleneck a owl:Class ;
+    rdfs:label "Bottleneck"@en ;
+    rdfs:comment "A capacity Bottleneck is defined as an equipment or multiple equipment that reflect the capacity of the whole line (either a dedicated Line or Pool sharing)."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Material_Transfer_Matrix a owl:Class ;
+    rdfs:label "Material Transfer Matrix"@en ;
+    rdfs:comment "A material transfer matrix estimates the duration of material from on to another equipment."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Operator a owl:Class ;
+    rdfs:label "Operator"@en ;
+    rdfs:comment "A user that interacts with the equipment only to the degree necessary for the equipment to perform its intended function."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Target_Costs a owl:Class ;
+    rdfs:label "Target Costs"@en ;
+    rdfs:comment "The target costs entity is the final cost of a product or service that must be achieved in order to generate the desired level of sales revenue and income or due to contractual agreements."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Target_Service_Level a owl:Class ;
+    rdfs:label "Target Service Level"@en ;
+    rdfs:comment "The target service level is a performance indicator expressing the percentage of orders satisfied."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Technology a owl:Class ;
+    rdfs:label "Technology"@en ;
+    rdfs:comment "A semiconductor technology is a set of equipment, processes, manufacturing techniques and the related methods and procedures to enable the design & production of components, sub-components and modules."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe>,
+        :Technology .
+
+:Current_WIP a owl:Class ;
+    rdfs:label "Current Work In Progress"@en ;
+    rdfs:comment "“Current WIP” entity describes the actual material distribution in the supply chain. (snapshot entity)"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:EPA a owl:Class ;
+    rdfs:label "EPA"@en ;
+    rdfs:comment "The EPA is a product identifier referring to the associated process."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Lot_Size a owl:Class ;
+    rdfs:label "Lot Size"@en ;
+    rdfs:comment "A measure or quantity increment acceptable to or specified by the party offering to buy or sell. Used also as an alternative term for lot quantity."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Process a owl:Class ;
+    rdfs:label "Process"@en ;
+    rdfs:comment "Sequence of interdependent and linked procedures which, at every stage, consume one or more resources (employee time, energy, machines, money) to convert inputs (data, material, parts, etc.) into outputs. These outputs then serve as inputs for the next stage until a known goal or end result is reached."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Product_Level_3 a owl:Class ;
+    rdfs:label "Product Level 3"@en ;
+    rdfs:comment """The static bottlenecks are determined in the “Product Level 3” master entity\r
+because the mid capacity planning is done on this first aggregated product level. There is no big difference in capacity from the aggregated level 3 product to its child level 4 products. (hierarchal aggregation level)"""@en ;
+    rdfs:subClassOf :Product_Level .
+
+:Route a owl:Class ;
+    rdfs:label "Route"@en ;
+    rdfs:comment "The master entity “Route” describes the structure of a workflow out of operations. Every product uses a specific route in its value stream, i.e. the complete sequence of operations with all mandatory and optional operations necessary to complete the product. A route makes use of the single operations. (workflow descriptive master entity)"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Supply_Chain a owl:Class ;
+    rdfs:label "Supply Chain"@en ;
+    rdfs:comment "The entity “Supply Chain” describes the supply chain from the topmost level with all possible material flow edges, referring on the FabIDs (master entity)"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Delivery_Commitment a owl:Class ;
+    rdfs:label "Delivery Commitment"@en ;
+    rdfs:comment "The \"Delivery Commitment\" directly corresponds to the release plans and cycle time commitments introduced in the corresponding entities."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Fab a owl:Class ;
+    rdfs:label "Fabrication"@en ;
+    rdfs:comment "The “Fab” entity depicts the fab as a technological and physical production unit. (master entity)"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Product a owl:Class ;
+    rdfs:label "Product"@en ;
+    rdfs:comment "A product is a work product that is delivered to the customer."@en,
+        "A product is any tangible output or service that is a result of a process and that is intended for delivery to a customer or end user."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Demand_Snapshot a owl:Class ;
+    rdfs:label "Demand Snapshot"@en ;
+    rdfs:comment "The “Demand” entity stores redundant demand at every product level. (snapshot entity)"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Priority_Class a owl:Class ;
+    rdfs:label "Priority Class"@en ;
+    rdfs:comment "Each lot is characterized by a product type and a priority class. The priority classes are listed as follows: development, hot, productive, rocket and timecoupling."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Release_Plan a owl:Class ;
+    rdfs:label "Release Plan"@en ;
+    rdfs:comment "The “Release Plan” entity shows the quantity planned to be released to a fab or facility. (strategy entity)"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Equipment_Group a owl:Class ;
+    rdfs:label "Equipment Group"@en ;
+    rdfs:comment "Each machine is allocated to a group of machines doing similar processes. The equipment groups are described and allocated in the master entity “Equipment Group”. (master entity)"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Event_Calendar a owl:Class ;
+    rdfs:label "Event Calendar"@en ;
+    rdfs:comment "In the “Event Calendar” tracing entity, certain events like planned facility shutdowns, etc. can be scheduled"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Workshop a owl:Class ;
+    rdfs:label "Workshop"@en ;
+    rdfs:comment "The overall organizational working structures within the fabs is described in the entity “Workshop” (master entity)"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Lot a owl:Class ;
+    rdfs:label "Lot"@en ;
+    rdfs:comment "The Lot represents manufacturing unit (e.g. in the semicondutor industry in Frontend this often consists of 25 or 50 wafers)."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Tool a owl:Class ;
+    rdfs:label "Tool"@en ;
+    rdfs:comment "A tool is any pieve of semiconductor fabrication or inspection equipment designed to process wafers. Often used synonymously with equipment in the silicon wafer processing industry."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+
+:Lot_Event a owl:Class ;
+    rdfs:label "Lot Event"@en ;
+    rdfs:comment "The Lot Event  tracing entity gives the history of lot events. e.g. Hold events, Split events, Merge events, etc. (tracing entities)."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Production_Lobe> .
+
+:Operation a owl:Class ;
+    rdfs:label "Operation"@en ;
+    rdfs:comment "The master entity “Operation” depicts the generic behavior of a single process step. Each operation has a foreign key relation to equipment and to route which means that the operation is required by the specific routes and requires a specific equipment. (workflow descriptive master entity)"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Semiconductor_Development_Lobe> .
+

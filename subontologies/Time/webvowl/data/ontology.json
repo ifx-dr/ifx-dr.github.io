@@ -1,0 +1,3517 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "de", "ru", "pt", "en", "it", "fr", "zh", "es", "undefined", "ar", "ja", "pl", "nl" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr", "http://www.w3.org/2001/XMLSchema", "http://org.semanticweb.owlapi/error", "http://www.w3.org/2006/time" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "108",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "109",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2006/time#Temporal_Unit",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "Membership of the class TemporalUnit is open, to allow for other temporal units used in some technical applications (e.g. millions of years, Baha'i month).",
+        "type" : "label"
+      } ],
+      "changeNote" : [ {
+        "identifier" : "changeNote",
+        "language" : "en",
+        "value" : "Remove enumeration from definition, in order to allow other units to be used when required in other coordinate systems. \r\nNOTE: existing units are still present as members of the class, but the class membership is now open. \r\n\r\nIn the original OWL-Time the following constraint appeared: \r\n  owl:oneOf (\r\n      time:unitSecond\r\n      time:unitMinute\r\n      time:unitHour\r\n      time:unitDay\r\n      time:unitWeek\r\n      time:unitMonth\r\n      time:unitYear\r\n    ) ;",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A standard duration, which provides a scale factor for a time extent, or the granularity or precision for a time position.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Temporal_Unit",
+      "en" : "Temporal Unit"
+    },
+    "comment" : {
+      "en" : "A standard duration, which provides a scale factor for a time extent, or the granularity or precision for a time position."
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error398",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error398"
+    },
+    "subClasses" : [ "3" ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error399",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error399"
+    },
+    "subClasses" : [ "3" ],
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error396",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error396"
+    },
+    "subClasses" : [ "3" ],
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error397",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error397"
+    },
+    "subClasses" : [ "3" ],
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Year",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "Jaar",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "zh",
+        "value" : "?",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Year",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "es",
+        "value" : "Año",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "pl",
+        "value" : "Rok",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "ar",
+        "value" : "???",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "ru",
+        "value" : "???",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "fr",
+        "value" : "Année (calendrier)",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "it",
+        "value" : "Anno",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "ja",
+        "value" : "?",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "pt",
+        "value" : "Ano",
+        "type" : "label"
+      }, {
+        "identifier" : "prefLabel",
+        "language" : "de",
+        "value" : "Jahr",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "Year duration",
+        "type" : "label"
+      } ],
+      "historyNote" : [ {
+        "identifier" : "historyNote",
+        "language" : "undefined",
+        "value" : "Year was proposed in the 2006 version of OWL-Time as an example of how DurationDescription could be specialized to allow for a duration to be restricted to a number of years. \r\n\r\nIt is deprecated in this edition of OWL-Time. ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Year",
+      "en" : "Year"
+    },
+    "comment" : {
+      "undefined" : "Year duration"
+    },
+    "attributes" : [ "external", "deprecated" ],
+    "id" : "15",
+    "superClasses" : [ "16", "17", "18", "19", "20", "21", "22", "23" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error394",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error394"
+    },
+    "subClasses" : [ "3" ],
+    "attributes" : [ "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error395",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error395"
+    },
+    "subClasses" : [ "3" ],
+    "attributes" : [ "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error393",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error393"
+    },
+    "subClasses" : [ "3" ],
+    "attributes" : [ "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Time_Zone",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "An ontology for time zone descriptions was described in [owl-time-20060927] and provided as RDF in a separate namespace tzont:. However, that ontology was incomplete in scope, and the example datasets were selective. Furthermore, since the use of a class from an external ontology as the range of an ObjectProperty in OWL-Time creates a dependency, reference to the time zone class has been replaced with the 'stub' class in the normative part of this version of OWL-Time.",
+        "type" : "label"
+      }, {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "A designated timezone is associated with a geographic region. However, for a particular region the offset from UTC often varies seasonally, and the dates of the changes may vary from year to year. The timezone designation usually changes for the different seasons (e.g. Australian Eastern Standard Time vs. Australian Eastern Daylight Time). Furthermore, the offset for a timezone may change over longer timescales, though its designation might not.  \r\n\r\nDetailed guidance about working with time zones is given in http://www.w3.org/TR/timezone/ .",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A Time Zone specifies the amount by which the local time is offset from UTC. \r\n\tA time zone is usually denoted geographically (e.g. Australian Eastern Daylight Time), with a constant value in a given region. \r\nThe region where it applies and the offset from UTC are specified by a locally recognised governing authority.",
+        "type" : "label"
+      } ],
+      "historyNote" : [ {
+        "identifier" : "historyNote",
+        "language" : "undefined",
+        "value" : "In the original 2006 version of OWL-Time, the TimeZone class, with several properties corresponding to a specific model of time-zones, was defined in a separate namespace \"http://www.w3.org/2006/timezone#\". \r\n\r\nIn the current version a class with same local name is put into the main OWL-Time namespace, removing the dependency on the external namespace. \r\n\r\nAn alignment axiom \r\n\ttzont:TimeZone rdfs:subClassOf time:TimeZone . \r\nallows data encoded according to the previous version to be consistent with the updated ontology. ",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "undefined",
+        "value" : "In this implementation TimeZone has no properties defined. It should be thought of as an 'abstract' superclass of all specific timezone implementations.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Time_Zone",
+      "en" : "Time Zone"
+    },
+    "comment" : {
+      "en" : "A Time Zone specifies the amount by which the local time is offset from UTC. \r\n\tA time zone is usually denoted geographically (e.g. Australian Eastern Daylight Time), with a constant value in a given region. \r\nThe region where it applies and the offset from UTC are specified by a locally recognised governing authority."
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/time#General_Duration_Description",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "The extent of a time duration expressed as a GeneralDurationDescription depends on the Temporal Reference System. In some calendars the length of the week or month is not constant within the year. Therefore, a value like \"2.5 months\" may not necessarily be exactly compared with a similar duration expressed in terms of weeks or days. When non-earth-based calendars are considered even more care must be taken in comparing durations.",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Description of temporal extent structured with separate values for the various elements of a calendar-clock system.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "General_Duration_Description",
+      "en" : "Generalized Duration Description"
+    },
+    "subClasses" : [ "18" ],
+    "comment" : {
+      "en" : "Description of temporal extent structured with separate values for the various elements of a calendar-clock system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "3",
+    "superClasses" : [ "25", "26", "27", "2", "4", "5", "6", "1", "64" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Duration_Description",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "In the Gregorian calendar the length of the month is not fixed. Therefore, a value like \"2.5 months\" cannot be exactly compared with a similar duration expressed in terms of weeks or days.",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Description of temporal extent structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of each of the numeric properties is restricted to xsd:decimal",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Duration_Description",
+      "en" : "Duration Description"
+    },
+    "subClasses" : [ "15" ],
+    "comment" : {
+      "en" : "Description of temporal extent structured with separate values for the various elements of a calendar-clock system. The temporal reference system is fixed to Gregorian Calendar, and the range of each of the numeric properties is restricted to xsd:decimal"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "65", "66", "67", "3", "68", "69", "70", "71", "72" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Temporal_Position",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A position on a time-line",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Temporal_Position",
+      "en" : "Temporal Position"
+    },
+    "subClasses" : [ "11", "74" ],
+    "comment" : {
+      "en" : "A position on a time-line"
+    },
+    "attributes" : [ "external" ],
+    "id" : "44",
+    "superClasses" : [ "34", "73" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Duration",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "Alternative to time:DurationDescription to support description of a temporal duration other than using a calendar/clock system.",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Duration of a temporal extent expressed as a number scaled by a temporal unit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Duration",
+      "en" : "Time Duration"
+    },
+    "comment" : {
+      "en" : "Duration of a temporal extent expressed as a number scaled by a temporal unit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "75",
+    "superClasses" : [ "76", "77", "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Proper_Interval",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Proper_Interval",
+      "en" : "Proper Interval"
+    },
+    "subClasses" : [ "56" ],
+    "comment" : {
+      "en" : "A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "88" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Month_Of_Year",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Month_Of_Year"
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error437",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error437"
+    },
+    "subClasses" : [ "74" ],
+    "attributes" : [ "external" ],
+    "id" : "98"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "97",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Interval",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A temporal entity with an extent or duration",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Interval",
+      "en" : "Time Interval"
+    },
+    "subClasses" : [ "8" ],
+    "comment" : {
+      "en" : "A temporal entity with an extent or duration"
+    },
+    "attributes" : [ "external" ],
+    "id" : "88",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error438",
+    "equivalent" : [ "29" ],
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error438"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error431",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error431"
+    },
+    "subClasses" : [ "15" ],
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error432",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error432"
+    },
+    "subClasses" : [ "15" ],
+    "attributes" : [ "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error430",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error430"
+    },
+    "subClasses" : [ "15" ],
+    "attributes" : [ "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error435",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error435"
+    },
+    "attributes" : [ "external" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error436",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error436"
+    },
+    "attributes" : [ "external" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error433",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error433"
+    },
+    "subClasses" : [ "15" ],
+    "attributes" : [ "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error434",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error434"
+    },
+    "subClasses" : [ "15" ],
+    "attributes" : [ "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "108",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "109",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "94",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error428",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error428"
+    },
+    "subClasses" : [ "15" ],
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error429",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error429"
+    },
+    "subClasses" : [ "15" ],
+    "attributes" : [ "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error426",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error426"
+    },
+    "subClasses" : [ "75" ],
+    "attributes" : [ "external" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error427",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error427"
+    },
+    "subClasses" : [ "75" ],
+    "attributes" : [ "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error420",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error420"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error421",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error421"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error424",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error424"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error425",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error425"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error422",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error422"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error423",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error423"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "82",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "129",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "dateTimeStamp"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "130",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error417",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error417"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error418",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error418"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error415",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error415"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error416",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error416"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error419",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error419"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error410",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error410"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error413",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error413"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error414",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error414"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Time_Position",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A temporal position described using either a (nominal) value from an ordinal reference system, or a (numeric) value in a temporal coordinate system. ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Time_Position",
+      "en" : "Time Position"
+    },
+    "comment" : {
+      "en" : "A temporal position described using either a (nominal) value from an ordinal reference system, or a (numeric) value in a temporal coordinate system. "
+    },
+    "attributes" : [ "external" ],
+    "id" : "74",
+    "superClasses" : [ "98", "44" ]
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error411",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error411"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error412",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error412"
+    },
+    "subClasses" : [ "11" ],
+    "attributes" : [ "external" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error406",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error406"
+    },
+    "subClasses" : [ "18" ],
+    "attributes" : [ "external" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error407",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error407"
+    },
+    "subClasses" : [ "18" ],
+    "attributes" : [ "external" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error404",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error404"
+    },
+    "subClasses" : [ "18" ],
+    "attributes" : [ "external" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error405",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error405"
+    },
+    "subClasses" : [ "18" ],
+    "attributes" : [ "external" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error408",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error408"
+    },
+    "subClasses" : [ "18" ],
+    "attributes" : [ "external" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error409",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error409"
+    },
+    "subClasses" : [ "44" ],
+    "attributes" : [ "external" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error402",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error402"
+    },
+    "subClasses" : [ "18" ],
+    "attributes" : [ "external" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error403",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error403"
+    },
+    "subClasses" : [ "18" ],
+    "attributes" : [ "external" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error400",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error400"
+    },
+    "subClasses" : [ "3" ],
+    "attributes" : [ "external" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://org.semanticweb.owlapi/error#Error401",
+    "baseIri" : "http://org.semanticweb.owlapi/error",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Error401"
+    },
+    "subClasses" : [ "18" ],
+    "attributes" : [ "external" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Time_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Time_Lobe"
+    },
+    "subClasses" : [ "36", "29", "44", "121", "1", "33", "41" ],
+    "attributes" : [ "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#General_Date_Time_Description",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "undefined",
+        "value" : "Some combinations of properties are redundant - for example, within a specified :year if :dayOfYear is provided then :day and :month can be computed, and vice versa. Individual values should be consistent with each other and the calendar, indicated through the value of the :hasTRS property.",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Description of date and time structured with separate values for the various elements of a calendar-clock system",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "General_Date_Time_Description",
+      "en" : "Generalized Date-Time Description"
+    },
+    "comment" : {
+      "en" : "Description of date and time structured with separate values for the various elements of a calendar-clock system"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "131", "133", "134", "136", "138", "114", "44", "139", "115", "116", "140", "117", "141", "142", "118", "119", "143" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/time#TRS",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "A taxonomy of temporal reference systems is provided in ISO 19108:2002 [ISO19108], including (a) calendar + clock systems; (b) temporal coordinate systems (i.e. numeric offset from an epoch); (c) temporal ordinal reference systems (i.e. ordered sequence of named intervals, not necessarily of equal duration).",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A temporal reference system, such as a temporal coordinate system (with an origin, direction, and scale), a calendar-clock combination, or a (possibly hierarchical) ordinal system. \r\n\r\nThis is a stub class, representing the set of all temporal reference systems.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "TRS",
+      "en" : "Temporal Reference System"
+    },
+    "comment" : {
+      "en" : "A temporal reference system, such as a temporal coordinate system (with an origin, direction, and scale), a calendar-clock combination, or a (possibly hierarchical) ordinal system. \r\n\r\nThis is a stub class, representing the set of all temporal reference systems."
+    },
+    "attributes" : [ "external" ],
+    "id" : "121",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Day_Of_Week",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "Membership of the class :DayOfWeek is open, to allow for alternative week lengths and different day names.",
+        "type" : "label"
+      } ],
+      "changeNote" : [ {
+        "identifier" : "changeNote",
+        "language" : "en",
+        "value" : "Remove enumeration from definition, in order to allow other days to be used when required in other calendars. \r\nNOTE: existing days are still present as members of the class, but the class membership is now open. \r\n\r\nIn the original OWL-Time the following constraint appeared: \r\n  owl:oneOf (\r\n      time:Monday\r\n      time:Tuesday\r\n      time:Wednesday\r\n      time:Thursday\r\n      time:Friday\r\n      time:Saturday\r\n      time:Sunday\r\n    ) ;",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The day of week",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Day_Of_Week",
+      "en" : "Day Of Week"
+    },
+    "comment" : {
+      "en" : "The day of week"
+    },
+    "attributes" : [ "external" ],
+    "id" : "41",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "198",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "53",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Temporal_Duration",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Time extent; duration of a time interval separate from its particular start position",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Temporal_Duration",
+      "en" : "Temporal Duration"
+    },
+    "subClasses" : [ "0", "3", "75" ],
+    "comment" : {
+      "en" : "Time extent; duration of a time interval separate from its particular start position"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "127",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Date_Time_Interval",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : ":DateTimeInterval can only be used for an interval whose limits coincide with a date-time element aligned to the calendar and timezone indicated. For example, while both have a duration of one day, the 24-hour interval beginning at midnight at the beginning of 8 May in Central Europe can be expressed as a :DateTimeInterval, but the 24-hour interval starting at 1:30pm cannot.",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Date_Time_Interval",
+      "en" : "Date-Time Interval"
+    },
+    "comment" : {
+      "en" : "DateTimeInterval is a subclass of ProperInterval, defined using the multi-element DateTimeDescription."
+    },
+    "attributes" : [ "external" ],
+    "id" : "56",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Temporal_Entity",
+    "equivalent" : [ "99" ],
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/TR/owl-time/#time:TemporalEntity",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A temporal interval or instant.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Temporal_Entity",
+      "en" : "Temporal Entity",
+      "undefined" : "Temporal Entity"
+    },
+    "subClasses" : [ "88", "43" ],
+    "comment" : {
+      "en" : "A temporal interval or instant.",
+      "undefined" : "A temporal interval or instant."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "29",
+    "superClasses" : [ "34" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "188",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2006/time#Instant",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A temporal entity with zero extent or duration",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Instant",
+      "en" : "Time Instant"
+    },
+    "comment" : {
+      "en" : "A temporal entity with zero extent or duration"
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "29" ]
+  } ],
+  "property" : [ {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "170",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "176",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "187",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "202",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3.org/2006/time#interval_meets",
+    "inverse" : "9",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalMeets another proper interval T2, then the end of T1 is coincident with the beginning of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_meets",
+      "en" : "interval meets"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalMeets another proper interval T2, then the end of T1 is coincident with the beginning of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#minute",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "12",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Minute position in a calendar-clock system.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "minute",
+      "en" : "minute"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Minute position in a calendar-clock system."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#days",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "14",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "length of, or element of the length of, a temporal extent expressed in days",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "days",
+      "en" : "days duration"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in days"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_overlaps",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalOverlaps another proper interval T2, then the beginning of T1 is before the beginning of T2, the end of T1 is after the beginning of T2, and the end of T1 is before the end of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_overlaps",
+      "en" : "interval overlaps"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalOverlaps another proper interval T2, then the beginning of T1 is before the beginning of T2, the end of T1 is after the beginning of T2, and the end of T1 is before the end of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#has_XSD_duration",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "30",
+    "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "en",
+        "value" : "Feature at risk - added in 2017 revision, and not yet widely used. ",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Extent of a temporal entity, expressed using xsd:duration",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_XSD_duration",
+      "en" : "has XSD duration"
+    },
+    "domain" : "29",
+    "comment" : {
+      "en" : "Extent of a temporal entity, expressed using xsd:duration"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#year",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "year",
+      "en" : "year"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Year position in a calendar-clock system.\r\n\r\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar year from any calendar. "
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#month_of_year",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "36",
+    "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "en",
+        "value" : "Feature at risk - added in 2017 revision, and not yet widely used. ",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The month of the year, whose value is a member of the class time:MonthOfYear",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "month_of_year",
+      "en" : "month of year"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "The month of the year, whose value is a member of the class time:MonthOfYear"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#has_temporal_duration",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "1",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Duration of a temporal entity.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_temporal_duration",
+      "en" : "has temporal duration"
+    },
+    "domain" : "29",
+    "subproperty" : [ "38", "39" ],
+    "comment" : {
+      "en" : "Duration of a temporal entity."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#day_of_week",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "41",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The day of week, whose value is a member of the class time:DayOfWeek",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "day_of_week",
+      "en" : "day of week"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "The day of week, whose value is a member of the class time:DayOfWeek"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#in_temporal_position",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "44",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Position of a time instant",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "in_temporal_position",
+      "en" : "in temporal position"
+    },
+    "domain" : "43",
+    "subproperty" : [ "45", "46" ],
+    "comment" : {
+      "en" : "Position of a time instant"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#after",
+    "inverse" : "48",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "29",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Gives directionality to time. If a temporal entity T1 is after another temporal entity T2, then the beginning of T1 is after the end of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "after",
+      "en" : "after"
+    },
+    "domain" : "29",
+    "subproperty" : [ "49" ],
+    "comment" : {
+      "en" : "Gives directionality to time. If a temporal entity T1 is after another temporal entity T2, then the beginning of T1 is after the end of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#has_beginning",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "43",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Beginning of a temporal entity.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_beginning",
+      "en" : "has beginning"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "29",
+    "comment" : {
+      "en" : "Beginning of a temporal entity"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#hour",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "53",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Hour position in a calendar-clock system.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hour",
+      "en" : "hour"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Hour position in a calendar-clock system."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#has_end",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "43",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "End of a temporal entity.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_end",
+      "en" : "has end"
+    },
+    "superproperty" : [ "51" ],
+    "domain" : "29",
+    "comment" : {
+      "en" : "End of a temporal entity."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#xsdDateTime",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "57",
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "Using xsd:dateTime in this place means that the duration of the interval is implicit: it corresponds to the length of the smallest non-zero element of the date-time literal. However, this rule cannot be used for intervals whose duration is more than one rank smaller than the starting time - e.g. the first minute or second of a day, the first hour of a month, or the first day of a year. In these cases the desired interval cannot be distinguished from the interval corresponding to the next rank up. Because of this essential ambiguity, use of this property is not recommended and it is deprecated.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "xsdDateTime",
+      "en" : "has XSD date-time"
+    },
+    "domain" : "56",
+    "comment" : {
+      "en" : "Value of DateTimeInterval expressed as a compact value."
+    },
+    "attributes" : [ "external", "deprecated", "datatype" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#months",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "59",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "length of, or element of the length of, a temporal extent expressed in months",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "months",
+      "en" : "months duration"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in months"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#week",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "61",
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "Weeks are numbered differently depending on the calendar in use and the local language or cultural conventions (locale). ISO-8601 specifies that the first week of the year includes at least four days, and that Monday is the first day of the week. In that system, week 1 is the week that contains the first Thursday in the year.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "week",
+      "en" : "week"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Week number within the year."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_after",
+    "inverse" : "62",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalAfter another proper interval T2, then the beginning of T1 is after the end of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_after",
+      "en" : "interval after"
+    },
+    "superproperty" : [ "63", "47" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalAfter another proper interval T2, then the beginning of T1 is after the end of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_overlapped_by",
+    "inverse" : "24",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalOverlappedBy another proper interval T2, then the beginning of T1 is after the beginning of T2, the beginning of T1 is before the end of T2, and the end of T1 is after the end of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_overlapped_by",
+      "en" : "interval overlapped by"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalOverlappedBy another proper interval T2, then the beginning of T1 is after the beginning of T2, the beginning of T1 is before the end of T2, and the end of T1 is after the end of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#inXSDDateTime",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "80",
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "The property :inXSDDateTime is replaced by :inXSDDateTimeStamp which makes the time-zone field mandatory.",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Position of an instant, expressed using xsd:dateTime",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "inXSDDateTime",
+      "en" : "in XSD Date-Time"
+    },
+    "domain" : "43",
+    "comment" : {
+      "en" : "Position of an instant, expressed using xsd:dateTime"
+    },
+    "attributes" : [ "external", "deprecated", "datatype" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#numeric_position",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "82",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The (numeric) value indicating position within a temporal coordinate system ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "numeric_position",
+      "en" : "numeric value of temporal position"
+    },
+    "domain" : "74",
+    "comment" : {
+      "en" : "The (numeric) value indicating position within a temporal coordinate system "
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_met_by",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalMetBy another proper interval T2, then the beginning of T1 is coincident with the end of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_met_by",
+      "en" : "interval met by"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalMetBy another proper interval T2, then the beginning of T1 is coincident with the end of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#has_date_time_description",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "11",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Value of DateTimeInterval expressed as a structured value. The beginning and end of the interval coincide with the limits of the shortest element in the description.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_date_time_description",
+      "en" : "has date-time description"
+    },
+    "domain" : "56",
+    "comment" : {
+      "en" : "Value of DateTimeInterval expressed as a structured value. The beginning and end of the interval coincide with the limits of the shortest element in the description."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#before",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "29",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Gives directionality to time. If a temporal entity T1 is before another temporal entity T2, then the end of T1 is before the beginning of T2. Thus, \"before\" can be considered to be basic to instants and derived for intervals.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "before",
+      "en" : "before"
+    },
+    "domain" : "29",
+    "subproperty" : [ "62" ],
+    "comment" : {
+      "en" : "Gives directionality to time. If a temporal entity T1 is before another temporal entity T2, then the end of T1 is before the beginning of T2. Thus, \"before\" can be considered to be basic to instants and derived for intervals."
+    },
+    "attributes" : [ "external", "object", "transitive" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#second",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "second",
+      "en" : "second"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Second position in a calendar-clock system."
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#in_time_position",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "74",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Position of a time instant expressed as a TimePosition",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "in_time_position",
+      "en" : "time position"
+    },
+    "superproperty" : [ "42" ],
+    "domain" : "43",
+    "comment" : {
+      "en" : "Position of an instant, expressed as a temporal coordinate or nominal value"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#in_XSD_date_time_stamp",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "87",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Position of an instant, expressed using xsd:dateTimeStamp",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "in_XSD_date_time_stamp",
+      "en" : "in XSD date-time-stamp"
+    },
+    "domain" : "43",
+    "comment" : {
+      "en" : "Position of an instant, expressed using xsd:dateTimeStamp"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#fiscal_week",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "fiscal_week",
+      "undefined" : "fiscal week"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "week number within the fiscal year"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_starts",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalStarts another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is before the end of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_starts",
+      "en" : "interval starts"
+    },
+    "superproperty" : [ "92" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalStarts another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is before the end of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#years",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "years",
+      "en" : "years duration"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in years"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#in_date_time",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "11",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Position of an instant, expressed using a structured description",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "in_date_time",
+      "en" : "in date-time description"
+    },
+    "superproperty" : [ "42" ],
+    "domain" : "43",
+    "comment" : {
+      "en" : "Position of an instant, expressed using a structured description"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#month",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "96",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Month position in a calendar-clock system.\r\n\r\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "month",
+      "en" : "month"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Month position in a calendar-clock system.\r\n\r\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar month from any calendar. "
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#has_duration_description",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "3",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Duration of a temporal entity, expressed using a structured description",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_duration_description",
+      "en" : "has duration description"
+    },
+    "superproperty" : [ "37" ],
+    "domain" : "97",
+    "comment" : {
+      "en" : "Duration of a temporal entity, expressed using a structured description"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#fiscal_year",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "fiscal_year",
+      "undefined" : "fiscal year"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "Fiscal year position in a calendar-clock system"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#seconds",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "103",
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.bipm.org/en/publications/si-brochure/second.html",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "seconds",
+      "en" : "seconds duration"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in seconds"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#in_XSD_date",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "107",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Position of an instant, expressed using xsd:date",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "in_XSD_date",
+      "en" : "in XSD date"
+    },
+    "domain" : "43",
+    "comment" : {
+      "en" : "Position of an instant, expressed using xsd:date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#has_duration",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "75",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Duration of a temporal entity, event or activity, or thing, expressed as a scaled value",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_duration",
+      "en" : "has duration"
+    },
+    "superproperty" : [ "37" ],
+    "domain" : "109",
+    "comment" : {
+      "en" : "Duration of a temporal entity, expressed as a scaled value or nominal value"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#fiscal_month",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "113",
+    "label" : {
+      "IRI-based" : "fiscal_month",
+      "undefined" : "fiscal month"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "month number within the fiscal year"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#has_TRS",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "121",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The temporal reference system used by a temporal position or extent description. ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_TRS",
+      "en" : "has temporal reference system used"
+    },
+    "domain" : "105",
+    "comment" : {
+      "en" : "The temporal reference system used by a temporal position or extent description. "
+    },
+    "attributes" : [ "external", "object", "functional" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#unit_type",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "unit_type",
+      "en" : "temporal unit type"
+    },
+    "domain" : "104",
+    "comment" : {
+      "en" : "The temporal unit which provides the precision of a date-time value or scale of a temporal extent"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_in",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "This interval relation is not included in the 13 basic relationships defined in Allen (1984), but is referred to as 'an important relationship' in Allen and Ferguson (1997). It is the disjoint union of :intervalStarts v :intervalDuring v :intervalFinishes . However, that is outside OWL2 expressivity, so is implemented as an explicit property, with :intervalStarts , :intervalDuring , :intervalFinishes as sub-properties",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalIn another proper interval T2, then the beginning of T1 is after the beginning of T2 or is coincident with the beginning of T2, and the end of T1 is before the end of T2, or is coincident with the end of T2, except that end of T1 may not be coincident with the end of T2 if the beginning of T1 is coincident with the beginning of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_in",
+      "en" : "interval in"
+    },
+    "domain" : "8",
+    "subproperty" : [ "91", "123", "124" ],
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalIn another proper interval T2, then the beginning of T1 is after the beginning of T2 or is coincident with the beginning of T2, and the end of T1 is before the end of T2, or is coincident with the end of T2, except that end of T1 may not be coincident with the end of T2 if the beginning of T1 is coincident with the beginning of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_finished_by",
+    "inverse" : "123",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalFinishedBy another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is coincident with the end of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_finished_by",
+      "en" : "interval finished by"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalFinishedBy another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is coincident with the end of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#hours",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "127",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "length of, or element of the length of, a temporal extent expressed in hours",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hours",
+      "en" : "hours duration"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in hours"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "126"
+  }, {
+    "range" : "118",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "132"
+  }, {
+    "range" : "25",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "135"
+  }, {
+    "range" : "119",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#nominal_position",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "128",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The (nominal) value indicating temporal position in an ordinal reference system ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "nominal_position",
+      "en" : "name of temporal position"
+    },
+    "domain" : "74",
+    "comment" : {
+      "en" : "The (nominal) value indicating temporal position in an ordinal reference system "
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_finishes",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalFinishes another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is coincident with the end of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_finishes",
+      "en" : "interval finishes"
+    },
+    "superproperty" : [ "92" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalFinishes another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is coincident with the end of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#minutes",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "130",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "length, or element of, a temporal extent expressed in minutes",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "minutes",
+      "en" : "minutes"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "length, or element of, a temporal extent expressed in minutes"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "145"
+  }, {
+    "range" : "115",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "range" : "114",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "117",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "116",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_equals",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalEquals another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is coincident with the end of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_equals",
+      "en" : "interval equals"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalEquals another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is coincident with the end of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "150"
+  }, {
+    "range" : "17",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_during",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalDuring another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is before the end of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_during",
+      "en" : "interval during"
+    },
+    "superproperty" : [ "92" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalDuring another proper interval T2, then the beginning of T1 is after the beginning of T2, and the end of T1 is before the end of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "124"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "77",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "76",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "23",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "22",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "6",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_disjoint",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "en",
+        "value" : "This interval relation is not included in the 13 basic relationships defined in Allen (1984), but is defined in (T.3) as the union of :intervalBefore v :intervalAfter . However, that is outside OWL2 expressivity, so is implemented as an explicit property, with :intervalBefore , :intervalAfter as sub-properties",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalDisjoint another proper interval T2, then the beginning of T1 is after the end of T2, or the end of T1 is before the beginning of T2, i.e. the intervals do not overlap in any way, but their ordering relationship is not known.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_disjoint",
+      "en" : "interval disjoint"
+    },
+    "domain" : "8",
+    "subproperty" : [ "49", "62" ],
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalDisjoint another proper interval T2, then the beginning of T1 is after the end of T2, or the end of T1 is before the beginning of T2, i.e. the intervals do not overlap in any way, but their ordering relationship is not known."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "63"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "20",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "21",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "5",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "88",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "98",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "19",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "2",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "71",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "range" : "70",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "72",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "range" : "64",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#inside",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "43",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "An instant that falls inside the interval. It is not intended to include beginnings and ends of intervals.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "inside",
+      "en" : "has time instant inside"
+    },
+    "domain" : "88",
+    "comment" : {
+      "en" : "An instant that falls inside the interval. It is not intended to include beginnings and ends of intervals."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "170"
+  }, {
+    "range" : "73",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#day",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "110",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Day position in a calendar-clock system.\r\n\r\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar day from any calendar. ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "day",
+      "en" : "day"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Day position in a calendar-clock system.\r\n\r\nThe range of this property is not specified, so can be replaced by any specific representation of a calendar day from any calendar. "
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "172"
+  }, {
+    "range" : "69",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "68",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_started_by",
+    "inverse" : "91",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalStarted another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is after the end of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_started_by",
+      "en" : "interval started by"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalStarted another proper interval T2, then the beginning of T1 is coincident with the beginning of T2, and the end of T1 is after the end of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "175"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_contains",
+    "inverse" : "124",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalContains another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is after the end of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_contains",
+      "en" : "interval contains"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalContains another proper interval T2, then the beginning of T1 is before the beginning of T2, and the end of T1 is after the end of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "176"
+  }, {
+    "range" : "65",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "range" : "143",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#numeric_duration",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "129",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Value of a temporal extent expressed as a decimal number scaled by a temporal unit",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "numeric_duration",
+      "en" : "numeric value of temporal duration"
+    },
+    "domain" : "75",
+    "comment" : {
+      "en" : "Value of a temporal extent expressed as a decimal number scaled by a temporal unit"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "179"
+  }, {
+    "range" : "67",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "66",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "140",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "139",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#time_zone",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "33",
+    "annotations" : {
+      "note" : [ {
+        "identifier" : "note",
+        "language" : "undefined",
+        "value" : "IANA maintains a database of timezones. These are well maintained and generally considered authoritative, but individual items are not available at individual URIs, so cannot be used directly in data expressed using OWL-Time.\r\n\r\nDBPedia provides a set of resources corresponding to the IANA timezones, with a URI for each (e.g. http://dbpedia.org/resource/Australia/Eucla). The World Clock service also provides a list of time zones with the description of each available as an individual webpage with a convenient individual URI (e.g. https://www.timeanddate.com/time/zones/acwst). These or other, similar, resources might be used as a value of the time:timeZone property.",
+        "type" : "label"
+      } ],
+      "historyNote" : [ {
+        "identifier" : "historyNote",
+        "language" : "undefined",
+        "value" : "In the original 2006 version of OWL-Time, the range of time:timeZone was a TimeZone class in a separate namespace \"http://www.w3.org/2006/timezone#\". \r\nAn alignment axiom \r\n\ttzont:TimeZone rdfs:subClassOf time:TimeZone . \r\nallows data encoded according to the previous version to be consistent with the updated ontology. ",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "time_zone",
+      "en" : "in time zone"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "The time zone for clock elements in the temporal position"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "184"
+  }, {
+    "range" : "142",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "range" : "141",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#interval_before",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "8",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "If a proper interval T1 is intervalBefore another proper interval T2, then the end of T1 is before the beginning of T2.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interval_before",
+      "en" : "interval before"
+    },
+    "superproperty" : [ "63", "48" ],
+    "domain" : "8",
+    "comment" : {
+      "en" : "If a proper interval T1 is intervalBefore another proper interval T2, then the end of T1 is before the beginning of T2."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#day_of_year",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "188",
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "The number of the day within the year",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "day_of_year",
+      "en" : "day of year"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "The number of the day within the year"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "187"
+  }, {
+    "range" : "136",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "134",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "138",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "27",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "26",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "range" : "133",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "range" : "131",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "195"
+  }, {
+    "range" : "29",
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "29",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "range" : "8",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "200"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#fiscal_day_of_year",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "198",
+    "label" : {
+      "IRI-based" : "fiscal_day_of_year",
+      "undefined" : "fiscal day of year"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "day number within the fiscal year"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "201"
+  }, {
+    "range" : "8",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "1",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "range" : "1",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "range" : "18",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "3",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "44",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#has_time",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "29",
+    "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "en",
+        "value" : "Feature at risk - added in 2017 revision, and not yet widely used. ",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "Supports the association of a temporal entity (instant or interval) to any thing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_time",
+      "en" : "has time"
+    },
+    "domain" : "108",
+    "subproperty" : [ "50", "54" ],
+    "comment" : {
+      "en" : "Supports the association of a temporal entity (instant or interval) to any thing"
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "44",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "34",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "34",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "iri" : "http://www.w3.org/2006/time#weeks",
+    "baseIri" : "http://www.w3.org/2006/time",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "weeks",
+      "en" : "weeks duration"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "length of, or element of the length of, a temporal extent expressed in weeks"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "211"
+  }, {
+    "range" : "34",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "212"
+  }, {
+    "range" : "34",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "range" : "34",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "34",
+    "domain" : "121",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "34",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  } ]
+}

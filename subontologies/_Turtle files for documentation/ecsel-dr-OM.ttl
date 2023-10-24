@@ -1,0 +1,556 @@
+@prefix : <http://www.w3id.org/ecsel-dr-OM#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Accepted a owl:NamedIndividual .
+
+:Accepted_With_Change a owl:NamedIndividual .
+
+:Demand_Fulfillement a owl:Class ;
+    rdfs:label "Demand Fulfillement"@en ;
+    rdfs:comment "The process of meeting a customer’s demand for product or services by fulfilling their request."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:PO_number_OCR a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "PO number OCR"@en ;
+    rdfs:domain :Order_Change_Request ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:PO_number_OO a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "PO number OO"@en ;
+    rdfs:domain :Open_Order ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:Pull a owl:NamedIndividual .
+
+:Push a owl:NamedIndividual .
+
+:Reconfirm a owl:NamedIndividual .
+
+:Rejected a owl:NamedIndividual .
+
+:allocates a owl:ObjectProperty ;
+    rdfs:label "allocates"@en ;
+    rdfs:domain :Allocation ;
+    rdfs:range :Supply ;
+    owl:inverseOf :is_allocated_by .
+
+:belongs_to_open_order a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "belong to open order"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range :Open_Order ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:confirmed_delivery_date a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "confirmed delivery date"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:confirmed_quantity a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:comment "confirmed quantity"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:consists_of_order_line_item a owl:ObjectProperty ;
+    rdfs:label "consists of order line item"@en ;
+    rdfs:domain :Open_Order ;
+    rdfs:range :Order_Line_Item ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf :is_part_of_open_order .
+
+:consits_of_open_order a owl:ObjectProperty ;
+    rdfs:label "consists of open order"@en ;
+    rdfs:domain :Open_Order_Book ;
+    rdfs:range :Open_Order ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf :is_part_of_open_order_book .
+
+:contains_contact_person_data a owl:ObjectProperty ;
+    rdfs:label "contains contact person data"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range :Contact_Person_Data ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:contains_customer_data a owl:ObjectProperty ;
+    rdfs:label "contains customer data"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range :Customer_Data ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:contains_customer_plant_data a owl:ObjectProperty ;
+    rdfs:label "contains customer plant data"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range :Customer_Plant_Data ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:contains_order_line_item a owl:ObjectProperty ;
+    rdfs:label "contains order line item"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range :Order_Line_Item ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:contains_supplier_data a owl:ObjectProperty ;
+    rdfs:label "contains supplier data"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range :Supplier_Data ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:current_dock_date a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "current dock date"@en ;
+    rdfs:domain :Order_Change_Request ;
+    rdfs:range xsd:dateTime ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:customer_address a owl:DatatypeProperty ;
+    rdfs:label "customer address"@en ;
+    rdfs:domain :Customer_Data ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:customer_number a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "customer number"@en ;
+    rdfs:domain :Customer_Data ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:customer_part_number a owl:DatatypeProperty ;
+    rdfs:label "customer part number"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:customer_reference_number a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "customer reference number"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:customer_requested_date a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "customer requested date"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range xsd:dateTime ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:department a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "department" ;
+    rdfs:domain :Contact_Person_Data ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:describes_customer a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "describes customer"@en ;
+    rdfs:domain :Customer_Data ;
+    rdfs:range :Customer ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf :is_described_by_customer_data .
+
+:describes_customer_plant a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "describes customer plant"@en ;
+    rdfs:domain :Customer_Plant_Data ;
+    rdfs:range :Customer_Plant ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf :is_described_by_customer_plant_data .
+
+:describes_supplier a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "describes supplier"@en ;
+    rdfs:domain :Supplier_Data ;
+    rdfs:range :Supplier ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf :is_described_by_supplier_data .
+
+:email a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "email" ;
+    rdfs:domain :Contact_Person_Data ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:fax a owl:DatatypeProperty ;
+    rdfs:label "fax" ;
+    rdfs:domain :Contact_Person_Data ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:has_allocated a owl:ObjectProperty ;
+    rdfs:label "has allocated"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range :Supply ;
+    owl:inverseOf :is_allocated_to .
+
+:incoterms a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "icoterms" ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:is_delivered_to_customer_plant a owl:ObjectProperty ;
+    rdfs:label "is delivered to customer plant"@en ;
+    rdfs:domain :Open_Order ;
+    rdfs:range :Customer_Plant ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:is_owned_by_customer a owl:ObjectProperty ;
+    rdfs:label "is owned by a customer"@en ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf :owns_customer_plant .
+
+:is_reconciled_order_change_request a owl:FunctionalProperty,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is reconciled order change request"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range :Order_Change_Request ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:is_reconciled_order_line_item a owl:FunctionalProperty,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is reconciled order line item"@en ;
+    rdfs:domain :Order_Change_Request ;
+    rdfs:range :Order_Line_Item ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:is_requested_by_customer a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "is requested by customer"@en ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf :requests_order_change_request .
+
+:item_number a owl:DatatypeProperty ;
+    rdfs:label "item number"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:item_price a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "item price"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:line_IDOCR a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "line IDOCR"@en ;
+    rdfs:domain :Order_Change_Request ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:line_IDOLI a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "line IDOLI"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:mode_of_transport a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "mode of transport"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:name a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "name"@en ;
+    rdfs:domain :Contact_Person_Data ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:open_quantity_OCR a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "open quantity OCR"@en ;
+    rdfs:domain :Order_Change_Request ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:open_quantity_OLI a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "open quantity OLI"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:partial_cancel_quantity_buyer a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "partial cancel quantity buyer"@en ;
+    rdfs:domain :Order_Change_Request ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:partial_cancel_quantity_supplier a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "partial cancel quantity supplier"@en ;
+    rdfs:domain :Order_Change_Request ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:plant_address a owl:DatatypeProperty ;
+    rdfs:label "plant address"@en ;
+    rdfs:domain :Customer_Plant_Data ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:promised_dock_date a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "promised dock date"@en ;
+    rdfs:domain :Order_Change_Request ;
+    rdfs:range xsd:dateTime ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:requested_dock_date a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "requested dock date"@en ;
+    rdfs:domain :Order_Change_Request ;
+    rdfs:range xsd:dateTime ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:requested_quantity a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "requested quantity"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:requires_action a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "requires action"@en ;
+    rdfs:domain :Order_Change_Request ;
+    rdfs:range :Action ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:requires_user_action a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "requires user action"@en ;
+    rdfs:domain :Order_Change_Request ;
+    rdfs:range :User_Action ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:response_date a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "response date"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:dateTime ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:supplier_address a owl:DatatypeProperty ;
+    rdfs:label "supplier address"@en ;
+    rdfs:domain :Supplier_Data ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:supplier_comment a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "supplier comment"@en ;
+    rdfs:domain :Order_Change_Request ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:supplier_reason_code a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "supplier reason code"@en ;
+    rdfs:domain :Order_Change_Request ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:supplier_reference_number a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "supplier reference number"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:telephone a owl:DatatypeProperty ;
+    rdfs:label "telephone"@en ;
+    rdfs:domain :Contact_Person_Data ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:total_confirmed_open_quantity a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "total confirmed open quantity"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:total_confirmed_quantity a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "total confirmed quantity"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:total_delivered_quantity a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "total delivered quantity"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:total_open_quantity a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "total open quantity"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:total_requested_quantity a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "total requested quantity"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:total_unconfirmed_open_quantity a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "total unconfirmed open quantity"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:unit_price a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "unit price"@en ;
+    rdfs:domain :Order_Confirmation ;
+    rdfs:range xsd:integer ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+:Action a owl:Class ;
+    rdfs:label "Action"@en ;
+    rdfs:comment "The process of doing something"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> ;
+    owl:equivalentClass [ ] .
+
+:Supplier a owl:Class ;
+    rdfs:label "Supplier"@en ;
+    rdfs:comment "Organization that provides something needed such as a product or service."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:User_Action a owl:Class ;
+    rdfs:label "User Action"@en ;
+    rdfs:comment "Activity taken by user"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> ;
+    owl:equivalentClass [ ] .
+
+:is_allocated_by a owl:ObjectProperty ;
+    rdfs:label "is allocated by"@en ;
+    rdfs:domain :Allocation ;
+    rdfs:range :Supply .
+
+:is_allocated_to a owl:ObjectProperty ;
+    rdfs:label "is allocated to"@en ;
+    rdfs:domain :Supply ;
+    rdfs:range :Order_Line_Item .
+
+:is_described_by_customer_data a owl:ObjectProperty ;
+    rdfs:label "is described by customer data"@en ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:is_described_by_customer_plant_data a owl:ObjectProperty ;
+    rdfs:label "is described by customer plant data"@en ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:is_described_by_supplier_data a owl:ObjectProperty ;
+    rdfs:label "is described by supplier data"@en ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:is_part_of_open_order a owl:ObjectProperty ;
+    rdfs:label "is part of open order"@en ;
+    rdfs:domain :Order_Line_Item ;
+    rdfs:range :Open_Order ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:is_part_of_open_order_book a owl:ObjectProperty ;
+    rdfs:label "is part of open order book"@en ;
+    rdfs:domain :Open_Order ;
+    rdfs:range :Open_Order_Book ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:owns_customer_plant a owl:ObjectProperty ;
+    rdfs:label "owns customer plant"@en ;
+    rdfs:domain :Customer ;
+    rdfs:range :Customer_Plant ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:requests_order_change_request a owl:ObjectProperty ;
+    rdfs:label "requests order change request"@en ;
+    rdfs:domain :Customer ;
+    rdfs:range :Order_Change_Request ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:Allocation a owl:Class ;
+    rdfs:label "Allocation"@en ;
+    rdfs:comment "Allocation is a process used in order management in times when demand exceeds available supply."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Open_Order_Book a owl:Class ;
+    rdfs:label "Open Order Book"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Customer a owl:Class ;
+    rdfs:label "Customer"@en ;
+    rdfs:comment "A customer is an business that purchases another company's goods or services."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-SCP#Customer> .
+
+:Customer_Plant a owl:Class ;
+    rdfs:label "Customer Plant"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Customer_Plant_Data a owl:Class ;
+    rdfs:label "Customer Plant Data"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Supplier_Data a owl:Class ;
+    rdfs:label "Supplier Data"@en ;
+    rdfs:comment "Information about supplier"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Customer_Data a owl:Class ;
+    rdfs:label "Customer Data"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Supply a owl:Class ;
+    rdfs:label "Supply"@en ;
+    rdfs:comment "The amount of goods that is available for use."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Contact_Person_Data a owl:Class ;
+    rdfs:label "Contact Person Data" ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Open_Order a owl:Class ;
+    rdfs:label "Open Order"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Order_Line_Item a owl:Class ;
+    rdfs:label "Order Line Item"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Order_Change_Request a owl:Class ;
+    rdfs:label "Order Change Request"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+
+:Order_Confirmation a owl:Class ;
+    rdfs:label "Order Confirmation"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe> .
+

@@ -1,0 +1,390 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-AT#Standard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#CFR_Cost_And_Freight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#CIF_Cost_Insurance_And_Freight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#CIP_Carriage_And_Insurance_Paid_To",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#CPT_Carriage_Paid_To",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#C_Main_Carriage_Paid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An Incoterms rule of the group C."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Customer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Customer is a person or organization that places order or pay the invoice."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-OM#Customer"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-SCP#Customer"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#DAP_Delivered_At_Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#D_Arrival"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#DDP_Delivered_Duty_Paid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#D_Arrival"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#DPU_Delivered_At_Place_Unloaded",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#D_Arrival"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#D_Arrival",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An Incoterms rule of the group D."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#EXW_Ex_Works",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#E_Departure"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#E_Departure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An Incoterms rule of the group E."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Exchange_Rate_Specification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Exchange_Rate_Specification is structured value representing exchange rate."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Exchange Rate Specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#FAS_Free_Alongside_Ship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#F_Main_Carriage_Unpaid"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#FCA_Free_Carrier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#F_Main_Carriage_Unpaid"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#FOB_Free_On_Board",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#F_Main_Carriage_Unpaid"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause"
+  }, {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#F_Main_Carriage_Unpaid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An Incoterms rule of the group F."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#From_Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A sub property of location. The original location of the object or the agent before the action."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Location"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Incoterms or International Commercial Terms are a series of pre-defined commercial terms published by the International Chamber of Commerce (ICC) relating to international commercial law. They are widely used in international commercial transactions or procurement processes and their use is encouraged by trade councils, courts and international lawyers.\r\n\r\nIncoterms 2020 is the ninth set of international contract terms published by the International Chamber of Commerce, with the first set having been published in 1936. Incoterms 2020 defines 11 rules, the same number as defined by Incoterms 2010."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-AT#Standard"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Application_Mode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Incoterms_Application_Mode is about the method of delivery the incoterm uses. An incoterm could use only ship or non-ship transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Clause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An Incoterms_Clause is a term of the 11 pre-defined incoterms."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Group",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An Incoterms_Group is one of the four categories that describes incoterms rules."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Location is where an action takes place."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Offer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An offer is to transfer some rights to an item or to provide a service."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Only_Ship_Transport_Clause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Incoterms that solely involve transportation by water."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Application_Mode"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Product",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Product is the object, upon which the tranfer action is carried out."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Seller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Seller is an entity which offers the services/goods."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#To_Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A sub property of location. The final location of the object or the agent after the action."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Location"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Transfer_Action",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The act of transferring/moving objects from one place to another."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Universal_Transport_Clause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Incoterms that may be used regardless of the method of transport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_Application_Mode"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#is_applied_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Exchange_Rate_Specification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Transfer_Action"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#makes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Seller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Offer"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#provides",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Seller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Product"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#purchases",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Product"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#receives",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Offer"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#refers_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Transfer_Action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Product"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#uses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Transfer_Action"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Incoterms_2020"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#uses_from_location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Seller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#From_Location"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#uses_to_location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3id.org/ecsel-dr-Incoterms#To_Location"
+  } ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-OM#Customer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3id.org/ecsel-dr-SCP#Customer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

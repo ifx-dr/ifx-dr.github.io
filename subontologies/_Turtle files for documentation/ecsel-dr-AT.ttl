@@ -1,0 +1,1426 @@
+@prefix : <http://www.w3id.org/ecsel-dr-AT#> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:2G_GPRS a owl:Class ;
+    rdfs:label "2G GPRS"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:3G_UMTS a owl:Class ;
+    rdfs:label "3G UMTS"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:4G_LTE a owl:Class ;
+    rdfs:label "4G LTE"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:5G a owl:Class ;
+    rdfs:label "5G"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:6_Lo_WPAN a owl:Class ;
+    rdfs:label "6 Lo WPAN"@en ;
+    rdfs:subClassOf :OSI_3_4_Network_Technology .
+
+:AMQP a owl:Class ;
+    rdfs:label "AMQP"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:ANSI a owl:Class ;
+    rdfs:label "ANSI"@en ;
+    rdfs:comment "Is a private non-profit organization that oversees the development of voluntary consensus standards for products, services, processes, systems, and personnel in the United States."@en ;
+    rdfs:subClassOf :Standardization_Organization .
+
+:ANSI_Standard a owl:Class ;
+    rdfs:label "ANSI Standard"@en ;
+    rdfs:comment "American National Standards Institute is a private non-profit organization that oversees the development of voluntary consensus standards for products, services, processes, systems, and personnel in the United States."@en ;
+    rdfs:subClassOf :Standard .
+
+:ANSI_X12_Data_Format a owl:Class ;
+    rdfs:label "ANSI X12 Data Format"@en ;
+    rdfs:comment "Is predominant in North America."@en ;
+    rdfs:subClassOf :W3C_L2_Data_Syntax .
+
+:ANSI_X12_Specification a owl:Class ;
+    rdfs:label "ANSI X12 Specification"@en ;
+    rdfs:subClassOf :EDI_Specification .
+
+:APS a owl:Class ;
+    rdfs:label "APS"@en ;
+    rdfs:comment "Advanced planning and scheduling system (APS) refers to a manufacturing management process by which raw materials and production capacity are optimally allocated to meet demand."@en ;
+    rdfs:subClassOf :IT_System .
+
+:ARCNET a owl:Class ;
+    rdfs:label "ARCNET"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:AS2 a owl:Class ;
+    rdfs:label "AS2"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:Apple_Talk a owl:Class ;
+    rdfs:label "Apple Talk"@en ;
+    rdfs:subClassOf :OSI_3_4_Network_Technology .
+
+:Assembly_Line_Planning a owl:Class ;
+    rdfs:label "Assembly Line Planning"@en ;
+    rdfs:subClassOf :PLM1_Module .
+
+:Auto_Gration_Specification a owl:Class ;
+    rdfs:label "Auto Gration Specification"@en ;
+    rdfs:comment """XML Schema describing the Grammar of data content representing the content of a set of EDIFACT messages.\r
+Relies on XML as data syntax, XML Schema as knowledge representation scheme and on EDIFACT message specifications (like ORDER, ORDRSP, DELFOR, DELJIT etc.). Has no Semantics representation.""" ;
+    rdfs:subClassOf :Service_Data_Language .
+
+:Automation_Markup_Language a owl:Class ;
+    rdfs:label "Automation Markup Language"@en ;
+    rdfs:subClassOf :Markup_Language .
+
+:Autonomously_Guided_Vehicle a owl:Class ;
+    rdfs:label "FTF"@de,
+        "Fahrerloses Transportfahrzeug"@de,
+        "AGV"@en ;
+    rdfs:subClassOf :Actuator_Device ;
+    ns1:preLabel "Autonomously Guided Vehicle"@en .
+
+:B2MML_Based_Service a owl:Class ;
+    rdfs:label "B2MML-Based Service"@en ;
+    rdfs:comment "B2MML consists of a set of XML schemas written using the World Wide Web Consortium's XML Schema language (XSD) that implement the data models in the ISA-95 standard."@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture_Protocols .
+
+:B2M_Markup_Language a owl:Class ;
+    rdfs:label "B2M Markup Language"@en ;
+    rdfs:subClassOf :Markup_Language .
+
+:BI_System a owl:Class ;
+    rdfs:label "BI System"@en ;
+    rdfs:comment "Business intelligence system (BI) comprises the strategies and technologies used by enterprises for the data analysis and management of business information."@en ;
+    rdfs:subClassOf :IT_System .
+
+:Big_Data_Analytics_System a owl:Class ;
+    rdfs:label "Big Data Analytics System"@en ;
+    rdfs:subClassOf :IT_System .
+
+:Bit a owl:Class ;
+    rdfs:label "Bit"@en ;
+    rdfs:subClassOf :Data_Transmission_Unit .
+
+:Bluetooth a owl:Class ;
+    rdfs:label "Bluetooth"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:Bridge a owl:Class ;
+    rdfs:label "Bridge"@en ;
+    rdfs:subClassOf :Communication_Device .
+
+:CAD_System a owl:Class ;
+    rdfs:label "CAD System"@en ;
+    rdfs:comment "Computer-aided design system (CAD) is used for creation, modification, analysis, or optimization of a design."@en ;
+    rdfs:subClassOf :IT_System .
+
+:CAN_Bus a owl:Class ;
+    rdfs:label "CAN Bus"@en ;
+    rdfs:subClassOf :Fieldbus_Car_Airplane .
+
+:CPF10_VNET_IP a owl:Class ;
+    rdfs:label "CPF10 VNET IP"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF11_TC_Net a owl:Class ;
+    rdfs:label "CPF11 TC Net"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF12_Ether_CAT a owl:Class ;
+    rdfs:label "CPF12 Ether CAT"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF13_Ethernet_Powerlink a owl:Class ;
+    rdfs:label "CPF13 Ethernet Powerlink"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF14_EPA a owl:Class ;
+    rdfs:label "CPF14 EPA"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF15_Mod_Bus a owl:Class ;
+    rdfs:label "CPF15 Mod Bus"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF16_SERCOS a owl:Class ;
+    rdfs:label "CPF16 SERCOS"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF17_RAPI_Net a owl:Class ;
+    rdfs:label "CPF17 RAPI Net"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF18_Safety_Net_P a owl:Class ;
+    rdfs:label "CPF18 Safety Net P"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF1_FOUNDATION_Fieldbus a owl:Class ;
+    rdfs:label "CPF1 FOUNDATION Fieldbus"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF2_Control_Net a owl:Class ;
+    rdfs:label "CPF2 Control Net"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF3_1_Profibus_DP a owl:Class ;
+    rdfs:label "CPF3 1 Profibus DP"@en ;
+    rdfs:subClassOf :CPF3_Profibus_Profi_Net .
+
+:CPF3_2_Profibus_PA a owl:Class ;
+    rdfs:label "CPF3 2 Profibus PA"@en ;
+    rdfs:subClassOf :CPF3_Profibus_Profi_Net .
+
+:CPF3_3_Profinet_CBA a owl:Class ;
+    rdfs:label "CPF3 3 Profinet CBA"@en ;
+    rdfs:subClassOf :CPF3_Profibus_Profi_Net .
+
+:CPF3_4_Profinet_IO_Class_A a owl:Class ;
+    rdfs:label "CPF3 4 Profinet IO Class A"@en ;
+    rdfs:subClassOf :CPF3_Profibus_Profi_Net .
+
+:CPF3_5_Profinet_IO_Class_B a owl:Class ;
+    rdfs:label "CPF3 5 Profinet IO Class B"@en ;
+    rdfs:subClassOf :CPF3_Profibus_Profi_Net .
+
+:CPF3_6_Profinet_IO_Class_C a owl:Class ;
+    rdfs:label "CPF3 6 Profinet IO Class C"@en ;
+    rdfs:subClassOf :CPF3_Profibus_Profi_Net .
+
+:CPF4_P_NET a owl:Class ;
+    rdfs:label "CPF4 P NET"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF5_World_FIP a owl:Class ;
+    rdfs:label "CPF5 World FIP"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF6_INTERBUS a owl:Class ;
+    rdfs:label "CPF6 INTERBUS"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF7_Swift_Net a owl:Class ;
+    rdfs:label "CPF7 Swift Net"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF8_CC_Link a owl:Class ;
+    rdfs:label "CPF8 CC Link"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:CPF9_HART a owl:Class ;
+    rdfs:label "CPF9 HART"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:Character_Set a owl:Class ;
+    rdfs:label "Character Set"@en ;
+    rdfs:comment "Is a collection of characters that might be used by multiple languages."@en ;
+    rdfs:subClassOf :W3C_L1_Web_Platform .
+
+:Co_AP a owl:Class ;
+    rdfs:label "Co AP"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:Comma_Separated_Values a owl:Class ;
+    rdfs:label "Comma Separated Values" ;
+    rdfs:comment "Comma Separated Values (CSV) is a delimited text file that uses a comma to separate values. Each line of the file is a data record."@en ;
+    rdfs:subClassOf :W3C_L2_Data_Syntax .
+
+:Computer a owl:Class ;
+    rdfs:label "Computer"@en ;
+    rdfs:comment "A computer is a machine that can be instructed to carry out sequences of arithmetic or logical operations automatically via computer programming."@en ;
+    rdfs:subClassOf :Device .
+
+:DDS a owl:Class ;
+    rdfs:label "DDS"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:DHCP a owl:Class ;
+    rdfs:label "DHCP"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:DNS a owl:Class ;
+    rdfs:label "DNS"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:DNS_SD a owl:Class ;
+    rdfs:label "DNS SD"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:DPWS a owl:Class ;
+    rdfs:label "DPWS"@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture_Protocols .
+
+:DSL a owl:Class ;
+    rdfs:label "DSL"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:Device_Control_App a owl:Class ;
+    rdfs:label "Davice Control App"@en ;
+    rdfs:subClassOf :IT_System .
+
+:Digital_Factory_System a owl:Class ;
+    rdfs:label "Digital Factory System"@en ;
+    rdfs:comment """The term "Digital Factory" is used in different meanings today and should hence not longer be used. \r
+It should be replaced by more specific terms like "Digital Factory Planning system" or "Digital Factory Twin". \r
+Originally, Digital Factory referred to software tools for computer-aided planning, design, engineering and simulation of production, manufacturing, or assembly systems. These tools supplemented CAD-based tools for factory layout planning and tools for computer-aided tools for production engineering (work plan preparation, production process planning) and were glued together with them to PLM software suites. \r
+As today even CAD-based layout planning and process planning tools are "digital" and refer to the factory, the terms "Digital Factory tool" and "Production Engineering tool" more and more converge. \r
+At the same time, automation vendors start to use the concept "Digital Factory" to address online monitoring and control tools for production systems. In this meaning, the term is a synonym for "Digital Factory Twin" or "Digital Twin of a Factory". \r
+The important difference between these two meanings is the phase in the life cycle in which the tool is used: Manufacturing Planning / Eingineering is conducted mainly in the first two lifecycle phases in which the product (type, class) is created, designed, and engineered, as well as the corresponding production system. \r
+The online monitoring and control is conducted during the third phase, in which the product individuals are produced on the existing production system. \r
+Hartwig Baumgaertel, 2018-11-12"""@en ;
+    rdfs:subClassOf :IT_System .
+
+:Digital_Factory_Twin a owl:Class ;
+    rdfs:label "Digital Factory Twin"@en ;
+    rdfs:subClassOf :PLM2_Module .
+
+:Document_Type_Description a owl:Class ;
+    rdfs:label "Document Type Description"@en ;
+    rdfs:comment "Is a set of markup declarations that define a document type for an SGML-family markup language (GML, SGML, XML, HTML)."@en ;
+    rdfs:subClassOf :Data_Language_XML_Based .
+
+:EDIFACT_DELFOR a owl:Class ;
+    rdfs:label "EDIFACT DELFOR"@en ;
+    rdfs:subClassOf :EDIFACT_Specification .
+
+:EDIFACT_DELJIT a owl:Class ;
+    rdfs:label "EDIFACT DELJIT"@en ;
+    rdfs:subClassOf :EDIFACT_Specification .
+
+:EDIFACT_DESADV a owl:Class ;
+    rdfs:label "EDIFACT DESADV"@en ;
+    rdfs:subClassOf :EDIFACT_Specification .
+
+:EDIFACT_Data_Format a owl:Class ;
+    rdfs:label "EDIFACT Data Format"@en ;
+    rdfs:comment """Data Format of EDIFACT messages. \r
+Describes e.g. block organization, data field separators etc. \r
+Holds for all EDIFACT messages (which are described in DataSemantics class hierarchy)."""@de ;
+    rdfs:subClassOf :W3C_L2_Data_Syntax .
+
+:EDIFACT_ORDERS a owl:Class ;
+    rdfs:label "EDIFACT ORDERS"@en ;
+    rdfs:subClassOf :EDIFACT_Specification .
+
+:EDIFACT_ORDRSP a owl:Class ;
+    rdfs:label "EDIFACT ORDRSP"@en ;
+    rdfs:subClassOf :EDIFACT_Specification .
+
+:ERP_System a owl:Class ;
+    rdfs:label "ERP System"@en ;
+    rdfs:comment "Enterprise resource planning system (ERP) is a system for integrated management of main business processes."@en ;
+    rdfs:subClassOf :IT_System .
+
+:Electric_Drive a owl:Class ;
+    rdfs:label "Electric Drive"@en ;
+    rdfs:subClassOf :Actuator_Device .
+
+:Enocean a owl:Class ;
+    rdfs:label "Enocean"@en ;
+    rdfs:subClassOf :OSI_3_4_Network_Technology .
+
+:Ethernet_802_3 a owl:Class ;
+    rdfs:label "Ethernet 802 3"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:FDDI a owl:Class ;
+    rdfs:label "FDDI"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:FTP a owl:Class ;
+    rdfs:label "FTP"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:Factory_Layout_Planning a owl:Class ;
+    rdfs:label "Factory Layout Planning"@en ;
+    rdfs:subClassOf :PLM1_Module .
+
+:Factory_Simulation_System a owl:Class ;
+    rdfs:label "Factory Simulation System"@en ;
+    rdfs:subClassOf :Simulation_System .
+
+:Frame a owl:Class ;
+    rdfs:label "Frame"@en ;
+    rdfs:subClassOf :Data_Transmission_Unit .
+
+:Gateway a owl:Class ;
+    rdfs:label "Gateway"@en ;
+    rdfs:subClassOf :Communication_Device .
+
+:HTML a owl:Class ;
+    rdfs:label "HTML"@en ;
+    rdfs:comment "Is the standard markup language for documents designed to be displayed in a web browser."@en ;
+    rdfs:subClassOf :W3C_L2_Data_Syntax .
+
+:HTTP a owl:Class ;
+    rdfs:label "HTTP"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:HTTPS a owl:Class ;
+    rdfs:label "HTTPS"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:Hub a owl:Class ;
+    rdfs:label "Hub"@en ;
+    rdfs:subClassOf :Communication_Device .
+
+:IEC a owl:Class ;
+    rdfs:label "IEC"@en ;
+    rdfs:subClassOf :Standardization_Organization .
+
+:IEC_Standard a owl:Class ;
+    rdfs:label "IEC Standard"@en ;
+    rdfs:comment "Standard maintained and published by International Electrotechnical Commission"@en ;
+    rdfs:subClassOf :Standard .
+
+:IEEE a owl:Class ;
+    rdfs:label "IEEE"@en ;
+    rdfs:subClassOf :Standardization_Organization .
+
+:IEEE_Standard a owl:Class ;
+    rdfs:label "IEEE Standard"@en ;
+    rdfs:comment "Is an organization within IEEE (Institute of Electrical and Electronics Engineers) that develops global standards in a broad range of industries."@en ;
+    rdfs:subClassOf :Standard .
+
+:IETF a owl:Class ;
+    rdfs:label "IETF"@en ;
+    rdfs:comment "Is an open standards organization, which develops and promotes voluntary Internet standards, in particular the standards that comprise the Internet protocol suite"@en ;
+    rdfs:subClassOf :Standardization_Organization .
+
+:IETF_Standard a owl:Class ;
+    rdfs:label "IETF Standard"@en ;
+    rdfs:comment "Internet Engineering Task Forces is an open standards organization, which develops and promotes voluntary Internet standards, in particular the standards that comprise the Internet protocol suite."@en ;
+    rdfs:subClassOf :Standard .
+
+:IMAP a owl:Class ;
+    rdfs:label "IMAP"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:ISA a owl:Class ;
+    rdfs:label "ISA"@en ;
+    rdfs:subClassOf :Standardization_Organization .
+
+:ISA_95_Automation_Hierarchy a owl:Class ;
+    rdfs:label "ISA 95 Automation Hierarchy"@en ;
+    rdfs:subClassOf :Network_Layer_Model .
+
+:ISA_95_Comm_1_1 a owl:Class ;
+    rdfs:label "ISA-95 Comm 1 1"@en ;
+    rdfs:subClassOf :ISA_95_Communication .
+
+:ISA_95_Comm_1_2 a owl:Class ;
+    rdfs:label "ISA-95 Comm 1 2"@en ;
+    rdfs:subClassOf :ISA_95_Communication .
+
+:ISA_95_Comm_1_3 a owl:Class ;
+    rdfs:label "ISA-95 Comm 1 3"@en ;
+    rdfs:subClassOf :ISA_95_Cross_Layer_Communication .
+
+:ISA_95_Comm_1_4 a owl:Class ;
+    rdfs:label "ISA-95 Comm 1 4"@en ;
+    rdfs:subClassOf :ISA_95_Cross_Layer_Communication .
+
+:ISA_95_Comm_2_2 a owl:Class ;
+    rdfs:label "ISA-95 Comm 2 2"@en ;
+    rdfs:subClassOf :ISA_95_Communication .
+
+:ISA_95_Comm_2_3 a owl:Class ;
+    rdfs:label "ISA-95 Comm 2 3"@en ;
+    rdfs:subClassOf :ISA_95_Communication .
+
+:ISA_95_Comm_2_4 a owl:Class ;
+    rdfs:label "ISA-95 Comm 2 4"@en ;
+    rdfs:subClassOf :ISA_95_Cross_Layer_Communication .
+
+:ISA_95_Comm_3_3 a owl:Class ;
+    rdfs:label "ISA-95 Comm 3 3"@en ;
+    rdfs:subClassOf :ISA_95_Communication .
+
+:ISA_95_Comm_3_4 a owl:Class ;
+    rdfs:label "ISA-95 Comm 3 4"@en ;
+    rdfs:subClassOf :ISA_95_Communication .
+
+:ISA_95_Comm_4_4 a owl:Class ;
+    rdfs:label "ISA-95 Comm 4 4"@en ;
+    rdfs:subClassOf :ISA_95_Communication .
+
+:ISA_95_Layer_0_Physical_Process a owl:Class ;
+    rdfs:label "ISA-95 Layer 0 Physical Process"@en ;
+    rdfs:subClassOf :ISA_95_Layer .
+
+:ISA_95_Layer_1_Sensors_Actuators a owl:Class ;
+    rdfs:label "ISA-95 Layer 1 Sensors Actuators"@en ;
+    rdfs:subClassOf :ISA_95_Layer .
+
+:ISA_95_Layer_2_Distributed_Control_SCADA a owl:Class ;
+    rdfs:label "ISA-95 Layer 2 Distributed Control SCADA"@en ;
+    rdfs:subClassOf :ISA_95_Layer .
+
+:ISA_95_Layer_3_MES_LES a owl:Class ;
+    rdfs:label "ISA-95 Layer 3 MES LES"@en ;
+    rdfs:subClassOf :ISA_95_Layer .
+
+:ISA_95_Layer_4_ERP a owl:Class ;
+    rdfs:label "ISA-95 Layer 4 ERP"@en ;
+    rdfs:comment "Defines the business-related activities needed to manage a manufacturing operation."@en ;
+    rdfs:subClassOf :ISA_95_Layer .
+
+:ISA_Standard a owl:Class ;
+    rdfs:label "ISA Standard"@en ;
+    rdfs:comment "Standards for Automation is one of the foremost professional organizations in the world for setting standards and educating industry professionals in automation."@en ;
+    rdfs:subClassOf :Standard .
+
+:ISO a owl:Class ;
+    rdfs:label "ISO"@en ;
+    rdfs:subClassOf :Standardization_Organization .
+
+:ISO_Standard a owl:Class ;
+    rdfs:label "ISO Standard"@en ;
+    rdfs:comment "International Organization for Standardization is an international standard-setting body composed of representatives from various national standards organizations."@en ;
+    rdfs:subClassOf :Standard .
+
+:Industrial_Ethernet a owl:Class ;
+    rdfs:label "Industrial Ethernet"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:Industrial_WLAN a owl:Class ;
+    rdfs:label "Industrial WLAN"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:Industry_PC a owl:Class ;
+    rdfs:label "Industry PC"@en ;
+    rdfs:subClassOf :Control_Device .
+
+:JSON a owl:Class ;
+    rdfs:label "JSON"@en ;
+    rdfs:comment "Is an open standard file format, and data interchange format, that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value)."@en ;
+    rdfs:subClassOf :W3C_L2_Data_Syntax .
+
+:KPI_Markup_Language a owl:Class ;
+    rdfs:label "KPI Markup Language"@en ;
+    rdfs:subClassOf :Markup_Language .
+
+:LES a owl:Class ;
+    rdfs:label "LES"@en ;
+    rdfs:subClassOf :IT_System .
+
+:LIMS a owl:Class ;
+    rdfs:label "LIMS"@en ;
+    rdfs:comment "A laboratory information management system (LIMS)  is a software-based solution with features that support a modern laboratory's operations."@en ;
+    rdfs:subClassOf :IT_System .
+
+:Lo_Ra_WAN a owl:Class ;
+    rdfs:label "Lo Ra WAN"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:MES a owl:Class ;
+    rdfs:label "MES"@en ;
+    rdfs:comment "Manufacturing execution system (MES) is a computerized systems used in manufacturing to track and document the transformation of raw materials to finished goods."@en ;
+    rdfs:subClassOf :IT_System .
+
+:MESA a owl:Class ;
+    rdfs:label "MESA"@en ;
+    rdfs:comment "Is a worldwide not-for-profit community of manufacturing companies, information technology hardware and software suppliers, system integrators, consulting service providers, analysts, editors, academics, and students."@en,
+        "especially MESA XML Committee"@en ;
+    rdfs:subClassOf :Standardization_Organization .
+
+:MESA_Standard a owl:Class ;
+    rdfs:label "MESA Standard"@en ;
+    rdfs:comment "Modular Energy System Architecture is a worldwide not-for-profit community of manufacturing companies, information technology hardware and software suppliers, system integrators, consulting service providers, analysts, editors, academics, and students."@en ;
+    rdfs:subClassOf :Standard .
+
+:MIS a owl:Class ;
+    rdfs:label "MIS"@en ;
+    rdfs:comment "A management information system (MIS) is an information system used for decision-making, coordination, control, analysis, and visualization of information in an organization."@en ;
+    rdfs:subClassOf :IT_System .
+
+:MQTT_SN a owl:Class ;
+    rdfs:label "MQTT SN"@en ;
+    rdfs:subClassOf :MQTT_Non_TCPIP_Based .
+
+:MQTT_TCPIP a owl:Class ;
+    rdfs:label "MQTT TCPIP"@en ;
+    rdfs:subClassOf :MQTT_TCPIP_Based .
+
+:Machine_Simulation_System a owl:Class ;
+    rdfs:label "Machine Simulation System"@en ;
+    rdfs:subClassOf :Simulation_System .
+
+:Manufacturing_Simulation_System a owl:Class ;
+    rdfs:label "Manufacturing Simulation System"@en ;
+    rdfs:subClassOf :Simulation_System .
+
+:Material_Flow_Planning a owl:Class ;
+    rdfs:label "Material Flow Planning"@en ;
+    rdfs:subClassOf :PLM1_Module .
+
+:Material_Flow_Simulation a owl:Class ;
+    rdfs:label "Material Flow Simulation"@en ;
+    rdfs:subClassOf :PLM1_Module .
+
+:Message a owl:Class ;
+    rdfs:label "Message"@en ;
+    rdfs:subClassOf :Data_Transmission_Unit .
+
+:Message_Broker_System a owl:Class ;
+    rdfs:label "Message Broker System"@en ;
+    rdfs:comment "Is an intermediary computer program module that translates a message from the formal messaging protocol of the sender to the formal messaging protocol of the receiver."@en ;
+    rdfs:subClassOf :IT_System .
+
+:Microcontroller a owl:Class ;
+    rdfs:label "Microcontroller"@en ;
+    rdfs:subClassOf :Control_Device ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller>,
+        <http://www.w3id.org/ecsel-dr-PWR#Microcontroller> .
+
+:N3_TURTLE a owl:Class ;
+    rdfs:label "N3 TURTLE"@en ;
+    rdfs:comment "Is a syntax and file format for expressing data in the Resource Description Framework (RDF) data model. Turtle syntax is similar to that of SPARQL, an RDF query language. It is a common data format for storing RDF data"@en ;
+    rdfs:subClassOf :W3C_L2_Data_Syntax .
+
+:OASIS a owl:Class ;
+    rdfs:label "OASIS"@en ;
+    rdfs:subClassOf :Standardization_Organization .
+
+:OASIS_Standard a owl:Class ;
+    rdfs:label "OASIS Standard"@en ;
+    rdfs:comment "Organization for the Advancement of Structured Information Standards is a global nonprofit consortium that works on the development, convergence, and adoption of open standards for security, Internet of Things, energy, content technologies, emergency management, and other areas."@en ;
+    rdfs:subClassOf :Standard .
+
+:OCF a owl:Class ;
+    rdfs:label "Open Connectivity Foundation"@en ;
+    rdfs:comment "Is an industry organization having as its stated mission is to develop specification standards, promote a set of interoperability guidelines, and provide a certification program for devices involved in the Internet of Things (IoT)."@en ;
+    rdfs:subClassOf :Standardization_Organization .
+
+:OCF_Standard a owl:Class ;
+    rdfs:label "OCF Standard"@en ;
+    rdfs:comment "Open Connectivity Foundation is an industry organization having as its stated mission is to develop specification standards, promote a set of interoperability guidelines, and provide a certification program for devices involved in the Internet of Things (IoT)."@en ;
+    rdfs:subClassOf :Standard .
+
+:OMG a owl:Class ;
+    rdfs:label "Object Management Group"@en ;
+    rdfs:comment "Is a computer industry standards consortium. OMG Task Forces develop enterprise integration standards for a range of technologies."@en ;
+    rdfs:subClassOf :Standardization_Organization .
+
+:OMG_Standard a owl:Class ;
+    rdfs:label "OMG Standard"@en ;
+    rdfs:comment "Is a computer industry standards consortium. OMG Task Forces develop enterprise integration standards for a range of technologies."@en ;
+    rdfs:subClassOf :Standard .
+
+:OPC a owl:Class ;
+    rdfs:label "OPC"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:OPC_UA a owl:Class ;
+    rdfs:label "OPC UA"@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture_Protocols .
+
+:OPC_UA_Binary_Protocol a owl:Class ;
+    rdfs:label "OPC UA Binary Protocol"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:OSI_AL_1_Network_Access_Layer a owl:Class ;
+    rdfs:label "OSI AL 1 Network Access Layer"@en ;
+    rdfs:subClassOf :OSI_Aggregated_Layer .
+
+:OSI_AL_2_Internet_Layer a owl:Class ;
+    rdfs:label "Internetschicht"@de,
+        "OSI AL 2 Internet Layer"@en ;
+    rdfs:comment """Corresponds 1:1 to ISO/OSI layer 3: Network Layer. \r
+conducts transmission of data packets and choice of the net node (routing), i.e. determines the next intermediate node for received data packets and transmits the data packet there. \r
+Handles point-to-pint (node-to-node) transmissions, no transmission paths. \r
+Examples: Internet Protocol Version 4 (IPv4), IPv6."""@de ;
+    rdfs:subClassOf :OSI_Aggregated_Layer .
+
+:OSI_AL_3_Transport_Layer a owl:Class ;
+    rdfs:label "OSI AL 3 Transport Layer"@en ;
+    rdfs:subClassOf :OSI_Aggregated_Layer .
+
+:OSI_AL_4_Application_Layer a owl:Class ;
+    rdfs:label "OSI AL 4 Application Layer"@en ;
+    rdfs:subClassOf :OSI_Aggregated_Layer .
+
+:OSI_L_1_Physical_Link a owl:Class ;
+    rdfs:label "OSI L 1 Physical Link"@en ;
+    rdfs:subClassOf :OSI_Detailed_Layer .
+
+:OSI_L_2_Data_Link a owl:Class ;
+    rdfs:label "OSI L 2 Data Link"@en ;
+    rdfs:subClassOf :OSI_Detailed_Layer .
+
+:OSI_L_3_Network_Layer a owl:Class ;
+    rdfs:label "OSI L 3 Network Layer"@en ;
+    rdfs:subClassOf :OSI_Detailed_Layer .
+
+:OSI_L_4_Transport_Layer a owl:Class ;
+    rdfs:label "OSI L 4 Transport Layer"@en ;
+    rdfs:subClassOf :OSI_Detailed_Layer .
+
+:OSI_L_5_Session_Layer a owl:Class ;
+    rdfs:label "OSI L 5 Session Layer"@en ;
+    rdfs:subClassOf :OSI_Detailed_Layer .
+
+:OSI_L_6_Presentation_Layer a owl:Class ;
+    rdfs:label "OSI L 6 Presentation Layer"@en ;
+    rdfs:subClassOf :OSI_Detailed_Layer .
+
+:OSI_L_7_Application_Layer a owl:Class ;
+    rdfs:label "OSI L 7 Application Layer"@en ;
+    rdfs:subClassOf :OSI_Detailed_Layer .
+
+:OSI_Layer_Model_Aggregated a owl:Class ;
+    rdfs:label "OSI Layer Model Aggregated"@en ;
+    rdfs:subClassOf :Network_Layer_Model .
+
+:OSI_Layer_Model_Detailed a owl:Class ;
+    rdfs:label "OSI Layer Model Detailed"@en ;
+    rdfs:subClassOf :Network_Layer_Model .
+
+:OWL a owl:Class ;
+    rdfs:label "Web Ontology Language"@en ;
+    rdfs:comment "Web Ontology Language (OWL) is a family of knowledge representation languages for authoring ontologies."@en ;
+    rdfs:subClassOf :W3C_L4_Semantics_Representation .
+
+:PLM1_System_Suite a owl:Class ;
+    rdfs:label "PLM1 System Suite"@en ;
+    rdfs:subClassOf :PLM_System_First_Generation .
+
+:PLM1_Vendor a owl:Class ;
+    rdfs:label "PLM1 Vendor"@en ;
+    rdfs:subClassOf :PLM_System_First_Generation .
+
+:PLM2_System_Suite a owl:Class ;
+    rdfs:label "PLM2 System Suite"@en ;
+    rdfs:subClassOf :PLM_System_Second_Generation .
+
+:PLM2_Vendor a owl:Class ;
+    rdfs:label "PLM2 Vendor"@en ;
+    rdfs:subClassOf :PLM_System_Second_Generation .
+
+:PL_Phase_1_Development a owl:Class ;
+    rdfs:label "PL Phase 1 Development"@en ;
+    rdfs:subClassOf :Product_Lifecycle_Phase .
+
+:PL_Phase_2_Maintenance_Improvement a owl:Class ;
+    rdfs:label "PL Phase 2 Maintenance Improvement"@en ;
+    rdfs:subClassOf :Product_Lifecycle_Phase .
+
+:PL_Phase_3_Production a owl:Class ;
+    rdfs:label "PL Phase 3 Production"@en ;
+    rdfs:subClassOf :Product_Lifecycle_Phase .
+
+:PL_Phase_4_Usage_Maintenance a owl:Class ;
+    rdfs:label "PL Phase 4 Usage Maintenance"@en ;
+    rdfs:subClassOf :Product_Lifecycle_Phase .
+
+:Packet a owl:Class ;
+    rdfs:label "Packet"@en ;
+    rdfs:subClassOf :Data_Transmission_Unit .
+
+:Product_Data_Management_Module a owl:Class ;
+    rdfs:label "Product Data Management Module"@en ;
+    rdfs:subClassOf :PLM1_Module .
+
+:Production_Cell_Planning a owl:Class ;
+    rdfs:label "Production Cell Planning"@en ;
+    rdfs:subClassOf :PLM1_Module .
+
+:Programmable_Logic_Controller a owl:Class ;
+    rdfs:label "Programmable Logic Controller"@en ;
+    rdfs:subClassOf :Control_Device .
+
+:Proxy a owl:Class ;
+    rdfs:label "Proxy"@en ;
+    rdfs:subClassOf :Communication_Device .
+
+:RDF a owl:Class ;
+    rdfs:label "Resource Description Framework"@de ;
+    rdfs:comment "Resource Description Framework (RDF) is a family of World Wide Web Consortium (W3C) specifications originally designed as a metadata data model. It has come to be used as a general method for conceptual description or modeling of information that is implemented in web resources, using a variety of syntax notations and data serialization formats. It is also used in knowledge management applications."@en ;
+    rdfs:subClassOf :Data_Language_Semantic_Web_Stack_Based .
+
+:RDF_Graph_Store a owl:Class ;
+    rdfs:label "RDF Graph Store"@en ;
+    rdfs:comment "Is a purpose-built database for the storage and retrieval of triples through semantic queries."@en ;
+    rdfs:subClassOf :Database_System .
+
+:RDFa a owl:Class ;
+    rdfs:label "RDFa"@en ;
+    rdfs:comment "Is a W3C Recommendation that adds a set of attribute-level extensions to HTML, XHTML and various XML-based document types for embedding rich metadata within Web documents."@en ;
+    rdfs:subClassOf :W3C_L2_Data_Syntax .
+
+:REST a owl:Class ;
+    rdfs:label "REST"@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture_Protocols .
+
+:RFID a owl:Class ;
+    rdfs:label "RFID"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:Rack_Feeder a owl:Class ;
+    rdfs:label "Regalbediengerät"@de,
+        "Rack Feeder"@en ;
+    rdfs:comment "Gerät zur Materialbewegung in einem automatisierten Hochregallager."@de,
+        "Device for material movement in an automated high-bay warehouse."@en ;
+    rdfs:subClassOf :Actuator_Device .
+
+:Relational_Database_System a owl:Class ;
+    rdfs:label "Relational Database System"@en ;
+    rdfs:comment "Is a digital database based on the relational model of data"@en ;
+    rdfs:subClassOf :Database_System .
+
+:Repeater a owl:Class ;
+    rdfs:label "Repeater"@en ;
+    rdfs:comment "A repeater is an electronic device that receives a signal and retransmits it. Repeaters are used to extend transmissions so that the signal can cover longer distances or be received on the other side of an obstruction."@en ;
+    rdfs:subClassOf :Communication_Device .
+
+:Robot_Cell_Planning a owl:Class ;
+    rdfs:label "Robot Cell Planning"@en ;
+    rdfs:subClassOf :PLM1_Module .
+
+:Rosetta_Net_Specification a owl:Class ;
+    rdfs:label "Rosetta Net Specification"@en ;
+    rdfs:comment "Is a non-profit consortium aimed at establishing standard processes for the sharing of business information (B2B)."@en ;
+    rdfs:subClassOf :RDFS .
+
+:Router a owl:Class ;
+    rdfs:label "Router"@en ;
+    rdfs:subClassOf :Communication_Device .
+
+:SCADA_System a owl:Class ;
+    rdfs:label "SCADA System"@en ;
+    rdfs:comment "Supervisory control and data acquisition (SCADA) is a control system architecture comprising computers, networked data communications and graphical user interfaces for high-level supervision of machines and processes. It also covers sensors and other devices, such as programmable logic controllers, which interface with process plant or machinery."@en ;
+    rdfs:subClassOf :IT_System .
+
+:SCTP a owl:Class ;
+    rdfs:label "SCTP"@en ;
+    rdfs:comment "Das Stream Control Transmission Protocol (SCTP) ist ein zuverlässiges, verbindungsorientiertes Netzwerkprotokoll. Es gehört zur Transportschicht und setzt auf einem potenziell unzuverlässigen, verbindungslosen Paketdienst auf."@de,
+        """Es wurde von der Internet Engineering Task Force (IETF) als neues Transportprotokoll vorgeschlagen und im Oktober 2000 in dem Standarddokument RFC 2960 veröffentlicht und im September 2007 durch RFC 4960 erweitert. Eine Einführung findet sich auch in RFC 3286. Das zuständige Gremium bei der IETF ist die Arbeitsgruppe Signaling Transport, kurz SIGTRAN.\r
+\r
+Als Transportprotokoll steht SCTP auf derselben Stufe des TCP/IP-Referenzmodells wie TCP und UDP (Schicht 4 des OSI-Modells).\r
+\r
+SCTP realisiert das Konzept einer Association: Hier wird eine Verbindung aufgebaut, in der mehrere Nachrichten-Datenströme in sich reihenfolgenerhaltend (untereinander aber potentiell nicht-reihenfolgenerhaltend) transportiert werden. Zusätzlich können einzelne, zum Beispiel dringende, Datagramme separat und außer der Reihe verschickt werden, die dadurch eventuell die In-Order-Datenströme „überholen“.\r
+\r
+SCTP kennt außerdem Multistreaming und Multihoming (ein Host mit mehreren gültigen IP-Adressen). Es werden Heartbeats verwendet, um aktiv auf Verbindungsabriss zu testen.\r
+\r
+Anders als TCP zeigt sich SCTP resistent gegen SYN-Flooding, eine Denial-of-Service-Attacke, bei der durch halboffene Verbindungen die Ressourcen des Servers aufgebraucht werden. Dazu verwendet es einen sogenannten Vier-Wege-Handshake. Hierbei speichert der Server bei einer Verbindungsanfrage (INIT-Paket) keine Zustandsinformationen, sondern schickt diese in Form eines Cookies (INIT-ACK-Paket) an den Client. Der Client muss dieses Cookie in seine Antwort (COOKIE-ECHO-Paket) einfügen und wird damit vom Server als zum Verbindungsaufbau berechtigt erkannt, was dieser ihm bestätigt (COOKIE-ACK-Paket). Ein ähnliches Verfahren ist mit TCP ebenfalls möglich, siehe SYN-Cookies.\r
+\r
+Ursprünglich wurde SCTP als Transportprotokoll definiert, um Zeichengabenachrichten (SS7) aus Telefonnetzen auch über IP-Netzwerke übertragen zu können. Bei der Entwicklung stand insbesondere die Zuverlässigkeit des Protokolls im Vordergrund. SCTP ist aber auch für andere Anwendungen geeignet, da es Vorteile von TCP und UDP vereint. Eine wichtige, auf SCTP aufbauende Anwendung ist Reliable Server Pooling (RSerPool).\r
+\r
+SCTP verwendet für Fluss- und Überlastkontrolle ähnliche Algorithmen wie TCP, verhält sich also in einem gemischten Netz (SCTP und TCP) neutral.[1]\r
+\r
+Auch Java bietet seit Version 7 eine eigene API für SCTP an."""@de,
+        """It was proposed by the Internet Engineering Task Force (IETF) as a new transport protocol and published in October 2000 in the standard document RFC 2960 and extended in September 2007 by RFC 4960. An introduction can also be found in RFC 3286. The responsible body at the IETF is the Signaling Transport Working Group, or SIGTRAN for short.\r
+\r
+As a transport protocol, SCTP is on the same level of the TCP/IP reference model as TCP and UDP (layer 4 of the OSI model).\r
+\r
+SCTP implements the concept of an association: A connection is set up in which several message data streams are transported in a sequence-preserving manner (but potentially non-sequence-preserving among themselves). In addition, individual datagrams, for example urgent datagrams, can be sent separately and out of sequence, possibly "overtaking" the in-order data streams.\r
+\r
+SCTP also knows multistreaming and multihoming (one host with several valid IP addresses). Heartbeats are used to actively test for connection failure.\r
+\r
+Unlike TCP, SCTP is resistant to SYN flooding, a denial-of-service attack in which half-open connections use up the server's resources. It uses a so-called four-way handshake for this purpose. Here, the server does not store any state information in a connection request (INIT packet), but sends it to the client in the form of a cookie (INIT-ACK packet). The client must include this cookie in its response (COOKIE-ECHO packet) and is thus recognized by the server as authorized to establish a connection, which the server confirms to it (COOKIE-ACK packet). A similar procedure is also possible with TCP, see SYN cookies.\r
+\r
+SCTP was originally defined as a transport protocol for transmitting signalling messages (SS7) from telephone networks over IP networks. During development, the reliability of the protocol was a particular focus. However, SCTP is also suitable for other applications because it combines the advantages of TCP and UDP. An important application based on SCTP is Reliable Server Pooling (RSerPool).\r
+\r
+SCTP uses similar algorithms as TCP for flow and congestion control, so it behaves neutrally in a mixed network (SCTP and TCP)[1].\r
+\r
+Java also provides its own API for SCTP since version 7."""@en,
+        "The Stream Control Transmission Protocol (SCTP) is a reliable, connection-oriented network protocol. It belongs to the transport layer and relies on a potentially unreliable connectionless packet service."@en ;
+    rdfs:subClassOf :OSI_Transport_Protocol .
+
+:SECS a owl:Class ;
+    rdfs:label "SECS"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:SECS_GEM a owl:Class ;
+    rdfs:label "SECS GEM"@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture_Protocols .
+
+:SMQTT a owl:Class ;
+    rdfs:label "SMQTT"@en ;
+    rdfs:subClassOf :MQTT_TCPIP_Based .
+
+:SMQTT_SN a owl:Class ;
+    rdfs:label "SMQTT SN"@en ;
+    rdfs:subClassOf :MQTT_Non_TCPIP_Based .
+
+:SMTP a owl:Class ;
+    rdfs:label "SMTP"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:SOAP a owl:Class ;
+    rdfs:label "SOAP"@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture_Protocols .
+
+:SOSA a owl:Class ;
+    rdfs:label "SOSA"@en ;
+    rdfs:comment "A lightweight version of the SSN ontology"@en ;
+    rdfs:subClassOf :Ontology .
+
+:SPARQL_Language a owl:Class ;
+    rdfs:label "SPARQL Language"@en ;
+    rdfs:comment "Is an RDF query language—that is, a semantic query language for databases—able to retrieve and manipulate data stored in Resource Description Framework (RDF) format."@en ;
+    rdfs:subClassOf :Data_Language_Semantic_Web_Stack_Based .
+
+:SPARQL_Protocol a owl:Class ;
+    rdfs:label "SPARQL Protocol"@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture_Protocols .
+
+:SSN a owl:Class ;
+    rdfs:label "SSN"@en ;
+    rdfs:comment "Enables expressive representation of sensor observations, sampling, and actuation."@en ;
+    rdfs:subClassOf :Ontology .
+
+:STOMP a owl:Class ;
+    rdfs:label "STOMP"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:Segment a owl:Class ;
+    rdfs:label "Segment"@en ;
+    rdfs:subClassOf :Data_Transmission_Unit .
+
+:Sen_Markup_Language a owl:Class ;
+    rdfs:label "Sen Markup Language"@en ;
+    rdfs:subClassOf :Markup_Language .
+
+:Sens_Markup_Language a owl:Class ;
+    rdfs:label "Sens Markup Language"@en ;
+    rdfs:subClassOf :Markup_Language .
+
+:Sensor_Device a owl:Class ;
+    rdfs:label "Sensor Device"@en ;
+    rdfs:subClassOf :Device .
+
+:Service_Oriented_Architecture_Implementation a owl:Class ;
+    rdfs:label "Service-Oriented Architecture Implementation"@en ;
+    rdfs:comment """Implementations or Realizations of Service-oriented Architectures.\r
+\r
+This class contains existing implementations, i.e. software systems, which are designed as Service-oriented Architectures. That is, these systems realize service-oriented communication between their participants / components. (2018-08-04 HB)."""@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:SoA_Client a owl:Class ;
+    rdfs:label "SoA Client"@en ;
+    rdfs:comment """"Role" or function of an software (application) system that consumes / uses one or several services to other systems in a client-server communication pattern / process. \r
+Other names: Service Consumer"""@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture_Function_Pattern .
+
+:SoA_Publisher a owl:Class ;
+    rdfs:label "SoA Publisher"@en ;
+    rdfs:comment "\"Role\" or function of a software (application) system that publishes data to a communication channel in a publish-subscribe communication pattern / process."@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture_Function_Pattern .
+
+:SoA_Server a owl:Class ;
+    rdfs:label "SoA Server"@en ;
+    rdfs:comment """"Role" or function of an software (application) system that offers one or several services to other systems. \r
+Other names: Service Producer,"""@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture_Function_Pattern .
+
+:SoA_Service_Broker a owl:Class ;
+    rdfs:label "SoA Service Broker"@en ;
+    rdfs:comment "\"Role\" or function of an software (application) system that is a registry of services."@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture_Function_Pattern .
+
+:SoA_Service_Repository a owl:Class ;
+    rdfs:label "SoA Service Repository"@en ;
+    rdfs:comment "\"Role\" or function of an software (application) system that stores metadata of srevices and related SoA artifacts"@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture_Function_Pattern .
+
+:SoA_Subscriber a owl:Class ;
+    rdfs:label "SoA Subscriber"@en ;
+    rdfs:comment "\"Role\" or function of a software (application) system that subscribes to a communication channel in a publish-subscribe communication pattern / process."@en ;
+    rdfs:subClassOf :Service_Oriented_Architecture_Function_Pattern .
+
+:Stationary_Robot a owl:Class ;
+    rdfs:label "Stationary Robot"@en ;
+    rdfs:subClassOf :Actuator_Device .
+
+:Supply_Chain_Simulation_System a owl:Class ;
+    rdfs:label "Supply Chain Simulation System"@en ;
+    rdfs:subClassOf :Simulation_System .
+
+:Switch a owl:Class ;
+    rdfs:label "Switch"@en ;
+    rdfs:subClassOf :Communication_Device .
+
+:TCP a owl:Class ;
+    rdfs:label "TCP"@en ;
+    rdfs:comment "TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network."@en ;
+    rdfs:subClassOf :OSI_Transport_Protocol .
+
+:TCP_IP a owl:Class ;
+    rdfs:label "TCP IP"@en ;
+    rdfs:subClassOf :OSI_3_4_Network_Technology .
+
+:TTP_A a owl:Class ;
+    rdfs:label "TTP A"@en ;
+    rdfs:subClassOf :Fieldbus_Car_Airplane .
+
+:TTP_C a owl:Class ;
+    rdfs:label "TTP C"@en ;
+    rdfs:subClassOf :Fieldbus_Car_Airplane .
+
+:Token_Ring a owl:Class ;
+    rdfs:label "Token Ring"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:Tooling_Machine a owl:Class ;
+    rdfs:label "Tooling Machine"@en ;
+    rdfs:subClassOf :Actuator_Device .
+
+:Transport_Robot a owl:Class ;
+    rdfs:label "Transportroboter"@de,
+        "Transport Robot"@en ;
+    rdfs:comment """neuere Version von fahrerlosem Transportfahrzeug. \r
+Im Gegensatz zu traditionellen FTF verfügen Transportroboter über die Fähigkeit der freien Navigation im Raum. \r
+D.h. sie bewegen sich nicht nur entlang vorgegebener physischer (z.B. optimscher oder magnetischer) oder virtueller Fahrspuren, sondern navigieren frei im Raum unter Nutzung eigener Sensorik zur Umgebungserkennung und Positionierung."""@de,
+        """Newer version of driverless transport vehicle. \r
+Unlike traditional FTFs, transport robots have the ability to navigate freely in space. \r
+That means, they not only move along predefined physical (e.g., optimized or magnetic) or virtual lanes, but navigate freely in space using their own sensor technology for environment recognition and positioning."""@en ;
+    rdfs:subClassOf :Actuator_Device .
+
+:UDP a owl:Class ;
+    rdfs:label "UDP"@en ;
+    rdfs:comment "With UDP, computer applications can send messages, in this case referred to as datagrams, to other hosts on an Internet Protocol (IP) network. Prior communications are not required in order to set up communication channels or data paths."@en ;
+    rdfs:subClassOf :OSI_Transport_Protocol .
+
+:UDS a owl:Class ;
+    rdfs:label "UDS"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:UML a owl:Class ;
+    rdfs:label "UML"@en ;
+    rdfs:subClassOf :Markup_Language .
+
+:UPnP a owl:Class ;
+    rdfs:label "uPnP"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:W3C a owl:Class ;
+    rdfs:label "W3C"@en ;
+    rdfs:subClassOf :Standardization_Organization .
+
+:W3C_Data_Knowledge_Stack a owl:Class ;
+    rdfs:label "W3C Data Knowledge Stack"@en ;
+    rdfs:subClassOf :Network_Layer_Model .
+
+:WADL a owl:Class ;
+    rdfs:label "WADL"@en ;
+    rdfs:subClassOf :Markup_Language .
+
+:WAP a owl:Class ;
+    rdfs:label "WAP"@en ;
+    rdfs:subClassOf :Communication_Device .
+
+:WIMAX_802_16 a owl:Class ;
+    rdfs:label "WIMAX 802 16"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:WLAN_802_11 a owl:Class ;
+    rdfs:label "WLAN 802 11"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:WPAN_802_15_4 a owl:Class ;
+    rdfs:label "WPAN 802 15 4"@en ;
+    rdfs:subClassOf :OSI_1_2_Net_Access_Technology .
+
+:WSDL a owl:Class ;
+    rdfs:label "WSDL"@en ;
+    rdfs:subClassOf :Markup_Language .
+
+:Web_Address a owl:Class ;
+    rdfs:label "Web Address"@en ;
+    rdfs:comment "Is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it."@en ;
+    rdfs:subClassOf :W3C_L1_Web_Platform .
+
+:Web_Application_Protocol a owl:Class ;
+    rdfs:label "Web Application Protocol"@en ;
+    rdfs:subClassOf :W3C_L1_Web_Platform .
+
+:Wireless_HART a owl:Class ;
+    rdfs:label "Wireless HART"@en ;
+    rdfs:subClassOf :OSI_3_4_Network_Technology .
+
+:X400 a owl:Class ;
+    rdfs:label "X400"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:XHTML a owl:Class ;
+    rdfs:label "XHTML"@en ;
+    rdfs:comment "Is a separate language from HTML that began as a reformulation of HTML 4.01 using XML 1.0."@en ;
+    rdfs:subClassOf :W3C_L2_Data_Syntax .
+
+:XML a owl:Class ;
+    rdfs:label "XML" ;
+    rdfs:comment "Extended Markup Language (XML) Is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable."@en ;
+    rdfs:subClassOf :W3C_L2_Data_Syntax .
+
+:XML_Schema a owl:Class ;
+    rdfs:label "XML Schema"@en ;
+    rdfs:comment "A recommendation of the World Wide Web Consortium (W3C), specifies how to formally describe the elements in an Extensible Markup Language (XML) document."@en ;
+    rdfs:subClassOf :Data_Language_XML_Based .
+
+:XMPP a owl:Class ;
+    rdfs:label "XMPP"@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:Z_Wave a owl:Class ;
+    rdfs:label "Z-Wave"@en ;
+    rdfs:subClassOf :OSI_3_4_Network_Technology .
+
+:Zig_Bee a owl:Class ;
+    rdfs:label "Zig Bee"@en ;
+    rdfs:subClassOf :OSI_3_4_Network_Technology .
+
+:Zig_Bee_IP a owl:Class ;
+    rdfs:label "Zig Bee IP"@en ;
+    rdfs:subClassOf :OSI_3_4_Network_Technology .
+
+:Zig_Bee_RF4CE a owl:Class ;
+    rdfs:label "Zig Bee RF4CE"@en ;
+    rdfs:subClassOf :OSI_3_4_Network_Technology .
+
+:belongs_to_ISA_95_layer a owl:ObjectProperty ;
+    rdfs:label "belongs to ISA-95 layer"@en ;
+    rdfs:domain :IT_System ;
+    rdfs:range :ISA_95_Layer .
+
+:contains_OSI_layer a owl:ObjectProperty ;
+    rdfs:label "contains OSI layer"@en ;
+    rdfs:domain :OSI_Aggregated_Layer ;
+    rdfs:range :OSI_Detailed_Layer .
+
+:has_IT_module_or_part a owl:ObjectProperty ;
+    rdfs:label "has IT module or part"@en ;
+    rdfs:domain :IT_System ;
+    rdfs:range :IT_System ;
+    owl:inverseOf :is_part_of_IT_suite .
+
+:has_communication_device a owl:ObjectProperty ;
+    rdfs:label "has communication device"@en ;
+    owl:inverseOf :is_device_of_OSI_layer .
+
+:has_data_transmission_unit a owl:ObjectProperty ;
+    rdfs:label "has data transmission unit"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range :Data_Transmission_Unit ;
+    owl:inverseOf :is_data_transmission_unit_of .
+
+:has_implementation_technology a owl:ObjectProperty ;
+    rdfs:label "has implementation technology"@en ;
+    owl:inverseOf :implements_OSI_layer .
+
+:has_service_description_language a owl:ObjectProperty ;
+    rdfs:label "has service description language"@en ;
+    rdfs:domain :Service_Oriented_Architecture_Protocols ;
+    rdfs:range :W3C_L5_Data_Semantics ;
+    owl:inverseOf :is_service_description_language_of .
+
+:has_vendor a owl:ObjectProperty ;
+    rdfs:label "has vendor"@en ;
+    rdfs:domain :IT_System ;
+    rdfs:range :IT_Vendor ;
+    owl:inverseOf :is_vendor_of .
+
+:is_standard_of a owl:ObjectProperty ;
+    rdfs:label "is standard of"@en ;
+    rdfs:domain :Standard ;
+    rdfs:range owl:Thing ;
+    owl:inverseOf :standardized_by .
+
+:supported_by_technology_or_protocol a owl:ObjectProperty ;
+    rdfs:label "supported by technology or protocol"@en ;
+    owl:inverseOf :used_in_ISA_95_communication .
+
+:used_in_ISA_95_layer a owl:ObjectProperty ;
+    rdfs:label "used in ISA-95 layer"@en ;
+    rdfs:domain :Device ;
+    rdfs:range :ISA_95_Layer .
+
+:PLM2_Module a owl:Class ;
+    rdfs:label "PLM2 Module"@en ;
+    rdfs:subClassOf :PLM_System_Second_Generation .
+
+:RDFS a owl:Class ;
+    rdfs:label "Resource Description Framework Schema"@de ;
+    rdfs:comment "Is a set of classes with certain properties using the RDF extensible knowledge representation data model, providing basic elements for the description of ontologies, otherwise called RDF vocabularies, intended to structure RDF resources."@en ;
+    rdfs:subClassOf :W3C_L4_Semantics_Representation .
+
+:Service_Data_Language a owl:Class ;
+    rdfs:label "Service Data Language"@en ;
+    rdfs:subClassOf :W3C_L5_Data_Semantics .
+
+:implements_OSI_layer a owl:ObjectProperty ;
+    rdfs:label "implements OSI layer"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range [ ] .
+
+:is_data_transmission_unit_of a owl:ObjectProperty ;
+    rdfs:label "is data transmission unit of"@en ;
+    rdfs:domain :Data_Transmission_Unit ;
+    rdfs:range [ ] .
+
+:is_device_of_OSI_layer a owl:ObjectProperty ;
+    rdfs:label "is device of OSI layer"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range [ ] .
+
+:is_part_of_IT_suite a owl:ObjectProperty ;
+    rdfs:label "is part of IT suite"@en ;
+    rdfs:domain :IT_System ;
+    rdfs:range :IT_System .
+
+:is_service_description_language_of a owl:ObjectProperty ;
+    rdfs:label "is service description language of"@en .
+
+:is_vendor_of a owl:ObjectProperty ;
+    rdfs:label "is vendor of"@en ;
+    rdfs:domain :IT_Vendor ;
+    rdfs:range :IT_System .
+
+:standardized_by a owl:ObjectProperty ;
+    rdfs:label "standarized by"@en .
+
+:used_in_ISA_95_communication a owl:ObjectProperty ;
+    rdfs:label "used in ISA-95 communication"@en ;
+    rdfs:domain [ ] ;
+    rdfs:range [ ] .
+
+:Data_Language_Semantic_Web_Stack_Based a owl:Class ;
+    rdfs:label "Data Language Semantic Web Stack Based"@en ;
+    rdfs:subClassOf :W3C_L3_Knowledge_Representation .
+
+:Data_Language_XML_Based a owl:Class ;
+    rdfs:label "Data Language XML-Based"@en ;
+    rdfs:subClassOf :W3C_L3_Knowledge_Representation .
+
+:Database_System a owl:Class ;
+    rdfs:label "Database System"@en ;
+    rdfs:comment "Is an organized collection of data, generally stored and accessed electronically from a computer system."@en ;
+    rdfs:subClassOf :IT_System .
+
+:EDI_Specification a owl:Class ;
+    rdfs:label "EDI Specification"@en ;
+    rdfs:comment "It provides a technical basis for automated commercial \"conversations\" between two entities, either internal or external."@en ;
+    rdfs:subClassOf :W3C_L5_Data_Semantics .
+
+:IT_Vendor a owl:Class ;
+    rdfs:label "IT Vendor"@en ;
+    rdfs:comment "A provider of IT systems and services"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:MQTT a owl:Class ;
+    rdfs:label "MQTT"@en ;
+    rdfs:comment """MQTT is not only application protocol. It's take layers 5-7 (App, Presentation and Session).\r
+For example, you can see that MQTT has Persistent Session. It means MQTT contains Session Layer."""@de,
+        """MQTT[1] (Message Queuing Telemetry Transport) is an ISO standard (ISO/IEC PRF 20922)[2] publish-subscribe-based messaging protocol. It works on top of the TCP/IP protocol. It is designed for connections with remote locations where a "small code footprint" is required or the network bandwidth is limited. The publish-subscribe messaging pattern requires a message broker.\r
+\r
+Andy Stanford-Clark of IBM and Arlen Nipper of Cirrus Link authored the first version of the protocol in 1999.[3]\r
+\r
+The specification does not specify the meaning of "small code footprint" or the meaning of "limited network bandwidth". Thus, the protocol's availability for use depends on the context. In 2013, IBM submitted MQTT v3.1 to the OASIS specification body with a charter that ensured only minor changes to the specification could be accepted.[4] MQTT-SN[5] is a variation of the main protocol aimed at embedded devices on non-TCP/IP networks, such as ZigBee.\r
+\r
+Historically, the "MQ" in "MQTT" came from IBM's MQ Series message queuing product line.[6] However, queuing itself is not required to be supported as a standard feature in all situations.[7]\r
+\r
+Alternative protocols include the Advanced Message Queuing Protocol (AMQP), Streaming Text Oriented Messaging Protocol (STOMP), the IETF Constrained Application Protocol,[8] XMPP,[9][10] DDS,[11] OPC UA,[12] and Web Application Messaging Protocol (WAMP). (https://en.wikipedia.org/wiki/MQTT)"""@en ;
+    rdfs:subClassOf :OSI_5_7_Application_Protocol .
+
+:MQTT_Non_TCPIP_Based a owl:Class ;
+    rdfs:label "MQTT Non TCPIP Based"@en ;
+    rdfs:subClassOf :MQTT .
+
+:MQTT_TCPIP_Based a owl:Class ;
+    rdfs:label "MQTT TCPIP Based"@en ;
+    rdfs:subClassOf :MQTT .
+
+:Ontology a owl:Class ;
+    rdfs:label "Ontology"@en ;
+    rdfs:comment "An ontology encompasses a representation, formal naming and definition of the categories, properties and relations between the concepts, data and entities that substantiate one, many or all domains of discourse."@en ;
+    rdfs:subClassOf :W3C_L5_Data_Semantics .
+
+:PLM_System a owl:Class ;
+    rdfs:label "PLM System"@en ;
+    rdfs:comment "Product lifecycle management system (PLM) is a system for managing the entire lifecycle of a product"@en ;
+    rdfs:subClassOf :IT_System .
+
+:W3C_L3_Knowledge_Representation a owl:Class ;
+    rdfs:label "W3C L3 Data Semantics"@en ;
+    rdfs:comment "W3C L3 Data Semantics Knowledge Representation"@en ;
+    rdfs:subClassOf :W3C_Standard .
+
+:W3C_L4_Semantics_Representation a owl:Class ;
+    rdfs:label "W3C L4 Data Semantics"@en ;
+    rdfs:subClassOf :W3C_Standard .
+
+:Control_Device a owl:Class ;
+    rdfs:label "Control Device"@en ;
+    rdfs:comment "Output devices that work in conjunction with sensor input devices and commands from computers in order to control a process."@en ;
+    rdfs:subClassOf :Device .
+
+:Fieldbus_Car_Airplane a owl:Class ;
+    rdfs:label "Fieldbus Car Airplane"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:ISA_95_Cross_Layer_Communication a owl:Class ;
+    rdfs:label "ISA-95 Cross Layer Communication"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:OSI_Transport_Protocol a owl:Class ;
+    rdfs:label "OSI Transport Protocol"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:PLM_System_First_Generation a owl:Class ;
+    rdfs:label "PLM System First Generation"@en ;
+    rdfs:subClassOf :PLM_System .
+
+:PLM_System_Second_Generation a owl:Class ;
+    rdfs:label "PLM System Second Generation"@en ;
+    rdfs:subClassOf :PLM_System .
+
+:W3C_L1_Web_Platform a owl:Class ;
+    rdfs:label "W3C L1 Data Semantics"@en ;
+    rdfs:comment "W3C L1 Data Semantics Web Platform"@en ;
+    rdfs:subClassOf :W3C_Standard .
+
+:Network_Layer_Model a owl:Class ;
+    rdfs:label "Network Layer Model"@en ;
+    rdfs:comment "Conceptual models that characterize and standardize communication functions in layers"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:Product_Lifecycle_Phase a owl:Class ;
+    rdfs:label "Product Lifecycle Phase"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:Simulation_System a owl:Class ;
+    rdfs:label "Simulation System"@en ;
+    rdfs:comment "Is a set of techniques that uses computers to imitate the operations of various real-world tasks or processes through simulation."@en ;
+    rdfs:subClassOf :IT_System .
+
+:EDIFACT_Specification a owl:Class ;
+    rdfs:label "EDIFACT Specification"@en ;
+    rdfs:comment "Is an Electronic Data Interchange format used in Business-to-business transactions. It allows EDIFACT message types to be used by XML systems."@en ;
+    rdfs:subClassOf :EDI_Specification .
+
+:OSI_Aggregated_Layer a owl:Class ;
+    rdfs:label "OSI Aggregated Layer"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:W3C_L5_Data_Semantics a owl:Class ;
+    rdfs:label "W3C L5 Data Semantics"@en ;
+    rdfs:subClassOf :W3C_Standard .
+
+:W3C_Standard a owl:Class ;
+    rdfs:label "W3C Standard"@en ;
+    rdfs:comment "Is the main international standards organization for the World Wide Web."@en ;
+    rdfs:subClassOf :Standard .
+
+:Actuator_Device a owl:Class ;
+    rdfs:label "Acutator Device"@en ;
+    rdfs:subClassOf :Device .
+
+:CPF3_Profibus_Profi_Net a owl:Class ;
+    rdfs:label "CPF3 Profibus Profi Net"@en ;
+    rdfs:subClassOf :Fieldbus_Communication_Profile_Family .
+
+:Device a owl:Class ;
+    rdfs:label "Device"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-PWR#Device> .
+
+:Service_Oriented_Architecture_Function_Pattern a owl:Class ;
+    rdfs:label "Service-Oriented Architecture Function Pattern"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:Data_Transmission_Unit a owl:Class ;
+    rdfs:label "Data Transmission Unit"@en ;
+    rdfs:comment "Units of technical data transfer. Shows the different data groupings at the  ISO/OSI communication layers, e.g. bits on the physical link layer and packets at the network layer."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:ISA_95_Communication a owl:Class ;
+    rdfs:label "ISA-95 Communication"@en ;
+    rdfs:comment "ISA-95 is an international standard from the International Society of Automation for developing an automated interface between enterprise and control systems."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:ISA_95_Layer a owl:Class ;
+    rdfs:label "ISA-95 Layer"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:PLM1_Module a owl:Class ;
+    rdfs:label "PLM1 Module"@en ;
+    rdfs:subClassOf :PLM_System_First_Generation .
+
+:Communication_Device a owl:Class ;
+    rdfs:label "Communication Device"@en ;
+    rdfs:comment "A communications device is any type of hardware capable of transmitting data, instructions, and information between a sending device and a receiving device."@en ;
+    rdfs:subClassOf :Device .
+
+:Markup_Language a owl:Class ;
+    rdfs:label "Markup Language"@en ;
+    rdfs:comment "Markup Language (ML) is a system for annotating a document in a way that is syntactically distinguishable from the text, meaning when the document is processed for display, the markup language is not shown, and is only used to format the text."@en ;
+    rdfs:subClassOf :W3C_L5_Data_Semantics .
+
+:OSI_Detailed_Layer a owl:Class ;
+    rdfs:label "OSI Detailed Layer"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:Service_Oriented_Architecture_Protocols a owl:Class ;
+    rdfs:label "Service-Oriented Architecture Protocols"@en ;
+    rdfs:comment "Is a style of software design where services are provided to the other components by application components, through a communication protocol over a network."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:OSI_3_4_Network_Technology a owl:Class ;
+    rdfs:label "OSI 3 4 Network Technology"@en ;
+    rdfs:comment "Technologie, die die mittleren Schichten des OSI-Schichtenmodells abdeckt, z.B. TCP/IP, ZigBee, UDP usw."@de,
+        "Technology that covers the middle layers of the OSI layer models, e.g. TCP/IP, ZigBee, UDP, etc."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:W3C_L2_Data_Syntax a owl:Class ;
+    rdfs:label "W3C L2 Data Semantics"@en ;
+    rdfs:comment "W3C L2 Data Semantics Data Syntax"@en ;
+    rdfs:subClassOf :W3C_Standard .
+
+:Standardization_Organization a owl:Class ;
+    rdfs:label "Standardization Organization"@en ;
+    rdfs:comment "Is an organization whose primary activities are developing, coordinating, promulgating, revising, amending, reissuing, interpreting, or otherwise producing technical standards that are intended to address the needs of a group of affected adopters."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:Standard a owl:Class ;
+    rdfs:label "Standard"@en ;
+    rdfs:comment "An official rule, unit of measurement, or way of operating that is used in a particular area of manufacturing or services"@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> ;
+    owl:equivalentClass <http://www.w3id.org/ecsel-dr-RAMI40#Standard> .
+
+:OSI_1_2_Net_Access_Technology a owl:Class ;
+    rdfs:label "OSI 1 2 Net Access Technology"@en ;
+    rdfs:comment "A net access technology provides the physical link layer and the data link layer  of the OSI layer model (i.e. OSI layer 1 and 2)."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:Fieldbus_Communication_Profile_Family a owl:Class ;
+    rdfs:label "Fieldbus Communication Profile Family"@en ;
+    rdfs:comment "Ein Feldbus definiert einen kompletten Protokoll-Stack über die 7 SChichten des OSI-Schichtenmodells. Ggf. werden nicht alle Schichten belegt.",
+        """Beispiel für Feldbus der ersten Generation ist Profibus, \r
+Beispiel für Feldbus der zweiten Generation ist ProfiNet."""@de,
+        """Ein Feldbus ist ein Bussystem, das in einer Anlage Feldgeräte wie Messfühler (Sensoren) und Stellglieder (Aktoren) zwecks Kommunikation mit einem Automatisierungsgerät verbindet. Wenn mehrere Kommunikationsteilnehmer ihre Nachrichten über dieselbe Leitung senden, dann muss festgelegt sein, wer (Kennung) was (Messwert, Befehl) wann (Initiative) sagt. Hierfür gibt es normierte Protokolle.\r
+Die erste Generation der Feldbustechnik wurde in den 1980er Jahren entwickelt, um die bis dahin übliche Parallelverdrahtung binärer Signale sowie die analoge Signalübertragung durch digitale Übertragungstechnik zu ersetzen. Heute sind viele unterschiedliche Feldbussysteme mit unterschiedlichen Eigenschaften am Markt etabliert. Seit 1999 werden Feldbusse in der Norm IEC 61158 (Digital data communication for measurement and control - Fieldbus for use in industrial control systems) sowie durch die Norm IEC 61784 weltweit standardisiert.    \r
+Die zweite Generation der Feldbustechnik basiert auf Echtzeit-Ethernet (Industrial Ethernet)."""@de,
+        """A field bus is a bus system that connects field devices such as sensors and actuators in a plant for the purpose of communication with an automation device. If several communication participants send their messages over the same line, then it must be specified who (identifier) says what (measured value, command) and when (initiative). There are standardized protocols for this.\r
+The first generation of fieldbus technology was developed in the 1980s to replace the parallel wiring of binary signals and analog signal transmission that had been common until then with digital transmission technology. Today, many different fieldbus systems with different characteristics are established on the market. Since 1999, fieldbuses have been standardized worldwide in the IEC 61158 standard (Digital data communication for measurement and control - Fieldbus for use in industrial control systems) and by the IEC 61784 standard.    \r
+The second generation of fieldbus technology is based on real-time Ethernet (Industrial Ethernet).\r
+\r
+A fieldbus defines a complete protocol stack over the 7 layers of the OSI layer model. If necessary, not all layers are occupied.\r
+\r
+Example for first generation fieldbus is Profibus, \r
+Example for second generation fieldbus is ProfiNet."""@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:OSI_5_7_Application_Protocol a owl:Class ;
+    rdfs:label "OSI 5 7 Application Protocol"@en ;
+    rdfs:comment "Is the OSI layer closest to the end user, which means both the OSI application layer and the user interact directly with the software application."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+
+:IT_System a owl:Class ;
+    rdfs:label "IT System"@en ;
+    rdfs:comment "An information system is a formal, sociotechnical, organizational system designed to collect, process, store, and distribute information."@en ;
+    rdfs:subClassOf <http://www.w3id.org/ecsel-dr#Wired_Communication_Lobe> .
+

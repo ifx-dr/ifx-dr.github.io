@@ -1,0 +1,1675 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#abbreviation
+<http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> <http://www.w3.org/2000/01/rdf-schema#comment> "Any abbreviation of a concept"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> <http://www.w3.org/2004/02/skos/core#prefLabel> "Abbreviation"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#identifier
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Any identifier (ID) of a concept"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier> <http://www.w3.org/2004/02/skos/core#prefLabel> "Identifier"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier> <http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> "ID"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#identifier_organizationalUnit
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_organizationalUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_organizationalUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "Any identifier (ID) of an organizational unit"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_organizationalUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Unit ID"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_organizationalUnit> <http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> "ID"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_organizationalUnit> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#identifier> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_organizationalUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_organizationalUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#OrganizationalUnit> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#identifier_product
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#identifier> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Product> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_internetSalesProductNumber
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_internetSalesProductNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_internetSalesProductNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The internet sales product number (ISPN) of a product"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_internetSalesProductNumber> <http://www.w3.org/2004/02/skos/core#prefLabel> "Internet Sales Product Number"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_internetSalesProductNumber> <http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> "ISPN"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_internetSalesProductNumber> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#identifier_product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_internetSalesProductNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_internetSalesProductNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#SemiconductorProduct> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_orderablePartNumber
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_orderablePartNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_orderablePartNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The orderable part number (OPN) of a product"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_orderablePartNumber> <http://www.w3.org/2004/02/skos/core#prefLabel> "Orderable Part Number"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_orderablePartNumber> <http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> "OPN"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_orderablePartNumber> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#identifier_product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_orderablePartNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_product_orderablePartNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#SemiconductorProduct> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#identifier_solution
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_solution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_solution> <http://www.w3.org/2000/01/rdf-schema#comment> "Any identifier (ID) of a solution"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_solution> <http://www.w3.org/2004/02/skos/core#prefLabel> "Solution ID"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_solution> <http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> "ID"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_solution> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#identifier> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_solution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#identifier_solution> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Solution> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator> <http://www.w3.org/2000/01/rdf-schema#comment> "A Uniform Resource Locator (URL) is an address that shows where a particular page can be found on the World Wide Web."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Uniform Resource Locator"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator> <http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> "URL"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productDatasheet
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productDatasheet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productDatasheet> <http://www.w3.org/2000/01/rdf-schema#comment> "The uniform resource locator (URL) of the datasheet of a product"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productDatasheet> <http://www.w3.org/2004/02/skos/core#prefLabel> "Product Datasheet URL"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productDatasheet> <http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> "URL"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productDatasheet> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator> .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productDatasheet> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productDatasheet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Product> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPage
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPage> <http://www.w3.org/2000/01/rdf-schema#comment> "The uniform resource locator (URL) of the page of a product"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPage> <http://www.w3.org/2004/02/skos/core#prefLabel> "Product Page URL"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPage> <http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> "URL"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator> .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Product> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPicture
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPicture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPicture> <http://www.w3.org/2000/01/rdf-schema#comment> "The uniform resource locator (URL) of the picture of a product"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPicture> <http://www.w3.org/2004/02/skos/core#prefLabel> "Product Picture URL"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPicture> <http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> "URL"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPicture> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator> .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPicture> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#uniformResourceLocator_productPicture> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Product> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_division
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_division> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_division> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_organizational_unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_division> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_level_3_division> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_division> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_3> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_division> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Division> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_division> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to division"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_organizational_unit
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_organizational_unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_organizational_unit> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_organizational_unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_organizational_unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organizational_Unit> .
+<http://www.w3.org/ns/org#Organizational_Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_organizational_unit> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to organizational unit"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_product_line
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_product_line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_product_line> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_organizational_unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_product_line> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area_product_line> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_product_line> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_product_line> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Product_Line> .
+<http://www.w3id.org/ecsel-dr-OOSMP#belongs_to_product_line> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to product line"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#can_be_applied_in
+<http://www.w3id.org/ecsel-dr-OOSMP#can_be_applied_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#can_be_applied_in> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#finds_application_through> .
+<http://www.w3id.org/ecsel-dr-OOSMP#can_be_applied_in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error323> .
+<http://org.semanticweb.owlapi/error#Error323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#can_be_applied_in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#can_be_applied_in> <http://www.w3.org/2000/01/rdf-schema#label> "can be applied in"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#contains_additional_power_management
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_additional_power_management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_additional_power_management> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#contains_product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_additional_power_management> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_additional_power_management> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_additional_power_management> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_additional_power_management> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Additional_Power_Management> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_additional_power_management> <http://www.w3.org/2000/01/rdf-schema#label> "contains additional power management"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#contains_discrete_power_stage
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_discrete_power_stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#contains_product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_discrete_power_stage> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_discrete_power_stage> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Discrete_Power_Stage> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#label> "contains discrete power stage"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#contains_gate_driver
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_gate_driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_gate_driver> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#contains_product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_gate_driver> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_gate_driver> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_gate_driver> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_gate_driver> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Gate_Driver> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_gate_driver> <http://www.w3.org/2000/01/rdf-schema#label> "contains gate driver"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#contains_intelligent_power_module
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_intelligent_power_module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#contains_product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_intelligent_power_module> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_intelligent_power_module> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Intelligent_Power_Module> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#label> "contains intelligent power module"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#contains_microcontroller
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_microcontroller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_microcontroller> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#contains_product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_microcontroller> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_microcontroller> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_microcontroller> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_microcontroller> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_microcontroller> <http://www.w3.org/2000/01/rdf-schema#label> "contains microcontroller"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#contains_product
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_product> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_product> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_product> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_product> <http://www.w3.org/2000/01/rdf-schema#label> "contains product"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#contains_smart_driver
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_smart_driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_smart_driver> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#contains_product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_smart_driver> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_smart_driver> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_smart_driver> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_smart_driver> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Smart_Driver> .
+<http://www.w3id.org/ecsel-dr-OOSMP#contains_smart_driver> <http://www.w3.org/2000/01/rdf-schema#label> "contains smart driver"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#could_contain_sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#could_contain_sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#could_contain_sensor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#contains_product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#could_contain_sensor> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_potential_sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#could_contain_sensor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#could_contain_sensor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#could_contain_sensor> <http://www.w3.org/2000/01/rdf-schema#label> "could contain sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#finds_application_through
+<http://www.w3id.org/ecsel-dr-OOSMP#finds_application_through> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#finds_application_through> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#finds_application_through> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error311> .
+<http://org.semanticweb.owlapi/error#Error311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#finds_application_through> <http://www.w3.org/2000/01/rdf-schema#label> "finds application through"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_OPN_status
+<http://www.w3id.org/ecsel-dr-OOSMP#has_OPN_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_OPN_status> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#has_semiconductor_product_status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_OPN_status> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_OPN_status_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_OPN_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_OPN_status> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_OPN_status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#OPN_Status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_OPN_status> <http://www.w3.org/2000/01/rdf-schema#label> "has OPN status"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_2
+<http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_2> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application_area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_2> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_1> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_1> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_2> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_2> <http://www.w3.org/2000/01/rdf-schema#label> "has application level 2"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_3
+<http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_3> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application_area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_3> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_2> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_3> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_2> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_3> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_3> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_application_level_3> <http://www.w3.org/2000/01/rdf-schema#label> "has application level 3"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_business_line
+<http://www.w3id.org/ecsel-dr-OOSMP#has_business_line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_business_line> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#has_sub_unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_business_line> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_division> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_business_line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_business_line> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Division> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_business_line> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Business_Line> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_business_line> <http://www.w3.org/2000/01/rdf-schema#label> "has business line"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_completely_lead_free_status
+<http://www.w3id.org/ecsel-dr-OOSMP#has_completely_lead_free_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_completely_lead_free_status> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#has_semiconductor_product_status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_completely_lead_free_status> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_completely_lead_free_status_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_completely_lead_free_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_completely_lead_free_status> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_completely_lead_free_status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Completely_Lead_Free_Status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_completely_lead_free_status> <http://www.w3.org/2000/01/rdf-schema#label> "has completely lead free status"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_design_target
+<http://www.w3id.org/ecsel-dr-OOSMP#has_design_target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_design_target> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_design_target_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_design_target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_design_target> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_design_target> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Design_Target> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_design_target> <http://www.w3.org/2000/01/rdf-schema#label> "has design target"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_halogen_free_status
+<http://www.w3id.org/ecsel-dr-OOSMP#has_halogen_free_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_halogen_free_status> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#has_semiconductor_product_status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_halogen_free_status> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_halogen_free_status_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_halogen_free_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_halogen_free_status> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_halogen_free_status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Halogen_Free_Status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_halogen_free_status> <http://www.w3.org/2000/01/rdf-schema#label> "has halogen free status"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_integration_level
+<http://www.w3id.org/ecsel-dr-OOSMP#has_integration_level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_integration_level> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_integration_level_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_integration_level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_integration_level> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_integration_level> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Integration_Level> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_integration_level> <http://www.w3.org/2000/01/rdf-schema#label> "has integration level"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_main_application
+<http://www.w3id.org/ecsel-dr-OOSMP#has_main_application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_main_application> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application_area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_main_application> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_industry> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_main_application> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Industry> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_main_application> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Main_Application> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_main_application> <http://www.w3.org/2000/01/rdf-schema#label> "has main application"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_main_power_device_type
+<http://www.w3id.org/ecsel-dr-OOSMP#has_main_power_device_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_main_power_device_type> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_main_power_device_type_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_main_power_device_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_main_power_device_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_main_power_device_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Main_Power_Device_Type> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_main_power_device_type> <http://www.w3.org/2000/01/rdf-schema#label> "has main power device type"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_motor_type
+<http://www.w3id.org/ecsel-dr-OOSMP#has_motor_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_motor_type> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_motor_type_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_motor_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_motor_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_motor_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Type> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_motor_type> <http://www.w3.org/2000/01/rdf-schema#label> "has motor type"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_mounting_style
+<http://www.w3id.org/ecsel-dr-OOSMP#has_mounting_style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_mounting_style> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_mounting_style_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_mounting_style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_mounting_style> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_mounting_style> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Mounting_Style> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_mounting_style> <http://www.w3.org/2000/01/rdf-schema#label> "has mounting style"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_packing_type
+<http://www.w3id.org/ecsel-dr-OOSMP#has_packing_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_packing_type> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_packing_type_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_packing_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_packing_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_packing_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Packing_Type> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_packing_type> <http://www.w3.org/2000/01/rdf-schema#label> "has packing type"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_price_indication
+<http://www.w3id.org/ecsel-dr-OOSMP#has_price_indication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_price_indication> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_price_indication_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_price_indication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_price_indication> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_price_indication> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Price_Indication> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_price_indication> <http://www.w3.org/2000/01/rdf-schema#comment> "BOM"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_price_indication> <http://www.w3.org/2000/01/rdf-schema#label> "has price indication"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_product_line
+<http://www.w3id.org/ecsel-dr-OOSMP#has_product_line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_product_line> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#has_sub_unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_product_line> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_business_line> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_product_line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_product_line> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Business_Line> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_product_line> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Product_Line> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_product_line> <http://www.w3.org/2000/01/rdf-schema#label> "has product line"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_product_qualification
+<http://www.w3id.org/ecsel-dr-OOSMP#has_product_qualification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_product_qualification> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#has_qualification> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_product_qualification> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_product_qualification_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_product_qualification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_product_qualification> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Qualification> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_product_qualification> <http://www.w3.org/2000/01/rdf-schema#label> "has product qualification"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_qualification
+<http://www.w3id.org/ecsel-dr-OOSMP#has_qualification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_qualification> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_qualification_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_qualification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error327> .
+<http://org.semanticweb.owlapi/error#Error327> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_qualification> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Qualification> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_qualification> <http://www.w3.org/2000/01/rdf-schema#label> "has qualification"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_ro_HS_compliant_status
+<http://www.w3id.org/ecsel-dr-OOSMP#has_ro_HS_compliant_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_ro_HS_compliant_status> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#has_semiconductor_product_status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_ro_HS_compliant_status> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_ro_HS_compliant_status_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_ro_HS_compliant_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_ro_HS_compliant_status> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_ro_HS_compliant_status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Ro_HS_Compliant_Status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_ro_HS_compliant_status> <http://www.w3.org/2000/01/rdf-schema#label> "has ro HS compliant status"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_semiconductor_product_status
+<http://www.w3id.org/ecsel-dr-OOSMP#has_semiconductor_product_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_semiconductor_product_status> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_semiconductor_product_status_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_semiconductor_product_status> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_semiconductor_product_status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product_Status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_semiconductor_product_status> <http://www.w3.org/2000/01/rdf-schema#label> "has semiconductor product status"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_sensing_type
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sensing_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sensing_type> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sensing_type_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sensing_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sensing_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sensing_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Sensing_Type> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sensing_type> <http://www.w3.org/2000/01/rdf-schema#label> "has sensing type"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_sensor_sub_application
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sensor_sub_application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sensor_sub_application> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application_area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sensor_sub_application> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_sensor_main_application> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sensor_sub_application> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Main_Application> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sensor_sub_application> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Sub_Application> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sensor_sub_application> <http://www.w3.org/2000/01/rdf-schema#label> "has sensor sub application"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_solution_qualification
+<http://www.w3id.org/ecsel-dr-OOSMP#has_solution_qualification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_solution_qualification> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#has_qualification> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_solution_qualification> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_solution_qualification_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_solution_qualification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_solution_qualification> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Qualification> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_solution_qualification> <http://www.w3.org/2000/01/rdf-schema#label> "has solution qualification"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application_area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_main_application> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Main_Application> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Sub_Application> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application> <http://www.w3.org/2000/01/rdf-schema#label> "has sub application"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application_area
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application_area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application_area> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application_area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application_area> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application_area> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_application_area> <http://www.w3.org/2000/01/rdf-schema#label> "has sub application area"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_sub_unit
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_unit> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organizational_Unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organizational_Unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_sub_unit> <http://www.w3.org/2000/01/rdf-schema#label> "has sub unit"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#has_topology
+<http://www.w3id.org/ecsel-dr-OOSMP#has_topology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_topology> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_topology_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_topology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_topology> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_topology> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Topology> .
+<http://www.w3id.org/ecsel-dr-OOSMP#has_topology> <http://www.w3.org/2000/01/rdf-schema#label> "has topology"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_OPN_status_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_OPN_status_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_OPN_status_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_semiconductor_product_status_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_OPN_status_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_OPN_status_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#OPN_Status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_OPN_status_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_OPN_status_of> <http://www.w3.org/2000/01/rdf-schema#label> "is OPN status of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_completely_lead_free_status_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_completely_lead_free_status_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_completely_lead_free_status_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_semiconductor_product_status_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_completely_lead_free_status_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_completely_lead_free_status_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Completely_Lead_Free_Status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_completely_lead_free_status_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_completely_lead_free_status_of> <http://www.w3.org/2000/01/rdf-schema#label> "is completely lead free status of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_design_target_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_design_target_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_design_target_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_design_target_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Design_Target> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_design_target_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_design_target_of> <http://www.w3.org/2000/01/rdf-schema#label> "is design target of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_halogen_free_status_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_halogen_free_status_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_halogen_free_status_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_semiconductor_product_status_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_halogen_free_status_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_halogen_free_status_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Halogen_Free_Status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_halogen_free_status_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_halogen_free_status_of> <http://www.w3.org/2000/01/rdf-schema#label> "is halogen free status of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_integration_level_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_integration_level_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_integration_level_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_integration_level_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Integration_Level> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_integration_level_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_integration_level_of> <http://www.w3.org/2000/01/rdf-schema#label> "is integration level of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_main_power_device_type_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_main_power_device_type_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_main_power_device_type_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_main_power_device_type_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Main_Power_Device_Type> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_main_power_device_type_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_main_power_device_type_of> <http://www.w3.org/2000/01/rdf-schema#label> "is main power device type of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_motor_type_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_motor_type_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_motor_type_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_motor_type_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Type> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_motor_type_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_motor_type_of> <http://www.w3.org/2000/01/rdf-schema#label> "is motor type of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_mounting_style_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_mounting_style_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_mounting_style_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_mounting_style_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Mounting_Style> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_mounting_style_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_mounting_style_of> <http://www.w3.org/2000/01/rdf-schema#label> "is mounting style of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_packing_type_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_packing_type_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_packing_type_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_packing_type_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Packing_Type> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_packing_type_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_packing_type_of> <http://www.w3.org/2000/01/rdf-schema#label> "is packing type of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_part_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of> <http://www.w3.org/2000/01/rdf-schema#comment> "is part of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_additional_power_management
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_additional_power_management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_additional_power_management> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_additional_power_management> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Additional_Power_Management> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_additional_power_management> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_additional_power_management> <http://www.w3.org/2000/01/rdf-schema#comment> "is part of as additional power management"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_discrete_power_stage
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_discrete_power_stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Discrete_Power_Stage> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#comment> "is part of as discrete power stage"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_gate_driver
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_gate_driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_gate_driver> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_gate_driver> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Gate_Driver> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_gate_driver> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_gate_driver> <http://www.w3.org/2000/01/rdf-schema#comment> "is part od as gate driver"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_intelligent_power_module
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_intelligent_power_module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Intelligent_Power_Module> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#comment> "is part of as intelligent power module"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_microcontroller
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_microcontroller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_microcontroller> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_microcontroller> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_microcontroller> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_microcontroller> <http://www.w3.org/2000/01/rdf-schema#comment> "is part of as microcontroller"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_potential_sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_potential_sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_potential_sensor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_potential_sensor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_potential_sensor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_potential_sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "is part of as potential sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_smart_driver
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_smart_driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_smart_driver> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_part_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_smart_driver> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Smart_Driver> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_smart_driver> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_part_of_as_smart_driver> <http://www.w3.org/2000/01/rdf-schema#comment> "is part of as smart driver"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_price_indication_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_price_indication_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_price_indication_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_price_indication_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Price_Indication> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_price_indication_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_price_indication_of> <http://www.w3.org/2000/01/rdf-schema#label> "is price indication of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_product_qualification_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_product_qualification_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_product_qualification_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_qualification_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_product_qualification_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Qualification> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_product_qualification_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_product_qualification_of> <http://www.w3.org/2000/01/rdf-schema#label> "is product qualification of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_qualification_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_qualification_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_qualification_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Qualification> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_qualification_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://org.semanticweb.owlapi/error#Error312> .
+<http://org.semanticweb.owlapi/error#Error312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_qualification_of> <http://www.w3.org/2000/01/rdf-schema#label> "is qualification of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_ro_HS_compliant_status_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_ro_HS_compliant_status_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_ro_HS_compliant_status_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_semiconductor_product_status_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_ro_HS_compliant_status_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_ro_HS_compliant_status_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Ro_HS_Compliant_Status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_ro_HS_compliant_status_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_ro_HS_compliant_status_of> <http://www.w3.org/2000/01/rdf-schema#label> "is ro HS compliant status of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_semiconductor_product_status_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_semiconductor_product_status_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_semiconductor_product_status_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product_Status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_semiconductor_product_status_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_semiconductor_product_status_of> <http://www.w3.org/2000/01/rdf-schema#label> "is semiconductor product status of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_sensing_type_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sensing_type_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sensing_type_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sensing_type_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Sensing_Type> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sensing_type_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sensing_type_of> <http://www.w3.org/2000/01/rdf-schema#label> "is sensing type of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_solution_qualification_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_solution_qualification_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_solution_qualification_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_qualification_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_solution_qualification_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Qualification> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_solution_qualification_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_solution_qualification_of> <http://www.w3.org/2000/01/rdf-schema#label> "is solution qualification of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of> <http://www.w3.org/2000/01/rdf-schema#label> "is sub application area of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_1
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_1> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_2> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_1> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_1> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_1> <http://www.w3.org/2000/01/rdf-schema#label> "is sub application area of application level 1"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_2
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_2> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_3> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_2> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_application_level_2> <http://www.w3.org/2000/01/rdf-schema#label> "is sub application area of application level 2"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_industry
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_industry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_industry> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_industry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Main_Application> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_industry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Industry> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_industry> <http://www.w3.org/2000/01/rdf-schema#label> "is sub application area of industry"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_main_application
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_main_application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_main_application> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_main_application> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Sub_Application> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_main_application> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Main_Application> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_main_application> <http://www.w3.org/2000/01/rdf-schema#label> "is sub application area of main application"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_sensor_main_application
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_sensor_main_application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_sensor_main_application> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_sensor_main_application> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Sub_Application> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_sensor_main_application> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Main_Application> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_application_area_of_sensor_main_application> <http://www.w3.org/2000/01/rdf-schema#label> "is sub application area of sensor main application"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organizational_Unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organizational_Unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of> <http://www.w3.org/2000/01/rdf-schema#label> "is sub unit of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_business_line
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_business_line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_business_line> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_business_line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_business_line> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Product_Line> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_business_line> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Business_Line> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_business_line> <http://www.w3.org/2000/01/rdf-schema#label> "is sub unit of business line"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_division
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_division> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_division> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_division> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_division> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Business_Line> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_division> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Division> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_sub_unit_of_division> <http://www.w3.org/2000/01/rdf-schema#label> "is sub unit of division"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#is_topology_of
+<http://www.w3id.org/ecsel-dr-OOSMP#is_topology_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_topology_of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of> .
+<http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_topology_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_topology_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Topology> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_topology_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#is_topology_of> <http://www.w3.org/2000/01/rdf-schema#label> "is topology of"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#owned_by_organizational_unit
+<http://www.w3id.org/ecsel-dr-OOSMP#owned_by_organizational_unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#owned_by_organizational_unit> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3id.org/ecsel-dr-OOSMP#owns_product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#owned_by_organizational_unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#owned_by_organizational_unit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#owned_by_organizational_unit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organizational_Unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#owned_by_organizational_unit> <http://www.w3.org/2000/01/rdf-schema#label> "owned by"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#owns_product
+<http://www.w3id.org/ecsel-dr-OOSMP#owns_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#owns_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#owns_product> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organizational_Unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#owns_product> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#owns_product> <http://www.w3.org/2000/01/rdf-schema#label> "owns product"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organizational_Unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area> <http://www.w3.org/2000/01/rdf-schema#label> "responsible for application area"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area_product_line
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area_product_line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area_product_line> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area_product_line> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Product_Line> .
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area_product_line> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area_product_line> <http://www.w3.org/2000/01/rdf-schema#label> "responsible for application area product line"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_level_3_division
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_level_3_division> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_level_3_division> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_level_3_division> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Division> .
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_level_3_division> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_3> .
+<http://www.w3id.org/ecsel-dr-OOSMP#responsible_for_application_level_3_division> <http://www.w3.org/2000/01/rdf-schema#label> "responsible for application level 3 division"@en .
+# 
+# http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_characteristic> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage> <http://www.w3.org/2000/01/rdf-schema#label> "has DC link voltage" .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_characteristic
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_characteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_characteristic> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_characteristic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_characteristic> <http://www.w3.org/2000/01/rdf-schema#label> "DC link voltage characteristic"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_max
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_max> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_max> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_characteristic> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_max> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_max> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_max> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_max> <http://www.w3.org/2000/01/rdf-schema#label> "has DC link voltage max" .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_min
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_min> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_characteristic> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_min> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_min> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#DC_link_voltage_min> <http://www.w3.org/2000/01/rdf-schema#label> "has DC link voltage min" .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#application_characteristic
+<http://www.w3id.org/ecsel-dr-OOSMP#application_characteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#application_characteristic> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#application_characteristic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#application_characteristic> <http://www.w3.org/2000/01/rdf-schema#label> "application characteristic"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#benefit
+<http://www.w3id.org/ecsel-dr-OOSMP#benefit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#benefit> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#application_characteristic> .
+<http://www.w3id.org/ecsel-dr-OOSMP#benefit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#benefit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#benefit> <http://www.w3.org/2000/01/rdf-schema#label> "benefit"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#budgetary_price
+<http://www.w3id.org/ecsel-dr-OOSMP#budgetary_price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#budgetary_price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#budgetary_price> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#budgetary_price> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#budgetary_price> <http://www.w3.org/2000/01/rdf-schema#label> "budgetary price"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#channel_structure
+<http://www.w3id.org/ecsel-dr-OOSMP#channel_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#channel_structure> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#hierarchy_information> .
+<http://www.w3id.org/ecsel-dr-OOSMP#channel_structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#channel_structure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#channel_structure> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#channel_structure> <http://www.w3.org/2000/01/rdf-schema#label> "channel structure"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#chip_count
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count> <http://www.w3.org/2000/01/rdf-schema#label> "chip count"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#chip_count_discrete_power_stage
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_discrete_power_stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#chip_count> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_discrete_power_stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#label> "chip count discrete power stage"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#chip_count_gate_driver
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_gate_driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_gate_driver> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#chip_count> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_gate_driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_gate_driver> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_gate_driver> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_gate_driver> <http://www.w3.org/2000/01/rdf-schema#label> "chip count gate driver"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#chip_count_intelligent_power_module
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_intelligent_power_module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#chip_count> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_intelligent_power_module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#label> "chip count intelligent power module"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#chip_count_microcontroller
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_microcontroller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_microcontroller> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#chip_count> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_microcontroller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_microcontroller> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_microcontroller> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_microcontroller> <http://www.w3.org/2000/01/rdf-schema#label> "chip count microcontroller"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#chip_count_smart_driver
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_smart_driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_smart_driver> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#chip_count> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_smart_driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_smart_driver> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_smart_driver> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3id.org/ecsel-dr-OOSMP#chip_count_smart_driver> <http://www.w3.org/2000/01/rdf-schema#label> "chip count smart driver"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#electric_power
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power> <http://www.w3.org/2000/01/rdf-schema#label> "electric power" .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#electric_power_max
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power_max> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power_max> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#electric_power> .
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power_max> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power_max> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power_max> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power_max> <http://www.w3.org/2000/01/rdf-schema#label> "electric power max" .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#electric_power_min
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power_min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power_min> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#electric_power> .
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power_min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power_min> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power_min> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#electric_power_min> <http://www.w3.org/2000/01/rdf-schema#label> "electric power min" .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#feature
+<http://www.w3id.org/ecsel-dr-OOSMP#feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#feature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#application_characteristic> .
+<http://www.w3id.org/ecsel-dr-OOSMP#feature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#feature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#feature> <http://www.w3.org/2000/01/rdf-schema#label> "feature"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#footprint_area
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area> <http://www.w3.org/2000/01/rdf-schema#domain> <http://org.semanticweb.owlapi/error#Error320> .
+<http://org.semanticweb.owlapi/error#Error320> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area> <http://www.w3.org/2000/01/rdf-schema#label> "footprint area"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_discrete_power_stage
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_discrete_power_stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product_family> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_discrete_power_stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_discrete_power_stage> <http://www.w3.org/2000/01/rdf-schema#label> "footprint area discrete power stage"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_gate_driver
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_gate_driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_gate_driver> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product_family> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_gate_driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_gate_driver> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_gate_driver> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_gate_driver> <http://www.w3.org/2000/01/rdf-schema#label> "footprint area gate driver"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_intelligent_power_module
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_intelligent_power_module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product_family> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_intelligent_power_module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_intelligent_power_module> <http://www.w3.org/2000/01/rdf-schema#label> "footprint area intelligent power module"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_microcontroller
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_microcontroller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_microcontroller> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product_family> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_microcontroller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_microcontroller> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_microcontroller> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_microcontroller> <http://www.w3.org/2000/01/rdf-schema#label> "footprint area microcontroller"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#footprint_area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product> <http://www.w3.org/2000/01/rdf-schema#label> "footprint area product"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product_family
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product_family> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product_family> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#footprint_area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product_family> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product_family> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product_family> <http://www.w3.org/2000/01/rdf-schema#label> "footprint area product family"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_smart_driver
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_smart_driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_smart_driver> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_product_family> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_smart_driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_smart_driver> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_smart_driver> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#footprint_area_smart_driver> <http://www.w3.org/2000/01/rdf-schema#label> "footprint area smart driver"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#hierarchy_information
+<http://www.w3id.org/ecsel-dr-OOSMP#hierarchy_information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#hierarchy_information> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#hierarchy_information> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#hierarchy_information> <http://www.w3.org/2000/01/rdf-schema#label> "hierarchy information"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#package_name
+<http://www.w3id.org/ecsel-dr-OOSMP#package_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#package_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#hierarchy_information> .
+<http://www.w3id.org/ecsel-dr-OOSMP#package_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#package_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#package_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#package_name> <http://www.w3.org/2000/01/rdf-schema#label> "package name"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#packing_size
+<http://www.w3id.org/ecsel-dr-OOSMP#packing_size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#packing_size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#packing_size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#packing_size> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://www.w3id.org/ecsel-dr-OOSMP#packing_size> <http://www.w3.org/2000/01/rdf-schema#label> "packing size"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#product_family_name
+<http://www.w3id.org/ecsel-dr-OOSMP#product_family_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#product_family_name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#hierarchy_information> .
+<http://www.w3id.org/ecsel-dr-OOSMP#product_family_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#product_family_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#product_family_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#product_family_name> <http://www.w3.org/2000/01/rdf-schema#label> "product family name"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage> <http://www.w3.org/2000/01/rdf-schema#label> "supply voltage"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_max
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_max> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_max> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage> .
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_max> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_max> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_max> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_max> <http://www.w3.org/2000/01/rdf-schema#label> "supply voltage max"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_min
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_min> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage> .
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_min> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_min> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#supply_voltage_min> <http://www.w3.org/2000/01/rdf-schema#label> "supply voltage min"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#target_application
+<http://www.w3id.org/ecsel-dr-OOSMP#target_application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#target_application> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#application_characteristic> .
+<http://www.w3id.org/ecsel-dr-OOSMP#target_application> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#target_application> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.w3id.org/ecsel-dr-OOSMP#target_application> <http://www.w3.org/2000/01/rdf-schema#label> "target application"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#temperatue_max
+<http://www.w3id.org/ecsel-dr-OOSMP#temperatue_max> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#temperatue_max> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#temperature> .
+<http://www.w3id.org/ecsel-dr-OOSMP#temperatue_max> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#temperatue_max> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#temperatue_max> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#temperatue_max> <http://www.w3.org/2000/01/rdf-schema#label> "temperatue max"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#temperature
+<http://www.w3id.org/ecsel-dr-OOSMP#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#temperature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#temperature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#temperature> <http://www.w3.org/2000/01/rdf-schema#label> "temperature"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#temperature_min
+<http://www.w3id.org/ecsel-dr-OOSMP#temperature_min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#temperature_min> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3id.org/ecsel-dr-OOSMP#temperature> .
+<http://www.w3id.org/ecsel-dr-OOSMP#temperature_min> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3id.org/ecsel-dr-OOSMP#temperature_min> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#temperature_min> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+<http://www.w3id.org/ecsel-dr-OOSMP#temperature_min> <http://www.w3.org/2000/01/rdf-schema#label> "temperatue min"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://org.semanticweb.owlapi/error#Error311
+# 
+# http://org.semanticweb.owlapi/error#Error312
+# 
+# http://org.semanticweb.owlapi/error#Error313
+<http://org.semanticweb.owlapi/error#Error313> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error313> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#Main_Power_Device_Type> .
+# 
+# http://org.semanticweb.owlapi/error#Error314
+<http://org.semanticweb.owlapi/error#Error314> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error314> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#Halogen_Free_Status> .
+# 
+# http://org.semanticweb.owlapi/error#Error315
+<http://org.semanticweb.owlapi/error#Error315> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error315> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#Sensing_Type> .
+# 
+# http://org.semanticweb.owlapi/error#Error316
+<http://org.semanticweb.owlapi/error#Error316> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error316> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#Ro_HS_Compliant_Status> .
+# 
+# http://org.semanticweb.owlapi/error#Error317
+<http://org.semanticweb.owlapi/error#Error317> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error317> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#Qualification> .
+# 
+# http://org.semanticweb.owlapi/error#Error318
+<http://org.semanticweb.owlapi/error#Error318> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error318> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#OPN_Status> .
+# 
+# http://org.semanticweb.owlapi/error#Error319
+<http://org.semanticweb.owlapi/error#Error319> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error319> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#Integration_Level> .
+# 
+# http://org.semanticweb.owlapi/error#Error320
+# 
+# http://org.semanticweb.owlapi/error#Error321
+<http://org.semanticweb.owlapi/error#Error321> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error321> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#Topology> .
+# 
+# http://org.semanticweb.owlapi/error#Error322
+<http://org.semanticweb.owlapi/error#Error322> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error322> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#Mounting_Style> .
+# 
+# http://org.semanticweb.owlapi/error#Error323
+# 
+# http://org.semanticweb.owlapi/error#Error324
+<http://org.semanticweb.owlapi/error#Error324> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error324> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#Completely_Lead_Free_Status> .
+# 
+# http://org.semanticweb.owlapi/error#Error325
+<http://org.semanticweb.owlapi/error#Error325> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error325> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#Price_Indication> .
+# 
+# http://org.semanticweb.owlapi/error#Error326
+<http://org.semanticweb.owlapi/error#Error326> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error326> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Type> .
+# 
+# http://org.semanticweb.owlapi/error#Error327
+# 
+# http://org.semanticweb.owlapi/error#Error328
+<http://org.semanticweb.owlapi/error#Error328> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://org.semanticweb.owlapi/error#Error328> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-OOSMP#Design_Target> .
+# 
+# http://www.w3.org/ns/org#Organizational_Unit
+# 
+# http://www.w3id.org/ecsel-dr#Application
+<http://www.w3id.org/ecsel-dr#Application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr#Product_Lobe
+<http://www.w3id.org/ecsel-dr#Product_Lobe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr#Sensor_Lobe
+<http://www.w3id.org/ecsel-dr#Sensor_Lobe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr-BMS#Current_Sensor
+<http://www.w3id.org/ecsel-dr-BMS#Current_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Additional_Power_Management
+<http://www.w3id.org/ecsel-dr-OOSMP#Additional_Power_Management> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Additional_Power_Management> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Additional_Power_Management> <http://www.w3.org/2000/01/rdf-schema#comment> "A semiconductor product which is used within the context of additional power management"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Additional_Power_Management> <http://www.w3.org/2000/01/rdf-schema#label> "Additional Power Management"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Additional_Power_Management> <http://www.w3.org/2004/02/skos/core#prefLabel> "Additional Power Management"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Angle_Sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#Angle_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Angle_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Position_Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Angle_Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Infineon offers a family of angle sensors based on integrated Magneto Resistive (ixMR) technologies. Technologies include today iGMR and AMR. The sensors detect the orientation of an applied magnetic field by measuring sine and cosine angle components with monolithically integrated magneto resistive elements. ixMR technology is now widely used in automotive and industrial applications and provides a wide range of benefits. Our iAMR sensors are ideal for applications with the highest accuracy requirements. Our iAMR technology offers best performance over temperature, lifetime and magnetic field range. They are pre-calibrated and ready to use."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Angle_Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "Angle Sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Angle_Sensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Angle Sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Application_Area
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-PWR#Application_Area> .
+<http://www.w3id.org/ecsel-dr-PWR#Application_Area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Application> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> <http://www.w3.org/2000/01/rdf-schema#comment> "A way in which something can be used for a particular purpose."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> <http://www.w3.org/2000/01/rdf-schema#label> "Application Area"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> <http://www.w3.org/2004/02/skos/core#prefLabel> "Application Area"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_1
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_1> <http://www.w3.org/2000/01/rdf-schema#comment> "The top application level which can have several sub application levels (application level 2)"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_1> <http://www.w3.org/2000/01/rdf-schema#label> "Application Level 1"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_1> <http://www.w3.org/2004/02/skos/core#prefLabel> "Application Level 1"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_2
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_2> <http://www.w3.org/2000/01/rdf-schema#comment> "The medium application level which can have several sub application levels (application level 3) and can be assigned to super application levels (application level 1)"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_2> <http://www.w3.org/2000/01/rdf-schema#label> "Application Level 2"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_2> <http://www.w3.org/2004/02/skos/core#prefLabel> "Application Level 2"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_3
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_3> <http://www.w3.org/2000/01/rdf-schema#comment> "The lowest application level which can be assigned to super application levels (application level 2)"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_3> <http://www.w3.org/2000/01/rdf-schema#label> "Application Level 3"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Application_Level_3> <http://www.w3.org/2004/02/skos/core#prefLabel> "Application Level 3"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Business_Line
+<http://www.w3id.org/ecsel-dr-OOSMP#Business_Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Business_Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/org#Organizational_Unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Business_Line> <http://www.w3.org/2000/01/rdf-schema#comment> "A business line is an organizational unit that can be assigned to a division and can have one or more product lines."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Business_Line> <http://www.w3.org/2004/02/skos/core#prefLabel> "Business Line"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Business_Line> <http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> "BL"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Completely_Lead_Free_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Completely_Lead_Free_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Completely_Lead_Free_Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product_Status> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Design_Target
+<http://www.w3id.org/ecsel-dr-OOSMP#Design_Target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Design_Target> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Product_Lobe> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Design_Target> <http://www.w3.org/2000/01/rdf-schema#comment> "Semiconductor solutions are design for different purposes, with different design goals respectively. Design targets comprise \"flexible to design\", \"easy to design\" and \"allrounder\"."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Design_Target> <http://www.w3.org/2000/01/rdf-schema#label> "Design Target"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Design_Target> <http://www.w3.org/2004/02/skos/core#prefLabel> "Design Target"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Digital_Barometric_Pressure_Sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#Digital_Barometric_Pressure_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Digital_Barometric_Pressure_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Pressure_Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Digital_Barometric_Pressure_Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Infineon’s  DPS310 is a miniaturized digital barometric pressure sensor which offers high accuracy and low current consumption, and is capable of measuring both pressure and temperature. A sealed capacitive sensing element is used for pressure measurement, guaranteeing high precision and accuracy across temperature changes. The small package and low energy consumption make  DPS310 ideal for mobile applications and wearable devices."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Digital_Barometric_Pressure_Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Barometric Pressure Sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Digital_Barometric_Pressure_Sensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Digital Barometric Pressure Sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Discrete_Power_Stage
+<http://www.w3id.org/ecsel-dr-OOSMP#Discrete_Power_Stage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Discrete_Power_Stage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Discrete_Power_Stage> <http://www.w3.org/2000/01/rdf-schema#comment> "A semiconductor product which is used within a discrete power stage"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Discrete_Power_Stage> <http://www.w3.org/2000/01/rdf-schema#label> "Discrete Power Stage"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Discrete_Power_Stage> <http://www.w3.org/2004/02/skos/core#prefLabel> "Discrete Power Stage"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Division
+<http://www.w3id.org/ecsel-dr-OOSMP#Division> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Division> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-ORG#Division> .
+<http://www.w3id.org/ecsel-dr-ORG#Division> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Division> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/org#Organizational_Unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Division> <http://www.w3.org/2000/01/rdf-schema#comment> "A division is a administrative business unit that is smaller than the whole company, but it is self-contained and most often responsible for its own revenue, cost, and profit. It has one or more business lines."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Division> <http://www.w3.org/2000/01/rdf-schema#label> "Division"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Division> <http://www.w3.org/2004/02/skos/core#altLabel> "Lead Division"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Division> <http://www.w3.org/2004/02/skos/core#prefLabel> "Division"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Division> <http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> "DIV"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Gate_Driver
+<http://www.w3id.org/ecsel-dr-OOSMP#Gate_Driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Gate_Driver> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-PWR#Gate_Driver> .
+<http://www.w3id.org/ecsel-dr-PWR#Gate_Driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Gate_Driver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Gate_Driver> <http://www.w3.org/2000/01/rdf-schema#comment> "A semiconductor product which is used as a gate driver"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Gate_Driver> <http://www.w3.org/2000/01/rdf-schema#label> "Gate Driver"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Gate_Driver> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gate Driver"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Hall_Switch
+<http://www.w3id.org/ecsel-dr-OOSMP#Hall_Switch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Hall_Switch> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Position_Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Hall_Switch> <http://www.w3.org/2000/01/rdf-schema#comment> "The sensor provides an easy-to-use and cost effective solution for position sensing applications, requiring high temperature stability of the magnetic threshold. Today the market demands smaller and more energy efficient Hall switches. To satisfy the needs of more compact designs and environmental legislation  with a high quality product is very difficult. Infineon offers attractive pricing, reliable supply, benchmark quality and excellent design-in support to contribute to the customers success."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Hall_Switch> <http://www.w3.org/2000/01/rdf-schema#label> "Hall Switch"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Hall_Switch> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hall Switch"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Halogen_Free_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Halogen_Free_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Halogen_Free_Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product_Status> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Industry
+<http://www.w3id.org/ecsel-dr-OOSMP#Industry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Industry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Industry> <http://www.w3.org/2000/01/rdf-schema#comment> "An application area on top level (corresponing to application level 1) which can have several sub application levels (main application)"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Industry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Industry> <http://www.w3.org/2000/01/rdf-schema#label> "Industry"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Industry> <http://www.w3.org/2004/02/skos/core#prefLabel> "Industry"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Integrated_Pressure_Sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#Integrated_Pressure_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Integrated_Pressure_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Pressure_Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Integrated_Pressure_Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Infineon offers a different range of barometric air pressure sensor for automotive and industrial applications. The barometric air pressure (BAP) is an important parameter to compute the air-fuel ratio provided to the engine and for controlling spark advance to optimize engine efficiency. In automotive applications where high production volumes are common there is substantial interest in precision, low-cost and fully integrated sensors."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Integrated_Pressure_Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "Integrated Pressure Sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Integrated_Pressure_Sensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Integrated Pressure Sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Integration_Level
+<http://www.w3id.org/ecsel-dr-OOSMP#Integration_Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Integration_Level> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Product_Lobe> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Integration_Level> <http://www.w3.org/2000/01/rdf-schema#comment> "Each motor control and drive solution has an integration level which states if the different stage are built in an integrated or discrete way. The stages of a motor control and drive solution are \"Controller\", \"Driver\", \"Power Stage\". Following this, the different integration levels are \"discrete\" (not integrated), \"fully integrated\", \"integrated controller driver\", \"integrated driver power stage\", \"integrated power stage\"."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Integration_Level> <http://www.w3.org/2000/01/rdf-schema#label> "Integration Level"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Integration_Level> <http://www.w3.org/2004/02/skos/core#prefLabel> "Integration Level"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Intelligent_Power_Module
+<http://www.w3id.org/ecsel-dr-OOSMP#Intelligent_Power_Module> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Intelligent_Power_Module> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Intelligent_Power_Module> <http://www.w3.org/2000/01/rdf-schema#comment> "A semiconductor product which is used as intelligent power module"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Intelligent_Power_Module> <http://www.w3.org/2000/01/rdf-schema#label> "Intelligent Power Module"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Intelligent_Power_Module> <http://www.w3.org/2004/02/skos/core#prefLabel> "Intelligent Power Module"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Linear_Hall_Sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#Linear_Hall_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Linear_Hall_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Position_Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Linear_Hall_Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Measure the vertical component of a magnetic field and outputs a signal that is directly proportional to the magnetic field. These programmable linear Hall sensors come with different interface options. Our family of TLE499x linear Hall ICs is tailored to the needs of highly accurate angular and linear position detection and current measurement applications.\r\nEach product measures the vertical component of a magnetic field and outputs a signal that is directly proportional to the magnetic field. These programmable linear Hall sensors come with different interface options."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Linear_Hall_Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "Linear Hall Sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Linear_Hall_Sensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Linear Hall Sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Current_Sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Current_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Current_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-BMS#Current_Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Current_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Current_Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "A high-precision current sensor for industrial applications based on Infoneon proven Hall technology. The core-less concept significantly reduces footprint compared with existing solutions. Infineon´s TLI4970 is an easy-to-use, fully digital solution that does not require external calibration or additional parts such as A/D converters, 0 pAmps or reference voltage. It thus significantly reduces overall implementation effort as well as PCB space and cost."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Current_Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "A magnetic current sensor is a sensor which measures magnetic current."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Current_Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "Magnetic Current Sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Current_Sensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Magnetic Current Sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Position_Sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Position_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Position_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Position_Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "A magnetic position sensor is a sensor which measures magnetic positions."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Position_Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "Magnetic Position Sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Position_Sensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Magnetic Position Sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Speed_Sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Speed_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Speed_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Speed_Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "The  magnetic speed sensors are designed to measure speed in safety and powertrain applications such as speedometers, ABS, camshafts/crankshafts and automatic transmissions. They are also used in similar applications in the industrial sector. The sensors use a ferromagnetic gear tooth or encoder structure to measure linear or rotational speed and position."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Speed_Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "Magnetic Speed Sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Speed_Sensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Magnetic Speed Sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Main_Application
+<http://www.w3id.org/ecsel-dr-OOSMP#Main_Application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Main_Application> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Main_Application> <http://www.w3.org/2000/01/rdf-schema#comment> "An application area on medium level (corresponing to application level 2) which can have several sub application levels (sub application) and can be assigned to super application levels (industry)"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Main_Application> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Main_Application> <http://www.w3.org/2000/01/rdf-schema#label> "Main Application"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Main_Application> <http://www.w3.org/2004/02/skos/core#prefLabel> "Main Application"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Main_Power_Device_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#Main_Power_Device_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Main_Power_Device_Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Product_Lobe> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Main_Power_Device_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "Each motor control and drive solution has a main power device type. Main power device type can be an \"IGBT\", \"MOSFET\" or \"Relay\"."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Main_Power_Device_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Main Power Device Type"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Main_Power_Device_Type> <http://www.w3.org/2004/02/skos/core#prefLabel> "Main Power Device Type"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller
+<http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-PWR#Microcontroller> .
+<http://www.w3id.org/ecsel-dr-PWR#Microcontroller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller> <http://www.w3.org/2000/01/rdf-schema#comment> "A semiconductor product which is used as microcontroller"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller> <http://www.w3.org/2000/01/rdf-schema#label> "Microcontroller"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Microcontroller> <http://www.w3.org/2004/02/skos/core#prefLabel> "Microcontroller"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Microphone
+<http://www.w3id.org/ecsel-dr-OOSMP#Microphone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Microphone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Microphone> <http://www.w3.org/2000/01/rdf-schema#comment> "The highly performing MEMS Microphones will enable the next performance level of voice user interfaces, audio recording and active noise cancellation. Infineon’s Dual Backplate (DBP) MEMS technology provides crystal clear (SNR), distortion free (THD) audio signals."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Microphone> <http://www.w3.org/2000/01/rdf-schema#label> "Microphone"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Microphone> <http://www.w3.org/2004/02/skos/core#prefLabel> "Microphone"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> <http://www.w3.org/2000/01/rdf-schema#comment> "A motor control and drive solution is a semiconductor solution which function is to drive and control a motor."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> <http://www.w3.org/2000/01/rdf-schema#label> "Motor Control And Drive Solution"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motor Control And Drive Solution"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_DC_Link_Voltage_155
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_DC_Link_Voltage_155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_DC_Link_Voltage_155> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_DC_Link_Voltage_155> <http://www.w3.org/2000/01/rdf-schema#comment> "Motor control and drive solution with DC link voltage equal to 155.0."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_DC_Link_Voltage_155> <http://www.w3.org/2000/01/rdf-schema#label> "Motor Control And Drive Solution With DC Link Voltage 155.0"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_DC_Link_Voltage_155> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motor Control And Drive Solution With DC Link Voltage 155.0"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Electric_Power_Max_200
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Electric_Power_Max_200> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Electric_Power_Max_200> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Electric_Power_Max_200> <http://www.w3.org/2000/01/rdf-schema#comment> "Motor control and drive solution with maximum electric power equal to 200.0."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Electric_Power_Max_200> <http://www.w3.org/2000/01/rdf-schema#label> "Motor Control And Drive Solution With Electric Power Max 200.0"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Electric_Power_Max_200> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motor Control And Drive Solution With Electric Power Max 200.0"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Industrial_Qualification
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Industrial_Qualification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Industrial_Qualification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Industrial_Qualification> <http://www.w3.org/2000/01/rdf-schema#comment> "Motor control and drive solution with a industrial qualification."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Industrial_Qualification> <http://www.w3.org/2000/01/rdf-schema#label> "Motor Control And Drive Solution With Industrial Qualification"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Industrial_Qualification> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motor Control And Drive Solution With Industrial Qualification"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_With_Sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_With_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_With_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_With_Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Motor control and drive solution with sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_With_Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "Motor Control And Drive Solution With Sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Without_Sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Without_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Without_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Without_Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Motor control and drive solution without a sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Without_Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "Motor Control And Drive Solution Without Sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Control_And_Drive_Solution_Without_Sensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motor Control And Drive Solution Without Sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Motor_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Product_Lobe> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "Each motor control and drive solution has a motor type. The different motor types that exist are \"brushed DC\", \"induction\", \"permanent magnet stepper\", \"PMSM BLDC\" and \"switched reluctance\"."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Motor Type"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Motor_Type> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motor Type"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Mounting_Style
+<http://www.w3id.org/ecsel-dr-OOSMP#Mounting_Style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Mounting_Style> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Sensor_Lobe> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Mounting_Style> <http://www.w3.org/2000/01/rdf-schema#comment> "Each sensor has a specific mounting style. A mounting style can either be a \"SMDSMT\" or \"Through Hole\"."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Mounting_Style> <http://www.w3.org/2000/01/rdf-schema#label> "Mounting Style"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Mounting_Style> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mounting Style"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#OPN_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#OPN_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#OPN_Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product_Status> .
+<http://www.w3id.org/ecsel-dr-OOSMP#OPN_Status> <http://www.w3.org/2000/01/rdf-schema#comment> "This status determines the OPN status of a product. The OPN status of a product can either be \"active\", \"active and preferred\", \"discontinued\" and \"not for new design\"."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#OPN_Status> <http://www.w3.org/2000/01/rdf-schema#label> "OPN Status"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#OPN_Status> <http://www.w3.org/2004/02/skos/core#prefLabel> "OPN Status"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Packing_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#Packing_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Packing_Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Product_Lobe> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Packing_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "A packing type describes how products/solutions are packed for shipping. There are different packing types, like \"Ammo Pack\", \"Tape and Reel\", \"Tray\" and \"Tube\"."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Packing_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Packing Type"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Packing_Type> <http://www.w3.org/2004/02/skos/core#prefLabel> "Packing Type"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Physical_Product
+<http://www.w3id.org/ecsel-dr-OOSMP#Physical_Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Physical_Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Physical_Product> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical product is something that is produced with effort (e.g. by mechanical or industrial processes) and sold to a customer. A physical product is tangible."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Physical_Product> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Product"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Physical_Product> <http://www.w3.org/2004/02/skos/core#prefLabel> "Physical Product"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Pressure_Sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#Pressure_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Pressure_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Pressure_Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "A pressure sensor is a sensor which measures pressure."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Pressure_Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "Pressure Sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Pressure_Sensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pressure Sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Price_Indication
+<http://www.w3id.org/ecsel-dr-OOSMP#Price_Indication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Price_Indication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Product_Lobe> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Price_Indication> <http://www.w3.org/2000/01/rdf-schema#comment> "A price indication helps the customer to evaluate the price of an item. A price indication can be \"high\", \"low\", or \"medium\"."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Price_Indication> <http://www.w3.org/2000/01/rdf-schema#label> "Price Indication"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Price_Indication> <http://www.w3.org/2004/02/skos/core#prefLabel> "Price Indication"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Product
+<http://www.w3id.org/ecsel-dr-OOSMP#Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-PROD#Product> .
+<http://www.w3id.org/ecsel-dr-PROD#Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-PWR#Product> .
+<http://www.w3id.org/ecsel-dr-PWR#Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-SO#Product> .
+<http://www.w3id.org/ecsel-dr-SO#Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Product_Lobe> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product> <http://www.w3.org/2000/01/rdf-schema#comment> "A product is something that is produced with effort (e.g. by mechanical or industrial processes) and sold to a customer. A product is either tangible (physical product) or intangible (service)."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product> <http://www.w3.org/2000/01/rdf-schema#comment> "A solution is a combination of products which is sold to a customer. Thereby, a solution solves a problem or fulfills a customer need."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product> <http://www.w3.org/2000/01/rdf-schema#label> "Product"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product> <http://www.w3.org/2004/02/skos/core#prefLabel> "Product"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Product_Line
+<http://www.w3id.org/ecsel-dr-OOSMP#Product_Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product_Line> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-SO#Product_Line> .
+<http://www.w3id.org/ecsel-dr-SO#Product_Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product_Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/org#Organizational_Unit> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product_Line> <http://www.w3.org/2000/01/rdf-schema#comment> "A product line is an organizational unit that can be assigned to a business line and directly owns/is responsible for products."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product_Line> <http://www.w3.org/2000/01/rdf-schema#label> "Product Line"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product_Line> <http://www.w3.org/2004/02/skos/core#altLabel> "Product Line"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Product_Line> <http://www.w3id.org/ecsel-dr-OOSMP#abbreviation> "PL"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Qualification
+<http://www.w3id.org/ecsel-dr-OOSMP#Qualification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Qualification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Product_Lobe> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Qualification> <http://www.w3.org/2000/01/rdf-schema#comment> "If a product/solution has a certain qualification, the product/solution fulfills the standards of this certain industry."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Qualification> <http://www.w3.org/2000/01/rdf-schema#label> "Qualification"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Qualification> <http://www.w3.org/2004/02/skos/core#prefLabel> "Qualification"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Radar
+<http://www.w3id.org/ecsel-dr-OOSMP#Radar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Radar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Radar> <http://www.w3.org/2000/01/rdf-schema#comment> "Infineon’s range of radar offerings provide unique benefits not possible with traditional motion sensing technology. Whether you require increased range coverage for outdoor lighting or a small form factor solution to enable soft landing in your multicopter our radar provides you with the ability to make your motion sensing applications perform in a way previously not possible. The BGT24M/L family is the largest and highest integrated 24GHz ISM band radar transceiver family currently in the market, providing a range of different transmitter and receiver channel configurations, supporting different application requirements. the sensor allows a Long range distance detection of moving objects up to 30 m and a wide range speed detection up to more than ±100 km/h."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Radar> <http://www.w3.org/2000/01/rdf-schema#label> "Radar"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Radar> <http://www.w3.org/2004/02/skos/core#prefLabel> "Radar"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Ro_HS_Compliant_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Ro_HS_Compliant_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Ro_HS_Compliant_Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product_Status> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Physical_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> <http://www.w3.org/2000/01/rdf-schema#comment> "A semiconductor product is a physical product that is produced and sold within the semiconductor industry."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> <http://www.w3.org/2000/01/rdf-schema#label> "Semiconductor Product"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> <http://www.w3.org/2004/02/skos/core#prefLabel> "Semiconductor Product"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product_Status> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Product_Lobe> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product_Status> <http://www.w3.org/2000/01/rdf-schema#comment> "A semiconductor product can have different product states which describe the product characteristics more closely."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product_Status> <http://www.w3.org/2000/01/rdf-schema#label> "Semiconductor Product Status"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product_Status> <http://www.w3.org/2004/02/skos/core#prefLabel> "Semiconductor Product Status"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Solution> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> <http://www.w3.org/2000/01/rdf-schema#comment> "A semiconductor solution is combination of semiconductor products and is sold within the seminconductor industry."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> <http://www.w3.org/2000/01/rdf-schema#label> "Semiconductor Solution"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Solution> <http://www.w3.org/2004/02/skos/core#prefLabel> "Semiconductor Solution"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Sensing_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensing_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensing_Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Sensor_Lobe> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensing_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "The sensing type of a semiconductor solution determines whether a semiconductor solution contains a sensor (\"WithSensor\") or not (\"WithoutSensor)."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensing_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Sensing Type"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensing_Type> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sensing Type"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.w3id.org/ecsel-dr-RAMI40#Sensor> .
+<http://www.w3id.org/ecsel-dr-RAMI40#Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "A semiconductor product which is used as sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "Sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Main_Application
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Main_Application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Main_Application> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Main_Application> <http://www.w3.org/2000/01/rdf-schema#comment> "An application area on medium level (corresponing to application level 2) for sensors which can have several sub application levels (sensor sub application)"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Main_Application> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Main_Application> <http://www.w3.org/2000/01/rdf-schema#label> "Sensor Main Application"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Main_Application> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sensor Main Application"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Sub_Application
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Sub_Application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Sub_Application> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Sub_Application> <http://www.w3.org/2000/01/rdf-schema#comment> "An application area on lowest level (corresponing to application level 3) for sensors which can be assigned to super application levels (sensor main application)"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Sub_Application> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Sub_Application> <http://www.w3.org/2000/01/rdf-schema#label> "Sensor Sub Application"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sensor_Sub_Application> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sensor Sub Application"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Smart_Driver
+<http://www.w3id.org/ecsel-dr-OOSMP#Smart_Driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Smart_Driver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Semiconductor_Product> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Smart_Driver> <http://www.w3.org/2000/01/rdf-schema#comment> "A semiconductor product which is used as smart driver"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Smart_Driver> <http://www.w3.org/2000/01/rdf-schema#label> "Smart Driver"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Smart_Driver> <http://www.w3.org/2004/02/skos/core#prefLabel> "Smart Driver"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Solution
+<http://www.w3id.org/ecsel-dr-OOSMP#Solution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Solution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Product_Lobe> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Solution> <http://www.w3.org/2000/01/rdf-schema#comment> "A solution is a combination of products which is produced or assembled by an organization. Further, a solution is sold to a customer and solves a specific problem / fulfills a specific need."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Solution> <http://www.w3.org/2000/01/rdf-schema#label> "Solution"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Solution> <http://www.w3.org/2004/02/skos/core#prefLabel> "Solution"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Sub_Application
+<http://www.w3id.org/ecsel-dr-OOSMP#Sub_Application> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sub_Application> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Application_Area> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sub_Application> <http://www.w3.org/2000/01/rdf-schema#comment> "An application area on lowest level (corresponing to application level 3) which can be assigned to super application levels (main application)"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sub_Application> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3id.org/ecsel-dr-OOSMP#InfineonTechnologiesAG_Organization> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sub_Application> <http://www.w3.org/2000/01/rdf-schema#label> "Sub Application"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Sub_Application> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sub Application"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Topology
+<http://www.w3id.org/ecsel-dr-OOSMP#Topology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Topology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr#Product_Lobe> .
+<http://www.w3id.org/ecsel-dr-OOSMP#Topology> <http://www.w3.org/2000/01/rdf-schema#comment> "Topology describes the arrangement and the amount of chips in a semiconductor solution. A toplogy can be \"3 phase\", \"half bridge\", \"h-bridge\", \"high side\", \"low side\" and \"relay\"."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Topology> <http://www.w3.org/2000/01/rdf-schema#label> "Topology"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Topology> <http://www.w3.org/2004/02/skos/core#prefLabel> "Topology"@en .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#3D_Magnetic_Sensor
+<http://www.w3id.org/ecsel-dr-OOSMP#3D_Magnetic_Sensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3id.org/ecsel-dr-OOSMP#3D_Magnetic_Sensor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3id.org/ecsel-dr-OOSMP#Magnetic_Position_Sensor> .
+<http://www.w3id.org/ecsel-dr-OOSMP#3D_Magnetic_Sensor> <http://www.w3.org/2000/01/rdf-schema#comment> "Capable of measuring 3D, linear and rotational movement. The sensor realizes an accurate three-dimensional sensing with extremely low power consumption. Capable of detecting the magnetic field in the x, y, and z-direction, the sensor is ideally suited for the measurement\r\nof linear, rotation or 3 dimensional movements."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#3D_Magnetic_Sensor> <http://www.w3.org/2000/01/rdf-schema#label> "3D Magnetic Sensor"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#3D_Magnetic_Sensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "3D Magnetic Sensor"@en .
+# 
+# http://www.w3id.org/ecsel-dr-ORG#Division
+# 
+# http://www.w3id.org/ecsel-dr-PROD#Product
+# 
+# http://www.w3id.org/ecsel-dr-PWR#Application_Area
+# 
+# http://www.w3id.org/ecsel-dr-PWR#Gate_Driver
+# 
+# http://www.w3id.org/ecsel-dr-PWR#Microcontroller
+# 
+# http://www.w3id.org/ecsel-dr-PWR#Product
+# 
+# http://www.w3id.org/ecsel-dr-RAMI40#Sensor
+# 
+# http://www.w3id.org/ecsel-dr-SO#Product
+# 
+# http://www.w3id.org/ecsel-dr-SO#Product_Line
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Active_And_Preferred_OPN_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Active_And_Preferred_OPN_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Active_OPN_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Active_OPN_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Allrounder_Design_Target
+<http://www.w3id.org/ecsel-dr-OOSMP#Allrounder_Design_Target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Automotive_Qualification
+<http://www.w3id.org/ecsel-dr-OOSMP#Automotive_Qualification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#BrushedDC_Motor_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#BrushedDC_Motor_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Completely_Lead_Free_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Completely_Lead_Free_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Discontinued_OPN_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Discontinued_OPN_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Discrete_Solution_Integration_Level
+<http://www.w3id.org/ecsel-dr-OOSMP#Discrete_Solution_Integration_Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Easy_To_Design_Design_Target
+<http://www.w3id.org/ecsel-dr-OOSMP#Easy_To_Design_Design_Target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Flexible_To_Design_Design_Target
+<http://www.w3id.org/ecsel-dr-OOSMP#Flexible_To_Design_Design_Target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Fully_Integrated_Solution_Integration_Level
+<http://www.w3id.org/ecsel-dr-OOSMP#Fully_Integrated_Solution_Integration_Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#H_Bridge_Topology
+<http://www.w3id.org/ecsel-dr-OOSMP#H_Bridge_Topology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Half_Bridge_Topology
+<http://www.w3id.org/ecsel-dr-OOSMP#Half_Bridge_Topology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Halogen_Free_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Halogen_Free_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#High_Price_Price_Indication
+<http://www.w3id.org/ecsel-dr-OOSMP#High_Price_Price_Indication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#High_Side_Topology
+<http://www.w3id.org/ecsel-dr-OOSMP#High_Side_Topology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#IGBT_Main_Power_Device_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#IGBT_Main_Power_Device_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Induction_Motor_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#Induction_Motor_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Industrial_Qualification
+<http://www.w3id.org/ecsel-dr-OOSMP#Industrial_Qualification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Integrated_Controller_Driver_Solution_Integration_Level
+<http://www.w3id.org/ecsel-dr-OOSMP#Integrated_Controller_Driver_Solution_Integration_Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Integrated_Driver-Power_Stage_Solution_Integration_Level
+<http://www.w3id.org/ecsel-dr-OOSMP#Integrated_Driver-Power_Stage_Solution_Integration_Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Integrated_Power_Stage_Solution_Integration_Level
+<http://www.w3id.org/ecsel-dr-OOSMP#Integrated_Power_Stage_Solution_Integration_Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Low_Price_Price_Indication
+<http://www.w3id.org/ecsel-dr-OOSMP#Low_Price_Price_Indication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Low_Side_Topology
+<http://www.w3id.org/ecsel-dr-OOSMP#Low_Side_Topology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#MOSFET_Main_Power_Device_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#MOSFET_Main_Power_Device_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Medium_Price_Price_Indication
+<http://www.w3id.org/ecsel-dr-OOSMP#Medium_Price_Price_Indication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Not_Completely_Lead_Free_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Not_Completely_Lead_Free_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Not_For_New_Design_OPN_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Not_For_New_Design_OPN_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Not_Halogen_Free_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Not_Halogen_Free_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Not_Ro_HS_Compliant_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Not_Ro_HS_Compliant_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#PMSM_BLDC_Motor_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#PMSM_BLDC_Motor_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Permanent_Magnet_Stepper_Motor_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#Permanent_Magnet_Stepper_Motor_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Relay_Main_Power_Device_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#Relay_Main_Power_Device_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Relay_Topology
+<http://www.w3id.org/ecsel-dr-OOSMP#Relay_Topology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Ro_HS_Compliant_Status
+<http://www.w3id.org/ecsel-dr-OOSMP#Ro_HS_Compliant_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#SMDSMT_Mounting_Style
+<http://www.w3id.org/ecsel-dr-OOSMP#SMDSMT_Mounting_Style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Switched_Reluctance_Motor_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#Switched_Reluctance_Motor_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Through_Hole_Mounting_Style
+<http://www.w3id.org/ecsel-dr-OOSMP#Through_Hole_Mounting_Style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#With_Sensor_Sensing_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#With_Sensor_Sensing_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#Without_Sensor_Sensing_Type
+<http://www.w3id.org/ecsel-dr-OOSMP#Without_Sensor_Sensing_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://www.w3id.org/ecsel-dr-OOSMP#3Phase_Topology
+<http://www.w3id.org/ecsel-dr-OOSMP#3Phase_Topology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.w3id.org/ecsel-dr-OOSMP#Completely_Lead_Free_Status> <http://www.w3.org/2000/01/rdf-schema#comment> "This status determines whether a semiconductor product is lead free or not."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Completely_Lead_Free_Status> <http://www.w3.org/2000/01/rdf-schema#label> "Completely Lead Free Status"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Completely_Lead_Free_Status> <http://www.w3.org/2004/02/skos/core#prefLabel> "Completely Lead Free Status"@en .
+# 
+<http://www.w3id.org/ecsel-dr-OOSMP#Halogen_Free_Status> <http://www.w3.org/2000/01/rdf-schema#comment> "This status determines whether a semiconductor product is halogen free or not."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Halogen_Free_Status> <http://www.w3.org/2000/01/rdf-schema#label> "Halogen Free Status"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Halogen_Free_Status> <http://www.w3.org/2004/02/skos/core#prefLabel> "Halogen Free Status"@en .
+# 
+<http://www.w3id.org/ecsel-dr-OOSMP#Ro_HS_Compliant_Status> <http://www.w3.org/2000/01/rdf-schema#comment> "This status determines whether a product is RoHS compliant or not."@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Ro_HS_Compliant_Status> <http://www.w3.org/2000/01/rdf-schema#label> "RoHS Compliant Status"@en .
+<http://www.w3id.org/ecsel-dr-OOSMP#Ro_HS_Compliant_Status> <http://www.w3.org/2004/02/skos/core#prefLabel> "RoHS Compliant Status"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

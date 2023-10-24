@@ -1,0 +1,858 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:ecsel-dr-RAMI40="http://www.w3id.org/ecsel-dr-RAMI40#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#preLabel -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#preLabel"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#latestStardardVersion -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#latestStardardVersion"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#contains_admin_shell -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#contains_admin_shell">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#I_4.0_Component"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Admin_Shell"/>
+        <rdfs:comment xml:lang="en">Points the I4.0 Component to the Administration Shell</rdfs:comment>
+        <rdfs:label xml:lang="en">contains admin shell</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#describes_asset -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#describes_asset">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Admin_Shell"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Asset"/>
+        <rdfs:comment xml:lang="en">Connect the Asset with the Administration Shell</rdfs:comment>
+        <rdfs:label xml:lang="en">describes asset</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#energy_efficiency_value -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#energy_efficiency_value">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Energy_Efficiency"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Measure"/>
+        <rdfs:comment xml:lang="en">Points to the value of the Energy Efficiency comsuption.</rdfs:comment>
+        <rdfs:label xml:lang="en">energy efficiency value</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#has_RAMI_hierarchy_level -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#has_RAMI_hierarchy_level">
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#RAMI_Hierarchy_Level_Dimension"/>
+        <rdfs:comment xml:lang="en">Connects the concepts with the correspondent layer in the RAMI Hierarchy Levels</rdfs:comment>
+        <rdfs:label xml:lang="en">has RAMI hierarchy level</rdfs:label>
+        <skos:definition xml:lang="en">Connects the concepts with the correspondent layer in the RAMI Hierarchy Levels</skos:definition>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#has_RAMI_life_cycle_layer -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#has_RAMI_life_cycle_layer">
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#RAMI_Life_Cycle_Dimension"/>
+        <rdfs:comment xml:lang="en">Connects the concepts with the correspondent layer in the RAMI Hierarchy Levels</rdfs:comment>
+        <rdfs:label xml:lang="en">has RAMI life cycle layer</rdfs:label>
+        <skos:definition xml:lang="en">Connects the concepts with the correspondent layer in the RAMI Hierarchy Levels</skos:definition>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#has_data -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#has_data">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Admin_Shell"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Submodel"/>
+        <rdfs:comment xml:lang="en">Connects the AdminShell with the different types of Data for the Object/Entity</rdfs:comment>
+        <rdfs:label xml:lang="en">has data</rdfs:label>
+        <skos:definition xml:lang="en">Connects the AdminShell with the different types of Data for the Object/Entity</skos:definition>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#has_data_type -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#has_data_type">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Submodel"/>
+        <rdfs:comment xml:lang="en">Points to the datatypes of the Submodels</rdfs:comment>
+        <rdfs:label xml:lang="en">has data type</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#has_reference -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#has_reference">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Submodel"/>
+        <rdfs:label xml:lang="en">has reference</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#has_semantic_expression -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#has_semantic_expression">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Submodel"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Semantic_Expression"/>
+        <rdfs:label xml:lang="en">has semantic expression</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#has_submodel -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#has_submodel">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Admin_Shell"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Submodel"/>
+        <rdfs:label xml:lang="en">has submodel</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#has_used_date -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#has_used_date">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Standard"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Used_Date"/>
+        <rdfs:comment xml:lang="en">The date that standard has been used</rdfs:comment>
+        <rdfs:label xml:lang="en">has used date</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#has_version -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#has_version">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Standard"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Standard_Version"/>
+        <rdfs:comment xml:lang="en">The current version of Standard.</rdfs:comment>
+        <rdfs:label xml:lang="en">has version</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#in_accordance_with -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#in_accordance_with">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Submodel"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Standard"/>
+        <rdfs:comment xml:lang="en">The Submodel is in accordance with a given standard specified in the STO ontology</rdfs:comment>
+        <rdfs:label xml:lang="en">in accordance with</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#is_connected_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#is_connected_to">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Admin_Shell"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Dimension"/>
+        <rdfs:comment xml:lang="en">Connects the Admin Shell with the different RAMI4.0 Dimensions</rdfs:comment>
+        <rdfs:label xml:lang="en">is connected to</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#is_described_with -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#is_described_with">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Admin_Shell"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Standard"/>
+        <rdfs:label xml:lang="en">is described with</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#is_part_of_asset -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#is_part_of_asset">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Asset"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Asset"/>
+        <rdfs:comment xml:lang="en">A relation between any entities, in this case, the Asset can be part of other Asset(s).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
+        <rdfs:label xml:lang="en">is part of asset</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#is_used_by_standard_organization -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#is_used_by_standard_organization">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#uses_standard"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Standard"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Standard_Organization"/>
+        <rdfs:label xml:lang="en">is used by standard organization</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#uses_standard -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#uses_standard">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Standard_Organization"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Standard"/>
+        <rdfs:comment xml:lang="en">Points to the standards describing the functions attached to the asset via the administration shell</rdfs:comment>
+        <rdfs:label xml:lang="en">uses standard</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#date -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#date">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Date"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="en">date</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#description -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#description">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Asset"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Description of the Object/Entity</rdfs:comment>
+        <rdfs:label xml:lang="en">description</rdfs:label>
+        <skos:definition xml:lang="en">Description of the Object/Entity</skos:definition>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error372 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error372">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#RAMI_Hierarchy_Level_Dimension"/>
+    </Class>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error373 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error373">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#View"/>
+    </Class>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error374 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error374">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#RAMI_IT_Layer_Dimension"/>
+    </Class>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error375 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error375">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Semantic_Expression"/>
+    </Class>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error376 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error376">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#RAMI_Life_Cycle_Dimension"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr#System_Lobe -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr#System_Lobe"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Admin_Shell -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Admin_Shell">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#System_Lobe"/>
+        <rdfs:comment xml:lang="en">Andmin Shell represents and describes an asset elecrtonically in a standardized manner</rdfs:comment>
+        <rdfs:label xml:lang="en">Admin Shell</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Asset -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Asset">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#System_Lobe"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Date -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Date">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#System_Lobe"/>
+        <rdfs:comment xml:lang="en">A numbered day in a month, often given with a combination of the name of the day, the month, and the year</rdfs:comment>
+        <rdfs:label xml:lang="en">Date</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Dimension -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Dimension">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#System_Lobe"/>
+        <rdfs:comment>Abstract class to describe the three different dimensions of RAMI4.0</rdfs:comment>
+        <rdfs:label xml:lang="en">Dimension</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Energy_Efficiency -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Energy_Efficiency">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Submodel"/>
+        <rdfs:comment xml:lang="en">Specifies some details regarding energy efficiency. These can also be supplied by sensors.</rdfs:comment>
+        <rdfs:label xml:lang="en">Energy Efficiency</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#I_4.0_Component -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#I_4.0_Component">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#System_Lobe"/>
+        <dc:source xml:lang="en">Industrie 4.0 – Begriffe/Terms, VDI Statusreport Industrie 4.0 (April 2017)</dc:source>
+        <rdfs:comment xml:lang="en">Globally uniquely identifiable participant with communication capability consisting of administration shell and asset within an I4.0 system.</rdfs:comment>
+        <rdfs:label xml:lang="en">I 4.0 Component</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#MES_Connection -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#MES_Connection">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Submodel"/>
+        <rdfs:comment xml:lang="en">Connects the station to a higher-level MES system via a small number of properties. Specifies whether the station is producing, ready for production, has a fault or is undergoing maintenance, for example.</rdfs:comment>
+        <rdfs:label xml:lang="en">MES Connection</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Machine -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Machine">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Asset"/>
+        <rdfs:label xml:lang="en">Machine</rdfs:label>
+        <skos:definition xml:lang="en">A machine is ordered, designed, commissioned, operated, serviced, converted and recycled.</skos:definition>
+        <skos:preLabel xml:lang="en">Machine</skos:preLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Measure -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Measure">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#System_Lobe"/>
+        <rdfs:comment xml:lang="en">To discover the exact size or amount of something</rdfs:comment>
+        <rdfs:label xml:lang="en">Measure</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#RAMI_Hierarchy_Level_Dimension -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#RAMI_Hierarchy_Level_Dimension">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Dimension"/>
+        <rdfs:label xml:lang="en">RAMI Hierarchy Level Dimension</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.zvei.org/en/subjects/Industry-40/Pages/The-Reference-Architectural-Model-RAMI-40-and-the-Industrie-40-Component.aspx"/>
+        <skos:definition>It describes the functional classification of various circumstances within Industrie 4.0. For classification within a factory, this axis of the reference architecture(layers) follows the IEC 62264 Standard.</skos:definition>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#RAMI_IT_Layer_Dimension -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#RAMI_IT_Layer_Dimension">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Dimension"/>
+        <rdfs:comment xml:lang="en">The six layers on the vertical axis describe the decomposition of a machine into its properties, structured layer by layer, i.e., the virtual mapping of a machine. Such representations originate from information and communication technology, where properties of complex systems are commonly broken down into layers.</rdfs:comment>
+        <rdfs:label xml:lang="en">RAMI IT Layer Dimension</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#RAMI_Life_Cycle_Dimension -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#RAMI_Life_Cycle_Dimension">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Dimension"/>
+        <rdfs:label xml:lang="en">RAMI Life Cycle Dimension</rdfs:label>
+        <rdfs:seeAlso>http://www.zvei.org/en/subjects/Industry-40/Pages/The-Reference-Architectural-Model-RAMI-40-and-the-Industrie-40-Component.aspx</rdfs:seeAlso>
+        <skos:definition>It describes the different Life Cycle and Value Stream layers for the RAMI model according to the IEC 62890 Standard.</skos:definition>
+        <skos:preLabel>RAMI Layer</skos:preLabel>
+        <skos:preLabel>RAMI Life Cycle Dimension</skos:preLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Semantic_Expression -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Semantic_Expression">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#System_Lobe"/>
+        <rdfs:label xml:lang="en">Semantic Expression</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Sensor -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#System_Lobe"/>
+        <rdfs:comment xml:lang="en">Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms.</rdfs:comment>
+        <rdfs:label xml:lang="en">Sensor</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Sensor_Measurement -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Sensor_Measurement">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Submodel"/>
+        <rdfs:comment xml:lang="en">Measurement performed by a sensor</rdfs:comment>
+        <rdfs:label xml:lang="en">Sensor Measurement</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Standard -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Standard">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#System_Lobe"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/i40/sto/#Standard"/>
+        <rdfs:label xml:lang="en">Standard</rdfs:label>
+        <skos:definition xml:lang="en">Standards that are used to describe the actual I4.0 Asset. Defined in the STO ontology</skos:definition>
+        <skos:preLabel xml:lang="en">Standard</skos:preLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Standard_Organization -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Standard_Organization">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#System_Lobe"/>
+        <rdfs:comment xml:lang="en">Standards organisations that prepares and publishes International Standards for all electrical, electronic and related technologies</rdfs:comment>
+        <rdfs:label xml:lang="en">Standard Organization</rdfs:label>
+        <skos:example xml:lang="en">IEC (International Electrotechnical Commission)</skos:example>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Standard_Version -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Standard_Version">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Version"/>
+        <rdfs:comment xml:lang="en">Most commonly used version</rdfs:comment>
+        <rdfs:label xml:lang="en">Standard Version</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Structure -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Structure">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Submodel"/>
+        <rdfs:comment xml:lang="en">The way in which the parts of a system or object are arranged or organized, or a system arranged in this way</rdfs:comment>
+        <rdfs:label xml:lang="en">Structure</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Submodel -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Submodel">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Stocks"/>
+        <rdfs:comment xml:lang="en">Describe the different types of data related to the I4.0 asset</rdfs:comment>
+        <rdfs:label xml:lang="en">Submodel</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Transport_Interface -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Transport_Interface">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Submodel"/>
+        <rdfs:label xml:lang="en">Transport Interface</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Used_Date -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Used_Date">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-RAMI40#Date"/>
+        <rdfs:comment xml:lang="en">Date uded by particular standard</rdfs:comment>
+        <rdfs:label xml:lang="en">Used Date</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Version -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Version">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#System_Lobe"/>
+        <rdfs:comment xml:lang="en">A particular form of something that is slightly different from other forms of the same thing</rdfs:comment>
+        <rdfs:label xml:lang="en">Version</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#View -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#View">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#System_Lobe"/>
+        <rdfs:comment xml:lang="en">Different views associated to the Administration Shell via the Submodels</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="de">https://www.plattform-i40.de/I40/Redaktion/DE/Downloads/Publikation/hm-2018-trilaterale-coop.html</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">View</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Stocks -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Stocks"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Asset -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Asset"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Business -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Business">
+        <rdfs:comment xml:lang="en">RAMI 4.0 business layer is composed of the business strategy, business environment, and business goals.</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Communication -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Communication">
+        <rdfs:comment xml:lang="en">RAMI4.0 communication layer provides standardized communication between the integration and information layers (TCP/IP, HTTP/ FTP protocols,  LAN//WAN transmission, BLE (Bluetooth Low Energy) or Wi-Fi devices.</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Confirmation -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Confirmation"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Connected_World -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Connected_World"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Construction -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Construction"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Control_Device -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Control_Device"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Enterprise -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Enterprise"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Field_Device -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Field_Device"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Function -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Function"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Functional -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Functional"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Information -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Information">
+        <rdfs:comment xml:lang="en">The goal of RAMI 4.0 information layer is to hold in an organized way.</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Instance -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Instance"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Integration -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Integration">
+        <rdfs:comment xml:lang="en">RAMI4.0 integration layer deals with processing of information and serves as a link between the physical and digital worlds.</rdfs:comment>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Location -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Location"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Measurement -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Measurement"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Performance -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Performance"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Product -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Product"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Requirement -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Requirement"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Station -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Station"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Type -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Type"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-RAMI40#Work_Center -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Work_Center"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://www.w3id.org/ecsel-dr-RAMI40#Asset">
+        <rdfs:comment xml:lang="en">Every I4.0-component has to represent an entity. The entity can be physical or digital asset. The definition makes it possible to classify assets without integrated and accessible computers as I4.0-component, if the digital representation of the asset is accessible on a separate computer.</rdfs:comment>
+        <rdfs:label xml:lang="en">Asset</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,1718 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/ns/ssn", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr", "http://www.w3.org/2001/XMLSchema", "http://www.w3id.org/ecsel-dr-SCP" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Prioritized_Orders",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Prioritized_Orders",
+      "en" : "Prioritized Orders"
+    },
+    "comment" : {
+      "en" : "Orders that should be completed first."
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#General_Customer",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "General_Customer",
+      "en" : "General Customers"
+    },
+    "subClasses" : [ "1" ],
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "1", "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Forecast",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Forecast",
+      "en" : "Forecast"
+    },
+    "subClasses" : [ "10", "11", "12", "13" ],
+    "comment" : {
+      "en" : "Forecast is an unconstrained prospect about the customer future demand."
+    },
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Target_Allocation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Target_Allocation",
+      "en" : "Target Allocation"
+    },
+    "comment" : {
+      "en" : "The target allocation is the level of allocation planned by the company."
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#SSO_Stocks",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SSO_Stocks",
+      "en" : "SSO Stocks"
+    },
+    "subClasses" : [ "21", "22", "23", "24", "25" ],
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Retained_Stock",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Retained_Stock",
+      "en" : "Retained Stock"
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Supply_Picture",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supply_Picture",
+      "en" : "Supply Picture"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Private_Customer",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Private_Customer",
+      "en" : "Private Customers"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Max_Stock",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Max_Stock",
+      "en" : "Max Stock"
+    },
+    "comment" : {
+      "en" : "The amount of inventory which should not be exceeded. The limit is normally determined after considering storage space of the facilities, how quickly inventory is sold or used, cost of insurance on inventory, and the risk of inventory becoming outdated before it is used."
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3.org/ns/ssn/Stimulus",
+    "baseIri" : "http://www.w3.org/ns/ssn",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stimulus"
+    },
+    "subClasses" : [ "37" ],
+    "attributes" : [ "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Confirmation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Confirmation",
+      "en" : "Confirmation"
+    },
+    "comment" : {
+      "en" : "Order acknowledgement"
+    },
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#DC",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DC",
+      "en" : "DC"
+    },
+    "comment" : {
+      "en" : "A DC Facility represents a finished goods store."
+    },
+    "attributes" : [ "external" ],
+    "id" : "56",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Sales_Demand",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sales_Demand",
+      "en" : "Sales Demand"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Planning_Lobe",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Lobe"
+    },
+    "subClasses" : [ "7", "6", "28", "45", "14", "49", "41", "39", "4", "61", "65", "26", "1", "32", "52", "33", "19", "29", "9", "46", "35", "16", "17" ],
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Prioritized_Demand",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Prioritized_Demand",
+      "en" : "Prioritized Demand"
+    },
+    "comment" : {
+      "en" : "The demand that should be covered first."
+    },
+    "attributes" : [ "external" ],
+    "id" : "45",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Consignment_Order",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Consignment_Order",
+      "en" : "Consignment Order"
+    },
+    "comment" : {
+      "en" : "Consignment Stock is a logistics concept where the supplier (Vendor) owned goods are stored at a customer location.\r\n\r\nThe supplier (Vendor) is responsible to maintain his stock within a defined min/max level."
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#NP_Forecast",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NP_Forecast",
+      "en" : "NP Forecast"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Customer_Logistics_Management_Representative",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer_Logistics_Management_Representative",
+      "en" : "Customer Logistics Management Representative"
+    },
+    "comment" : {
+      "en" : "Being the main interface between Customer, Sales and the Supply Chain Planner he is responsible for the demand fulfilment process. It is his task to ensure in-time delivery to customers based on orders and forecasts and to achieve high customer satisfaction."
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Resource_Capacity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource_Capacity",
+      "en" : "Resource Capacity"
+    },
+    "subClasses" : [ "74" ],
+    "comment" : {
+      "en" : "Resource capacity planning is about comparing future resource utilization of project resources against available capacity to do work."
+    },
+    "attributes" : [ "external" ],
+    "id" : "69",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Promise",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Promise",
+      "en" : "Promise"
+    },
+    "comment" : {
+      "en" : "Is the uncommitted portion of supply by the master production schedule and material plan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "49",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Safety_Stock",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Safety_Stock",
+      "en" : "Safety Stock"
+    },
+    "comment" : {
+      "en" : "Describes a level of extra stock that is maintained to mitigate risk of stockouts  caused by uncertainties in supply and demand."
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Bottleneck_Resource",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bottleneck_Resource",
+      "en" : "Bottleneck Resource"
+    },
+    "comment" : {
+      "en" : "A bottleneck resource is an obstacle to smooth flow in a process."
+    },
+    "attributes" : [ "external" ],
+    "id" : "74",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#WIP",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WIP",
+      "en" : "Work In Progress"
+    },
+    "comment" : {
+      "en" : "Work In Progress (WIP) includes the unfinished items for products in a production process. \r\nThese items are not yet completed but either just being fabricated or waiting in a queue for further processing."
+    },
+    "attributes" : [ "external" ],
+    "id" : "58",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Order",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order",
+      "en" : "Order"
+    },
+    "subClasses" : [ "93", "91", "96", "66" ],
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#EDI_Forecast",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EDI_Forecast",
+      "en" : "EDI Forecast"
+    },
+    "comment" : {
+      "en" : "The EDI Forecast Universe is a Data Mart that was started in 2010 (?) to support Forecast Accuracy  analysis"
+    },
+    "attributes" : [ "external" ],
+    "id" : "96",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Supply_Demand_Match",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supply_Demand_Match",
+      "en" : "Supply Demand Match"
+    },
+    "comment" : {
+      "en" : "Supply and demand match when sufficient materials exist to cover material demand while taking available capacity into account."
+    },
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#HP_Forecast",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HP_Forecast",
+      "en" : "HP Forecast"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Buffer_Stock_Order",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Buffer_Stock_Order",
+      "en" : "Buffer Stock Order"
+    },
+    "attributes" : [ "external" ],
+    "id" : "91",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Order_Line_Item",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order_Line_Item",
+      "en" : "Order Line Item"
+    },
+    "comment" : {
+      "en" : "Every product on the order is referenced by a record that includes quantity and a reference to which order it belongs."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Open_Order_Book",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Open_Order_Book",
+      "en" : "Open Order Book"
+    },
+    "comment" : {
+      "en" : "An order book is a business's list of open, unshipped, customer orders, normally time-phased and valued at actual individual order prices, that may include margin and profitability analysis."
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Standard_Order",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Standard_Order",
+      "en" : "Standard Order"
+    },
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Min_Stock",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Min_Stock",
+      "en" : "Min Stock"
+    },
+    "comment" : {
+      "en" : "The minimum level of inventory is a kind of a precautionary level of inventory which indicates that the delivery of raw materials or merchandise may take more than the normal lead time."
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Die_Bank",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Die_Bank",
+      "en" : "Die Bank"
+    },
+    "comment" : {
+      "en" : "A die bank is an area in production where (usually) tested wafers are stored waiting for disposition and further production."
+    },
+    "attributes" : [ "external" ],
+    "id" : "55",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Customer",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer",
+      "en" : "Customer"
+    },
+    "subClasses" : [ "7", "30" ],
+    "comment" : {
+      "en" : "A person or entity that buys goods or services  from a shop or business."
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "5", "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Aggregated_Capacity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aggregated_Capacity",
+      "en" : "Aggregated Capacity"
+    },
+    "subClasses" : [ "69" ],
+    "comment" : {
+      "en" : "(restricted) The Aggregated Capacity Group combines products that are interchangeable in production resources (e.g. can be produced on the same equipment) and having the same capacity consumption. Using an ACG provides flexibility in a way of switching demands of this products within this ACG."
+    },
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Stocks",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stocks",
+      "en" : "Stocks"
+    },
+    "subClasses" : [ "56", "58", "55" ],
+    "comment" : {
+      "en" : "A supply of something for use or sale"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#NEWs",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NEWs",
+      "en" : "nEWs"
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Available_To_Promise",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Available_To_Promise",
+      "en" : "Available To Promise"
+    },
+    "comment" : {
+      "en" : "Available to promise is a business function that provides a response to customer order inquiries, based on resource availability. It generates available quantities of the requested product, and delivery due dates."
+    },
+    "attributes" : [ "external" ],
+    "id" : "41",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "105",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Order_Reschedule",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order_Reschedule",
+      "en" : "Order Reschedule"
+    },
+    "comment" : {
+      "en" : "Any change in the requested order delivery date in an order line is referred to as an order rescheduling."
+    },
+    "attributes" : [ "external" ],
+    "id" : "61",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Allocated_Available_To_Promise",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Allocated_Available_To_Promise",
+      "en" : "Allocated Available To Promise"
+    },
+    "comment" : {
+      "en" : "AATP  is a data mart  that shows data from GOAL AATP process, combining data from 3 sources: SAP, I2 Applications and LogDB. \r\n\r\nThe universe provides access to the fact tables delivered by GOAL like Availability / Allocation Planning / Seller Mapping / Coverage."
+    },
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#AP_FCST",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AP_FCST",
+      "en" : "AP FCST"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Capacity_Bottleneck",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Capacity_Bottleneck",
+      "en" : "Capacity Bottleneck"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Ramp_Up_Stock",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ramp_Up_Stock",
+      "en" : "Ramp Up Stock"
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Order_Schedule_Line",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order_Schedule_Line",
+      "en" : "Order Schedule Line"
+    },
+    "comment" : {
+      "en" : "Schedule lines contain all the delivery related information"
+    },
+    "attributes" : [ "external" ],
+    "id" : "65",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#OP_Forecast",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OP_Forecast",
+      "en" : "OP Forecast"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Marketing_Demand",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Marketing_Demand",
+      "en" : "Marketing Demand"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#Operational_Demand",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Operational_Demand",
+      "en" : "Operational Demand"
+    },
+    "subClasses" : [ "8", "20" ],
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "5" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "135",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#customer_location",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "customer_location",
+      "en" : "customer location"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#constitutes",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "constitutes",
+      "en" : "constitutes"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#sort_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "sort_to",
+      "en" : "sort to"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#sent_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "sent_to",
+      "en" : "sent to"
+    },
+    "domain" : "28",
+    "attributes" : [ "external", "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#matches_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "matches_to",
+      "en" : "matches to"
+    },
+    "domain" : "32",
+    "attributes" : [ "external", "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#generates",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "generates",
+      "en" : "generates"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "34"
+  }, {
+    "range" : "5",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "5",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#has_input_in",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "has_input_in",
+      "en" : "has input in"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#has_result_operational_demand",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "has_result_operational_demand",
+      "en" : "has result operational demand"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "43"
+  }, {
+    "range" : "5",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "5",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "5",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#calculated_based_on",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "calculated_based_on",
+      "en" : "calculated based on"
+    },
+    "domain" : "33",
+    "attributes" : [ "external", "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#figured_out_from",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "figured_out_from",
+      "en" : "figured out from"
+    },
+    "domain" : "14",
+    "attributes" : [ "external", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "5",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "range" : "37",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "37",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "5",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#is_result_of_orders_reschedule",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "is_result_of_orders_reschedule",
+      "en" : "is result of"
+    },
+    "domain" : "28",
+    "attributes" : [ "external", "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#customers_ID",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "customers_ID",
+      "en" : "customers ID"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "62"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "36",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "32",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "37",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "20",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "20",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "1",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "20",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "20",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "20",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#use_in",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "use_in",
+      "en" : "use in"
+    },
+    "domain" : "74",
+    "attributes" : [ "external", "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#calculated_based",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "calculated_based",
+      "en" : "calculated based"
+    },
+    "domain" : "61",
+    "attributes" : [ "external", "object" ],
+    "id" : "80"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "9",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#is_place_orders",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "is_place_orders",
+      "en" : "is place orders"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#transfers",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "transfers",
+      "en" : "transfers"
+    },
+    "domain" : "49",
+    "attributes" : [ "external", "object" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#uses_order_line_item",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "uses_order_line_item",
+      "en" : "uses order line item"
+    },
+    "domain" : "29",
+    "attributes" : [ "external", "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#calculates",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "calculates",
+      "en" : "calculates"
+    },
+    "domain" : "39",
+    "attributes" : [ "external", "object" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#entered_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "entered_to",
+      "en" : "entered to"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#confirmed_date",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "confirmed_date",
+      "en" : "confirmed date"
+    },
+    "domain" : "35",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "88"
+  }, {
+    "range" : "16",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "16",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "range" : "16",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "16",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#is_transfer_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "is_transfer_to",
+      "en" : "is transfer to"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "97"
+  }, {
+    "range" : "5",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "range" : "5",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "69",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "5",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "5",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "5",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#granularity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "granularity",
+      "en" : "granularity"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "104"
+  }, {
+    "range" : "5",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "5",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "range" : "5",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "range" : "5",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "5",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "range" : "5",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "5",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "5",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "113"
+  }, {
+    "range" : "5",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#goes_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "goes_to",
+      "en" : "goes to"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#provides",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "provides",
+      "en" : "provides"
+    },
+    "domain" : "29",
+    "attributes" : [ "external", "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#results_in",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "results_in",
+      "en" : "results in"
+    },
+    "domain" : "35",
+    "attributes" : [ "external", "object" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#transfer_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "transfer_to",
+      "en" : "transfer to"
+    },
+    "domain" : "9",
+    "attributes" : [ "external", "object" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#contributes_to_prioritized_order",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "contributes_to_prioritized_order",
+      "en" : "contributes to prioritized order"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#consumes",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "consumes",
+      "en" : "consumes"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#matches_in",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "matches_in",
+      "en" : "matches in"
+    },
+    "domain" : "45",
+    "attributes" : [ "external", "object" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#has_input_supply_demand_match",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "has_input_supply_demand_match",
+      "en" : "has input"
+    },
+    "domain" : "37",
+    "attributes" : [ "external", "object" ],
+    "id" : "122"
+  }, {
+    "range" : "7",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "range" : "8",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "range" : "8",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "range" : "8",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "8",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#obtained_from_sales_demand",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "obtained_from_sales_demand",
+      "en" : "obtained from sales demand"
+    },
+    "domain" : "8",
+    "attributes" : [ "external", "object" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#is_part_of_operational_demand",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "is_part_of_operational_demand",
+      "en" : "is part of operational demand"
+    },
+    "domain" : "8",
+    "attributes" : [ "external", "object" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#creates_prioritized_order",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "creates_prioritized_order",
+      "en" : "creates prioritized order"
+    },
+    "domain" : "29",
+    "attributes" : [ "external", "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#use_up",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "use_up",
+      "en" : "use up"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#confirmed_quantity",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "confirmed_quantity",
+      "en" : "confirmed quantity"
+    },
+    "domain" : "35",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#matches",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "matches",
+      "en" : "matches"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#result_to",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "result_to",
+      "en" : "result to"
+    },
+    "domain" : "74",
+    "attributes" : [ "external", "object" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-SCP#consists_of_open_order_book",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-SCP",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "consists_of_open_order_book",
+      "en" : "consists of open order book"
+    },
+    "domain" : "19",
+    "attributes" : [ "external", "object" ],
+    "id" : "136"
+  } ]
+}

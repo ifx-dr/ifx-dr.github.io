@@ -1,0 +1,1197 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#allocates -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#allocates">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-OM#is_allocated_by"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Allocation"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Supply"/>
+        <rdfs:label xml:lang="en">allocates</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#belongs_to_open_order -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#belongs_to_open_order">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Open_Order"/>
+        <rdfs:label xml:lang="en">belong to open order</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#consists_of_order_line_item -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#consists_of_order_line_item">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Open_Order"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Line_Item"/>
+        <rdfs:label xml:lang="en">consists of order line item</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#consits_of_open_order -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#consits_of_open_order">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order_book"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Open_Order_Book"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Open_Order"/>
+        <rdfs:label xml:lang="en">consists of open order</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#contains_contact_person_data -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#contains_contact_person_data">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data"/>
+        <rdfs:label xml:lang="en">contains contact person data</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#contains_customer_data -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#contains_customer_data">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Customer_Data"/>
+        <rdfs:label xml:lang="en">contains customer data</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#contains_customer_plant_data -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#contains_customer_plant_data">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Customer_Plant_Data"/>
+        <rdfs:label xml:lang="en">contains customer plant data</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#contains_order_line_item -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#contains_order_line_item">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Line_Item"/>
+        <rdfs:label xml:lang="en">contains order line item</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#contains_supplier_data -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#contains_supplier_data">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Supplier_Data"/>
+        <rdfs:label xml:lang="en">contains supplier data</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#describes_customer -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#describes_customer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_data"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Customer_Data"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Customer"/>
+        <rdfs:label xml:lang="en">describes customer</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#describes_customer_plant -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#describes_customer_plant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_plant_data"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Customer_Plant_Data"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Customer_Plant"/>
+        <rdfs:label xml:lang="en">describes customer plant</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#describes_supplier -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#describes_supplier">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-OM#is_described_by_supplier_data"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Supplier_Data"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Supplier"/>
+        <rdfs:label xml:lang="en">describes supplier</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#has_allocated -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#has_allocated">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-OM#is_allocated_to"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Supply"/>
+        <rdfs:label xml:lang="en">has allocated</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#is_allocated_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#is_allocated_by">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Allocation"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Supply"/>
+        <rdfs:label xml:lang="en">is allocated by</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#is_allocated_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#is_allocated_to">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Supply"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Line_Item"/>
+        <rdfs:label xml:lang="en">is allocated to</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#is_delivered_to_customer_plant -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#is_delivered_to_customer_plant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Open_Order"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Customer_Plant"/>
+        <rdfs:label xml:lang="en">is delivered to customer plant</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_data -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_data">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">is described by customer data</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_plant_data -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#is_described_by_customer_plant_data">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">is described by customer plant data</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#is_described_by_supplier_data -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#is_described_by_supplier_data">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">is described by supplier data</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#is_owned_by_customer -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#is_owned_by_customer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-OM#owns_customer_plant"/>
+        <rdfs:label xml:lang="en">is owned by a customer</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Open_Order"/>
+        <rdfs:label xml:lang="en">is part of open order</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order_book -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#is_part_of_open_order_book">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Open_Order"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Open_Order_Book"/>
+        <rdfs:label xml:lang="en">is part of open order book</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_change_request -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_change_request">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:label xml:lang="en">is reconciled order change request</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_line_item -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#is_reconciled_order_line_item">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Line_Item"/>
+        <rdfs:label xml:lang="en">is reconciled order line item</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#is_requested_by_customer -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#is_requested_by_customer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-OM#requests_order_change_request"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="en">is requested by customer</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#owns_customer_plant -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#owns_customer_plant">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Customer"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Customer_Plant"/>
+        <rdfs:label xml:lang="en">owns customer plant</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#requests_order_change_request -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#requests_order_change_request">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Customer"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:label xml:lang="en">requests order change request</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#requires_action -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#requires_action">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#Action"/>
+        <rdfs:label xml:lang="en">requires action</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#requires_user_action -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#requires_user_action">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-OM#User_Action"/>
+        <rdfs:label xml:lang="en">requires user action</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#PO_number_OCR -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#PO_number_OCR">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">PO number OCR</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#PO_number_OO -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#PO_number_OO">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Open_Order"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">PO number OO</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#confirmed_delivery_date -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#confirmed_delivery_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">confirmed delivery date</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#confirmed_quantity -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#confirmed_quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:comment xml:lang="en">confirmed quantity</rdfs:comment>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#current_dock_date -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#current_dock_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="en">current dock date</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#customer_address -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#customer_address">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Customer_Data"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">customer address</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#customer_number -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#customer_number">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Customer_Data"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">customer number</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#customer_part_number -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#customer_part_number">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">customer part number</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#customer_reference_number -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#customer_reference_number">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">customer reference number</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#customer_requested_date -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#customer_requested_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="en">customer requested date</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#department -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#department">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>department</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#email -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#email">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>email</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#fax -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#fax">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label>fax</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#incoterms -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#incoterms">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>icoterms</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#item_number -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#item_number">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">item number</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#item_price -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#item_price">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">item price</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#line_IDOCR -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#line_IDOCR">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">line IDOCR</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#line_IDOLI -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#line_IDOLI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">line IDOLI</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#mode_of_transport -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#mode_of_transport">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">mode of transport</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#name -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#open_quantity_OCR -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#open_quantity_OCR">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">open quantity OCR</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#open_quantity_OLI -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#open_quantity_OLI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Line_Item"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">open quantity OLI</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_buyer -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_buyer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">partial cancel quantity buyer</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_supplier -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#partial_cancel_quantity_supplier">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">partial cancel quantity supplier</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#plant_address -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#plant_address">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Customer_Plant_Data"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">plant address</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#promised_dock_date -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#promised_dock_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="en">promised dock date</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#requested_dock_date -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#requested_dock_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="en">requested dock date</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#requested_quantity -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#requested_quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">requested quantity</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#response_date -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#response_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="en">response date</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#supplier_address -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#supplier_address">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Supplier_Data"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">supplier address</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#supplier_comment -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#supplier_comment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">supplier comment</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#supplier_reason_code -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#supplier_reason_code">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">supplier reason code</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#supplier_reference_number -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#supplier_reference_number">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">supplier reference number</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#telephone -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#telephone">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">telephone</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#total_confirmed_open_quantity -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#total_confirmed_open_quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">total confirmed open quantity</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#total_confirmed_quantity -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#total_confirmed_quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">total confirmed quantity</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#total_delivered_quantity -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#total_delivered_quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">total delivered quantity</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#total_open_quantity -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#total_open_quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">total open quantity</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#total_requested_quantity -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#total_requested_quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">total requested quantity</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#total_unconfirmed_open_quantity -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#total_unconfirmed_open_quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:label xml:lang="en">total unconfirmed open quantity</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#unit_price -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-OM#unit_price">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">unit price</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error309 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error309">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-OM#User_Action"/>
+    </Class>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error310 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error310">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-OM#Action"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Action -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Action">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:comment xml:lang="en">The process of doing something</rdfs:comment>
+        <rdfs:label xml:lang="en">Action</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Allocation -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Allocation">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:comment xml:lang="en">Allocation is a process used in order management in times when demand exceeds available supply.</rdfs:comment>
+        <rdfs:label xml:lang="en">Allocation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Contact_Person_Data">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:label>Contact Person Data</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Customer -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Customer">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-SCP#Customer"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:comment xml:lang="en">A customer is an business that purchases another company&apos;s goods or services.</rdfs:comment>
+        <rdfs:label xml:lang="en">Customer</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Customer_Data -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Customer_Data">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:label xml:lang="en">Customer Data</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Customer_Plant -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Customer_Plant">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:label xml:lang="en">Customer Plant</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Customer_Plant_Data -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Customer_Plant_Data">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:label xml:lang="en">Customer Plant Data</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Demand_Fulfillement -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Demand_Fulfillement">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:comment xml:lang="en">The process of meeting a customer’s demand for product or services by fulfilling their request.</rdfs:comment>
+        <rdfs:label xml:lang="en">Demand Fulfillement</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Open_Order -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Open_Order">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:label xml:lang="en">Open Order</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Open_Order_Book -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Open_Order_Book">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:label xml:lang="en">Open Order Book</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Order_Change_Request -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Order_Change_Request">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:label xml:lang="en">Order Change Request</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Order_Confirmation -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Order_Confirmation">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:label xml:lang="en">Order Confirmation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Order_Line_Item -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Order_Line_Item">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:label xml:lang="en">Order Line Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Supplier -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Supplier">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:comment xml:lang="en">Organization that provides something needed such as a product or service.</rdfs:comment>
+        <rdfs:label xml:lang="en">Supplier</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Supplier_Data -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Supplier_Data">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:comment xml:lang="en">Information about supplier</rdfs:comment>
+        <rdfs:label xml:lang="en">Supplier Data</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Supply -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#Supply">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:comment xml:lang="en">The amount of goods that is available for use.</rdfs:comment>
+        <rdfs:label xml:lang="en">Supply</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#User_Action -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-OM#User_Action">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Supply_Chain_Lobe"/>
+        <rdfs:comment xml:lang="en">Activity taken by user</rdfs:comment>
+        <rdfs:label xml:lang="en">User Action</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SCP#Customer -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SCP#Customer"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Accepted -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-OM#Accepted"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Accepted_With_Change -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-OM#Accepted_With_Change"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Pull -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-OM#Pull"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Push -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-OM#Push"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Reconfirm -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-OM#Reconfirm"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-OM#Rejected -->
+
+
+    <NamedIndividual rdf:about="http://www.w3id.org/ecsel-dr-OM#Rejected"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

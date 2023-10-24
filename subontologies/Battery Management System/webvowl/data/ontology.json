@@ -1,0 +1,753 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3id.org/ecsel-dr-BMS", "http://www.w3id.org/ecsel-dr", "http://www.w3.org/2001/XMLSchema", "http://www.w3id.org/ecsel-dr-CO2Savings" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Semiconductor_Company",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semiconductor_Company"
+    },
+    "comment" : {
+      "undefined" : "Company responsible for the manufacturing of semiconductors."
+    },
+    "attributes" : [ "external" ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Cells",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cells"
+    },
+    "comment" : {
+      "undefined" : "Cells are fundamental electrochemical unit, or assembly of electrodes, separators, electrolyte, container, and terminals, that serves as a source of electrical energy by directly converting chemical energy. In this case, the cells are all of the type Li-Ion."
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Power_Management_Integrated_Circuit",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Power_Management_Integrated_Circuit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#E_Car",
+    "equivalent" : [ "10" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E_Car"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Current_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Current_Sensor"
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Cell_Supervision",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cell_Supervision"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Functional_Block",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Functional_Block"
+    },
+    "subClasses" : [ "15", "16", "13", "17", "18" ],
+    "comment" : {
+      "undefined" : "A Functional Block is a component of the battery management system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Microcontroller",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Microcontroller"
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Multichannel_Controler_Integrated_Circuit",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Multichannel_Controler_Integrated_Circuit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Electric_Means_Transportation",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Electric_Means_Transportation"
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Vehicle",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vehicle"
+    },
+    "subClasses" : [ "8" ],
+    "comment" : {
+      "en" : "A vehicle is a machine with wheels and an engine, used for transporting people or goods."
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Battery_CO2_Savings",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Battery_CO2_Savings"
+    },
+    "subClasses" : [ "27", "25", "20" ],
+    "comment" : {
+      "undefined" : "CO2 Savings refers to several solutions that might reduce carbon emissions throughout the course of a Lithiu-Ion battery's lifespan."
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Battery_Control_Unit",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Battery_Control_Unit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Pack_Monitoring",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pack_Monitoring"
+    },
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Isolated_Communication",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Isolated_Communication"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Pack",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pack"
+    },
+    "comment" : {
+      "en" : "A battery pack is a set of Lithium-Ion cells."
+    },
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#UART_Transceiver_Integrated_Circuit",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UART_Transceiver_Integrated_Circuit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "7" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "50", "2", "47" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "52"
+  }, {
+    "instances" : 0,
+    "union" : [ "25", "27", "20" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Longer_Lifespan",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Longer_Lifespan"
+    },
+    "comment" : {
+      "en" : "Longer life cycle refers to the number of extra cycles of the battery due good handling throught its lifecycle. It is a way of CO2 savings."
+    },
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Current_Sensing",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Current_Sensing"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "14" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "15", "16", "13", "17", "18" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr#Application",
+    "baseIri" : "http://www.w3id.org/ecsel-dr",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Application"
+    },
+    "subClasses" : [ "50", "0", "2", "9", "14", "47", "7", "5", "43" ],
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Semiconductor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semiconductor"
+    },
+    "subClasses" : [ "11", "30", "21", "34", "31", "6" ],
+    "comment" : {
+      "en" : "Semiconductor is an eletronic device which electrical conductivity value is between an insulator and a conductor. In this case, constitutes the battery management system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "1" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "15", "16", "13", "17", "18" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-CO2Savings#Electric_Car",
+    "equivalent" : [ "8" ],
+    "baseIri" : "http://www.w3id.org/ecsel-dr-CO2Savings",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Electric_Car"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Battery_Management_System",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Battery_Management_System"
+    },
+    "comment" : {
+      "undefined" : "A battery management system is, according to Infineon´s definition, a set of \"electronic control circuits that monitor and regulate the charging and discharge of batteries.\" It supervises parameters such as the temperature, voltages, capacity, state of charge, power consumption, charging cycles."
+    },
+    "attributes" : [ "external" ],
+    "id" : "47",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Lithium_Ion_Battery",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lithium_Ion_Battery"
+    },
+    "comment" : {
+      "en" : "The Lithium-Ion Battery represents the set of cells together, which is the battery pack, plus the battery management system."
+    },
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Pressure_Sensor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pressure_Sensor"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#Optimized_Charging",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Optimized_Charging"
+    },
+    "comment" : {
+      "en" : "Second life means that the Lithium-Ion battery has ceased its main activity, in this case powering an electric car, however, it is still able to be used for other purposes."
+    },
+    "attributes" : [ "external" ],
+    "id" : "25",
+    "superClasses" : [ "5" ]
+  } ],
+  "property" : [ {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#enables_CO2_savings",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "enables_CO2_savings"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#is_vehicle",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "is_vehicle"
+    },
+    "domain" : "8",
+    "attributes" : [ "external", "object" ],
+    "id" : "12"
+  }, {
+    "range" : "5",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "5",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "5",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "7",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "7",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "7",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "7",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#has_semiconductor",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "has_semiconductor"
+    },
+    "domain" : "36",
+    "attributes" : [ "external", "object" ],
+    "id" : "35"
+  }, {
+    "range" : "14",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "14",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#is_produced_by_semiconductor_company",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "is_produced_by_semiconductor_company"
+    },
+    "domain" : "7",
+    "attributes" : [ "external", "object" ],
+    "id" : "39"
+  }, {
+    "range" : "7",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "14",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "1",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "14",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "1",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "1",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#contributes_for_CO2_savings",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "contributes_for_CO2_savings"
+    },
+    "domain" : "47",
+    "attributes" : [ "external", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "1",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "55"
+  }, {
+    "range" : "1",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "1",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "57"
+  }, {
+    "range" : "1",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#has_battery",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "has_battery"
+    },
+    "domain" : "8",
+    "attributes" : [ "external", "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#model",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "model"
+    },
+    "domain" : "8",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#has_functional_block",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "has_functional_block"
+    },
+    "domain" : "47",
+    "attributes" : [ "external", "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#is_part_of_battery",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "is_part_of_battery"
+    },
+    "domain" : "52",
+    "attributes" : [ "external", "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.w3id.org/ecsel-dr-BMS#is_functional_block",
+    "baseIri" : "http://www.w3id.org/ecsel-dr-BMS",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "is_functional_block"
+    },
+    "domain" : "53",
+    "attributes" : [ "external", "object" ],
+    "id" : "64"
+  } ]
+}

@@ -1,0 +1,2058 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#activates -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#activates">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_activated_by"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error353"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object"/>
+        <rdfs:comment>The connector is used to represent the chronological order in an EPC, where an Event or a Rule activate a Task or Process Interface. </rdfs:comment>
+        <rdfs:label xml:lang="en">activates</rdfs:label>
+        <skos:altLabel>activ</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#activates_function -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#activates_function">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#activates"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_activated_by_function"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Event"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error345"/>
+        <rdfs:comment>Specialization of the activates property that links the class Event with Task and Process Interface in the course of the process flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">activates function</rdfs:label>
+        <skos:altLabel>activ function</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#activates_task -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#activates_task">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#activates"/>
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_activated_by_task"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Rule"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:comment>Specialization of the activates property that links the class Rule with Task in the course of the process flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">activates task</rdfs:label>
+        <skos:altLabel>activ task</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#belongs_to_model -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#belongs_to_model">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model_Element"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model"/>
+        <rdfs:comment>Denotes the connection between a &quot;Function&quot; and another &quot;Process&quot; as this process may deliver an output used in this function.</rdfs:comment>
+        <rdfs:label xml:lang="en">belongs to model</rdfs:label>
+        <skos:altLabel>belong</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#carries_out_task -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#carries_out_task">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_carried_out_by"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error363"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Role"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:comment>Role(s) or Organizational unit(s) that carrries (carry) out the process step (equivalent to R in RACI notation)</rdfs:comment>
+        <rdfs:label xml:lang="en">carries out task</rdfs:label>
+        <skos:altLabel>carri</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#connected_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#connected_to">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model"/>
+        <rdfs:comment xml:lang="en">Represents the connections and dependencies between models</rdfs:comment>
+        <rdfs:label xml:lang="en">connected to</rdfs:label>
+        <skos:altLabel>connect</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#contains -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#contains">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error344"/>
+        <rdfs:comment xml:lang="en">Links a Model with the elements represented by it.</rdfs:comment>
+        <rdfs:label xml:lang="en">contains</rdfs:label>
+        <skos:altLabel>contain</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#contributes_to_task -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#contributes_to_task">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_worked_on_by_collaboration_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Role"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:comment>Role(s) that contribute(s) to a process step during it is carried out.</rdfs:comment>
+        <rdfs:label xml:lang="en">contributes to task</rdfs:label>
+        <skos:altLabel>contribut</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#controls_function -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#controls_function">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:comment>A goal controls the outcome of a function in a process flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">controls function</rdfs:label>
+        <skos:altLabel>control</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#creates_event -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#creates_event">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_created_by"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error350"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Event"/>
+        <rdfs:comment>A process step creates an event. The connector is used to represent the chronological order in an EPC.</rdfs:comment>
+        <rdfs:label xml:lang="en">creates event</rdfs:label>
+        <skos:altLabel>creat</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model">
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error349"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model"/>
+        <rdfs:comment xml:lang="en">Links a FuncitonObject or a ModelElement with the Model that it&apos;s represented in.</rdfs:comment>
+        <rdfs:label xml:lang="en">diagramed on model</rdfs:label>
+        <skos:altLabel>diagram</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#evaluates -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#evaluates">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_evaluated_by"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Join_Rule"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Event"/>
+        <rdfs:comment>A rule evaluates an event. The connector is used to represent the chronological order in an EPC.</rdfs:comment>
+        <rdfs:label xml:lang="en">evaluates</rdfs:label>
+        <skos:altLabel>evalu</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#executes_software -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#executes_software">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_executed_by_function"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:range rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+        <rdfs:comment>A function in a process flow excutes software.</rdfs:comment>
+        <rdfs:label xml:lang="en">executes software</rdfs:label>
+        <skos:altLabel>execut</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#flow -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#flow">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model_Element"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model_Element"/>
+        <rdfs:comment>Enables the modelling of the process flow by logically connecting the different process elements. Therefore, the domain and the range are set to a &quot;Process Element&quot;.</rdfs:comment>
+        <rdfs:label xml:lang="en">flow</rdfs:label>
+        <skos:altLabel>flow</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#follows -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#follows">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:comment>A process step follows a process step. The connector is used to represent the chronological order in an EPC.</rdfs:comment>
+        <rdfs:label xml:lang="en">follows</rdfs:label>
+        <skos:altLabel>follow</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#has_as_input -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#has_as_input">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_input_for"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Technical_Term"/>
+        <rdfs:comment>A process step can have technical term(s) as input.</rdfs:comment>
+        <rdfs:label xml:lang="en">has as input</rdfs:label>
+        <skos:altLabel>input</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#has_as_output -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#has_as_output">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_output_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Output"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Technical_Term"/>
+        <rdfs:comment>A function in a process flow produces a physical or non-physical output.</rdfs:comment>
+        <rdfs:comment>A process step can have technical term(s) as output.</rdfs:comment>
+        <rdfs:label xml:lang="en">has as output</rdfs:label>
+        <skos:altLabel>output</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#has_next_model -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#has_next_model">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#has_previous_model"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow"/>
+        <rdfs:comment>An EPC can have another EPC following which is dependent on the result. The connector is used to represent the chronological order in a VACD.</rdfs:comment>
+        <rdfs:label>has next model</rdfs:label>
+        <skos:altLabel>model</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#has_object -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#has_object">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#relevant_to"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error352"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error339"/>
+        <rdfs:comment>EPCs and Value-added chain diagrams consist of objects.</rdfs:comment>
+        <rdfs:label xml:lang="en">has object</rdfs:label>
+        <skos:altLabel>object</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#has_previous_model -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#has_previous_model">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow"/>
+        <rdfs:comment>An EPC can have another EPC previous to itself and is dependent on its results. The connector is used to represent the chronological order in a VACD.</rdfs:comment>
+        <rdfs:label xml:lang="en">has previous model</rdfs:label>
+        <skos:altLabel>previou model</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#has_sub_flow -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#has_sub_flow">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow"/>
+        <rdfs:comment>EPCs can have other EPCs as subordinates. The connector is used to represent the hierarchical order.</rdfs:comment>
+        <rdfs:label xml:lang="en">has sub flow</rdfs:label>
+        <skos:altLabel>sub flow</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#has_sub_model -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#has_sub_model">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model"/>
+        <rdfs:comment>Denotes to which instance of &quot;Process&quot; an instance of a &quot;Process Element&quot; belongs.</rdfs:comment>
+        <rdfs:label xml:lang="en">has sub model</rdfs:label>
+        <skos:altLabel>sub model</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#has_subordinate -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#has_subordinate">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#has_superior"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow"/>
+        <rdfs:comment>Value-added chain diagrams have EPCs as subordinates. The connector is used to represent the hierarchical order.</rdfs:comment>
+        <rdfs:label>has subordinate</rdfs:label>
+        <skos:altLabel>subordin</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#has_subordinate_VACD -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#has_subordinate_VACD">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#has_superior_VACD"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram"/>
+        <rdfs:comment>Value-added chain diagrams have value-added chain diagrams as subordinates. The connector is used to represent the hierarchical order.</rdfs:comment>
+        <rdfs:label>has subordinate VACD</rdfs:label>
+        <skos:altLabel>subordin vacd</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#has_superior -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#has_superior">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram"/>
+        <rdfs:comment>EPCs have value-added chain diagrams as superior. The connector is used to represent the hierarchical order.</rdfs:comment>
+        <rdfs:label>has superior</rdfs:label>
+        <skos:altLabel>superior</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#has_superior_VACD -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#has_superior_VACD">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram"/>
+        <rdfs:comment>Value-added chain diagrams have another value-added chain diagram as superior. The connector is used to represent the hierarchical order.</rdfs:comment>
+        <rdfs:label>has superior VACD</rdfs:label>
+        <skos:altLabel>superior vacd</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_activated_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_activated_by">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error338"/>
+        <rdfs:comment>A process step is activated by an event or a rule. The connector is used to represent the chronological order in an EPC.</rdfs:comment>
+        <rdfs:label>is activated by</rdfs:label>
+        <skos:altLabel>activ</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_activated_by_function -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_activated_by_function">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_activated_by"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error346"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Event"/>
+        <rdfs:comment>Represents the inverse property of activatesFunction.</rdfs:comment>
+        <rdfs:label>is activated by function</rdfs:label>
+        <skos:altLabel>activ function</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_activated_by_task -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_activated_by_task">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_activated_by"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Rule"/>
+        <rdfs:comment>Represents the inverse property of activatesTask.</rdfs:comment>
+        <rdfs:label>is activated by task</rdfs:label>
+        <skos:altLabel>activ task</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_assigned_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_assigned_to">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#leads_to_rule"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Rule"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:comment>A rule is assigned to a process step. The connector is used to represent the chronological order in an EPC.</rdfs:comment>
+        <rdfs:label xml:lang="en">is assigned to</rdfs:label>
+        <skos:altLabel>assign</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_carried_out_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_carried_out_by">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error341"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Role"/>
+        <rdfs:comment>A process step is carried out by role(s) or organizational unit(s) (equivalent to R in RACI notation).</rdfs:comment>
+        <rdfs:label xml:lang="en">is carried out by</rdfs:label>
+        <skos:altLabel>carri</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:range rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal"/>
+        <rdfs:comment>The result of a function in a process flow is controlled by a goal.</rdfs:comment>
+        <rdfs:label xml:lang="en">is controlled by</rdfs:label>
+        <skos:altLabel>control</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_created_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_created_by">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Event"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error337"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object"/>
+        <rdfs:comment>An event is created by a process step. The connector is used to represent the chronological order in an EPC.</rdfs:comment>
+        <rdfs:label xml:lang="en">is created by</rdfs:label>
+        <skos:altLabel>creat</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_dependent_on -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_dependent_on">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#leads_to_event"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Event"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Rule"/>
+        <rdfs:comment>An event is dependent on a rule. The connector is used to represent the chronological order in an EPC.</rdfs:comment>
+        <rdfs:label xml:lang="en">is dependent on</rdfs:label>
+        <skos:altLabel>depend</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_evaluated_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_evaluated_by">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Event"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Join_Rule"/>
+        <rdfs:comment>An event is evaluated by a rule. The connector is used to represent the chronological order in an EPC.</rdfs:comment>
+        <rdfs:label xml:lang="en">is evaluated by</rdfs:label>
+        <skos:altLabel>evalu</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_executed_by_function -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_executed_by_function">
+        <rdfs:domain rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:comment>Software is executed by a function in a process flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">is exectued by function</rdfs:label>
+        <skos:altLabel>exectu</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_input_for -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_input_for">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Technical_Term"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:comment>A software independent business object or product/services may be input for a process step.</rdfs:comment>
+        <rdfs:label xml:lang="en">is input for</rdfs:label>
+        <skos:altLabel>input</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_input_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_input_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Input"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:comment>An external physical or non-physical input is used in a function in a process flow and is therefore input of it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is input of</rdfs:label>
+        <skos:altLabel>isinput</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_linked_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_linked_by">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#links"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Rule"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Rule"/>
+        <rdfs:label xml:lang="en">is linked by</rdfs:label>
+        <skos:altLabel>link</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_output_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_output_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Output"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Technical_Term"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:comment>A software independent business object may be output of a process step.</rdfs:comment>
+        <rdfs:comment>Physical or non-physical output is produced by a function in a process flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">is output of</rdfs:label>
+        <skos:altLabel>output</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_predecessor_of">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:comment>The connector is used to represent the chronological order of value chain elements.</rdfs:comment>
+        <rdfs:label xml:lang="en">is predecessor of</rdfs:label>
+        <skos:altLabel>predecessor</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_processed_by_human_output -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_processed_by_human_output">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#processes_function"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Human_Output"/>
+        <rdfs:comment>The execution of a function in a process flow is processed by a person (human output).</rdfs:comment>
+        <rdfs:label xml:lang="en">is processed by</rdfs:label>
+        <skos:altLabel>process</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_represented_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_represented_by">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#represents"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error351"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Screen"/>
+        <rdfs:comment>Represents the inverse property of represents.</rdfs:comment>
+        <rdfs:label>is represented by</rdfs:label>
+        <skos:altLabel>repres</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_responsible_for_fuction -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_responsible_for_fuction">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#is_under_responsibility_of"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organizational_Unit"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:comment>An organizational unit is responible for a function in a process flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">is responsible for</rdfs:label>
+        <skos:altLabel>respons</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:comment>EPCs can have other EPCs as superiors. The connector is used to represent the hierarchical order.</rdfs:comment>
+        <rdfs:label xml:lang="en">is sub flow of</rdfs:label>
+        <skos:altLabel>sub flow</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_supported_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_supported_by">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#supports_task"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Application_System_Type"/>
+        <rdfs:comment>A process step is supported by an application system type.</rdfs:comment>
+        <rdfs:label>is supported by</rdfs:label>
+        <skos:altLabel>support</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_transformed_by -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_transformed_by">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#transforms"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Environmental_Data"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:comment>Environmental data is transformed by a function in a process flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">is transformed by</rdfs:label>
+        <skos:altLabel>transform</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_under_responsibility_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_under_responsibility_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organizational_Unit"/>
+        <rdfs:comment>The execution of a function in a process flow is under the responsibility of an organizational unit.</rdfs:comment>
+        <rdfs:label xml:lang="en">is under responsibility of</rdfs:label>
+        <skos:altLabel>respons</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_used_by_function -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_used_by_function">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#uses"/>
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error355"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:comment>An external resource is used by a function in a process flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">is used by function</rdfs:label>
+        <skos:altLabel>use</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#is_worked_on_by_collaboration_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#is_worked_on_by_collaboration_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-SO#is_workshop_of"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Role"/>
+        <rdfs:comment>A process step is worked on by collaboration of role(s).</rdfs:comment>
+        <rdfs:label xml:lang="en">is worked on by collaboration of</rdfs:label>
+        <skos:altLabel>work collabor</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#leads_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#leads_to">
+        <rdfs:comment>The connector is used to represent the chronological order in an EPC.</rdfs:comment>
+        <rdfs:label xml:lang="en">leads to</rdfs:label>
+        <skos:altLabel>lead</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#leads_to_event -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#leads_to_event">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#leads_to"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Rule"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Event"/>
+        <rdfs:comment>A rule leads to an event. The connector is used to represent the chronological order in an EPC.</rdfs:comment>
+        <rdfs:label xml:lang="en">leads to event</rdfs:label>
+        <skos:altLabel>lead event</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#leads_to_rule -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#leads_to_rule">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#leads_to"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Rule"/>
+        <rdfs:comment>A process step leads to a rule. The connector is used to represent the chronological order in an EPC.</rdfs:comment>
+        <rdfs:label xml:lang="en">leads to rule</rdfs:label>
+        <skos:altLabel>lead rule</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#links -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#links">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Rule"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Rule"/>
+        <rdfs:label xml:lang="en">links</rdfs:label>
+        <skos:altLabel>link</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#must_be_informed_about -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#must_be_informed_about">
+        <inverseOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#results_forwarded_to"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Role"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:comment>Role(s) to be informed after/ during the process step is carried out (one-way-communication) (equivalent to I in RACI notation)</rdfs:comment>
+        <rdfs:label xml:lang="en">must be informed about</rdfs:label>
+        <skos:altLabel>inform</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#processes_function -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#processes_function">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Human_Output"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:comment>Some person, referred to as human output here, processes a function in a process flow. </rdfs:comment>
+        <rdfs:label>processes</rdfs:label>
+        <skos:altLabel>process</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#relevant_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#relevant_to">
+        <rdfs:domain rdf:resource="http://org.semanticweb.owlapi/error#Error362"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error343"/>
+        <rdfs:comment>An object is relevant for EPCs and value-added chain diagrams.</rdfs:comment>
+        <rdfs:label xml:lang="en">relevant to</rdfs:label>
+        <skos:altLabel>relev</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#represents -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#represents">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity"/>
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Screen"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error340"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:comment>A aris:BPActivity is the graphical representation of a aris:VACD or aris:BPFlow in a aris:VACD.</rdfs:comment>
+        <rdfs:label xml:lang="en">represents</rdfs:label>
+        <skos:altLabel>repres</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#results_forwarded_to -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#results_forwarded_to">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Role"/>
+        <rdfs:comment>A result of a process step is forwarded to role(s).</rdfs:comment>
+        <rdfs:label xml:lang="en">resultIs forwarded to</rdfs:label>
+        <skos:altLabel>result forward</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#supports_task -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#supports_task">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Application_System_Type"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:comment>A process step is supported by an Application system.</rdfs:comment>
+        <rdfs:label xml:lang="en">supports task</rdfs:label>
+        <skos:altLabel>support</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#transforms -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#transforms">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:range rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Environmental_Data"/>
+        <rdfs:comment>A function in a process flow transforms environmental data like work schedules.</rdfs:comment>
+        <rdfs:label xml:lang="en">transforms</rdfs:label>
+        <skos:altLabel>transform</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#uses -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#uses">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:range rdf:resource="http://org.semanticweb.owlapi/error#Error342"/>
+        <rdfs:comment>A function in a process flow uses external resources like machines or computer hardware during its execution.</rdfs:comment>
+        <rdfs:label xml:lang="en">uses</rdfs:label>
+        <skos:altLabel>use</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SO#is_workshop_of -->
+
+
+    <ObjectProperty rdf:about="http://www.w3id.org/ecsel-dr-SO#is_workshop_of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#IP_code -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#IP_code">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">IP code</rdfs:label>
+        <skos:altLabel>ip code</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#completion_status -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#completion_status">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">completion status</rdfs:label>
+        <skos:altLabel>complet statu</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#creator -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#creator">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">creator</rdfs:label>
+        <skos:altLabel>creator</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#experience -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#experience">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Role"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Describes the experience that is required.</rdfs:comment>
+        <rdfs:label xml:lang="en">experience</rdfs:label>
+        <skos:altLabel>experi</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#handling -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#handling">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Task"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Describes the requirements for the specific handling of objects.</rdfs:comment>
+        <rdfs:label xml:lang="en">handling</rdfs:label>
+        <skos:altLabel>handl</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#identifier -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#identifier">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Represents the unique identifier of the element.</rdfs:comment>
+        <rdfs:label xml:lang="en">identifier</rdfs:label>
+        <skos:altLabel xml:lang="en">identifi</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#knowledge -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#knowledge">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Role"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Describes the knowledge that is required.</rdfs:comment>
+        <rdfs:label xml:lang="en">knwoledge</rdfs:label>
+        <skos:altLabel>knwoledg</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#mission -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#mission">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Describes the mission or goal of a business process (flow).</rdfs:comment>
+        <rdfs:label xml:lang="en">mission</rdfs:label>
+        <skos:altLabel>mission</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#orphan -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#orphan">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">orphan</rdfs:label>
+        <skos:altLabel>orphan</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#owner -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#owner">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Represents the owner of a business process (flow).</rdfs:comment>
+        <rdfs:label xml:lang="en">owner</rdfs:label>
+        <skos:altLabel>owner</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#person_responsible -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#person_responsible">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Subprocess_Diagram"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">States whether someone is responsible for the SubprocessDiagram or not.</rdfs:comment>
+        <rdfs:label xml:lang="en">person responsible</rdfs:label>
+        <skos:altLabel>person respons</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#project_scope -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#project_scope">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">project scope</rdfs:label>
+        <skos:altLabel>project scope</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#remark_or_example -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#remark_or_example">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Application_System_Type"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Denotes a remark or an example that is given specific to an element.</rdfs:comment>
+        <rdfs:label xml:lang="en">remark or example</rdfs:label>
+        <skos:altLabel xml:lang="en">remark exampl</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#requirements -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#requirements">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Description of all requirements for the certain input or output.</rdfs:comment>
+        <rdfs:label xml:lang="en">requirements</rdfs:label>
+        <skos:altLabel xml:lang="en">requir</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#scope -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#scope">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Denotes the scope of a specific business process (flow).</rdfs:comment>
+        <rdfs:label xml:lang="en">scope</rdfs:label>
+        <skos:altLabel xml:lang="en">scope</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#transaction_code -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3id.org/ecsel-dr-PMV#transaction_code">
+        <rdfs:domain rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Screen"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Contains the transaction code assigned to a Screen in SAP.</rdfs:comment>
+        <rdfs:label xml:lang="en">transaction code</rdfs:label>
+        <skos:altLabel>transact code</skos:altLabel>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error337 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error337"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error338 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error338"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error339 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error339"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error340 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error340"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error341 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error341"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error342 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error342"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error343 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error343"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error344 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error344"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error345 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error345"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error346 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error346"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error347 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error347"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error348 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error348"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error349 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error349"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error350 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error350"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error351 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error351"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error352 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error352"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error353 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error353"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error354 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error354"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error355 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error355"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error356 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error356"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error357 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error357"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error358 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error358"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error359 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error359"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error360 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error360"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error361 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error361"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error362 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error362"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error363 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error363"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error364 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error364"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error365 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error365"/>
+    
+
+
+    <!-- http://org.semanticweb.owlapi/error#Error366 -->
+
+
+    <Class rdf:about="http://org.semanticweb.owlapi/error#Error366"/>
+    
+
+
+    <!-- http://purl.org/dc/dcmitype/Service -->
+
+
+    <Class rdf:about="http://purl.org/dc/dcmitype/Service"/>
+    
+
+
+    <!-- http://purl.org/dc/dcmitype/Software -->
+
+
+    <Class rdf:about="http://purl.org/dc/dcmitype/Software"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/Physical_Resource -->
+
+
+    <Class rdf:about="http://purl.org/dc/terms/Physical_Resource"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#Information_Object -->
+
+
+    <Class rdf:about="http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#Information_Object"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal -->
+
+
+    <Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal"/>
+    
+
+
+    <!-- http://www.w3.org/ns/org#Organizational_Unit -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/org#Organizational_Unit"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr#Process_Lobe -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr#Process_Lobe"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#AND -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#AND">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error366"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Connector"/>
+        <rdfs:comment>All incoming pathways required to proceed along the flow
+All outgoing pathways must be followed
+Used to divide/rejoin tasks/flows which happen in parallel with another, rather than in a strict sequence</rdfs:comment>
+        <rdfs:comment>All outgoing process paths must be followed.</rdfs:comment>
+        <rdfs:comment>The connector is responsible for splitting the control flow in at least two different branches, which are executed parallely where all branches must be followed.</rdfs:comment>
+        <rdfs:isDefinedBy>https://www.epc-standard.org/collaborate/AND-Split</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">AND</rdfs:label>
+        <skos:altLabel>and</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Application_System_Type -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Application_System_Type">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+        <rdfs:comment>An application system type classifies individual application systems which have exactly the same technological properties. Process steps might be supported by application systems. Object describe IT systems (library for IT systems available).</rdfs:comment>
+        <rdfs:isDefinedBy>https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532992</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Application System Type</rdfs:label>
+        <skos:altLabel>applic system type</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Business_Process -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Business_Process">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error356"/>
+        <rdfs:comment>A Business Process (BP) consists of a series of value-creating activities that reach the performance expected by customers and fulfill goals derived from the business strategy.</rdfs:comment>
+        <rdfs:label xml:lang="en">Business Process</rdfs:label>
+        <skos:altLabel>BP</skos:altLabel>
+        <skos:altLabel>busi process</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Business_Process_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:comment>A Business Process (BP) Activity is a part of a Business Process containing one or more sub Business Processes or a Process Flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">Business Process Activity</rdfs:label>
+        <skos:altLabel>BP Activity</skos:altLabel>
+        <skos:altLabel>busi process activ</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Process_Lobe"/>
+        <rdfs:comment xml:lang="en">An EPC describes a Business Process Flow, which is a sequence of required tasks to create specified outputs using defined inputs.
+A Business Process Flow is a sequence of required tasks to create specified outputs using defined inputs.</rdfs:comment>
+        <rdfs:label xml:lang="en">Business Process Flow</rdfs:label>
+        <skos:altLabel xml:lang="en">Event-driven process chain</skos:altLabel>
+        <skos:altLabel xml:lang="en">busi process flow</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Business_Process_Landscape -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Business_Process_Landscape">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error359"/>
+        <rdfs:comment>A Business Process Landscape (BP_Landscape) is a detailed overview of a specific Core- or Enabler Process.</rdfs:comment>
+        <rdfs:label xml:lang="en">Business Process Landscape</rdfs:label>
+        <skos:altLabel>BP Landscape</skos:altLabel>
+        <skos:altLabel>busi process landscap</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Company_Process_Framework -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Company_Process_Framework">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error361"/>
+        <rdfs:comment>IPF is the structured overview of all IFX Core and Enabler Processes. It contains 4 Core Processes and 6 Enabler Processes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Company Process Framework</rdfs:label>
+        <skos:altLabel>Company process framework</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Computer_Hardware -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Computer_Hardware">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Physical_Resource"/>
+        <rdfs:comment>Physical equipment that makes up a computer system, such as circuit boards, keyboard and mouse, monitor, printer, power supply, storage devices. Contrasts with software.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.businessdictionary.com/definition/hardware.html</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Computer Hardware</rdfs:label>
+        <skos:altLabel>comput hardwar</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Connector -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Connector">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Rule"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model_Element"/>
+        <rdfs:comment> A connector determines the behavior of the process in case its control ?ow is split up into or joined from several execution branches.</rdfs:comment>
+        <rdfs:isDefinedBy>https://www.epc-standard.org/collaborate/Operator</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Connector</rdfs:label>
+        <skos:altLabel>Rule</skos:altLabel>
+        <skos:altLabel>connector</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#End_Event -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#End_Event">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Event"/>
+        <disjointWith rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Start_Event"/>
+        <rdfs:comment xml:lang="en">Denotes the event element that stands at the end of a branch in the process flow and thus, ends the process flow branch or the total process.</rdfs:comment>
+        <rdfs:label xml:lang="en">End Event</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Environmental_Data -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Environmental_Data">
+        <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/informationrealization.owl#Information_Object"/>
+        <rdfs:comment xml:lang="en">Additional information to a process like work schedule, production plans, etc.</rdfs:comment>
+        <rdfs:label xml:lang="en">Environmental Data</rdfs:label>
+        <skos:altLabel>environment data</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Event -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Event">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model_Element"/>
+        <rdfs:comment xml:lang="en">An event illustrates the fact that a process object has taken on a business relevant state influencing the further procedure of a process. Unlike a function, which is a time consuming occurrence, an event is related to one point in time. Therefore, it is used to describe an event or status in the process flow. The object is mandatory for: EPC start and EPC end or after x (xor), v (or).</rdfs:comment>
+        <rdfs:comment xml:lang="en">The event is a passive element since it represents a change of state but does not cause it. Furthermore it can characterize the conditions and the results of an activity, which in turn triggers the next function. An event with no incoming arc is called start event, while an event with no outgoing arc is called end event.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy xml:lang="en">https://www.epc-standard.org/collaborate/Event</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Event</rdfs:label>
+        <skos:altLabel xml:lang="en">Status</skos:altLabel>
+        <skos:altLabel xml:lang="en">event</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Function -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Function">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function_Object"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model_Element"/>
+        <rdfs:comment>The function type represents several action elements as task, process interfaces or business process activities.</rdfs:comment>
+        <rdfs:comment>They are the active elements of an EPC that represent the activities of a modelled process and again raise events upon completion. The extended event driven process chain expands the semantic of functions, since they may be associated with the organizational unit performing the function or the data needed and created as output by the function.</rdfs:comment>
+        <rdfs:isDefinedBy>https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993</rdfs:isDefinedBy>
+        <rdfs:isDefinedBy>https://www.epc-standard.org/collaborate/Function</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Function</rdfs:label>
+        <skos:altLabel>function</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Function_Object -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Function_Object">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Process_Lobe"/>
+        <rdfs:comment xml:lang="en">In IndustryPrint 5, function objects are used to model the decomposition of a process.</rdfs:comment>
+        <rdfs:label xml:lang="en">Function Object</rdfs:label>
+        <skos:altLabel>function object</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Human_Output -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Human_Output">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Role"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:comment>Human being that puts effort in the processing of a process step (function). It belongs to the organizational unit that is responsible for the specific process step.</rdfs:comment>
+        <rdfs:label xml:lang="en">Human Output</rdfs:label>
+        <skos:altLabel>Role</skos:altLabel>
+        <skos:altLabel>human output</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Input -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Input">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Process_Lobe"/>
+        <rdfs:comment>Item external to a system (such as a process) that is transformed by the system (usually together with one or more other items) to become an output.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.businessdictionary.com/definition/input.html</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Input</rdfs:label>
+        <skos:altLabel>input</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Join_Rule -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Join_Rule">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error357"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error358"/>
+        <disjointWith rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Split_Rule"/>
+        <rdfs:comment>Rule element that unites the control flow after being split into several branches. Has several incoming paths (at least two) and one outgoing.</rdfs:comment>
+        <rdfs:label xml:lang="en">Join Rule</rdfs:label>
+        <skos:altLabel>join rule</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Machine_Resource -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Machine_Resource">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Physical_Resource"/>
+        <rdfs:comment>Semi or fully automated device that magnifies human physical and/or mental capabilities in performing one or more operations.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.businessdictionary.com/definition/machine.html</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Machine Resource</rdfs:label>
+        <skos:altLabel>machin resourc</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Material -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Material">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Physical_Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Input"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Output"/>
+        <rdfs:comment>The matter from which something can be made. Material can include but is not limited to raw and processed material, components, parts, assemblies, sub-assemblies, fuels, lubricants, coolants, cleaning agents, and small tools and accessories that may be consumed directly or indirectly.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.businessdictionary.com/definition/material.html</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Material</rdfs:label>
+        <skos:altLabel>materi</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Model -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Model">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Process_Lobe"/>
+        <rdfs:comment>One striking commonality between EPC meta models is the Process. One process may contain an unlimited number of elements, but a process element is always linked to a specific process. If a process contains an interface, it is always linked to one specific process and represents a refinement of a normal function.</rdfs:comment>
+        <rdfs:comment>To graphically depict functional and process decomposition, function objects are diagramed on models in IndustryPrint 5.</rdfs:comment>
+        <rdfs:isDefinedBy>https://www.epc-standard.org/collaborate/Process</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model</rdfs:label>
+        <skos:altLabel>model</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Model_Element -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Model_Element">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Process_Lobe"/>
+        <rdfs:comment>An EPC model element is part of the EPC meta model and can be represented by a Function, an Event, an Operator, a Process Interface.</rdfs:comment>
+        <rdfs:comment>Represents an object in the EPC model. Includes all elements used in the modelling procedure of an EPC diagram.</rdfs:comment>
+        <rdfs:comment>Represents process flow elements except for modelling function objects.</rdfs:comment>
+        <rdfs:isDefinedBy>https://www.epc-standard.org/collaborate/Process_element</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Model Element</rdfs:label>
+        <skos:altLabel>model element</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function_Object"/>
+        <rdfs:comment xml:lang="en">Function objects are used to model the decomposition of the process flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">Modelling Function Object</rdfs:label>
+        <skos:altLabel>model function object</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#OR -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#OR">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error354"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Connector"/>
+        <rdfs:comment>At least one of the possible process paths must be followed.</rdfs:comment>
+        <rdfs:comment>It is responsible for splitting the control flow up in at least two different branches, due to an nonexclusive choice where one or several branches can be followed.</rdfs:comment>
+        <rdfs:comment>One or more incoming pathways required to proceed along the flow
+One or more outgoing pathways must be followed
+Used only when neither XOR nor AND can be used to better illustrate flow
+Has the weakest logic and should be used as sparingly as absolutely possible</rdfs:comment>
+        <rdfs:isDefinedBy>https://www.epc-standard.org/collaborate/OR-Split</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">OR</rdfs:label>
+        <skos:altLabel>or</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Other_Services -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Other_Services">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/dcmitype/Service"/>
+        <rdfs:comment>Collection of other services used as input to a production process or which are created during a production process.</rdfs:comment>
+        <rdfs:label xml:lang="en">Other Services</rdfs:label>
+        <skos:altLabel xml:lang="en">service</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Output -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Output">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Process_Lobe"/>
+        <rdfs:comment>The amount of energy, work, goods, or services produced by a machine, factory, company, or an individual in a period.</rdfs:comment>
+        <rdfs:isDefinedBy>http://www.businessdictionary.com/definition/output.html</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Output</rdfs:label>
+        <skos:altLabel>output</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Process -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Process">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-SO#Process"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object"/>
+        <rdfs:comment>A collection of subprocesses that meet a specific business objective. E.g. Perform Sourcing or Purchase Materials and Services</rdfs:comment>
+        <rdfs:label xml:lang="en">Process</rdfs:label>
+        <skos:altLabel>process</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Process_Diagram -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Process_Diagram">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model"/>
+        <rdfs:comment>The first level of process decomposition that is comprised of subprocesses that depict a business objective.</rdfs:comment>
+        <rdfs:label xml:lang="en">Process Diagram</rdfs:label>
+        <skos:altLabel>Process Diagram (L2)</skos:altLabel>
+        <skos:altLabel>process diagram</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Process_Group -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Process_Group">
+        <equivalentClass rdf:resource="http://www.w3id.org/ecsel-dr-SO#Process_Group"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object"/>
+        <rdfs:comment>A set of a processes covering a single business area. Usually under the ownership of one business process owner and correlates to one module. E.g. Procurement</rdfs:comment>
+        <rdfs:label xml:lang="en">Process Group</rdfs:label>
+        <skos:altLabel>process group</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Process_Group_Map -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Process_Group_Map">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model"/>
+        <rdfs:comment>A set of a processes covering a single business area. Usually under the ownership of one business process owner and aligning with a function.</rdfs:comment>
+        <rdfs:label xml:lang="en">Process Group Map</rdfs:label>
+        <skos:altLabel>Process Group Map (L1)</skos:altLabel>
+        <skos:altLabel>process group map</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Process_Interface -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Process_Interface">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object"/>
+        <rdfs:comment xml:lang="en">Process Interfaces connect several process models on the same Process hierarchical levelby linking the EPCs according to their shared events (also known as &quot;horizontal navigation&quot;). They thus facilitate process structuring and navigation by keeping models concise</rdfs:comment>
+        <rdfs:comment xml:lang="en">Process interfaces connect several process models on the same process hierarchical level by linking the EPCs according to their shared events (also known as &quot;horizontal navigation&quot;). They thus facilitate process structuring and navigation by keeping models concise and easy-to-read.
+Functionality: Jump function to next process (e.g. EPC, VAC), typically at the end of process branches. In the EPC flow there is an Event directly before.</rdfs:comment>
+        <rdfs:isDefinedBy>https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Process Interface</rdfs:label>
+        <skos:altLabel>Interface</skos:altLabel>
+        <skos:altLabel>process interfac</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Process_Type -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Process_Type">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object"/>
+        <rdfs:comment>A set of core and enabler processes of Infineon on Level 0 (highest level). This level helps helps organizing project work/ development and represents a single track in the oneSAP project. It is based on a Deloitte standard which was adapted to Infineon&apos;s needs.</rdfs:comment>
+        <rdfs:label xml:lang="en">Process Type</rdfs:label>
+        <skos:altLabel>process type</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Process_Type_Map -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Process_Type_Map">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model"/>
+        <rdfs:comment>A set of process types and related process groups that define the enterprise for a particular industry/sector.</rdfs:comment>
+        <rdfs:label xml:lang="en">Process Type Map</rdfs:label>
+        <skos:altLabel>Process Type Map (L0)</skos:altLabel>
+        <skos:altLabel>process type map</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Role -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Role">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:comment>Business Role (Person) that performs task.</rdfs:comment>
+        <rdfs:comment>Object to describe the role. Type of responsibility is defined by the linkage between function or activity and role. IFX options: carries out, contribute, must be informed.</rdfs:comment>
+        <rdfs:label xml:lang="en">Role</rdfs:label>
+        <skos:altLabel>role</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Rule -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Rule">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model_Element"/>
+        <rdfs:comment>Rules allow to model alternative, exclusive alternative and parallel process flows.</rdfs:comment>
+        <rdfs:isDefinedBy>https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532993</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Rule</rdfs:label>
+        <skos:altLabel>Connector</skos:altLabel>
+        <skos:altLabel>rule</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Screen -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Screen">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Process_Lobe"/>
+        <rdfs:comment>A transaction in SAP is described as a screen. Here, they represent the actions undertaken in the application SAP to perform a function in a process flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">Screen</rdfs:label>
+        <skos:altLabel>Transaction</skos:altLabel>
+        <skos:altLabel>screen</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Split_Rule -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Split_Rule">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error347"/>
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error348"/>
+        <rdfs:comment>Rule element that splits the control flow into several branches. Has one incoming path and several (at least two) outgoing paths.</rdfs:comment>
+        <rdfs:label xml:lang="en">Split Rule</rdfs:label>
+        <skos:altLabel>split rule</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Start_Event -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Start_Event">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Event"/>
+        <rdfs:comment xml:lang="en">Denotes the event that stands at the beginning of a branch in the process flow and thus, triggers the execution of this branch or the total process.</rdfs:comment>
+        <rdfs:label xml:lang="en">Start Event</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function_Object"/>
+        <rdfs:comment>Function objects are used to model the decomposition of the structure of a process.</rdfs:comment>
+        <rdfs:label xml:lang="en">Structural Function Object</rdfs:label>
+        <skos:altLabel>structur function object</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Subprocess -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Subprocess">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Structural_Function_Object"/>
+        <rdfs:comment>A grouping of related tasks that create an output within the larger objective of the subprocess. E.g. Create and Maintain Purchase Orders</rdfs:comment>
+        <rdfs:label xml:lang="en">Subprocess</rdfs:label>
+        <skos:altLabel>subprocess</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Subprocess_Diagram -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Subprocess_Diagram">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model"/>
+        <rdfs:comment>The second and lowest level of process decomposition that is comprised of tasks that depict the role-based activities of the subprocess.</rdfs:comment>
+        <rdfs:label xml:lang="en">Subprocess Diagram</rdfs:label>
+        <skos:altLabel>Subprocess Diagram (L3)</skos:altLabel>
+        <skos:altLabel>subprocess diagram</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Task -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Task">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Function"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Model_Element"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Modelling_Function_Object"/>
+        <rdfs:comment xml:lang="en">A Task is an instruction of a work package to create the output.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The lowest level of detail, a task are the activities required to execute a subprocess. A single task within a subprocess can be manual or system supported. E.g. Create Purchase Order</rdfs:comment>
+        <rdfs:label xml:lang="en">Task</rdfs:label>
+        <skos:altLabel>Process step</skos:altLabel>
+        <skos:altLabel>task</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Technical_Term -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Technical_Term">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdfs:comment xml:lang="en">Set up with connection to a function or activity or VAC. It can be either input or output, where the direction of the arrow describes whether it is an input or an output. Set up of a connection is not mandatory.</rdfs:comment>
+        <rdfs:label xml:lang="en">Technical Term</rdfs:label>
+        <skos:altLabel>technic term</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Input_Element -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Input_Element">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error360"/>
+        <rdfs:comment xml:lang="en">Denotes the input element to a function in the process flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">Technical Term Input Element</rdfs:label>
+        <skos:altLabel>technic term input element</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Output_Element -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Technical_Term_Output_Element">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error365"/>
+        <rdfs:comment xml:lang="en">Denotes the output element of a function in the process flow.</rdfs:comment>
+        <rdfs:label xml:lang="en">Technical Term Output Element</rdfs:label>
+        <skos:altLabel>technic term output element</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram">
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr#Process_Lobe"/>
+        <rdfs:comment>A Value-Added Chain is a process that represents an element of the process chain. A process hierarchy can be realized by hierarchically structuring value chains, thus modeling business areas, process groups, business processes and business process variants using the sam notation.
+House: represents enabler processes.</rdfs:comment>
+        <rdfs:isDefinedBy>https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532992</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Value-Added Chain Diagram</rdfs:label>
+        <skos:altLabel>VACD</skos:altLabel>
+        <skos:altLabel>valu - ad chain diagram</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-PMV#XOR -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-PMV#XOR">
+        <rdfs:subClassOf rdf:resource="http://org.semanticweb.owlapi/error#Error364"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3id.org/ecsel-dr-PMV#Connector"/>
+        <rdfs:comment>Exactly one of the possible process paths must be followed.</rdfs:comment>
+        <rdfs:comment>It is responsible for splitting the control flow in at least two different branches, due to an exclusive choice where exactly one of the branches is followed.</rdfs:comment>
+        <rdfs:comment>One and only one of the incoming pathways is required to proceed along the flow
+One and only one of the outgoing pathways can be taken
+Divide should be made with yes/no question and lines labelled only with �yes� or �no�
+Gateway must therefore be named with this Yes/No question</rdfs:comment>
+        <rdfs:isDefinedBy>https://www.epc-standard.org/collaborate/XOR-Split</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">XOR</rdfs:label>
+        <skos:altLabel>Exclusive OR</skos:altLabel>
+        <skos:altLabel>xor</skos:altLabel>
+    </Class>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SO#Process -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SO#Process"/>
+    
+
+
+    <!-- http://www.w3id.org/ecsel-dr-SO#Process_Group -->
+
+
+    <Class rdf:about="http://www.w3id.org/ecsel-dr-SO#Process_Group"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Document -->
+
+
+    <Class rdf:about="http://xmlns.com/foaf/0.1/Document"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+
+    <Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
