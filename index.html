@@ -348,6 +348,12 @@
         .text {
           font-size: 13px;
           }
+        .container_1 {
+           display: grid;
+           align-items: center; 
+           grid-template-columns: 0.4fr 0.4fr;
+           column-gap: 5px;
+          }
     </style>
     <style type="text/css">
       .mainDetails>summary {
@@ -543,11 +549,24 @@
           </tr>
         <div class="tabcontainer" num='1'>
           <div class="tab">
-          <button class="tablinks active" onclick="opentab(event, 1,1)">Metadata</button>
-          <button class="tablinks" onclick="opentab(event, 2,1)">Introduction</button>
+            <button class="tablinks active" onclick="opentab(event, 1,1)">Introduction</button>
+            <button class="tablinks" onclick="opentab(event, 2,1)">Metadata</button>
           </div>
-
-          <div id="Me" class="tabcontent active">
+          <div id="In" class="tabcontent active">
+            <h2>Introduction</h2>
+            <p>
+              The concept of Digital Reference originates from the Productive4.0 initiative, aligned with the principles of Industry 4.0. Productive4.0 aimed to create a comprehensive user platform fostering digital networking across industries and value chains, inspired by the Semantic Web, Semantic Web Stack, and ontology.
+            </p>
+            <p>
+              At its core, this innovative approach is a Semantic Web model capturing intricate supply chain networks in the semiconductor industry and related domains. Merging distinct supply chain structures and semiconductor production concepts, it provides a holistic understanding of this complex landscape. This model includes around 800 distinct classes, representing various concepts across diverse domains. These are organized into thematic clusters known as "lobes," analogous to functional regions in the human brain. Each lobe corresponds to a specific supply chain facet, acting as a repository of knowledge accessible to both humans and machines. For instance, the "Cloud" lobe symbolizes networked remote servers for data management, the "Power" lobe covers electrical energy consumption, and the "Product" lobe encapsulates customer-tailored items and services. Additionally, lobes encompass domains like "Semiconductor Development," "Semiconductor Production," "Sensor," "Supply Chain," and "Sustainability," among others. The lobe structure facilitates the understanding and representation of supply chain elements. These lobes serve as taxonomies for classes and property clusters, bridging connections with other project components like the Arrowhead Cloud and enabling the realization of use cases.
+            </p>
+            <p>
+              Furthermore, when considering its practical implementation, we can turn our attention to the Applications in the SC4EU Project. Within the semiconductor domain, the SC4EU project harnesses the potential of Digital Reference. By addressing the bullwhip effect through data-driven strategies, SC4EU aims to alleviate industry challenges. Employing anonymous surveys and Multi-Party Computation technology, it effectively gathers reliable demand data. This information is then mapped onto semantic representations within the model and further processed with AI tools to achieve detailed demand breakdowns. Collaborating with advanced technologies like AI and the Semantic Web, the Digital Reference becomes a catalyst for transforming the SC4EU project. This transformation elevates the platform, enhancing demand forecasting accuracy and reducing chip shortages. Beyond immediate gains, this collaboration aligns with broader objectives, such as strengthening European digital sovereignty. The integration of cybersecurity, quality assurance, and reliability principles harmonizes with Industry 4.0 goals and the ongoing journey of digital transformation.
+            </p>
+            <img src="figures/Lobes.png" class='center' alt="Lobes of Digital Reference"><img>
+            <p class='center'><b>Lobes of Digital Reference</b></p>
+          </div>
+          <div id="Me" class="tabcontent">
             <h2>Metadata</h2>
               <div>
                 <dt>
@@ -594,21 +613,6 @@
                   <a href="https://github.com/tibonto/dr/">https://github.com/tibonto/dr/</a>
                 </dd>
               </div>
-          </div>
-
-          <div id="In" class="tabcontent">
-            <h2>Introduction</h2>
-            <p>
-              The concept of Digital Reference originates from the Productive4.0 initiative, aligned with the principles of Industry 4.0. Productive4.0 aimed to create a comprehensive user platform fostering digital networking across industries and value chains, inspired by the Semantic Web, Semantic Web Stack, and ontology.
-            </p>
-            <p>
-              At its core, this innovative approach is a Semantic Web model capturing intricate supply chain networks in the semiconductor industry and related domains. Merging distinct supply chain structures and semiconductor production concepts, it provides a holistic understanding of this complex landscape. This model includes around 800 distinct classes, representing various concepts across diverse domains. These are organized into thematic clusters known as "lobes," analogous to functional regions in the human brain. Each lobe corresponds to a specific supply chain facet, acting as a repository of knowledge accessible to both humans and machines. For instance, the "Cloud" lobe symbolizes networked remote servers for data management, the "Power" lobe covers electrical energy consumption, and the "Product" lobe encapsulates customer-tailored items and services. Additionally, lobes encompass domains like "Semiconductor Development," "Semiconductor Production," "Sensor," "Supply Chain," and "Sustainability," among others. The lobe structure facilitates the understanding and representation of supply chain elements. These lobes serve as taxonomies for classes and property clusters, bridging connections with other project components like the Arrowhead Cloud and enabling the realization of use cases.
-            </p>
-            <p>
-              Furthermore, when considering its practical implementation, we can turn our attention to the Applications in the SC4EU Project. Within the semiconductor domain, the SC4EU project harnesses the potential of Digital Reference. By addressing the bullwhip effect through data-driven strategies, SC4EU aims to alleviate industry challenges. Employing anonymous surveys and Multi-Party Computation technology, it effectively gathers reliable demand data. This information is then mapped onto semantic representations within the model and further processed with AI tools to achieve detailed demand breakdowns. Collaborating with advanced technologies like AI and the Semantic Web, the Digital Reference becomes a catalyst for transforming the SC4EU project. This transformation elevates the platform, enhancing demand forecasting accuracy and reducing chip shortages. Beyond immediate gains, this collaboration aligns with broader objectives, such as strengthening European digital sovereignty. The integration of cybersecurity, quality assurance, and reliability principles harmonizes with Industry 4.0 goals and the ongoing journey of digital transformation.
-            </p>
-            <img src="figures/Lobes.png" class='center' alt="Lobes of Digital Reference"><img>
-            <p class='center'><b>Lobes of Digital Reference</b></p>
           </div>
         </div>
       </div>
@@ -843,416 +847,1039 @@
           <button class="tablinks" onclick="opentab(event, 3,2)">DatatypeProperties</button>
         </div>
         <div id="CL" class="tabcontent active">
-              <div id="classes">
-                  <h2>Classes</h2>        
-                  <dl id="Process_Lobe">
-                    <h3>Process Lobe
-                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                    </h3>
-                    <dl>
-                      <tr>
-                        <dt>IRI</dt>
-                        <dd>
-                          <code>http://www.w3id.org/ecsel-dr#Process_Lobe</code>
-                        </dd>
-                      </tr>
-                      <tr>
-                        <dt>Super Class Of</dt>
-                        <dd>
-                          <ul>
-                            <li>
-                              <span>
-                                <a href="#Goal">Goal</a>
-                                <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                              </span>
-                            </li>
-                            <li>
-                              <span>
-                                <a href="#Business_Process_Flow">Business Process Flow</a>
-                                <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                              </span>
-                            </li>
-                            <li>
-                              <span>
-                                <a href="#Function_Object">Function Object</a>
-                                <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                              </span>
-                            </li>
-                            <li>
-                              <span>
-                                <a href="#Input">Input</a>
-                                <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                              </span>
-                            </li>
-                            <li>
-                              <span>
-                                <a href="#Model">Model</a>
-                                <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                              </span>
-                            </li>
-                            <li>
-                              <span>
-                                <a href="#Model_Element">Model Element</a>
-                                <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                              </span>
-                            </li>
-                            <li>
-                              <span>
-                                <a href="#Output">Output</a>
-                                <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                              </span>
-                            </li>
-                            <li>
-                              <span>
-                                <a href="#Screen">Screen</a>
-                                <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                              </span>
-                            </li>
-                            <li>
-                              <span>
-                                <a href="#Value_Added_Chain_Diagram">Value-Added Chain Diagram</a>
-                                <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                              </span>
-                            </li>
-                            <li>
-                              <span>
-                                <a href="#Agent">Agent</a>
-                                <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                              </span>
-                            </li>
-                          </ul>
-                        </dd>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
-                        </th>
-                        <td>
-                          <p>
-                            <p>Lobe owner: Marta Bonik</p>
-
-                            Process refers to a series of interconnected and sequential actions, steps, or operations designed to achieve a specific outcome or goal within a system or organization.
-
-                            The Process lobe of the Digital Reference ontology represents the topics of Agent, Business Process Flow, Function and Function Object. It also maps the notions of Goal, Input, Model and Model Element, Output, Screen, and Value-added Chain Diagram.
-                          </p>
-                        </td>
-                      </tr>
-                    </dl>
-                  </dl>
-                  <div class="property entity" id="Goal">
-                    <h3>Goal
-                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                    </h3>
-                    <table>
-                      <tr>
+          <div id="classes">
+            <h2>Classes</h2>
+            <div title="Cloud_Lobe">   
+              <dl id="Cloud_Lobe">
+                <h3>Cloud Lobe
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <dl>
+                  <tr>
+                    <dt>IRI</dt>
+                    <dd>
+                      <code>http://www.w3id.org/ecsel-dr#Cloud_Lobe</code>
+                    </dd>
+                  </tr>
+                  <tr>
+                    <dt>Super Class Of</dt>
+                    <dd>
+                      <ul>
+                        <li>
+                          <span>
+                            <a href="#Software">Software</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#AH_Local_Cloud">AH Local Cloud</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Communication_Technology">Communication Technology</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Data_Format">Data Format</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Data_Model">Data Model</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Device">Device</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Documentation_Document">Documentation Document</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Information_Model">Information Model</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Local_Network">Local Network</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Method">Method</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Service1">Service</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Service_Documentation">Service Documentation</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Service_Oriented_Architecture">Service-Oriented Architecture</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#SoA_Property">SoA Property</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Software_System">Software System</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#System_Documentation">System Documentation</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#System_Of_Systems">System Of Systems</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                      </ul>
+                    </dd>
+                  </tr>
+                  <tr>
+                    <dt>Description</dt>
+                    <td><p>Cloud refers to a network of remote servers that store, manage, and process data and applications, providing on-demand access and scalable computing resources over the internet.</p></td>
+                  </tr>
+                </dl>
+              </dl>
+              <div class="property entity" id="Software">
+                <h3>Software
+                    <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <table>
+                    <tr>
                         <th>IRI</th>
                         <td>
-                          <code>http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal</code>
+                            <code>http://purl.org/dc/dcmitype/Software</code>
                         </td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <th>
-                          <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                            <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
                         </th>
-                        <td><p>The class Goal represents the desired outcome of a Function</p></td>
-                      </tr>
-                    </table>
-                    <p>
-                        Two Object properties are defined as functions control the outcome: <a onclick="opentab(event, 2,2)" href="#controls_function" title="http://www.w3id.org/ecsel-dr-PMV#controls_function">controls function</a>
-                        <sup class="type-op" title="object property">op</sup> and
-                        <a onclick="opentab(event, 2,2)" href="#is_controlled_by_goal" title="http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal">is controlled by</a>
-                        <sup class="type-op" title="object property">op</sup>
-                    </p>
-                  </div>
-                  <div class="property entity" id="Business_Process_Flow">
-                    <h3>Business Process Flow
-                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                    </h3>
-                    <table>
-                      <tr>
-                        <th>IRI</th>
-                        <td>
-                          <code>http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow</code>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
-                        </th>
-                        <td><p>An EPC describes a Business Process Flow, which is a sequence of required tasks to create specified outputs using defined inputs.
-                        A Business Process Flow is a sequence of required tasks to create specified outputs using defined inputs.</p></td>
-                      </tr>
-                    </table>
-                    <p>
-                      Several Object properties define the sequence in it:
-                      <a onclick="opentab(event, 2,2)" href="#has_next_model" title="http://www.w3id.org/ecsel-dr-PMV#has_next_model">has next model</a>
-                      <sup class="type-op" title="object property">op</sup> 
-                      <a onclick="opentab(event, 2,2)" href="#has_previous_model" title="http://www.w3id.org/ecsel-dr-PMV#has_previous_model">has previous model</a>
-                      <sup class="type-op" title="object property">op</sup>, 
-                      <a onclick="opentab(event, 2,2)" href="#has_superior" title="http://www.w3id.org/ecsel-dr-PMV#has_superior">has superior</a>
-                      <sup class="type-op" title="object property">op</sup>, 
-                      <a onclick="opentab(event, 2,2)" href="#is_sub_flow_of" title="http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of">is sub flow of</a>
-                      <sup class="type-op" title="object property">op</sup>
-                      <a onclick="opentab(event, 2,2)" href="#has_sub_flow" title="http://www.w3id.org/ecsel-dr-PMV#has_sub_flow">has sub flow</a>
-                      <sup class="type-op" title="object property">op</sup>, 
-                      <a onclick="opentab(event, 2,2)" href="#has_subordinate" title="http://www.w3id.org/ecsel-dr-PMV#has_subordinate">has subordinate</a>
-                      <sup class="type-op" title="object property">op</sup>
-                    </p>
-                  </div>
-                  <div class="property entity" id="Function_Object">
-                    <h3>Function Object
-                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                    </h3>
-                    <table>
-                      <tr>
-                        <th>IRI</th>
-                        <td>
-                          <code>http://www.w3id.org/ecsel-dr-PMV#Function_Object</code>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
-                        </th>
-                        <td><p>In IndustryPrint 5, function objects are used to model the decomposition of a process.</p></td>
-                      </tr>
-                    </table>
-                  </div>
-                  <div class="property entity" id="Input">
-                    <h3>Input
-                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                    </h3>
-                    <table>
-                      <tr>
-                        <th>IRI</th>
-                        <td>
-                          <code>http://www.w3id.org/ecsel-dr-PMV#Input</code>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" title="The definition of the subject resource. Defined in The RDF Schema vocabulary (RDFS)">Is Defined By</a>
-                        </th>
-                        <td>
-                          <a href="#input.html">http://www.businessdictionary.com/definition/input.html</a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
-                        </th>
-                        <td><p>Item external to a system (such as a process) that is transformed by the system (usually together with one or more other items) to become an output.</p></td>
-                      </tr>
-                    </table>
-                    <p>
-                      A Object properties is defined for subordinate relationship:<a onclick="opentab(event, 2,2)" href="#is_input_of" title="http://www.w3id.org/ecsel-dr-PMV#is_input_of">is input of</a>
-                      <sup class="type-op" title="object property">op</sup>
-                    </p>
-                  </div>
-                  <div class="property entity" id="Model">
-                    <h3>Model
-                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                    </h3>
-                    <table>
-                      <tr>
-                        <th>IRI</th>
-                        <td>
-                          <code>http://www.w3id.org/ecsel-dr-PMV#Model</code>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" title="The definition of the subject resource. Defined in The RDF Schema vocabulary (RDFS)">Is Defined By</a>
-                        </th>
-                        <td>
-                          <a href="#Process1">https://www.epc-standard.org/collaborate/Process</a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
-                        </th>
-                        <td>
-                          <ul>
-                            <li><p>One striking commonality between EPC meta models is the Process. One process may contain an unlimited number of elements, but a process element is always linked to a specific process. If a process contains an interface, it is always linked to one specific process and represents a refinement of a normal function.</p></li>
-                            <li><p>To graphically depict functional and process decomposition, function objects are diagramed on models in IndustryPrint 5.</p></li>
-                          </ul>
-                        </td>
-                      </tr>
-                    </table>
-                    <p>
-                      Several Object properties are defined for subordinate relationship:
-                      <a href="#connected_to" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#connected_to">connected to</a>
-                      <sup class="type-op" title="object property">op</sup>, 
-                      <a href="#contains" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#contains">contains</a>
-                      <sup class="type-op" title="object property">op</sup>
-                      <a href="#belongs_to_model" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#belongs_to_model">belongs to model</a>
-                      <sup class="type-op" title="object property">op</sup>,  
-                      <a href="#diagramed_on_model" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model">diagramed on model</a>
-                      <sup class="type-op" title="object property">op</sup>, 
-                      <a href="#has_sub_model" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#has_sub_model">has sub model</a>
-                      <sup class="type-op" title="object property">op</sup>
-                    </p>
-                  </div>
-                  <div class="property entity" id="Model_Element">
-                    <h3>Model Element
-                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                    </h3>
-                    <table>
-                      <tr>
-                        <th>IRI</th>
-                        <td>
-                          <code>http://www.w3id.org/ecsel-dr-PMV#Model_Element</code>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" title="The definition of the subject resource. Defined in The RDF Schema vocabulary (RDFS)">Is Defined By</a>
-                        </th>
-                        <td>
-                          <a href="#Process_element">https://www.epc-standard.org/collaborate/Process_element</a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
-                        </th>
-                        <td>
-                          <ul>
-                            <li><p>An EPC model element is part of the EPC meta model and can be represented by a Function, an Event, an Operator, a Process Interface.</p></li>
-                            <li><p>Represents an object in the EPC model. Includes all elements used in the modelling procedure of an EPC diagram.</p></li>
-                            <li><p>Represents process flow elements except for modelling function objects.</p></li>
-                          </ul>
-                        </td>
-                      </tr>
-                    </table>
-                    <p>Two Object properties are defined for subordinate relationship:
-                      <a href="#belongs_to_model" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#belongs_to_model">belongs to model</a>
-                      <sup class="type-op" title="object property">op</sup>,              
-                      <a href="#flow" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#flow">flow</a>
-                      <sup class="type-op" title="object property">op</sup>,  
-                    </p>
-                  </div>
-
-                  <div class="property entity" id="Output">
-                    <h3>Output
-                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                    </h3>
-                    <table>
-                      <tr>
-                        <th>IRI</th>
-                        <td>
-                          <code>http://www.w3id.org/ecsel-dr-PMV#Output</code>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" title="The definition of the subject resource. Defined in The RDF Schema vocabulary (RDFS)">Is Defined By</a>
-                        </th>
-                        <td>
-                          <a href="#output.html">http://www.businessdictionary.com/definition/output.html</a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
-                        </th>
-                        <td><p>The amount of energy, work, goods, or services produced by a machine, factory, company, or an individual in a period.</p></td>
-                      </tr>
-                    </table>
-                    <p>Two Object properties are defined for subordinate relationship:
-                      <a href="#is_output_of" onclick="opentab(event, 2,2)">is output of</a>
-                    <sup class="sup-op" title="OWL Object Property">op</sup>, 
-                    <a href="#has_as_output" onclick="opentab(event, 2,2)">has as output</a>
-                    <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </p>
-                  </div>
-                  <div class="property entity" id="Screen">
-                    <h3>Screen
-                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                    </h3>
-                    <table>
-                      <tr>
-                        <th>IRI</th>
-                        <td>
-                          <code>http://www.w3id.org/ecsel-dr-PMV#Screen</code>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
-                        </th>
-                        <td><p>A transaction in SAP is described as a screen. Here, they represent the actions undertaken in the application SAP to perform a function in a process flow.</p></td>
-                      </tr>
-                    </table>
-                    <p>Several Object properties are defined for subordinate relationship: 
-                        <a href="#represents" onclick="opentab(event, 2,2)">represents</a>
-                        <sup class="sup-op" title="OWL Object Property">op</sup>,
-                        <a href="#transaction_code" onclick="opentab(event, 3,2)">transaction code</a>
-                        <sup class="sup-dp" title="OWL Datatype Property">dp</sup> and 
-                        <a href="#is_represented_by" onclick="opentab(event, 2,2)">is represented by</a>
-                        <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </p>
-                  </div>
-                  <div class="property entity" id="Value_Added_Chain_Diagram">
-                    <h3>Value-Added Chain Diagram
-                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                    </h3>
-                    <table>
-                      <tr>
-                        <th>IRI</th>
-                        <td>
-                          <code>http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram</code>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" title="The definition of the subject resource. Defined in The RDF Schema vocabulary (RDFS)">Is Defined By</a>
-                        </th>
-                        <td>
-                          <a href="#viewpage.action?pageId=156532992">https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532992</a>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
-                        </th>
-                        <td><p>A Value-Added Chain is a process that represents an element of the process chain. A process hierarchy can be realized by hierarchically structuring value chains, thus modeling business areas, process groups, business processes and business process variants using the sam notation.
-                        House: represents enabler processes.</p></td>
-                      </tr>
-                    </table>
-                    <p>Several Object properties are defined for subordinate relationship: 
-                        <a href="#has_subordinate" onclick="opentab(event, 2,2)">has subordinate</a>
-                        <sup class="sup-op" title="OWL Object Property">op</sup>
-                        <a href="#has_subordinate_VACD" onclick="opentab(event, 2,2)">has subordinate VACD</a>
-                        <sup class="sup-op" title="OWL Object Property">op</sup>
-                        <a href="#has_superior_VACD" onclick="opentab(event, 2,2)">has superior VACD</a>
-                        <sup class="sup-op" title="OWL Object Property">op</sup>
-                        <a href="#has_superior" onclick="opentab(event, 2,2)">has superior</a>
-                        <sup class="sup-op" title="OWL Object Property">op</sup>
-                    </p>
-                  </div>
-                  <div class="property entity" id="Agent">
-                    <h3>Agent
-                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
-                    </h3>
-                    <table>
-                      <tr>
-                        <th>IRI</th>
-                        <td>
-                          <code>http://xmlns.com/foaf/0.1/Agent</code>
-                        </td>
-                      </tr>
-                      <tr>
-                        <th>
-                          <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
-                        </th>
-                        <td><p>"The Agent class is the class of agents; things that do stuff. A well known sub-class is Person, representing people. Other kinds of agents include Organization and Group.</p>
-                        <p>The Agent class is useful in a few places in FOAF where Person would have been overly specific. For example, the IM chat ID properties such as jabberID are typically associated with people, but sometimes belong to software bots."</p></td>
-                      </tr>
-                    </table>
-                  </div>
+                        <td><p>The class Software represents a series of computer instructions that tell the computer how to operate and execute specific tasks.</p></td>
+                    </tr>
+                </table>
+                <p>
+                  Software has one equivalent class: <a href="#Software_System">Software System</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup> and is superclass of <a href="#Application_System_Type">Application System Type</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup>. Two Object properties are defined as <a onclick="opentab(event, 2,2)" href="#is_executed_by_function">is exectued by function</a> <sup class="sup-op" title="OWL Object Property">op</sup> and <a onclick="opentab(event, 2,2)" href="#executes_software">executes software</a> <sup class="sup-op" title="OWL Object Property">op</sup>
+                </p>
+                <p align="right">
+                  <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                </p>
               </div>
+              <div class="property entity" id="AH_Local_Cloud">
+                <h3>AH Local Cloud
+                    <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <table>
+                    <tr>
+                        <th>IRI</th>
+                        <td>
+                            <code>http://www.w3id.org/ecsel-dr-AH#AH_Local_Cloud</code>
+                        </td>
+                    </tr>
+                </table>
+                <p align="right">
+                  <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                </p>
+              </div>
+              <div class="property entity" id="Communication_Technology">
+                  <h3>Communication Technology
+                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                  </h3>
+                  <table>
+                      <tr>
+                          <th>IRI</th>
+                          <td>
+                              <code>http://www.w3id.org/ecsel-dr-AH#Communication_Technology</code>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>
+                              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                          </th>
+                          <td><p>Communications technology, also known as information technology, refers to all equipment and programs that are used to process and communicate information.</p></td>
+                      </tr>
+                  </table>
+                  <p>
+                    Communication Technology is superclass of <a href="#CommunicationSecurityMechanism">Communication Security Mechanism</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup>, <a href="#Data_Link_Media_Access_Technology">Data Link Media Access Technology</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup>, <a href="#End_To_End_Communication_Technology">End-to-End Communication Technology</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup>, <a href="#Point_To_Point_Communication_Technology">Point-to-Point Communication Technology</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup> and <a href="#Transfer_Protocol">Transfer Protocol</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                  </p>
+                <p align="right">
+                  <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                </p>
+              </div> 
+              <div class="property entity" id="Data_Format">
+                  <h3>Data Format
+                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                  </h3>
+                  <table>
+                      <tr>
+                          <th>IRI</th>
+                          <td>
+                              <code>http://www.w3id.org/ecsel-dr-AH#Data_Format</code>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>
+                              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                          </th>
+                          <td><p>Data format in information technology may refer to: Data type, constraint placed upon the interpretation of data in a type system.</p></td>
+                      </tr>
+                  </table>
+                  <p>
+                    Data Format has two object properties defined as <a onclick="opentab(event, 2,2)" href="#documents_AH_service_data_format">documents AH service data format</a> <sup class="sup-op" title="OWL Object Property">op</sup> and <a onclick="opentab(event, 2,2)" href="#uses_data_format">uses data format</a> <sup class="sup-op" title="OWL Object Property">op</sup>.
+                  </p>
+                  <p align="right">
+                  <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                </p>
+              </div>
+              <div class="property entity" id="Data_Model">
+                  <h3>Data Model
+                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                  </h3>
+                  <table>
+                      <tr>
+                          <th>IRI</th>
+                          <td>
+                              <code>http://www.w3id.org/ecsel-dr-AH#Data_Model</code>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>
+                              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                          </th>
+                          <td><p>A data model is an abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities.</p></td>
+                      </tr>
+                  </table>
+                  <p>
+                    Data Model has two object properties defined as <a onclick="opentab(event, 2,2)" href="#is_data_model_of">is_data_model_of</a>
+                                  <sup class="sup-op" title="OWL Object Property">op</sup> and <a onclick="opentab(event, 2,2)" href="#has_data_model">has data model</a>
+                                  <sup class="sup-op" title="OWL Object Property">op</sup>
+                  </p>
+                <p align="right">
+                  <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                </p>
+              </div>
+              <div class="property entity" id="Device">
+                  <h3>Device
+                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                  </h3>
+                  <table>
+                      <tr>
+                          <th>IRI</th>
+                          <td>
+                              <code>http://www.w3id.org/ecsel-dr-AH#Device</code>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>
+                              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                          </th>
+                          <td>
+                              <ul>
+                                  <li><p>A device in the context of Arrowhead framework is a piece of equipment, machine, hardware, etc. with computational, memory, and communication capabilities which hosts one or several Arrowhead Framework systems. (Source: Arrowhead)</p></li>
+                                  <li><p>A device in the context of Service-oriented architectures (that is, in the context of Information Technology (IT) and Automation / Operations Technology (OT)) is an technical artefact that fulfills the basic definition of a "computer". That is, a device must be able to host (run) software systems. For this, it needs at least a processing unit (processor), a memory and a communication interface, which can be either wired or wireless.</p></li>
+                              </ul>
+                          </td>
+                      </tr>
+                  </table>
+                  <p>
+                    Device has one equivalent class: <a href="#Device1">Device</a>
+                                          <sup class="sup-c" title="OWL/RDFS Class">c</sup> and is superclass of <a href="#ConstrainedDevice">Constrained Device</a>
+                                          <sup class="sup-c" title="OWL/RDFS Class">c</sup>, <a href="#Gateway">Gateway</a>
+                                          <sup class="sup-c" title="OWL/RDFS Class">c</sup>, <a href="#Industrial_Personal_Computer">Industrial Personal Computer</a>
+                                          <sup class="sup-c" title="OWL/RDFS Class">c</sup>, <a href="#Personal_Computer">Personal Computer</a>
+                                          <sup class="sup-c" title="OWL/RDFS Class">c</sup>, <a href="#Programmable_Logic_Controller">Programmable Logic Controller</a>
+                                          <sup class="sup-c" title="OWL/RDFS Class">c</sup>, <a href="#Raspberry_Pi">Raspberry Pi</a>
+                                          <sup class="sup-c" title="OWL/RDFS Class">c</sup>, <a href="#Smartphone">Smartphone</a>
+                                          <sup class="sup-c" title="OWL/RDFS Class">c</sup>, and <a href="#Tablet_Computer">Tablet Computer</a>
+                                          <sup class="sup-c" title="OWL/RDFS Class">c</sup>. It has 5 obejct properties: <a onclick="opentab(event, 2,2)" href="#hosts1">hosts</a>
+                                          <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#is_device_in">is device in</a>
+                                          <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#contains_device">contains device</a>
+                                          <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#is_hosted_by1">is hosted by</a>
+                                          <sup class="sup-op" title="OWL Object Property">op</sup>, and <a onclick="opentab(event, 2,2)" href="#runs_on">runs on</a>
+                                          <sup class="sup-op" title="OWL Object Property">op</sup> and 4 datatype properties: <a onclick="opentab(event, 3,2)" href="#IP_address">IP address</a>
+                                          <sup class="sup-dp" title="OWL Datatype Property">dp</sup>, <a onclick="opentab(event, 3,2)" href="#MAC_address">MAC address</a>
+                                          <sup class="sup-dp" title="OWL Datatype Property">dp</sup>, <a onclick="opentab(event, 3,2)" href="#device_ID">device ID</a>
+                                          <sup class="sup-dp" title="OWL Datatype Property">dp</sup>, and <a onclick="opentab(event, 3,2)" href="#device_name">device name</a>
+                                          <sup class="sup-dp" title="OWL Datatype Property">dp</sup>.
+                  </p>
+                <p align="right">
+                  <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                </p>
+              </div>
+              <div class="property entity" id="Documentation_Document">
+                  <h3>Documentation Document
+                          <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                  </h3>
+                  <table>
+                          <tr>
+                                  <th>IRI</th>
+                                  <td>
+                                          <code>http://www.w3id.org/ecsel-dr-AH#Documentation_Document</code>
+                                  </td>
+                          </tr>
+                          <tr>
+                                  <th>
+                                          <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                                  </th>
+                                  <td><p>A document that documents something</p></td>
+                          </tr>
+                  </table>
+                  <p>Documentation has 7 object properties:<a onclick="opentab(event, 2,2)" href="#documents_service_part">documents service part</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#is_part_of">is part of</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#is_referred_to_by">is referred to by</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#refers_to">refers to</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#has_part_documentation_document">has part</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#is_referred_to_by">is referred to by</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#refers_to">refers to</a> <sup class="sup-op" title="OWL Object Property">op</sup>, and is superclass of:<a href="#AHServiceDocumentationDocument">AH Service Documentation Document</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup>, <a href="#AHSystemDocumentationDocument">AH System Documentation Document</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup>, <a href="#AHSystemOfSystemsDocumentationDocument">AH System Of Systems Documentation Document</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup></p>
+                  <p align="right">
+                    <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                  </p>
+              </div>
+              <div class="property entity" id="Information_Model">
+                      <h3>Information Model
+                              <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                      </h3>
+                      <table>
+                              <tr>
+                                      <th>IRI</th>
+                                      <td>
+                                              <code>http://www.w3id.org/ecsel-dr-AH#Information_Model</code>
+                                      </td>
+                              </tr>
+                              <tr>
+                                      <th>
+                                              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                                      </th>
+                                      <td><p>An information model in software engineering is a representation of concepts and the relationships, constraints, rules, and operations to specify data semantics for a chosen domain of discourse. Typically it specifies relations between kinds of things, but may also include relations with individual things.</p></td>
+                              </tr>
+                      </table>
+                      <p>Information Model has 3 object properties:<a onclick="opentab(event, 2,2)" href="#is_information_model_of">is information model of</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#documents_AH_service_information_model">documents AH service information model</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#has_information_model">has information model</a> <sup class="sup-op" title="OWL Object Property">op</sup></p>
+                      <p align="right">
+                        <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                      </p>
+              </div>
+              <div class="property entity" id="Local_Network">
+                      <h3>Local Network
+                              <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                      </h3>
+                      <table>
+                              <tr>
+                                      <th>IRI</th>
+                                      <td>
+                                              <code>http://www.w3id.org/ecsel-dr-AH#Local_Network</code>
+                                      </td>
+                              </tr>
+                              <tr>
+                                      <th>
+                                              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                                      </th>
+                                      <td><p>A local area network is a computer network that interconnects computers within a limited area</p></td>
+                              </tr>
+                      </table>
+                      <p align="right">
+                        <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                      </p>
+              </div>
+              <div class="property entity" id="Method">
+                      <h3>Method
+                              <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                      </h3>
+                      <table>
+                              <tr>
+                                      <th>IRI</th>
+                                      <td>
+                                              <code>http://www.w3id.org/ecsel-dr-AH#Method</code>
+                                      </td>
+                              </tr>
+                              <tr>
+                                      <th>
+                                              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                                      </th>
+                                      <td><p>Method of a service: method that is provided by a service within a SoA.</p></td>
+                              </tr>
+                      </table><p>Method has 3 object properties: <a onclick="opentab(event, 2,2)" href="#is_method_of">is method of</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#documents_AH_service_method">documents AH service method</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#has_method">has method</a> <sup class="sup-op" title="OWL Object Property">op</sup></p>
+                      <p align="right">
+                        <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                      </p>
+              </div>
+              <div class="property entity" id="Service1">
+                      <h3>Service
+                              <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                      </h3>
+                      <table>
+                              <tr>
+                                      <th>IRI</th>
+                                      <td>
+                                              <code>http://www.w3id.org/ecsel-dr-AH#Service</code>
+                                      </td>
+                              </tr>
+                              <tr>
+                                      <th>
+                                              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                                      </th>
+                                      <td><p>In the context of the Arrowhead Framework a Service is the information exchanged from a providing system to a consuming system.
+                                              • is based on a number of service orientation principles derived from high level objectives and properties of the Arrowhead framework 
+                                              • can be realized by an arbitrary number of service producers and service consumers 
+                                              • a system can consume a number of services, process and provide other services to fulfil a more complex task 
+                                              • can only be provided by technical systems 
+                                              • can support operational activities within business processes 
+                                              • can support non-functional requirements, such as real-time 
+                                              • can have stakeholders, with an interest in business benefit, in one or more specific area of interest 
+                                              • can have an appointed stakeholder, responsible for the governance of the Service (definition, development). 
+                                      (Source: Arrowhead Framework Definitions V2.4 &amp; Arrowhead Device Registry Presentation)</p></td>
+                              </tr>
+                      </table>
+                      <p>Service has several object properties:<a onclick="opentab(event, 2,2)" href="#has_data_model">has data model</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#has_information_model">has information model</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#has_method">has method</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#is_service_documented_by">ecsel-dr-AH:is_service_documented_by</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#produced_by">produced by</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#uses_comm_tech">uses comm tech</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#uses_communication_security_mechanism">uses communication security mechanism</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#uses_data_format">uses data format</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#uses_transfer_protocol">uses transfer protocol</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#is_data_model_of">dr:is_data_model_of</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#defines_compliant_service">defines compliant service</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#is_information_model_of">is information model of</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#is_method_of">is method of</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#is_service_producer_of">is service producer of</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a onclick="opentab(event, 2,2)" href="#produces">produces</a> <sup class="sup-op" title="OWL Object Property">op</sup>, and is superclass of <a href="#AH_Service">AH Service</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup>.
+                      </p>
+                      <p align="right">
+                        <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                      </p>
+              </div>
+              <div class="property entity" id="Service_Documentation">
+                      <h3>Service Documentation
+                              <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                      </h3>
+                      <table>
+                              <tr>
+                                      <th>IRI</th>
+                                      <td>
+                                              <code>http://www.w3id.org/ecsel-dr-AH#Service_Documentation</code>
+                                      </td>
+                              </tr>
+                              <tr>
+                                      <th>
+                                              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                                      </th>
+                                      <td><p>Service documentation is any communicable material that is used to describe, explain or instruct regarding some attributes of a service</p></td>
+                              </tr>
+                      </table>
+                      <p>Service Documentation has 1 object properties:<a onclick="opentab(event, 2,2)" href="#is_service_documented_by">ecsel-dr-AH:is_service_documented_by</a> <sup class="sup-op" title="OWL Object Property">op</sup>, and is superclass of <a href="#AHServiceDocumentation">AH Service Documentation</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                      </p>
+                      <p align="right">
+                        <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                      </p>
+              </div>
+              <div class="property entity" id="Service_Oriented_Architecture">
+                      <h3>Service-Oriented Architecture
+                              <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                      </h3>
+                      <table>
+                              <tr>
+                                      <th>IRI</th>
+                                      <td>
+                                              <code>http://www.w3id.org/ecsel-dr-AH#Service_Oriented_Architecture</code>
+                                      </td>
+                              </tr>
+                              <tr>
+                                      <th>
+                                              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                                      </th>
+                                      <td><p>Service-oriented architecture (SoA) is a style of software design where services are provided to the other components by application components, through a communication protocol over a network.</p></td>
+                              </tr>
+                      </table>
+                      <p>SoA Property has 1 equivelant class: <a href="#Service_Oriented_Architecture_Protocols">Service-Oriented Architecture Protocols</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup>, and 8 object properties:  
+                        <a onclick="opentab(event, 2,2)" href="#is_implemented_by_serivce_oriented_architecture_implementation">dr:is_implemented_by_serivce_oriented_architecture_implementation</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#defines_compliant_documentation">defines compliant documentation</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#defines_compliant_service">defines compliant service</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#defines_compliant_system">defines compliant system</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#defines_compliant_system_architecture">defines compliant system architecture</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#has_SoA_property">has SoA property</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#implements_service_oriented_architecture">dr:implements_service_oriented_architecture</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#is_SoA_property_of">is SoA property of</a> <sup class="sup-op" title="OWL Object Property">op</sup>, and is superclass of
+                        <a href="#Arrowhead">Arrowhead</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup>.
+                      </p>
+                      <p align="right">
+                        <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                      </p>
+              </div>
+              <div class="property entity" id="SoA_Property">
+                      <h3>SoA Property
+                              <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                      </h3>
+                      <table>
+                              <tr>
+                                      <th>IRI</th>
+                                      <td>
+                                              <code>http://www.w3id.org/ecsel-dr-AH#SoA_Property</code>
+                                      </td>
+                              </tr>
+                              <tr>
+                                      <th>
+                                              <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#subClassOf" title="The subject is a subclass of a class. Defined in The RDF Schema vocabulary (RDFS)">Sub Class Of</a>
+                                      </th>
+                                      <td>
+                                              <span>
+                                                      <a href="#Cloud_Lobe">Cloud Lobe</a>
+                                                      <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                                              </span>
+                                      </td>
+                              </tr>
+
+
+                      </table>
+                      <p>SoA Property has 2 object properties: <a onclick="opentab(event, 2,2)" href="#is_SoA_property_of">is SoA property of</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#has_SoA_property">has SoA property</a> <sup class="sup-op" title="OWL Object Property">op</sup></p>.
+                      <p align="right">
+                        <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                      </p>
+              </div>
+              <div class="property entity" id="Software_System">
+                      <h3>Software System
+                              <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                      </h3>
+                      <table>
+                              <tr>
+                                      <th>IRI</th>
+                                      <td>
+                                              <code>http://www.w3id.org/ecsel-dr-AH#Software_System</code>
+                                      </td>
+                              </tr>
+                              <tr>
+                                      <th>
+                                              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                                      </th>
+                                      <td><p>System software is software designed to provide a platform for other software.</p></td>
+                              </tr>
+
+
+
+
+                      </table><p>
+                        Software System has 7 object properties: 
+                        <a onclick="opentab(event, 2,2)" href="#is_hosted_by1">is hosted by</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#is_service_producer_of">is service producer of</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#is_system_documented_by">ecsel-dr-AH:is_system_documented_by</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#produces">produces</a> <sup class="sup-op" title="OWL Object Property">op</sup>, <a href="#runs_on">runs on</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#defines_compliant_system">defines compliant system</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#hosts1">hosts</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#produced_by">produced by</a> <sup class="sup-op" title="OWL Object Property">op</sup>,
+                        and is superclass of  
+                        <a href="#AH_System">AH System</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup></p>.
+                      <p align="right">
+                        <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                      </p>
+              </div>
+              <div class="property entity" id="System_Documentation">
+                      <h3>System Documentation
+                              <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                      </h3>
+                      <table>
+                              <tr>
+                                      <th>IRI</th>
+                                      <td>
+                                              <code>http://www.w3id.org/ecsel-dr-AH#System_Documentation</code>
+                                      </td>
+                              </tr>
+                              <tr>
+                                      <th>
+                                              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                                      </th>
+                                      <td><p>System documentation is any communicable material that is used to describe, explain or instruct regarding some attributes of a system</p></td>
+                              </tr>
+                      </table><p>
+                        System Documentation has 2 object properties:  
+                        <a onclick="opentab(event, 2,2)" href="#is_system_documented_by">ecsel-dr-AH:is_system_documented_by</a> <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                        <a onclick="opentab(event, 2,2)" href="#AHSystemDocumentation">AH System Documentation</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup>, 
+                        and is superclass of: 
+                        <a href="#AHSystemOfSystemsDocumentation">AH System Of Systems Documentation</a> <sup class="sup-c" title="OWL/RDFS Class">c</sup></p>.
+                      <p align="right">
+                        <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                      </p>
+              </div>
+              <div class="property entity" id="System_Of_Systems">
+                      <h3>System Of Systems
+                              <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                      </h3>
+                      <table>
+                              <tr>
+                                      <th>IRI</th>
+                                      <td>
+                                              <code>http://www.w3id.org/ecsel-dr-AH#System_Of_Systems</code>
+                                      </td>
+                              </tr>
+                              <tr>
+                                      <th>
+                                              <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                                      </th>
+                                      <td><p>System of systems is a collection of task-oriented or dedicated systems that pool their resources and capabilities together to create a new, more complex system which offers more functionality and performance than simply the sum of the constituent systems.</p></td>
+                              </tr>
+
+
+                      </table><p>
+                        System of systems has one object property: 
+                        <a onclick="opentab(event, 2,2)" href="#defines_compliant_system_architecture">defines compliant system architecture</a> <sup class="sup-op" title="OWL Object Property">op</sup></p>
+                      <p align="right">
+                        <a href="#Cloud_Lobe">back to Cloud Lobe</a>
+                      </p>
+              </div>
+            </div>
+            <div title="Process_Lobe">
+              <dl id="Process_Lobe">
+                <h3>Process Lobe
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <dl>
+                  <tr>
+                    <dt>IRI</dt>
+                    <dd>
+                      <code>http://www.w3id.org/ecsel-dr#Process_Lobe</code>
+                    </dd>
+                  </tr>
+                  <tr>
+                    <dt>Super Class Of</dt>
+                    <dd>
+                      <ul>
+                        <li>
+                          <span>
+                            <a href="#Goal">Goal</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Business_Process_Flow">Business Process Flow</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Function_Object">Function Object</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Input">Input</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Model">Model</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Model_Element">Model Element</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Output">Output</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Screen">Screen</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Value_Added_Chain_Diagram">Value-Added Chain Diagram</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                        <li>
+                          <span>
+                            <a href="#Agent">Agent</a>
+                            <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                          </span>
+                        </li>
+                      </ul>
+                    </dd>
+                  </tr>
+                  <tr>
+                    <dt>Description</dt>
+                    <td>
+                      <p>
+                        <p>Lobe owner: Marta Bonik</p>
+
+                        Process refers to a series of interconnected and sequential actions, steps, or operations designed to achieve a specific outcome or goal within a system or organization.
+
+                        The Process lobe of the Digital Reference ontology represents the topics of Agent, Business Process Flow, Function and Function Object. It also maps the notions of Goal, Input, Model and Model Element, Output, Screen, and Value-added Chain Diagram.
+                      </p>
+                    </td>
+                  </tr>
+                </dl>
+              </dl>
+              <div class="property entity" id="Goal">
+                <h3>Goal
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <table>
+                  <tr>
+                    <th>IRI</th>
+                    <td>
+                      <code>http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal</code>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                    </th>
+                    <td><p>The class Goal represents the desired outcome of a Function</p></td>
+                  </tr>
+                </table>
+                <p>
+                    Two Object properties are defined as functions control the outcome: <a onclick="opentab(event, 2,2)" href="#controls_function" title="http://www.w3id.org/ecsel-dr-PMV#controls_function">controls function</a>
+                    <sup class="type-op" title="object property">op</sup> and
+                    <a onclick="opentab(event, 2,2)" href="#is_controlled_by_goal" title="http://www.w3id.org/ecsel-dr-PMV#is_controlled_by_goal">is controlled by</a>
+                    <sup class="type-op" title="object property">op</sup>
+                </p>
+                <p align="right">
+                  <a href="#Process_Lobe">back to Process Lobe</a>
+                </p>
+              </div>
+              <div class="property entity" id="Business_Process_Flow">
+                <h3>Business Process Flow
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <table>
+                  <tr>
+                    <th>IRI</th>
+                    <td>
+                      <code>http://www.w3id.org/ecsel-dr-PMV#Business_Process_Flow</code>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                    </th>
+                    <td><p>An EPC describes a Business Process Flow, which is a sequence of required tasks to create specified outputs using defined inputs.
+                    A Business Process Flow is a sequence of required tasks to create specified outputs using defined inputs.</p></td>
+                  </tr>
+                </table>
+                <p>
+                  Several Object properties define the sequence in it:
+                  <a onclick="opentab(event, 2,2)" href="#has_next_model" title="http://www.w3id.org/ecsel-dr-PMV#has_next_model">has next model</a>
+                  <sup class="type-op" title="object property">op</sup> 
+                  <a onclick="opentab(event, 2,2)" href="#has_previous_model" title="http://www.w3id.org/ecsel-dr-PMV#has_previous_model">has previous model</a>
+                  <sup class="type-op" title="object property">op</sup>, 
+                  <a onclick="opentab(event, 2,2)" href="#has_superior" title="http://www.w3id.org/ecsel-dr-PMV#has_superior">has superior</a>
+                  <sup class="type-op" title="object property">op</sup>, 
+                  <a onclick="opentab(event, 2,2)" href="#is_sub_flow_of" title="http://www.w3id.org/ecsel-dr-PMV#is_sub_flow_of">is sub flow of</a>
+                  <sup class="type-op" title="object property">op</sup>
+                  <a onclick="opentab(event, 2,2)" href="#has_sub_flow" title="http://www.w3id.org/ecsel-dr-PMV#has_sub_flow">has sub flow</a>
+                  <sup class="type-op" title="object property">op</sup>, 
+                  <a onclick="opentab(event, 2,2)" href="#has_subordinate" title="http://www.w3id.org/ecsel-dr-PMV#has_subordinate">has subordinate</a>
+                  <sup class="type-op" title="object property">op</sup>
+                </p>
+                <p align="right">
+                  <a href="#Process_Lobe">back to Process Lobe</a>
+                </p>
+              </div>
+              <div class="property entity" id="Function_Object">
+                <h3>Function Object
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <table>
+                  <tr>
+                    <th>IRI</th>
+                    <td>
+                      <code>http://www.w3id.org/ecsel-dr-PMV#Function_Object</code>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                    </th>
+                    <td><p>In IndustryPrint 5, function objects are used to model the decomposition of a process.</p></td>
+                  </tr>
+                </table>
+                <p align="right">
+                  <a href="#Process_Lobe">back to Process Lobe</a>
+                </p>
+              </div>
+              <div class="property entity" id="Input">
+                <h3>Input
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <table>
+                  <tr>
+                    <th>IRI</th>
+                    <td>
+                      <code>http://www.w3id.org/ecsel-dr-PMV#Input</code>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" title="The definition of the subject resource. Defined in The RDF Schema vocabulary (RDFS)">Is Defined By</a>
+                    </th>
+                    <td>
+                      <a href="#input.html">http://www.businessdictionary.com/definition/input.html</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                    </th>
+                    <td><p>Item external to a system (such as a process) that is transformed by the system (usually together with one or more other items) to become an output.</p></td>
+                  </tr>
+                </table>
+                <p>
+                  A Object properties is defined for subordinate relationship:<a onclick="opentab(event, 2,2)" href="#is_input_of" title="http://www.w3id.org/ecsel-dr-PMV#is_input_of">is input of</a>
+                  <sup class="type-op" title="object property">op</sup>
+                </p>
+                <p align="right">
+                  <a href="#Process_Lobe">back to Process Lobe</a>
+                </p>
+              </div>
+              <div class="property entity" id="Model">
+                <h3>Model
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <table>
+                  <tr>
+                    <th>IRI</th>
+                    <td>
+                      <code>http://www.w3id.org/ecsel-dr-PMV#Model</code>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" title="The definition of the subject resource. Defined in The RDF Schema vocabulary (RDFS)">Is Defined By</a>
+                    </th>
+                    <td>
+                      <a href="#Process1">https://www.epc-standard.org/collaborate/Process</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                    </th>
+                    <td>
+                      <ul>
+                        <li><p>One striking commonality between EPC meta models is the Process. One process may contain an unlimited number of elements, but a process element is always linked to a specific process. If a process contains an interface, it is always linked to one specific process and represents a refinement of a normal function.</p></li>
+                        <li><p>To graphically depict functional and process decomposition, function objects are diagramed on models in IndustryPrint 5.</p></li>
+                      </ul>
+                    </td>
+                  </tr>
+                </table>
+                <p>
+                  Several Object properties are defined for subordinate relationship:
+                  <a href="#connected_to" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#connected_to">connected to</a>
+                  <sup class="type-op" title="object property">op</sup>, 
+                  <a href="#contains" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#contains">contains</a>
+                  <sup class="type-op" title="object property">op</sup>
+                  <a href="#belongs_to_model" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#belongs_to_model">belongs to model</a>
+                  <sup class="type-op" title="object property">op</sup>,  
+                  <a href="#diagramed_on_model" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#diagramed_on_model">diagramed on model</a>
+                  <sup class="type-op" title="object property">op</sup>, 
+                  <a href="#has_sub_model" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#has_sub_model">has sub model</a>
+                  <sup class="type-op" title="object property">op</sup>
+                </p>
+                <p align="right">
+                  <a href="#Process_Lobe">back to Process Lobe</a>
+                </p>
+              </div>
+              <div class="property entity" id="Model_Element">
+                <h3>Model Element
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <table>
+                  <tr>
+                    <th>IRI</th>
+                    <td>
+                      <code>http://www.w3id.org/ecsel-dr-PMV#Model_Element</code>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" title="The definition of the subject resource. Defined in The RDF Schema vocabulary (RDFS)">Is Defined By</a>
+                    </th>
+                    <td>
+                      <a href="#Process_element">https://www.epc-standard.org/collaborate/Process_element</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                    </th>
+                    <td>
+                      <ul>
+                        <li><p>An EPC model element is part of the EPC meta model and can be represented by a Function, an Event, an Operator, a Process Interface.</p></li>
+                        <li><p>Represents an object in the EPC model. Includes all elements used in the modelling procedure of an EPC diagram.</p></li>
+                        <li><p>Represents process flow elements except for modelling function objects.</p></li>
+                      </ul>
+                    </td>
+                  </tr>
+                </table>
+                <p>Two Object properties are defined for subordinate relationship:
+                  <a href="#belongs_to_model" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#belongs_to_model">belongs to model</a>
+                  <sup class="type-op" title="object property">op</sup>,              
+                  <a href="#flow" onclick="opentab(event, 2,2)" title="http://www.w3id.org/ecsel-dr-PMV#flow">flow</a>
+                  <sup class="type-op" title="object property">op</sup>,  
+                </p>
+                <p align="right">
+                  <a href="#Process_Lobe">back to Process Lobe</a>
+                </p>
+              </div>
+              <div class="property entity" id="Output">
+                <h3>Output
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <table>
+                  <tr>
+                    <th>IRI</th>
+                    <td>
+                      <code>http://www.w3id.org/ecsel-dr-PMV#Output</code>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" title="The definition of the subject resource. Defined in The RDF Schema vocabulary (RDFS)">Is Defined By</a>
+                    </th>
+                    <td>
+                      <a href="#output.html">http://www.businessdictionary.com/definition/output.html</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                    </th>
+                    <td><p>The amount of energy, work, goods, or services produced by a machine, factory, company, or an individual in a period.</p></td>
+                  </tr>
+                </table>
+                <p>Two Object properties are defined for subordinate relationship:
+                  <a href="#is_output_of" onclick="opentab(event, 2,2)">is output of</a>
+                <sup class="sup-op" title="OWL Object Property">op</sup>, 
+                <a href="#has_as_output" onclick="opentab(event, 2,2)">has as output</a>
+                <sup class="sup-op" title="OWL Object Property">op</sup>
+                </p>
+                <p align="right">
+                  <a href="#Process_Lobe">back to Process Lobe</a>
+                </p>
+              </div>
+              <div class="property entity" id="Screen">
+                <h3>Screen
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <table>
+                  <tr>
+                    <th>IRI</th>
+                    <td>
+                      <code>http://www.w3id.org/ecsel-dr-PMV#Screen</code>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                    </th>
+                    <td><p>A transaction in SAP is described as a screen. Here, they represent the actions undertaken in the application SAP to perform a function in a process flow.</p></td>
+                  </tr>
+                </table>
+                <p>Several Object properties are defined for subordinate relationship: 
+                    <a href="#represents" onclick="opentab(event, 2,2)">represents</a>
+                    <sup class="sup-op" title="OWL Object Property">op</sup>,
+                    <a href="#transaction_code" onclick="opentab(event, 3,2)">transaction code</a>
+                    <sup class="sup-dp" title="OWL Datatype Property">dp</sup> and 
+                    <a href="#is_represented_by" onclick="opentab(event, 2,2)">is represented by</a>
+                    <sup class="sup-op" title="OWL Object Property">op</sup>
+                </p>
+                <p align="right">
+                  <a href="#Process_Lobe">back to Process Lobe</a>
+                </p>
+              </div>
+              <div class="property entity" id="Value_Added_Chain_Diagram">
+                <h3>Value-Added Chain Diagram
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <table>
+                  <tr>
+                    <th>IRI</th>
+                    <td>
+                      <code>http://www.w3id.org/ecsel-dr-PMV#Value_Added_Chain_Diagram</code>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://www.w3.org/2000/01/rdf-schema#isDefinedBy" title="The definition of the subject resource. Defined in The RDF Schema vocabulary (RDFS)">Is Defined By</a>
+                    </th>
+                    <td>
+                      <a href="#viewpage.action?pageId=156532992">https://wiki.scn.sap.com/wiki/pages/viewpage.action?pageId=156532992</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                    </th>
+                    <td><p>A Value-Added Chain is a process that represents an element of the process chain. A process hierarchy can be realized by hierarchically structuring value chains, thus modeling business areas, process groups, business processes and business process variants using the sam notation.
+                    House: represents enabler processes.</p></td>
+                  </tr>
+                </table>
+                <p>Several Object properties are defined for subordinate relationship: 
+                    <a href="#has_subordinate" onclick="opentab(event, 2,2)">has subordinate</a>
+                    <sup class="sup-op" title="OWL Object Property">op</sup>
+                    <a href="#has_subordinate_VACD" onclick="opentab(event, 2,2)">has subordinate VACD</a>
+                    <sup class="sup-op" title="OWL Object Property">op</sup>
+                    <a href="#has_superior_VACD" onclick="opentab(event, 2,2)">has superior VACD</a>
+                    <sup class="sup-op" title="OWL Object Property">op</sup>
+                    <a href="#has_superior" onclick="opentab(event, 2,2)">has superior</a>
+                    <sup class="sup-op" title="OWL Object Property">op</sup>
+                </p>
+                <p align="right">
+                  <a href="#Process_Lobe">back to Process Lobe</a>
+                </p>
+              </div>
+              <div class="property entity" id="Agent">
+                <h3>Agent
+                  <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+                </h3>
+                <table>
+                  <tr>
+                    <th>IRI</th>
+                    <td>
+                      <code>http://xmlns.com/foaf/0.1/Agent</code>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      <a class="hover_property" href="http://purl.org/dc/terms/description" title="An account of the resource. Defined in DCMI Metadata Terms">Description</a>
+                    </th>
+                    <td><p>"The Agent class is the class of agents; things that do stuff. A well known sub-class is Person, representing people. Other kinds of agents include Organization and Group.</p>
+                    <p>The Agent class is useful in a few places in FOAF where Person would have been overly specific. For example, the IM chat ID properties such as jabberID are typically associated with people, but sometimes belong to software bots."</p></td>
+                  </tr>
+                </table>
+                <p align="right">
+                  <a href="#Process_Lobe">back to Process Lobe</a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div id="Ob" class="tabcontent">
           <div class="section" id="objectproperties">
@@ -51408,6 +52035,50 @@
           </div>
         </div>
       </div>
+      <div id="update">
+        <h2>Update</h2>
+        <div class="container_1">
+          <div>
+            <img src="figures/update_process.png" width="105%" height="105%">
+          </div>
+          <div>
+            <dl>
+              <tr>
+                <dt>Why we need update for DR?</dt>
+                <dd>
+                  The update process allows for continuous improvement of the Digital Reference model by gathering a group of experts who collaborate and vote on enhancements. Updates are secured with blockchain hashes for trust and traceability.
+                </dd>
+              </tr>
+              <tr>
+                <dt>Workflow of user operation:</dt>
+                <dd>
+                  A new update proposal submitted
+                  Send to the lobe owner for approval
+                  If approved – updated implemented, if not approved – proposal rejected
+                  In case of inactivity of the lobe owner – experts’ voting
+                  Approval or rejection determined based on the voting results
+                </dd>
+              </tr>
+              <tr>
+                <dt>Update History:</dt>
+                <dd>
+                  <li>
+                    <a href="\\mucsdn32.eu.infineon.com\csc_bs\02_public\_Laugier\DR update\Blockchain_UpdateStatus_Word\html\blockchain_hist_DigitalReference_20230808_1426.htm" target="_blank">20230808</a>
+                  </li>
+                  <li>
+                    <a href="\\mucsdn32.eu.infineon.com\csc_bs\02_public\_Laugier\DR update\Blockchain_UpdateStatus_Word\html\blockchain_hist_DigitalReference_20230717_1436.htm" target="_blank">20230717</a>
+                  </li>
+                  <li>
+                    <a href="\\mucsdn32.eu.infineon.com\csc_bs\02_public\_Laugier\DR update\Blockchain_UpdateStatus_Word\html\blockchain_hist_DigitalReference_20230705_1548.htm" target="_blank">20230705</a>
+                  </li>
+                  <li>
+                    <a href="\\mucsdn32.eu.infineon.com\csc_bs\02_public\_Laugier\DR update\Blockchain_UpdateStatus_Word\html\blockchain_hist_DigitalReference_20230630_1446.htm" target="_blank">20230630</a>
+                  </li>
+                </dd>
+              </tr>
+            </dl>
+          </div>
+      </div>
       <div id="legend">
         <h2>Legend</h2>
         <table class="entity">
@@ -51471,6 +52142,67 @@
           </h4>
           <ul class="second">
             <details>
+              <summary>Cloud Lobe</summary>
+                <ul class="third">
+                  <dd>
+                    <li>
+                      <a  href="#Cloud_Lobe" onclick="opentab(event, 1,2)">Cloud Lobe</a>
+                    </li>
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#Software">Software</a>
+                    </li>
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#AH_Local_Cloud">AH Local Cloud</a>
+                    </li>
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#Communication_Technology">Communication Technology</a>
+                    </li>  
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#Data_Format">Data Format</a>
+                    </li>  
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#Data_Model">Dat Model</a>
+                    </li>  
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#Device">Device</a>
+                    </li>  
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#Documentation_Document">Documentation Document</a>
+                    </li>
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#Information_Model">Information Model</a>
+                    </li> 
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#Local_Network">Local Network</a>
+                    </li> 
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#Method">Method</a>
+                    </li>
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#Service1">Service</a>
+                    </li>  
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#Service_Documentation">Service Documentation</a>
+                    </li>  
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#Service_Oriented_Architecture">Service-Oriented Architecture</a>
+                    </li>  
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#SoA_Property">SoA Property</a>
+                    </li>  
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#Software_System">Software System</a>
+                    </li>  
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#System_Documentation">System Documentation</a>
+                    </li>  
+                    <li>
+                      <a onclick="opentab(event, 1,2)" href="#System_Of_Systems">System Of Systems</a>
+                    </li>         
+                  </dd>
+                </ul>  
+            </details>
+            <details>
               <summary>Process Lobe</summary>
                 <ul class="third">
                   <dd>
@@ -51509,7 +52241,7 @@
                     </li>       
                   </dd>
                 </ul>  
-            </details>             
+            </details>              
           </ul>
         </li>
         <li>
@@ -51622,6 +52354,12 @@
           </ul>
           </details>
           </h4>
+        </li>
+        <li>
+          <h4>
+            <a href="#update">Update</a>
+          </h4>
+          <ul class="second"></ul>
         </li>
         <li>
           <h4>
