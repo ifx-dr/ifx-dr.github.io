@@ -407,6 +407,30 @@ var data = {
             "comment": "Merge pull request #3 from tibonto/dr_update_47\n\nLobes owners added for Planning, SC Developemnt, SC Production",
             "hash": "30578f83fe7c834a670c41adb4e31887944f6c57697b0c223aa03be512a4ffb4",
             "previousHash": "bf897231de1a9d651cc2ec52edf40262e4c7738d5a0bd9443c76215a5217f149"
+        },
+        {
+            "index": 51,
+            "date": "13.11.2023",
+            "commitSHA": "b88349ab94f70d71b80414470ec8580e6f6e388c",
+            "comment": "Demand Fulfilment Ontology added",
+            "hash": "7d0872a40b6c51b30fa80dab0852f7725c6686d32bd64a19b68e25cbda5d2301",
+            "previousHash": "30578f83fe7c834a670c41adb4e31887944f6c57697b0c223aa03be512a4ffb4"
+        },
+        {
+            "index": 52,
+            "date": "14.11.2023",
+            "commitSHA": "a5702cc0413558c06d8f66415f3ad0cfa57816d1",
+            "comment": "Merge pull request #4 from tibonto/DR_Update51_Demand_Fulfilment_Ontology\n\nDemand Fulfilment Ontology added",
+            "hash": "39d943456aa224d12fbabe5e1bdd224487abca7df03212c107255bc3b4616f07",
+            "previousHash": "7d0872a40b6c51b30fa80dab0852f7725c6686d32bd64a19b68e25cbda5d2301"
+        },
+        {
+            "index": 53,
+            "date": "30.11.2023",
+            "commitSHA": "ca2f66d12d2e7c47fae29945b6ea39338f91d73b",
+            "comment": "Update 52 planning ontology (#5)",
+            "hash": "e6cd9aab011e9bb4fb768bff682ec2915810312b00803f1fa6899c89a352f4d8",
+            "previousHash": "39d943456aa224d12fbabe5e1bdd224487abca7df03212c107255bc3b4616f07"
         }
     ]
 };
