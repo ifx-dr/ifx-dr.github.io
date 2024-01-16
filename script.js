@@ -445,7 +445,7 @@ data.blockArray.forEach(function(item) {
   html += '<div class="block">';
   html += '<p><strong>Index:</strong> ' + item.index + '</p>';
   html += '<p><strong>Date:</strong> ' + item.date + '</p>';
-  html += '<p><strong>Commit SHA:</strong> ' + item.commitSHA + '</p>';
+  html += '<p><strong>Commit SHA:</strong> '+ '<a href="https://github.com/tibonto/dr/commit/' + item.commitSHA + '" target="_blank">' + item.commitSHA + '</a></p>';
   html += '<p><strong>Comment:</strong> ' + item.comment + '</p>';
   html += '<p><strong>Hash:</strong> ' + item.hash + '</p>';
   html += '<p><strong>Previous Hash:</strong> ' + item.previousHash + '</p>';
