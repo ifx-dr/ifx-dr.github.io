@@ -431,6 +431,22 @@ var data = {
             "comment": "Update 52 planning ontology (#5)",
             "hash": "e6cd9aab011e9bb4fb768bff682ec2915810312b00803f1fa6899c89a352f4d8",
             "previousHash": "39d943456aa224d12fbabe5e1bdd224487abca7df03212c107255bc3b4616f07"
+        },
+        {
+            "index": 55,
+            "date": "22.01.2024",
+            "commitSHA": "1a5b68ecebc75db807de4686998c26a74abea1af",
+            "comment": "Merge resolution Generic Data Model added",
+            "hash": "b9b555bf170e6fb274fea1b1bde0c9a503ba67f96be0d98c060ae31c5804d7ae",
+            "previousHash": "9b3f19df23f7cab1ec2137afacd68cacd1638d2b7916c9dfa8c488f6f81acd3c"
+        },
+        {
+            "index": 67,
+            "date": "25.01.2024",
+            "commitSHA": "dca9d0905bc641fabc89b32ca5a687cec4d7c175",
+            "comment": "Update 52 planning ontology (#5)",
+            "hash": "c4255b2c3184d1419f49b71045e549ad2543142d5c51782b9b5b337189724119",
+            "previousHash": "ad66d73d537a5476afa960fdae3e3eca34641cdc42201c326f1f4bd4607ba151"
         }
     ]
 };
