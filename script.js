@@ -444,7 +444,7 @@ var data = {
             "index": 67,
             "date": "25.01.2024",
             "commitSHA": "dca9d0905bc641fabc89b32ca5a687cec4d7c175",
-            "comment": "Update 52 planning ontology (#5)",
+            "comment": "Improvements and parser error",
             "hash": "c4255b2c3184d1419f49b71045e549ad2543142d5c51782b9b5b337189724119",
             "previousHash": "ad66d73d537a5476afa960fdae3e3eca34641cdc42201c326f1f4bd4607ba151"
         }
