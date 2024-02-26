@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Digital Reference</title>
+    <style>
+        #pylode {
+            position: fixed;
+            top: 205px;
+            left: -150px;
+            font-size: small;
+            transform: rotate(-90deg);
+            color: grey;
+        }
+        #pylode a {
+            font-size: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #005A9C;
+        }
+        #pylode a:hover {
+            color: #333;
+        }
+        #pylode #p {
+            color: #329545;
+        }
+        #pylode #y {
+            color: #f9cb33;
+        }
+        #pylode #version {
+            font-size: 1.0em;
+        }
+
+        #profile {
+            font-style: italic;
+            font-size: 1.25em;
+            color: darkred!important;
+        }
+
+        .cardinality {
+            font-style: italic;
+            color: #aa00aa;
+        }
+
+        dl {
+            /*border: 1px solid navy;*/
+            /*padding:5px;*/
+        }
+
+        dt {
+            font-weight: bold;
+            padding: 0;
+        }
+
+        dd {
+            margin-bottom: 10px;
+            padding-top: 7px;
+        }
+
+        #metadata ul,
+        #classes ul {
+            list-style-type: none;
+        }
+
+        #metadata ul li,
+        #classes ul li {
+            margin-left: -40px;
+        }
+
+        ul.hlist {
+            list-style-type: none;
+            border: 1px solid navy;
+            padding:5px;
+            background-color: #F4FFFF;
+        }
+
+        ul.hierarchy {
+            border: 1px solid navy;
+            padding: 5px 25px 5px 25px;
+            background-color: #F4FFFF;
+        }
+
+
+        ul.hlist li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .entity {
+            border: 1px solid navy;
+            margin:5px 0 5px 0;
+            padding: 5px;
+        }
+
+        .entity th {
+            width: 150px;
+            vertical-align: top;
+        }
+
+        .entity th,
+        .entity td {
+            padding-bottom: 20px;
+        }
+
+        .entity table th {
+            text-align: left;
+        }
+
+        section#overview img {
+            max-width: 1000px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            text-align: left
+        }
+        h1, h2, h3 {
+            color: #005A9C; background: white
+        }
+        h1 {
+            font: 170% sans-serif;
+            line-height: 110%;
+        }
+        h2 {
+            font: 140% sans-serif;
+            margin-top:40px;
+        }
+        h3 {
+            font: 120% sans-serif;
+            margin-top: 20px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid navy;
+        }
+        h4 { font: bold 100% sans-serif }
+        h5 { font: italic 100% sans-serif }
+        h6 { font: small-caps 100% sans-serif }
+
+        body {
+            padding: 2em 70px 2em 70px;
+            margin: 0;
+            font-family: sans-serif;
+            color: black;
+            background: white;
+            background-position: top left;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            text-align: left;
+        }
+
+        section {
+            max-width: 1500px;
+        }
+
+        .figure {
+            margin-bottom: 20px;
+        }
+
+        :link { color: #00C; background: transparent }
+        :visited { color: #609; background: transparent }
+        a:active { color: #C00; background: transparent }
+
+        .sup-c,
+        .sup-op,
+        .sup-fp,
+        .sup-dp,
+        .sup-ap,
+        .sup-p,
+        .sup-ni,
+        .sup-con,
+        .sup-col {
+            cursor:help;
+        }
+
+        .sup-c {
+            color:orange;
+        }
+
+        .sup-op {
+            color:navy;
+        }
+
+        .sup-fp {
+            color:lightskyblue;
+        }
+
+        .sup-dp {
+            color:green;
+        }
+
+        .sup-ap {
+            color:darkred;
+        }
+
+        .sup-p {
+            color:black;
+        }
+
+        .sup-ni {
+            color:brown;
+        }
+
+        .sup-con {
+            color:orange;
+        }
+
+        .sup-col {
+            color:darkred;
+        }
+
+        sup {
+            margin-left: -3px;
+        }
+        code {
+            font-size: large;
+            color: darkred;
+        }
+
+        /* less prominent links for properties */
+        .proplink {
+            color: #336;
+            text-decoration: none;
+        }
+
+        #toc {
+            position: fixed;
+            top: 0;
+            right: 0;
+            z-index: 2;
+            height: 100%;
+            overflow-y: auto;
+            padding: 10px;
+            border: solid 1px navy;
+            font-size: small;
+            width: 180px;
+        }
+        #toc h3 {
+            margin-top: 5px;
+        }
+
+        #toc ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        #toc .first > li {
+            margin-top: 5px;
+        }
+
+        #toc .second,
+        #toc .third {
+            padding-left: 10px;
+        }
+
+        #content {
+            width: calc(100% - 150px);
+        }
+
+        .hover_property {
+            cursor: help;
+            text-decoration: none;
+            border-bottom: dashed 1px;
+        }
+
+        .setclass {
+            list-style-type: none;
+        }
+
+        code{
+            word-wrap: break-word;
+          }
+        table {
+            table-layout: fixed;
+            width: 100%;
+        }
+        td {
+            word-wrap: break-word;
+        }
+        #legend table.entity {
+            width: 25%;
+        }
+        #para1 {
+          text-align: justify;
+        }
+              .text1 {
+                display: inline-block;
+                width:33%;
+                float:left;
+              }
+              .text2 {
+                display: inline-block;
+                width:33%;
+                float:left;
+              }
+              .text3 {
+                display: inline-block;
+                width:33%;
+                float:left;
+                margin-bottom: 100px;
+              }
+        /* Style the tab */
+        .tab {
+          overflow: hidden;
+          border: 1px solid #ccc;
+          background-color: #f1f1f1;
+        }
+
+        /* Style the buttons that are used to open the tab content */
+        .tab button {
+          background-color: inherit;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          transition: 0.3s;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+          background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+          background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+          display: none;
+          padding: 6px 12px;
+          border: 1px solid #ccc;
+          border-top: none;
+        }
+        .active{
+          display: block;
+        }
+        .center {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 35%;
+        }
+        .container {
+           display: grid;
+           align-items: center; 
+           grid-template-columns: 0.3fr 0.3fr;
+           column-gap: 1px;
+          }
+        .text {
+          font-size: 13px;
+          }
+        .container_1 {
+           display: grid;
+           align-items: center; 
+           grid-template-columns: 0.4fr 0.4fr;
+           column-gap: 5px;
+          }
+    </style>
+    <style type="text/css">
+      .mainDetails>summary {
+        position: relative;
+      }
+      .mainDetails>summary::marker {
+        content: none;
+      }
+      .mainDetails>summary::before,
+      .mainDetails>summary::after {
+        content: '';
+      }
+      .mainDetails>summary::before,
+      .mainDetails>summary::after {
+          width: .5em;
+          height: 0;
+          border-bottom: 2px solid;
+          position: absolute;
+          top: calc(50% - 1px);
+          right: 0;
+          transform: translateY(-50%);
+        }
+      .mainDetails>summary::after {
+        transform: rotate(90deg);
+        transform-origin: 50% 50%;
+      }
+      .mainDetails[open] summary::after {
+        transform: rotate(0deg);
+      }
+
+
+      /* styles ported over from the second example */
+      @layer step2styles {
+        .mainDetails>details {
+          border: 0.5px solid;
+          padding: 0 1rem;
+          background: white;
+        }
+        .mainDetails>details + details {
+          border-top: none;
+        }
+        .mainDetails>details[open] {
+            padding-bottom: 0.5em;
+        }  
+        .mainDetails>summary {
+          padding: 0.5rem 1em 0.5rem 0;
+          font-size: 0.8rem;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+
+      /* cascade layer: page setup. Doesn't impact the accordion */
+      @layer setupPage {
+        
+      .mainDetails:root {
+        font-size: 80%;
+        line-height: 0.2;
+      }
+      .mainDetails>body {
+        background: #a4bacc99;
+        color: #226daa;
+        font-family: Raleway, sans-serif;
+        margin: 5rem;
+      }
+      .mainDetails>* {
+        box-sizing: border-box;
+      }
+
+      .mainDetails>aside {
+        width: 38em;
+        max-width: 98vw;
+      }
+      }
+    </style>
+    <style>
+      .back-to-top {
+          position: fixed;
+          bottom: 2em;
+          right: 200px;
+          text-decoration: none;
+          color: #000000;
+          background-color: rgba(235, 235, 235, 0.80);
+          font-size: 12px;
+          padding: 1em;
+          display: none;
+      }
+
+      .back-to-top:hover {    
+          background-color: rgba(135, 135, 135, 0.50);
+      }
+    </style>
+    <style type="text/css">
+      details {
+        margin-left: -0.7em;
+      }
+
+      summary {
+        margin-left: 0.3em;
+      }
+    </style>
+    <link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhklEQVQ4jbWPzStEURjG3yQLirlGKUnKFO45Z+SjmXvnnmthQcpCoVhYmD/AwmJiI3OvZuZc2U3UlKU0/gAslMw9JgvhHxAr2fko7r0jHSsl+TgbTz2Lt5731/MASEiJW9ONml2QyX6rsGalmnT74v8BDf12hxJfpV8d1uwNKUBYszabdFv84L8B9X0rESVmmUup2fme0cVhJWaZHw4NWL1SewEAfDe6H3Dy6Ll456WEJsRZS630MwCAOI20ei5OBpxse5zcBZw8eS4uPpfIuDiCainIg9umBCU0GZzgLZ9Hn31OgoATL+CkLDGB5H1OKj4nFd/FBxUXJ0UZNb4edw/6nLyJXaj5FeCVyPLNIVmYK8TG1IwWb16L1gEACAFV90ftoT8bdOX0EeyY99gxBXZMgRz6qGb1KantAACI0UvE6F5XJqEjpsdURouI0Vt5gGOUkUNnPu7ObGIIMfNaGqDmjDRi9FZldF1lRgYzeqUyeoiY4ag5Iy3RgOYRM8+/M2bG8efsO4hGrpmJseyMAAAAAElFTkSuQmCC" rel="icon" sizes="16x16" type="image/png">
+    <link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC40lEQVRYhe2UT0hUQRzHp6Iss1B3VZKIDbbdfW9mnoi4f3zzjkJQeOgS0SEIb1EWBGGlLLu460zQPQM1unUIIjA6rfpm6ZAhHjoIRVQUFUlEbG+euTsdXG1d3VL3bVD4g+9h+L35fT/8fvN7ADgY9aHY5fpIvK82HO9ysu66wxWOzbkjcekKx0a2ALYA/n2AGi3a6ArFezcidziecQygNhhrcUficjP6PwBqtGijKxy/thnVBePHywYoDsFhl53GV8SEcsTx4usCMLUewTVpc23BNvEzm6Neyf1+KcG2vwqwUjgrOJq2JmHftwmkVBRGTvncFodnbI7vChO/FRznCmHsNM7aHM9Yk7Df5iqsLMw9sMNOK2g+jS4IEz0UJv4iuJZb2RltWnB4UZqH6ioGAgAAGe5vtiZhtzDx7OoRadLmeM7m6IRjhnLMW2Vx1bA5GhAmnhIcz6/xNj4Ujsky8UspwfayjDPjsF2Y6L7N8Vzx/BfP+KPg6LbgSqd8DnfJW2CnbaLhfH5ephpqygJYvQU4Z3P82TLRsDDhUTnmrSq+Y3N0Mg+Xldy/zwEAnLMWZ3pHpNExmfLs/t0dOdVcbT0JeKxUwFP2VljjqiE47Jp53LTXNxhsUZjerTByXWX6VZWRs/4bIQ2ACv+UAomgDzLCISNZxAxZKMhIDjLy1JfsaK+I+eGBUBNk5E2x8RogX/PdcDZUqieWTSh5D6nOVKqfhoycUmlHFFIyu5RXqf7AcQDISCpv/tqbMBqK883RtmpISRoxQyJKPgGn3wNk5NEigDFa6hslqV/Kj+FdBQD0bshIDlKSLlVcoWQo36UhR80BAMB73lulMn0EMpJTqD6qJiOt3mho/8GbkT2BZNgDB/V+RI0fkOrT3kRIVQbaDizJm2hdNbINBxwk5xAj3yEjuV9rZ1iIkgxixkLBA83mz8uCjLwoGwAx0vOnFSy5mtR4VTaAQvVORMnwZgSpzkrV/QmdE2tKe46+MQAAAABJRU5ErkJggg==" rel="icon" sizes="32x32" type="image/png">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <script id="schema.org" type="application/ld+json">
+    [{
+        "@id": "http://www.w3id.org/ecsel-dr",
+        "@type": [
+          "https://schema.org/DefinedTermSet"
+        ],
+        "https://schema.org/creator": [
+          {
+            "@language": "en",
+            "@value": "George Dimitrakopoulos"
+          },
+          {
+            "@language": "en",
+            "@value": "Hans Ehm"
+          }
+        ],
+        "https://schema.org/dateCreated": [
+          {
+            "@language": "en",
+            "@value": "2019-11-07"
+          }
+        ],
+        "https://schema.org/dateModified": [
+          {
+            "@language": "en",
+            "@value": "2020-09-18"
+          }
+        ],
+        "https://schema.org/description": [
+          {
+            "@language": "en",
+            "@value": "Holistic Ontology for semiconductor manufacturing and development, products and systems containing semiconductors and connected supply chains."
+          },
+          {
+            "@language": "en",
+            "@value": "This ontology represents Incoterms 2020 starndards"
+          }
+        ],
+        "https://schema.org/name": [
+          {
+            "@language": "en",
+            "@value": "Digital Reference"
+          }
+        ]
+      }]
+  </script>
+  <script>
+    function opentab(evt, tabContent, tabContainer) {
+      var tabcontainer, tabcontent, tablinks;
+      tabcontainer = document.getElementsByClassName("tabcontainer");
+      for (i = 0; i < tabcontainer.length; i++) {
+        if (tabcontainer[i].getAttribute("num") == tabContainer) {
+          tablinks = tabcontainer[i].getElementsByClassName("tablinks");
+          tabcontent = tabcontainer[i].getElementsByClassName("tabcontent");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace("active", "");
+          }
+          tablinks[tabContent - 1].classList.add("active");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].className = tabcontent[i].className.replace("active", "");
+          }
+          tabcontent[tabContent - 1].classList.add("active");
+        }
+      }
+    }
+  </script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="https://projects.davidlynch.org/maphilight/jquery.maphilight.js"></script>
+  <script type="text/javascript">
+    $(function() {
+        $('.map').maphilight();
+        $('#squidheadlink').mouseover(function(e) {$('#squidhead').mouseover();}).mouseout(function(e) {$('#squidhead').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#cloudlink').mouseover(function(e) {$('#cloud_map').mouseover();}).mouseout(function(e) {$('#cloud_map').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#organizationlink').mouseover(function(e) {$('#organization_map').mouseover();}).mouseout(function(e) {$('#organization_map').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#planninglink').mouseover(function(e) {$('#planning_map').mouseover();}).mouseout(function(e) {$('#planning_map').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#powerlink').mouseover(function(e) {$('#power_map').mouseover();}).mouseout(function(e) {$('#power_map').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#processlink').mouseover(function(e) {$('#process_map').mouseover();}).mouseout(function(e) {$('#process_map').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#productlink').mouseover(function(e) {$('#product_map').mouseover();}).mouseout(function(e) {$('#product_map').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#semidevlink').mouseover(function(e) {$('#semidev_map').mouseover();}).mouseout(function(e) {$('#semidev_map').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#semiprodlink').mouseover(function(e) {$('#semiprod_map').mouseover();}).mouseout(function(e) {$('#semiprod_map').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#sensorlink').mouseover(function(e) {$('#sensor_map').mouseover();}).mouseout(function(e) {$('#sensor_map').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#supplychainlink').mouseover(function(e) {$('#supplychain_map').mouseover();}).mouseout(function(e) {$('#supplychain_map').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#sustainabilitylink').mouseover(function(e) {$('#sustainability_map').mouseover();}).mouseout(function(e) {$('#sustainability_map').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#systemlink').mouseover(function(e) {$('#system_map').mouseover();}).mouseout(function(e) {$('#system_map').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#timelink').mouseover(function(e) {$('#time_map').mouseover();}).mouseout(function(e) {$('#time_map').mouseout();}).click(function(e) { e.preventDefault(); });
+            $('#wiredcomlink').mouseover(function(e) {$('#wiredcom_map').mouseover();}).mouseout(function(e) {$('#wiredcom_map').mouseout();}).click(function(e) { e.preventDefault(); });
+    });
+  </script>
+  </head>
+  <body>
+    <div id="content">
+      <div class="section" id="metadata">
+        <h1>Digital Reference</h1>
+          <tr>
+            <p id="para1">Digital Reference (DR) – upper ontology introduced by the H2020/ECSEL project Productive4.0 in 2017, 
+            is a supply chain-related Semantic Web mirror of the semiconductor industry and supply chains containing semiconductors.</p>
+            <p>The Digital Reference, organized in topic clusters (lobes), provides the structure of a knowledge base readable for humans and computers alike. It represents all stages of the semiconductor supply chain with several sub-ontologies that currently consist of concepts, hierarchies and organizations (Ehm et al. 2019), (Ehm et al. 2020), (Ramzy et al. 2022).</p>
+          </tr>
+        <div class="tabcontainer" num='1'>
+          <div class="tab">
+            <button class="tablinks active" onclick="opentab(event, 1,1)">Introduction</button>
+            <button class="tablinks" onclick="opentab(event, 2,1)">Metadata</button>
+          </div>
+          <div id="In" class="tabcontent active">
+            <h2>Introduction</h2>
+            <p>
+              The concept of Digital Reference originates from the Productive4.0 initiative, aligned with the principles of Industry 4.0. Productive4.0 aimed to create a comprehensive user platform fostering digital networking across industries and value chains, inspired by the Semantic Web, Semantic Web Stack, and ontology.
+            </p>
+            <p>
+              At its core, this innovative approach is a Semantic Web model capturing intricate supply chain networks in the semiconductor industry and related domains. Merging distinct supply chain structures and semiconductor production concepts, it provides a holistic understanding of this complex landscape. This model includes around 800 distinct classes, representing various concepts across diverse domains. These are organized into thematic clusters known as "lobes," analogous to functional regions in the human brain. Each lobe corresponds to a specific supply chain facet, acting as a repository of knowledge accessible to both humans and machines. For instance, the "Cloud" lobe symbolizes networked remote servers for data management, the "Power" lobe covers electrical energy consumption, and the "Product" lobe encapsulates customer-tailored items and services. Additionally, lobes encompass domains like "Semiconductor Development," "Semiconductor Production," "Sensor," "Supply Chain," and "Sustainability," among others. The lobe structure facilitates the understanding and representation of supply chain elements. These lobes serve as taxonomies for classes and property clusters, bridging connections with other project components like the Arrowhead Cloud and enabling the realization of use cases.
+            </p>
+            <p>
+              Furthermore, when considering its practical implementation, we can turn our attention to the Applications in the SC4EU Project. Within the semiconductor domain, the SC4EU project harnesses the potential of Digital Reference. By addressing the bullwhip effect through data-driven strategies, SC4EU aims to alleviate industry challenges. Employing anonymous surveys and Multi-Party Computation technology, it effectively gathers reliable demand data. This information is then mapped onto semantic representations within the model and further processed with AI tools to achieve detailed demand breakdowns. Collaborating with advanced technologies like AI and the Semantic Web, the Digital Reference becomes a catalyst for transforming the SC4EU project. This transformation elevates the platform, enhancing demand forecasting accuracy and reducing chip shortages. Beyond immediate gains, this collaboration aligns with broader objectives, such as strengthening European digital sovereignty. The integration of cybersecurity, quality assurance, and reliability principles harmonizes with Industry 4.0 goals and the ongoing journey of digital transformation.
+            </p>
+            <img src="figures/Lobes.png" class='center' alt="Lobes of Digital Reference"><img>
+            <p class='center'><b>Lobes of Digital Reference</b></p>
+          </div>
+          <div id="Me" class="tabcontent">
+            <h2>Metadata</h2>
+              <div>
+                <dt>
+                  <a class="hover_property" href="http://purl.org/dc/terms/creator" title="An entity responsible for making the resource. Defined in DCMI Metadata Terms">Creator</a>
+                </dt>
+                <dd>
+                  <ul>
+                    <li><p>George Dimitrakopoulos</p></li>
+                    <li><p>Hans Ehm</p></li>
+                  </ul>
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  <a class="hover_property" href="http://purl.org/dc/terms/created" title="Date of creation of the resource. Defined in DCMI Metadata Terms">Date Created</a>
+                </dt>
+                <dd><p>2019-11-07</p></dd>
+              </div>
+              <div>
+                <dt>
+                  <a class="hover_property" href="http://purl.org/dc/terms/modified" title="Date on which the resource was changed. Defined in DCMI Metadata Terms">Date Modified</a>
+                </dt>
+                <dd><p>2020-09-18</p></dd>
+              </div>
+              <div>
+                <dt>
+                  <a class="hover_property" href="http://www.w3.org/2002/07/owl#versionInfo" title="The annotation property that provides version information for an ontology or another OWL construct. Defined in The OWL 2 Schema vocabulary (OWL 2)">Version Info</a>
+                </dt>
+                <dd><p>Version 1.1</p></dd>
+              </div>
+              <div>
+                <dt>
+                  <strong>IRI</strong>
+                </dt>
+                <dd>
+                  <code>http://www.w3id.org/ecsel-dr</code>
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  <strong>Github</strong>
+                </dt>
+                <dd>
+                  <a href="https://github.com/tibonto/dr/">https://github.com/tibonto/dr/</a>
+                </dd>
+              </div>
+          </div>
+        </div>
+      </div>
+      <iframe align="center" width="100%" height ="700px" src="https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/tibonto/dr/master/DigitalReference.ttl"></iframe>
+      <div id="namespaces">
+        <h2>Namespaces</h2>
+        <div class="text1">
+          <dt id="dr"><abbr title="Digital Reference">dr</abbr></dt>
+          <dd>
+            <code><a href=# target="_blank">http://www.w3id.org/ecsel-dr#</a></code>
+          </dd>
+          <dt id="ecsel-dr-AH"><abbr title="Arrowhead">ecsel-dr-AH</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Arrowhead/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-AH#</a></code>
+          </dd>
+          <dt id="ecsel-dr-AT"><abbr title="Automation Technologies">ecsel-dr-AT</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Automation Technologies/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-AT#</a></code>
+          </dd>
+          <dt id="ecsel-dr-BMS"><abbr title="Battery Management System">ecsel-dr-BMS</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Battery Management System/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-BMS#</a></code>
+          </dd>
+          <dt id="ecsel-dr-CO2Savings"><abbr title="CO2 Savings">ecsel-dr-CO2Savings</abbr></dt>
+          <dd>
+            <code><a href="subontologies/CO2Savings/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-CO2Savings#</a></code>
+          </dd>
+          <dt id="ecsel-dr-Incoterms"><abbr title="Incoterms">ecsel-dr-Incoterms</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Incoterms/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-Incoterms#</a></code>
+          </dd>
+          <dt id="ecsel-dr-OM"><abbr title="Order Management">ecsel-dr-OM</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Order Management/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-OM#</a></code>
+          </dd>
+          <dt id="ecsel-dr-OOSMP"><abbr title="Open Online Sales Marketing Platform">ecsel-dr-OOSMP</abbr></dt>
+          <dd>
+            <code><a href="subontologies/OOSMP/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-OOSMP#</a></code>
+          </dd>
+          <dt id="ecsel-dr-ORG"><abbr title="Organization">ecsel-dr-ORG</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Organization/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-ORG#</a></code>
+          </dd>
+          <dt id="ecsel-dr-PMV"><abbr title="Process Model Version">ecsel-dr-PMV</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Process Model Version/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-PMV#</a></code>
+          </dd>
+          <dt id="ecsel-dr-PROD"><abbr title="Product">ecsel-dr-PROD</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Product/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-PROD#</a></code>
+          </dd>
+        </div>
+        <div class="text2">
+          <dt id="ecsel-dr-PWR"><abbr title="Power">ecsel-dr-PWR</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Power/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-PWR#</a></code>
+          </dd>
+          <dt id="ecsel-dr-RAMI40"><abbr title="Reference Architectural Model Industrie 4.0">ecsel-dr-RAMI40</abbr></dt>
+          <dd>
+            <code><a href="subontologies/RAMI4.0/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-RAMI40#</a></code>
+          </dd>
+          <dt id="ecsel-dr-SCP"><abbr title="Supply Chain Planning">ecsel-dr-SCP</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Supply Chain Planning/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-SCP#</a></code>
+          </dd>
+          <dt id="ecsel-dr-SO"><abbr title="SemiOps">ecsel-dr-SO</abbr></dt>
+          <dd>
+            <code><a href="subontologies/SemiOps/index-en.html" target="_blank">http://www.w3id.org/ecsel-dr-SO#</a></code>
+          </dd>
+          <dt id="ns_Sensor"><abbr title="Sensor">Sensor</abbr></dt>
+          <dd>
+            <code><a href="http://www.w3.org/ns/sosa/Sensor" target="_blank">http://www.w3.org/ns/sosa/Sensor</a></code>
+          </dd>
+          <dt id="time">time</dt>
+          <dd>
+            <code><a href="subontologies/Time/index-en.html" target="_blank">http://www.w3.org/2006/time#</a></code>
+          </dd>
+          <dt id="dc"><abbr title="Dublin Core Metadata Initiative">dc</abbr></dt>
+          <dd>
+            <code><a href=http://purl.org/dc/elements/1.1/ target="_blank">http://purl.org/dc/elements/1.1/</a></code>
+          </dd>
+          <dt id="dcmitype"><abbr title="DCMI Type Vocabulary">dcmitype</abbr></dt>
+          <dd>
+            <code><a href=http://purl.org/dc/dcmitype/ target="_blank">http://purl.org/dc/dcmitype/</a></code>
+          </dd>
+          <dt id="foaf"><abbr title="Friend of a Friend vocabulary">foaf</abbr></dt>
+          <dd>
+            <code><a href=http://xmlns.com/foaf/0.1/ target="_blank">http://xmlns.com/foaf/0.1/</a></code>
+          </dd>
+          <dt id="org"><abbr title="Organization">org</abbr></dt>
+          <dd>
+            <code><a href="subontologies/Core organization ontology/index-en.html" target="_blank">http://www.w3.org/ns/org#</a></code>
+          </dd>
+          <dt id="owl"><abbr title="Web ontology language">owl</abbr></dt>
+          <dd>
+            <code><a href="subontologies/OWL/index-en.html" target="_blank">http://www.w3.org/2002/07/owl#</a></code>
+          </dd>
+        </div>
+        <div class="text3">
+          <dt id="prov"><abbr title="Provenance">prov</abbr></dt>
+          <dd>
+            <code><a href="http://www.w3.org/ns/prov" target="_blank">http://www.w3.org/ns/prov#</a></code>
+          </dd>
+          <dt id="rdf"><abbr title="resource description framework">rdf</abbr></dt>
+          <dd>
+            <code><a href="subontologies/rdf/index-en.html" target="_blank">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a></code>
+          </dd>
+          <dt id="rdfs"><abbr title="resource description framework schema">rdfs</abbr></dt>
+          <dd>
+            <code><a href="subontologies/rdfs/index-en.html" target="_blank">http://www.w3.org/2000/01/rdf-schema#</a></code>
+          </dd>
+          <dt id="schema1">schema1</dt>
+          <dd>
+            <code><a href="http://schema.org/" target="_blank">http://schema.org/</a></code>
+          </dd>
+          <dt id="skos"><abbr title="Simple Knowledge Organization Systemskos">skos</abbr></dt>
+          <dd>
+            <code><a href="http://www.w3.org/2004/02/skos/core" target="_blank">http://www.w3.org/2004/02/skos/core#</a></code>
+          </dd>
+          <dt id="sosa"><abbr title="Sensor, Observation, Sample, and Actuator">sosa</abbr></dt>
+          <dd>
+            <code><a href="subontologies/sosa/index-en.html" target="_blank">http://www.w3.org/ns/sosa/</a></code>
+          </dd>
+          <dt id="ssn"><abbr title="Semantic Sensor Network">ssn</abbr></dt>
+          <dd>
+            <code><a href="subontologies/ssn/index-en.html" target="_blank">http://www.w3.org/ns/ssn/</a></code>
+          </dd>
+          <dt id="swrl"><abbr title="Semantic Web Rule Language">swrl</abbr></dt>
+          <dd>
+            <code><a href="https://www.w3.org/submissions/2004/SUBM-SWRL-20040521/" target="_blank">http://www.w3.org/2003/11/swrl#</a></code>
+          </dd>
+          <dt id="terms"><abbr title="DCMI Metadata Terms">terms</abbr></dt>
+          <dd>
+            <code><a href="http://purl.org/dc/terms/" target="_blank">http://purl.org/dc/terms/</a></code>
+          </dd>
+          <dt id="vann"><abbr title="A vocabulary for annotating vocabulary descriptions">vann</abbr></dt>
+          <dd>
+            <code><a href="http://purl.org/vocab/vann" target="_blank">http://purl.org/vocab/vann/</a></code>
+          </dd>
+          <dt id="xsd"><abbr title="XMLSchema">xsd</abbr></dt>
+          <dd>
+            <code><a href="http://www.w3.org/2001/XMLSchema" target="_blank">http://www.w3.org/2001/XMLSchema#</a></code>
+          </dd>
+        </div>
+      </div>
+      <div id="lobes">
+        <h2>Lobes</h2>
+          <div class="container">
+            <div>
+              <img src="figures/Lobes_empty_resize.png"  class="map" usemap="#simple">
+              <map name="simple">
+                <area id="cloud_map" alt="cloud" title="cloud" href="" coords="192,279,392,428" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="organization_map" alt="organization" title="organization" href="" coords="205,344,92,184" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="planning_map" alt="planning" title="planning" href="" coords="73,153,273,314" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="power_map" alt="power" title="power" href="" coords="41,0,255,110" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="process_map" alt="process" title="process" href="" coords="165,204,284,407" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="product_map" alt="product" title="product" href="" coords="48,169,249,285" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="semidev_map" alt="semidev" title="semidev" href="" coords="9,100,222,229" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="semiprod_map" alt="semiprod" title="semiprod" href="" coords="239,122,81,242" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="sensor_map" alt="sensor" title="sensor" href="" coords="57,262,227,398" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="supplychain_map" alt="supplychain" title="supplychain" href="" coords="106,214,244,427" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="sustainability_map" alt="sustainability" title="sustainability" href="" coords="316,158,424,276" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="system_map" alt="system" title="system" href="" coords="305,195,128,360" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="time_map" alt="time" title="time" href="" coords="301,272,169,149" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+                <area id="wiredcom_map" alt="wiredcom" title="wiredcom" href="" coords="382,169,167,23" shape="rect" data-maphilight='{"stroke":true,"fillColor":"000000","fillOpacity":0.0}' title="cloud">
+              </map>
+            </div>
+            <div class="text">
+              <details class="mainDetails">
+                <summary><a id="cloudlink" href="#cloud_map">Cloud</a></summary>
+                <p>Cloud refers to a network of remote servers that store, manage, and process data and applications, providing on-demand access and scalable computing resources over the internet.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="organizationlink" href="#organization_map">Organization</a></summary>
+                <p>Organization refers to the structural and managerial aspects such as organizational structure, roles and responsibilities, efficient coordination and collaboration among various stakeholders within the semiconductor supply chains.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="planninglink" href="#planning_map">Planning</a></summary>
+                <p>Planning is about making strategic decisions and creating comprehensive plans to ensure the efficient and effective flow of materials, products, and information throughout the manufacturing and distribution process. In includes information about marketing and sales demans, demand march, aggregated capacity, capacity bottlenecks, orders and customers.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="powerlink" href="#power_map">Power</a></summary>
+                <p>Power refers to the electrical energy consumed or dissipated by electronic devices or components during their operation, and is a crucial consideration for efficiency and performance optimization.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="processlink" href="#process_map">Process</a></summary>
+                <p>Process refers to a series of interconnected and sequential actions, steps, or operations designed to achieve a specific outcome or goal within a system or organization.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="productlink" href="#product_map">Product</a></summary>
+                <p>A product is a tangible or intangible item or service that is created, manufactured, or offered to fulfill a need or desire of customers.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="semidevlink" href="#semidev_map">Semiconductor Development</a></summary>
+                <p>Semiconductor development refers to the process of researching, designing, and creating semiconductor devices to meet technological avancements and inductry demands.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="semiprodlink" href="#semiprod_map">Semiconductor Production</a></summary>
+                <p>Semiconductor production refers to the manufacturing process of creating integrated circuits and other semiconductor devices by deposing, patterning, and doping various materials on a substrate to form electronic components.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="sensorlink" href="#sensor_map">Sensor</a></summary>
+                <p>A sensor is a device or component that detects and measures physical, chemical or environmental parameters and converts them into electrical signals for futher analysis or use.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="supplychainlink" href="#supplychain_map">Supply Chain</a></summary>
+                <p>Supply chain refers to a network of interconnected organizations, activities, resources, and technologies involved in the production, distribution, and delivery of goods or services from the source to end consumer.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="sustainabilitylink" href="#sustainability_map">Sustainability</a></summary>
+                <p>Sustainability refers to the practice of meeting present needs without compromising the ability of future generations to meet their own needs, balancing environmental, social, and economic considerations.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="systemlink" href="#system_map">System</a></summary>
+                <p>A system is a collection of interconnected components or elements that work together to perform a specific function or achieve a particular objective.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="timelink" href="#time_map">Time</a></summary>
+                <p>Time refers to a measurable dimension in which events occur sequentially and can be used to qualify the duration between occurences.</p>
+              </details>
+              <details class="mainDetails">
+                <summary><a id="wiredcomlink" href="#wiredcom_map">Wired Communication</a></summary>
+                <p>Wired communication refers to the transmission of data or signals through physical connections such as cables or wires.</p>
+              </details>            
+            </div>
+          </div>
+      </div>
+      <div id="divtop" class="tabcontainer" num='2'>
+        <div class="tab">
+          <button class="tablinks active" onclick="opentab(event, 1,2)">Classes</button>
+          <button class="tablinks" onclick="opentab(event, 2,2)">ObjectProperties</button>
+          <button class="tablinks" onclick="opentab(event, 3,2)">DatatypeProperties</button>
+        </div>
+        <div id="CL" class="tabcontent active">
+            <div id="classes">
+                <h2>Classes</h2>
+
+          </div>
+        </div>
+        <div id="Ob" class="tabcontent">
+            <div class="section" id="objectproperties">
+                <h2>Object Properties</h2>
+            </div>
+        </div>
+        <div id="Da" class="tabcontent">
+            <div class="section" id="datatypeproperties">
+                <h2>Datatype Properties</h2>
+        </div>
+      </div>
+      <div id="update">
+        <h2><a href="Update.html" target="_blank">Update</a></h2>
+      </div>
+     <!--  <div id="legend">
+        <h2>Legend</h2>
+        <table class="entity">
+          <tr>
+            <td>
+              <sup class="sup-c" title="OWL/RDFS Class">c</sup>
+            </td>
+            <td>Classes</td>
+          </tr>
+          <tr>
+            <td>
+              <sup class="sup-op" title="OWL Object Property">op</sup>
+            </td>
+            <td>Object Properties</td>
+          </tr>
+          <tr>
+            <td>
+              <sup class="sup-dp" title="OWL Datatype Property">dp</sup>
+            </td>
+            <td>Datatype Properties</td>
+          </tr>
+          <tr>
+            <td>
+              <sup class="sup-ap" title="OWL Annotation Property">ap</sup>
+            </td>
+            <td>Annotation Properties</td>
+          </tr>
+          <tr>
+            <td>
+              <sup class="sup-fp" title="OWL Functional Property">fp</sup>
+            </td>
+            <td>Functional Properties</td>
+          </tr>
+        </table>
+      </div> -->
+    </div>
+    <div id="pylode">
+      <p>made by 
+        <a href="https://github.com/rdflib/pyLODE">
+          <span id="p">p</span>
+          <span id="y">y</span>
+          <span>LODE</span>
+        </a>
+        <a href="https://github.com/rdflib/pyLODE/release/3.0.5" id="version">3.0.5</a>
+        <span> with the </span>
+        <a href="https://w3id.org/profile/ontpub" id="profile">OntPub</a>
+        <span>profile</span>
+      </p>
+    </div>
+    <div id="toc">
+      <h3>Table of Contents</h3>
+      <ul class="first">
+        <li>
+          <h4>
+            <a href="#metadata">Metadata</a>
+          </h4>
+        </li>
+        <li>
+          <h4>
+            <a href="#classes">Lobes</a>
+          </h4>
+          <ul class="second">
+                     
+          </ul>
+        </li>
+        <li>
+          <h4>
+          <details>
+            <summary>Namespaces</summary>
+            <ul class="second">
+              <dd>
+              <a href="#namespaces">Namespaces</a>
+              <li>
+                <a href="#dr">dr</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-AH">ecsel-dr-AH</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-AT">ecsel-dr-AT</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-BMS">ecsel-dr-BMS</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-CO2Savings">ecsel-dr-CO2Savings</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-Incoterms">ecsel-dr-Incoterms</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-OM">ecsel-dr-OM</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-OOSMP">ecsel-dr-OOSMP</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-ORG">ecsel-dr-ORG</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-PMV">ecsel-dr-PMV</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-PROD">ecsel-dr-PROD</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-PWR">ecsel-dr-PWR</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-RAMI40">ecsel-dr-RAMI40</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-SCP">ecsel-dr-SCP</a>
+              </li>
+              <li>
+                <a href="#ecsel-dr-SO">ecsel-dr-SO</a>
+              </li>
+              <li>
+                <a href="#ns_Sensor">Sensor</a>
+              </li>
+              <li>
+                <a href="#time">time</a>
+              </li>
+              <li>
+                <a href="#dc">dc</a>
+              </li>
+              <li>
+                <a href="#dcmitype">dcmitype</a>
+              </li>
+              <li>
+                <a href="#foaf">foaf</a>
+              </li>
+              <li>
+                <a href="#org">org</a>
+              </li>
+              <li>
+                <a href="#owl">owl</a>
+              </li>
+              <li>
+                <a href="#prov">prov</a>
+              </li>
+              <li>
+                <a href="#rdf">rdf</a>
+              </li>
+              <li>
+                <a href="#rdfs">rdfs</a>
+              </li>
+              <li>
+                <a href="#schema1">schema1</a>
+              </li>
+              <li>
+                <a href="#skos">skos</a>
+              </li>
+              <li>
+                <a href="#sosa">sosa</a>
+              </li>
+              <li>
+                <a href="#ssn">ssn</a>
+              </li>
+              <li>
+                <a href="#swrl">swrl</a>
+              </li>
+              <li>
+                <a href="#terms">terms</a>
+              </li>
+              <li>
+                <a href="#vann">vann</a>
+              </li>
+              <li>
+                <a href="#xsd">xsd</a>
+              </li>
+              </dd>
+            </ul>
+          </details>
+          </h4>
+        </li>
+        <li>
+          <h4>
+            <a href="#update">Update</a>
+          </h4>
+          <ul class="second"></ul>
+        </li>
+        <li>
+          <h4>
+            <a href="#legend">Legend</a>
+          </h4>
+          <ul class="second"></ul>
+        </li>
+      </ul>
+    </div>
+    <a href="#top_1" class="back-to-top">Back to Top</a>
+    <script type="text/javascript">//<![CDATA[
+      $(document).ready(function() {
+          var offset = 220;
+          var duration = 500;
+          jQuery(window).scroll(function() {
+              if (jQuery(this).scrollTop() > offset) {
+                  jQuery('.back-to-top').fadeIn(duration);
+              } else {
+                  jQuery('.back-to-top').fadeOut(duration);
+              }
+          });
+          
+      jQuery('.back-to-top').click(function(event) {
+          event.preventDefault();
+          var target = $('#divtop').offset().top;
+          jQuery('html, body').animate({scrollTop: target}, duration);
+          return false;
+      })
+      });
+
+
+        //]]>
+    </script>
+  </body>
+</html>
