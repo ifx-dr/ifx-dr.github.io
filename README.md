@@ -4,7 +4,10 @@ webpage for Digital Reference
 # How to update
 
 ## Prerequisites
-1. WiDoCo - Ensure WiDoCo is installed to generate documentation.
+1. WiDoCo - Ensure WiDoCo is installed to generate documentation. If GUI isn't working, please  use terminal to open widoco
+```
+java -jar widoco-1.4.20-jar-with-dependencies_JDK-14.jar
+```
 2. Python - Confirm Python is set up and configured correctly to run `main.py`.
 3. install BeautifulSoup
 ```
