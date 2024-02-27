@@ -24,7 +24,7 @@ pip install bs4
 
 ### Classes, Objects, and Properties
 
-1. Use WiDoCo - Run WiDoCo to generate the initial draft of the documentation for the Digital Reference.
+1. Use WiDoCo - Run WiDoCo and import the latest DigitalReference.ttl in https://github.com/tibonto/dr to generate the initial draft of the documentation for the Digital Reference.
 2. File Path - Update the WiDoCo file path in main.py within the DR website generator folder.
 3. Lobe List - Review the lobe list and add any new lobes that have been created.
 
