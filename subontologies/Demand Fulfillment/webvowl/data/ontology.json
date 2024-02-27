@@ -1,0 +1,3109 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "version" : "1.0",
+    "comments" : {
+      "undefined" : "13.06.2019"
+    },
+    "other" : {
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "183",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "188",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "175",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "208",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "118",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "198",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "217",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "180",
+    "type" : "owl:Class"
+  }, {
+    "id" : "250",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Order",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer_Order"
+    },
+    "comment" : {
+      "undefined" : "This is an order that is initiated by a customer."
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Replenishment_Order",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Replenishment_Order"
+    },
+    "comment" : {
+      "undefined" : "This is an order that is initiated by an internal request of the semiconductor manufacturer to produce the order according to a MTS strategy. The replenishment order can be divided into different sub order types, depending on the purpose of order creation."
+    },
+    "attributes" : [ "external" ],
+    "id" : "11",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Contract",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supply_Contract"
+    },
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning"
+    },
+    "subClasses" : [ "57", "58", "59" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Requested_Delivery_Date",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Requested_Delivery_Date"
+    },
+    "comment" : {
+      "undefined" : "The RDD is the point in time when the customer wants to get the order."
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Split_Order",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Split_Order"
+    },
+    "comment" : {
+      "undefined" : "This is an order that results from a split delivery. When an order position of an order is delivered in several portions, each portion starting from the second one is considered as a separate suborder which is called scheduled order position. The original order also exists after the split."
+    },
+    "id" : "96",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#External_Customer",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "External_Customer"
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product"
+    },
+    "comment" : {
+      "undefined" : "A product is a good that fulfills a prescribed set of requirements (for instance, form, fit, and function). A set of alternative BOMs might be associated with each product. The manufacturing process is complicated by binning and substitution (in production). Binning refers to the process that an item can become one of several products based on tested levels of performance, for instance, speed."
+    },
+    "attributes" : [ "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Allocation_Plan"
+    },
+    "comment" : {
+      "undefined" : "An allocation plan is a special plan, which deals with assigning ATP quantities to a customer or a customer class."
+    },
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_order_(MTO)",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Make_to_order_(MTO)"
+    },
+    "comment" : {
+      "undefined" : "This is a strategy where production is initiated to fulfill specific customer orders. This strategy is characterized by an order-driven production."
+    },
+    "attributes" : [ "external" ],
+    "id" : "76",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Forecasted_Demand",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Forecasted_Demand"
+    },
+    "comment" : {
+      "undefined" : "This is a special demand class that is used for the projection of future demand."
+    },
+    "attributes" : [ "external" ],
+    "id" : "92",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Hierarchy",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Hierarchy"
+    },
+    "comment" : {
+      "undefined" : "The concept characterizes the top-down and bottom-up relationship between different product aggregates. It organizes the product aggregates according to defined criteria."
+    },
+    "attributes" : [ "external" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Allocation_Planning",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Allocation_Planning"
+    },
+    "id" : "58",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Master_Planning",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Master_Planning"
+    },
+    "id" : "59",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Concept",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Delivery_Concept"
+    },
+    "subClasses" : [ "123", "124", "125" ],
+    "comment" : {
+      "undefined" : "The deliver concept defines the terms and conditions for delivering an order to the customer. Especially partial and split delivery has to be taken into account."
+    },
+    "attributes" : [ "external" ],
+    "id" : "122"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Batch_Interval",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Batch_Interval"
+    },
+    "comment" : {
+      "undefined" : "This is the time span for which arriving orders are collected to derive for all of them jointly a first promised delivery date."
+    },
+    "id" : "81",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Location",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Location"
+    },
+    "id" : "108"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Planning_Purpose",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Purpose"
+    },
+    "comment" : {
+      "undefined" : "The planning purpose describes a set of criteria that influence other concepts, e.g. product aggregate."
+    },
+    "attributes" : [ "external" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Best_Promised_Delivery_Date",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Best_Promised_Delivery_Date"
+    },
+    "comment" : {
+      "undefined" : "This is the best delivery date the supplier ever promised to the customer. It represents the best delivery date the supplier submitted to the customer. Thus every later commitment or delivery is a de-commitment from the supplier."
+    },
+    "id" : "129",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order"
+    },
+    "subClasses" : [ "4", "11", "96" ],
+    "comment" : {
+      "undefined" : "An order contains at least one order position. An order has an order type and is associated to demand"
+    },
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Period",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Period"
+    },
+    "comment" : {
+      "undefined" : "The concept period displays the sub unit of the planning horizon."
+    },
+    "attributes" : [ "external" ],
+    "id" : "71",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Productive_Lot",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Productive_Lot"
+    },
+    "comment" : {
+      "undefined" : "A productive lot is created to fulfill a customer demand. The production process is carried out as it is defined during the production development phase."
+    },
+    "attributes" : [ "external" ],
+    "id" : "132",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Demand"
+    },
+    "comment" : {
+      "undefined" : "Demand is a production request for a specific product or service that can have different triggers. Either demand exists explicitly in form of customer orders or implicitly as expected customer need that have to be fulfilled by the semiconductor supply chain."
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Complete_Delivery",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Complete_Delivery"
+    },
+    "comment" : {
+      "undefined" : "The normal case is that an order is completely delivered."
+    },
+    "attributes" : [ "external" ],
+    "id" : "124",
+    "superClasses" : [ "122" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order_Delivery_Plan"
+    },
+    "subClasses" : [ "134", "135" ],
+    "comment" : {
+      "undefined" : "This is the result of the order promise or repromise process for different sets of orders taking into account an allocation policy and the supply and allocation situation. Different order promising variants can be distinguished, for instance online order promising, batch order promising, and hybrid order promising. The same is true of repromising."
+    },
+    "attributes" : [ "external" ],
+    "id" : "100",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer"
+    },
+    "comment" : {
+      "undefined" : "A customer can place orders. He raises a demand for a specific product or service. Internal and external customer demand can be distinguished."
+    },
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Inventory_Replenishment_Demand",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Inventory_Replenishment_Demand"
+    },
+    "comment" : {
+      "undefined" : "This is a special demand class that is used for replenishment of safety stock."
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Internal_Customer",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Internal_Customer"
+    },
+    "attributes" : [ "external" ],
+    "id" : "145",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Date"
+    },
+    "subClasses" : [ "152", "129", "153", "154", "155", "156", "60" ],
+    "comment" : {
+      "undefined" : "The availability date defines the point in time when the supply is available to the customer. It can be distinguished between different availability dates. Not all availability dates are communicated to the customer."
+    },
+    "attributes" : [ "external" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bill_of_Material_(BOM)"
+    },
+    "comment" : {
+      "undefined" : "A BOM describes components or rather semi-finished products that are part of the finished product. Substitution, often associated with binning, is based on the possibility that alternative items might be used to finish a process step. This leads to the notion of alternative BOMs."
+    },
+    "attributes" : [ "external" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "151",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "158",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "161",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "160",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_stock_(MTS)",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Make_to_stock_(MTS)"
+    },
+    "comment" : {
+      "undefined" : "This is a strategy where production is driven by the replenishment of inventories at specific locations. Products are produced forecast-driven until they are completely finished in the case of MTS."
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#First_Promised_Delivery_Date",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "First_Promised_Delivery_Date"
+    },
+    "comment" : {
+      "undefined" : "Initially, the FPD is set for an order delivery within the online order confirmation process."
+    },
+    "attributes" : [ "external" ],
+    "id" : "153",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supplier",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supplier"
+    },
+    "comment" : {
+      "undefined" : "A Supplier fufills a demand for a specific product or service."
+    },
+    "attributes" : [ "external" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Last_Promised_Delivery_Date",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Last_Promised_Delivery_Date"
+    },
+    "comment" : {
+      "undefined" : "This is the last commitment the supplier has given to the customer"
+    },
+    "id" : "156",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lot"
+    },
+    "subClasses" : [ "175", "132" ],
+    "comment" : {
+      "undefined" : "A lot is a set of wafers, substrates or modules that travel together through the FE or BE fab in order to fulfill a certain order."
+    },
+    "attributes" : [ "external" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Position",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order_Position"
+    },
+    "comment" : {
+      "undefined" : "An order position refers to a product specification, a product quantity, and a desired delivery date. Each order position has a status and belongs to an order."
+    },
+    "id" : "183"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "186",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "168",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Aggregate",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Product_Aggregate"
+    },
+    "comment" : {
+      "undefined" : "The concept product aggregate is used to group different products based on certain criteria. The grouping criteria depend on the planning purpose (e.g. controlling, production). It is a certain view (external or internal) on a set of products."
+    },
+    "attributes" : [ "external" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Class",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer_Class"
+    },
+    "subClasses" : [ "101", "145" ],
+    "comment" : {
+      "undefined" : "The set of all customers is divided into different priority classes or segments based on certain criteria like profitability or importance of customer."
+    },
+    "attributes" : [ "external" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "189",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "72",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "140",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "190",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "172",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Split_Delivery",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Split_Delivery"
+    },
+    "comment" : {
+      "undefined" : "It can be allowed that order positions of an order are delivered in several portions."
+    },
+    "attributes" : [ "external" ],
+    "id" : "125",
+    "superClasses" : [ "122" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "191",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "194",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "195",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Class",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Demand_Class"
+    },
+    "subClasses" : [ "95", "92", "98" ],
+    "comment" : {
+      "undefined" : "This concept is used for dividing the total forecast for a given product into several priority classes."
+    },
+    "id" : "93"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Engineering_Lot",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Engineering_Lot"
+    },
+    "comment" : {
+      "undefined" : "An engineering lot requires additional process development efforts and special attention during the production flow. Engineering lots have various functions, thus several engineering lot types can be differentiated."
+    },
+    "attributes" : [ "external" ],
+    "id" : "175",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Promising",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order_Promising"
+    },
+    "comment" : {
+      "undefined" : "This concept describes the process to promise an order considering allocation policy as well as supply and allocation situation. The order promising can be distinguished between different variants, for instance online order promising and batch order promising."
+    },
+    "attributes" : [ "external" ],
+    "id" : "57",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "199",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "200",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "110",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "204",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Assemble_to_order_(ATO)",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Assemble_to_order_(ATO)"
+    },
+    "comment" : {
+      "undefined" : "In the case of ATO, products are produced forecast-driven until the point right before it comes to the assembly. Starting from there, the production continues based on a customer order."
+    },
+    "attributes" : [ "external" ],
+    "id" : "74",
+    "superClasses" : [ "69" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "205",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Plan"
+    },
+    "subClasses" : [ "100", "63", "66" ],
+    "comment" : {
+      "undefined" : "A plan is an activity specification with an intended purpose. Planning is an activity with the purpose to determine a plan. Planning is associated with goals, in the present situation represented by objective functions to be optimized."
+    },
+    "attributes" : [ "external" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "108", "9", "107" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "136",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "152", "153", "154", "155" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "143"
+  }, {
+    "instances" : 0,
+    "union" : [ "107", "188" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "208"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supply"
+    },
+    "comment" : {
+      "undefined" : "This is the total amount of specific products that is available to customers. Supply has the dimensions quantity, time, location, product, including aggregation of all dimensions. Supply is defined as inventory or plan replenishment."
+    },
+    "attributes" : [ "external" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "133",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning_Period",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Period"
+    },
+    "comment" : {
+      "undefined" : "A planning period is a specific DateTimeInterval from the time ontology (Time Ontology 2020). It belongs to a planning window. It has a temporal duration."
+    },
+    "id" : "84",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Date",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Delivery_Date"
+    },
+    "comment" : {
+      "undefined" : "This is the point in time when the customer received the requested order."
+    },
+    "attributes" : [ "external" ],
+    "id" : "152",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Master_Plan"
+    },
+    "comment" : {
+      "undefined" : "A master plan is a specific plan which determines which quantity resulting from confirmed orders and from forecasted demand should be completed in which location in which period of the planning horizon. Moreover, outsourcing decisions have to be represented in master plans."
+    },
+    "attributes" : [ "external" ],
+    "id" : "66",
+    "superClasses" : [ "64" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "210",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "211",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "118",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "198",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "203",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "119",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "193",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#AATP",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AATP"
+    },
+    "comment" : {
+      "undefined" : "When scarce ATP quantities are allocated to different customer classes or customers, the resulting supply reservations are called allocated ATP (AATP) quantities."
+    },
+    "id" : "120"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "142",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "197",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Confirmed_Delivery_Date"
+    },
+    "comment" : {
+      "undefined" : "The CDD is the committed date for order delivery that is communicated to the costumer. It depends on the communication strategy between manufacturer and customer. For instance, the CDD is the PDD if order repromising takes place in the same frequency as the update interval of the CDD."
+    },
+    "attributes" : [ "external" ],
+    "id" : "154",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Firm_Order_Demand",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Firm_Order_Demand"
+    },
+    "comment" : {
+      "undefined" : "This is a special demand class that is used for demand that is required to fulfill already committed/accepted orders."
+    },
+    "attributes" : [ "external" ],
+    "id" : "98",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Priority",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Demand_Priority"
+    },
+    "comment" : {
+      "undefined" : "This concept is used to describe the different importance level of a demand. The demand priority can be assigned independently from the demand class."
+    },
+    "id" : "217"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "149",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "147",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Promised_Delivery_Date",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Promised_Delivery_Date"
+    },
+    "comment" : {
+      "undefined" : "This is the date for which eventually partial order delivery is confirmed. The PDD date can be changed over time. Within the repromising process there are typically different PDDs available."
+    },
+    "attributes" : [ "external" ],
+    "id" : "155",
+    "superClasses" : [ "61" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "219",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "138",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "215",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Partial_Delivery",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Partial_Delivery"
+    },
+    "comment" : {
+      "undefined" : "It can be allowed that only parts of an order position of an order are delivered. Therefore, the customer is willing to waive parts of quantity belonging to an order position."
+    },
+    "attributes" : [ "external" ],
+    "id" : "123",
+    "superClasses" : [ "122" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Production_Strategy",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Production_Strategy"
+    },
+    "subClasses" : [ "68", "74", "76" ],
+    "comment" : {
+      "undefined" : "The production strategy determining which portions of a supply chain should operate in make to stock (MTS) mode, where production is driven by the replenishment of inventories at specific locations, and which in make to order (MTO) mode, where production is initiated to fulfill specific customer orders. The production strategy is related to the question where the customer order decoupling point (CODP), also referred to as the push-pull interface (or boundary) has to be placed. The CODP denotes the point in the supply chain where material is dedicated to a specific customer order to the degree that it cannot be used for another."
+    },
+    "attributes" : [ "external" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Online_Order_Promising_Plan",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Online_Order_Promising_Plan"
+    },
+    "id" : "135",
+    "superClasses" : [ "100" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Repromising_Plan",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order_Repromising_Plan"
+    },
+    "id" : "134",
+    "superClasses" : [ "100" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#ATP",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ATP"
+    },
+    "comment" : {
+      "undefined" : "The part of the inventory and projected supply that can be used to fulfill customer orders is called ATP."
+    },
+    "id" : "180"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Activity",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Activity"
+    },
+    "comment" : {
+      "undefined" : "An activity is something carried out over a specific time interval."
+    },
+    "id" : "250"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Route",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Route"
+    },
+    "comment" : {
+      "undefined" : "The term route can be considered on different levels. In the present situation, a route is associated with a product and describes its production flow on the production network level."
+    },
+    "attributes" : [ "external" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning_Window",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Planning_Window"
+    },
+    "comment" : {
+      "undefined" : "Planning in supply chains is associated with a planning window which is formed by a set of consecutive planning periods."
+    },
+    "id" : "78",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Supply_Chain"
+    },
+    "id" : "107"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Time_Interval",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Time_Interval"
+    },
+    "subClasses" : [ "78", "81", "71", "84" ],
+    "id" : "79"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "146",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "157",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "159",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "162",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "163",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "164",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "165",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "166",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "167",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "174",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "176",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "177",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "178",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "179",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "181",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "182",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "184",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "185",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "187",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "192",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "196",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "201",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "202",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "206",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "207",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "209",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "212",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "213",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "214",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "216",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "218",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "228",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "229",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "230",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "231",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "232",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "233",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "234",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "235",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "236",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "237",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "238",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "245",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "251",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "255",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#BelongsTo",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "BelongsTo"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "1",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLots",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "HasLots"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductMilestoneStatus",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "HasProductMilestoneStatus"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "13",
+    "subproperty" : [ "14", "15", "16", "17", "18", "0", "5", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52" ],
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyLocation",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "HasSupplyLocation"
+    },
+    "domain" : "54",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "53"
+  }, {
+    "range" : "64",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "64",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "69",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodName",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "HasPeriodName"
+    },
+    "domain" : "71",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "70"
+  }, {
+    "range" : "69",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "69",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "79",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "79",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "79",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "79",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerIdentifier",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "HasCustomerIdentifier"
+    },
+    "domain" : "13",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPriority",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "HasOrderPriority"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerName",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "HasCustomerName"
+    },
+    "domain" : "13",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "89"
+  }, {
+    "range" : "93",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "93",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "93",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "range" : "64",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#AssignsATPto",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "AssignsATPto"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "63",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBatchingInterval",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "HasBatchingInterval"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "This is the time span for which arriving orders are collected to derive for all of them jointly a first promised delivery date."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerInformation",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "HasCustomerInformation"
+    },
+    "domain" : "63",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLocations",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "108",
+    "label" : {
+      "IRI-based" : "HasLocations"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "107",
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductType",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "HasProductType"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "7",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandPriority",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "HasDemandPriority"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "This concept is used to describe the different importance level of a demand. The demand priority can be independently assigned from the demand class."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOM",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "HasBOM"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "9",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderName",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "113",
+    "label" : {
+      "IRI-based" : "HasOrderName"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasRoute",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "HasRoute"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "9",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotEndDate",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "116",
+    "label" : {
+      "IRI-based" : "HasLotEndDate"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductionStrategy",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "HasProductionStrategy"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "64",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "118",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAlternativeBOM",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "HasAlternativeBOM"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "9",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAllocatedToCustomer",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "IsAllocatedToCustomer"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "120",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClass",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "HasCustomerClass"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "13",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasCustomer",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "HasCustomer"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanLocations",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "128",
+    "label" : {
+      "IRI-based" : "HasPlanLocations"
+    },
+    "domain" : "66",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ConsistsOf",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "ConsistsOf"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "121",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#hasAATP",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "hasAATP"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "66",
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMPosition",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "HasBOMPosition"
+    },
+    "domain" : "111",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAvailabilityDate",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "HasAvailabilityDate"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "54",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningHorizon",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "133",
+    "label" : {
+      "IRI-based" : "HasPlanningHorizon"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "64",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyStatus",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "136",
+    "label" : {
+      "IRI-based" : "HasSupplyStatus"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "54",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderDemand",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "HasOrderDemand"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanQuantities",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "138",
+    "label" : {
+      "IRI-based" : "HasPlanQuantities"
+    },
+    "domain" : "64",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodLength",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "140",
+    "label" : {
+      "IRI-based" : "HasPeriodLength"
+    },
+    "domain" : "71",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyTime",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "142",
+    "label" : {
+      "IRI-based" : "HasSupplyTime"
+    },
+    "domain" : "54",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlan",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "HasPlan"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "107",
+    "attributes" : [ "object" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsPerformedBy",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "144",
+    "label" : {
+      "IRI-based" : "IsPerformedBy"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "143",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductNumber",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "147",
+    "label" : {
+      "IRI-based" : "HasProductNumber"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "146"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsFulfilledBy",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "IsFulfilledBy"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "2",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductTypeDescription",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "149",
+    "label" : {
+      "IRI-based" : "HasProductTypeDescription"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMVersion",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "151",
+    "label" : {
+      "IRI-based" : "HasBOMVersion"
+    },
+    "domain" : "111",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMStatus",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "158",
+    "label" : {
+      "IRI-based" : "HasBOMStatus"
+    },
+    "domain" : "111",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "157"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasATPInformation",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "160",
+    "label" : {
+      "IRI-based" : "HasATPInformation"
+    },
+    "domain" : "63",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "159"
+  }, {
+    "range" : "68",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "95",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "95",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "68",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "76",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanPeriod",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "168",
+    "label" : {
+      "IRI-based" : "HasPlanPeriod"
+    },
+    "domain" : "64",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPromisedDeliveryDatePerOrder",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "170",
+    "label" : {
+      "IRI-based" : "HasPromisedDeliveryDatePerOrder"
+    },
+    "domain" : "100",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "169"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotStartDate",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "172",
+    "label" : {
+      "IRI-based" : "HasLotStartDate"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "171"
+  }, {
+    "range" : "145",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "132",
+    "domain" : "175",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasBillOfMaterial",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "HasBillOfMaterial"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "45"
+  }, {
+    "range" : "92",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "range" : "60",
+    "domain" : "153",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "range" : "155",
+    "domain" : "153",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "range" : "11",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasATP",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "180",
+    "label" : {
+      "IRI-based" : "HasATP"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "63",
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "range" : "60",
+    "domain" : "155",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "153",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "60",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "155",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "185"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasRequestedDeliveryDate",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "161",
+    "label" : {
+      "IRI-based" : "HasRequestedDeliveryDate"
+    },
+    "domain" : "154",
+    "attributes" : [ "datatype" ],
+    "id" : "187"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyType",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "HasSupplyType"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "54",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#RequiresDeliveryDateInformation",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "RequiresDeliveryDateInformation"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "60",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#CalculatesPromisedDeliveryDateFor",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "CalculatesPromisedDeliveryDateFor"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "100",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyProduct",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "193",
+    "label" : {
+      "IRI-based" : "HasSupplyProduct"
+    },
+    "domain" : "54",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "192"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyQuantity",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "197",
+    "label" : {
+      "IRI-based" : "HasSupplyQuantity"
+    },
+    "domain" : "54",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "196"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasSubBillOfMaterial",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "HasSubBillOfMaterial"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "111",
+    "attributes" : [ "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasDeliveyConcept",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "HasDeliveyConcept"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsChangedBy",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "IsChangedBy"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "155",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriods",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "HasPeriods"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "198",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderDate",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "190",
+    "label" : {
+      "IRI-based" : "HasOrderDate"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "201"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDeliveryProduct",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "203",
+    "label" : {
+      "IRI-based" : "HasDeliveryProduct"
+    },
+    "domain" : "118",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ViewBasedOn",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "ViewBasedOn"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "188",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandName",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "204",
+    "label" : {
+      "IRI-based" : "HasDemandName"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "206"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerPriority",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "200",
+    "label" : {
+      "IRI-based" : "HasCustomerPriority"
+    },
+    "domain" : "13",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "207"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProduct",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "HasProduct"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "183",
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAvailableTo",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "IsAvailableTo"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "1",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsCommunicatedTo",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "IsCommunicatedTo"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "154",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClassInformation",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "205",
+    "label" : {
+      "IRI-based" : "HasCustomerClassInformation"
+    },
+    "domain" : "63",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "209"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandDate",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "199",
+    "label" : {
+      "IRI-based" : "HasDemandDate"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "212"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderPosition",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "183",
+    "label" : {
+      "IRI-based" : "HasOrderPosition"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDeliveryQuantity",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "211",
+    "label" : {
+      "IRI-based" : "HasDeliveryQuantity"
+    },
+    "domain" : "118",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "213"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductName",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "215",
+    "label" : {
+      "IRI-based" : "HasProductName"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "214"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Defines",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "188",
+    "label" : {
+      "IRI-based" : "Defines"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "126",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPosition",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "189",
+    "label" : {
+      "IRI-based" : "HasOrderPosition"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "216"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasContract",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "HasContract"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "107",
+    "attributes" : [ "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderClass",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "210",
+    "label" : {
+      "IRI-based" : "HasOrderClass"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "2",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotName",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "194",
+    "label" : {
+      "IRI-based" : "HasLotName"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "218"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProductAggregates",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "208",
+    "label" : {
+      "IRI-based" : "HasProductAggregates"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlanningPurpose",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+    "range" : "126",
+    "label" : {
+      "IRI-based" : "HasPlanningPurpose"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "188",
+    "attributes" : [ "object" ],
+    "id" : "51"
+  }, {
+    "range" : "7",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningCriteria",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "219",
+    "label" : {
+      "IRI-based" : "HasPlanningCriteria"
+    },
+    "domain" : "126",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "221"
+  }, {
+    "range" : "7",
+    "domain" : "175",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "range" : "102",
+    "domain" : "145",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "223"
+  }, {
+    "range" : "102",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "224"
+  }, {
+    "range" : "61",
+    "domain" : "155",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "225"
+  }, {
+    "range" : "61",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "range" : "61",
+    "domain" : "156",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "227"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanForOutsourcing",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "186",
+    "label" : {
+      "IRI-based" : "HasPlanForOutsourcing"
+    },
+    "domain" : "66",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "228"
+  }, {
+    "range" : "100",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "123",
+    "domain" : "124",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "125",
+    "domain" : "124",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsRequestedBy",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "IsRequestedBy"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "60",
+    "attributes" : [ "object", "functional", "external" ],
+    "id" : "21"
+  }, {
+    "range" : "125",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "range" : "152",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "153",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "range" : "155",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "range" : "60",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "66",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "range" : "100",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "range" : "61",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "61",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "range" : "61",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "range" : "61",
+    "domain" : "153",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "242"
+  }, {
+    "range" : "2",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  }, {
+    "range" : "2",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "244"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderInformation",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "191",
+    "label" : {
+      "IRI-based" : "HasOrderInformation"
+    },
+    "domain" : "100",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "245"
+  }, {
+    "range" : "100",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "100",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "range" : "122",
+    "domain" : "125",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "iri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotID",
+    "baseIri" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33",
+    "range" : "195",
+    "label" : {
+      "IRI-based" : "HasLotID"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "251"
+  }, {
+    "range" : "122",
+    "domain" : "124",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "56",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "56",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "254"
+  }, {
+    "range" : "122",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "56",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  } ]
+}

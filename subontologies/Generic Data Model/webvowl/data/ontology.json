@@ -1,0 +1,6567 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.semantic.bosch.com/ae-so/genericdatamodel", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "4",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "204",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "205",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "206",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "211",
+    "type" : "owl:Class"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "221",
+    "type" : "owl:Class"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "223",
+    "type" : "owl:Class"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "225",
+    "type" : "owl:Class"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "228",
+    "type" : "owl:Class"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "232",
+    "type" : "owl:Class"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "241",
+    "type" : "owl:Class"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "243",
+    "type" : "owl:Class"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "245",
+    "type" : "owl:Class"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "249",
+    "type" : "owl:Class"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "251",
+    "type" : "owl:Class"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "owl:Class"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "254",
+    "type" : "owl:Class"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "257",
+    "type" : "owl:Class"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "263",
+    "type" : "owl:Class"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "259",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "281",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "282",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "284",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "294",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "296",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "297",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "298",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "303",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "305",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "177",
+    "type" : "owl:Class"
+  }, {
+    "id" : "314",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "318",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "319",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "320",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "322",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "323",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "326",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "327",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "328",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "329",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "336",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "337",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "340",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "341",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "339",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "342",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "343",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "344",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "349",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "350",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "351",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "352",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "312",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "353",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "280",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "354",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "355",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "364",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "365",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "366",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "367",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "372",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "374",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "390",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "391",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "394",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "358",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "395",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "396",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "397",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "386",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "398",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "399",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "289",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "316",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "400",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "401",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "408",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "409",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "286",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "411",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "412",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "413",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "414",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "348",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "416",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "420",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "423",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "403",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "444",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "460",
+    "type" : "owl:Class"
+  }, {
+    "id" : "369",
+    "type" : "owl:Class"
+  }, {
+    "id" : "346",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "510",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "424",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "440",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "371",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "516",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "517",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "291",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "464",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "518",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "519",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "450",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "472",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "310",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "532",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "508",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "274",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "448",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "540",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "439",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "452",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "462",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "393",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "362",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "467",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "554",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "405",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "300",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "476",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "559",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "513",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "379",
+    "type" : "owl:Class"
+  }, {
+    "id" : "494",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "553",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "331",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "360",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "325",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "422",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "576",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "491",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "302",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "570",
+    "type" : "rdfs:Datatype"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "0",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "1",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "4",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "37",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "53",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "78",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "92",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "93",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "97",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "98",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "95",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "117",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "118",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "119",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "122",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "124",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "150",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "154",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "157",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "160",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Type",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Activity_Type"
+    },
+    "attributes" : [ "external" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "126",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "180",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "183",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "185",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "189",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "192",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "196",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "115",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "109",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "201",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "72", "128", "141" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "204"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "147",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "191", "159" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "22", "106", "176", "207", "137", "64", "46", "208", "209" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "206"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "210",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "128", "207" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "212",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "174",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "220",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "182", "191" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "221"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "222",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "9", "207" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "223"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "224",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "100", "171", "226", "83" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "225"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "227",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "229", "87", "128", "15", "171", "226", "230", "83" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "228"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "231",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "156", "176" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "232"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "233",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "182", "22", "112", "51", "29", "209", "26" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "241"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "242",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "165", "208" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "243"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "244",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "32", "173" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "245"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "248",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "32", "15", "194" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "249"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "250",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "131", "29" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "251"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "252",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "182", "194" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#product.xsd",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "product.xsd"
+    },
+    "subClasses" : [ "173", "219", "194", "198" ],
+    "attributes" : [ "external" ],
+    "id" : "195"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "253",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "72", "173" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "254"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "162",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "156", "46" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "256",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "22", "112" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "257"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "262",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "144", "264", "219", "265" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "263"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "266",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "22", "32", "171", "226", "29", "198", "83" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "259"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "281",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "282",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "283",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "91",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "284",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "237",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "247",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "167",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "294",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "296",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "217",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "297",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "298",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "303",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "305",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#snapshot.xsd",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "snapshot.xsd"
+    },
+    "subClasses" : [ "22", "106", "176" ],
+    "attributes" : [ "external" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "314",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "169",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "318",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "319",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "320",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "322",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "323",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "129",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "326",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "327",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "328",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "329",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "336",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "337",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "340",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "341",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "339",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "342",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "343",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "344",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "process.xsd"
+    },
+    "subClasses" : [ "165", "42", "182", "131", "51", "191", "152", "156", "159", "46", "26", "270" ],
+    "attributes" : [ "external" ],
+    "id" : "153"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "349",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "350",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "351",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "352",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "312",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "139",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "353",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "280",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "354",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "215",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "240",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "355",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "261",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "364",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "365",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "235",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "188",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "366",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "367",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "372",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "374",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "390",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "391",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "394",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "358",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "395",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "396",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "397",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "386",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "398",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "399",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "289",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "316",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "400",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "401",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "408",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "409",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "286",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "411",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "412",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "413",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "414",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "348",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "416",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "420",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "268",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "423",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "203",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "403",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "444",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "infrastructure.xsd"
+    },
+    "subClasses" : [ "128", "87", "15", "137", "207", "134", "24", "229", "100", "72", "141", "52", "35", "64", "230", "208" ],
+    "attributes" : [ "external" ],
+    "id" : "460"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#strategy.xsd",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "strategy.xsd"
+    },
+    "subClasses" : [ "144", "264", "171", "226", "83", "265" ],
+    "attributes" : [ "external" ],
+    "id" : "369"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "346",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "510",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "16",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "424",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "440",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "371",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "516",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "517",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "291",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "464",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "518",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "142",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "519",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "450",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "149",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "145",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "472",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "310",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "532",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "508",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "274",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "448",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "540",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "439",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "452",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "462",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "393",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "362",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "467",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "554",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "405",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "300",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "476",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "559",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#time",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "513",
+    "label" : {
+      "IRI-based" : "time"
+    }
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#trace.xsd",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "trace.xsd"
+    },
+    "subClasses" : [ "32", "112", "9", "29", "209" ],
+    "attributes" : [ "external" ],
+    "id" : "379"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "494",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#long",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "553",
+    "label" : {
+      "IRI-based" : "long"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "331",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "360",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "325",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "422",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "576",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#int",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "491",
+    "label" : {
+      "IRI-based" : "int"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "302",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "570",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  } ],
+  "property" : [ {
+    "id" : "8",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "146",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "166",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "168",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "172",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "202",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "214",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "216",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "236",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "229",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "238",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "239",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "246",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "255",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "258",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "260",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "265",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "267",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "269",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "271",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "272",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "273",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "275",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "276",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "277",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "278",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "279",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "209",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "285",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "287",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "288",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "290",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "292",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "293",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "295",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "299",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "301",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "304",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "306",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "307",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "308",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "309",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "311",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "313",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "315",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "317",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "321",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "324",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "330",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "332",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "333",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "334",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "335",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "338",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "270",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "345",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "347",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "356",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "357",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "359",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "361",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "363",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "230",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "368",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "370",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "373",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "375",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "376",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "377",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "378",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "380",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "381",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "382",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "383",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "384",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "385",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "387",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "388",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "389",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "392",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "226",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "402",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "404",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "406",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "407",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "410",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "264",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "415",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "207",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "417",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "418",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "419",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "421",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "425",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "426",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "427",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "428",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "429",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "430",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "431",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "432",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "433",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "434",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "435",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "436",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "437",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "438",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "441",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "442",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "443",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "445",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "446",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "447",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "449",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "451",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "453",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "454",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "455",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "456",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "457",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "458",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "459",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "461",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "463",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "465",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "466",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "468",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "469",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "470",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "471",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "473",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "474",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "475",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "477",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "478",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "479",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "480",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "481",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "482",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "483",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "176",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "198",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "484",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "485",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "486",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "487",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "488",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "489",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "490",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "492",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "493",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "495",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "496",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "497",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "498",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "499",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "500",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "159",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "501",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "502",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "503",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "504",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "191",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "505",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "506",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "507",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "509",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "219",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "194",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "511",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "512",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "514",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "515",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "520",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "521",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "522",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "523",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "524",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "525",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "526",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "527",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "528",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "530",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "531",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "533",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "534",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "535",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "536",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "537",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "538",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "539",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "541",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "542",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "543",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "544",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "545",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "546",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "547",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "548",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "549",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "550",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "551",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "552",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "555",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "556",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "557",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "558",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "560",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "561",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "562",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "563",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "564",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "565",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "566",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "567",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "568",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "529",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "569",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "208",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "571",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "572",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "182",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "573",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "574",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "575",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "577",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "578",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "579",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "580",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "581",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "582",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "583",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "584",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "585",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State_state",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "Equipment_State_state"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "Max_Lot_Size"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_physical_location",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "Current_WIP_physical_location"
+    },
+    "domain" : "22",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "Sales"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "Material_Consumption"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_leave_sub_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "Lot_State_leave_sub_quantity"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_3_due_date",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "Demand_Trace_product_level_3_due_date"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_delivery_time",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "Material_delivery_time"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasRoute",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "42",
+    "label" : {
+      "IRI-based" : "hasRoute"
+    },
+    "domain" : "41",
+    "attributes" : [ "object", "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_p_times",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "Recipe_Equipment_Config_p_times"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasAux_Resource",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "hasAux_Resource"
+    },
+    "domain" : "51",
+    "attributes" : [ "object", "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer_transfer_mode",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "Material_Transfer_transfer_mode"
+    },
+    "domain" : "64",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_sop",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "Equipment_sop"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "Demand_Trace"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size_max_lotsize",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "76",
+    "label" : {
+      "IRI-based" : "Max_Lot_Size_max_lotsize"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_owner",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "Lot_State_owner"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_priority",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "Lot_State_priority"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment_cycle_time_committment",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "Cycle_Time_Commitment_cycle_time_committment"
+    },
+    "domain" : "83",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "Equipment_Group"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "Material_id"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Workplan",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "Workplan"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant_internal",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "101",
+    "label" : {
+      "IRI-based" : "Plant_internal"
+    },
+    "domain" : "100",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_2_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "Demand_Trace_product_level_2_quantity"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_current_state",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "107",
+    "label" : {
+      "IRI-based" : "Current_Machine_State_current_state"
+    },
+    "domain" : "106",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_max_batch_size",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "Recipe_Equipment_Config_max_batch_size"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "Material_Consumption_quantity"
+    },
+    "domain" : "26",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_leave_main_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "113",
+    "label" : {
+      "IRI-based" : "Lot_Event_leave_main_quantity"
+    },
+    "domain" : "112",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_c_time",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "115",
+    "label" : {
+      "IRI-based" : "Recipe_Equipment_Config_c_time"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_recipe_chamber_dedication",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "126",
+    "label" : {
+      "IRI-based" : "Recipe_Equipment_Config_recipe_chamber_dedication"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_duration",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "Calendar_duration"
+    },
+    "domain" : "128",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_start_sequence_number",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "Time_Constraint_start_sequence_number"
+    },
+    "domain" : "131",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_internal",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "Fab_internal"
+    },
+    "domain" : "134",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_maintenance_counter",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "Maintenance_maintenance_counter"
+    },
+    "domain" : "137",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_reidual_time_in_state",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "139",
+    "label" : {
+      "IRI-based" : "Current_WIP_reidual_time_in_state"
+    },
+    "domain" : "22",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Team_workforce_operational",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "142",
+    "label" : {
+      "IRI-based" : "Team_workforce_operational"
+    },
+    "domain" : "141",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_beta_service_level",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "145",
+    "label" : {
+      "IRI-based" : "Target_Service_Level_beta_service_level"
+    },
+    "domain" : "144",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "147",
+    "label" : {
+      "IRI-based" : "Plant_id"
+    },
+    "domain" : "100",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "146"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "149",
+    "label" : {
+      "IRI-based" : "Time_Constraint_id"
+    },
+    "domain" : "131",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "148"
+  }, {
+    "range" : "153",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "153",
+    "domain" : "156",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "153",
+    "domain" : "159",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "162",
+    "label" : {
+      "IRI-based" : "Material_quantity"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasRecipe",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "165",
+    "label" : {
+      "IRI-based" : "hasRecipe"
+    },
+    "domain" : "164",
+    "attributes" : [ "object", "external" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_current_state",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "167",
+    "label" : {
+      "IRI-based" : "Current_WIP_current_state"
+    },
+    "domain" : "22",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_capability_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "169",
+    "label" : {
+      "IRI-based" : "Capability_capability_id"
+    },
+    "domain" : "152",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "168"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "Delivery_Committment"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "171"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3_max_units_per_week",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "174",
+    "label" : {
+      "IRI-based" : "Product_Level_3_max_units_per_week"
+    },
+    "domain" : "173",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "172"
+  }, {
+    "range" : "177",
+    "domain" : "176",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "range" : "153",
+    "domain" : "165",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "range" : "153",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "179"
+  }, {
+    "range" : "153",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "153",
+    "domain" : "131",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "153",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_max_amount_of_clustered_steps",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "188",
+    "label" : {
+      "IRI-based" : "Equipment_max_amount_of_clustered_steps"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "187"
+  }, {
+    "range" : "153",
+    "domain" : "191",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "195",
+    "domain" : "194",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "range" : "195",
+    "domain" : "198",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "range" : "177",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "range" : "177",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "200"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_max_lots",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "203",
+    "label" : {
+      "IRI-based" : "Fab_max_lots"
+    },
+    "domain" : "134",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "Lot_State"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "29"
+  }, {
+    "range" : "195",
+    "domain" : "173",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_mttr",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "215",
+    "label" : {
+      "IRI-based" : "Equipment_mttr"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "214"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_lot_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "217",
+    "label" : {
+      "IRI-based" : "Current_WIP_lot_id"
+    },
+    "domain" : "22",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "216"
+  }, {
+    "range" : "195",
+    "domain" : "219",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "235",
+    "label" : {
+      "IRI-based" : "Equipment_id"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "234"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_priority",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "237",
+    "label" : {
+      "IRI-based" : "Current_WIP_priority"
+    },
+    "domain" : "22",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "236"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "116",
+    "label" : {
+      "IRI-based" : "Supply_Chain"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "229"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_technican_requirement",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "Maintenance_technican_requirement"
+    },
+    "domain" : "137",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "238"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_part_enum",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "240",
+    "label" : {
+      "IRI-based" : "Equipment_part_enum"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "239"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_physical_location_type",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "247",
+    "label" : {
+      "IRI-based" : "Current_WIP_physical_location_type"
+    },
+    "domain" : "22",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "246"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan_period_end",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "157",
+    "label" : {
+      "IRI-based" : "Release_plan_period_end"
+    },
+    "domain" : "226",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "255"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasProduct_Level_4",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "194",
+    "label" : {
+      "IRI-based" : "hasProduct_Level_4"
+    },
+    "domain" : "259",
+    "attributes" : [ "object", "external" ],
+    "id" : "258"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_max_parallelization",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "261",
+    "label" : {
+      "IRI-based" : "Equipment_max_parallelization"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "260"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "Target_Revenue"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "265"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "268",
+    "label" : {
+      "IRI-based" : "Fab_id"
+    },
+    "domain" : "134",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "267"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasRecipe_Group",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "270",
+    "label" : {
+      "IRI-based" : "hasRecipe_Group"
+    },
+    "domain" : "243",
+    "attributes" : [ "object", "external" ],
+    "id" : "269"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_2_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "210",
+    "label" : {
+      "IRI-based" : "Product_Level_2_id"
+    },
+    "domain" : "219",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "271"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_recovery_time",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "256",
+    "label" : {
+      "IRI-based" : "Material_recovery_time"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "272"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs_period_end",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "274",
+    "label" : {
+      "IRI-based" : "Target_Costs_period_end"
+    },
+    "domain" : "264",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "273"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_type",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "262",
+    "label" : {
+      "IRI-based" : "Material_type"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "275"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan_period_begin",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "154",
+    "label" : {
+      "IRI-based" : "Release_plan_period_begin"
+    },
+    "domain" : "226",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "276"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasProduct_Level_2",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "219",
+    "label" : {
+      "IRI-based" : "hasProduct_Level_2"
+    },
+    "domain" : "245",
+    "attributes" : [ "object", "external" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasProduct_Level_3",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "173",
+    "label" : {
+      "IRI-based" : "hasProduct_Level_3"
+    },
+    "domain" : "249",
+    "attributes" : [ "object", "external" ],
+    "id" : "278"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_time_in_state",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "280",
+    "label" : {
+      "IRI-based" : "Current_WIP_time_in_state"
+    },
+    "domain" : "22",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "279"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "Equipment_Capability"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "209"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "92",
+    "label" : {
+      "IRI-based" : "Current_Machine_State"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "Capability"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_lot_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "286",
+    "label" : {
+      "IRI-based" : "Lot_Event_lot_id"
+    },
+    "domain" : "112",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "285"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasActivity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "hasActivity"
+    },
+    "domain" : "221",
+    "attributes" : [ "object", "external" ],
+    "id" : "287"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_enter_sub_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "289",
+    "label" : {
+      "IRI-based" : "Lot_State_enter_sub_quantity"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "288"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_stockout_probability",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "291",
+    "label" : {
+      "IRI-based" : "Target_Service_Level_stockout_probability"
+    },
+    "domain" : "144",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "290"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasMaintenance",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "137",
+    "label" : {
+      "IRI-based" : "hasMaintenance"
+    },
+    "domain" : "223",
+    "attributes" : [ "object", "external" ],
+    "id" : "292"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Group_recipe_group_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "189",
+    "label" : {
+      "IRI-based" : "Recipe_Group_recipe_group_id"
+    },
+    "domain" : "270",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "293"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_min_batch_size",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "201",
+    "label" : {
+      "IRI-based" : "Recipe_Equipment_Config_min_batch_size"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "295"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence_sequence_number",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "300",
+    "label" : {
+      "IRI-based" : "Route_Sequence_sequence_number"
+    },
+    "domain" : "182",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "299"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "302",
+    "label" : {
+      "IRI-based" : "Activity_Edge_id"
+    },
+    "domain" : "191",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "301"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_c_time_per_unit",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "244",
+    "label" : {
+      "IRI-based" : "Operation_c_time_per_unit"
+    },
+    "domain" : "156",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "304"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_max_stock",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "252",
+    "label" : {
+      "IRI-based" : "Material_max_stock"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "306"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasSupply_Chain",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "229",
+    "label" : {
+      "IRI-based" : "hasSupply_Chain"
+    },
+    "domain" : "225",
+    "attributes" : [ "object", "external" ],
+    "id" : "307"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasFab",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "hasFab"
+    },
+    "domain" : "228",
+    "attributes" : [ "object", "external" ],
+    "id" : "308"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain_transit_time",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "310",
+    "label" : {
+      "IRI-based" : "Supply_Chain_transit_time"
+    },
+    "domain" : "229",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "309"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment_period_begin",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "312",
+    "label" : {
+      "IRI-based" : "Delivery_Committment_period_begin"
+    },
+    "domain" : "171",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "311"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size_min_lotsize",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "242",
+    "label" : {
+      "IRI-based" : "Max_Lot_Size_min_lotsize"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "313"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "78",
+    "label" : {
+      "IRI-based" : "Target_Service_Level"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "144"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_sequence_number",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "316",
+    "label" : {
+      "IRI-based" : "Lot_Event_sequence_number"
+    },
+    "domain" : "112",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "315"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "Recipe_id"
+    },
+    "domain" : "165",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "317"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot_capability",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "320",
+    "label" : {
+      "IRI-based" : "Capability_Snapshot_capability"
+    },
+    "domain" : "176",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "321"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "325",
+    "label" : {
+      "IRI-based" : "Aux_Resource_id"
+    },
+    "domain" : "52",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "324"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "Time_Constraint"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "331",
+    "label" : {
+      "IRI-based" : "Activity_id"
+    },
+    "domain" : "159",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "330"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_sampling_rate",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "224",
+    "label" : {
+      "IRI-based" : "Operation_sampling_rate"
+    },
+    "domain" : "156",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "332"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasCapability",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "152",
+    "label" : {
+      "IRI-based" : "hasCapability"
+    },
+    "domain" : "232",
+    "attributes" : [ "object", "external" ],
+    "id" : "333"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasEquipment_State",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasEquipment_State"
+    },
+    "domain" : "22",
+    "attributes" : [ "object", "external" ],
+    "id" : "334"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_sequence_number",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "Lot_State_sequence_number"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "335"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "Material_Transfer"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_entry_date",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "339",
+    "label" : {
+      "IRI-based" : "Demand_Trace_entry_date"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "338"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Group",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "Recipe_Group"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "270"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_minimum_time",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "346",
+    "label" : {
+      "IRI-based" : "Time_Constraint_minimum_time"
+    },
+    "domain" : "131",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "345"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_enter_main_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "348",
+    "label" : {
+      "IRI-based" : "Lot_Event_enter_main_quantity"
+    },
+    "domain" : "112",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "347"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment_units_per_time_period",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "349",
+    "label" : {
+      "IRI-based" : "Delivery_Committment_units_per_time_period"
+    },
+    "domain" : "171",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "356"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "Maintenance"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability_residual_qualification_period",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "358",
+    "label" : {
+      "IRI-based" : "Equipment_Capability_residual_qualification_period"
+    },
+    "domain" : "209",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "357"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "360",
+    "label" : {
+      "IRI-based" : "Aux_Resource_Requirement_quantity"
+    },
+    "domain" : "51",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "359"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "362",
+    "label" : {
+      "IRI-based" : "Supply_Chain_id"
+    },
+    "domain" : "229",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "361"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_variance_p_time",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "231",
+    "label" : {
+      "IRI-based" : "Operation_variance_p_time"
+    },
+    "domain" : "156",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "363"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Location",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "Location"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "230"
+  }, {
+    "range" : "369",
+    "domain" : "264",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "368"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_maximum_time",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "371",
+    "label" : {
+      "IRI-based" : "Time_Constraint_maximum_time"
+    },
+    "domain" : "131",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "370"
+  }, {
+    "range" : "369",
+    "domain" : "171",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "373"
+  }, {
+    "range" : "369",
+    "domain" : "226",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "375"
+  }, {
+    "range" : "369",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "376"
+  }, {
+    "range" : "369",
+    "domain" : "265",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "377"
+  }, {
+    "range" : "379",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "378"
+  }, {
+    "range" : "379",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "380"
+  }, {
+    "range" : "379",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "381"
+  }, {
+    "range" : "379",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "382"
+  }, {
+    "range" : "379",
+    "domain" : "209",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "383"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment_period_end",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "352",
+    "label" : {
+      "IRI-based" : "Delivery_Committment_period_end"
+    },
+    "domain" : "171",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "384"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_enter_state_time",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "386",
+    "label" : {
+      "IRI-based" : "Lot_State_enter_state_time"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "385"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption_min_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "Material_Consumption_min_quantity"
+    },
+    "domain" : "26",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "387"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasTeam",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "hasTeam"
+    },
+    "domain" : "211",
+    "attributes" : [ "object", "external" ],
+    "id" : "388"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_product_level_2_id_due_date",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "353",
+    "label" : {
+      "IRI-based" : "Current_WIP_product_level_2_id_due_date"
+    },
+    "domain" : "22",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "389"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup_duration",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "393",
+    "label" : {
+      "IRI-based" : "Setup_duration"
+    },
+    "domain" : "208",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "392"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "Release_plan"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_leave_state_time",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "403",
+    "label" : {
+      "IRI-based" : "Lot_State_leave_state_time"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "402"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence_linked_sequence_number",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "405",
+    "label" : {
+      "IRI-based" : "Route_Sequence_linked_sequence_number"
+    },
+    "domain" : "182",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "404"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_dispatchMode",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "374",
+    "label" : {
+      "IRI-based" : "Equipment_dispatchMode"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "406"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_event_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "319",
+    "label" : {
+      "IRI-based" : "Calendar_event_id"
+    },
+    "domain" : "128",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "407"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_task",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "401",
+    "label" : {
+      "IRI-based" : "Lot_Event_task"
+    },
+    "domain" : "112",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "410"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "282",
+    "label" : {
+      "IRI-based" : "Target_Costs"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "264"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "281",
+    "label" : {
+      "IRI-based" : "Lot_Event"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_max_batch_size",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "364",
+    "label" : {
+      "IRI-based" : "Equipment_max_batch_size"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "415"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "283",
+    "label" : {
+      "IRI-based" : "Worker_Qualification"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "207"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_expected_change_dt_mean",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "298",
+    "label" : {
+      "IRI-based" : "Current_Machine_State_expected_change_dt_mean"
+    },
+    "domain" : "106",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "417"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_current_main_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "294",
+    "label" : {
+      "IRI-based" : "Current_WIP_current_main_quantity"
+    },
+    "domain" : "22",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "418"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_maintenance_frequency",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "Maintenance_maintenance_frequency"
+    },
+    "domain" : "137",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "419"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "422",
+    "label" : {
+      "IRI-based" : "Aux_Resource_quantity"
+    },
+    "domain" : "52",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "421"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "424",
+    "label" : {
+      "IRI-based" : "Calendar"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_event_start",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "318",
+    "label" : {
+      "IRI-based" : "Calendar_event_start"
+    },
+    "domain" : "128",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "425"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_maintenance_scheduling",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "Maintenance_maintenance_scheduling"
+    },
+    "domain" : "137",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "426"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_type",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "420",
+    "label" : {
+      "IRI-based" : "Fab_type"
+    },
+    "domain" : "134",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "427"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_potential_equipment_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "314",
+    "label" : {
+      "IRI-based" : "Capability_potential_equipment_id"
+    },
+    "domain" : "152",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "428"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_number_of_loadports",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "354",
+    "label" : {
+      "IRI-based" : "Equipment_number_of_loadports"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "429"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_event_date",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "411",
+    "label" : {
+      "IRI-based" : "Lot_Event_event_date"
+    },
+    "domain" : "112",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "430"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials_edge_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "323",
+    "label" : {
+      "IRI-based" : "Bill_of_Materials_edge_id"
+    },
+    "domain" : "198",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "431"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment_period_end",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "350",
+    "label" : {
+      "IRI-based" : "Cycle_Time_Commitment_period_end"
+    },
+    "domain" : "83",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "432"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_customer_due_date",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "343",
+    "label" : {
+      "IRI-based" : "Demand_Trace_customer_due_date"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "433"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_recipe_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "222",
+    "label" : {
+      "IRI-based" : "Operation_recipe_id"
+    },
+    "domain" : "156",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "434"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_prev_change_dt",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "303",
+    "label" : {
+      "IRI-based" : "Current_Machine_State_prev_change_dt"
+    },
+    "domain" : "106",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "435"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_location_x_y",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "366",
+    "label" : {
+      "IRI-based" : "Equipment_location_x_y"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "436"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_timestamp",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "327",
+    "label" : {
+      "IRI-based" : "Demand_Trace_timestamp"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "437"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue_period_end",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "439",
+    "label" : {
+      "IRI-based" : "Target_Revenue_period_end"
+    },
+    "domain" : "265",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "438"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Team",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "440",
+    "label" : {
+      "IRI-based" : "Team"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_unit",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "266",
+    "label" : {
+      "IRI-based" : "Material_unit"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "441"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_frequency",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "322",
+    "label" : {
+      "IRI-based" : "Calendar_frequency"
+    },
+    "domain" : "128",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "442"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_4_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "337",
+    "label" : {
+      "IRI-based" : "Demand_Trace_product_level_4_quantity"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "443"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasEquipment_Group",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "hasEquipment_Group"
+    },
+    "domain" : "254",
+    "attributes" : [ "object", "external" ],
+    "id" : "445"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_maintenance_volume",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "Maintenance_maintenance_volume"
+    },
+    "domain" : "137",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "446"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs_wip_costs_per_unit_and_time_unit",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "448",
+    "label" : {
+      "IRI-based" : "Target_Costs_wip_costs_per_unit_and_time_unit"
+    },
+    "domain" : "264",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "447"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_end_sequence_number",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "450",
+    "label" : {
+      "IRI-based" : "Time_Constraint_end_sequence_number"
+    },
+    "domain" : "131",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "449"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "Equipment"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue_revenue_per_unit",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "452",
+    "label" : {
+      "IRI-based" : "Target_Revenue_revenue_per_unit"
+    },
+    "domain" : "265",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "451"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State_last_state",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "394",
+    "label" : {
+      "IRI-based" : "Equipment_State_last_state"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "453"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasActivity_Type",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "170",
+    "label" : {
+      "IRI-based" : "hasActivity_Type"
+    },
+    "domain" : "159",
+    "attributes" : [ "object", "external" ],
+    "id" : "454"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_p_time_per_unit",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "220",
+    "label" : {
+      "IRI-based" : "Operation_p_time_per_unit"
+    },
+    "domain" : "156",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "455"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_internal_buffer_size",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "365",
+    "label" : {
+      "IRI-based" : "Equipment_internal_buffer_size"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "456"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Technology",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "118",
+    "label" : {
+      "IRI-based" : "Technology"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "457"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "Plant"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_expected_change_dt_variance",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "297",
+    "label" : {
+      "IRI-based" : "Current_Machine_State_expected_change_dt_variance"
+    },
+    "domain" : "106",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "458"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_recipe_max",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "183",
+    "label" : {
+      "IRI-based" : "Recipe_Equipment_Config_recipe_max"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "459"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales_tot_fcst",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "462",
+    "label" : {
+      "IRI-based" : "Sales_tot_fcst"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "461"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Team_duration_off",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "464",
+    "label" : {
+      "IRI-based" : "Team_duration_off"
+    },
+    "domain" : "141",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "463"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_yield_probability",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "233",
+    "label" : {
+      "IRI-based" : "Operation_yield_probability"
+    },
+    "domain" : "156",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "465"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence_block",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "467",
+    "label" : {
+      "IRI-based" : "Route_Sequence_block"
+    },
+    "domain" : "182",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "466"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "Recipe_Equipment_Config"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "248",
+    "label" : {
+      "IRI-based" : "Operation_id"
+    },
+    "domain" : "156",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "468"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_event_type",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "408",
+    "label" : {
+      "IRI-based" : "Lot_Event_event_type"
+    },
+    "domain" : "112",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "469"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasLot_State",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "hasLot_State"
+    },
+    "domain" : "257",
+    "attributes" : [ "object", "external" ],
+    "id" : "470"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_fill_rate",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "472",
+    "label" : {
+      "IRI-based" : "Target_Service_Level_fill_rate"
+    },
+    "domain" : "144",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "471"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer_material_transfer_time",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "Material_Transfer_material_transfer_time"
+    },
+    "domain" : "64",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "473"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_equipment_group_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "372",
+    "label" : {
+      "IRI-based" : "Equipment_equipment_group_id"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "474"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_route_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "476",
+    "label" : {
+      "IRI-based" : "Route_route_id"
+    },
+    "domain" : "42",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "475"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_state",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "Lot_State_state"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "477"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability_qualification_dt",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "395",
+    "label" : {
+      "IRI-based" : "Equipment_Capability_qualification_dt"
+    },
+    "domain" : "209",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "478"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_max_wip",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "423",
+    "label" : {
+      "IRI-based" : "Fab_max_wip"
+    },
+    "domain" : "134",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "479"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_operational_due_date",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "Lot_State_operational_due_date"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "480"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group_part",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "396",
+    "label" : {
+      "IRI-based" : "Equipment_Group_part"
+    },
+    "domain" : "87",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "481"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_current_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "344",
+    "label" : {
+      "IRI-based" : "Demand_Trace_current_quantity"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "482"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Location_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "416",
+    "label" : {
+      "IRI-based" : "Location_id"
+    },
+    "domain" : "230",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "483"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "123",
+    "label" : {
+      "IRI-based" : "Capability_Snapshot"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "176"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "Bill_of_Materials"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_equipment",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "399",
+    "label" : {
+      "IRI-based" : "Lot_State_equipment"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "484"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "397",
+    "label" : {
+      "IRI-based" : "Equipment_Group_id"
+    },
+    "domain" : "87",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "485"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_parent_lot_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "409",
+    "label" : {
+      "IRI-based" : "Lot_Event_parent_lot_id"
+    },
+    "domain" : "112",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "486"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State_change_dt",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "390",
+    "label" : {
+      "IRI-based" : "Equipment_State_change_dt"
+    },
+    "domain" : "9",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "487"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_duration",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "Maintenance_duration"
+    },
+    "domain" : "137",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "488"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_min_stock",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "253",
+    "label" : {
+      "IRI-based" : "Material_min_stock"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "489"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials_bom_factor",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "491",
+    "label" : {
+      "IRI-based" : "Bill_of_Materials_bom_factor"
+    },
+    "domain" : "198",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "490"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption_unit",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "Material_Consumption_unit"
+    },
+    "domain" : "26",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "492"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "494",
+    "label" : {
+      "IRI-based" : "Activity_Edge_quantity"
+    },
+    "domain" : "191",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "493"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_enter_quality",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "398",
+    "label" : {
+      "IRI-based" : "Lot_State_enter_quality"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "495"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasTechnology",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "457",
+    "label" : {
+      "IRI-based" : "hasTechnology"
+    },
+    "domain" : "263",
+    "attributes" : [ "object", "external" ],
+    "id" : "496"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_recipe_chamber_dedication_alternate",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "180",
+    "label" : {
+      "IRI-based" : "Recipe_Equipment_Config_recipe_chamber_dedication_alternate"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "497"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasOperation",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "156",
+    "label" : {
+      "IRI-based" : "hasOperation"
+    },
+    "domain" : "241",
+    "attributes" : [ "object", "external" ],
+    "id" : "498"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_mtbf",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "355",
+    "label" : {
+      "IRI-based" : "Equipment_mtbf"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "499"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_next_cluster_operation",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "250",
+    "label" : {
+      "IRI-based" : "Operation_next_cluster_operation"
+    },
+    "domain" : "156",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "500"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "Activity"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_equipment",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "412",
+    "label" : {
+      "IRI-based" : "Lot_Event_equipment"
+    },
+    "domain" : "112",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "501"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_physical_carrier_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "296",
+    "label" : {
+      "IRI-based" : "Current_WIP_physical_carrier_id"
+    },
+    "domain" : "22",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "502"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_lot_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "444",
+    "label" : {
+      "IRI-based" : "Lot_State_lot_id"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "503"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasRoute_Sequence",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "182",
+    "label" : {
+      "IRI-based" : "hasRoute_Sequence"
+    },
+    "domain" : "251",
+    "attributes" : [ "object", "external" ],
+    "id" : "504"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "93",
+    "label" : {
+      "IRI-based" : "Activity_Edge"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "191"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_3_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "336",
+    "label" : {
+      "IRI-based" : "Demand_Trace_product_level_3_quantity"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "505"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4_chips_per_wafer",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "192",
+    "label" : {
+      "IRI-based" : "Product_Level_4_chips_per_wafer"
+    },
+    "domain" : "194",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "506"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs_period_begin",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "508",
+    "label" : {
+      "IRI-based" : "Target_Costs_period_begin"
+    },
+    "domain" : "264",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "507"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_event_reason",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "413",
+    "label" : {
+      "IRI-based" : "Lot_Event_event_reason"
+    },
+    "domain" : "112",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "509"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "Product_Level_3"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "173"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_2",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "Product_Level_2"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "219"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "Product_Level_4"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "194"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_4_due_date",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "340",
+    "label" : {
+      "IRI-based" : "Demand_Trace_product_level_4_due_date"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "511"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales_start_date",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "513",
+    "label" : {
+      "IRI-based" : "Sales_start_date"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "512"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_lot_type_subclass",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "Lot_State_lot_type_subclass"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "514"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_type_of_demand",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "329",
+    "label" : {
+      "IRI-based" : "Demand_Trace_type_of_demand"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "515"
+  }, {
+    "range" : "369",
+    "domain" : "144",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "520"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_period_begin",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "516",
+    "label" : {
+      "IRI-based" : "Target_Service_Level_period_begin"
+    },
+    "domain" : "144",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "521"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_2_due_date",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "342",
+    "label" : {
+      "IRI-based" : "Demand_Trace_product_level_2_due_date"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "522"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "Fab"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "Cycle_Time_Commitment"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Team_workforce_technical",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "519",
+    "label" : {
+      "IRI-based" : "Team_workforce_technical"
+    },
+    "domain" : "141",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "523"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasTime_Constraint",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "hasTime_Constraint"
+    },
+    "domain" : "112",
+    "attributes" : [ "object", "external" ],
+    "id" : "524"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "Maintenance_id"
+    },
+    "domain" : "137",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "525"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "212",
+    "label" : {
+      "IRI-based" : "Product_Level_3_id"
+    },
+    "domain" : "173",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "526"
+  }, {
+    "range" : "460",
+    "domain" : "229",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "527"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasWorkshop",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "529",
+    "label" : {
+      "IRI-based" : "hasWorkshop"
+    },
+    "domain" : "204",
+    "attributes" : [ "object", "external" ],
+    "id" : "528"
+  }, {
+    "range" : "460",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "530"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_period_end",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "517",
+    "label" : {
+      "IRI-based" : "Target_Service_Level_period_end"
+    },
+    "domain" : "144",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "531"
+  }, {
+    "range" : "460",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "533"
+  }, {
+    "range" : "460",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "534"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_next_state",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "305",
+    "label" : {
+      "IRI-based" : "Current_Machine_State_next_state"
+    },
+    "domain" : "106",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "535"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_variance_c_time",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "227",
+    "label" : {
+      "IRI-based" : "Operation_variance_c_time"
+    },
+    "domain" : "156",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "536"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification_workforce",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "510",
+    "label" : {
+      "IRI-based" : "Worker_Qualification_workforce"
+    },
+    "domain" : "207",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "537"
+  }, {
+    "range" : "460",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "538"
+  }, {
+    "range" : "460",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "539"
+  }, {
+    "range" : "460",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "541"
+  }, {
+    "range" : "460",
+    "domain" : "230",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "542"
+  }, {
+    "range" : "460",
+    "domain" : "208",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "543"
+  }, {
+    "range" : "460",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "544"
+  }, {
+    "range" : "460",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "545"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_recipe_process_time",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "185",
+    "label" : {
+      "IRI-based" : "Recipe_Equipment_Config_recipe_process_time"
+    },
+    "domain" : "46",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "546"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs_finished_product_costs_per_unit",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "532",
+    "label" : {
+      "IRI-based" : "Target_Costs_finished_product_costs_per_unit"
+    },
+    "domain" : "264",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "547"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_original_quantity",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "341",
+    "label" : {
+      "IRI-based" : "Demand_Trace_original_quantity"
+    },
+    "domain" : "32",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "548"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasWorkplan",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "hasWorkplan"
+    },
+    "domain" : "205",
+    "attributes" : [ "object", "external" ],
+    "id" : "549"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Route",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "Route"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "Aux_Resource_Requirement"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "Operation"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "156"
+  }, {
+    "range" : "153",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "550"
+  }, {
+    "range" : "153",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "551"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge_transition_time",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "553",
+    "label" : {
+      "IRI-based" : "Activity_Edge_transition_time"
+    },
+    "domain" : "191",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "552"
+  }, {
+    "range" : "153",
+    "domain" : "270",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "555"
+  }, {
+    "range" : "460",
+    "domain" : "128",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "556"
+  }, {
+    "range" : "460",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "557"
+  }, {
+    "range" : "460",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "558"
+  }, {
+    "range" : "460",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "560"
+  }, {
+    "range" : "460",
+    "domain" : "207",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "561"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Team_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "518",
+    "label" : {
+      "IRI-based" : "Team_id"
+    },
+    "domain" : "141",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "562"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Material",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "Material"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasEquipment",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "hasEquipment"
+    },
+    "domain" : "206",
+    "attributes" : [ "object", "external" ],
+    "id" : "563"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_customer_due_date",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "400",
+    "label" : {
+      "IRI-based" : "Lot_State_customer_due_date"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "564"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasMaterial",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "hasMaterial"
+    },
+    "domain" : "26",
+    "attributes" : [ "object", "external" ],
+    "id" : "565"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment_period_begin",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "351",
+    "label" : {
+      "IRI-based" : "Cycle_Time_Commitment_period_begin"
+    },
+    "domain" : "83",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "566"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "Current_WIP"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_event_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "414",
+    "label" : {
+      "IRI-based" : "Lot_Event_event_id"
+    },
+    "domain" : "112",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "567"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "196",
+    "label" : {
+      "IRI-based" : "Product_Level_4_id"
+    },
+    "domain" : "194",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "568"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Workshop",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "Workshop"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "529"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge_probability",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "570",
+    "label" : {
+      "IRI-based" : "Activity_Edge_probability"
+    },
+    "domain" : "191",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "569"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "Setup"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "208"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_capacity_loss",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "326",
+    "label" : {
+      "IRI-based" : "Calendar_capacity_loss"
+    },
+    "domain" : "128",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "571"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "554",
+    "label" : {
+      "IRI-based" : "Route_Sequence_id"
+    },
+    "domain" : "182",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "572"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "Route_Sequence"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#hasPlant",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "100",
+    "label" : {
+      "IRI-based" : "hasPlant"
+    },
+    "domain" : "134",
+    "attributes" : [ "object", "external" ],
+    "id" : "573"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability_disqualification_dt",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "328",
+    "label" : {
+      "IRI-based" : "Equipment_Capability_disqualification_dt"
+    },
+    "domain" : "209",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "574"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_type",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "576",
+    "label" : {
+      "IRI-based" : "Aux_Resource_type"
+    },
+    "domain" : "52",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "575"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "Equipment_State"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue_period_begin",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "540",
+    "label" : {
+      "IRI-based" : "Target_Revenue_period_begin"
+    },
+    "domain" : "265",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "577"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "Recipe"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#type",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "type"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "578"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_delivery_mode",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "367",
+    "label" : {
+      "IRI-based" : "Equipment_delivery_mode"
+    },
+    "domain" : "72",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "579"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_lot_type_class",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "Lot_State_lot_type_class"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "580"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan_units_per_time_period",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "160",
+    "label" : {
+      "IRI-based" : "Release_plan_units_per_time_period"
+    },
+    "domain" : "226",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "581"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "284",
+    "label" : {
+      "IRI-based" : "Aux_Resource"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_parent_lot_id",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "Lot_State_parent_lot_id"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "582"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group_type",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "391",
+    "label" : {
+      "IRI-based" : "Equipment_Group_type"
+    },
+    "domain" : "87",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "583"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales_item_prod",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "559",
+    "label" : {
+      "IRI-based" : "Sales_item_prod"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "584"
+  }, {
+    "iri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_type",
+    "baseIri" : "http://www.semantic.bosch.com/ae-so/genericdatamodel",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "Lot_State_type"
+    },
+    "domain" : "29",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "585"
+  } ]
+}

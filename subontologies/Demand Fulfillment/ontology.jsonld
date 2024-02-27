@@ -1,0 +1,1571 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan"
+    }, {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan"
+    }, {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Firm_Order_Demand"
+    }, {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Forecasted_Demand"
+    }, {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Inventory_Replenishment_Demand"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Assemble_to_order_(ATO)"
+    }, {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_order_(MTO)"
+    }, {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_stock_(MTS)"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Complete_Delivery"
+    }, {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Partial_Delivery"
+    }, {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Split_Delivery"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date"
+    }, {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Date"
+    }, {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#First_Promised_Delivery_Date"
+    }, {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Promised_Delivery_Date"
+    }, {
+      "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Requested_Delivery_Date"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "13.06.2019"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "1.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#AATP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "When scarce ATP quantities are allocated to different customer classes or customers, the resulting supply reservations are called allocated ATP (AATP) quantities."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#ATP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The part of the inventory and projected supply that can be used to fulfill customer orders is called ATP."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An activity is something carried out over a specific time interval."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Allocation_Planning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Batch_Interval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This is the time span for which arriving orders are collected to derive for all of them jointly a first promised delivery date."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Time_Interval"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Best_Promised_Delivery_Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This is the best delivery date the supplier ever promised to the customer. It represents the best delivery date the supplier submitted to the customer. Thus every later commitment or delivery is a de-commitment from the supplier."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This concept is used for dividing the total forecast for a given product into several priority classes."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Priority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This concept is used to describe the different importance level of a demand. The demand priority can be assigned independently from the demand class."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasATP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#ATP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasBillOfMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasContract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Contract"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasCustomer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasDeliveyConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLocations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLots",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Location"
+  }, {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain"
+  }, {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderDemand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderPosition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Position"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlanningPurpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Aggregate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Planning_Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Position"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProductAggregates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain"
+  }, {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Aggregate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasRequestedDeliveryDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasSubBillOfMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Last_Promised_Delivery_Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This is the last commitment the supplier has given to the customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Master_Planning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Online_Order_Promising_Plan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Position",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "An order position refers to a product specification, a product quantity, and a desired delivery date. Each order position has a status and belongs to an order."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Repromising_Plan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning_Period",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A planning period is a specific DateTimeInterval from the time ontology (Time Ontology 2020). It belongs to a planning window. It has a temporal duration."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Time_Interval"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning_Window",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Planning in supply chains is associated with a planning window which is formed by a set of consecutive planning periods."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Time_Interval"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Split_Order",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This is an order that results from a split delivery. When an order position of an order is delivered in several portions, each portion starting from the second one is considered as a separate suborder which is called scheduled order position. The original order also exists after the split."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Contract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Time_Interval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#hasAATP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#AATP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "An allocation plan is a special plan, which deals with assigning ATP quantities to a customer or a customer class."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Assemble_to_order_(ATO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "In the case of ATO, products are produced forecast-driven until the point right before it comes to the assembly. Starting from there, the production continues based on a customer order."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Production_Strategy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#AssignsATPto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Author",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#BelongsTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "A BOM describes components or rather semi-finished products that are part of the finished product. Substitution, often associated with binning, is based on the possibility that alternative items might be used to finish a process step. This leads to the notion of alternative BOMs."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#CalculatesPromisedDeliveryDateFor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Complete_Delivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "The normal case is that an order is completely delivered."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Concept"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "The CDD is the committed date for order delivery that is communicated to the costumer. It depends on the communication strategy between manufacturer and customer. For instance, the CDD is the PDD if order repromising takes place in the same frequency as the update interval of the CDD."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ConsistsOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Hierarchy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "A customer can place orders. He raises a demand for a specific product or service. Internal and external customer demand can be distinguished."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "The set of all customers is divided into different priority classes or segments based on certain criteria like profitability or importance of customer."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Order",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "This is an order that is initiated by a customer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Replenishment_Order"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "The availability date defines the point in time when the supply is available to the customer. It can be distinguished between different availability dates. Not all availability dates are communicated to the customer."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Defines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Planning_Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Aggregate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "The deliver concept defines the terms and conditions for delivering an order to the customer. Especially partial and split delivery has to be taken into account."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "This is the point in time when the customer received the requested order."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Demand is a production request for a specific product or service that can have different triggers. Either demand exists explicitly in form of customer orders or implicitly as expected customer need that have to be fulfilled by the semiconductor supply chain."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Engineering_Lot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "An engineering lot requires additional process development efforts and special attention during the production flow. Engineering lots have various functions, thus several engineering lot types can be differentiated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Productive_Lot"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#External_Customer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Class"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Internal_Customer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Firm_Order_Demand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "This is a special demand class that is used for demand that is required to fulfill already committed/accepted orders."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Class"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#First_Promised_Delivery_Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Initially, the FPD is set for an order delivery within the online order confirmation process."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Forecasted_Demand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "This is a special demand class that is used for the projection of future demand."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Class"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasATPInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAlternativeBOM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAvailabilityDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMPosition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMVersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBatchingInterval",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This is the time span for which arriving orders are collected to derive for all of them jointly a first promised delivery date."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClassInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerIdentifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerPriority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDeliveryProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBatchingInterval"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDeliveryQuantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBatchingInterval"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandPriority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This concept is used to describe the different importance level of a demand. The demand priority can be independently assigned from the demand class."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotEndDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotStartDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPosition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPriority",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodLength",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Period"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Period"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Period"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanForOutsourcing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanLocations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanQuantities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningCriteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Planning_Purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningHorizon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductMilestoneStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductTypeDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductionStrategy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Production_Strategy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPromisedDeliveryDatePerOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasRoute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Route"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyQuantity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Internal_Customer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Class"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Inventory_Replenishment_Demand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "This is a special demand class that is used for replenishment of safety stock."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Class"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAllocatedToCustomer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#AATP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAvailableTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsChangedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Promised_Delivery_Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Promising"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsCommunicatedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsFulfilledBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsPerformedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date"
+  }, {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Date"
+  }, {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#First_Promised_Delivery_Date"
+  }, {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Promised_Delivery_Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supplier"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsRequestedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Requested_Delivery_Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "A lot is a set of wafers, substrates or modules that travel together through the FE or BE fab in order to fulfill a certain order."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_order_(MTO)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "This is a strategy where production is initiated to fulfill specific customer orders. This strategy is characterized by an order-driven production."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Production_Strategy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_stock_(MTS)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "This is a strategy where production is driven by the replenishment of inventories at specific locations. Products are produced forecast-driven until they are completely finished in the case of MTS."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Production_Strategy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "A master plan is a specific plan which determines which quantity resulting from confirmed orders and from forecasted demand should be completed in which location in which period of the planning horizon. Moreover, outsourcing decisions have to be represented in master plans."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "An order contains at least one order position. An order has an order type and is associated to demand"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "This is the result of the order promise or repromise process for different sets of orders taking into account an allocation policy and the supply and allocation situation. Different order promising variants can be distinguished, for instance online order promising, batch order promising, and hybrid order promising. The same is true of repromising."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Promising",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "This concept describes the process to promise an order considering allocation policy as well as supply and allocation situation. The order promising can be distinguished between different variants, for instance online order promising and batch order promising."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Partial_Delivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "It can be allowed that only parts of an order position of an order are delivered. Therefore, the customer is willing to waive parts of quantity belonging to an order position."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Split_Delivery"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Period",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "The concept period displays the sub unit of the planning horizon."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Time_Interval"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "A plan is an activity specification with an intended purpose. Planning is an activity with the purpose to determine a plan. Planning is associated with goals, in the present situation represented by objective functions to be optimized."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Planning_Purpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "The planning purpose describes a set of criteria that influence other concepts, e.g. product aggregate."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "A product is a good that fulfills a prescribed set of requirements (for instance, form, fit, and function). A set of alternative BOMs might be associated with each product. The manufacturing process is complicated by binning and substitution (in production). Binning refers to the process that an item can become one of several products based on tested levels of performance, for instance, speed."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Aggregate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "The concept product aggregate is used to group different products based on certain criteria. The grouping criteria depend on the planning purpose (e.g. controlling, production). It is a certain view (external or internal) on a set of products."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Hierarchy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "The concept characterizes the top-down and bottom-up relationship between different product aggregates. It organizes the product aggregates according to defined criteria."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Production_Strategy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "The production strategy determining which portions of a supply chain should operate in make to stock (MTS) mode, where production is driven by the replenishment of inventories at specific locations, and which in make to order (MTO) mode, where production is initiated to fulfill specific customer orders. The production strategy is related to the question where the customer order decoupling point (CODP), also referred to as the push-pull interface (or boundary) has to be placed. The CODP denotes the point in the supply chain where material is dedicated to a specific customer order to the degree that it cannot be used for another."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Productive_Lot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "A productive lot is created to fulfill a customer demand. The production process is carried out as it is defined during the production development phase."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Promised_Delivery_Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "This is the date for which eventually partial order delivery is confirmed. The PDD date can be changed over time. Within the repromising process there are typically different PDDs available."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Replenishment_Order",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "This is an order that is initiated by an internal request of the semiconductor manufacturer to produce the order according to a MTS strategy. The replenishment order can be divided into different sub order types, depending on the purpose of order creation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Requested_Delivery_Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "The RDD is the point in time when the customer wants to get the order."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#RequiresDeliveryDateInformation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Requested_Delivery_Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Promising"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Route",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "The term route can be considered on different levels. In the present situation, a route is associated with a product and describes its production flow on the production network level."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Split_Delivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "It can be allowed that order positions of an order are delivered in several portions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Concept"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supplier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "A Supplier fufills a demand for a specific product or service."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "This is the total amount of specific products that is available to customers. Supply has the dimensions quantity, time, location, product, including aggregation of all dimensions. Supply is defined as inventory or plan replenishment."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ViewBasedOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Aggregate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Hierarchy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Contract"
+  } ]
+} ]

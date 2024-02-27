@@ -1,12 +1,17 @@
 from Extract_class import parse_html, extract_div_from_file, set_div_order, reformat_class_toc
 from Op import reformat_properties
 
+# Widoco file
 html_file = 'C:/Users/LinBoH/myDocumentation/doc/index-en.html'
-DR_file = "C:/Users/LinBoH/Desktop/DR_TTL/ifx-dr.github.io/template.html"
+# Lobe list
 lobe_list = ['Cloud_Lobe', 'Organization_Lobe', 'Planning_Lobe', 'Power_Lobe',
             'Process_Lobe', 'Product_Lobe', 'Semiconductor_Development_Lobe',
             'Semiconductor_Production_Lobe', 'Sensor_Lobe', 'Supply_Chain_Lobe',
             'Sustainability_Lobe', 'System_Lobe', 'Time_Lobe', 'Wired_Communication_Lobe']
+
+
+template_file = "C:/Users/LinBoH/Desktop/DR_TTL/ifx-dr.github.io/template.html"
+
 DR_soup = parse_html(html_file)
 extracted_div = dict(extract_div_from_file(DR_soup, lobe_list))
 extracted_div = set_div_order(extracted_div, lobe_list)
@@ -15,7 +20,7 @@ class_soup, toc_soup, new_namespaces = reformat_class_toc(extracted_div, lobe_li
 op_soup = reformat_properties(DR_soup, 'op')
 dp_soup = reformat_properties(DR_soup, 'dp')
 
-template_soup = parse_html(DR_file)
+template_soup = parse_html(template_file)
 
 # check namespaces
 namespaces = []

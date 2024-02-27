@@ -1,0 +1,922 @@
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment> <http://www.w3.org/2000/01/rdf-schema#comment> "13.06.2019"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Author
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasATP
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasATP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasATP> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasATP> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasATP> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#ATP> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasBillOfMaterial
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasBillOfMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasBillOfMaterial> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasBillOfMaterial> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasBillOfMaterial> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasContract
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasContract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasContract> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasContract> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasContract> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Contract> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasCustomer
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasCustomer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasCustomer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasCustomer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasCustomer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasDeliveyConcept
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasDeliveyConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasDeliveyConcept> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasDeliveyConcept> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasDeliveyConcept> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Concept> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLocations
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLocations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLocations> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLocations> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLocations> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Location> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLots
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLots> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLots> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLots> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Location> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLots> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLots> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasLots> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderDemand
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderDemand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderDemand> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderDemand> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderDemand> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderPosition
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderPosition> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderPosition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasOrderPosition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Position> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlan
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlan> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlanningPurpose
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlanningPurpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlanningPurpose> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlanningPurpose> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Aggregate> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasPlanningPurpose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Planning_Purpose> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProduct
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProduct> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProduct> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Position> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProduct> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProductAggregates
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProductAggregates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProductAggregates> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProductAggregates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProductAggregates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasProductAggregates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Aggregate> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasSubBillOfMaterial
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasSubBillOfMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasSubBillOfMaterial> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasSubBillOfMaterial> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasSubBillOfMaterial> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#hasAATP
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#hasAATP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#hasAATP> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#hasAATP> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#hasAATP> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#AATP> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#AssignsATPto
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#AssignsATPto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#AssignsATPto> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#AssignsATPto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#AssignsATPto> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#AssignsATPto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#BelongsTo
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#BelongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#BelongsTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#BelongsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#BelongsTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#BelongsTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#CalculatesPromisedDeliveryDateFor
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#CalculatesPromisedDeliveryDateFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#CalculatesPromisedDeliveryDateFor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#CalculatesPromisedDeliveryDateFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#CalculatesPromisedDeliveryDateFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#CalculatesPromisedDeliveryDateFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ConsistsOf
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ConsistsOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ConsistsOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ConsistsOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ConsistsOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Hierarchy> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ConsistsOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Defines
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Defines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Defines> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Defines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Defines> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Planning_Purpose> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Defines> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Aggregate> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAlternativeBOM
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAlternativeBOM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAlternativeBOM> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAlternativeBOM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAlternativeBOM> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAlternativeBOM> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAvailabilityDate
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAvailabilityDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAvailabilityDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAvailabilityDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAvailabilityDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasAvailabilityDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOM
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOM> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOM> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOM> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClass
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClass> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClass> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClass> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Class> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderClass
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderClass> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderClass> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriods
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriods> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriods> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Period> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningHorizon
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningHorizon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningHorizon> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningHorizon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningHorizon> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductType
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductionStrategy
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductionStrategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductionStrategy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductionStrategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductionStrategy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductionStrategy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Production_Strategy> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasRoute
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasRoute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasRoute> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasRoute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasRoute> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasRoute> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Route> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyStatus
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyStatus> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyType
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAllocatedToCustomer
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAllocatedToCustomer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAllocatedToCustomer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAllocatedToCustomer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAllocatedToCustomer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#AATP> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAllocatedToCustomer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAvailableTo
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAvailableTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAvailableTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAvailableTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAvailableTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsAvailableTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsChangedBy
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsChangedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsChangedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsChangedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsChangedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Promised_Delivery_Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsChangedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Promising> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsCommunicatedTo
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsCommunicatedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsCommunicatedTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsCommunicatedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsCommunicatedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsCommunicatedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsFulfilledBy
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsFulfilledBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsFulfilledBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsFulfilledBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsFulfilledBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsFulfilledBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsPerformedBy
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsPerformedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsPerformedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsPerformedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsPerformedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsPerformedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsPerformedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#First_Promised_Delivery_Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsPerformedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Promised_Delivery_Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsPerformedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supplier> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsRequestedBy
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsRequestedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsRequestedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsRequestedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsRequestedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Requested_Delivery_Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#IsRequestedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#RequiresDeliveryDateInformation
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#RequiresDeliveryDateInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#RequiresDeliveryDateInformation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#RequiresDeliveryDateInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#RequiresDeliveryDateInformation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Requested_Delivery_Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#RequiresDeliveryDateInformation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Promising> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ViewBasedOn
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ViewBasedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ViewBasedOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ViewBasedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ViewBasedOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Aggregate> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#ViewBasedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Hierarchy> .
+# 
+# http://www.w3.org/2002/07/owl#topObjectProperty
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer> .
+<http://www.w3.org/2002/07/owl#topObjectProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Contract> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasRequestedDeliveryDate
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasRequestedDeliveryDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasRequestedDeliveryDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasRequestedDeliveryDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#HasRequestedDeliveryDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasATPInformation
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasATPInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasATPInformation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasATPInformation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasATPInformation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMPosition
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMPosition> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMPosition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMPosition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMStatus
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMStatus> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMVersion
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMVersion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBOMVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBatchingInterval
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBatchingInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBatchingInterval> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBatchingInterval> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBatchingInterval> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBatchingInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the time span for which arriving orders are collected to derive for all of them jointly a first promised delivery date." .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClassInformation
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClassInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClassInformation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClassInformation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerClassInformation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerIdentifier
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerIdentifier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerIdentifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerIdentifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerInformation
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerInformation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerInformation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerInformation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerName
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerPriority
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerPriority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerPriority> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerPriority> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasCustomerPriority> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDeliveryProduct
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDeliveryProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDeliveryProduct> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBatchingInterval> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDeliveryQuantity
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDeliveryQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDeliveryQuantity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasBatchingInterval> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandDate
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandName
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandPriority
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandPriority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandPriority> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandPriority> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandPriority> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasDemandPriority> <http://www.w3.org/2000/01/rdf-schema#comment> "This concept is used to describe the different importance level of a demand. The demand priority can be independently assigned from the demand class." .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotEndDate
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotEndDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotEndDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotEndDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotEndDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotID
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotID> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotName
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotStartDate
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotStartDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotStartDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotStartDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasLotStartDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderDate
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderInformation
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderInformation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderInformation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderInformation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderName
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPosition
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPosition> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPosition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPosition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPriority
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPriority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPriority> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPriority> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasOrderPriority> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodLength
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodLength> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodLength> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Period> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodLength> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodName
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Period> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPeriodName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanForOutsourcing
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanForOutsourcing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanForOutsourcing> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanForOutsourcing> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanForOutsourcing> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanLocations
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanLocations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanLocations> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanLocations> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanLocations> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanPeriod
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanPeriod> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanPeriod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanQuantities
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanQuantities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanQuantities> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanQuantities> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanQuantities> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningCriteria
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningCriteria> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningCriteria> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningCriteria> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Planning_Purpose> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPlanningCriteria> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductMilestoneStatus
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductMilestoneStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductMilestoneStatus> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductMilestoneStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductMilestoneStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductName
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductNumber
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductNumber> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductTypeDescription
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductTypeDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductTypeDescription> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductTypeDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasProductTypeDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPromisedDeliveryDatePerOrder
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPromisedDeliveryDatePerOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPromisedDeliveryDatePerOrder> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPromisedDeliveryDatePerOrder> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasPromisedDeliveryDatePerOrder> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyLocation
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyLocation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyProduct
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyProduct> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyProduct> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyProduct> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyQuantity
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyQuantity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyTime
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#HasSupplyTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#AATP
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#AATP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#AATP> <http://www.w3.org/2000/01/rdf-schema#comment> "When scarce ATP quantities are allocated to different customer classes or customers, the resulting supply reservations are called allocated ATP (AATP) quantities." .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#ATP
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#ATP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#ATP> <http://www.w3.org/2000/01/rdf-schema#comment> "The part of the inventory and projected supply that can be used to fulfill customer orders is called ATP." .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Activity
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "An activity is something carried out over a specific time interval." .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Allocation_Planning
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Allocation_Planning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Allocation_Planning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Batch_Interval
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Batch_Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Batch_Interval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Time_Interval> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Batch_Interval> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the time span for which arriving orders are collected to derive for all of them jointly a first promised delivery date." .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Best_Promised_Delivery_Date
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Best_Promised_Delivery_Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Best_Promised_Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Best_Promised_Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the best delivery date the supplier ever promised to the customer. It represents the best delivery date the supplier submitted to the customer. Thus every later commitment or delivery is a de-commitment from the supplier." .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Class
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Class> <http://www.w3.org/2000/01/rdf-schema#comment> "This concept is used for dividing the total forecast for a given product into several priority classes." .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Priority
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Priority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Priority> <http://www.w3.org/2000/01/rdf-schema#comment> "This concept is used to describe the different importance level of a demand. The demand priority can be assigned independently from the demand class." .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Last_Promised_Delivery_Date
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Last_Promised_Delivery_Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Last_Promised_Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Last_Promised_Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the last commitment the supplier has given to the customer" .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Location
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Master_Planning
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Master_Planning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Master_Planning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Online_Order_Promising_Plan
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Online_Order_Promising_Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Online_Order_Promising_Plan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Position
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Position> <http://www.w3.org/2000/01/rdf-schema#comment> "An order position refers to a product specification, a product quantity, and a desired delivery date. Each order position has a status and belongs to an order." .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Repromising_Plan
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Repromising_Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Order_Repromising_Plan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning_Period
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning_Period> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning_Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Time_Interval> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning_Period> <http://www.w3.org/2000/01/rdf-schema#comment> "A planning period is a specific DateTimeInterval from the time ontology (Time Ontology 2020). It belongs to a planning window. It has a temporal duration." .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning_Window
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning_Window> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning_Window> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Time_Interval> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning_Window> <http://www.w3.org/2000/01/rdf-schema#comment> "Planning in supply chains is associated with a planning window which is formed by a set of consecutive planning periods." .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Split_Order
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Split_Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Split_Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Split_Order> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an order that results from a split delivery. When an order position of an order is delivered in several portions, each portion starting from the second one is considered as a separate suborder which is called scheduled order position. The original order also exists after the split." .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Chain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Contract
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Supply_Contract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Time_Interval
+<http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Time_Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan> <http://www.w3.org/2000/01/rdf-schema#comment> "An allocation plan is a special plan, which deals with assigning ATP quantities to a customer or a customer class."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Complete_Delivery
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Complete_Delivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Complete_Delivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Concept> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Complete_Delivery> <http://www.w3.org/2000/01/rdf-schema#comment> "The normal case is that an order is completely delivered."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#comment> "The CDD is the committed date for order delivery that is communicated to the costumer. It depends on the communication strategy between manufacturer and customer. For instance, the CDD is the PDD if order repromising takes place in the same frequency as the update interval of the CDD."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer> <http://www.w3.org/2000/01/rdf-schema#comment> "A customer can place orders. He raises a demand for a specific product or service. Internal and external customer demand can be distinguished."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Class
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Class> <http://www.w3.org/2000/01/rdf-schema#comment> "The set of all customers is divided into different priority classes or segments based on certain criteria like profitability or importance of customer."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Order
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Order> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Replenishment_Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Order> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an order that is initiated by a customer."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date> <http://www.w3.org/2000/01/rdf-schema#comment> "The availability date defines the point in time when the supply is available to the customer. It can be distinguished between different availability dates. Not all availability dates are communicated to the customer."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Concept
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Concept> <http://www.w3.org/2000/01/rdf-schema#comment> "The deliver concept defines the terms and conditions for delivering an order to the customer. Especially partial and split delivery has to be taken into account."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Date
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the point in time when the customer received the requested order."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Demand> <http://www.w3.org/2000/01/rdf-schema#comment> "Demand is a production request for a specific product or service that can have different triggers. Either demand exists explicitly in form of customer orders or implicitly as expected customer need that have to be fulfilled by the semiconductor supply chain."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Engineering_Lot
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Engineering_Lot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Engineering_Lot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Engineering_Lot> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Productive_Lot> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Engineering_Lot> <http://www.w3.org/2000/01/rdf-schema#comment> "An engineering lot requires additional process development efforts and special attention during the production flow. Engineering lots have various functions, thus several engineering lot types can be differentiated."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#External_Customer
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#External_Customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#External_Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#External_Customer> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Internal_Customer> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Firm_Order_Demand
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Firm_Order_Demand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Firm_Order_Demand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Firm_Order_Demand> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a special demand class that is used for demand that is required to fulfill already committed/accepted orders."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#First_Promised_Delivery_Date
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#First_Promised_Delivery_Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#First_Promised_Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#First_Promised_Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#comment> "Initially, the FPD is set for an order delivery within the online order confirmation process."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Forecasted_Demand
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Forecasted_Demand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Forecasted_Demand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Forecasted_Demand> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a special demand class that is used for the projection of future demand."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Internal_Customer
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Internal_Customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Internal_Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Customer_Class> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Inventory_Replenishment_Demand
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Inventory_Replenishment_Demand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Inventory_Replenishment_Demand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Demand_Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Inventory_Replenishment_Demand> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a special demand class that is used for replenishment of safety stock."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot> <http://www.w3.org/2000/01/rdf-schema#comment> "A lot is a set of wafers, substrates or modules that travel together through the FE or BE fab in order to fulfill a certain order."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan> <http://www.w3.org/2000/01/rdf-schema#comment> "A master plan is a specific plan which determines which quantity resulting from confirmed orders and from forecasted demand should be completed in which location in which period of the planning horizon. Moreover, outsourcing decisions have to be represented in master plans."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> <http://www.w3.org/2000/01/rdf-schema#comment> "An order contains at least one order position. An order has an order type and is associated to demand"^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the result of the order promise or repromise process for different sets of orders taking into account an allocation policy and the supply and allocation situation. Different order promising variants can be distinguished, for instance online order promising, batch order promising, and hybrid order promising. The same is true of repromising."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Promising
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Promising> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Promising> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Planning> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Promising> <http://www.w3.org/2000/01/rdf-schema#comment> "This concept describes the process to promise an order considering allocation policy as well as supply and allocation situation. The order promising can be distinguished between different variants, for instance online order promising and batch order promising."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Partial_Delivery
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Partial_Delivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Partial_Delivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Concept> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Partial_Delivery> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Split_Delivery> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Partial_Delivery> <http://www.w3.org/2000/01/rdf-schema#comment> "It can be allowed that only parts of an order position of an order are delivered. Therefore, the customer is willing to waive parts of quantity belonging to an order position."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Period
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Period> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Period> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/demand-fulfillment#Time_Interval> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Period> <http://www.w3.org/2000/01/rdf-schema#comment> "The concept period displays the sub unit of the planning horizon."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Plan> <http://www.w3.org/2000/01/rdf-schema#comment> "A plan is an activity specification with an intended purpose. Planning is an activity with the purpose to determine a plan. Planning is associated with goals, in the present situation represented by objective functions to be optimized."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Planning_Purpose
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Planning_Purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Planning_Purpose> <http://www.w3.org/2000/01/rdf-schema#comment> "The planning purpose describes a set of criteria that influence other concepts, e.g. product aggregate."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product> <http://www.w3.org/2000/01/rdf-schema#comment> "A product is a good that fulfills a prescribed set of requirements (for instance, form, fit, and function). A set of alternative BOMs might be associated with each product. The manufacturing process is complicated by binning and substitution (in production). Binning refers to the process that an item can become one of several products based on tested levels of performance, for instance, speed."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Aggregate
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Aggregate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Aggregate> <http://www.w3.org/2000/01/rdf-schema#comment> "The concept product aggregate is used to group different products based on certain criteria. The grouping criteria depend on the planning purpose (e.g. controlling, production). It is a certain view (external or internal) on a set of products."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Hierarchy
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Hierarchy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Product_Hierarchy> <http://www.w3.org/2000/01/rdf-schema#comment> "The concept characterizes the top-down and bottom-up relationship between different product aggregates. It organizes the product aggregates according to defined criteria."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Production_Strategy
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Production_Strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Production_Strategy> <http://www.w3.org/2000/01/rdf-schema#comment> "The production strategy determining which portions of a supply chain should operate in make to stock (MTS) mode, where production is driven by the replenishment of inventories at specific locations, and which in make to order (MTO) mode, where production is initiated to fulfill specific customer orders. The production strategy is related to the question where the customer order decoupling point (CODP), also referred to as the push-pull interface (or boundary) has to be placed. The CODP denotes the point in the supply chain where material is dedicated to a specific customer order to the degree that it cannot be used for another."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Productive_Lot
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Productive_Lot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Productive_Lot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Lot> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Productive_Lot> <http://www.w3.org/2000/01/rdf-schema#comment> "A productive lot is created to fulfill a customer demand. The production process is carried out as it is defined during the production development phase."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Promised_Delivery_Date
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Promised_Delivery_Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Promised_Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Promised_Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the date for which eventually partial order delivery is confirmed. The PDD date can be changed over time. Within the repromising process there are typically different PDDs available."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Replenishment_Order
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Replenishment_Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Replenishment_Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Replenishment_Order> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an order that is initiated by an internal request of the semiconductor manufacturer to produce the order according to a MTS strategy. The replenishment order can be divided into different sub order types, depending on the purpose of order creation."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Requested_Delivery_Date
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Requested_Delivery_Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Requested_Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Date> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Requested_Delivery_Date> <http://www.w3.org/2000/01/rdf-schema#comment> "The RDD is the point in time when the customer wants to get the order."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Route
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Route> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Route> <http://www.w3.org/2000/01/rdf-schema#comment> "The term route can be considered on different levels. In the present situation, a route is associated with a product and describes its production flow on the production network level."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Split_Delivery
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Split_Delivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Split_Delivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Concept> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Split_Delivery> <http://www.w3.org/2000/01/rdf-schema#comment> "It can be allowed that order positions of an order are delivered in several portions."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supplier
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supplier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supplier> <http://www.w3.org/2000/01/rdf-schema#comment> "A Supplier fufills a demand for a specific product or service."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Supply> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the total amount of specific products that is available to customers. Supply has the dimensions quantity, time, location, product, including aggregation of all dimensions. Supply is defined as inventory or plan replenishment."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Assemble_to_order_(ATO)
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Assemble_to_order_(ATO)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Assemble_to_order_(ATO)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Production_Strategy> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Assemble_to_order_(ATO)> <http://www.w3.org/2000/01/rdf-schema#comment> "In the case of ATO, products are produced forecast-driven until the point right before it comes to the assembly. Starting from there, the production continues based on a customer order."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Bill_of_Material_(BOM)> <http://www.w3.org/2000/01/rdf-schema#comment> "A BOM describes components or rather semi-finished products that are part of the finished product. Substitution, often associated with binning, is based on the possibility that alternative items might be used to finish a process step. This leads to the notion of alternative BOMs."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_order_(MTO)
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_order_(MTO)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_order_(MTO)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Production_Strategy> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_order_(MTO)> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a strategy where production is initiated to fulfill specific customer orders. This strategy is characterized by an order-driven production."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_stock_(MTS)
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_stock_(MTS)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_stock_(MTS)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Production_Strategy> .
+<http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_stock_(MTS)> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a strategy where production is driven by the replenishment of inventories at specific locations. Products are produced forecast-driven until they are completely finished in the case of MTS."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Order_Delivery_Plan> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Master_Plan> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Allocation_Plan> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid5 <http://www.w3.org/2002/07/owl#members> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Split_Delivery> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Partial_Delivery> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Complete_Delivery> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid9 <http://www.w3.org/2002/07/owl#members> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Requested_Delivery_Date> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Promised_Delivery_Date> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#First_Promised_Delivery_Date> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Delivery_Date> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Confirmed_Delivery_Date> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid15 <http://www.w3.org/2002/07/owl#members> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Inventory_Replenishment_Demand> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Forecasted_Demand> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Firm_Order_Demand> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid19 <http://www.w3.org/2002/07/owl#members> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_stock_(MTS)> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Make_to_order_(MTO)> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/arens/ontologies/2019/5/untitled-ontology-33#Assemble_to_order_(ATO)> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,2136 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#time
+xsd:time rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasActivity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasActivity> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> ,
+                                                                               <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> ;
+                                                                   rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasActivity_Type
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasActivity_Type> rdf:type owl:ObjectProperty ;
+                                                                        rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity> ;
+                                                                        rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Type> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasAux_Resource
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasAux_Resource> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement> ;
+                                                                       rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasCapability
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasCapability> rdf:type owl:ObjectProperty ;
+                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot> ,
+                                                                                 <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                     rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasEquipment
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasEquipment> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification> ;
+                                                                    rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasEquipment_Group
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasEquipment_Group> rdf:type owl:ObjectProperty ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ,
+                                                                                      <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3> ;
+                                                                          rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasEquipment_State
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasEquipment_State> rdf:type owl:ObjectProperty ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                          rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasFab
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasFab> rdf:type owl:ObjectProperty ;
+                                                              rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ,
+                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> ,
+                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> ,
+                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group> ,
+                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Location> ,
+                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size> ,
+                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> ,
+                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain> ;
+                                                              rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasLot_State
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasLot_State> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                    rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasMaintenance
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasMaintenance> rdf:type owl:ObjectProperty ;
+                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State> ,
+                                                                                  <http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification> ;
+                                                                      rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasMaterial
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasMaterial> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption> ;
+                                                                   rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasOperation
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasOperation> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> ;
+                                                                    rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasPlant
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasPlant> rdf:type owl:ObjectProperty ;
+                                                                rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> ;
+                                                                rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasProduct_Level_2
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasProduct_Level_2> rdf:type owl:ObjectProperty ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ,
+                                                                                      <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3> ;
+                                                                          rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_2> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasProduct_Level_3
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasProduct_Level_3> rdf:type owl:ObjectProperty ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ,
+                                                                                      <http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size> ,
+                                                                                      <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4> ;
+                                                                          rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasProduct_Level_4
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasProduct_Level_4> rdf:type owl:ObjectProperty ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials> ,
+                                                                                      <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ,
+                                                                                      <http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> ,
+                                                                                      <http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> ,
+                                                                                      <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ,
+                                                                                      <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ,
+                                                                                      <http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> ;
+                                                                          rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasRecipe
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasRecipe> rdf:type owl:ObjectProperty ;
+                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ,
+                                                                             <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                 rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasRecipe_Group
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasRecipe_Group> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe> ,
+                                                                                   <http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup> ;
+                                                                       rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Group> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasRoute
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasRoute> rdf:type owl:ObjectProperty ;
+                                                                rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4> ,
+                                                                            <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> ;
+                                                                rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasRoute_Sequence
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasRoute_Sequence> rdf:type owl:ObjectProperty ;
+                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ,
+                                                                                     <http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> ;
+                                                                         rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasSupply_Chain
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasSupply_Chain> rdf:type owl:ObjectProperty ;
+                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> ,
+                                                                                   <http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> ,
+                                                                                   <http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant> ,
+                                                                                   <http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> ;
+                                                                       rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasTeam
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasTeam> rdf:type owl:ObjectProperty ;
+                                                               rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ,
+                                                                           <http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification> ;
+                                                               rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Team> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasTechnology
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasTechnology> rdf:type owl:ObjectProperty ;
+                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_2> ,
+                                                                                 <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs> ,
+                                                                                 <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue> ,
+                                                                                 <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> ;
+                                                                     rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Technology> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasTime_Constraint
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasTime_Constraint> rdf:type owl:ObjectProperty ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                          rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasWorkplan
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasWorkplan> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity> ,
+                                                                               <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> ;
+                                                                   rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Workplan> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#hasWorkshop
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#hasWorkshop> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ,
+                                                                               <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ,
+                                                                               <http://www.semantic.bosch.com/ae-so/genericdatamodel#Team> ;
+                                                                   rdfs:range <http://www.semantic.bosch.com/ae-so/genericdatamodel#Workshop> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> ,
+                                                                                   <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge_id> rdf:type owl:DatatypeProperty ;
+                                                                        rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> ;
+                                                                        rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> ;
+                                                                        rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge_probability
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge_probability> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> ;
+                                                                                 rdfs:range xsd:double .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge_quantity> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> ;
+                                                                              rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> ;
+                                                                              rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge_transition_time
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge_transition_time> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> ;
+                                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> ;
+                                                                                     rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_id> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity> ;
+                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity> ;
+                                                                   rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement_quantity> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement> ;
+                                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement> ;
+                                                                                         rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_id> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource> ;
+                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource> ;
+                                                                       rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_quantity> rdf:type owl:DatatypeProperty ;
+                                                                             rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource> ;
+                                                                             rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource> ;
+                                                                             rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_type
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_type> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource> ;
+                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource> ;
+                                                                         rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials_bom_factor
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials_bom_factor> rdf:type owl:DatatypeProperty ;
+                                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials> ;
+                                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials> ;
+                                                                                    rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials_edge_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials_edge_id> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials> ;
+                                                                                 rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_capacity_loss
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_capacity_loss> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ;
+                                                                              rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ;
+                                                                              rdfs:range xsd:double .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_duration
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_duration> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ;
+                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ;
+                                                                         rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_event_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_event_id> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ;
+                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ;
+                                                                         rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_event_start
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_event_start> rdf:type owl:DatatypeProperty ;
+                                                                            rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ;
+                                                                            rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ;
+                                                                            rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_frequency
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar_frequency> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ;
+                                                                          rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability> rdf:type owl:DatatypeProperty ;
+                                                                  rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot> ,
+                                                                                     <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot_capability
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot_capability> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot> ;
+                                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot> ;
+                                                                                      rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_capability_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_capability_id> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability> ;
+                                                                                rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability> ;
+                                                                                rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_potential_equipment_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_potential_equipment_id> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability> ;
+                                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability> ;
+                                                                                         rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_current_state
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_current_state> rdf:type owl:DatatypeProperty ;
+                                                                                           rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> ;
+                                                                                           rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> ;
+                                                                                           rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_expected_change_dt_mean
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_expected_change_dt_mean> rdf:type owl:DatatypeProperty ;
+                                                                                                     rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> ;
+                                                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> ;
+                                                                                                     rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_expected_change_dt_variance
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_expected_change_dt_variance> rdf:type owl:DatatypeProperty ;
+                                                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> ;
+                                                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> ;
+                                                                                                         rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_next_state
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_next_state> rdf:type owl:DatatypeProperty ;
+                                                                                        rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> ;
+                                                                                        rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> ;
+                                                                                        rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_prev_change_dt
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State_prev_change_dt> rdf:type owl:DatatypeProperty ;
+                                                                                            rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> ;
+                                                                                            rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> ;
+                                                                                            rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_current_main_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_current_main_quantity> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                         rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_current_state
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_current_state> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                 rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_lot_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_lot_id> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                          rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_physical_carrier_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_physical_carrier_id> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                       rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_physical_location
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_physical_location> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                     rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_physical_location_type
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_physical_location_type> rdf:type owl:DatatypeProperty ;
+                                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                          rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_priority
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_priority> rdf:type owl:DatatypeProperty ;
+                                                                            rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                            rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                            rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_product_level_2_id_due_date
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_product_level_2_id_due_date> rdf:type owl:DatatypeProperty ;
+                                                                                               rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                               rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                               rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_reidual_time_in_state
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_reidual_time_in_state> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                         rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_time_in_state
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP_time_in_state> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ;
+                                                                                 rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment_cycle_time_committment
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment_cycle_time_committment> rdf:type owl:DatatypeProperty ;
+                                                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> ;
+                                                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> ;
+                                                                                                    rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment_period_begin
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment_period_begin> rdf:type owl:DatatypeProperty ;
+                                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> ;
+                                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> ;
+                                                                                          rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment_period_end
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment_period_end> rdf:type owl:DatatypeProperty ;
+                                                                                        rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> ;
+                                                                                        rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> ;
+                                                                                        rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment_period_begin
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment_period_begin> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> ;
+                                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> ;
+                                                                                         rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment_period_end
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment_period_end> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> ;
+                                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> ;
+                                                                                       rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment_units_per_time_period
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment_units_per_time_period> rdf:type owl:DatatypeProperty ;
+                                                                                                  rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> ;
+                                                                                                  rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> ;
+                                                                                                  rdfs:range xsd:double .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_current_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_current_quantity> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                     rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_customer_due_date
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_customer_due_date> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                      rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_entry_date
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_entry_date> rdf:type owl:DatatypeProperty ;
+                                                                               rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                               rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                               rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_original_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_original_quantity> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                      rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_2_due_date
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_2_due_date> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                             rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                             rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_2_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_2_quantity> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                             rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                             rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_3_due_date
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_3_due_date> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                             rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                             rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_3_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_3_quantity> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                             rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                             rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_4_due_date
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_4_due_date> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                             rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                             rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_4_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_product_level_4_quantity> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                             rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                             rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_timestamp
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_timestamp> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                              rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                              rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_type_of_demand
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace_type_of_demand> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ;
+                                                                                   rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability_disqualification_dt
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability_disqualification_dt> rdf:type owl:DatatypeProperty ;
+                                                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability> ;
+                                                                                                rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability> ;
+                                                                                                rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability_qualification_dt
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability_qualification_dt> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability> ;
+                                                                                             rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability> ;
+                                                                                             rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability_residual_qualification_period
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability_residual_qualification_period> rdf:type owl:DatatypeProperty ;
+                                                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability> ;
+                                                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability> ;
+                                                                                                          rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ,
+                                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group_id> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group> ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group> ;
+                                                                          rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group_part
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group_part> rdf:type owl:DatatypeProperty ;
+                                                                            rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group> ;
+                                                                            rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group> ;
+                                                                            rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group_type
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group_type> rdf:type owl:DatatypeProperty ;
+                                                                            rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group> ;
+                                                                            rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group> ;
+                                                                            rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State_change_dt
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State_change_dt> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State> ;
+                                                                                 rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State_last_state
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State_last_state> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State> ;
+                                                                                  rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State> ;
+                                                                                  rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State_state
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State_state> rdf:type owl:DatatypeProperty ;
+                                                                             rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State> ;
+                                                                             rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State> ;
+                                                                             rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_delivery_mode
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_delivery_mode> rdf:type owl:DatatypeProperty ;
+                                                                               rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                               rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                               rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_dispatchMode
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_dispatchMode> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                              rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                              rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_equipment_group_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_equipment_group_id> rdf:type owl:DatatypeProperty ;
+                                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                                    rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_id> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                    rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_internal_buffer_size
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_internal_buffer_size> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                                      rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_location_x_y
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_location_x_y> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                              rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                              rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_max_amount_of_clustered_steps
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_max_amount_of_clustered_steps> rdf:type owl:DatatypeProperty ;
+                                                                                               rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                                               rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                                               rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_max_batch_size
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_max_batch_size> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                                rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                                rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_max_parallelization
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_max_parallelization> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                                     rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_mtbf
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_mtbf> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                      rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_mttr
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_mttr> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                      rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_number_of_loadports
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_number_of_loadports> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                                     rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_part_enum
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_part_enum> rdf:type owl:DatatypeProperty ;
+                                                                           rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                           rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                           rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_sop
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_sop> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ;
+                                                                     rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> rdf:type owl:DatatypeProperty ;
+                                                           rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ,
+                                                                              <http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> ,
+                                                                              <http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> ,
+                                                                              <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group> ,
+                                                                              <http://www.semantic.bosch.com/ae-so/genericdatamodel#Location> ,
+                                                                              <http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size> ,
+                                                                              <http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> ,
+                                                                              <http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_id> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> ;
+                                                              rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> ;
+                                                              rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_internal
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_internal> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> ;
+                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> ;
+                                                                    rdfs:range xsd:boolean .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_max_lots
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_max_lots> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> ;
+                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> ;
+                                                                    rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_max_wip
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_max_wip> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> ;
+                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> ;
+                                                                   rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_type
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab_type> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> ;
+                                                                rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> ;
+                                                                rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Location
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Location> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Location_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Location_id> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Location> ;
+                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Location> ;
+                                                                   rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_enter_main_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_enter_main_quantity> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                                     rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_equipment
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_equipment> rdf:type owl:DatatypeProperty ;
+                                                                           rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                           rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                           rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_event_date
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_event_date> rdf:type owl:DatatypeProperty ;
+                                                                            rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                            rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                            rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_event_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_event_id> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                          rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_event_reason
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_event_reason> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                              rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                              rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_event_type
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_event_type> rdf:type owl:DatatypeProperty ;
+                                                                            rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                            rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                            rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_leave_main_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_leave_main_quantity> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                                     rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_lot_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_lot_id> rdf:type owl:DatatypeProperty ;
+                                                                        rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                        rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                        rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_parent_lot_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_parent_lot_id> rdf:type owl:DatatypeProperty ;
+                                                                               rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                               rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                               rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_sequence_number
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_sequence_number> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                                 rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_task
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event_task> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ;
+                                                                      rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_customer_due_date
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_customer_due_date> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                   rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_enter_quality
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_enter_quality> rdf:type owl:DatatypeProperty ;
+                                                                               rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                               rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                               rdfs:range xsd:double .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_enter_state_time
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_enter_state_time> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                  rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                  rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_enter_sub_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_enter_sub_quantity> rdf:type owl:DatatypeProperty ;
+                                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                    rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_equipment
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_equipment> rdf:type owl:DatatypeProperty ;
+                                                                           rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                           rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                           rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_leave_state_time
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_leave_state_time> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                  rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                  rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_leave_sub_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_leave_sub_quantity> rdf:type owl:DatatypeProperty ;
+                                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                    rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_lot_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_lot_id> rdf:type owl:DatatypeProperty ;
+                                                                        rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                        rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                        rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_lot_type_class
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_lot_type_class> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_lot_type_subclass
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_lot_type_subclass> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                   rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_operational_due_date
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_operational_due_date> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                      rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_owner
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_owner> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                       rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_parent_lot_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_parent_lot_id> rdf:type owl:DatatypeProperty ;
+                                                                               rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                               rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                               rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_priority
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_priority> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                          rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_sequence_number
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_sequence_number> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                                 rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_state
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_state> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                       rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_type
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State_type> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ;
+                                                                      rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State> ,
+                                                                                      <http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_duration
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_duration> rdf:type owl:DatatypeProperty ;
+                                                                            rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                            rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                            rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_id> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                      rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_maintenance_counter
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_maintenance_counter> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                                       rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_maintenance_frequency
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_maintenance_frequency> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                                         rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_maintenance_scheduling
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_maintenance_scheduling> rdf:type owl:DatatypeProperty ;
+                                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                                          rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_maintenance_volume
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_maintenance_volume> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                                      rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_technican_requirement
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance_technican_requirement> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> ;
+                                                                                         rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption_min_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption_min_quantity> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption> ;
+                                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption> ;
+                                                                                         rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption_quantity> rdf:type owl:DatatypeProperty ;
+                                                                                     rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption> ;
+                                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption> ;
+                                                                                     rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption_unit
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption_unit> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption> ;
+                                                                                 rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer_material_transfer_time
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer_material_transfer_time> rdf:type owl:DatatypeProperty ;
+                                                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer> ;
+                                                                                                rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer> ;
+                                                                                                rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer_transfer_mode
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer_transfer_mode> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer> ;
+                                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer> ;
+                                                                                       rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_delivery_time
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_delivery_time> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                              rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                              rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_id> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                   rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_max_stock
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_max_stock> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                          rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_min_stock
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_min_stock> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                          rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_quantity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_quantity> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                         rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_recovery_time
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_recovery_time> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                              rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                              rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_type
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_type> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                     rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_unit
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_unit> rdf:type owl:DatatypeProperty ;
+                                                                     rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> ;
+                                                                     rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size_max_lotsize
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size_max_lotsize> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size> ;
+                                                                                rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size> ;
+                                                                                rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size_min_lotsize
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size_min_lotsize> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size> ;
+                                                                                rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size> ;
+                                                                                rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption> ,
+                                                                                    <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_c_time_per_unit
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_c_time_per_unit> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                                 rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_id> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                    rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_next_cluster_operation
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_next_cluster_operation> rdf:type owl:DatatypeProperty ;
+                                                                                        rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                                        rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                                        rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_p_time_per_unit
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_p_time_per_unit> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                                 rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_recipe_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_recipe_id> rdf:type owl:DatatypeProperty ;
+                                                                           rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                           rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                           rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_sampling_rate
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_sampling_rate> rdf:type owl:DatatypeProperty ;
+                                                                               rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                               rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                               rdfs:range xsd:double .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_variance_c_time
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_variance_c_time> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                                 rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_variance_p_time
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_variance_p_time> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                                 rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_yield_probability
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation_yield_probability> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ;
+                                                                                   rdfs:range xsd:double .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant_id> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant> ;
+                                                                rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant> ;
+                                                                rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant_internal
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant_internal> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant> ;
+                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant> ;
+                                                                      rdfs:range xsd:boolean .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_2
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_2> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ,
+                                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_2_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_2_id> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_2> ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_2> ;
+                                                                          rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ,
+                                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size> ,
+                                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3_id> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3> ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3> ;
+                                                                          rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3_max_units_per_week
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3_max_units_per_week> rdf:type owl:DatatypeProperty ;
+                                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3> ;
+                                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3> ;
+                                                                                          rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials> ,
+                                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> ,
+                                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> ,
+                                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> ,
+                                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> ,
+                                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ,
+                                                                                          <http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4_chips_per_wafer
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4_chips_per_wafer> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4> ;
+                                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4> ;
+                                                                                       rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4_id> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4> ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4> ;
+                                                                          rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> ,
+                                                                                 <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_c_time
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_c_time> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                      rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_max_batch_size
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_max_batch_size> rdf:type owl:DatatypeProperty ;
+                                                                                              rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                              rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                              rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_min_batch_size
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_min_batch_size> rdf:type owl:DatatypeProperty ;
+                                                                                              rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                              rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                              rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_p_times
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_p_times> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                       rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_recipe_chamber_dedication
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_recipe_chamber_dedication> rdf:type owl:DatatypeProperty ;
+                                                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                                         rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_recipe_chamber_dedication_alternate
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_recipe_chamber_dedication_alternate> rdf:type owl:DatatypeProperty ;
+                                                                                                                   rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                                                   rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_recipe_max
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_recipe_max> rdf:type owl:DatatypeProperty ;
+                                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                          rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_recipe_process_time
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config_recipe_process_time> rdf:type owl:DatatypeProperty ;
+                                                                                                   rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> ;
+                                                                                                   rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Group
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Group> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe> ,
+                                                                                       <http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Group_recipe_group_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Group_recipe_group_id> rdf:type owl:DatatypeProperty ;
+                                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Group> ;
+                                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Group> ;
+                                                                                    rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_id> rdf:type owl:DatatypeProperty ;
+                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe> ;
+                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe> ;
+                                                                 rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan_period_begin
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan_period_begin> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> ;
+                                                                                 rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan_period_end
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan_period_end> rdf:type owl:DatatypeProperty ;
+                                                                               rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> ;
+                                                                               rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> ;
+                                                                               rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan_units_per_time_period
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan_units_per_time_period> rdf:type owl:DatatypeProperty ;
+                                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> ;
+                                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> ;
+                                                                                          rdfs:range xsd:double .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Route
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Route> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4> ,
+                                                                                <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> ,
+                                                                                         <http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence_block
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence_block> rdf:type owl:DatatypeProperty ;
+                                                                            rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> ;
+                                                                            rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> ;
+                                                                            rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence_id> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> ;
+                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> ;
+                                                                         rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence_linked_sequence_number
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence_linked_sequence_number> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> ;
+                                                                                             rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> ;
+                                                                                             rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence_sequence_number
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence_sequence_number> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> ;
+                                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> ;
+                                                                                      rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_route_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_route_id> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route> ;
+                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Route> ;
+                                                                      rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales_item_prod
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales_item_prod> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales> ;
+                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales> ;
+                                                                       rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales_start_date
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales_start_date> rdf:type owl:DatatypeProperty ;
+                                                                        rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales> ;
+                                                                        rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales> ;
+                                                                        rdfs:range xsd:time .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales_tot_fcst
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales_tot_fcst> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales> ;
+                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales> ;
+                                                                      rdfs:range xsd:integer .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup_duration
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup_duration> rdf:type owl:DatatypeProperty ;
+                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup> ;
+                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup> ;
+                                                                      rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain> rdf:type owl:DatatypeProperty ;
+                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> ,
+                                                                                       <http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> ,
+                                                                                       <http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant> ,
+                                                                                       <http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain_id> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain> ;
+                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain> ;
+                                                                       rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain_transit_time
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain_transit_time> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain> ;
+                                                                                 rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs_finished_product_costs_per_unit
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs_finished_product_costs_per_unit> rdf:type owl:DatatypeProperty ;
+                                                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs> ;
+                                                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs> ;
+                                                                                                    rdfs:range xsd:double .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs_period_begin
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs_period_begin> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs> ;
+                                                                                 rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs_period_end
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs_period_end> rdf:type owl:DatatypeProperty ;
+                                                                               rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs> ;
+                                                                               rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs> ;
+                                                                               rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs_wip_costs_per_unit_and_time_unit
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs_wip_costs_per_unit_and_time_unit> rdf:type owl:DatatypeProperty ;
+                                                                                                     rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs> ;
+                                                                                                     rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs> ;
+                                                                                                     rdfs:range xsd:double .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue_period_begin
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue_period_begin> rdf:type owl:DatatypeProperty ;
+                                                                                   rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue> ;
+                                                                                   rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue> ;
+                                                                                   rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue_period_end
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue_period_end> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue> ;
+                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue> ;
+                                                                                 rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue_revenue_per_unit
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue_revenue_per_unit> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue> ;
+                                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue> ;
+                                                                                       rdfs:range xsd:double .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_beta_service_level
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_beta_service_level> rdf:type owl:DatatypeProperty ;
+                                                                                               rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> ;
+                                                                                               rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> ;
+                                                                                               rdfs:range xsd:double .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_fill_rate
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_fill_rate> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> ;
+                                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> ;
+                                                                                      rdfs:range xsd:double .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_period_begin
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_period_begin> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> ;
+                                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> ;
+                                                                                         rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_period_end
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_period_end> rdf:type owl:DatatypeProperty ;
+                                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> ;
+                                                                                       rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> ;
+                                                                                       rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_stockout_probability
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level_stockout_probability> rdf:type owl:DatatypeProperty ;
+                                                                                                 rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> ;
+                                                                                                 rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> ;
+                                                                                                 rdfs:range xsd:double .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Team
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Team> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ,
+                                                                               <http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Team_duration_off
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Team_duration_off> rdf:type owl:DatatypeProperty ;
+                                                                         rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Team> ;
+                                                                         rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Team> ;
+                                                                         rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Team_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Team_id> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Team> ;
+                                                               rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Team> ;
+                                                               rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Team_workforce_operational
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Team_workforce_operational> rdf:type owl:DatatypeProperty ;
+                                                                                  rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Team> ;
+                                                                                  rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Team> ;
+                                                                                  rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Team_workforce_technical
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Team_workforce_technical> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Team> ;
+                                                                                rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Team> ;
+                                                                                rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Technology
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Technology> rdf:type owl:DatatypeProperty ;
+                                                                  rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_2> ,
+                                                                                     <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs> ,
+                                                                                     <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue> ,
+                                                                                     <http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> rdf:type owl:DatatypeProperty ;
+                                                                       rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_end_sequence_number
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_end_sequence_number> rdf:type owl:DatatypeProperty ;
+                                                                                           rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> ;
+                                                                                           rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> ;
+                                                                                           rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_id
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_id> rdf:type owl:DatatypeProperty ;
+                                                                          rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> ;
+                                                                          rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> ;
+                                                                          rdfs:range xsd:string .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_maximum_time
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_maximum_time> rdf:type owl:DatatypeProperty ;
+                                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> ;
+                                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> ;
+                                                                                    rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_minimum_time
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_minimum_time> rdf:type owl:DatatypeProperty ;
+                                                                                    rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> ;
+                                                                                    rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> ;
+                                                                                    rdfs:range xsd:long .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_start_sequence_number
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint_start_sequence_number> rdf:type owl:DatatypeProperty ;
+                                                                                             rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> ;
+                                                                                             rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> ;
+                                                                                             rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification> rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification_workforce
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification_workforce> rdf:type owl:DatatypeProperty ;
+                                                                                      rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification> ;
+                                                                                      rdfs:domain <http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification> ;
+                                                                                      rdfs:range xsd:int .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Workplan
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Workplan> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity> ,
+                                                                                   <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Workshop
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Workshop> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> ,
+                                                                                   <http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> ,
+                                                                                   <http://www.semantic.bosch.com/ae-so/genericdatamodel#Team> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#type
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#type> rdf:type owl:DatatypeProperty ;
+                                                            rdfs:subPropertyOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity> .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Edge> rdf:type owl:Class ;
+                                                                     rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Type
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Activity_Type> rdf:type owl:Class .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Aux_Resource_Requirement> rdf:type owl:Class ;
+                                                                                rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Bill_of_Materials> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#product.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Calendar> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability> rdf:type owl:Class ;
+                                                                  rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Capability_Snapshot> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#snapshot.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_Machine_State> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#snapshot.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Current_WIP> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#snapshot.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Cycle_Time_Commitment> rdf:type owl:Class ;
+                                                                             rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#strategy.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Delivery_Committment> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#strategy.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Demand_Trace> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#trace.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Capability> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#trace.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_Group> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Equipment_State> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#trace.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Fab> rdf:type owl:Class ;
+                                                           rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Location
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Location> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_Event> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#trace.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Lot_State> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#trace.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Maintenance> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material> rdf:type owl:Class ;
+                                                                rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Consumption> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Material_Transfer> rdf:type owl:Class ;
+                                                                         rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Max_Lot_Size> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Operation> rdf:type owl:Class ;
+                                                                 rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Plant> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_2
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_2> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#product.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_3> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#product.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Product_Level_4> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#product.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe> rdf:type owl:Class ;
+                                                              rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Equipment_Config> rdf:type owl:Class ;
+                                                                               rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Group
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Recipe_Group> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Release_plan> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#strategy.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Route
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Route> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Route_Sequence> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Sales> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Setup> rdf:type owl:Class ;
+                                                             rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Supply_Chain> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Costs> rdf:type owl:Class ;
+                                                                    rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#strategy.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Revenue> rdf:type owl:Class ;
+                                                                      rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#strategy.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Target_Service_Level> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#strategy.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Team
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Team> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Technology
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Technology> rdf:type owl:Class .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Time_Constraint> rdf:type owl:Class ;
+                                                                       rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Worker_Qualification> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Workplan
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Workplan> rdf:type owl:Class .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#Workshop
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#Workshop> rdf:type owl:Class .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#infrastructure.xsd> rdf:type owl:Class .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#process.xsd> rdf:type owl:Class .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#product.xsd
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#product.xsd> rdf:type owl:Class .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#snapshot.xsd
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#snapshot.xsd> rdf:type owl:Class .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#strategy.xsd
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#strategy.xsd> rdf:type owl:Class .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#trace.xsd
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#trace.xsd> rdf:type owl:Class .
+
+
+###  http://www.semantic.bosch.com/ae-so/genericdatamodel#type
+<http://www.semantic.bosch.com/ae-so/genericdatamodel#type> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
