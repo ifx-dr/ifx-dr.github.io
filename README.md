@@ -25,13 +25,13 @@ pip install bs4
 ### Classes, Objects, and Properties
 
 1. Use WiDoCo - Run WiDoCo to generate the initial draft of the documentation for the Digital Reference.
-2. File Path - Update the file path in main.py within the DR website generator folder.
+2. File Path - Update the WiDoCo file path in main.py within the DR website generator folder.
 3. Lobe List - Review the lobe list and add any new lobes that have been created.
 
 ### Namespaces
 
 1. New Namespaces - With any new namespaces added, generate documentation using WiDoCo and create a folder in the subontology directory.
-2. Manual Additions - Update the namespace section by manually adding references. For example:
+2. Manual Additions - Please search the div with id 'namespaces' in index.html to update the namespace section by manually adding references. For example:
 ```
 <dt id="dr">
   <abbr title="Digital Reference">dr</abbr>
@@ -42,7 +42,7 @@ pip install bs4
   </code>
 </dd>
 ```
-3. Table of Contents - Manually add the new namespace references to the table of contents within the summary section:
+3. Table of Contents - Please search the summary with text 'Namespaces' in index.html to manually add the new namespace references to the table of contents within the summary section:
 ```
 <li>
   <a href="#ecsel-dr-AH">ecsel-dr-AH</a>
@@ -52,7 +52,7 @@ pip install bs4
 ## Hash Record Update
 
 1. Copying Record - Take the hash record you received by email.
-2. Update script.js - Paste this record into the bottom section of the script.js file, ensuring the indices and dates are correct.
+2. Update script.js - Paste this record into the bottom section of the script.js file and save the file, ensuring the indices and dates are correct.
 3. Example of hash record entry:
 ```
 {
