@@ -4,5 +4,5 @@
 @prefix : <> .
 <..\index-en.html> a prov:Entity;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
-	 prov:specializationOf <http://www.semanticweb.org/sc3/ontologies/2022/0/Planning-Ontology>;
+	 prov:specializationOf <[Ontology URI]>;
 .
